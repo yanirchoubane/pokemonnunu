@@ -16,6 +16,15 @@ var capture_cfg: Dictionary = {}
 var exp_cfg: Dictionary = {}
 var rng: RNG
 
+## Fallback move used when a creature has no PP left on any move. Typeless (no STAB
+## abuse), ignores PP, and recoils for a fraction of the damage dealt — so battles
+## always terminate instead of soft-locking on full PP exhaustion.
+const STRUGGLE := {
+	"id": "struggle", "display_name": "Struggle", "type": "", "category": "physical",
+	"power": 35, "accuracy": 100, "priority": 0,
+	"effects": [ {"kind": "damage"}, {"kind": "recoil", "fraction": 0.25} ],
+}
+
 # --- Battle state ---
 var player_team: Array = []            # Array[CreatureInstance]
 var enemy_team: Array = []
@@ -96,17 +105,26 @@ func resolve_turn(player_action: Dictionary, enemy_action: Dictionary) -> Array:
 	for entry in _order_actions(player_action, enemy_action):
 		if finished:
 			break
+		# A queued MOVE belongs to the creature that chose it. If that creature was
+		# replaced mid-turn (KO -> next sent out), the replacement does NOT inherit
+		# the stale action: it gets a free switch-in, same as the player side.
+		if String(entry["act"].get("kind", "move")) == "move":
+			var current: CreatureInstance = active_player() if entry["side"] == "player" else active_enemy()
+			if entry["actor"] != current or current.is_fainted():
+				continue
 		_perform_action(entry["side"], entry["act"], events)
 		_check_faints(events)
 		if finished or need_player_switch:
 			break
-	if not finished and not need_player_switch:
+	if not finished:
+		# End-of-turn status ticks still run when the player must switch — the
+		# (non-fainted) enemy side should not dodge its burn/poison damage.
 		_end_of_turn(events)
 	return events
 
 func _order_actions(pa: Dictionary, ea: Dictionary) -> Array:
-	var p := {"side": "player", "act": pa}
-	var e := {"side": "enemy", "act": ea}
+	var p := {"side": "player", "act": pa, "actor": active_player()}
+	var e := {"side": "enemy", "act": ea, "actor": active_enemy()}
 	var p_move: bool = String(pa.get("kind", "move")) == "move"
 	var e_move: bool = String(ea.get("kind", "move")) == "move"
 	# Non-move actions (switch/item) always precede moves; player before enemy.
@@ -161,16 +179,22 @@ func _execute_move(side: String, act: Dictionary, events: Array) -> void:
 		events.append({"type": "message", "text": "%s is paralyzed and can't move!" % user.display_name()})
 		return
 
-	var idx: int = int(act.get("move_index", 0))
-	if idx < 0 or idx >= user.moves.size():
-		events.append({"type": "message", "text": "%s has no usable move!" % user.display_name()})
-		return
-	var move_slot: Dictionary = user.moves[idx]
-	if int(move_slot.get("pp", 0)) <= 0:
-		events.append({"type": "message", "text": "%s has no PP left!" % user.display_name()})
-		return
-	move_slot["pp"] = int(move_slot["pp"]) - 1
-	var move: Dictionary = moves_index.get(String(move_slot.get("id", "")), {})
+	var move: Dictionary
+	if bool(act.get("struggle", false)) or _usable_moves(user).is_empty():
+		# No PP anywhere: fall back to Struggle so the battle always terminates.
+		move = STRUGGLE
+		events.append({"type": "message", "text": "%s has no moves left!" % user.display_name()})
+	else:
+		var idx: int = int(act.get("move_index", 0))
+		if idx < 0 or idx >= user.moves.size():
+			events.append({"type": "message", "text": "%s has no usable move!" % user.display_name()})
+			return
+		var move_slot: Dictionary = user.moves[idx]
+		if int(move_slot.get("pp", 0)) <= 0:
+			events.append({"type": "message", "text": "%s has no PP left!" % user.display_name()})
+			return
+		move_slot["pp"] = int(move_slot["pp"]) - 1
+		move = moves_index.get(String(move_slot.get("id", "")), {})
 
 	events.append({"type": "move_used", "side": side, "user": user.display_name(), "move": String(move.get("display_name", move.get("id", "?")))})
 
@@ -182,6 +206,8 @@ func _execute_move(side: String, act: Dictionary, events: Array) -> void:
 		_apply_effect(side, user, target, move, effect, events)
 		if target.is_fainted():
 			break
+
+var _last_damage_dealt: int = 0
 
 func _apply_effect(side: String, user: CreatureInstance, target: CreatureInstance, move: Dictionary, effect: Dictionary, events: Array) -> void:
 	match String(effect.get("kind", "")):
@@ -195,6 +221,11 @@ func _apply_effect(side: String, user: CreatureInstance, target: CreatureInstanc
 			var amt: int = int(float(user.max_hp()) * float(effect.get("fraction", 0.5)))
 			user.current_hp = min(user.max_hp(), user.current_hp + amt)
 			events.append({"type": "heal", "target": user.display_name(), "amount": amt})
+		"recoil":
+			# Fraction of the damage just dealt bounces back onto the user (Struggle).
+			var recoil: int = max(1, int(float(_last_damage_dealt) * float(effect.get("fraction", 0.25))))
+			user.current_hp = max(0, user.current_hp - recoil)
+			events.append({"type": "status_damage", "target": user.display_name(), "status": "recoil", "amount": recoil, "remaining": user.current_hp})
 		_:
 			pass
 
@@ -203,6 +234,7 @@ func _apply_damage(user: CreatureInstance, target: CreatureInstance, move: Dicti
 	var in_ab: Dictionary = abilities_index.get(target.ability, {})
 	var ability_mult: float = AbilityEffects.outgoing_multiplier(user, move, out_ab) * AbilityEffects.incoming_multiplier(target, move, in_ab)
 	var res: Dictionary = DamageCalc.calc(user, target, move, type_chart, rng, battle_cfg, ability_mult)
+	_last_damage_dealt = int(res["damage"])
 	target.current_hp = max(0, target.current_hp - int(res["damage"]))
 	var ev := {"type": "damage", "target": target.display_name(), "amount": int(res["damage"]),
 		"remaining": target.current_hp, "max_hp": target.max_hp(), "critical": res["critical"], "effectiveness": res["effectiveness"]}
@@ -318,7 +350,7 @@ func _check_faints(events: Array) -> void:
 		else:
 			e_index = nxt
 			events.append({"type": "enemy_switch", "name": active_enemy().display_name()})
-	if not finished and active_player().is_fainted():
+	if not finished and not need_player_switch and active_player().is_fainted():
 		events.append({"type": "faint", "side": "player", "name": active_player().display_name()})
 		if _first_alive(player_team) == -1:
 			finished = true

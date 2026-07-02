@@ -134,6 +134,9 @@ func _get_player_action() -> Dictionary:
 
 func _choose_move() -> Dictionary:
 	var active := engine.active_player()
+	if engine.player_available_moves().is_empty():
+		await dialog.show_lines(["%s has no moves left — Struggle!" % active.display_name()])
+		return {"kind": "move", "move_index": 0, "struggle": true}
 	var names: Array = []
 	var indices: Array = []
 	for i in active.moves.size():
@@ -181,7 +184,26 @@ func _choose_item() -> Dictionary:
 				return {}
 			GameState.remove_item(item_id, 1)
 			return {"kind": "capture", "ball_rate": float(use.get("ball_rate", 1.0))}
-		"heal_hp", "cure_status", "revive":
+		"revive":
+			# Renewal must target a FAINTED team member, never the active creature.
+			var fainted: Array = []
+			var fnames: Array = []
+			for i in GameState.team.size():
+				if GameState.team[i].is_fainted():
+					fainted.append(i)
+					fnames.append("%s Lv%d" % [GameState.team[i].display_name(), GameState.team[i].level])
+			if fainted.is_empty():
+				items_used -= 1
+				await dialog.show_lines(["No fainted creature to revive!"])
+				return {}
+			fnames.append("Back")
+			var fpick := await dialog.show_choice("Revive which creature?", fnames)
+			if fpick >= fainted.size():
+				items_used -= 1
+				return {}
+			GameState.remove_item(item_id, 1)
+			return {"kind": "item", "effect": use, "target_index": fainted[fpick]}
+		"heal_hp", "cure_status":
 			GameState.remove_item(item_id, 1)
 			return {"kind": "item", "effect": use, "target_index": engine.p_index}
 		_:
@@ -284,6 +306,9 @@ func _describe_event(ev: Dictionary) -> String:
 
 # ------------------------------------------------------------------ outcome
 
+## Ordering matters here: ALL dialogs / bookkeeping / autosave happen BEFORE the
+## scene change. Navigating first would free this scene and kill the coroutine
+## mid-await, silently skipping whatever came after (e.g. the autosave).
 func _resolve_outcome() -> void:
 	match engine.winner:
 		"player":
@@ -291,9 +316,11 @@ func _resolve_outcome() -> void:
 		"captured":
 			await _on_capture()
 		"enemy":
-			await _on_loss()
+			await _on_loss_dialogs()
 		"fled":
 			pass
+	if engine.winner in ["player", "captured"]:
+		await _apply_evolutions()
 	# Record adaptive metrics (after the whole battle, per the smoothing rule).
 	AdaptiveDirector.record_battle_result({
 		"won": engine.winner in ["player", "captured", "fled"],
@@ -307,7 +334,40 @@ func _resolve_outcome() -> void:
 	if bool(SettingsManager.get_value("show_adaptation_summary", false)) and AdaptiveDirector.adaptation_enabled():
 		var s := AdaptiveDirector.get_summary()
 		await dialog.show_lines(["[Adaptive] Skill %.0f/100, enemy level delta %+d." % [s["skill_score"], s["current_level_delta"]]])
-	_apply_evolutions_then_return()
+
+	# Set the post-battle position BEFORE autosaving so a reload lands correctly.
+	var respawn: Dictionary = {}
+	if engine.winner == "enemy":
+		respawn = _prepare_respawn()
+	else:
+		var rp: Dictionary = cfg.get("return_pos", {})
+		GameState.player["position"] = {
+			"map": String(cfg.get("return_map", "")),
+			"x": int(rp.get("x", 1)), "y": int(rp.get("y", 1)), "facing": String(rp.get("facing", "down")),
+		}
+	SaveManager.autosave()
+
+	# Navigation is the LAST statement — nothing may run after it.
+	SceneRouter.pending_spawn = {}
+	if engine.winner == "enemy":
+		SceneRouter.to_overworld(String(respawn.get("map", "verdantia_center")), String(respawn.get("spawn", "entrance")))
+	else:
+		SceneRouter.to_overworld(String(cfg.get("return_map", "")), "")
+
+## Heal the team and point the saved position at the respawn heal center, so both
+## the scene change and any reload of the autosave agree on where the player is.
+func _prepare_respawn() -> Dictionary:
+	GameState.heal_team()
+	var respawn: Dictionary = GameState.player.get("respawn", {"map": "verdantia_center", "spawn": "entrance"})
+	var mmap: Dictionary = DataRegistry.maps.get(String(respawn.get("map", "")), {})
+	var pos := {"map": String(respawn.get("map", "")), "x": 1, "y": 1, "facing": "down"}
+	for obj in mmap.get("objects", []):
+		if String(obj.get("type", "")) == "spawn" and String(obj.get("id", "")) == String(respawn.get("spawn", "")):
+			pos["x"] = int(obj["x"])
+			pos["y"] = int(obj["y"])
+			break
+	GameState.player["position"] = pos
+	return respawn
 
 func _on_win() -> void:
 	if battle_kind == "trainer":
@@ -329,40 +389,24 @@ func _on_capture() -> void:
 	GameState.inc_counter("creatures_caught")
 	await dialog.show_lines(["%s was added to your %s!" % [caught.display_name(), where]])
 
-func _on_loss() -> void:
+## Loss dialogs + money penalty only — navigation happens in _resolve_outcome.
+func _on_loss_dialogs() -> void:
 	var loss_frac := float(DataRegistry.economy_cfg().get("defeat_money_loss_fraction", 0.1))
 	var lost := int(GameState.get_money() * loss_frac)
 	GameState.add_money(-lost)
 	await dialog.show_lines(["Your team was defeated...", "You scurry back to safety. (Lost $%d)" % lost])
-	GameState.heal_team()
-	var respawn: Dictionary = GameState.player.get("respawn", {"map": "verdantia_center", "spawn": "entrance"})
-	SceneRouter.to_overworld(String(respawn.get("map", "verdantia_center")), String(respawn.get("spawn", "entrance")))
 
-func _apply_evolutions_then_return() -> void:
-	if engine.winner in ["player", "captured"]:
-		for ev in check_evolution_events:
-			var idx := int(ev.get("team_index", -1))
-			if idx < 0 or idx >= GameState.team.size():
-				continue
-			var c: CreatureInstance = GameState.team[idx]
-			var target_id := EvolutionSystem.check(c, DataRegistry.evolutions_by_from, "level_up")
-			if target_id != "":
-				await dialog.show_lines(["What? %s is evolving!" % c.display_name()])
-				EvolutionSystem.evolve(c, DataRegistry.creatures.get(target_id, {}), DataRegistry.moves)
-				await dialog.show_lines(["%s evolved!" % c.display_name()])
-	# Autosave after every battle so progress is never lost.
-	SaveManager.autosave()
-	if engine.winner != "enemy":
-		_return_to_overworld()
-
-func _return_to_overworld() -> void:
-	var rp: Dictionary = cfg.get("return_pos", {})
-	SceneRouter.pending_spawn = {}
-	GameState.player["position"] = {
-		"map": String(cfg.get("return_map", GameState.current_region)),
-		"x": int(rp.get("x", 1)), "y": int(rp.get("y", 1)), "facing": String(rp.get("facing", "down")),
-	}
-	SceneRouter.to_overworld(String(cfg.get("return_map", "")), "")
+func _apply_evolutions() -> void:
+	for ev in check_evolution_events:
+		var idx := int(ev.get("team_index", -1))
+		if idx < 0 or idx >= GameState.team.size():
+			continue
+		var c: CreatureInstance = GameState.team[idx]
+		var target_id := EvolutionSystem.check(c, DataRegistry.evolutions_by_from, "level_up")
+		if target_id != "":
+			await dialog.show_lines(["What? %s is evolving!" % c.display_name()])
+			EvolutionSystem.evolve(c, DataRegistry.creatures.get(target_id, {}), DataRegistry.moves)
+			await dialog.show_lines(["%s evolved!" % c.display_name()])
 
 func _player_took_faint() -> bool:
 	for c in GameState.team:

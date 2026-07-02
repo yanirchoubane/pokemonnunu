@@ -147,8 +147,12 @@ func _do_save(slot: int) -> void:
 		AudioManager.play_sfx("cancel")
 
 func _open_settings() -> void:
-	var s := load("res://scenes/menus/settings.tscn").instantiate()
+	# Untyped: load() returns Resource so ':=' cannot infer here (4.2 compile error).
+	var s = load("res://scenes/menus/settings.tscn").instantiate()
 	add_child(s)
+	# Don't let Esc/cancel close the pause menu underneath while Settings is open.
+	set_process_unhandled_input(false)
+	s.closed.connect(func(): set_process_unhandled_input(true))
 
 func _close() -> void:
 	closed.emit()

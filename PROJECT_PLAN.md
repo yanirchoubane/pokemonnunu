@@ -145,3 +145,12 @@ edit is required. See `DATA_FORMAT.md` and `REGION_CREATION_GUIDE.md`.
 
 - 2026-07-02 — Initial scaffold: plan, structure, data set, core logic, validators,
   autoloads, overworld + battle scenes, save system, docs. Validators pass on the demo data.
+- 2026-07-02 — Adversarial review pass (98-agent workflow, 8 dimensions × 3 verifiers per
+  finding): 30 confirmed defects fixed, 0 false positives. Highlights: 3 `:=`-inference
+  compile errors (overworld/title/pause_menu), dialog-dismiss soft-lock (same-frame input
+  re-trigger), menu reopen-on-close, Struggle fallback for full PP exhaustion, replacement
+  enemies no longer inherit the fainted creature's queued move, revive item now targets
+  fainted members, keybinds re-applied on startup, loss-path autosave ordering + respawn
+  position, save-slot backup visibility, F12 dev-menu keycode, defeated trainers no longer
+  re-battleable, mouse support in battle choices, typewriter skip, and map data fixes.
+  Parity (GDScript↔Python math) and map-completability dimensions reported zero defects.

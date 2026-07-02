@@ -31,13 +31,22 @@ All constants live in `data/balancing/balancing.json` → `battle`.
 1. Player and enemy each submit an action: `move`, `switch`, `item`, `capture`, or `flee`.
 2. Ordering: non-move actions (switch/item) resolve first (player before enemy); then moves
    sort by `priority`, then effective Speed (Paralysis halves Speed), ties broken randomly.
-3. A move runs its `effects[]` in order. `damage` computes once; secondary effects
+3. A queued move belongs to the creature that chose it: if that creature is KO'd before
+   acting, its action is cancelled — a replacement sent out mid-turn gets a free switch-in
+   and does **not** inherit the fainted creature's move.
+4. A move runs its `effects[]` in order. `damage` computes once; secondary effects
    (`apply_status`, `stat_change`) roll their own `chance`.
-4. End of turn: Burn/Poison tick damage. Faints are checked after every action and at
-   end of turn.
-5. On an enemy faint: EXP is awarded and applied (level-ups learn moves and queue evolution
+5. End of turn: Burn/Poison tick damage (these run even on turns where the player must
+   choose a replacement — only the whole battle ending skips them).
+6. On an enemy faint: EXP is awarded and applied (level-ups learn moves and queue evolution
    checks); the trainer sends the next creature or the battle ends. On a player faint: you
    choose a replacement, or lose if none remain.
+
+## Struggle (PP exhaustion fallback)
+When a creature has 0 PP on every move, it automatically uses **Struggle**: a typeless
+35-power physical move that ignores PP and recoils for 25% of the damage dealt
+(`BattleEngine.STRUGGLE`). Both the player menu and the AI route through it, so full PP
+exhaustion can never soft-lock a battle — it always converges to a KO.
 
 ## Move effects — data-driven
 A move lists effects instead of needing bespoke code:
@@ -45,7 +54,8 @@ A move lists effects instead of needing bespoke code:
 { "id":"ember_burst","type":"fire","category":"special","power":40,"accuracy":100,
   "effects":[ {"kind":"damage"}, {"kind":"apply_status","status":"burn","chance":0.1,"target":"enemy"} ] }
 ```
-Handled kinds: `damage`, `apply_status`, `stat_change`, `heal`. Add a new kind by extending
+Handled kinds: `damage`, `apply_status`, `stat_change`, `heal`, `recoil` (`fraction` of the
+damage just dealt bounces back on the user — used by Struggle). Add a new kind by extending
 `BattleEngine._apply_effect` (one `match` arm) — existing moves are unaffected.
 
 ## Statuses & stages

@@ -38,6 +38,7 @@
     { "type": "door", "x": 3, "y": 3, "to_map": "verdantia_lab", "to_spawn": "entrance" },
     { "type": "door", "x": 9, "y": 3, "to_map": "verdantia_center", "to_spawn": "entrance" },
     { "type": "door", "x": 3, "y": 9, "to_map": "verdantia_shop", "to_spawn": "entrance" },
+    { "type": "door", "x": 9, "y": 9, "to_map": "verdantia_shop", "to_spawn": "entrance" },
     { "type": "npc", "x": 9, "y": 5, "npc_id": "town_guide", "sprite": "npc_villager",
       "dialogue": ["Welcome to Verdantia!", "The lab is up north-west. The Professor is waiting for you."] },
     { "type": "npc", "x": 4, "y": 7, "npc_id": "town_kid", "sprite": "npc_kid",

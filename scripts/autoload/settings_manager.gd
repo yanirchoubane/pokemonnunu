@@ -26,6 +26,19 @@ var data: Dictionary = {
 func _ready() -> void:
 	load_settings()
 	_apply_display()
+	_apply_keybinds()
+
+## Re-apply persisted key rebindings to the InputMap. Without this, rebinds made in
+## Settings would silently revert to the project defaults on every launch.
+func _apply_keybinds() -> void:
+	var binds: Dictionary = data.get("keybinds", {})
+	for action in binds.keys():
+		if not InputMap.has_action(String(action)):
+			continue
+		InputMap.action_erase_events(String(action))
+		var ev := InputEventKey.new()
+		ev.physical_keycode = int(binds[action]) as Key  # JSON round-trips ints as floats
+		InputMap.action_add_event(String(action), ev)
 
 func get_value(key: String, default_value = null):
 	return data.get(key, default_value)

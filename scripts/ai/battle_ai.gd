@@ -13,7 +13,8 @@ static func choose_action(engine: BattleEngine, tier: String, revealed_player_sp
 	var foe: CreatureInstance = engine.active_player()
 	var usable: Array = engine._usable_moves(user)
 	if usable.is_empty():
-		return {"action": {"kind": "move", "move_index": 0}, "reason": "No PP left; using Struggle-equivalent.", "confidence": 0.1, "alternatives": []}
+		# The engine resolves this flag as the built-in Struggle fallback move.
+		return {"action": {"kind": "move", "move_index": 0, "struggle": true}, "reason": "No PP left; using Struggle.", "confidence": 0.1, "alternatives": []}
 
 	match tier:
 		"basic":

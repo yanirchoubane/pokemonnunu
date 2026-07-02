@@ -28,7 +28,9 @@ func _bak_path(slot: int) -> String:
 	return "%s/slot_%d.bak" % [SAVE_DIR, slot]
 
 func has_save(slot: int) -> bool:
-	return FileAccess.file_exists(_slot_path(slot))
+	# The backup counts too: load_from_slot can recover from it, so the UI must
+	# not hide a slot just because the primary file was lost mid-swap.
+	return FileAccess.file_exists(_slot_path(slot)) or FileAccess.file_exists(_bak_path(slot))
 
 ## Save current GameState into a slot. Returns true on success.
 func save_to_slot(slot: int) -> bool:
@@ -96,6 +98,8 @@ func load_from_slot(slot: int) -> bool:
 func slot_metadata(slot: int) -> Dictionary:
 	var data := _read_and_validate(_slot_path(slot))
 	if data.is_empty():
+		data = _read_and_validate(_bak_path(slot))  # mirror load_from_slot's fallback
+	if data.is_empty():
 		return {}
 	return data.get("header", {})
 
@@ -127,6 +131,8 @@ func _read_and_validate(path: String) -> Dictionary:
 	if not (parsed is Dictionary):
 		return {}
 	if not parsed.has("header") or not parsed.has("state"):
+		return {}
+	if not parsed["header"] is Dictionary:
 		return {}
 	if not parsed["state"] is Dictionary:
 		return {}

@@ -70,6 +70,9 @@ func _load_map(id: String) -> void:
 		if t == "encounter_zone":
 			encounter_table_id = String(obj.get("table", ""))
 			continue
+		# Already-collected pickups stay collected across map reloads.
+		if t == "item" and String(obj.get("flag", "")) != "" and GameState.get_flag(String(obj.get("flag", ""))):
+			continue
 		if obj.has("x") and obj.has("y"):
 			var p := Vector2i(int(obj["x"]), int(obj["y"]))
 			if not objects_by_pos.has(p):
@@ -219,7 +222,12 @@ func _interact() -> void:
 				_open_shop(obj)
 				return
 			"trainer":
-				_start_trainer_battle(obj)
+				if GameState.get_flag(String(obj.get("flag", ""))):
+					# Already defeated: chat instead of an infinite reward re-battle.
+					var tr: Dictionary = DataRegistry.trainers.get(String(obj.get("trainer_id", "")), {})
+					_show_dialog([String(tr.get("dialogue_defeat", "You already bested me."))])
+				else:
+					_start_trainer_battle(obj)
 				return
 			"heal":
 				_do_heal(obj)
@@ -269,8 +277,18 @@ func _do_heal(obj: Dictionary) -> void:
 	GameState.heal_team()
 	AudioManager.play_sfx("heal")
 	if bool(obj.get("sets_respawn", false)):
-		GameState.player["respawn"] = {"map": map_id, "spawn": "entrance"}
+		# Use a spawn id that actually exists on this map (not every map has "entrance").
+		var spawn_id := String(obj.get("respawn_spawn", "entrance"))
+		if not _map_has_spawn(spawn_id):
+			spawn_id = "default"
+		GameState.player["respawn"] = {"map": map_id, "spawn": spawn_id}
 	_show_dialog(["Your team is fully healed!"])
+
+func _map_has_spawn(spawn_id: String) -> bool:
+	for obj in map_data.get("objects", []):
+		if String(obj.get("type", "")) == "spawn" and String(obj.get("id", "")) == spawn_id:
+			return true
+	return false
 
 # ------------------------------------------------------------------ warps / regions
 
@@ -289,6 +307,7 @@ func _use_warp(obj: Dictionary) -> void:
 	var target_region := String(DataRegistry.maps.get(to_map, {}).get("region", ""))
 	if target_region == "verdantia" and GameState.get_flag("visited_aquilon"):
 		GameState.set_flag("returned_to_verdantia")
+	input_locked = true  # freeze the dying scene during the fade-out
 	SceneRouter.to_overworld(to_map, to_spawn)
 
 # ------------------------------------------------------------------ trainers & encounters
@@ -370,24 +389,33 @@ func _start_wild_encounter() -> void:
 
 # ------------------------------------------------------------------ menus
 
+## Unlock player input on the NEXT frame. Menus close on a key press that is still
+## "just pressed" during this frame's _process — unlocking immediately would make
+## _process reopen the menu (or trigger an interaction) with the same press.
+func _unlock_input_deferred() -> void:
+	await get_tree().process_frame
+	input_locked = false
+
 func _open_pause_menu() -> void:
 	input_locked = true
-	var menu := load("res://scenes/ui/pause_menu.tscn").instantiate()
+	# Untyped on purpose: load() returns Resource, so ':=' cannot infer a type here
+	# (compile error in 4.2), and the concrete scene scripts expose custom members.
+	var menu = load("res://scenes/ui/pause_menu.tscn").instantiate()
 	add_child(menu)
-	menu.closed.connect(func(): input_locked = false)
+	menu.closed.connect(_unlock_input_deferred)
 
 func _open_shop(obj: Dictionary) -> void:
 	input_locked = true
-	var shop := load("res://scenes/ui/shop.tscn").instantiate()
+	var shop = load("res://scenes/ui/shop.tscn").instantiate()
 	shop.stock = obj.get("stock", [])
 	add_child(shop)
-	shop.closed.connect(func(): input_locked = false)
+	shop.closed.connect(_unlock_input_deferred)
 
 func _open_dev_menu() -> void:
 	input_locked = true
-	var dev := load("res://scenes/ui/dev_menu.tscn").instantiate()
+	var dev = load("res://scenes/ui/dev_menu.tscn").instantiate()
 	add_child(dev)
-	dev.closed.connect(func(): input_locked = false)
+	dev.closed.connect(_unlock_input_deferred)
 
 # ------------------------------------------------------------------ rendering
 

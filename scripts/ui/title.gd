@@ -63,8 +63,13 @@ func _on_continue() -> void:
 	SceneRouter.to_load_menu()
 
 func _on_settings() -> void:
-	var settings := load("res://scenes/menus/settings.tscn").instantiate()
+	# Untyped: load() returns Resource so ':=' cannot infer here (4.2 compile error).
+	var settings = load("res://scenes/menus/settings.tscn").instantiate()
 	add_child(settings)
+	# Silence the title's keyboard handler while the overlay is open, otherwise
+	# arrows/interact would keep driving the title buttons underneath.
+	set_process_unhandled_input(false)
+	settings.closed.connect(func(): set_process_unhandled_input(true))
 
 func _on_quit() -> void:
 	get_tree().quit()
