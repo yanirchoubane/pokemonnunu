@@ -1,0 +1,52 @@
+{
+  "$schema_version": 1,
+  "description": "Data-driven quests. Objectives complete when their condition flag/counter is satisfied; the QuestManager listens to GameState events.",
+  "quests": [
+    {
+      "id": "main_verdant_trial",
+      "display_name": "The Verdant Trial",
+      "category": "main",
+      "auto_start": true,
+      "description": "Begin your journey, grow a team, and earn the Verdant Badge.",
+      "objectives": [
+        { "id": "obj_starter", "text": "Choose a starter from Professor Maple.", "condition": { "kind": "flag", "flag": "got_starter" } },
+        { "id": "obj_catch",   "text": "Catch a wild creature.", "condition": { "kind": "counter", "counter": "creatures_caught", "at_least": 1 } },
+        { "id": "obj_scout",   "text": "Defeat Scout Perrin on Route 1.", "condition": { "kind": "flag", "flag": "beat_route_scout" } },
+        { "id": "obj_badge",   "text": "Defeat Warden Sable and earn the Verdant Badge.", "condition": { "kind": "flag", "flag": "beat_gym_verdantia" } }
+      ],
+      "rewards": [
+        { "kind": "money", "amount": 500 },
+        { "kind": "item", "item": "great_orb", "quantity": 3 },
+        { "kind": "unlock_region", "region": "aquilon" }
+      ],
+      "on_complete_flag": "quest_verdant_done"
+    },
+    {
+      "id": "side_first_catch",
+      "display_name": "Field Study",
+      "category": "side",
+      "auto_start": true,
+      "description": "The town kid wants to know what lives in the grass.",
+      "objectives": [
+        { "id": "obj_catch3", "text": "Catch 3 creatures.", "condition": { "kind": "counter", "counter": "creatures_caught", "at_least": 3 } }
+      ],
+      "rewards": [ { "kind": "item", "item": "super_potion", "quantity": 2 } ],
+      "on_complete_flag": "quest_field_study_done"
+    },
+    {
+      "id": "main_aquilon_intro",
+      "display_name": "Northern Passage",
+      "category": "main",
+      "auto_start": false,
+      "start_condition": { "kind": "flag", "flag": "quest_verdant_done" },
+      "description": "Cross to Aquilon and prove yourself to Tactician Wrenn.",
+      "objectives": [
+        { "id": "obj_reach_aquilon", "text": "Travel to Aquilon Shore.", "condition": { "kind": "flag", "flag": "visited_aquilon" } },
+        { "id": "obj_wrenn", "text": "Defeat Tactician Wrenn on the Ridge.", "condition": { "kind": "flag", "flag": "beat_aquilon_gatekeeper" } },
+        { "id": "obj_return", "text": "Return to Verdantia at least once.", "condition": { "kind": "flag", "flag": "returned_to_verdantia" } }
+      ],
+      "rewards": [ { "kind": "money", "amount": 1000 } ],
+      "on_complete_flag": "quest_aquilon_done"
+    }
+  ]
+}

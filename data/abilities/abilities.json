@@ -1,0 +1,13 @@
+{
+  "$schema_version": 1,
+  "description": "Original passive talents. 'hooks' name battle events the ability reacts to; handlers live in scripts/battle/ability_effects.gd.",
+  "abilities": [
+    { "id": "blaze_heart",  "display_name": "Blaze Heart",  "description": "Boosts Ember moves when HP is low.", "hooks": ["modify_outgoing_damage"], "params": { "type": "fire", "hp_threshold": 0.34, "multiplier": 1.5 } },
+    { "id": "tide_soul",    "display_name": "Tide Soul",    "description": "Boosts Tide moves when HP is low.", "hooks": ["modify_outgoing_damage"], "params": { "type": "water", "hp_threshold": 0.34, "multiplier": 1.5 } },
+    { "id": "overgrow",     "display_name": "Wildgrowth",   "description": "Boosts Verdant moves when HP is low.", "hooks": ["modify_outgoing_damage"], "params": { "type": "grass", "hp_threshold": 0.34, "multiplier": 1.5 } },
+    { "id": "static_skin",  "display_name": "Static Skin",  "description": "May paralyze attackers on contact.", "hooks": ["on_contact_hit"], "params": { "status": "paralyze", "chance": 0.3 } },
+    { "id": "thick_hide",   "display_name": "Thick Hide",   "description": "Reduces incoming physical damage slightly.", "hooks": ["modify_incoming_damage"], "params": { "category": "physical", "multiplier": 0.85 } },
+    { "id": "keen_mind",    "display_name": "Keen Mind",    "description": "Immune to Sp. Attack drops; steadier crits.", "hooks": ["prevent_stat_drop"], "params": { "stat": "sp_attack" } },
+    { "id": "swift_foot",   "display_name": "Swift Foot",   "description": "Cannot be slowed by Speed drops.", "hooks": ["prevent_stat_drop"], "params": { "stat": "speed" } }
+  ]
+}

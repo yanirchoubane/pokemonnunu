@@ -1,0 +1,31 @@
+{
+  "$schema_version": 1,
+  "id": "verdantia_lab",
+  "region": "verdantia",
+  "display_name": "Professor's Lab",
+  "tile_size": 32,
+  "bgm": "indoor",
+  "interior": true,
+  "legend": {
+    ".": "floor",
+    "#": "wall",
+    "D": "door",
+    "B": "counter"
+  },
+  "rows": [
+    "#########",
+    "#..BBB..#",
+    "#.......#",
+    "#..BBB..#",
+    "#.......#",
+    "#...D...#"
+  ],
+  "objects": [
+    { "type": "spawn", "id": "entrance", "x": 4, "y": 4 },
+    { "type": "warp", "x": 4, "y": 5, "to_map": "verdantia_town", "to_spawn": "default" },
+    { "type": "npc", "x": 4, "y": 2, "npc_id": "professor", "sprite": "npc_professor",
+      "dialogue": ["Professor Maple: Ah, a new trainer!", "Choose a partner to begin your journey."],
+      "starter_choice": ["emberpup", "aquafin", "sproutkit"], "flag": "got_starter" },
+    { "type": "sign", "x": 2, "y": 1, "text": "Research notes: creatures grow through bonds, not just battles." }
+  ]
+}

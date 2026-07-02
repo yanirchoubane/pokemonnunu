@@ -1,0 +1,24 @@
+{
+  "$schema_version": 1,
+  "description": "Original elemental types. 'chart' maps attacking_type -> defending_type -> multiplier. Missing pairs default to 1.0.",
+  "types": [
+    { "id": "normal",   "display_name": "Normal",   "color": "#b8b8a0" },
+    { "id": "fire",     "display_name": "Ember",     "color": "#e6642e" },
+    { "id": "water",    "display_name": "Tide",      "color": "#2e78e6" },
+    { "id": "grass",    "display_name": "Verdant",   "color": "#4caf50" },
+    { "id": "electric", "display_name": "Spark",     "color": "#f2c94c" },
+    { "id": "earth",    "display_name": "Terra",     "color": "#a1662f" },
+    { "id": "wind",     "display_name": "Gale",      "color": "#8ec9d6" },
+    { "id": "mystic",   "display_name": "Mystic",    "color": "#9b59b6" }
+  ],
+  "chart": {
+    "normal":   { "mystic": 0.5 },
+    "fire":     { "grass": 2.0, "water": 0.5, "fire": 0.5, "earth": 0.5, "wind": 1.0 },
+    "water":    { "fire": 2.0, "earth": 2.0, "water": 0.5, "grass": 0.5 },
+    "grass":    { "water": 2.0, "earth": 2.0, "fire": 0.5, "grass": 0.5, "wind": 0.5 },
+    "electric": { "water": 2.0, "wind": 2.0, "earth": 0.0, "electric": 0.5, "grass": 0.5 },
+    "earth":    { "fire": 2.0, "electric": 2.0, "grass": 0.5, "wind": 0.0 },
+    "wind":     { "grass": 2.0, "earth": 0.5, "electric": 0.5, "wind": 0.5 },
+    "mystic":   { "mystic": 0.5, "normal": 1.0, "fire": 1.0 }
+  }
+}

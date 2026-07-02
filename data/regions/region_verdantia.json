@@ -1,0 +1,19 @@
+{
+  "$schema_version": 1,
+  "id": "verdantia",
+  "display_name": "Verdantia",
+  "order": 1,
+  "starting_map": "verdantia_town",
+  "recommended_level_min": 1,
+  "recommended_level_max": 20,
+  "badge_count": 1,
+  "league_id": "verdantia_league",
+  "next_regions": ["aquilon"],
+  "maps": ["verdantia_town", "verdantia_route", "verdantia_forest", "verdantia_lab", "verdantia_center", "verdantia_shop"],
+  "regional_rules": {
+    "level_scaling": "soft",
+    "encounter_table": "verdantia_encounters",
+    "allow_previous_team": true,
+    "obedience_cap_level": 20
+  }
+}

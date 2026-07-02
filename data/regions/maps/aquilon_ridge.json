@@ -1,0 +1,37 @@
+{
+  "$schema_version": 1,
+  "id": "aquilon_ridge",
+  "region": "aquilon",
+  "display_name": "Aquilon Ridge",
+  "tile_size": 32,
+  "bgm": "ridge",
+  "legend": {
+    ".": "stone",
+    "P": "path",
+    "#": "wall",
+    "T": "pine",
+    "~": "tall_grass",
+    "W": "water"
+  },
+  "rows": [
+    "TTTTTTTTTTTTTT",
+    "T~~~..PP..~~~T",
+    "T~~~..PP..~~~T",
+    "T....PP......T",
+    "T.TT.PP..TT..T",
+    "T....PP......T",
+    "T~~~.PP...~~~T",
+    "T....PP......T",
+    "TTTTTTTTTTTTPT"
+  ],
+  "objects": [
+    { "type": "spawn", "id": "from_shore", "x": 6, "y": 1 },
+    { "type": "warp", "x": 12, "y": 8, "to_map": "aquilon_shore", "to_spawn": "from_ridge" },
+    { "type": "encounter_zone", "table": "aquilon_encounters" },
+    { "type": "trainer", "x": 7, "y": 4, "trainer_id": "aquilon_gatekeeper", "sprite": "trainer_tactician",
+      "sight": 3, "facing": "left", "flag": "beat_aquilon_gatekeeper" },
+    { "type": "npc", "x": 3, "y": 6, "npc_id": "ridge_watcher", "sprite": "npc_watcher",
+      "dialogue": ["Watcher: Tactician Wrenn studies every trainer who passes.", "Wrenn adapts. So must you."] },
+    { "type": "sign", "x": 6, "y": 5, "text": "Aquilon Ridge — the Tactician tests the mind, not just the team." }
+  ]
+}

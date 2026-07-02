@@ -1,0 +1,223 @@
+{
+  "$schema_version": 1,
+  "description": "Original move definitions. Effects are data-driven; see BATTLE_SYSTEM.md for the kinds a move may use.",
+  "moves": [
+    {
+      "id": "tackle",
+      "display_name": "Body Bump",
+      "type": "normal",
+      "category": "physical",
+      "power": 40,
+      "accuracy": 100,
+      "priority": 0,
+      "pp": 35,
+      "description": "A plain full-body charge.",
+      "effects": [ { "kind": "damage" } ]
+    },
+    {
+      "id": "scratch",
+      "display_name": "Rake",
+      "type": "normal",
+      "category": "physical",
+      "power": 35,
+      "accuracy": 100,
+      "priority": 0,
+      "pp": 35,
+      "description": "Sharp claws rake the target.",
+      "effects": [ { "kind": "damage" } ]
+    },
+    {
+      "id": "quick_jab",
+      "display_name": "Quick Jab",
+      "type": "normal",
+      "category": "physical",
+      "power": 40,
+      "accuracy": 100,
+      "priority": 1,
+      "pp": 30,
+      "description": "Always strikes first.",
+      "effects": [ { "kind": "damage" } ]
+    },
+    {
+      "id": "ember_burst",
+      "display_name": "Ember Burst",
+      "type": "fire",
+      "category": "special",
+      "power": 40,
+      "accuracy": 100,
+      "priority": 0,
+      "pp": 25,
+      "description": "A burst of sparks that may leave a burn.",
+      "effects": [
+        { "kind": "damage" },
+        { "kind": "apply_status", "status": "burn", "chance": 0.1, "target": "enemy" }
+      ]
+    },
+    {
+      "id": "flame_lash",
+      "display_name": "Flame Lash",
+      "type": "fire",
+      "category": "special",
+      "power": 70,
+      "accuracy": 95,
+      "priority": 0,
+      "pp": 15,
+      "description": "A whip of flame with a higher burn chance.",
+      "effects": [
+        { "kind": "damage" },
+        { "kind": "apply_status", "status": "burn", "chance": 0.2, "target": "enemy" }
+      ]
+    },
+    {
+      "id": "aqua_dart",
+      "display_name": "Aqua Dart",
+      "type": "water",
+      "category": "special",
+      "power": 40,
+      "accuracy": 100,
+      "priority": 0,
+      "pp": 25,
+      "description": "A pressurized jet of water.",
+      "effects": [ { "kind": "damage" } ]
+    },
+    {
+      "id": "tide_crash",
+      "display_name": "Tide Crash",
+      "type": "water",
+      "category": "special",
+      "power": 75,
+      "accuracy": 90,
+      "priority": 0,
+      "pp": 12,
+      "description": "A crashing wave that may lower Speed.",
+      "effects": [
+        { "kind": "damage" },
+        { "kind": "stat_change", "stat": "speed", "stages": -1, "chance": 0.3, "target": "enemy" }
+      ]
+    },
+    {
+      "id": "leaf_cut",
+      "display_name": "Leaf Cut",
+      "type": "grass",
+      "category": "physical",
+      "power": 45,
+      "accuracy": 100,
+      "priority": 0,
+      "pp": 25,
+      "description": "Razor leaves slice the foe.",
+      "effects": [ { "kind": "damage" } ]
+    },
+    {
+      "id": "vine_wrap",
+      "display_name": "Vine Wrap",
+      "type": "grass",
+      "category": "special",
+      "power": 65,
+      "accuracy": 100,
+      "priority": 0,
+      "pp": 15,
+      "description": "Vines that sap and may poison-slow the foe.",
+      "effects": [
+        { "kind": "damage" },
+        { "kind": "apply_status", "status": "poison", "chance": 0.15, "target": "enemy" }
+      ]
+    },
+    {
+      "id": "spark_zap",
+      "display_name": "Spark Zap",
+      "type": "electric",
+      "category": "special",
+      "power": 40,
+      "accuracy": 100,
+      "priority": 0,
+      "pp": 25,
+      "description": "A jolt that can paralyze.",
+      "effects": [
+        { "kind": "damage" },
+        { "kind": "apply_status", "status": "paralyze", "chance": 0.1, "target": "enemy" }
+      ]
+    },
+    {
+      "id": "static_field",
+      "display_name": "Static Field",
+      "type": "electric",
+      "category": "status",
+      "power": 0,
+      "accuracy": 100,
+      "priority": 0,
+      "pp": 20,
+      "description": "Paralyzes the target with a charged field.",
+      "effects": [
+        { "kind": "apply_status", "status": "paralyze", "chance": 1.0, "target": "enemy" }
+      ]
+    },
+    {
+      "id": "stone_toss",
+      "display_name": "Stone Toss",
+      "type": "earth",
+      "category": "physical",
+      "power": 50,
+      "accuracy": 90,
+      "priority": 0,
+      "pp": 20,
+      "description": "Hurls a heavy stone.",
+      "effects": [ { "kind": "damage" } ]
+    },
+    {
+      "id": "gale_slash",
+      "display_name": "Gale Slash",
+      "type": "wind",
+      "category": "physical",
+      "power": 55,
+      "accuracy": 95,
+      "priority": 0,
+      "pp": 20,
+      "description": "A cutting gust.",
+      "effects": [ { "kind": "damage" } ]
+    },
+    {
+      "id": "mind_ray",
+      "display_name": "Mind Ray",
+      "type": "mystic",
+      "category": "special",
+      "power": 65,
+      "accuracy": 100,
+      "priority": 0,
+      "pp": 15,
+      "description": "A focused psychic beam.",
+      "effects": [
+        { "kind": "damage" },
+        { "kind": "stat_change", "stat": "sp_defense", "stages": -1, "chance": 0.2, "target": "enemy" }
+      ]
+    },
+    {
+      "id": "guard_up",
+      "display_name": "Guard Up",
+      "type": "normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 100,
+      "priority": 0,
+      "pp": 20,
+      "description": "Raises the user's Defense.",
+      "effects": [
+        { "kind": "stat_change", "stat": "defense", "stages": 1, "chance": 1.0, "target": "self" }
+      ]
+    },
+    {
+      "id": "focus_charge",
+      "display_name": "Focus Charge",
+      "type": "normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 100,
+      "priority": 0,
+      "pp": 15,
+      "description": "Raises the user's Attack and Sp. Attack.",
+      "effects": [
+        { "kind": "stat_change", "stat": "attack", "stages": 1, "chance": 1.0, "target": "self" },
+        { "kind": "stat_change", "stat": "sp_attack", "stages": 1, "chance": 1.0, "target": "self" }
+      ]
+    }
+  ]
+}

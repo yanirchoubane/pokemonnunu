@@ -1,0 +1,69 @@
+{
+  "$schema_version": 1,
+  "description": "Original trainers. 'ai' selects the decision tier. 'boss' trainers get only limited adaptive scaling and keep a fixed identity.",
+  "trainers": [
+    {
+      "id": "rival_intro",
+      "display_name": "Rival Nova",
+      "sprite": "trainer_rival",
+      "ai": "basic",
+      "boss": false,
+      "reward_money": 300,
+      "dialogue_intro": "Nova: Let's see whose partner is stronger!",
+      "dialogue_defeat": "Nova: Not bad... I'll train harder!",
+      "dialogue_victory": "Nova: Better luck next time!",
+      "team": [
+        { "creature": "zapmouse", "level": 5, "moves": ["tackle", "spark_zap"] }
+      ]
+    },
+    {
+      "id": "route_scout",
+      "display_name": "Scout Perrin",
+      "sprite": "trainer_scout",
+      "ai": "intermediate",
+      "boss": false,
+      "reward_money": 250,
+      "dialogue_intro": "Perrin: The wilds sharpen everyone. Show me your edge.",
+      "dialogue_defeat": "Perrin: Sharp indeed.",
+      "dialogue_victory": "Perrin: The wilds win today.",
+      "team": [
+        { "creature": "pebblet",  "level": 6, "moves": ["tackle", "stone_toss"] },
+        { "creature": "gustling", "level": 7, "moves": ["gale_slash", "quick_jab"] }
+      ]
+    },
+    {
+      "id": "gym_verdantia",
+      "display_name": "Warden Sable",
+      "sprite": "trainer_warden",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 1000,
+      "reward_badge": "verdant_badge",
+      "dialogue_intro": "Sable: The Verdant Trial rewards the adaptable. Begin.",
+      "dialogue_defeat": "Sable: You bent with the wind and did not break. The badge is yours.",
+      "dialogue_victory": "Sable: Come again when your bond is deeper.",
+      "team": [
+        { "creature": "sproutkit", "level": 10, "moves": ["leaf_cut", "guard_up"] },
+        { "creature": "pebblet",   "level": 11, "moves": ["stone_toss", "guard_up", "tackle"] },
+        { "creature": "bloomcat",  "level": 13, "moves": ["leaf_cut", "vine_wrap", "guard_up"] }
+      ]
+    },
+    {
+      "id": "aquilon_gatekeeper",
+      "display_name": "Tactician Wrenn",
+      "sprite": "trainer_tactician",
+      "ai": "advanced",
+      "boss": false,
+      "reward_money": 800,
+      "dialogue_intro": "Wrenn: Aquilon respects a thinking trainer. Prove you are one.",
+      "dialogue_defeat": "Wrenn: A worthy mind. The northern paths are open to you.",
+      "dialogue_victory": "Wren: Think harder next time.",
+      "team": [
+        { "creature": "psywisp",  "level": 12, "moves": ["mind_ray", "guard_up"] },
+        { "creature": "gustling", "level": 12, "moves": ["gale_slash", "quick_jab"] },
+        { "creature": "zapmouse", "level": 13, "moves": ["spark_zap", "static_field", "quick_jab"] }
+      ]
+    }
+  ]
+}

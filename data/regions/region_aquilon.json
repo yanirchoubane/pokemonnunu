@@ -1,0 +1,19 @@
+{
+  "$schema_version": 1,
+  "id": "aquilon",
+  "display_name": "Aquilon",
+  "order": 2,
+  "starting_map": "aquilon_shore",
+  "recommended_level_min": 8,
+  "recommended_level_max": 30,
+  "badge_count": 1,
+  "league_id": "aquilon_league",
+  "next_regions": [],
+  "maps": ["aquilon_shore", "aquilon_ridge"],
+  "regional_rules": {
+    "level_scaling": "soft",
+    "encounter_table": "aquilon_encounters",
+    "allow_previous_team": true,
+    "obedience_cap_level": 30
+  }
+}

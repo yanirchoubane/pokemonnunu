@@ -1,0 +1,9 @@
+{
+  "$schema_version": 1,
+  "description": "Evolution rules. 'from' evolves into 'to' when 'condition' is met. Kinds: level_up, use_item, trade.",
+  "evolutions": [
+    { "id": "evo_emberpup",  "from": "emberpup",  "to": "emberhound", "condition": { "kind": "level_up", "level": 16 } },
+    { "id": "evo_aquafin",   "from": "aquafin",   "to": "aquarion",   "condition": { "kind": "level_up", "level": 16 } },
+    { "id": "evo_sproutkit", "from": "sproutkit", "to": "bloomcat",   "condition": { "kind": "level_up", "level": 16 } }
+  ]
+}

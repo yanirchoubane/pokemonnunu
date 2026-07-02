@@ -1,0 +1,39 @@
+{
+  "$schema_version": 1,
+  "id": "verdantia_route",
+  "region": "verdantia",
+  "display_name": "Verdantia Route 1",
+  "tile_size": 32,
+  "bgm": "route",
+  "legend": {
+    ".": "ground",
+    "P": "path",
+    "#": "wall",
+    "T": "tree",
+    "~": "tall_grass",
+    "W": "water"
+  },
+  "rows": [
+    "TTTTTTPTTTTTTTT",
+    "T~~~..P..~~~~.T",
+    "T~~~..P..~~~~.T",
+    "T.....P.......T",
+    "T..TT.P.TT....T",
+    "T.....P.......T",
+    "T~~~..P..~~~~.T",
+    "T~~~..P..~~~~.T",
+    "T.....P.......T",
+    "TTTTTTPTTTTTTTT"
+  ],
+  "objects": [
+    { "type": "spawn", "id": "from_town", "x": 6, "y": 1 },
+    { "type": "spawn", "id": "from_forest", "x": 6, "y": 8 },
+    { "type": "warp", "x": 6, "y": 0, "to_map": "verdantia_town", "to_spawn": "from_route" },
+    { "type": "warp", "x": 6, "y": 9, "to_map": "verdantia_forest", "to_spawn": "from_route" },
+    { "type": "encounter_zone", "table": "verdantia_encounters" },
+    { "type": "trainer", "x": 9, "y": 3, "trainer_id": "route_scout", "sprite": "trainer_scout",
+      "sight": 4, "facing": "left", "flag": "beat_route_scout" },
+    { "type": "sign", "x": 3, "y": 3, "text": "Route 1 — Verdant Forest lies to the south." },
+    { "type": "item", "x": 2, "y": 5, "item": "capture_orb", "quantity": 3, "flag": "route_orbs" }
+  ]
+}

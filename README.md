@@ -1,0 +1,159 @@
+# Creature RPG 2D Engine
+
+An original, **offline, single-player** creature-capture & turn-based-battle RPG built
+with **Godot 4** (2D, typed GDScript). The engine is fully **data-driven**: creatures,
+moves, types, items, abilities, regions, maps, trainers, and quests all live in external
+JSON files that are validated at boot. You can add content without touching engine code.
+
+> ⚠️ **No third-party IP.** All demo content is original. This project contains no
+> Nintendo / Game Freak / The Pokémon Company assets, names, or data. See
+> [`LICENSE_NOTES.md`](LICENSE_NOTES.md). Graphics and audio are generated procedurally.
+
+---
+
+## What works today (verified)
+
+- ✅ Deterministic, seedable battle math (damage, capture, experience, type chart) —
+  covered by **runnable tests** (`python3 tests/test_reference.py`, 30 assertions) and a
+  Godot headless runner (`tests/run_tests.gd`).
+- ✅ Data validation catches duplicate ids, dangling references, unknown types/moves,
+  circular evolutions, bad stats, malformed maps (`python3 tools/validators/validate_data.py`).
+- 🟩 Full playable loop: title → new game → starter → overworld → wild & trainer battles →
+  capture → level up → evolution → quest completion → travel to region 2 → return → save/load.
+
+Because Godot may not be installed where this was authored, **scene-level runtime testing
+is done in the Godot editor** (below). The engine-independent core is verified now via the
+Python twin so the numbers are pinned regardless.
+
+---
+
+## Prerequisites
+
+- **Godot 4.2+** (standard build, GDScript — *not* the .NET/C# build required).
+  Download from <https://godotengine.org/download>. No add-ons required.
+- Optional, for the pre-flight validators/tests without Godot: **Python 3.8+**.
+
+Runs on Windows, Linux, and macOS. No internet, account, or server needed.
+
+## Run the game
+
+1. Install Godot 4.2+ and launch it.
+2. **Import** this project: in the Project Manager, click *Import*, select this folder's
+   `project.godot`, then *Import & Edit*.
+3. Press **F5** (Play). The main scene is `scenes/boot/boot.tscn`, which validates data
+   and routes to the title screen.
+
+From a terminal you can also run:
+
+```bash
+# from the project root
+godot --path . run/main_scene           # or simply:
+godot --path .
+```
+
+### Controls
+
+| Action | Keys |
+|---|---|
+| Move | WASD / Arrow keys |
+| Interact / confirm / advance text | Space / Enter |
+| Cancel / back | X / Backspace |
+| Pause menu (Team, Bag, Quests, Dex, Save, Settings) | Esc |
+| Developer menu (only if Developer Mode is on in Settings) | F12 |
+
+All keys are **rebindable** in Settings.
+
+## Run the tests
+
+```bash
+# Pure-logic tests (no Godot needed) — pins the deterministic battle math:
+python3 tests/test_reference.py
+
+# Data pre-flight validation (run before launching):
+python3 tools/validators/validate_data.py
+
+# In-Godot headless tests (same cases, real GDScript classes):
+godot --headless --script res://tests/run_tests.gd
+```
+
+---
+
+## Folder structure
+
+```
+project.godot            Godot project + autoloads + input map
+scripts/
+  autoload/   Global singletons: SettingsManager, DataRegistry, GameState,
+              SaveManager, AudioManager, AdaptiveDirector, SceneRouter
+  core/       Pure, testable logic: RNG, TypeChart, StatMath, DamageCalc,
+              CaptureCalc, ExperienceCalc, CreatureInstance/Factory, EvolutionSystem,
+              placeholder graphics, boot
+  battle/     BattleEngine, AbilityEffects, battle scene controller
+  ai/         BattleAI (basic / intermediate / advanced tiers + debug reasoning)
+  overworld/  Grid movement, collisions, interaction, encounters, warps
+  ui/         Title, new game, load, settings, pause menu, dialog, shop, dev menu
+scenes/       Thin .tscn wrappers that attach the scripts above
+data/         ALL game content as JSON (creatures, moves, types, items, abilities,
+              evolutions, encounters, trainers, regions, maps, quests, balancing)
+tests/        Python reference tests + Godot headless runner
+tools/
+  validators/ validate_data.py (pre-flight) + battle_reference.py (math twin)
+  importers/  CSV→JSON helper for bulk-authoring content
+assets/       Placeholder folders (visuals/audio are generated at runtime)
+```
+
+## How the data works
+
+Everything the game knows is loaded by `DataRegistry` at boot from `data/**`. Each file is
+validated; if anything is wrong the boot screen lists the errors instead of launching.
+See [`DATA_FORMAT.md`](DATA_FORMAT.md) for every schema.
+
+### Add a creature
+Add an entry to `data/creatures/creatures.json` (unique `id`, 1–2 known `types`, valid
+`abilities`, a `learnset` of known moves, `base_stats` 1–255, a known `exp_curve`). Add it
+to an encounter table or a trainer to make it appear. Run the validator.
+
+### Add a move
+Add to `data/moves/moves.json`: `id`, `type`, `category` (`physical|special|status`),
+`power`, `accuracy`, `pp`, and an `effects[]` list. Effects are data-driven — see
+[`BATTLE_SYSTEM.md`](BATTLE_SYSTEM.md) for the available `kind`s (`damage`, `apply_status`,
+`stat_change`, `heal`). Most moves need **no** new code.
+
+### Add a trainer
+Add to `data/trainers/trainers.json`: `id`, `ai` tier, a `team[]` (each with `creature`,
+`level`, `moves`), rewards, and dialogue. Place a `trainer` object on a map to encounter them.
+
+### Add a region / map / connection
+See [`REGION_CREATION_GUIDE.md`](REGION_CREATION_GUIDE.md). In short: drop a
+`data/regions/region_<id>.json` manifest and one or more `data/regions/maps/<id>.json` grid
+maps, and connect them with `warp`/`door` objects. `next_regions` links regions together.
+
+### Create a save
+Play, open the pause menu (Esc) → **Save**, pick a slot. Autosave fires after each battle.
+See [`SAVE_FORMAT.md`](SAVE_FORMAT.md).
+
+---
+
+## Difficulty & adaptation
+
+Four modes: **Relaxed / Normal / Hard / Adaptive**. In Adaptive mode the `AdaptiveDirector`
+keeps a smoothed skill score (0–100) from your recent battles and *gently* scales enemy
+level / AI tier / rewards / encounter rate within hard bounds. It never edits your
+creatures, never mirrors your team exactly, and never punishes good play. Bosses keep a
+fixed identity with only limited scaling. See [`ADAPTIVE_DIFFICULTY.md`](ADAPTIVE_DIFFICULTY.md).
+
+## Current limitations
+
+- Scene runtime not auto-verified here (no Godot in the authoring env). Logic **is** verified.
+- Box storage is functional but minimal (auto-overflow from a full team; no drag UI yet).
+- No breeding, weather, day/night, surf/fly/bike, or localization yet (architecture leaves
+  room — see `PROJECT_PLAN.md` section 1.C).
+- Placeholder visuals are geometric; audio is synthesized tones.
+
+## Next priorities
+
+1. Verify scenes in the Godot editor and fix any runtime wiring.
+2. Full box management UI + move-replacement prompt on level-up.
+3. More regions/quests, richer AI item usage, save-slot management screen.
+
+See `PROJECT_PLAN.md` for the full roadmap and status.
