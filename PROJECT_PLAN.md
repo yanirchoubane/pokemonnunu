@@ -154,3 +154,19 @@ edit is required. See `DATA_FORMAT.md` and `REGION_CREATION_GUIDE.md`.
   position, save-slot backup visibility, F12 dev-menu keycode, defeated trainers no longer
   re-battleable, mouse support in battle choices, typewriter skip, and map data fixes.
   Parity (GDScript↔Python math) and map-completability dimensions reported zero defects.
+- 2026-07-02 — User-content pack system + adaptive narrative layer:
+  - `user_content/` (git-ignored) overlay: data packs under `canonical_data/` merged by id
+    over `data/` (creatures, moves, abilities, items, evolutions, types, encounters,
+    trainers, regions, maps, quests, dialogs, endings, balancing, localization), validated
+    identically at boot; sprite/portrait/music overlays via `AssetResolver` (placeholder
+    fallback). The engine never downloads content — users add only what they legally own.
+  - Branching dialog scripts (`data/dialogs/`): condition-gated nodes, choices, actions
+    (`set_var`, `adjust_relationship`, `give_item`, `start_quest`, `trigger_ending`…),
+    `${player}` interpolation, `@key` localization, optional portraits.
+  - Story variables + NPC relationship scores in GameState (saved), composable conditions
+    (`all`/`any`/`not`, `var_equals`, `var_at_least`, `relationship_at_least`,
+    `region_visited`) shared by quests, dialogs and endings.
+  - Data-driven multiple endings (`data/endings/`), quest `on_complete_actions`,
+    localization string tables with language fallback.
+  - Demo: rival Corin (friendly/cold branch affects the ending), Professor Maple epilogue
+    with two endings. Validators (GDScript + Python) extended to the new schemas.

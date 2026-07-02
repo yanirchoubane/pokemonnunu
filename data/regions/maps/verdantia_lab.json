@@ -25,7 +25,8 @@
     { "type": "warp", "x": 4, "y": 5, "to_map": "verdantia_town", "to_spawn": "default" },
     { "type": "npc", "x": 4, "y": 2, "npc_id": "professor", "sprite": "npc_professor",
       "dialogue": ["Professor Maple: Ah, a new trainer!", "Choose a partner to begin your journey."],
-      "starter_choice": ["emberpup", "aquafin", "sproutkit"], "flag": "got_starter" },
+      "starter_choice": ["emberpup", "aquafin", "sproutkit"], "flag": "got_starter",
+      "dialog_id": "maple_lab" },
     { "type": "sign", "x": 2, "y": 1, "text": "Research notes: creatures grow through bonds, not just battles." }
   ]
 }

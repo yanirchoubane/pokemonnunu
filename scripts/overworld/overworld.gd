@@ -42,11 +42,32 @@ func _ready() -> void:
 	camera = Camera2D.new()
 	camera.zoom = Vector2(2, 2)
 	add_child(camera)
+	GameState.ending_triggered.connect(_on_ending_triggered)
 	_resolve_spawn()
 	_load_map(map_id)
 	_place_player_from_spawn()
 	_check_region_visit()
 	queue_redraw()
+
+var _pending_ending: Dictionary = {}
+
+## Endings can fire mid-dialog (a choice action) or from quest completion, while
+## the DialogBox is busy. Store the ending and play it from _process once the
+## current interaction has fully released the dialog — no re-entrancy.
+func _on_ending_triggered(ending: Dictionary) -> void:
+	_pending_ending = ending
+
+## Show the epilogue chosen by the endings data, autosave, and return to the
+## title screen. The save stays fully playable afterwards (post-game).
+func _show_ending(ending: Dictionary) -> void:
+	input_locked = true
+	var lines: Array = []
+	for l in ending.get("lines", []):
+		lines.append(_interpolate(DataRegistry.resolve_text(String(l))))
+	lines.append("%s  %s" % [DataRegistry.tr_key("ending.the_end"), String(ending.get("title", ""))])
+	await dialog.show_lines(lines)
+	SaveManager.autosave()
+	SceneRouter.to_title()
 
 func _resolve_spawn() -> void:
 	if not SceneRouter.pending_spawn.is_empty():
@@ -155,6 +176,11 @@ func _process(delta: float) -> void:
 		return
 	if input_locked:
 		return
+	if not _pending_ending.is_empty():
+		var e: Dictionary = _pending_ending
+		_pending_ending = {}
+		_show_ending(e)  # async: locks input itself, ends at the title screen
+		return
 	if Input.is_action_just_pressed("menu"):
 		_open_pause_menu()
 		return
@@ -237,9 +263,54 @@ func _talk_npc(obj: Dictionary) -> void:
 	input_locked = true
 	if obj.has("starter_choice") and not GameState.get_flag(String(obj.get("flag", "got_starter"))):
 		await _starter_selection(obj)
+	elif obj.has("dialog_id"):
+		await _run_dialog_script(String(obj["dialog_id"]))
 	else:
 		await _show_dialog(obj.get("dialogue", ["..."]))
 	input_locked = false
+
+## Run a data-driven branching dialog script (see data/dialogs/dialogs.json).
+## Entry point = first node whose condition passes (nodes with entry:false are
+## reachable only via 'next'). Each node: lines -> actions -> choices/next.
+func _run_dialog_script(dialog_id: String) -> void:
+	var script: Dictionary = DataRegistry.dialogs.get(dialog_id, {})
+	var nodes: Array = script.get("nodes", [])
+	var by_id := {}
+	for n in nodes:
+		by_id[String(n.get("id", ""))] = n
+	var current: Dictionary = {}
+	for n in nodes:
+		if not bool(n.get("entry", true)):
+			continue
+		if GameState.condition_met(n.get("condition", {})) or not n.has("condition"):
+			current = n
+			break
+	var hops := 0
+	while not current.is_empty() and hops < 50:
+		hops += 1
+		dialog.set_portrait(AssetResolver.portrait(String(current.get("portrait", ""))))
+		var lines: Array = []
+		for l in current.get("lines", []):
+			lines.append(_interpolate(DataRegistry.resolve_text(String(l))))
+		if not lines.is_empty():
+			await dialog.show_lines(lines)
+		GameState.apply_actions(current.get("actions", []))
+		var choices: Array = current.get("choices", [])
+		var next_id := String(current.get("next", ""))
+		if not choices.is_empty():
+			var texts: Array = []
+			for ch in choices:
+				texts.append(_interpolate(DataRegistry.resolve_text(String(ch.get("text", "...")))))
+			var pick := await dialog.show_choice(_interpolate(String(current.get("prompt", "..."))), texts)
+			var chosen: Dictionary = choices[pick]
+			GameState.apply_actions(chosen.get("actions", []))
+			next_id = String(chosen.get("next", ""))
+		current = by_id.get(next_id, {}) if next_id != "" else {}
+	dialog.set_portrait(null)
+
+## Substitute narrative placeholders in display text.
+func _interpolate(s: String) -> String:
+	return s.replace("${player}", String(GameState.player.get("name", "?")))
 
 func _starter_selection(obj: Dictionary) -> void:
 	var choices: Array = obj.get("starter_choice", [])

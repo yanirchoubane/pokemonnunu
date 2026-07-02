@@ -1,0 +1,32 @@
+{
+  "$schema_version": 1,
+  "description": "Data-driven endings. When a 'trigger_ending' action fires, the FIRST ending (in array order) whose condition passes is shown, then the game returns to the title screen (the save remains playable). Conditions use the same composable kinds as quests/dialogs: flag, counter, var_equals, var_at_least, relationship_at_least, all, any, not.",
+  "endings": [
+    {
+      "id": "ending_bonds",
+      "title": "Bonds Across Regions",
+      "condition": {
+        "kind": "all",
+        "conditions": [
+          { "kind": "flag", "flag": "quest_aquilon_done" },
+          { "kind": "relationship_at_least", "npc": "corin", "at_least": 2 }
+        ]
+      },
+      "lines": [
+        "Professor Maple publishes the expedition report, co-signed by you and Corin.",
+        "Two regions, one team, and a friendship that made the road shorter.",
+        "Your creatures doze in the evening sun of Verdantia. The journey rests — for now."
+      ]
+    },
+    {
+      "id": "ending_lone_pioneer",
+      "title": "The Lone Pioneer",
+      "condition": { "kind": "flag", "flag": "quest_aquilon_done" },
+      "lines": [
+        "Professor Maple publishes the expedition report under a single name: yours.",
+        "From Verdantia's meadows to Aquilon's cold ridges, you walked alone — and prevailed.",
+        "Somewhere north, new coastlines wait for a pioneer's footprints."
+      ]
+    }
+  ]
+}

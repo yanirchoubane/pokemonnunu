@@ -67,7 +67,7 @@ func _view_team() -> void:
 		p.add_child(vb)
 		var head := HBoxContainer.new()
 		var icon := TextureRect.new()
-		icon.texture = PlaceholderGfx.make_creature_texture(c.species, 40)
+		icon.texture = AssetResolver.creature_texture(c.species, 40)
 		icon.custom_minimum_size = Vector2(40, 40)
 		head.add_child(icon)
 		head.add_child(UIFactory.make_label("%s  Lv%d  (%s)" % [c.display_name(), c.level, "/".join(c.types())], 18))

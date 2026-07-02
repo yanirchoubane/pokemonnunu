@@ -132,6 +132,21 @@ maps, and connect them with `warp`/`door` objects. `next_regions` links regions 
 Play, open the pause menu (Esc) → **Save**, pick a slot. Autosave fires after each battle.
 See [`SAVE_FORMAT.md`](SAVE_FORMAT.md).
 
+### User content packs (`user_content/`)
+The engine also loads **local, git-ignored** content packs from `user_content/` —
+your own creatures, moves, regions, maps, trainers, quests, dialogs, endings,
+sprites (`sprites/creatures/<id>.png`), portraits and music (`music/<zone>.ogg`) —
+merged by id over the demo data and validated identically at boot. The engine never
+downloads anything; only add material you legally may use, and never commit it.
+See [`USER_CONTENT_GUIDE.md`](USER_CONTENT_GUIDE.md).
+
+### Branching story
+NPCs can run data-driven **dialog scripts** (`data/dialogs/`) with conditions,
+choices and actions that set story variables, shift **relationships**, give items,
+start quests, or trigger one of several data-defined **endings** (`data/endings/`).
+Try it: talk to Corin in the demo town, and revisit Professor Maple after finishing
+the Aquilon quest to conclude the story two different ways.
+
 ---
 
 ## Difficulty & adaptation

@@ -18,6 +18,7 @@ signal finished
 var _panel: PanelContainer
 var _label: RichTextLabel
 var _choices_box: VBoxContainer
+var _portrait_rect: TextureRect
 
 func _init() -> void:
 	layer = 50
@@ -38,8 +39,16 @@ func _init() -> void:
 	_panel.custom_minimum_size = Vector2(0, 120)
 	align.add_child(_panel)
 
+	var hb := HBoxContainer.new()
+	_panel.add_child(hb)
+	_portrait_rect = TextureRect.new()
+	_portrait_rect.custom_minimum_size = Vector2(96, 96)
+	_portrait_rect.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
+	_portrait_rect.visible = false
+	hb.add_child(_portrait_rect)
 	var vb := VBoxContainer.new()
-	_panel.add_child(vb)
+	vb.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	hb.add_child(vb)
 	_label = RichTextLabel.new()
 	_label.bbcode_enabled = true
 	_label.fit_content = true
@@ -48,6 +57,11 @@ func _init() -> void:
 	vb.add_child(_label)
 	_choices_box = VBoxContainer.new()
 	vb.add_child(_choices_box)
+
+## Optional speaker portrait (user-supplied art via AssetResolver); null hides it.
+func set_portrait(tex: Texture2D) -> void:
+	_portrait_rect.texture = tex
+	_portrait_rect.visible = tex != null
 
 func show_lines(lines: Array) -> void:
 	for line in lines:

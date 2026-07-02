@@ -35,6 +35,12 @@ Thumbs.db
 user://
 saves/
 
+# User-supplied content packs (sprites, maps, music, data, localization).
+# This folder stays local: the shared repository contains ONLY the engine,
+# tools, original placeholders and original demo data. Never commit assets
+# or data you do not have the right to redistribute.
+user_content/
+
 # Python bytecode from tools/
 __pycache__/
 *.pyc

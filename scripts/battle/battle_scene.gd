@@ -481,13 +481,13 @@ func _update_hud() -> void:
 	enemy_name_lbl.text = "%s  Lv%d" % [e.display_name(), e.level]
 	enemy_hp_bar.value = 100.0 * float(e.current_hp) / float(max(1, e.max_hp()))
 	enemy_hp_bar.modulate = _hp_color(e)
-	enemy_sprite.texture = PlaceholderGfx.make_creature_texture(e.species, 96)
+	enemy_sprite.texture = AssetResolver.creature_texture(e.species, 96)
 
 	player_name_lbl.text = "%s  Lv%d" % [p.display_name(), p.level]
 	player_hp_bar.value = 100.0 * float(p.current_hp) / float(max(1, p.max_hp()))
 	player_hp_bar.modulate = _hp_color(p)
 	player_hp_text.text = "HP %d/%d  %s" % [p.current_hp, p.max_hp(), ("" if p.status == "none" else "[" + p.status.to_upper() + "]")]
-	player_sprite.texture = PlaceholderGfx.make_creature_texture(p.species, 112)
+	player_sprite.texture = AssetResolver.creature_texture(p.species, 112)
 
 func _hp_color(c: CreatureInstance) -> Color:
 	var f := float(c.current_hp) / float(max(1, c.max_hp()))

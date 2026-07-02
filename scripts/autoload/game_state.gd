@@ -10,6 +10,7 @@ signal money_changed(amount: int)
 signal team_changed
 signal region_changed(region_id: String)
 signal quest_updated(quest_id: String)
+signal ending_triggered(ending: Dictionary)
 
 var initialized: bool = false
 var rng_seed: int = 123456789
@@ -21,6 +22,8 @@ var box: Array = []           # Array[CreatureInstance]
 var inventory: Dictionary = {} # item_id -> qty
 var flags: Dictionary = {}
 var counters: Dictionary = {}
+var story_vars: Dictionary = {}       # narrative variables: name -> int|String
+var relationships: Dictionary = {}    # npc_id -> int score (choices shift it)
 var badges: Array = []
 var quests: Dictionary = {}    # quest_id -> { state, objectives: {obj_id: bool}, started: bool }
 var region_progress: Dictionary = {} # region_id -> { unlocked, visited, completed }
@@ -49,6 +52,8 @@ func new_game(player_name: String, gender: String, start_region: String, seed_va
 	inventory = {}
 	flags = {}
 	counters = {}
+	story_vars = {}
+	relationships = {}
 	badges = []
 	quests = {}
 	region_progress = {}
@@ -138,6 +143,70 @@ func inc_counter(counter: String, by: int = 1) -> void:
 func get_counter(counter: String) -> int:
 	return int(counters.get(counter, 0))
 
+# ------------------------------------------------------------------ story vars / relationships
+
+func set_var(name: String, value) -> void:
+	story_vars[name] = value
+	_evaluate_quests()
+
+func get_var(name: String, default_value = null):
+	return story_vars.get(name, default_value)
+
+func adjust_relationship(npc_id: String, delta: int) -> void:
+	relationships[npc_id] = int(relationships.get(npc_id, 0)) + delta
+	_evaluate_quests()
+
+func get_relationship(npc_id: String) -> int:
+	return int(relationships.get(npc_id, 0))
+
+# ------------------------------------------------------------------ actions & endings
+
+## Apply a list of data-driven actions (used by dialog scripts and quests).
+## Kinds are validated at boot by DataRegistry.VALID_ACTION_KINDS.
+func apply_actions(actions: Array) -> void:
+	for a in actions:
+		match String(a.get("kind", "")):
+			"set_flag":
+				set_flag(String(a.get("flag", "")))
+			"clear_flag":
+				flags.erase(String(a.get("flag", "")))
+			"set_var":
+				set_var(String(a.get("var", "")), a.get("value"))
+			"add_var":
+				var vn := String(a.get("var", ""))
+				set_var(vn, int(story_vars.get(vn, 0)) + int(a.get("delta", 1)))
+			"adjust_relationship":
+				adjust_relationship(String(a.get("npc", "")), int(a.get("delta", 0)))
+			"give_item":
+				give_item(String(a.get("item", "")), int(a.get("quantity", 1)))
+			"take_item":
+				remove_item(String(a.get("item", "")), int(a.get("quantity", 1)))
+			"add_money":
+				add_money(int(a.get("amount", 0)))
+			"start_quest":
+				start_quest(String(a.get("quest", "")))
+			"heal_team":
+				heal_team()
+			"unlock_region":
+				unlock_region(String(a.get("region", "")))
+			"inc_counter":
+				inc_counter(String(a.get("counter", "")), int(a.get("by", 1)))
+			"trigger_ending":
+				trigger_ending()
+
+## Evaluate DataRegistry.endings in order; the first whose condition passes wins.
+func evaluate_ending() -> Dictionary:
+	for e in DataRegistry.endings:
+		if _condition_met(e.get("condition", {})):
+			return e
+	return {}
+
+func trigger_ending() -> void:
+	var e := evaluate_ending()
+	if not e.is_empty():
+		set_flag("seen_ending_%s" % String(e.get("id", "")))
+		ending_triggered.emit(e)
+
 # ------------------------------------------------------------------ regions
 
 func unlock_region(region_id: String) -> void:
@@ -213,16 +282,44 @@ func _complete_quest(quest_id: String, qdef: Dictionary) -> void:
 	if cf != "":
 		flags[cf] = true  # set directly to avoid recursive quest evaluation storm
 		flag_set.emit(cf)
+	# Optional narrative hooks (same action kinds as dialog scripts) — this is how
+	# a quest can trigger an ending, shift a relationship, or start a follow-up.
+	apply_actions(qdef.get("on_complete_actions", []))
 	quest_updated.emit(quest_id)
 	# One more pass so quests gated on this flag can start.
 	call_deferred("_evaluate_quests")
 
+## Public entry point for other systems (dialog runner, endings, UI).
+func condition_met(cond: Dictionary) -> bool:
+	return _condition_met(cond)
+
+## Composable condition evaluation, shared by quests, dialog nodes and endings.
 func _condition_met(cond: Dictionary) -> bool:
 	match String(cond.get("kind", "")):
 		"flag":
 			return get_flag(String(cond.get("flag", "")))
 		"counter":
 			return get_counter(String(cond.get("counter", ""))) >= int(cond.get("at_least", 1))
+		"var_equals":
+			return str(get_var(String(cond.get("var", "")), "")) == str(cond.get("value", ""))
+		"var_at_least":
+			return int(get_var(String(cond.get("var", "")), 0)) >= int(cond.get("at_least", 1))
+		"relationship_at_least":
+			return get_relationship(String(cond.get("npc", ""))) >= int(cond.get("at_least", 1))
+		"region_visited":
+			return bool(region_progress.get(String(cond.get("region", "")), {}).get("visited", false))
+		"not":
+			return not _condition_met(cond.get("condition", {}))
+		"all":
+			for c in cond.get("conditions", []):
+				if not _condition_met(c):
+					return false
+			return true
+		"any":
+			for c in cond.get("conditions", []):
+				if _condition_met(c):
+					return true
+			return false
 		_:
 			return false
 
@@ -244,6 +341,8 @@ func to_dict() -> Dictionary:
 		"inventory": inventory,
 		"flags": flags,
 		"counters": counters,
+		"story_vars": story_vars,
+		"relationships": relationships,
 		"badges": badges,
 		"quests": quests,
 		"region_progress": region_progress,
@@ -266,6 +365,8 @@ func from_dict(d: Dictionary) -> void:
 	inventory = d.get("inventory", {})
 	flags = d.get("flags", {})
 	counters = d.get("counters", {})
+	story_vars = d.get("story_vars", {})
+	relationships = d.get("relationships", {})
 	badges = d.get("badges", [])
 	quests = d.get("quests", {})
 	region_progress = d.get("region_progress", {})

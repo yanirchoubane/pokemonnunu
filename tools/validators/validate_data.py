@@ -40,6 +40,17 @@ def index(records, key, errors, label):
     return out
 
 
+VALID_ACTION_KINDS = {
+    "set_flag", "clear_flag", "set_var", "add_var", "adjust_relationship",
+    "give_item", "take_item", "add_money", "start_quest", "heal_team",
+    "unlock_region", "inc_counter", "trigger_ending",
+}
+VALID_CONDITION_KINDS = {
+    "flag", "counter", "var_equals", "var_at_least", "relationship_at_least",
+    "region_visited", "not", "all", "any",
+}
+
+
 def main() -> int:
     errors: list[str] = []
 
@@ -177,10 +188,82 @@ def main() -> int:
             if rw.get("kind") == "unlock_region" and rw.get("region") not in regions:
                 errors.append(f"Quest '{qid}' unlocks unknown region '{rw.get('region')}'.")
 
+    # dialogs: node graph integrity + known action kinds (mirrors DataRegistry.validate)
+    dialogs = index(load(os.path.join(DATA, "dialogs", "dialogs.json"))["dialogs"], "id", errors, "dialogs")
+
+    def check_actions(actions, where):
+        for a in actions:
+            kind = a.get("kind", "")
+            if kind not in VALID_ACTION_KINDS:
+                errors.append(f"Unknown action kind '{kind}' in {where}.")
+            elif kind in ("give_item", "take_item") and a.get("item") not in items:
+                errors.append(f"Action in {where} references unknown item '{a.get('item')}'.")
+            elif kind == "start_quest" and a.get("quest") not in quests:
+                errors.append(f"Action in {where} references unknown quest '{a.get('quest')}'.")
+            elif kind == "unlock_region" and a.get("region") not in regions:
+                errors.append(f"Action in {where} references unknown region '{a.get('region')}'.")
+
+    for qid, q in quests.items():
+        check_actions(q.get("on_complete_actions", []), f"quest '{qid}' on_complete_actions")
+
+    for did, dlg in dialogs.items():
+        node_ids = {n.get("id") for n in dlg.get("nodes", [])}
+        for n in dlg.get("nodes", []):
+            where = f"dialog '{did}' node '{n.get('id')}'"
+            nxt = n.get("next", "")
+            if nxt and nxt not in node_ids:
+                errors.append(f"Dialog '{did}' node '{n.get('id')}' jumps to unknown node '{nxt}'.")
+            check_actions(n.get("actions", []), where)
+            for ch in n.get("choices", []):
+                cnxt = ch.get("next", "")
+                if cnxt and cnxt not in node_ids:
+                    errors.append(f"Dialog '{did}' node '{n.get('id')}' choice jumps to unknown node '{cnxt}'.")
+                check_actions(ch.get("actions", []), where)
+        entry_ok = any(n.get("entry", True) is not False and "condition" not in n
+                       for n in dlg.get("nodes", []))
+        if not entry_ok:
+            errors.append(f"Dialog '{did}' has no unconditional entry node — some states may have no dialog.")
+
+    # endings: valid composable conditions
+    endings = load(os.path.join(DATA, "endings", "endings.json"))["endings"]
+
+    def check_condition(cond, where):
+        kind = cond.get("kind", "")
+        if kind not in VALID_CONDITION_KINDS:
+            errors.append(f"Unknown condition kind '{kind}' in {where}.")
+        elif kind in ("all", "any"):
+            for sub in cond.get("conditions", []):
+                check_condition(sub, where)
+        elif kind == "not":
+            check_condition(cond.get("condition", {}), where)
+
+    ending_ids = set()
+    for e in endings:
+        eid = e.get("id", "?")
+        if eid in ending_ids:
+            errors.append(f"Duplicate ending id '{eid}'.")
+        ending_ids.add(eid)
+        check_condition(e.get("condition", {}), f"ending '{eid}'")
+        if not e.get("lines"):
+            errors.append(f"Ending '{eid}' has no lines.")
+
+    # maps: npc dialog_id references
+    for mid, m in maps.items():
+        for obj in m.get("objects", []):
+            if obj.get("type") == "npc" and "dialog_id" in obj and obj["dialog_id"] not in dialogs:
+                errors.append(f"Map '{mid}' npc references unknown dialog '{obj['dialog_id']}'.")
+
+    # localization: strings must be str -> str
+    for lf in glob(os.path.join(DATA, "localization", "*.json")):
+        loc = load(lf)
+        for k, v in loc.get("strings", {}).items():
+            if not isinstance(k, str) or not isinstance(v, str):
+                errors.append(f"Localization '{os.path.basename(lf)}' key '{k}' must map string to string.")
+
     # report
     print(f"Validated: {len(creatures)} creatures, {len(moves)} moves, {len(items)} items, "
           f"{len(abilities)} abilities, {len(trainers)} trainers, {len(regions)} regions, {len(maps)} maps, "
-          f"{len(quests)} quests, {len(valid_types)} types.")
+          f"{len(quests)} quests, {len(dialogs)} dialogs, {len(endings)} endings, {len(valid_types)} types.")
     if errors:
         print(f"\n✗ {len(errors)} validation error(s):")
         for e in errors:

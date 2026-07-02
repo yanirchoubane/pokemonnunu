@@ -43,8 +43,13 @@ func play_zone_music(zone: String) -> void:
 	if zone == _current_zone and _music_player.playing:
 		return
 	_current_zone = zone
-	var theme: Array = ZONE_THEMES.get(zone, ZONE_THEMES["town"])
-	_music_player.stream = _theme_stream(zone, theme)
+	# A user-supplied track (user_content/music/<zone>.ogg) wins over generated tones.
+	var user_stream := AssetResolver.music_stream(zone)
+	if user_stream != null:
+		_music_player.stream = user_stream
+	else:
+		var theme: Array = ZONE_THEMES.get(zone, ZONE_THEMES["town"])
+		_music_player.stream = _theme_stream(zone, theme)
 	if float(SettingsManager.get_value("music_volume", 0.8)) > 0.0:
 		_music_player.play()
 
