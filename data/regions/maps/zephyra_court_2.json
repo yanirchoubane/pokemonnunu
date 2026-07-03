@@ -1,0 +1,292 @@
+{
+  "$schema_version": 1,
+  "id": "zephyra_court_2",
+  "display_name": "Zephyra Battle Court 2",
+  "region": "zephyra",
+  "bgm": "town",
+  "tile_size": 32,
+  "legend": {
+    "#": "wall",
+    ".": "floor",
+    "D": "door"
+  },
+  "rows": [
+    "###################",
+    "#.................#",
+    "#.................#",
+    "#.................#",
+    "#.................#",
+    "#.................#",
+    "#.................#",
+    "#.................#",
+    "#.................#",
+    "#.................#",
+    "#.................#",
+    "#.................#",
+    "#.................#",
+    "#.................#",
+    "#.................#",
+    "#########D#########"
+  ],
+  "objects": [
+    {
+      "type": "spawn",
+      "id": "entrance",
+      "x": 9,
+      "y": 14
+    },
+    {
+      "type": "door",
+      "x": 9,
+      "y": 15,
+      "to_map": "zephyra_crossroads",
+      "to_spawn": "from_court_2"
+    },
+    {
+      "type": "sign",
+      "x": 2,
+      "y": 1,
+      "text": "Zephyra Battle Court 2 — endless sparring for the ambitious."
+    },
+    {
+      "type": "trainer",
+      "x": 2,
+      "y": 2,
+      "trainer_id": "zephyra_court2_t0",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_zephyra_court2_t0"
+    },
+    {
+      "type": "trainer",
+      "x": 4,
+      "y": 2,
+      "trainer_id": "zephyra_court2_t1",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_zephyra_court2_t1"
+    },
+    {
+      "type": "trainer",
+      "x": 6,
+      "y": 2,
+      "trainer_id": "zephyra_court2_t2",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_zephyra_court2_t2"
+    },
+    {
+      "type": "trainer",
+      "x": 8,
+      "y": 2,
+      "trainer_id": "zephyra_court2_t3",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_zephyra_court2_t3"
+    },
+    {
+      "type": "trainer",
+      "x": 10,
+      "y": 2,
+      "trainer_id": "zephyra_court2_t4",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_zephyra_court2_t4"
+    },
+    {
+      "type": "trainer",
+      "x": 12,
+      "y": 2,
+      "trainer_id": "zephyra_court2_t5",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_zephyra_court2_t5"
+    },
+    {
+      "type": "trainer",
+      "x": 14,
+      "y": 2,
+      "trainer_id": "zephyra_court2_t6",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_zephyra_court2_t6"
+    },
+    {
+      "type": "trainer",
+      "x": 16,
+      "y": 2,
+      "trainer_id": "zephyra_court2_t7",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_zephyra_court2_t7"
+    },
+    {
+      "type": "trainer",
+      "x": 2,
+      "y": 4,
+      "trainer_id": "zephyra_court2_t8",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_zephyra_court2_t8"
+    },
+    {
+      "type": "trainer",
+      "x": 4,
+      "y": 4,
+      "trainer_id": "zephyra_court2_t9",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_zephyra_court2_t9"
+    },
+    {
+      "type": "trainer",
+      "x": 6,
+      "y": 4,
+      "trainer_id": "zephyra_court2_t10",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_zephyra_court2_t10"
+    },
+    {
+      "type": "trainer",
+      "x": 8,
+      "y": 4,
+      "trainer_id": "zephyra_court2_t11",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_zephyra_court2_t11"
+    },
+    {
+      "type": "trainer",
+      "x": 10,
+      "y": 4,
+      "trainer_id": "zephyra_court2_t12",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_zephyra_court2_t12"
+    },
+    {
+      "type": "trainer",
+      "x": 12,
+      "y": 4,
+      "trainer_id": "zephyra_court2_t13",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_zephyra_court2_t13"
+    },
+    {
+      "type": "trainer",
+      "x": 14,
+      "y": 4,
+      "trainer_id": "zephyra_court2_t14",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_zephyra_court2_t14"
+    },
+    {
+      "type": "trainer",
+      "x": 16,
+      "y": 4,
+      "trainer_id": "zephyra_court2_t15",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_zephyra_court2_t15"
+    },
+    {
+      "type": "trainer",
+      "x": 2,
+      "y": 6,
+      "trainer_id": "zephyra_court2_t16",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_zephyra_court2_t16"
+    },
+    {
+      "type": "trainer",
+      "x": 4,
+      "y": 6,
+      "trainer_id": "zephyra_court2_t17",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_zephyra_court2_t17"
+    },
+    {
+      "type": "trainer",
+      "x": 6,
+      "y": 6,
+      "trainer_id": "zephyra_court2_t18",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_zephyra_court2_t18"
+    },
+    {
+      "type": "trainer",
+      "x": 8,
+      "y": 6,
+      "trainer_id": "zephyra_court2_t19",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_zephyra_court2_t19"
+    },
+    {
+      "type": "trainer",
+      "x": 10,
+      "y": 6,
+      "trainer_id": "zephyra_court2_t20",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_zephyra_court2_t20"
+    },
+    {
+      "type": "trainer",
+      "x": 12,
+      "y": 6,
+      "trainer_id": "zephyra_court2_t21",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_zephyra_court2_t21"
+    },
+    {
+      "type": "trainer",
+      "x": 14,
+      "y": 6,
+      "trainer_id": "zephyra_court2_t22",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_zephyra_court2_t22"
+    },
+    {
+      "type": "trainer",
+      "x": 16,
+      "y": 6,
+      "trainer_id": "zephyra_court2_t23",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_zephyra_court2_t23"
+    }
+  ]
+}

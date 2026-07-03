@@ -23,7 +23,10 @@
     "solane_gym_electric",
     "solane_gym_earth",
     "solane_gym_wind",
-    "solane_gym_mystic"
+    "solane_gym_mystic",
+    "solane_court_1",
+    "solane_court_2",
+    "solane_court_3"
   ],
   "regional_rules": {
     "level_scaling": "soft",

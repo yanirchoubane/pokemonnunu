@@ -14,11 +14,11 @@
   "rows": [
     "##D##D##D##D####",
     "#..............#",
-    "#..............#",
+    "#..............D",
     "D..............#",
     "#......H.......#",
     "#..............D",
-    "#..............#",
+    "D..............D",
     "#..............#",
     "##D##D##D##D####"
   ],
@@ -173,6 +173,45 @@
       "id": "from_mystic_gym",
       "x": 11,
       "y": 7
+    },
+    {
+      "type": "door",
+      "x": 0,
+      "y": 6,
+      "to_map": "brume_court_1",
+      "to_spawn": "entrance"
+    },
+    {
+      "type": "spawn",
+      "id": "from_court_1",
+      "x": 1,
+      "y": 6
+    },
+    {
+      "type": "door",
+      "x": 15,
+      "y": 2,
+      "to_map": "brume_court_2",
+      "to_spawn": "entrance"
+    },
+    {
+      "type": "spawn",
+      "id": "from_court_2",
+      "x": 14,
+      "y": 2
+    },
+    {
+      "type": "door",
+      "x": 15,
+      "y": 6,
+      "to_map": "brume_court_3",
+      "to_spawn": "entrance"
+    },
+    {
+      "type": "spawn",
+      "id": "from_court_3",
+      "x": 14,
+      "y": 6
     }
   ]
 }

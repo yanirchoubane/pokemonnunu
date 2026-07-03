@@ -1,0 +1,316 @@
+#!/usr/bin/env python3
+"""Bulk generator — hundreds more original species + Battle Court trainers for XP.
+
+For each of the nine regions this adds (idempotent, all ORIGINAL content):
+- SPECIES_PER_REGION new species (about half in 2-stage evolution lines),
+  distributed across all eight types and added to the region's wild table so
+  there is far more variety (and XP) roaming the grass;
+- COURTS_PER_REGION "Battle Court" training-hall maps, each packed with
+  TRAINERS_PER_COURT optional trainers on isolated tiles (never blocking a
+  path), wired into the region's Crossroads via new doors. These exist purely
+  to grind experience: lots of beatable teams at the region's level band.
+
+Tune the three constants to scale the world up or down. Run LAST, after
+generate_regions.py, generate_expansion.py and generate_league.py.
+
+Usage: python3 tools/generators/generate_bulk.py
+"""
+from __future__ import annotations
+
+import json
+import os
+
+ROOT = os.path.normpath(os.path.join(os.path.dirname(__file__), "..", ".."))
+DATA = os.path.join(ROOT, "data")
+
+# ---- scale knobs -----------------------------------------------------------
+SPECIES_PER_REGION = 60      # 9 regions -> +540 species
+COURTS_PER_REGION = 3        # training-hall maps per region
+TRAINERS_PER_COURT = 24      # 9 * 3 * 24 = +648 optional grind trainers
+# ---------------------------------------------------------------------------
+
+TYPES = ["normal", "fire", "water", "grass", "electric", "earth", "wind", "mystic"]
+REGION_ORDERS = {
+    "verdantia": (1, 2), "aquilon": (2, 8), "cindral": (3, 14), "solane": (4, 20),
+    "umbra": (5, 26), "ferrock": (6, 32), "brume": (7, 38), "lumen": (8, 44),
+    "zephyra": (9, 50),
+}
+ROLE_BY_TYPE = {"normal": "balanced", "fire": "bruiser", "water": "guardian",
+                "grass": "balanced", "electric": "swift", "earth": "guardian",
+                "wind": "swift", "mystic": "sage"}
+ROLES = {"swift": [50, 58, 44, 52, 46, 78], "bruiser": [58, 72, 55, 42, 48, 52],
+         "guardian": [62, 52, 74, 44, 64, 34], "sage": [52, 40, 48, 74, 64, 56],
+         "balanced": [56, 56, 56, 56, 56, 56]}
+STAGE_MULT = [1.0, 1.4]
+TYPE_POOLS = {
+    "normal": ["tackle", "quick_jab", "rend", "focus_charge"],
+    "fire": ["ember_burst", "blaze_wheel", "flame_lash", "inferno_ray"],
+    "water": ["aqua_dart", "riptide", "tide_crash", "deluge"],
+    "grass": ["leaf_cut", "thorn_barrage", "vine_wrap", "bloom_burst"],
+    "electric": ["spark_zap", "volt_lance", "static_field", "storm_surge"],
+    "earth": ["stone_toss", "sand_grind", "quake_stomp", "guard_up"],
+    "wind": ["gale_slash", "cyclone_dive", "tempest", "quick_jab"],
+    "mystic": ["mind_ray", "dream_pulse", "veil_of_calm", "focus_charge"],
+}
+# Big syllable space -> lots of clean unique names before any numeric fallback.
+PRE = ["bram", "cinq", "dorn", "eld", "fen", "grim", "hollo", "iri", "jorv", "kest",
+       "lum", "mor", "nyx", "orl", "pyr", "quill", "ryn", "sol", "tam", "umbr",
+       "vex", "wyn", "yar", "zeph", "bal", "crev", "dusk", "ember", "frost", "glim"]
+MID = ["a", "e", "i", "o", "u", "ae", "or", "en", "il", "ar"]
+SUF = [["ling", "kit", "et", "pip", "let", "im"], ["fang", "claw", "wing", "mane", "horn", "back"]]
+
+CLASS_TITLES = ["Ace", "Veteran", "Ranger", "Brawler", "Adept", "Nomad", "Sentinel",
+                "Duelist", "Trapper", "Warden", "Scrapper", "Vanguard", "Zealot", "Rover"]
+FIRST_NAMES = ["Aldo", "Bex", "Cira", "Dov", "Enna", "Faro", "Gale", "Hux", "Ivo", "Juno",
+               "Kip", "Lira", "Mox", "Nell", "Osk", "Pell", "Quin", "Rhea", "Sten", "Tarn",
+               "Uma", "Vek", "Wex", "Xan", "Yol", "Zara"]
+
+
+def load(path):
+    with open(path, encoding="utf-8") as f:
+        return json.load(f)
+
+
+def save(path, data):
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+        f.write("\n")
+
+
+def upsert(records, rec):
+    for i, r in enumerate(records):
+        if r.get("id") == rec["id"]:
+            records[i] = rec
+            return
+    records.append(rec)
+
+
+class Namer:
+    def __init__(self, used):
+        self.used = set(used)
+        self.i = 0
+
+    def next(self, stage):
+        for _ in range(4000):
+            p = PRE[self.i % len(PRE)]
+            m = MID[(self.i // len(PRE)) % len(MID)]
+            s = SUF[stage][(self.i // (len(PRE) * len(MID))) % len(SUF[stage])]
+            self.i += 1
+            sid = p + m + s
+            if sid not in self.used:
+                self.used.add(sid)
+                return sid
+        sid = f"sp{len(self.used)}"
+        self.used.add(sid)
+        return sid
+
+
+def learnset(types, lo, stage):
+    pool = []
+    for j, t in enumerate(types):
+        for k, mid in enumerate(TYPE_POOLS[t]):
+            pool.append((k * 2 + j, mid))
+    pool.sort()
+    learn = [{"level": 1, "move": "tackle" if stage == 0 else pool[0][1]}]
+    if stage == 0:
+        learn.append({"level": 1, "move": pool[0][1]})
+    lvl = max(2, lo + 2)
+    for _, mid in pool[1:5]:
+        if all(e["move"] != mid for e in learn):
+            learn.append({"level": lvl, "move": mid})
+            lvl += 6
+    return learn
+
+
+def species_rec(sid, name, types, region, lo, order, stage, evolves):
+    role = ROLE_BY_TYPE[types[0]]
+    growth = 1.0 + 0.02 * (order - 1)
+    base = ROLES[role]
+    hp, atk, dfn, spa, spd, spe = [min(165, int(v * STAGE_MULT[stage] * growth)) for v in base]
+    return {
+        "id": sid, "display_name": name,
+        "description": f"A {'/'.join(types)}-attuned creature roaming the {region.capitalize()} region.",
+        "generation": "demo_g4", "origin_region": region, "types": list(types),
+        "base_stats": {"hp": hp, "attack": atk, "defense": dfn,
+                       "sp_attack": spa, "sp_defense": spd, "speed": spe},
+        "ev_yield": {"speed" if role == "swift" else "hp": 1 + stage},
+        "exp_curve": "medium_fast", "gender_ratio": 0.5,
+        "abilities": ["swift_foot" if "wind" in types else "keen_mind" if "mystic" in types
+                      else "thick_hide" if "earth" in types else "blaze_heart" if "fire" in types
+                      else "tide_soul"],
+        "capture_rate": 120 if stage == 0 else 60, "rarity": "common" if stage == 0 else "uncommon",
+        "breeding_groups": ["field"], "learnset": learnset(list(types), lo, stage),
+        "evolves_to": evolves, "forms": [],
+    }
+
+
+def court_map(rid, region_name, idx, n_trainers, trainer_ids):
+    """A 19x16 hall; trainers on isolated even-coord pillars, aisles between."""
+    W, H = 19, 16
+    rows = []
+    for y in range(H):
+        if y == 0 or y == H - 1:
+            rows.append("#" * W)
+        else:
+            rows.append("#" + "." * (W - 2) + "#")
+    # entrance door at bottom middle
+    rows[H - 1] = rows[H - 1][:9] + "D" + rows[H - 1][10:]
+    objects = [
+        {"type": "spawn", "id": "entrance", "x": 9, "y": H - 2},
+        {"type": "door", "x": 9, "y": H - 1, "to_map": f"{rid}_crossroads",
+         "to_spawn": f"from_court_{idx}"},
+        {"type": "sign", "x": 2, "y": 1,
+         "text": f"{region_name} Battle Court {idx} — endless sparring for the ambitious."},
+    ]
+    slots = [(x, y) for y in range(2, H - 2, 2) for x in range(2, W - 2, 2)]
+    slots = [s for s in slots if not (s[0] == 9 and s[1] >= H - 4)]  # keep entrance column clear
+    for i in range(min(n_trainers, len(slots), len(trainer_ids))):
+        x, y = slots[i]
+        objects.append({"type": "trainer", "x": x, "y": y, "trainer_id": trainer_ids[i],
+                        "sprite": "trainer_ace", "sight": 1, "facing": "down",
+                        "flag": f"beat_{trainer_ids[i]}"})
+    return {
+        "$schema_version": 1, "id": f"{rid}_court_{idx}",
+        "display_name": f"{region_name} Battle Court {idx}", "region": rid,
+        "bgm": "town", "tile_size": 32,
+        "legend": {"#": "wall", ".": "floor", "D": "door"}, "rows": rows, "objects": objects,
+    }
+
+
+def main():
+    creatures_doc = load(os.path.join(DATA, "creatures", "creatures.json"))
+    evolutions_doc = load(os.path.join(DATA, "evolutions", "evolutions.json"))
+    trainers_doc = load(os.path.join(DATA, "trainers", "trainers.json"))
+    encounters_doc = load(os.path.join(DATA, "encounters", "encounters.json"))
+
+    namer = Namer({c["id"] for c in creatures_doc["creatures"]})
+    region_species = {}
+
+    for rid, (order, lo) in REGION_ORDERS.items():
+        region_name = rid.capitalize()
+        pool_ids = []
+        n_lines = SPECIES_PER_REGION // 3   # ~1/3 are 2-stage lines (2 species each)
+        n_singles = SPECIES_PER_REGION - n_lines * 2
+        made = 0
+        ti = 0
+        # two-stage lines
+        for _ in range(n_lines):
+            types = [TYPES[ti % 8]]
+            if ti % 3 == 0:
+                types = [TYPES[ti % 8], TYPES[(ti + 3) % 8]]
+            ti += 1
+            base_id = namer.next(0)
+            evo_id = namer.next(1)
+            upsert(creatures_doc["creatures"],
+                   species_rec(base_id, base_id.capitalize(), types, rid, lo, order, 0, [evo_id]))
+            upsert(creatures_doc["creatures"],
+                   species_rec(evo_id, evo_id.capitalize(), types, rid, lo, order, 1, []))
+            upsert(evolutions_doc["evolutions"],
+                   {"id": f"evo_{base_id}", "from": base_id, "to": evo_id,
+                    "condition": {"kind": "level_up", "level": min(58, lo + 12)}})
+            pool_ids += [base_id, evo_id]
+            made += 2
+        # singles
+        for _ in range(n_singles):
+            types = [TYPES[ti % 8]]
+            ti += 1
+            sid = namer.next(0)
+            upsert(creatures_doc["creatures"],
+                   species_rec(sid, sid.capitalize(), types, rid, lo, order, 0, []))
+            pool_ids.append(sid)
+            made += 1
+        region_species[rid] = pool_ids
+
+        # wild table: add every new stage-1 / single as a light-weight spawn
+        tbl = next((t for t in encounters_doc["tables"] if t.get("region") == rid), None)
+        if tbl is not None:
+            existing = {e["creature"] for e in tbl["entries"]}
+            spec_by_id = {c["id"]: c for c in creatures_doc["creatures"]}
+            for sid in pool_ids:
+                if sid in existing:
+                    continue
+                if spec_by_id[sid]["evolves_to"] or spec_by_id[sid]["rarity"] == "common":
+                    tbl["entries"].append({"creature": sid, "weight": 4,
+                                           "level_min": lo, "level_max": lo + 7,
+                                           "rarity": "common"})
+
+    # Battle Courts: many optional trainers per region for grinding XP.
+    court_total = 0
+    for rid, (order, lo) in REGION_ORDERS.items():
+        region_name = rid.capitalize()
+        spec_by_id = {c["id"]: c for c in creatures_doc["creatures"]}
+        pool = [s for s in region_species[rid]]
+        for court_idx in range(1, COURTS_PER_REGION + 1):
+            trainer_ids = []
+            for t_i in range(TRAINERS_PER_COURT):
+                gidx = (court_idx - 1) * TRAINERS_PER_COURT + t_i
+                tid = f"{rid}_court{court_idx}_t{t_i}"
+                trainer_ids.append(tid)
+                # 2-3 creatures from the region pool at the band level
+                size = 2 + (gidx % 2)
+                team = []
+                for k in range(size):
+                    sid = pool[(gidx * 3 + k) % len(pool)]
+                    spec = spec_by_id[sid]
+                    lvl = lo + 2 + (gidx % 5) + k
+                    moves = [e["move"] for e in spec["learnset"] if e["level"] <= lvl][-4:]
+                    team.append({"creature": sid, "level": lvl,
+                                 "moves": moves or [spec["learnset"][0]["move"]]})
+                cls = CLASS_TITLES[gidx % len(CLASS_TITLES)]
+                fn = FIRST_NAMES[(order * 7 + gidx) % len(FIRST_NAMES)]
+                upsert(trainers_doc["trainers"], {
+                    "id": tid, "display_name": f"{cls} {fn}",
+                    "sprite": "trainer_ace", "ai": "intermediate", "boss": False,
+                    "reward_money": 60 + 25 * order,
+                    "dialogue_intro": f"{cls} {fn}: Here to train? Then let's make it count!",
+                    "dialogue_defeat": f"{cls} {fn}: Good match — you're getting stronger!",
+                    "dialogue_victory": f"{cls} {fn}: Come back when you've trained more.",
+                    "team": team,
+                })
+            save(os.path.join(DATA, "regions", "maps", f"{rid}_court_{court_idx}.json"),
+                 court_map(rid, region_name, court_idx, TRAINERS_PER_COURT, trainer_ids))
+            court_total += TRAINERS_PER_COURT
+
+        # Wire courts into the Crossroads (add doors on the free wall tiles).
+        cp = os.path.join(DATA, "regions", "maps", f"{rid}_crossroads.json")
+        cross = load(cp)
+        # free interior wall tiles: left col at rows 6, right col at rows 2 & 6
+        wiring = [(0, 6, "from_court_1", 1, 6), (15, 2, "from_court_2", 14, 2),
+                  (15, 6, "from_court_3", 14, 6)]
+        for ci in range(COURTS_PER_REGION):
+            dx, dy, spawn_id, sx, sy = wiring[ci]
+            row = cross["rows"][dy]
+            cross["rows"][dy] = row[:dx] + "D" + row[dx + 1:]
+            for obj in [
+                {"type": "door", "x": dx, "y": dy, "to_map": f"{rid}_court_{ci + 1}",
+                 "to_spawn": "entrance"},
+                {"type": "spawn", "id": spawn_id, "x": sx, "y": sy},
+            ]:
+                if not any(o.get("type") == obj["type"] and o.get("x") == obj["x"]
+                           and o.get("y") == obj["y"] for o in cross["objects"]):
+                    cross["objects"].append(obj)
+        save(cp, cross)
+
+        # register court maps in the manifest
+        mp = os.path.join(DATA, "regions", f"region_{rid}.json")
+        manifest = load(mp)
+        for ci in range(1, COURTS_PER_REGION + 1):
+            mid = f"{rid}_court_{ci}"
+            if mid not in manifest.get("maps", []):
+                manifest.setdefault("maps", []).append(mid)
+        save(mp, manifest)
+
+    save(os.path.join(DATA, "creatures", "creatures.json"), creatures_doc)
+    save(os.path.join(DATA, "evolutions", "evolutions.json"), evolutions_doc)
+    save(os.path.join(DATA, "trainers", "trainers.json"), trainers_doc)
+    save(os.path.join(DATA, "encounters", "encounters.json"), encounters_doc)
+    print(f"Bulk applied: +{SPECIES_PER_REGION * 9} species, "
+          f"+{court_total} court trainers ({COURTS_PER_REGION} courts x "
+          f"{TRAINERS_PER_COURT}/region).")
+    print(f"Totals now: {len(creatures_doc['creatures'])} species, "
+          f"{len(trainers_doc['trainers'])} trainers.")
+
+
+if __name__ == "__main__":
+    main()

@@ -229,3 +229,15 @@ edit is required. See `DATA_FORMAT.md` and `REGION_CREATION_GUIDE.md`.
   - New permanent validator `tools/validators/check_chain.py`: static map integrity plus a
     progression walk of all nine regions (entries → gyms → elite sequence → champion →
     ports → returns). Passes; data validators green; 30/30 math tests.
+- 2026-07-03 — **Bulk scale-up** (`tools/generators/generate_bulk.py`, all original):
+  - **+540 species → 837 total**: 60 per region across all 8 types (about a third in
+    2-stage evolution lines), unique procedurally-generated names, region-scaled stats,
+    all added to the wild encounter tables so grass is far more varied (and XP-rich).
+  - **+648 trainers → 806 total**: **3 "Battle Court" training halls per region (27 maps,
+    24 trainers each)** — optional grind battles at the region's level band, on isolated
+    non-blocking tiles, wired into each Crossroads via new doors. Purpose-built so players
+    can farm experience anywhere in the world.
+  - Three tunable constants (SPECIES_PER_REGION, COURTS_PER_REGION, TRAINERS_PER_COURT)
+    scale the world up or down in one place.
+  - `check_chain.py` extended to verify every Battle Court (door round-trip + all trainers
+    reachable). All checks pass: 837 creatures, 806 trainers, 140 maps; 30/30 math tests.

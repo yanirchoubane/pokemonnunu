@@ -21,7 +21,10 @@
     "zephyra_gym_electric",
     "zephyra_gym_earth",
     "zephyra_gym_wind",
-    "zephyra_gym_mystic"
+    "zephyra_gym_mystic",
+    "zephyra_court_1",
+    "zephyra_court_2",
+    "zephyra_court_3"
   ],
   "regional_rules": {
     "level_scaling": "soft",

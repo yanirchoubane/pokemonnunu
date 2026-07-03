@@ -23,7 +23,10 @@
     "brume_gym_electric",
     "brume_gym_earth",
     "brume_gym_wind",
-    "brume_gym_mystic"
+    "brume_gym_mystic",
+    "brume_court_1",
+    "brume_court_2",
+    "brume_court_3"
   ],
   "regional_rules": {
     "level_scaling": "soft",

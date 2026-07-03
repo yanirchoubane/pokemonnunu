@@ -25,16 +25,17 @@ JSON files that are validated at boot. You can add content without touching engi
   route trainers), and a Summit Hall (boss champion + crest badge), chained by flag-gated
   ports with return trips. The whole chain's walkability is **verified by a BFS simulation**
   over the map data.
-- ✅ **297 original creatures** — every one of the 8 types has an evolution line in every
-  region (dex generator guarantees coverage; raise its parameters to grow it further),
-  plus region natives and one apex rarity.
-- ✅ **Full league structure in all 9 regions**: a Crossroads city with **8 type-themed
-  gyms** (72 leaders, one badge each), a **gym-circuit quest** that opens the League, and
-  a League corridor where the **four Elites** must be beaten in sequence before the
-  **Champion** (5-creature team). 158 trainers total, incl. route classes and the Hollow
-  Order antagonist arc; 113 maps, 21 quests, 5 endings, 31 moves. The whole progression —
-  entries, gyms, elite sequences, ports, return trips — is verified by
-  `python3 tools/validators/check_chain.py`.
+- ✅ **837 original creatures** — every one of the 8 types has evolution lines in every
+  region, plus hundreds of region natives (all generators are parameterized, so the dex
+  can grow further with one constant).
+- ✅ **806 trainers** across all 9 regions: per region a Crossroads city with **8
+  type-themed gyms** (72 leaders, one badge each), a **gym-circuit quest** that opens the
+  League corridor where the **four Elites** must be beaten in sequence before the
+  **Champion** (5-creature team), route classes, the Hollow Order antagonist arc, and
+  **3 "Battle Court" training halls per region (27 total, ~650 optional trainers) built
+  for grinding XP**. 140 maps, 21 quests, 5 endings, 31 moves. The whole world —
+  entries, gyms, elite sequences, ports, return trips, and every Battle Court trainer —
+  is verified reachable by `python3 tools/validators/check_chain.py`.
 
 Because Godot may not be installed where this was authored, **scene-level runtime testing
 is done in the Godot editor** (below). The engine-independent core is verified now via the

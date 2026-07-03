@@ -27,7 +27,10 @@
     "verdantia_gym_earth",
     "verdantia_gym_wind",
     "verdantia_gym_mystic",
-    "verdantia_league"
+    "verdantia_league",
+    "verdantia_court_1",
+    "verdantia_court_2",
+    "verdantia_court_3"
   ],
   "regional_rules": {
     "level_scaling": "soft",

@@ -24,7 +24,10 @@
     "aquilon_gym_earth",
     "aquilon_gym_wind",
     "aquilon_gym_mystic",
-    "aquilon_league"
+    "aquilon_league",
+    "aquilon_court_1",
+    "aquilon_court_2",
+    "aquilon_court_3"
   ],
   "regional_rules": {
     "level_scaling": "soft",

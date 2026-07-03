@@ -23,7 +23,10 @@
     "ferrock_gym_electric",
     "ferrock_gym_earth",
     "ferrock_gym_wind",
-    "ferrock_gym_mystic"
+    "ferrock_gym_mystic",
+    "ferrock_court_1",
+    "ferrock_court_2",
+    "ferrock_court_3"
   ],
   "regional_rules": {
     "level_scaling": "soft",
