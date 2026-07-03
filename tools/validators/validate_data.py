@@ -188,8 +188,12 @@ def main() -> int:
             if rw.get("kind") == "unlock_region" and rw.get("region") not in regions:
                 errors.append(f"Quest '{qid}' unlocks unknown region '{rw.get('region')}'.")
 
-    # dialogs: node graph integrity + known action kinds (mirrors DataRegistry.validate)
-    dialogs = index(load(os.path.join(DATA, "dialogs", "dialogs.json"))["dialogs"], "id", errors, "dialogs")
+    # dialogs: node graph integrity + known action kinds (mirrors DataRegistry.validate).
+    # All *.json in data/dialogs/ are merged, so story arcs can live in their own files.
+    dialog_records = []
+    for df in glob(os.path.join(DATA, "dialogs", "*.json")):
+        dialog_records.extend(load(df).get("dialogs", []))
+    dialogs = index(dialog_records, "id", errors, "dialogs")
 
     def check_actions(actions, where):
         for a in actions:

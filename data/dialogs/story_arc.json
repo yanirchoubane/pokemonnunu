@@ -1,0 +1,255 @@
+{
+  "$schema_version": 1,
+  "description": "Cross-region story arc: the recurring rival Corin (whose path forks on your relationship), a Hollow Order defector who reveals the Order's rot, and the Archon finale choice that decides the ending. Attached to NPCs placed on every region Crossroads plus two key maps.",
+  "dialogs": [
+    {
+      "id": "corin_road",
+      "nodes": [
+        {
+          "id": "epilogue_true",
+          "condition": { "kind": "all", "conditions": [
+            { "kind": "flag", "flag": "quest_hollow_done" },
+            { "kind": "relationship_at_least", "npc": "corin", "at_least": 4 }
+          ] },
+          "portrait": "corin",
+          "lines": [
+            "Corin: We actually did it, ${player}. Nine regions, one Order dismantled.",
+            "Corin: Whatever road comes next — I'm walking it beside you."
+          ],
+          "next": ""
+        },
+        {
+          "id": "fallen",
+          "condition": { "kind": "flag", "flag": "corin_fallen" },
+          "portrait": "corin",
+          "lines": [
+            "Corin: You kept climbing and never once looked back for me.",
+            "Corin: The Hollow Order saw what you didn't. Don't get in my way."
+          ],
+          "next": ""
+        },
+        {
+          "id": "crossroads_choice",
+          "condition": { "kind": "all", "conditions": [
+            { "kind": "flag", "flag": "visited_umbra" },
+            { "kind": "not", "condition": { "kind": "flag", "flag": "corin_path_set" } }
+          ] },
+          "portrait": "corin",
+          "lines": [
+            "Corin: The Order approached me in Umbra, ${player}. They say strength is wasted on the sentimental.",
+            "Corin: ...Tell me straight. Have these regions meant anything with me in them?"
+          ],
+          "choices": [
+            {
+              "text": "Every step. We finish this together.",
+              "actions": [
+                { "kind": "adjust_relationship", "npc": "corin", "delta": 3 },
+                { "kind": "set_flag", "flag": "corin_path_set" },
+                { "kind": "set_var", "var": "corin_arc", "value": "true" }
+              ],
+              "next": "stay_true"
+            },
+            {
+              "text": "I travel faster alone.",
+              "actions": [
+                { "kind": "adjust_relationship", "npc": "corin", "delta": -2 },
+                { "kind": "set_flag", "flag": "corin_path_set" },
+                { "kind": "set_flag", "flag": "corin_fallen" },
+                { "kind": "set_var", "var": "corin_arc", "value": "fallen" }
+              ],
+              "next": "turn_away"
+            }
+          ]
+        },
+        {
+          "id": "stay_true",
+          "entry": false,
+          "portrait": "corin",
+          "lines": ["Corin: Then let them keep their hollow promises. I've got a real one. See you at the summit, partner."],
+          "next": ""
+        },
+        {
+          "id": "turn_away",
+          "entry": false,
+          "portrait": "corin",
+          "lines": ["Corin: Figures. The Order was right about you. And about me."],
+          "next": ""
+        },
+        {
+          "id": "aquilon_greet",
+          "condition": { "kind": "flag", "flag": "visited_aquilon" },
+          "portrait": "corin",
+          "lines": [
+            "Corin: Aquilon's cold, isn't it? Good place to learn what you're made of.",
+            "Corin: I'll be honest — keeping pace with you is the only thing that keeps me sharp."
+          ],
+          "choices": [
+            {
+              "text": "Then let's push each other.",
+              "actions": [ { "kind": "adjust_relationship", "npc": "corin", "delta": 2 } ],
+              "next": "warm"
+            },
+            {
+              "text": "Keep up or don't.",
+              "actions": [ { "kind": "adjust_relationship", "npc": "corin", "delta": -1 } ],
+              "next": "cool"
+            }
+          ]
+        },
+        {
+          "id": "warm",
+          "entry": false,
+          "portrait": "corin",
+          "lines": ["Corin: Ha! That's the ${player} I signed up to chase."],
+          "next": ""
+        },
+        {
+          "id": "cool",
+          "entry": false,
+          "portrait": "corin",
+          "lines": ["Corin: ...Right. Just don't forget who was there at the start."],
+          "next": ""
+        },
+        {
+          "id": "default_greet",
+          "portrait": "corin",
+          "lines": ["Corin: Another region, another crossroads. Race you to the League, ${player}!"],
+          "choices": [
+            {
+              "text": "You're on.",
+              "actions": [ { "kind": "adjust_relationship", "npc": "corin", "delta": 1 } ],
+              "next": ""
+            },
+            {
+              "text": "Maybe later.",
+              "actions": [],
+              "next": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hollow_defector",
+      "nodes": [
+        {
+          "id": "post",
+          "condition": { "kind": "flag", "flag": "beat_hollow_archon" },
+          "portrait": "defector",
+          "lines": ["Sable: You saw the Archon's face at the end. Just a tired person who forgot why they started. Don't become that."],
+          "next": ""
+        },
+        {
+          "id": "intro",
+          "condition": { "kind": "flag", "flag": "visited_cindral" },
+          "portrait": "defector",
+          "lines": [
+            "Sable: I wore the Hollow gray once. I collected 'debts' from trainers on these roads.",
+            "Sable: The Order isn't strong — it's empty. It hollows people until taking feels like winning.",
+            "Sable: Their Archon waits past Zephyra. If you face them... remember they were a trainer once, like you."
+          ],
+          "actions": [
+            { "kind": "set_flag", "flag": "met_defector" },
+            { "kind": "start_quest", "quest": "main_hollow_order" }
+          ],
+          "choices": [
+            {
+              "text": "Then I'll end the Order for good.",
+              "actions": [ { "kind": "set_var", "var": "order_stance", "value": "justice" } ],
+              "next": "justice_reply"
+            },
+            {
+              "text": "Maybe it can be mended, not broken.",
+              "actions": [ { "kind": "set_var", "var": "order_stance", "value": "mercy" } ],
+              "next": "mercy_reply"
+            }
+          ]
+        },
+        {
+          "id": "justice_reply",
+          "entry": false,
+          "portrait": "defector",
+          "lines": ["Sable: Break it cleanly, then. The roads deserve to be safe."],
+          "next": ""
+        },
+        {
+          "id": "mercy_reply",
+          "entry": false,
+          "portrait": "defector",
+          "lines": ["Sable: ...Maybe you're the one who can. I never could."],
+          "next": ""
+        },
+        {
+          "id": "waiting",
+          "portrait": "defector",
+          "lines": ["Sable: The gray coats moved north. Whatever you decide up there, decide it with open eyes."],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "archon_finale",
+      "nodes": [
+        {
+          "id": "already",
+          "condition": { "kind": "flag", "flag": "hollow_resolved" },
+          "portrait": "archon",
+          "lines": ["The Archon's mask lies where you left it. The gray coats are gone from the roads."],
+          "next": ""
+        },
+        {
+          "id": "mercy_path",
+          "condition": { "kind": "all", "conditions": [
+            { "kind": "flag", "flag": "beat_hollow_archon" },
+            { "kind": "var_equals", "var": "order_stance", "value": "mercy" }
+          ] },
+          "portrait": "archon",
+          "lines": [
+            "Archon: Beaten. So finish it, Champion. That is what the strong do.",
+            "You look at the exhausted figure behind the mask, and lower your hand."
+          ],
+          "choices": [
+            {
+              "text": "Come back to the roads. Rebuild what you took.",
+              "actions": [
+                { "kind": "set_flag", "flag": "hollow_resolved" },
+                { "kind": "set_flag", "flag": "quest_hollow_done" },
+                { "kind": "set_var", "var": "order_end", "value": "mercy" },
+                { "kind": "adjust_relationship", "npc": "corin", "delta": 1 },
+                { "kind": "trigger_ending" }
+              ],
+              "next": ""
+            }
+          ]
+        },
+        {
+          "id": "justice_path",
+          "condition": { "kind": "flag", "flag": "beat_hollow_archon" },
+          "portrait": "archon",
+          "lines": [
+            "Archon: Beaten. The Order's ledger closes with me.",
+            "You gather every debt-scroll and burn them where the whole steppe can see."
+          ],
+          "choices": [
+            {
+              "text": "The roads are free now. It's over.",
+              "actions": [
+                { "kind": "set_flag", "flag": "hollow_resolved" },
+                { "kind": "set_flag", "flag": "quest_hollow_done" },
+                { "kind": "set_var", "var": "order_end", "value": "justice" },
+                { "kind": "trigger_ending" }
+              ],
+              "next": ""
+            }
+          ]
+        },
+        {
+          "id": "not_yet",
+          "portrait": "archon",
+          "lines": ["A masked figure watches from the ridgeline, waiting. You are not ready to face the Archon yet."],
+          "next": ""
+        }
+      ]
+    }
+  ]
+}

@@ -28,14 +28,19 @@ JSON files that are validated at boot. You can add content without touching engi
 - ✅ **837 original creatures** — every one of the 8 types has evolution lines in every
   region, plus hundreds of region natives (all generators are parameterized, so the dex
   can grow further with one constant).
-- ✅ **806 trainers** across all 9 regions: per region a Crossroads city with **8
+- ✅ **1,454 trainers** across all 9 regions: per region a Crossroads city with **8
   type-themed gyms** (72 leaders, one badge each), a **gym-circuit quest** that opens the
   League corridor where the **four Elites** must be beaten in sequence before the
-  **Champion** (5-creature team), route classes, the Hollow Order antagonist arc, and
-  **3 "Battle Court" training halls per region (27 total, ~650 optional trainers) built
-  for grinding XP**. 140 maps, 21 quests, 5 endings, 31 moves. The whole world —
-  entries, gyms, elite sequences, ports, return trips, and every Battle Court trainer —
-  is verified reachable by `python3 tools/validators/check_chain.py`.
+  **Champion** (5-creature team), route classes, and **3 "Battle Court" training halls per
+  region (27 total, ~1,300 optional trainers) built for grinding XP**. 140 maps, 22 quests,
+  8 endings, 31 moves. The whole world — entries, gyms, elite sequences, ports, return
+  trips, and every Battle Court trainer — is verified reachable by
+  `python3 tools/validators/check_chain.py`.
+- ✅ **Branching story arc**: a recurring rival, **Corin**, meets you at every region's
+  Crossroads; your answers move a relationship score that decides whether he stays a true
+  rival or is drawn into the antagonist **Hollow Order**. A defector reveals the Order's
+  rot, and after the Archon boss you choose **mercy or justice** — the finale, and which
+  of the 8 endings you get, follows your choices (see `STORY.md`).
 
 Because Godot may not be installed where this was authored, **scene-level runtime testing
 is done in the Godot editor** (below). The engine-independent core is verified now via the

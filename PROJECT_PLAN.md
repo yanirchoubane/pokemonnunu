@@ -241,3 +241,18 @@ edit is required. See `DATA_FORMAT.md` and `REGION_CREATION_GUIDE.md`.
     scale the world up or down in one place.
   - `check_chain.py` extended to verify every Battle Court (door round-trip + all trainers
     reachable). All checks pass: 837 creatures, 806 trainers, 140 maps; 30/30 math tests.
+- 2026-07-03 — **More trainers + branching story**:
+  - Battle Courts raised to 48 trainers each → **1,454 trainers total**. `generate_bulk.py`
+    made fully idempotent: deterministic region-prefixed species ids + self-pruning of its
+    own previous output, so knob changes re-generate cleanly (species stayed at 837, no
+    orphans).
+  - DataRegistry (+ Python validator) now merge **all** `data/dialogs/*.json`, so story
+    content can live in its own file. New `data/dialogs/story_arc.json`.
+  - **Branching narrative** (`STORY.md`): recurring rival Corin at every Crossroads with a
+    relationship-driven fork (stays true / falls to the Order in Umbra); a Hollow Order
+    defector (Sable) who starts the arc and sets your stance; the Archon finale with a
+    mercy/justice choice. Quest `main_hollow_order` now completes on the finale decision
+    (`hollow_resolved`), not the raw battle. Three new endings (Rivals to the End, The Hand
+    You Didn't Raise, Ledgers to Ash) → **8 endings**, priority-ordered.
+  - Corin NPCs placed on all 9 Crossroads; defector in Cindral Gate; finale NPC in the
+    Zephyra wilds. check_chain + validators + 30/30 math tests all pass.

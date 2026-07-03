@@ -1299,1620 +1299,1620 @@
       }
     },
     {
-      "id": "evo_bramaling",
-      "from": "bramaling",
-      "to": "cinqafang",
+      "id": "evo_vebramaling",
+      "from": "vebramaling",
+      "to": "vebramafang",
       "condition": {
         "kind": "level_up",
         "level": 14
       }
     },
     {
-      "id": "evo_dornaling",
-      "from": "dornaling",
-      "to": "eldafang",
+      "id": "evo_vecinqaling",
+      "from": "vecinqaling",
+      "to": "vecinqafang",
       "condition": {
         "kind": "level_up",
         "level": 14
       }
     },
     {
-      "id": "evo_fenaling",
-      "from": "fenaling",
-      "to": "grimafang",
+      "id": "evo_vedornaling",
+      "from": "vedornaling",
+      "to": "vedornafang",
       "condition": {
         "kind": "level_up",
         "level": 14
       }
     },
     {
-      "id": "evo_holloaling",
-      "from": "holloaling",
-      "to": "iriafang",
+      "id": "evo_veeldaling",
+      "from": "veeldaling",
+      "to": "veeldafang",
       "condition": {
         "kind": "level_up",
         "level": 14
       }
     },
     {
-      "id": "evo_jorvaling",
-      "from": "jorvaling",
-      "to": "kestafang",
+      "id": "evo_vefenaling",
+      "from": "vefenaling",
+      "to": "vefenafang",
       "condition": {
         "kind": "level_up",
         "level": 14
       }
     },
     {
-      "id": "evo_lumaling",
-      "from": "lumaling",
-      "to": "morafang",
+      "id": "evo_vegrimaling",
+      "from": "vegrimaling",
+      "to": "vegrimafang",
       "condition": {
         "kind": "level_up",
         "level": 14
       }
     },
     {
-      "id": "evo_nyxaling",
-      "from": "nyxaling",
-      "to": "orlafang",
+      "id": "evo_veholloaling",
+      "from": "veholloaling",
+      "to": "veholloafang",
       "condition": {
         "kind": "level_up",
         "level": 14
       }
     },
     {
-      "id": "evo_pyraling",
-      "from": "pyraling",
-      "to": "quillafang",
+      "id": "evo_veirialing",
+      "from": "veirialing",
+      "to": "veiriafang",
       "condition": {
         "kind": "level_up",
         "level": 14
       }
     },
     {
-      "id": "evo_rynaling",
-      "from": "rynaling",
-      "to": "solafang",
+      "id": "evo_vejorvaling",
+      "from": "vejorvaling",
+      "to": "vejorvafang",
       "condition": {
         "kind": "level_up",
         "level": 14
       }
     },
     {
-      "id": "evo_tamaling",
-      "from": "tamaling",
-      "to": "umbrafang",
+      "id": "evo_vekestaling",
+      "from": "vekestaling",
+      "to": "vekestafang",
       "condition": {
         "kind": "level_up",
         "level": 14
       }
     },
     {
-      "id": "evo_vexaling",
-      "from": "vexaling",
-      "to": "wynafang",
+      "id": "evo_velumaling",
+      "from": "velumaling",
+      "to": "velumafang",
       "condition": {
         "kind": "level_up",
         "level": 14
       }
     },
     {
-      "id": "evo_yaraling",
-      "from": "yaraling",
-      "to": "zephafang",
+      "id": "evo_vemoraling",
+      "from": "vemoraling",
+      "to": "vemorafang",
       "condition": {
         "kind": "level_up",
         "level": 14
       }
     },
     {
-      "id": "evo_balaling",
-      "from": "balaling",
-      "to": "crevafang",
+      "id": "evo_venyxaling",
+      "from": "venyxaling",
+      "to": "venyxafang",
       "condition": {
         "kind": "level_up",
         "level": 14
       }
     },
     {
-      "id": "evo_duskaling",
-      "from": "duskaling",
-      "to": "emberafang",
+      "id": "evo_veorlaling",
+      "from": "veorlaling",
+      "to": "veorlafang",
       "condition": {
         "kind": "level_up",
         "level": 14
       }
     },
     {
-      "id": "evo_frostaling",
-      "from": "frostaling",
-      "to": "glimafang",
+      "id": "evo_vepyraling",
+      "from": "vepyraling",
+      "to": "vepyrafang",
       "condition": {
         "kind": "level_up",
         "level": 14
       }
     },
     {
-      "id": "evo_brameling",
-      "from": "brameling",
-      "to": "cinqefang",
+      "id": "evo_vequillaling",
+      "from": "vequillaling",
+      "to": "vequillafang",
       "condition": {
         "kind": "level_up",
         "level": 14
       }
     },
     {
-      "id": "evo_dorneling",
-      "from": "dorneling",
-      "to": "eldefang",
+      "id": "evo_verynaling",
+      "from": "verynaling",
+      "to": "verynafang",
       "condition": {
         "kind": "level_up",
         "level": 14
       }
     },
     {
-      "id": "evo_feneling",
-      "from": "feneling",
-      "to": "grimefang",
+      "id": "evo_vesolaling",
+      "from": "vesolaling",
+      "to": "vesolafang",
       "condition": {
         "kind": "level_up",
         "level": 14
       }
     },
     {
-      "id": "evo_holloeling",
-      "from": "holloeling",
-      "to": "iriefang",
+      "id": "evo_vetamaling",
+      "from": "vetamaling",
+      "to": "vetamafang",
       "condition": {
         "kind": "level_up",
         "level": 14
       }
     },
     {
-      "id": "evo_jorveling",
-      "from": "jorveling",
-      "to": "kestefang",
+      "id": "evo_veumbraling",
+      "from": "veumbraling",
+      "to": "veumbrafang",
       "condition": {
         "kind": "level_up",
         "level": 14
       }
     },
     {
-      "id": "evo_bramiling",
-      "from": "bramiling",
-      "to": "cinqifang",
+      "id": "evo_aqlumeling",
+      "from": "aqlumeling",
+      "to": "aqlumefang",
       "condition": {
         "kind": "level_up",
         "level": 20
       }
     },
     {
-      "id": "evo_dorniling",
-      "from": "dorniling",
-      "to": "eldifang",
+      "id": "evo_aqmoreling",
+      "from": "aqmoreling",
+      "to": "aqmorefang",
       "condition": {
         "kind": "level_up",
         "level": 20
       }
     },
     {
-      "id": "evo_feniling",
-      "from": "feniling",
-      "to": "grimifang",
+      "id": "evo_aqnyxeling",
+      "from": "aqnyxeling",
+      "to": "aqnyxefang",
       "condition": {
         "kind": "level_up",
         "level": 20
       }
     },
     {
-      "id": "evo_holloiling",
-      "from": "holloiling",
-      "to": "iriifang",
+      "id": "evo_aqorleling",
+      "from": "aqorleling",
+      "to": "aqorlefang",
       "condition": {
         "kind": "level_up",
         "level": 20
       }
     },
     {
-      "id": "evo_jorviling",
-      "from": "jorviling",
-      "to": "kestifang",
+      "id": "evo_aqpyreling",
+      "from": "aqpyreling",
+      "to": "aqpyrefang",
       "condition": {
         "kind": "level_up",
         "level": 20
       }
     },
     {
-      "id": "evo_lumiling",
-      "from": "lumiling",
-      "to": "morifang",
+      "id": "evo_aqquilleling",
+      "from": "aqquilleling",
+      "to": "aqquillefang",
       "condition": {
         "kind": "level_up",
         "level": 20
       }
     },
     {
-      "id": "evo_nyxiling",
-      "from": "nyxiling",
-      "to": "orlifang",
+      "id": "evo_aqryneling",
+      "from": "aqryneling",
+      "to": "aqrynefang",
       "condition": {
         "kind": "level_up",
         "level": 20
       }
     },
     {
-      "id": "evo_pyriling",
-      "from": "pyriling",
-      "to": "quillifang",
+      "id": "evo_aqsoleling",
+      "from": "aqsoleling",
+      "to": "aqsolefang",
       "condition": {
         "kind": "level_up",
         "level": 20
       }
     },
     {
-      "id": "evo_ryniling",
-      "from": "ryniling",
-      "to": "solifang",
+      "id": "evo_aqtameling",
+      "from": "aqtameling",
+      "to": "aqtamefang",
       "condition": {
         "kind": "level_up",
         "level": 20
       }
     },
     {
-      "id": "evo_tamiling",
-      "from": "tamiling",
-      "to": "umbrifang",
+      "id": "evo_aqumbreling",
+      "from": "aqumbreling",
+      "to": "aqumbrefang",
       "condition": {
         "kind": "level_up",
         "level": 20
       }
     },
     {
-      "id": "evo_vexiling",
-      "from": "vexiling",
-      "to": "wynifang",
+      "id": "evo_aqvexeling",
+      "from": "aqvexeling",
+      "to": "aqvexefang",
       "condition": {
         "kind": "level_up",
         "level": 20
       }
     },
     {
-      "id": "evo_yariling",
-      "from": "yariling",
-      "to": "zephifang",
+      "id": "evo_aqwyneling",
+      "from": "aqwyneling",
+      "to": "aqwynefang",
       "condition": {
         "kind": "level_up",
         "level": 20
       }
     },
     {
-      "id": "evo_baliling",
-      "from": "baliling",
-      "to": "crevifang",
+      "id": "evo_aqyareling",
+      "from": "aqyareling",
+      "to": "aqyarefang",
       "condition": {
         "kind": "level_up",
         "level": 20
       }
     },
     {
-      "id": "evo_duskiling",
-      "from": "duskiling",
-      "to": "emberifang",
+      "id": "evo_aqzepheling",
+      "from": "aqzepheling",
+      "to": "aqzephefang",
       "condition": {
         "kind": "level_up",
         "level": 20
       }
     },
     {
-      "id": "evo_frostiling",
-      "from": "frostiling",
-      "to": "glimifang",
+      "id": "evo_aqbaleling",
+      "from": "aqbaleling",
+      "to": "aqbalefang",
       "condition": {
         "kind": "level_up",
         "level": 20
       }
     },
     {
-      "id": "evo_bramoling",
-      "from": "bramoling",
-      "to": "cinqofang",
+      "id": "evo_aqcreveling",
+      "from": "aqcreveling",
+      "to": "aqcrevefang",
       "condition": {
         "kind": "level_up",
         "level": 20
       }
     },
     {
-      "id": "evo_dornoling",
-      "from": "dornoling",
-      "to": "eldofang",
+      "id": "evo_aqduskeling",
+      "from": "aqduskeling",
+      "to": "aqduskefang",
       "condition": {
         "kind": "level_up",
         "level": 20
       }
     },
     {
-      "id": "evo_fenoling",
-      "from": "fenoling",
-      "to": "grimofang",
+      "id": "evo_aqembereling",
+      "from": "aqembereling",
+      "to": "aqemberefang",
       "condition": {
         "kind": "level_up",
         "level": 20
       }
     },
     {
-      "id": "evo_hollooling",
-      "from": "hollooling",
-      "to": "iriofang",
+      "id": "evo_aqfrosteling",
+      "from": "aqfrosteling",
+      "to": "aqfrostefang",
       "condition": {
         "kind": "level_up",
         "level": 20
       }
     },
     {
-      "id": "evo_jorvoling",
-      "from": "jorvoling",
-      "to": "kestofang",
+      "id": "evo_aqglimeling",
+      "from": "aqglimeling",
+      "to": "aqglimefang",
       "condition": {
         "kind": "level_up",
         "level": 20
       }
     },
     {
-      "id": "evo_bramuling",
-      "from": "bramuling",
-      "to": "cinqufang",
+      "id": "evo_civexiling",
+      "from": "civexiling",
+      "to": "civexifang",
       "condition": {
         "kind": "level_up",
         "level": 26
       }
     },
     {
-      "id": "evo_dornuling",
-      "from": "dornuling",
-      "to": "eldufang",
+      "id": "evo_ciwyniling",
+      "from": "ciwyniling",
+      "to": "ciwynifang",
       "condition": {
         "kind": "level_up",
         "level": 26
       }
     },
     {
-      "id": "evo_fenuling",
-      "from": "fenuling",
-      "to": "grimufang",
+      "id": "evo_ciyariling",
+      "from": "ciyariling",
+      "to": "ciyarifang",
       "condition": {
         "kind": "level_up",
         "level": 26
       }
     },
     {
-      "id": "evo_hollouling",
-      "from": "hollouling",
-      "to": "iriufang",
+      "id": "evo_cizephiling",
+      "from": "cizephiling",
+      "to": "cizephifang",
       "condition": {
         "kind": "level_up",
         "level": 26
       }
     },
     {
-      "id": "evo_jorvuling",
-      "from": "jorvuling",
-      "to": "kestufang",
+      "id": "evo_cibaliling",
+      "from": "cibaliling",
+      "to": "cibalifang",
       "condition": {
         "kind": "level_up",
         "level": 26
       }
     },
     {
-      "id": "evo_lumuling",
-      "from": "lumuling",
-      "to": "morufang",
+      "id": "evo_cicreviling",
+      "from": "cicreviling",
+      "to": "cicrevifang",
       "condition": {
         "kind": "level_up",
         "level": 26
       }
     },
     {
-      "id": "evo_nyxuling",
-      "from": "nyxuling",
-      "to": "orlufang",
+      "id": "evo_ciduskiling",
+      "from": "ciduskiling",
+      "to": "ciduskifang",
       "condition": {
         "kind": "level_up",
         "level": 26
       }
     },
     {
-      "id": "evo_pyruling",
-      "from": "pyruling",
-      "to": "quillufang",
+      "id": "evo_ciemberiling",
+      "from": "ciemberiling",
+      "to": "ciemberifang",
       "condition": {
         "kind": "level_up",
         "level": 26
       }
     },
     {
-      "id": "evo_rynuling",
-      "from": "rynuling",
-      "to": "solufang",
+      "id": "evo_cifrostiling",
+      "from": "cifrostiling",
+      "to": "cifrostifang",
       "condition": {
         "kind": "level_up",
         "level": 26
       }
     },
     {
-      "id": "evo_tamuling",
-      "from": "tamuling",
-      "to": "umbrufang",
+      "id": "evo_ciglimiling",
+      "from": "ciglimiling",
+      "to": "ciglimifang",
       "condition": {
         "kind": "level_up",
         "level": 26
       }
     },
     {
-      "id": "evo_vexuling",
-      "from": "vexuling",
-      "to": "wynufang",
+      "id": "evo_cibramoling",
+      "from": "cibramoling",
+      "to": "cibramofang",
       "condition": {
         "kind": "level_up",
         "level": 26
       }
     },
     {
-      "id": "evo_yaruling",
-      "from": "yaruling",
-      "to": "zephufang",
+      "id": "evo_cicinqoling",
+      "from": "cicinqoling",
+      "to": "cicinqofang",
       "condition": {
         "kind": "level_up",
         "level": 26
       }
     },
     {
-      "id": "evo_baluling",
-      "from": "baluling",
-      "to": "crevufang",
+      "id": "evo_cidornoling",
+      "from": "cidornoling",
+      "to": "cidornofang",
       "condition": {
         "kind": "level_up",
         "level": 26
       }
     },
     {
-      "id": "evo_duskuling",
-      "from": "duskuling",
-      "to": "emberufang",
+      "id": "evo_cieldoling",
+      "from": "cieldoling",
+      "to": "cieldofang",
       "condition": {
         "kind": "level_up",
         "level": 26
       }
     },
     {
-      "id": "evo_frostuling",
-      "from": "frostuling",
-      "to": "glimufang",
+      "id": "evo_cifenoling",
+      "from": "cifenoling",
+      "to": "cifenofang",
       "condition": {
         "kind": "level_up",
         "level": 26
       }
     },
     {
-      "id": "evo_bramaeling",
-      "from": "bramaeling",
-      "to": "cinqaefang",
+      "id": "evo_cigrimoling",
+      "from": "cigrimoling",
+      "to": "cigrimofang",
       "condition": {
         "kind": "level_up",
         "level": 26
       }
     },
     {
-      "id": "evo_dornaeling",
-      "from": "dornaeling",
-      "to": "eldaefang",
+      "id": "evo_cihollooling",
+      "from": "cihollooling",
+      "to": "ciholloofang",
       "condition": {
         "kind": "level_up",
         "level": 26
       }
     },
     {
-      "id": "evo_fenaeling",
-      "from": "fenaeling",
-      "to": "grimaefang",
+      "id": "evo_ciirioling",
+      "from": "ciirioling",
+      "to": "ciiriofang",
       "condition": {
         "kind": "level_up",
         "level": 26
       }
     },
     {
-      "id": "evo_holloaeling",
-      "from": "holloaeling",
-      "to": "iriaefang",
+      "id": "evo_cijorvoling",
+      "from": "cijorvoling",
+      "to": "cijorvofang",
       "condition": {
         "kind": "level_up",
         "level": 26
       }
     },
     {
-      "id": "evo_jorvaeling",
-      "from": "jorvaeling",
-      "to": "kestaefang",
+      "id": "evo_cikestoling",
+      "from": "cikestoling",
+      "to": "cikestofang",
       "condition": {
         "kind": "level_up",
         "level": 26
       }
     },
     {
-      "id": "evo_bramorling",
-      "from": "bramorling",
-      "to": "cinqorfang",
+      "id": "evo_sobramuling",
+      "from": "sobramuling",
+      "to": "sobramufang",
       "condition": {
         "kind": "level_up",
         "level": 32
       }
     },
     {
-      "id": "evo_dornorling",
-      "from": "dornorling",
-      "to": "eldorfang",
+      "id": "evo_socinquling",
+      "from": "socinquling",
+      "to": "socinqufang",
       "condition": {
         "kind": "level_up",
         "level": 32
       }
     },
     {
-      "id": "evo_fenorling",
-      "from": "fenorling",
-      "to": "grimorfang",
+      "id": "evo_sodornuling",
+      "from": "sodornuling",
+      "to": "sodornufang",
       "condition": {
         "kind": "level_up",
         "level": 32
       }
     },
     {
-      "id": "evo_holloorling",
-      "from": "holloorling",
-      "to": "iriorfang",
+      "id": "evo_soelduling",
+      "from": "soelduling",
+      "to": "soeldufang",
       "condition": {
         "kind": "level_up",
         "level": 32
       }
     },
     {
-      "id": "evo_jorvorling",
-      "from": "jorvorling",
-      "to": "kestorfang",
+      "id": "evo_sofenuling",
+      "from": "sofenuling",
+      "to": "sofenufang",
       "condition": {
         "kind": "level_up",
         "level": 32
       }
     },
     {
-      "id": "evo_lumorling",
-      "from": "lumorling",
-      "to": "mororfang",
+      "id": "evo_sogrimuling",
+      "from": "sogrimuling",
+      "to": "sogrimufang",
       "condition": {
         "kind": "level_up",
         "level": 32
       }
     },
     {
-      "id": "evo_nyxorling",
-      "from": "nyxorling",
-      "to": "orlorfang",
+      "id": "evo_sohollouling",
+      "from": "sohollouling",
+      "to": "soholloufang",
       "condition": {
         "kind": "level_up",
         "level": 32
       }
     },
     {
-      "id": "evo_pyrorling",
-      "from": "pyrorling",
-      "to": "quillorfang",
+      "id": "evo_soiriuling",
+      "from": "soiriuling",
+      "to": "soiriufang",
       "condition": {
         "kind": "level_up",
         "level": 32
       }
     },
     {
-      "id": "evo_rynorling",
-      "from": "rynorling",
-      "to": "solorfang",
+      "id": "evo_sojorvuling",
+      "from": "sojorvuling",
+      "to": "sojorvufang",
       "condition": {
         "kind": "level_up",
         "level": 32
       }
     },
     {
-      "id": "evo_tamorling",
-      "from": "tamorling",
-      "to": "umbrorfang",
+      "id": "evo_sokestuling",
+      "from": "sokestuling",
+      "to": "sokestufang",
       "condition": {
         "kind": "level_up",
         "level": 32
       }
     },
     {
-      "id": "evo_vexorling",
-      "from": "vexorling",
-      "to": "wynorfang",
+      "id": "evo_solumuling",
+      "from": "solumuling",
+      "to": "solumufang",
       "condition": {
         "kind": "level_up",
         "level": 32
       }
     },
     {
-      "id": "evo_yarorling",
-      "from": "yarorling",
-      "to": "zephorfang",
+      "id": "evo_somoruling",
+      "from": "somoruling",
+      "to": "somorufang",
       "condition": {
         "kind": "level_up",
         "level": 32
       }
     },
     {
-      "id": "evo_balorling",
-      "from": "balorling",
-      "to": "crevorfang",
+      "id": "evo_sonyxuling",
+      "from": "sonyxuling",
+      "to": "sonyxufang",
       "condition": {
         "kind": "level_up",
         "level": 32
       }
     },
     {
-      "id": "evo_duskorling",
-      "from": "duskorling",
-      "to": "emberorfang",
+      "id": "evo_soorluling",
+      "from": "soorluling",
+      "to": "soorlufang",
       "condition": {
         "kind": "level_up",
         "level": 32
       }
     },
     {
-      "id": "evo_frostorling",
-      "from": "frostorling",
-      "to": "glimorfang",
+      "id": "evo_sopyruling",
+      "from": "sopyruling",
+      "to": "sopyrufang",
       "condition": {
         "kind": "level_up",
         "level": 32
       }
     },
     {
-      "id": "evo_bramenling",
-      "from": "bramenling",
-      "to": "cinqenfang",
+      "id": "evo_soquilluling",
+      "from": "soquilluling",
+      "to": "soquillufang",
       "condition": {
         "kind": "level_up",
         "level": 32
       }
     },
     {
-      "id": "evo_dornenling",
-      "from": "dornenling",
-      "to": "eldenfang",
+      "id": "evo_sorynuling",
+      "from": "sorynuling",
+      "to": "sorynufang",
       "condition": {
         "kind": "level_up",
         "level": 32
       }
     },
     {
-      "id": "evo_fenenling",
-      "from": "fenenling",
-      "to": "grimenfang",
+      "id": "evo_sosoluling",
+      "from": "sosoluling",
+      "to": "sosolufang",
       "condition": {
         "kind": "level_up",
         "level": 32
       }
     },
     {
-      "id": "evo_holloenling",
-      "from": "holloenling",
-      "to": "irienfang",
+      "id": "evo_sotamuling",
+      "from": "sotamuling",
+      "to": "sotamufang",
       "condition": {
         "kind": "level_up",
         "level": 32
       }
     },
     {
-      "id": "evo_jorvenling",
-      "from": "jorvenling",
-      "to": "kestenfang",
+      "id": "evo_soumbruling",
+      "from": "soumbruling",
+      "to": "soumbrufang",
       "condition": {
         "kind": "level_up",
         "level": 32
       }
     },
     {
-      "id": "evo_bramilling",
-      "from": "bramilling",
-      "to": "cinqilfang",
+      "id": "evo_umlumaeling",
+      "from": "umlumaeling",
+      "to": "umlumaefang",
       "condition": {
         "kind": "level_up",
         "level": 38
       }
     },
     {
-      "id": "evo_dornilling",
-      "from": "dornilling",
-      "to": "eldilfang",
+      "id": "evo_ummoraeling",
+      "from": "ummoraeling",
+      "to": "ummoraefang",
       "condition": {
         "kind": "level_up",
         "level": 38
       }
     },
     {
-      "id": "evo_fenilling",
-      "from": "fenilling",
-      "to": "grimilfang",
+      "id": "evo_umnyxaeling",
+      "from": "umnyxaeling",
+      "to": "umnyxaefang",
       "condition": {
         "kind": "level_up",
         "level": 38
       }
     },
     {
-      "id": "evo_holloilling",
-      "from": "holloilling",
-      "to": "iriilfang",
+      "id": "evo_umorlaeling",
+      "from": "umorlaeling",
+      "to": "umorlaefang",
       "condition": {
         "kind": "level_up",
         "level": 38
       }
     },
     {
-      "id": "evo_jorvilling",
-      "from": "jorvilling",
-      "to": "kestilfang",
+      "id": "evo_umpyraeling",
+      "from": "umpyraeling",
+      "to": "umpyraefang",
       "condition": {
         "kind": "level_up",
         "level": 38
       }
     },
     {
-      "id": "evo_lumilling",
-      "from": "lumilling",
-      "to": "morilfang",
+      "id": "evo_umquillaeling",
+      "from": "umquillaeling",
+      "to": "umquillaefang",
       "condition": {
         "kind": "level_up",
         "level": 38
       }
     },
     {
-      "id": "evo_nyxilling",
-      "from": "nyxilling",
-      "to": "orlilfang",
+      "id": "evo_umrynaeling",
+      "from": "umrynaeling",
+      "to": "umrynaefang",
       "condition": {
         "kind": "level_up",
         "level": 38
       }
     },
     {
-      "id": "evo_pyrilling",
-      "from": "pyrilling",
-      "to": "quillilfang",
+      "id": "evo_umsolaeling",
+      "from": "umsolaeling",
+      "to": "umsolaefang",
       "condition": {
         "kind": "level_up",
         "level": 38
       }
     },
     {
-      "id": "evo_rynilling",
-      "from": "rynilling",
-      "to": "solilfang",
+      "id": "evo_umtamaeling",
+      "from": "umtamaeling",
+      "to": "umtamaefang",
       "condition": {
         "kind": "level_up",
         "level": 38
       }
     },
     {
-      "id": "evo_tamilling",
-      "from": "tamilling",
-      "to": "umbrilfang",
+      "id": "evo_umumbraeling",
+      "from": "umumbraeling",
+      "to": "umumbraefang",
       "condition": {
         "kind": "level_up",
         "level": 38
       }
     },
     {
-      "id": "evo_vexilling",
-      "from": "vexilling",
-      "to": "wynilfang",
+      "id": "evo_umvexaeling",
+      "from": "umvexaeling",
+      "to": "umvexaefang",
       "condition": {
         "kind": "level_up",
         "level": 38
       }
     },
     {
-      "id": "evo_yarilling",
-      "from": "yarilling",
-      "to": "zephilfang",
+      "id": "evo_umwynaeling",
+      "from": "umwynaeling",
+      "to": "umwynaefang",
       "condition": {
         "kind": "level_up",
         "level": 38
       }
     },
     {
-      "id": "evo_balilling",
-      "from": "balilling",
-      "to": "crevilfang",
+      "id": "evo_umyaraeling",
+      "from": "umyaraeling",
+      "to": "umyaraefang",
       "condition": {
         "kind": "level_up",
         "level": 38
       }
     },
     {
-      "id": "evo_duskilling",
-      "from": "duskilling",
-      "to": "emberilfang",
+      "id": "evo_umzephaeling",
+      "from": "umzephaeling",
+      "to": "umzephaefang",
       "condition": {
         "kind": "level_up",
         "level": 38
       }
     },
     {
-      "id": "evo_frostilling",
-      "from": "frostilling",
-      "to": "glimilfang",
+      "id": "evo_umbalaeling",
+      "from": "umbalaeling",
+      "to": "umbalaefang",
       "condition": {
         "kind": "level_up",
         "level": 38
       }
     },
     {
-      "id": "evo_bramarling",
-      "from": "bramarling",
-      "to": "cinqarfang",
+      "id": "evo_umcrevaeling",
+      "from": "umcrevaeling",
+      "to": "umcrevaefang",
       "condition": {
         "kind": "level_up",
         "level": 38
       }
     },
     {
-      "id": "evo_dornarling",
-      "from": "dornarling",
-      "to": "eldarfang",
+      "id": "evo_umduskaeling",
+      "from": "umduskaeling",
+      "to": "umduskaefang",
       "condition": {
         "kind": "level_up",
         "level": 38
       }
     },
     {
-      "id": "evo_fenarling",
-      "from": "fenarling",
-      "to": "grimarfang",
+      "id": "evo_umemberaeling",
+      "from": "umemberaeling",
+      "to": "umemberaefang",
       "condition": {
         "kind": "level_up",
         "level": 38
       }
     },
     {
-      "id": "evo_holloarling",
-      "from": "holloarling",
-      "to": "iriarfang",
+      "id": "evo_umfrostaeling",
+      "from": "umfrostaeling",
+      "to": "umfrostaefang",
       "condition": {
         "kind": "level_up",
         "level": 38
       }
     },
     {
-      "id": "evo_jorvarling",
-      "from": "jorvarling",
-      "to": "kestarfang",
+      "id": "evo_umglimaeling",
+      "from": "umglimaeling",
+      "to": "umglimaefang",
       "condition": {
         "kind": "level_up",
         "level": 38
       }
     },
     {
-      "id": "evo_bramakit",
-      "from": "bramakit",
-      "to": "cinqaclaw",
+      "id": "evo_fevexorling",
+      "from": "fevexorling",
+      "to": "fevexorfang",
       "condition": {
         "kind": "level_up",
         "level": 44
       }
     },
     {
-      "id": "evo_dornakit",
-      "from": "dornakit",
-      "to": "eldaclaw",
+      "id": "evo_fewynorling",
+      "from": "fewynorling",
+      "to": "fewynorfang",
       "condition": {
         "kind": "level_up",
         "level": 44
       }
     },
     {
-      "id": "evo_fenakit",
-      "from": "fenakit",
-      "to": "grimaclaw",
+      "id": "evo_feyarorling",
+      "from": "feyarorling",
+      "to": "feyarorfang",
       "condition": {
         "kind": "level_up",
         "level": 44
       }
     },
     {
-      "id": "evo_holloakit",
-      "from": "holloakit",
-      "to": "iriaclaw",
+      "id": "evo_fezephorling",
+      "from": "fezephorling",
+      "to": "fezephorfang",
       "condition": {
         "kind": "level_up",
         "level": 44
       }
     },
     {
-      "id": "evo_jorvakit",
-      "from": "jorvakit",
-      "to": "kestaclaw",
+      "id": "evo_febalorling",
+      "from": "febalorling",
+      "to": "febalorfang",
       "condition": {
         "kind": "level_up",
         "level": 44
       }
     },
     {
-      "id": "evo_lumakit",
-      "from": "lumakit",
-      "to": "moraclaw",
+      "id": "evo_fecrevorling",
+      "from": "fecrevorling",
+      "to": "fecrevorfang",
       "condition": {
         "kind": "level_up",
         "level": 44
       }
     },
     {
-      "id": "evo_nyxakit",
-      "from": "nyxakit",
-      "to": "orlaclaw",
+      "id": "evo_feduskorling",
+      "from": "feduskorling",
+      "to": "feduskorfang",
       "condition": {
         "kind": "level_up",
         "level": 44
       }
     },
     {
-      "id": "evo_pyrakit",
-      "from": "pyrakit",
-      "to": "quillaclaw",
+      "id": "evo_feemberorling",
+      "from": "feemberorling",
+      "to": "feemberorfang",
       "condition": {
         "kind": "level_up",
         "level": 44
       }
     },
     {
-      "id": "evo_rynakit",
-      "from": "rynakit",
-      "to": "solaclaw",
+      "id": "evo_fefrostorling",
+      "from": "fefrostorling",
+      "to": "fefrostorfang",
       "condition": {
         "kind": "level_up",
         "level": 44
       }
     },
     {
-      "id": "evo_tamakit",
-      "from": "tamakit",
-      "to": "umbraclaw",
+      "id": "evo_feglimorling",
+      "from": "feglimorling",
+      "to": "feglimorfang",
       "condition": {
         "kind": "level_up",
         "level": 44
       }
     },
     {
-      "id": "evo_vexakit",
-      "from": "vexakit",
-      "to": "wynaclaw",
+      "id": "evo_febramenling",
+      "from": "febramenling",
+      "to": "febramenfang",
       "condition": {
         "kind": "level_up",
         "level": 44
       }
     },
     {
-      "id": "evo_yarakit",
-      "from": "yarakit",
-      "to": "zephaclaw",
+      "id": "evo_fecinqenling",
+      "from": "fecinqenling",
+      "to": "fecinqenfang",
       "condition": {
         "kind": "level_up",
         "level": 44
       }
     },
     {
-      "id": "evo_balakit",
-      "from": "balakit",
-      "to": "crevaclaw",
+      "id": "evo_fedornenling",
+      "from": "fedornenling",
+      "to": "fedornenfang",
       "condition": {
         "kind": "level_up",
         "level": 44
       }
     },
     {
-      "id": "evo_duskakit",
-      "from": "duskakit",
-      "to": "emberaclaw",
+      "id": "evo_feeldenling",
+      "from": "feeldenling",
+      "to": "feeldenfang",
       "condition": {
         "kind": "level_up",
         "level": 44
       }
     },
     {
-      "id": "evo_frostakit",
-      "from": "frostakit",
-      "to": "glimaclaw",
+      "id": "evo_fefenenling",
+      "from": "fefenenling",
+      "to": "fefenenfang",
       "condition": {
         "kind": "level_up",
         "level": 44
       }
     },
     {
-      "id": "evo_bramekit",
-      "from": "bramekit",
-      "to": "cinqeclaw",
+      "id": "evo_fegrimenling",
+      "from": "fegrimenling",
+      "to": "fegrimenfang",
       "condition": {
         "kind": "level_up",
         "level": 44
       }
     },
     {
-      "id": "evo_dornekit",
-      "from": "dornekit",
-      "to": "eldeclaw",
+      "id": "evo_feholloenling",
+      "from": "feholloenling",
+      "to": "feholloenfang",
       "condition": {
         "kind": "level_up",
         "level": 44
       }
     },
     {
-      "id": "evo_fenekit",
-      "from": "fenekit",
-      "to": "grimeclaw",
+      "id": "evo_feirienling",
+      "from": "feirienling",
+      "to": "feirienfang",
       "condition": {
         "kind": "level_up",
         "level": 44
       }
     },
     {
-      "id": "evo_holloekit",
-      "from": "holloekit",
-      "to": "irieclaw",
+      "id": "evo_fejorvenling",
+      "from": "fejorvenling",
+      "to": "fejorvenfang",
       "condition": {
         "kind": "level_up",
         "level": 44
       }
     },
     {
-      "id": "evo_jorvekit",
-      "from": "jorvekit",
-      "to": "kesteclaw",
+      "id": "evo_fekestenling",
+      "from": "fekestenling",
+      "to": "fekestenfang",
       "condition": {
         "kind": "level_up",
         "level": 44
       }
     },
     {
-      "id": "evo_bramikit",
-      "from": "bramikit",
-      "to": "cinqiclaw",
+      "id": "evo_brbramilling",
+      "from": "brbramilling",
+      "to": "brbramilfang",
       "condition": {
         "kind": "level_up",
         "level": 50
       }
     },
     {
-      "id": "evo_dornikit",
-      "from": "dornikit",
-      "to": "eldiclaw",
+      "id": "evo_brcinqilling",
+      "from": "brcinqilling",
+      "to": "brcinqilfang",
       "condition": {
         "kind": "level_up",
         "level": 50
       }
     },
     {
-      "id": "evo_fenikit",
-      "from": "fenikit",
-      "to": "grimiclaw",
+      "id": "evo_brdornilling",
+      "from": "brdornilling",
+      "to": "brdornilfang",
       "condition": {
         "kind": "level_up",
         "level": 50
       }
     },
     {
-      "id": "evo_holloikit",
-      "from": "holloikit",
-      "to": "iriiclaw",
+      "id": "evo_breldilling",
+      "from": "breldilling",
+      "to": "breldilfang",
       "condition": {
         "kind": "level_up",
         "level": 50
       }
     },
     {
-      "id": "evo_jorvikit",
-      "from": "jorvikit",
-      "to": "kesticlaw",
+      "id": "evo_brfenilling",
+      "from": "brfenilling",
+      "to": "brfenilfang",
       "condition": {
         "kind": "level_up",
         "level": 50
       }
     },
     {
-      "id": "evo_lumikit",
-      "from": "lumikit",
-      "to": "moriclaw",
+      "id": "evo_brgrimilling",
+      "from": "brgrimilling",
+      "to": "brgrimilfang",
       "condition": {
         "kind": "level_up",
         "level": 50
       }
     },
     {
-      "id": "evo_nyxikit",
-      "from": "nyxikit",
-      "to": "orliclaw",
+      "id": "evo_brholloilling",
+      "from": "brholloilling",
+      "to": "brholloilfang",
       "condition": {
         "kind": "level_up",
         "level": 50
       }
     },
     {
-      "id": "evo_pyrikit",
-      "from": "pyrikit",
-      "to": "quilliclaw",
+      "id": "evo_bririilling",
+      "from": "bririilling",
+      "to": "bririilfang",
       "condition": {
         "kind": "level_up",
         "level": 50
       }
     },
     {
-      "id": "evo_rynikit",
-      "from": "rynikit",
-      "to": "soliclaw",
+      "id": "evo_brjorvilling",
+      "from": "brjorvilling",
+      "to": "brjorvilfang",
       "condition": {
         "kind": "level_up",
         "level": 50
       }
     },
     {
-      "id": "evo_tamikit",
-      "from": "tamikit",
-      "to": "umbriclaw",
+      "id": "evo_brkestilling",
+      "from": "brkestilling",
+      "to": "brkestilfang",
       "condition": {
         "kind": "level_up",
         "level": 50
       }
     },
     {
-      "id": "evo_vexikit",
-      "from": "vexikit",
-      "to": "wyniclaw",
+      "id": "evo_brlumilling",
+      "from": "brlumilling",
+      "to": "brlumilfang",
       "condition": {
         "kind": "level_up",
         "level": 50
       }
     },
     {
-      "id": "evo_yarikit",
-      "from": "yarikit",
-      "to": "zephiclaw",
+      "id": "evo_brmorilling",
+      "from": "brmorilling",
+      "to": "brmorilfang",
       "condition": {
         "kind": "level_up",
         "level": 50
       }
     },
     {
-      "id": "evo_balikit",
-      "from": "balikit",
-      "to": "creviclaw",
+      "id": "evo_brnyxilling",
+      "from": "brnyxilling",
+      "to": "brnyxilfang",
       "condition": {
         "kind": "level_up",
         "level": 50
       }
     },
     {
-      "id": "evo_duskikit",
-      "from": "duskikit",
-      "to": "embericlaw",
+      "id": "evo_brorlilling",
+      "from": "brorlilling",
+      "to": "brorlilfang",
       "condition": {
         "kind": "level_up",
         "level": 50
       }
     },
     {
-      "id": "evo_frostikit",
-      "from": "frostikit",
-      "to": "glimiclaw",
+      "id": "evo_brpyrilling",
+      "from": "brpyrilling",
+      "to": "brpyrilfang",
       "condition": {
         "kind": "level_up",
         "level": 50
       }
     },
     {
-      "id": "evo_bramokit",
-      "from": "bramokit",
-      "to": "cinqoclaw",
+      "id": "evo_brquillilling",
+      "from": "brquillilling",
+      "to": "brquillilfang",
       "condition": {
         "kind": "level_up",
         "level": 50
       }
     },
     {
-      "id": "evo_dornokit",
-      "from": "dornokit",
-      "to": "eldoclaw",
+      "id": "evo_brrynilling",
+      "from": "brrynilling",
+      "to": "brrynilfang",
       "condition": {
         "kind": "level_up",
         "level": 50
       }
     },
     {
-      "id": "evo_fenokit",
-      "from": "fenokit",
-      "to": "grimoclaw",
+      "id": "evo_brsolilling",
+      "from": "brsolilling",
+      "to": "brsolilfang",
       "condition": {
         "kind": "level_up",
         "level": 50
       }
     },
     {
-      "id": "evo_hollookit",
-      "from": "hollookit",
-      "to": "irioclaw",
+      "id": "evo_brtamilling",
+      "from": "brtamilling",
+      "to": "brtamilfang",
       "condition": {
         "kind": "level_up",
         "level": 50
       }
     },
     {
-      "id": "evo_jorvokit",
-      "from": "jorvokit",
-      "to": "kestoclaw",
+      "id": "evo_brumbrilling",
+      "from": "brumbrilling",
+      "to": "brumbrilfang",
       "condition": {
         "kind": "level_up",
         "level": 50
       }
     },
     {
-      "id": "evo_bramukit",
-      "from": "bramukit",
-      "to": "cinquclaw",
+      "id": "evo_lulumarling",
+      "from": "lulumarling",
+      "to": "lulumarfang",
       "condition": {
         "kind": "level_up",
         "level": 56
       }
     },
     {
-      "id": "evo_dornukit",
-      "from": "dornukit",
-      "to": "elduclaw",
+      "id": "evo_lumorarling",
+      "from": "lumorarling",
+      "to": "lumorarfang",
       "condition": {
         "kind": "level_up",
         "level": 56
       }
     },
     {
-      "id": "evo_fenukit",
-      "from": "fenukit",
-      "to": "grimuclaw",
+      "id": "evo_lunyxarling",
+      "from": "lunyxarling",
+      "to": "lunyxarfang",
       "condition": {
         "kind": "level_up",
         "level": 56
       }
     },
     {
-      "id": "evo_holloukit",
-      "from": "holloukit",
-      "to": "iriuclaw",
+      "id": "evo_luorlarling",
+      "from": "luorlarling",
+      "to": "luorlarfang",
       "condition": {
         "kind": "level_up",
         "level": 56
       }
     },
     {
-      "id": "evo_jorvukit",
-      "from": "jorvukit",
-      "to": "kestuclaw",
+      "id": "evo_lupyrarling",
+      "from": "lupyrarling",
+      "to": "lupyrarfang",
       "condition": {
         "kind": "level_up",
         "level": 56
       }
     },
     {
-      "id": "evo_lumukit",
-      "from": "lumukit",
-      "to": "moruclaw",
+      "id": "evo_luquillarling",
+      "from": "luquillarling",
+      "to": "luquillarfang",
       "condition": {
         "kind": "level_up",
         "level": 56
       }
     },
     {
-      "id": "evo_nyxukit",
-      "from": "nyxukit",
-      "to": "orluclaw",
+      "id": "evo_lurynarling",
+      "from": "lurynarling",
+      "to": "lurynarfang",
       "condition": {
         "kind": "level_up",
         "level": 56
       }
     },
     {
-      "id": "evo_pyrukit",
-      "from": "pyrukit",
-      "to": "quilluclaw",
+      "id": "evo_lusolarling",
+      "from": "lusolarling",
+      "to": "lusolarfang",
       "condition": {
         "kind": "level_up",
         "level": 56
       }
     },
     {
-      "id": "evo_rynukit",
-      "from": "rynukit",
-      "to": "soluclaw",
+      "id": "evo_lutamarling",
+      "from": "lutamarling",
+      "to": "lutamarfang",
       "condition": {
         "kind": "level_up",
         "level": 56
       }
     },
     {
-      "id": "evo_tamukit",
-      "from": "tamukit",
-      "to": "umbruclaw",
+      "id": "evo_luumbrarling",
+      "from": "luumbrarling",
+      "to": "luumbrarfang",
       "condition": {
         "kind": "level_up",
         "level": 56
       }
     },
     {
-      "id": "evo_vexukit",
-      "from": "vexukit",
-      "to": "wynuclaw",
+      "id": "evo_luvexarling",
+      "from": "luvexarling",
+      "to": "luvexarfang",
       "condition": {
         "kind": "level_up",
         "level": 56
       }
     },
     {
-      "id": "evo_yarukit",
-      "from": "yarukit",
-      "to": "zephuclaw",
+      "id": "evo_luwynarling",
+      "from": "luwynarling",
+      "to": "luwynarfang",
       "condition": {
         "kind": "level_up",
         "level": 56
       }
     },
     {
-      "id": "evo_balukit",
-      "from": "balukit",
-      "to": "crevuclaw",
+      "id": "evo_luyararling",
+      "from": "luyararling",
+      "to": "luyararfang",
       "condition": {
         "kind": "level_up",
         "level": 56
       }
     },
     {
-      "id": "evo_duskukit",
-      "from": "duskukit",
-      "to": "emberuclaw",
+      "id": "evo_luzepharling",
+      "from": "luzepharling",
+      "to": "luzepharfang",
       "condition": {
         "kind": "level_up",
         "level": 56
       }
     },
     {
-      "id": "evo_frostukit",
-      "from": "frostukit",
-      "to": "glimuclaw",
+      "id": "evo_lubalarling",
+      "from": "lubalarling",
+      "to": "lubalarfang",
       "condition": {
         "kind": "level_up",
         "level": 56
       }
     },
     {
-      "id": "evo_bramaekit",
-      "from": "bramaekit",
-      "to": "cinqaeclaw",
+      "id": "evo_lucrevarling",
+      "from": "lucrevarling",
+      "to": "lucrevarfang",
       "condition": {
         "kind": "level_up",
         "level": 56
       }
     },
     {
-      "id": "evo_dornaekit",
-      "from": "dornaekit",
-      "to": "eldaeclaw",
+      "id": "evo_luduskarling",
+      "from": "luduskarling",
+      "to": "luduskarfang",
       "condition": {
         "kind": "level_up",
         "level": 56
       }
     },
     {
-      "id": "evo_fenaekit",
-      "from": "fenaekit",
-      "to": "grimaeclaw",
+      "id": "evo_luemberarling",
+      "from": "luemberarling",
+      "to": "luemberarfang",
       "condition": {
         "kind": "level_up",
         "level": 56
       }
     },
     {
-      "id": "evo_holloaekit",
-      "from": "holloaekit",
-      "to": "iriaeclaw",
+      "id": "evo_lufrostarling",
+      "from": "lufrostarling",
+      "to": "lufrostarfang",
       "condition": {
         "kind": "level_up",
         "level": 56
       }
     },
     {
-      "id": "evo_jorvaekit",
-      "from": "jorvaekit",
-      "to": "kestaeclaw",
+      "id": "evo_luglimarling",
+      "from": "luglimarling",
+      "to": "luglimarfang",
       "condition": {
         "kind": "level_up",
         "level": 56
       }
     },
     {
-      "id": "evo_bramorkit",
-      "from": "bramorkit",
-      "to": "cinqorclaw",
+      "id": "evo_zevexakit",
+      "from": "zevexakit",
+      "to": "zevexaclaw",
       "condition": {
         "kind": "level_up",
         "level": 58
       }
     },
     {
-      "id": "evo_dornorkit",
-      "from": "dornorkit",
-      "to": "eldorclaw",
+      "id": "evo_zewynakit",
+      "from": "zewynakit",
+      "to": "zewynaclaw",
       "condition": {
         "kind": "level_up",
         "level": 58
       }
     },
     {
-      "id": "evo_fenorkit",
-      "from": "fenorkit",
-      "to": "grimorclaw",
+      "id": "evo_zeyarakit",
+      "from": "zeyarakit",
+      "to": "zeyaraclaw",
       "condition": {
         "kind": "level_up",
         "level": 58
       }
     },
     {
-      "id": "evo_holloorkit",
-      "from": "holloorkit",
-      "to": "iriorclaw",
+      "id": "evo_zezephakit",
+      "from": "zezephakit",
+      "to": "zezephaclaw",
       "condition": {
         "kind": "level_up",
         "level": 58
       }
     },
     {
-      "id": "evo_jorvorkit",
-      "from": "jorvorkit",
-      "to": "kestorclaw",
+      "id": "evo_zebalakit",
+      "from": "zebalakit",
+      "to": "zebalaclaw",
       "condition": {
         "kind": "level_up",
         "level": 58
       }
     },
     {
-      "id": "evo_lumorkit",
-      "from": "lumorkit",
-      "to": "mororclaw",
+      "id": "evo_zecrevakit",
+      "from": "zecrevakit",
+      "to": "zecrevaclaw",
       "condition": {
         "kind": "level_up",
         "level": 58
       }
     },
     {
-      "id": "evo_nyxorkit",
-      "from": "nyxorkit",
-      "to": "orlorclaw",
+      "id": "evo_zeduskakit",
+      "from": "zeduskakit",
+      "to": "zeduskaclaw",
       "condition": {
         "kind": "level_up",
         "level": 58
       }
     },
     {
-      "id": "evo_pyrorkit",
-      "from": "pyrorkit",
-      "to": "quillorclaw",
+      "id": "evo_zeemberakit",
+      "from": "zeemberakit",
+      "to": "zeemberaclaw",
       "condition": {
         "kind": "level_up",
         "level": 58
       }
     },
     {
-      "id": "evo_rynorkit",
-      "from": "rynorkit",
-      "to": "solorclaw",
+      "id": "evo_zefrostakit",
+      "from": "zefrostakit",
+      "to": "zefrostaclaw",
       "condition": {
         "kind": "level_up",
         "level": 58
       }
     },
     {
-      "id": "evo_tamorkit",
-      "from": "tamorkit",
-      "to": "umbrorclaw",
+      "id": "evo_zeglimakit",
+      "from": "zeglimakit",
+      "to": "zeglimaclaw",
       "condition": {
         "kind": "level_up",
         "level": 58
       }
     },
     {
-      "id": "evo_vexorkit",
-      "from": "vexorkit",
-      "to": "wynorclaw",
+      "id": "evo_zebramekit",
+      "from": "zebramekit",
+      "to": "zebrameclaw",
       "condition": {
         "kind": "level_up",
         "level": 58
       }
     },
     {
-      "id": "evo_yarorkit",
-      "from": "yarorkit",
-      "to": "zephorclaw",
+      "id": "evo_zecinqekit",
+      "from": "zecinqekit",
+      "to": "zecinqeclaw",
       "condition": {
         "kind": "level_up",
         "level": 58
       }
     },
     {
-      "id": "evo_balorkit",
-      "from": "balorkit",
-      "to": "crevorclaw",
+      "id": "evo_zedornekit",
+      "from": "zedornekit",
+      "to": "zedorneclaw",
       "condition": {
         "kind": "level_up",
         "level": 58
       }
     },
     {
-      "id": "evo_duskorkit",
-      "from": "duskorkit",
-      "to": "emberorclaw",
+      "id": "evo_zeeldekit",
+      "from": "zeeldekit",
+      "to": "zeeldeclaw",
       "condition": {
         "kind": "level_up",
         "level": 58
       }
     },
     {
-      "id": "evo_frostorkit",
-      "from": "frostorkit",
-      "to": "glimorclaw",
+      "id": "evo_zefenekit",
+      "from": "zefenekit",
+      "to": "zefeneclaw",
       "condition": {
         "kind": "level_up",
         "level": 58
       }
     },
     {
-      "id": "evo_bramenkit",
-      "from": "bramenkit",
-      "to": "cinqenclaw",
+      "id": "evo_zegrimekit",
+      "from": "zegrimekit",
+      "to": "zegrimeclaw",
       "condition": {
         "kind": "level_up",
         "level": 58
       }
     },
     {
-      "id": "evo_dornenkit",
-      "from": "dornenkit",
-      "to": "eldenclaw",
+      "id": "evo_zeholloekit",
+      "from": "zeholloekit",
+      "to": "zeholloeclaw",
       "condition": {
         "kind": "level_up",
         "level": 58
       }
     },
     {
-      "id": "evo_fenenkit",
-      "from": "fenenkit",
-      "to": "grimenclaw",
+      "id": "evo_zeiriekit",
+      "from": "zeiriekit",
+      "to": "zeirieclaw",
       "condition": {
         "kind": "level_up",
         "level": 58
       }
     },
     {
-      "id": "evo_holloenkit",
-      "from": "holloenkit",
-      "to": "irienclaw",
+      "id": "evo_zejorvekit",
+      "from": "zejorvekit",
+      "to": "zejorveclaw",
       "condition": {
         "kind": "level_up",
         "level": 58
       }
     },
     {
-      "id": "evo_jorvenkit",
-      "from": "jorvenkit",
-      "to": "kestenclaw",
+      "id": "evo_zekestekit",
+      "from": "zekestekit",
+      "to": "zekesteclaw",
       "condition": {
         "kind": "level_up",
         "level": 58

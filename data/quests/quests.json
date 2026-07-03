@@ -515,10 +515,10 @@
         },
         {
           "id": "obj_archon",
-          "text": "Defeat the Hollow Archon in the Zephyra Wilds.",
+          "text": "Confront the Hollow Archon and decide the Order's fate.",
           "condition": {
             "kind": "flag",
-            "flag": "beat_hollow_archon"
+            "flag": "hollow_resolved"
           }
         }
       ],

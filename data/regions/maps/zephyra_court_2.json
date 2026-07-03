@@ -287,6 +287,246 @@
       "sight": 1,
       "facing": "down",
       "flag": "beat_zephyra_court2_t23"
+    },
+    {
+      "type": "trainer",
+      "x": 2,
+      "y": 8,
+      "trainer_id": "zephyra_court2_t24",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_zephyra_court2_t24"
+    },
+    {
+      "type": "trainer",
+      "x": 4,
+      "y": 8,
+      "trainer_id": "zephyra_court2_t25",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_zephyra_court2_t25"
+    },
+    {
+      "type": "trainer",
+      "x": 6,
+      "y": 8,
+      "trainer_id": "zephyra_court2_t26",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_zephyra_court2_t26"
+    },
+    {
+      "type": "trainer",
+      "x": 8,
+      "y": 8,
+      "trainer_id": "zephyra_court2_t27",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_zephyra_court2_t27"
+    },
+    {
+      "type": "trainer",
+      "x": 10,
+      "y": 8,
+      "trainer_id": "zephyra_court2_t28",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_zephyra_court2_t28"
+    },
+    {
+      "type": "trainer",
+      "x": 12,
+      "y": 8,
+      "trainer_id": "zephyra_court2_t29",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_zephyra_court2_t29"
+    },
+    {
+      "type": "trainer",
+      "x": 14,
+      "y": 8,
+      "trainer_id": "zephyra_court2_t30",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_zephyra_court2_t30"
+    },
+    {
+      "type": "trainer",
+      "x": 16,
+      "y": 8,
+      "trainer_id": "zephyra_court2_t31",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_zephyra_court2_t31"
+    },
+    {
+      "type": "trainer",
+      "x": 2,
+      "y": 10,
+      "trainer_id": "zephyra_court2_t32",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_zephyra_court2_t32"
+    },
+    {
+      "type": "trainer",
+      "x": 4,
+      "y": 10,
+      "trainer_id": "zephyra_court2_t33",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_zephyra_court2_t33"
+    },
+    {
+      "type": "trainer",
+      "x": 6,
+      "y": 10,
+      "trainer_id": "zephyra_court2_t34",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_zephyra_court2_t34"
+    },
+    {
+      "type": "trainer",
+      "x": 8,
+      "y": 10,
+      "trainer_id": "zephyra_court2_t35",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_zephyra_court2_t35"
+    },
+    {
+      "type": "trainer",
+      "x": 10,
+      "y": 10,
+      "trainer_id": "zephyra_court2_t36",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_zephyra_court2_t36"
+    },
+    {
+      "type": "trainer",
+      "x": 12,
+      "y": 10,
+      "trainer_id": "zephyra_court2_t37",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_zephyra_court2_t37"
+    },
+    {
+      "type": "trainer",
+      "x": 14,
+      "y": 10,
+      "trainer_id": "zephyra_court2_t38",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_zephyra_court2_t38"
+    },
+    {
+      "type": "trainer",
+      "x": 16,
+      "y": 10,
+      "trainer_id": "zephyra_court2_t39",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_zephyra_court2_t39"
+    },
+    {
+      "type": "trainer",
+      "x": 2,
+      "y": 12,
+      "trainer_id": "zephyra_court2_t40",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_zephyra_court2_t40"
+    },
+    {
+      "type": "trainer",
+      "x": 4,
+      "y": 12,
+      "trainer_id": "zephyra_court2_t41",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_zephyra_court2_t41"
+    },
+    {
+      "type": "trainer",
+      "x": 6,
+      "y": 12,
+      "trainer_id": "zephyra_court2_t42",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_zephyra_court2_t42"
+    },
+    {
+      "type": "trainer",
+      "x": 8,
+      "y": 12,
+      "trainer_id": "zephyra_court2_t43",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_zephyra_court2_t43"
+    },
+    {
+      "type": "trainer",
+      "x": 10,
+      "y": 12,
+      "trainer_id": "zephyra_court2_t44",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_zephyra_court2_t44"
+    },
+    {
+      "type": "trainer",
+      "x": 12,
+      "y": 12,
+      "trainer_id": "zephyra_court2_t45",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_zephyra_court2_t45"
+    },
+    {
+      "type": "trainer",
+      "x": 14,
+      "y": 12,
+      "trainer_id": "zephyra_court2_t46",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_zephyra_court2_t46"
+    },
+    {
+      "type": "trainer",
+      "x": 16,
+      "y": 12,
+      "trainer_id": "zephyra_court2_t47",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_zephyra_court2_t47"
     }
   ]
 }

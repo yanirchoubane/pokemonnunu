@@ -16358,8 +16358,8 @@
       "forms": []
     },
     {
-      "id": "bramaling",
-      "display_name": "Bramaling",
+      "id": "vebramaling",
+      "display_name": "Vebramaling",
       "description": "A normal/grass-attuned creature roaming the Verdantia region.",
       "generation": "demo_g4",
       "origin_region": "verdantia",
@@ -16415,13 +16415,13 @@
         }
       ],
       "evolves_to": [
-        "cinqafang"
+        "vebramafang"
       ],
       "forms": []
     },
     {
-      "id": "cinqafang",
-      "display_name": "Cinqafang",
+      "id": "vebramafang",
+      "display_name": "Vebramafang",
       "description": "A normal/grass-attuned creature roaming the Verdantia region.",
       "generation": "demo_g4",
       "origin_region": "verdantia",
@@ -16476,8 +16476,8 @@
       "forms": []
     },
     {
-      "id": "dornaling",
-      "display_name": "Dornaling",
+      "id": "vecinqaling",
+      "display_name": "Vecinqaling",
       "description": "A fire-attuned creature roaming the Verdantia region.",
       "generation": "demo_g4",
       "origin_region": "verdantia",
@@ -16528,13 +16528,13 @@
         }
       ],
       "evolves_to": [
-        "eldafang"
+        "vecinqafang"
       ],
       "forms": []
     },
     {
-      "id": "eldafang",
-      "display_name": "Eldafang",
+      "id": "vecinqafang",
+      "display_name": "Vecinqafang",
       "description": "A fire-attuned creature roaming the Verdantia region.",
       "generation": "demo_g4",
       "origin_region": "verdantia",
@@ -16584,8 +16584,8 @@
       "forms": []
     },
     {
-      "id": "fenaling",
-      "display_name": "Fenaling",
+      "id": "vedornaling",
+      "display_name": "Vedornaling",
       "description": "A water-attuned creature roaming the Verdantia region.",
       "generation": "demo_g4",
       "origin_region": "verdantia",
@@ -16636,13 +16636,13 @@
         }
       ],
       "evolves_to": [
-        "grimafang"
+        "vedornafang"
       ],
       "forms": []
     },
     {
-      "id": "grimafang",
-      "display_name": "Grimafang",
+      "id": "vedornafang",
+      "display_name": "Vedornafang",
       "description": "A water-attuned creature roaming the Verdantia region.",
       "generation": "demo_g4",
       "origin_region": "verdantia",
@@ -16692,8 +16692,8 @@
       "forms": []
     },
     {
-      "id": "holloaling",
-      "display_name": "Holloaling",
+      "id": "veeldaling",
+      "display_name": "Veeldaling",
       "description": "A grass/wind-attuned creature roaming the Verdantia region.",
       "generation": "demo_g4",
       "origin_region": "verdantia",
@@ -16749,13 +16749,13 @@
         }
       ],
       "evolves_to": [
-        "iriafang"
+        "veeldafang"
       ],
       "forms": []
     },
     {
-      "id": "iriafang",
-      "display_name": "Iriafang",
+      "id": "veeldafang",
+      "display_name": "Veeldafang",
       "description": "A grass/wind-attuned creature roaming the Verdantia region.",
       "generation": "demo_g4",
       "origin_region": "verdantia",
@@ -16810,8 +16810,8 @@
       "forms": []
     },
     {
-      "id": "jorvaling",
-      "display_name": "Jorvaling",
+      "id": "vefenaling",
+      "display_name": "Vefenaling",
       "description": "A electric-attuned creature roaming the Verdantia region.",
       "generation": "demo_g4",
       "origin_region": "verdantia",
@@ -16862,13 +16862,13 @@
         }
       ],
       "evolves_to": [
-        "kestafang"
+        "vefenafang"
       ],
       "forms": []
     },
     {
-      "id": "kestafang",
-      "display_name": "Kestafang",
+      "id": "vefenafang",
+      "display_name": "Vefenafang",
       "description": "A electric-attuned creature roaming the Verdantia region.",
       "generation": "demo_g4",
       "origin_region": "verdantia",
@@ -16918,8 +16918,8 @@
       "forms": []
     },
     {
-      "id": "lumaling",
-      "display_name": "Lumaling",
+      "id": "vegrimaling",
+      "display_name": "Vegrimaling",
       "description": "A earth-attuned creature roaming the Verdantia region.",
       "generation": "demo_g4",
       "origin_region": "verdantia",
@@ -16970,13 +16970,13 @@
         }
       ],
       "evolves_to": [
-        "morafang"
+        "vegrimafang"
       ],
       "forms": []
     },
     {
-      "id": "morafang",
-      "display_name": "Morafang",
+      "id": "vegrimafang",
+      "display_name": "Vegrimafang",
       "description": "A earth-attuned creature roaming the Verdantia region.",
       "generation": "demo_g4",
       "origin_region": "verdantia",
@@ -17026,8 +17026,8 @@
       "forms": []
     },
     {
-      "id": "nyxaling",
-      "display_name": "Nyxaling",
+      "id": "veholloaling",
+      "display_name": "Veholloaling",
       "description": "A wind/fire-attuned creature roaming the Verdantia region.",
       "generation": "demo_g4",
       "origin_region": "verdantia",
@@ -17083,13 +17083,13 @@
         }
       ],
       "evolves_to": [
-        "orlafang"
+        "veholloafang"
       ],
       "forms": []
     },
     {
-      "id": "orlafang",
-      "display_name": "Orlafang",
+      "id": "veholloafang",
+      "display_name": "Veholloafang",
       "description": "A wind/fire-attuned creature roaming the Verdantia region.",
       "generation": "demo_g4",
       "origin_region": "verdantia",
@@ -17144,8 +17144,8 @@
       "forms": []
     },
     {
-      "id": "pyraling",
-      "display_name": "Pyraling",
+      "id": "veirialing",
+      "display_name": "Veirialing",
       "description": "A mystic-attuned creature roaming the Verdantia region.",
       "generation": "demo_g4",
       "origin_region": "verdantia",
@@ -17196,13 +17196,13 @@
         }
       ],
       "evolves_to": [
-        "quillafang"
+        "veiriafang"
       ],
       "forms": []
     },
     {
-      "id": "quillafang",
-      "display_name": "Quillafang",
+      "id": "veiriafang",
+      "display_name": "Veiriafang",
       "description": "A mystic-attuned creature roaming the Verdantia region.",
       "generation": "demo_g4",
       "origin_region": "verdantia",
@@ -17252,8 +17252,8 @@
       "forms": []
     },
     {
-      "id": "rynaling",
-      "display_name": "Rynaling",
+      "id": "vejorvaling",
+      "display_name": "Vejorvaling",
       "description": "A normal-attuned creature roaming the Verdantia region.",
       "generation": "demo_g4",
       "origin_region": "verdantia",
@@ -17304,13 +17304,13 @@
         }
       ],
       "evolves_to": [
-        "solafang"
+        "vejorvafang"
       ],
       "forms": []
     },
     {
-      "id": "solafang",
-      "display_name": "Solafang",
+      "id": "vejorvafang",
+      "display_name": "Vejorvafang",
       "description": "A normal-attuned creature roaming the Verdantia region.",
       "generation": "demo_g4",
       "origin_region": "verdantia",
@@ -17360,8 +17360,8 @@
       "forms": []
     },
     {
-      "id": "tamaling",
-      "display_name": "Tamaling",
+      "id": "vekestaling",
+      "display_name": "Vekestaling",
       "description": "A fire/electric-attuned creature roaming the Verdantia region.",
       "generation": "demo_g4",
       "origin_region": "verdantia",
@@ -17417,13 +17417,13 @@
         }
       ],
       "evolves_to": [
-        "umbrafang"
+        "vekestafang"
       ],
       "forms": []
     },
     {
-      "id": "umbrafang",
-      "display_name": "Umbrafang",
+      "id": "vekestafang",
+      "display_name": "Vekestafang",
       "description": "A fire/electric-attuned creature roaming the Verdantia region.",
       "generation": "demo_g4",
       "origin_region": "verdantia",
@@ -17478,8 +17478,8 @@
       "forms": []
     },
     {
-      "id": "vexaling",
-      "display_name": "Vexaling",
+      "id": "velumaling",
+      "display_name": "Velumaling",
       "description": "A water-attuned creature roaming the Verdantia region.",
       "generation": "demo_g4",
       "origin_region": "verdantia",
@@ -17530,13 +17530,13 @@
         }
       ],
       "evolves_to": [
-        "wynafang"
+        "velumafang"
       ],
       "forms": []
     },
     {
-      "id": "wynafang",
-      "display_name": "Wynafang",
+      "id": "velumafang",
+      "display_name": "Velumafang",
       "description": "A water-attuned creature roaming the Verdantia region.",
       "generation": "demo_g4",
       "origin_region": "verdantia",
@@ -17586,8 +17586,8 @@
       "forms": []
     },
     {
-      "id": "yaraling",
-      "display_name": "Yaraling",
+      "id": "vemoraling",
+      "display_name": "Vemoraling",
       "description": "A grass-attuned creature roaming the Verdantia region.",
       "generation": "demo_g4",
       "origin_region": "verdantia",
@@ -17638,13 +17638,13 @@
         }
       ],
       "evolves_to": [
-        "zephafang"
+        "vemorafang"
       ],
       "forms": []
     },
     {
-      "id": "zephafang",
-      "display_name": "Zephafang",
+      "id": "vemorafang",
+      "display_name": "Vemorafang",
       "description": "A grass-attuned creature roaming the Verdantia region.",
       "generation": "demo_g4",
       "origin_region": "verdantia",
@@ -17694,8 +17694,8 @@
       "forms": []
     },
     {
-      "id": "balaling",
-      "display_name": "Balaling",
+      "id": "venyxaling",
+      "display_name": "Venyxaling",
       "description": "A electric/mystic-attuned creature roaming the Verdantia region.",
       "generation": "demo_g4",
       "origin_region": "verdantia",
@@ -17751,13 +17751,13 @@
         }
       ],
       "evolves_to": [
-        "crevafang"
+        "venyxafang"
       ],
       "forms": []
     },
     {
-      "id": "crevafang",
-      "display_name": "Crevafang",
+      "id": "venyxafang",
+      "display_name": "Venyxafang",
       "description": "A electric/mystic-attuned creature roaming the Verdantia region.",
       "generation": "demo_g4",
       "origin_region": "verdantia",
@@ -17812,8 +17812,8 @@
       "forms": []
     },
     {
-      "id": "duskaling",
-      "display_name": "Duskaling",
+      "id": "veorlaling",
+      "display_name": "Veorlaling",
       "description": "A earth-attuned creature roaming the Verdantia region.",
       "generation": "demo_g4",
       "origin_region": "verdantia",
@@ -17864,13 +17864,13 @@
         }
       ],
       "evolves_to": [
-        "emberafang"
+        "veorlafang"
       ],
       "forms": []
     },
     {
-      "id": "emberafang",
-      "display_name": "Emberafang",
+      "id": "veorlafang",
+      "display_name": "Veorlafang",
       "description": "A earth-attuned creature roaming the Verdantia region.",
       "generation": "demo_g4",
       "origin_region": "verdantia",
@@ -17920,8 +17920,8 @@
       "forms": []
     },
     {
-      "id": "frostaling",
-      "display_name": "Frostaling",
+      "id": "vepyraling",
+      "display_name": "Vepyraling",
       "description": "A wind-attuned creature roaming the Verdantia region.",
       "generation": "demo_g4",
       "origin_region": "verdantia",
@@ -17972,13 +17972,13 @@
         }
       ],
       "evolves_to": [
-        "glimafang"
+        "vepyrafang"
       ],
       "forms": []
     },
     {
-      "id": "glimafang",
-      "display_name": "Glimafang",
+      "id": "vepyrafang",
+      "display_name": "Vepyrafang",
       "description": "A wind-attuned creature roaming the Verdantia region.",
       "generation": "demo_g4",
       "origin_region": "verdantia",
@@ -18028,8 +18028,8 @@
       "forms": []
     },
     {
-      "id": "brameling",
-      "display_name": "Brameling",
+      "id": "vequillaling",
+      "display_name": "Vequillaling",
       "description": "A mystic/water-attuned creature roaming the Verdantia region.",
       "generation": "demo_g4",
       "origin_region": "verdantia",
@@ -18085,13 +18085,13 @@
         }
       ],
       "evolves_to": [
-        "cinqefang"
+        "vequillafang"
       ],
       "forms": []
     },
     {
-      "id": "cinqefang",
-      "display_name": "Cinqefang",
+      "id": "vequillafang",
+      "display_name": "Vequillafang",
       "description": "A mystic/water-attuned creature roaming the Verdantia region.",
       "generation": "demo_g4",
       "origin_region": "verdantia",
@@ -18146,8 +18146,8 @@
       "forms": []
     },
     {
-      "id": "dorneling",
-      "display_name": "Dorneling",
+      "id": "verynaling",
+      "display_name": "Verynaling",
       "description": "A normal-attuned creature roaming the Verdantia region.",
       "generation": "demo_g4",
       "origin_region": "verdantia",
@@ -18198,13 +18198,13 @@
         }
       ],
       "evolves_to": [
-        "eldefang"
+        "verynafang"
       ],
       "forms": []
     },
     {
-      "id": "eldefang",
-      "display_name": "Eldefang",
+      "id": "verynafang",
+      "display_name": "Verynafang",
       "description": "A normal-attuned creature roaming the Verdantia region.",
       "generation": "demo_g4",
       "origin_region": "verdantia",
@@ -18254,8 +18254,8 @@
       "forms": []
     },
     {
-      "id": "feneling",
-      "display_name": "Feneling",
+      "id": "vesolaling",
+      "display_name": "Vesolaling",
       "description": "A fire-attuned creature roaming the Verdantia region.",
       "generation": "demo_g4",
       "origin_region": "verdantia",
@@ -18306,13 +18306,13 @@
         }
       ],
       "evolves_to": [
-        "grimefang"
+        "vesolafang"
       ],
       "forms": []
     },
     {
-      "id": "grimefang",
-      "display_name": "Grimefang",
+      "id": "vesolafang",
+      "display_name": "Vesolafang",
       "description": "A fire-attuned creature roaming the Verdantia region.",
       "generation": "demo_g4",
       "origin_region": "verdantia",
@@ -18362,8 +18362,8 @@
       "forms": []
     },
     {
-      "id": "holloeling",
-      "display_name": "Holloeling",
+      "id": "vetamaling",
+      "display_name": "Vetamaling",
       "description": "A water/earth-attuned creature roaming the Verdantia region.",
       "generation": "demo_g4",
       "origin_region": "verdantia",
@@ -18419,13 +18419,13 @@
         }
       ],
       "evolves_to": [
-        "iriefang"
+        "vetamafang"
       ],
       "forms": []
     },
     {
-      "id": "iriefang",
-      "display_name": "Iriefang",
+      "id": "vetamafang",
+      "display_name": "Vetamafang",
       "description": "A water/earth-attuned creature roaming the Verdantia region.",
       "generation": "demo_g4",
       "origin_region": "verdantia",
@@ -18480,8 +18480,8 @@
       "forms": []
     },
     {
-      "id": "jorveling",
-      "display_name": "Jorveling",
+      "id": "veumbraling",
+      "display_name": "Veumbraling",
       "description": "A grass-attuned creature roaming the Verdantia region.",
       "generation": "demo_g4",
       "origin_region": "verdantia",
@@ -18532,13 +18532,13 @@
         }
       ],
       "evolves_to": [
-        "kestefang"
+        "veumbrafang"
       ],
       "forms": []
     },
     {
-      "id": "kestefang",
-      "display_name": "Kestefang",
+      "id": "veumbrafang",
+      "display_name": "Veumbrafang",
       "description": "A grass-attuned creature roaming the Verdantia region.",
       "generation": "demo_g4",
       "origin_region": "verdantia",
@@ -18588,8 +18588,8 @@
       "forms": []
     },
     {
-      "id": "lumeling",
-      "display_name": "Lumeling",
+      "id": "vevexaling",
+      "display_name": "Vevexaling",
       "description": "A electric-attuned creature roaming the Verdantia region.",
       "generation": "demo_g4",
       "origin_region": "verdantia",
@@ -18643,8 +18643,8 @@
       "forms": []
     },
     {
-      "id": "moreling",
-      "display_name": "Moreling",
+      "id": "vewynaling",
+      "display_name": "Vewynaling",
       "description": "A earth-attuned creature roaming the Verdantia region.",
       "generation": "demo_g4",
       "origin_region": "verdantia",
@@ -18698,8 +18698,8 @@
       "forms": []
     },
     {
-      "id": "nyxeling",
-      "display_name": "Nyxeling",
+      "id": "veyaraling",
+      "display_name": "Veyaraling",
       "description": "A wind-attuned creature roaming the Verdantia region.",
       "generation": "demo_g4",
       "origin_region": "verdantia",
@@ -18753,8 +18753,8 @@
       "forms": []
     },
     {
-      "id": "orleling",
-      "display_name": "Orleling",
+      "id": "vezephaling",
+      "display_name": "Vezephaling",
       "description": "A mystic-attuned creature roaming the Verdantia region.",
       "generation": "demo_g4",
       "origin_region": "verdantia",
@@ -18808,8 +18808,8 @@
       "forms": []
     },
     {
-      "id": "pyreling",
-      "display_name": "Pyreling",
+      "id": "vebalaling",
+      "display_name": "Vebalaling",
       "description": "A normal-attuned creature roaming the Verdantia region.",
       "generation": "demo_g4",
       "origin_region": "verdantia",
@@ -18863,8 +18863,8 @@
       "forms": []
     },
     {
-      "id": "quilleling",
-      "display_name": "Quilleling",
+      "id": "vecrevaling",
+      "display_name": "Vecrevaling",
       "description": "A fire-attuned creature roaming the Verdantia region.",
       "generation": "demo_g4",
       "origin_region": "verdantia",
@@ -18918,8 +18918,8 @@
       "forms": []
     },
     {
-      "id": "ryneling",
-      "display_name": "Ryneling",
+      "id": "veduskaling",
+      "display_name": "Veduskaling",
       "description": "A water-attuned creature roaming the Verdantia region.",
       "generation": "demo_g4",
       "origin_region": "verdantia",
@@ -18973,8 +18973,8 @@
       "forms": []
     },
     {
-      "id": "soleling",
-      "display_name": "Soleling",
+      "id": "veemberaling",
+      "display_name": "Veemberaling",
       "description": "A grass-attuned creature roaming the Verdantia region.",
       "generation": "demo_g4",
       "origin_region": "verdantia",
@@ -19028,8 +19028,8 @@
       "forms": []
     },
     {
-      "id": "tameling",
-      "display_name": "Tameling",
+      "id": "vefrostaling",
+      "display_name": "Vefrostaling",
       "description": "A electric-attuned creature roaming the Verdantia region.",
       "generation": "demo_g4",
       "origin_region": "verdantia",
@@ -19083,8 +19083,8 @@
       "forms": []
     },
     {
-      "id": "umbreling",
-      "display_name": "Umbreling",
+      "id": "veglimaling",
+      "display_name": "Veglimaling",
       "description": "A earth-attuned creature roaming the Verdantia region.",
       "generation": "demo_g4",
       "origin_region": "verdantia",
@@ -19138,8 +19138,8 @@
       "forms": []
     },
     {
-      "id": "vexeling",
-      "display_name": "Vexeling",
+      "id": "vebrameling",
+      "display_name": "Vebrameling",
       "description": "A wind-attuned creature roaming the Verdantia region.",
       "generation": "demo_g4",
       "origin_region": "verdantia",
@@ -19193,8 +19193,8 @@
       "forms": []
     },
     {
-      "id": "wyneling",
-      "display_name": "Wyneling",
+      "id": "vecinqeling",
+      "display_name": "Vecinqeling",
       "description": "A mystic-attuned creature roaming the Verdantia region.",
       "generation": "demo_g4",
       "origin_region": "verdantia",
@@ -19248,8 +19248,8 @@
       "forms": []
     },
     {
-      "id": "yareling",
-      "display_name": "Yareling",
+      "id": "vedorneling",
+      "display_name": "Vedorneling",
       "description": "A normal-attuned creature roaming the Verdantia region.",
       "generation": "demo_g4",
       "origin_region": "verdantia",
@@ -19303,8 +19303,8 @@
       "forms": []
     },
     {
-      "id": "zepheling",
-      "display_name": "Zepheling",
+      "id": "veeldeling",
+      "display_name": "Veeldeling",
       "description": "A fire-attuned creature roaming the Verdantia region.",
       "generation": "demo_g4",
       "origin_region": "verdantia",
@@ -19358,8 +19358,8 @@
       "forms": []
     },
     {
-      "id": "baleling",
-      "display_name": "Baleling",
+      "id": "vefeneling",
+      "display_name": "Vefeneling",
       "description": "A water-attuned creature roaming the Verdantia region.",
       "generation": "demo_g4",
       "origin_region": "verdantia",
@@ -19413,8 +19413,8 @@
       "forms": []
     },
     {
-      "id": "creveling",
-      "display_name": "Creveling",
+      "id": "vegrimeling",
+      "display_name": "Vegrimeling",
       "description": "A grass-attuned creature roaming the Verdantia region.",
       "generation": "demo_g4",
       "origin_region": "verdantia",
@@ -19468,8 +19468,8 @@
       "forms": []
     },
     {
-      "id": "duskeling",
-      "display_name": "Duskeling",
+      "id": "veholloeling",
+      "display_name": "Veholloeling",
       "description": "A electric-attuned creature roaming the Verdantia region.",
       "generation": "demo_g4",
       "origin_region": "verdantia",
@@ -19523,8 +19523,8 @@
       "forms": []
     },
     {
-      "id": "embereling",
-      "display_name": "Embereling",
+      "id": "veirieling",
+      "display_name": "Veirieling",
       "description": "A earth-attuned creature roaming the Verdantia region.",
       "generation": "demo_g4",
       "origin_region": "verdantia",
@@ -19578,8 +19578,8 @@
       "forms": []
     },
     {
-      "id": "frosteling",
-      "display_name": "Frosteling",
+      "id": "vejorveling",
+      "display_name": "Vejorveling",
       "description": "A wind-attuned creature roaming the Verdantia region.",
       "generation": "demo_g4",
       "origin_region": "verdantia",
@@ -19633,8 +19633,8 @@
       "forms": []
     },
     {
-      "id": "glimeling",
-      "display_name": "Glimeling",
+      "id": "vekesteling",
+      "display_name": "Vekesteling",
       "description": "A mystic-attuned creature roaming the Verdantia region.",
       "generation": "demo_g4",
       "origin_region": "verdantia",
@@ -19688,8 +19688,8 @@
       "forms": []
     },
     {
-      "id": "bramiling",
-      "display_name": "Bramiling",
+      "id": "aqlumeling",
+      "display_name": "Aqlumeling",
       "description": "A normal/grass-attuned creature roaming the Aquilon region.",
       "generation": "demo_g4",
       "origin_region": "aquilon",
@@ -19745,13 +19745,13 @@
         }
       ],
       "evolves_to": [
-        "cinqifang"
+        "aqlumefang"
       ],
       "forms": []
     },
     {
-      "id": "cinqifang",
-      "display_name": "Cinqifang",
+      "id": "aqlumefang",
+      "display_name": "Aqlumefang",
       "description": "A normal/grass-attuned creature roaming the Aquilon region.",
       "generation": "demo_g4",
       "origin_region": "aquilon",
@@ -19806,8 +19806,8 @@
       "forms": []
     },
     {
-      "id": "dorniling",
-      "display_name": "Dorniling",
+      "id": "aqmoreling",
+      "display_name": "Aqmoreling",
       "description": "A fire-attuned creature roaming the Aquilon region.",
       "generation": "demo_g4",
       "origin_region": "aquilon",
@@ -19858,13 +19858,13 @@
         }
       ],
       "evolves_to": [
-        "eldifang"
+        "aqmorefang"
       ],
       "forms": []
     },
     {
-      "id": "eldifang",
-      "display_name": "Eldifang",
+      "id": "aqmorefang",
+      "display_name": "Aqmorefang",
       "description": "A fire-attuned creature roaming the Aquilon region.",
       "generation": "demo_g4",
       "origin_region": "aquilon",
@@ -19914,8 +19914,8 @@
       "forms": []
     },
     {
-      "id": "feniling",
-      "display_name": "Feniling",
+      "id": "aqnyxeling",
+      "display_name": "Aqnyxeling",
       "description": "A water-attuned creature roaming the Aquilon region.",
       "generation": "demo_g4",
       "origin_region": "aquilon",
@@ -19966,13 +19966,13 @@
         }
       ],
       "evolves_to": [
-        "grimifang"
+        "aqnyxefang"
       ],
       "forms": []
     },
     {
-      "id": "grimifang",
-      "display_name": "Grimifang",
+      "id": "aqnyxefang",
+      "display_name": "Aqnyxefang",
       "description": "A water-attuned creature roaming the Aquilon region.",
       "generation": "demo_g4",
       "origin_region": "aquilon",
@@ -20022,8 +20022,8 @@
       "forms": []
     },
     {
-      "id": "holloiling",
-      "display_name": "Holloiling",
+      "id": "aqorleling",
+      "display_name": "Aqorleling",
       "description": "A grass/wind-attuned creature roaming the Aquilon region.",
       "generation": "demo_g4",
       "origin_region": "aquilon",
@@ -20079,13 +20079,13 @@
         }
       ],
       "evolves_to": [
-        "iriifang"
+        "aqorlefang"
       ],
       "forms": []
     },
     {
-      "id": "iriifang",
-      "display_name": "Iriifang",
+      "id": "aqorlefang",
+      "display_name": "Aqorlefang",
       "description": "A grass/wind-attuned creature roaming the Aquilon region.",
       "generation": "demo_g4",
       "origin_region": "aquilon",
@@ -20140,8 +20140,8 @@
       "forms": []
     },
     {
-      "id": "jorviling",
-      "display_name": "Jorviling",
+      "id": "aqpyreling",
+      "display_name": "Aqpyreling",
       "description": "A electric-attuned creature roaming the Aquilon region.",
       "generation": "demo_g4",
       "origin_region": "aquilon",
@@ -20192,13 +20192,13 @@
         }
       ],
       "evolves_to": [
-        "kestifang"
+        "aqpyrefang"
       ],
       "forms": []
     },
     {
-      "id": "kestifang",
-      "display_name": "Kestifang",
+      "id": "aqpyrefang",
+      "display_name": "Aqpyrefang",
       "description": "A electric-attuned creature roaming the Aquilon region.",
       "generation": "demo_g4",
       "origin_region": "aquilon",
@@ -20248,8 +20248,8 @@
       "forms": []
     },
     {
-      "id": "lumiling",
-      "display_name": "Lumiling",
+      "id": "aqquilleling",
+      "display_name": "Aqquilleling",
       "description": "A earth-attuned creature roaming the Aquilon region.",
       "generation": "demo_g4",
       "origin_region": "aquilon",
@@ -20300,13 +20300,13 @@
         }
       ],
       "evolves_to": [
-        "morifang"
+        "aqquillefang"
       ],
       "forms": []
     },
     {
-      "id": "morifang",
-      "display_name": "Morifang",
+      "id": "aqquillefang",
+      "display_name": "Aqquillefang",
       "description": "A earth-attuned creature roaming the Aquilon region.",
       "generation": "demo_g4",
       "origin_region": "aquilon",
@@ -20356,8 +20356,8 @@
       "forms": []
     },
     {
-      "id": "nyxiling",
-      "display_name": "Nyxiling",
+      "id": "aqryneling",
+      "display_name": "Aqryneling",
       "description": "A wind/fire-attuned creature roaming the Aquilon region.",
       "generation": "demo_g4",
       "origin_region": "aquilon",
@@ -20413,13 +20413,13 @@
         }
       ],
       "evolves_to": [
-        "orlifang"
+        "aqrynefang"
       ],
       "forms": []
     },
     {
-      "id": "orlifang",
-      "display_name": "Orlifang",
+      "id": "aqrynefang",
+      "display_name": "Aqrynefang",
       "description": "A wind/fire-attuned creature roaming the Aquilon region.",
       "generation": "demo_g4",
       "origin_region": "aquilon",
@@ -20474,8 +20474,8 @@
       "forms": []
     },
     {
-      "id": "pyriling",
-      "display_name": "Pyriling",
+      "id": "aqsoleling",
+      "display_name": "Aqsoleling",
       "description": "A mystic-attuned creature roaming the Aquilon region.",
       "generation": "demo_g4",
       "origin_region": "aquilon",
@@ -20526,13 +20526,13 @@
         }
       ],
       "evolves_to": [
-        "quillifang"
+        "aqsolefang"
       ],
       "forms": []
     },
     {
-      "id": "quillifang",
-      "display_name": "Quillifang",
+      "id": "aqsolefang",
+      "display_name": "Aqsolefang",
       "description": "A mystic-attuned creature roaming the Aquilon region.",
       "generation": "demo_g4",
       "origin_region": "aquilon",
@@ -20582,8 +20582,8 @@
       "forms": []
     },
     {
-      "id": "ryniling",
-      "display_name": "Ryniling",
+      "id": "aqtameling",
+      "display_name": "Aqtameling",
       "description": "A normal-attuned creature roaming the Aquilon region.",
       "generation": "demo_g4",
       "origin_region": "aquilon",
@@ -20634,13 +20634,13 @@
         }
       ],
       "evolves_to": [
-        "solifang"
+        "aqtamefang"
       ],
       "forms": []
     },
     {
-      "id": "solifang",
-      "display_name": "Solifang",
+      "id": "aqtamefang",
+      "display_name": "Aqtamefang",
       "description": "A normal-attuned creature roaming the Aquilon region.",
       "generation": "demo_g4",
       "origin_region": "aquilon",
@@ -20690,8 +20690,8 @@
       "forms": []
     },
     {
-      "id": "tamiling",
-      "display_name": "Tamiling",
+      "id": "aqumbreling",
+      "display_name": "Aqumbreling",
       "description": "A fire/electric-attuned creature roaming the Aquilon region.",
       "generation": "demo_g4",
       "origin_region": "aquilon",
@@ -20747,13 +20747,13 @@
         }
       ],
       "evolves_to": [
-        "umbrifang"
+        "aqumbrefang"
       ],
       "forms": []
     },
     {
-      "id": "umbrifang",
-      "display_name": "Umbrifang",
+      "id": "aqumbrefang",
+      "display_name": "Aqumbrefang",
       "description": "A fire/electric-attuned creature roaming the Aquilon region.",
       "generation": "demo_g4",
       "origin_region": "aquilon",
@@ -20808,8 +20808,8 @@
       "forms": []
     },
     {
-      "id": "vexiling",
-      "display_name": "Vexiling",
+      "id": "aqvexeling",
+      "display_name": "Aqvexeling",
       "description": "A water-attuned creature roaming the Aquilon region.",
       "generation": "demo_g4",
       "origin_region": "aquilon",
@@ -20860,13 +20860,13 @@
         }
       ],
       "evolves_to": [
-        "wynifang"
+        "aqvexefang"
       ],
       "forms": []
     },
     {
-      "id": "wynifang",
-      "display_name": "Wynifang",
+      "id": "aqvexefang",
+      "display_name": "Aqvexefang",
       "description": "A water-attuned creature roaming the Aquilon region.",
       "generation": "demo_g4",
       "origin_region": "aquilon",
@@ -20916,8 +20916,8 @@
       "forms": []
     },
     {
-      "id": "yariling",
-      "display_name": "Yariling",
+      "id": "aqwyneling",
+      "display_name": "Aqwyneling",
       "description": "A grass-attuned creature roaming the Aquilon region.",
       "generation": "demo_g4",
       "origin_region": "aquilon",
@@ -20968,13 +20968,13 @@
         }
       ],
       "evolves_to": [
-        "zephifang"
+        "aqwynefang"
       ],
       "forms": []
     },
     {
-      "id": "zephifang",
-      "display_name": "Zephifang",
+      "id": "aqwynefang",
+      "display_name": "Aqwynefang",
       "description": "A grass-attuned creature roaming the Aquilon region.",
       "generation": "demo_g4",
       "origin_region": "aquilon",
@@ -21024,8 +21024,8 @@
       "forms": []
     },
     {
-      "id": "baliling",
-      "display_name": "Baliling",
+      "id": "aqyareling",
+      "display_name": "Aqyareling",
       "description": "A electric/mystic-attuned creature roaming the Aquilon region.",
       "generation": "demo_g4",
       "origin_region": "aquilon",
@@ -21081,13 +21081,13 @@
         }
       ],
       "evolves_to": [
-        "crevifang"
+        "aqyarefang"
       ],
       "forms": []
     },
     {
-      "id": "crevifang",
-      "display_name": "Crevifang",
+      "id": "aqyarefang",
+      "display_name": "Aqyarefang",
       "description": "A electric/mystic-attuned creature roaming the Aquilon region.",
       "generation": "demo_g4",
       "origin_region": "aquilon",
@@ -21142,8 +21142,8 @@
       "forms": []
     },
     {
-      "id": "duskiling",
-      "display_name": "Duskiling",
+      "id": "aqzepheling",
+      "display_name": "Aqzepheling",
       "description": "A earth-attuned creature roaming the Aquilon region.",
       "generation": "demo_g4",
       "origin_region": "aquilon",
@@ -21194,13 +21194,13 @@
         }
       ],
       "evolves_to": [
-        "emberifang"
+        "aqzephefang"
       ],
       "forms": []
     },
     {
-      "id": "emberifang",
-      "display_name": "Emberifang",
+      "id": "aqzephefang",
+      "display_name": "Aqzephefang",
       "description": "A earth-attuned creature roaming the Aquilon region.",
       "generation": "demo_g4",
       "origin_region": "aquilon",
@@ -21250,8 +21250,8 @@
       "forms": []
     },
     {
-      "id": "frostiling",
-      "display_name": "Frostiling",
+      "id": "aqbaleling",
+      "display_name": "Aqbaleling",
       "description": "A wind-attuned creature roaming the Aquilon region.",
       "generation": "demo_g4",
       "origin_region": "aquilon",
@@ -21302,13 +21302,13 @@
         }
       ],
       "evolves_to": [
-        "glimifang"
+        "aqbalefang"
       ],
       "forms": []
     },
     {
-      "id": "glimifang",
-      "display_name": "Glimifang",
+      "id": "aqbalefang",
+      "display_name": "Aqbalefang",
       "description": "A wind-attuned creature roaming the Aquilon region.",
       "generation": "demo_g4",
       "origin_region": "aquilon",
@@ -21358,8 +21358,8 @@
       "forms": []
     },
     {
-      "id": "bramoling",
-      "display_name": "Bramoling",
+      "id": "aqcreveling",
+      "display_name": "Aqcreveling",
       "description": "A mystic/water-attuned creature roaming the Aquilon region.",
       "generation": "demo_g4",
       "origin_region": "aquilon",
@@ -21415,13 +21415,13 @@
         }
       ],
       "evolves_to": [
-        "cinqofang"
+        "aqcrevefang"
       ],
       "forms": []
     },
     {
-      "id": "cinqofang",
-      "display_name": "Cinqofang",
+      "id": "aqcrevefang",
+      "display_name": "Aqcrevefang",
       "description": "A mystic/water-attuned creature roaming the Aquilon region.",
       "generation": "demo_g4",
       "origin_region": "aquilon",
@@ -21476,8 +21476,8 @@
       "forms": []
     },
     {
-      "id": "dornoling",
-      "display_name": "Dornoling",
+      "id": "aqduskeling",
+      "display_name": "Aqduskeling",
       "description": "A normal-attuned creature roaming the Aquilon region.",
       "generation": "demo_g4",
       "origin_region": "aquilon",
@@ -21528,13 +21528,13 @@
         }
       ],
       "evolves_to": [
-        "eldofang"
+        "aqduskefang"
       ],
       "forms": []
     },
     {
-      "id": "eldofang",
-      "display_name": "Eldofang",
+      "id": "aqduskefang",
+      "display_name": "Aqduskefang",
       "description": "A normal-attuned creature roaming the Aquilon region.",
       "generation": "demo_g4",
       "origin_region": "aquilon",
@@ -21584,8 +21584,8 @@
       "forms": []
     },
     {
-      "id": "fenoling",
-      "display_name": "Fenoling",
+      "id": "aqembereling",
+      "display_name": "Aqembereling",
       "description": "A fire-attuned creature roaming the Aquilon region.",
       "generation": "demo_g4",
       "origin_region": "aquilon",
@@ -21636,13 +21636,13 @@
         }
       ],
       "evolves_to": [
-        "grimofang"
+        "aqemberefang"
       ],
       "forms": []
     },
     {
-      "id": "grimofang",
-      "display_name": "Grimofang",
+      "id": "aqemberefang",
+      "display_name": "Aqemberefang",
       "description": "A fire-attuned creature roaming the Aquilon region.",
       "generation": "demo_g4",
       "origin_region": "aquilon",
@@ -21692,8 +21692,8 @@
       "forms": []
     },
     {
-      "id": "hollooling",
-      "display_name": "Hollooling",
+      "id": "aqfrosteling",
+      "display_name": "Aqfrosteling",
       "description": "A water/earth-attuned creature roaming the Aquilon region.",
       "generation": "demo_g4",
       "origin_region": "aquilon",
@@ -21749,13 +21749,13 @@
         }
       ],
       "evolves_to": [
-        "iriofang"
+        "aqfrostefang"
       ],
       "forms": []
     },
     {
-      "id": "iriofang",
-      "display_name": "Iriofang",
+      "id": "aqfrostefang",
+      "display_name": "Aqfrostefang",
       "description": "A water/earth-attuned creature roaming the Aquilon region.",
       "generation": "demo_g4",
       "origin_region": "aquilon",
@@ -21810,8 +21810,8 @@
       "forms": []
     },
     {
-      "id": "jorvoling",
-      "display_name": "Jorvoling",
+      "id": "aqglimeling",
+      "display_name": "Aqglimeling",
       "description": "A grass-attuned creature roaming the Aquilon region.",
       "generation": "demo_g4",
       "origin_region": "aquilon",
@@ -21862,13 +21862,13 @@
         }
       ],
       "evolves_to": [
-        "kestofang"
+        "aqglimefang"
       ],
       "forms": []
     },
     {
-      "id": "kestofang",
-      "display_name": "Kestofang",
+      "id": "aqglimefang",
+      "display_name": "Aqglimefang",
       "description": "A grass-attuned creature roaming the Aquilon region.",
       "generation": "demo_g4",
       "origin_region": "aquilon",
@@ -21918,8 +21918,8 @@
       "forms": []
     },
     {
-      "id": "lumoling",
-      "display_name": "Lumoling",
+      "id": "aqbramiling",
+      "display_name": "Aqbramiling",
       "description": "A electric-attuned creature roaming the Aquilon region.",
       "generation": "demo_g4",
       "origin_region": "aquilon",
@@ -21973,8 +21973,8 @@
       "forms": []
     },
     {
-      "id": "moroling",
-      "display_name": "Moroling",
+      "id": "aqcinqiling",
+      "display_name": "Aqcinqiling",
       "description": "A earth-attuned creature roaming the Aquilon region.",
       "generation": "demo_g4",
       "origin_region": "aquilon",
@@ -22028,8 +22028,8 @@
       "forms": []
     },
     {
-      "id": "nyxoling",
-      "display_name": "Nyxoling",
+      "id": "aqdorniling",
+      "display_name": "Aqdorniling",
       "description": "A wind-attuned creature roaming the Aquilon region.",
       "generation": "demo_g4",
       "origin_region": "aquilon",
@@ -22083,8 +22083,8 @@
       "forms": []
     },
     {
-      "id": "orloling",
-      "display_name": "Orloling",
+      "id": "aqeldiling",
+      "display_name": "Aqeldiling",
       "description": "A mystic-attuned creature roaming the Aquilon region.",
       "generation": "demo_g4",
       "origin_region": "aquilon",
@@ -22138,8 +22138,8 @@
       "forms": []
     },
     {
-      "id": "pyroling",
-      "display_name": "Pyroling",
+      "id": "aqfeniling",
+      "display_name": "Aqfeniling",
       "description": "A normal-attuned creature roaming the Aquilon region.",
       "generation": "demo_g4",
       "origin_region": "aquilon",
@@ -22193,8 +22193,8 @@
       "forms": []
     },
     {
-      "id": "quilloling",
-      "display_name": "Quilloling",
+      "id": "aqgrimiling",
+      "display_name": "Aqgrimiling",
       "description": "A fire-attuned creature roaming the Aquilon region.",
       "generation": "demo_g4",
       "origin_region": "aquilon",
@@ -22248,8 +22248,8 @@
       "forms": []
     },
     {
-      "id": "rynoling",
-      "display_name": "Rynoling",
+      "id": "aqholloiling",
+      "display_name": "Aqholloiling",
       "description": "A water-attuned creature roaming the Aquilon region.",
       "generation": "demo_g4",
       "origin_region": "aquilon",
@@ -22303,8 +22303,8 @@
       "forms": []
     },
     {
-      "id": "sololing",
-      "display_name": "Sololing",
+      "id": "aqiriiling",
+      "display_name": "Aqiriiling",
       "description": "A grass-attuned creature roaming the Aquilon region.",
       "generation": "demo_g4",
       "origin_region": "aquilon",
@@ -22358,8 +22358,8 @@
       "forms": []
     },
     {
-      "id": "tamoling",
-      "display_name": "Tamoling",
+      "id": "aqjorviling",
+      "display_name": "Aqjorviling",
       "description": "A electric-attuned creature roaming the Aquilon region.",
       "generation": "demo_g4",
       "origin_region": "aquilon",
@@ -22413,8 +22413,8 @@
       "forms": []
     },
     {
-      "id": "umbroling",
-      "display_name": "Umbroling",
+      "id": "aqkestiling",
+      "display_name": "Aqkestiling",
       "description": "A earth-attuned creature roaming the Aquilon region.",
       "generation": "demo_g4",
       "origin_region": "aquilon",
@@ -22468,8 +22468,8 @@
       "forms": []
     },
     {
-      "id": "vexoling",
-      "display_name": "Vexoling",
+      "id": "aqlumiling",
+      "display_name": "Aqlumiling",
       "description": "A wind-attuned creature roaming the Aquilon region.",
       "generation": "demo_g4",
       "origin_region": "aquilon",
@@ -22523,8 +22523,8 @@
       "forms": []
     },
     {
-      "id": "wynoling",
-      "display_name": "Wynoling",
+      "id": "aqmoriling",
+      "display_name": "Aqmoriling",
       "description": "A mystic-attuned creature roaming the Aquilon region.",
       "generation": "demo_g4",
       "origin_region": "aquilon",
@@ -22578,8 +22578,8 @@
       "forms": []
     },
     {
-      "id": "yaroling",
-      "display_name": "Yaroling",
+      "id": "aqnyxiling",
+      "display_name": "Aqnyxiling",
       "description": "A normal-attuned creature roaming the Aquilon region.",
       "generation": "demo_g4",
       "origin_region": "aquilon",
@@ -22633,8 +22633,8 @@
       "forms": []
     },
     {
-      "id": "zepholing",
-      "display_name": "Zepholing",
+      "id": "aqorliling",
+      "display_name": "Aqorliling",
       "description": "A fire-attuned creature roaming the Aquilon region.",
       "generation": "demo_g4",
       "origin_region": "aquilon",
@@ -22688,8 +22688,8 @@
       "forms": []
     },
     {
-      "id": "baloling",
-      "display_name": "Baloling",
+      "id": "aqpyriling",
+      "display_name": "Aqpyriling",
       "description": "A water-attuned creature roaming the Aquilon region.",
       "generation": "demo_g4",
       "origin_region": "aquilon",
@@ -22743,8 +22743,8 @@
       "forms": []
     },
     {
-      "id": "crevoling",
-      "display_name": "Crevoling",
+      "id": "aqquilliling",
+      "display_name": "Aqquilliling",
       "description": "A grass-attuned creature roaming the Aquilon region.",
       "generation": "demo_g4",
       "origin_region": "aquilon",
@@ -22798,8 +22798,8 @@
       "forms": []
     },
     {
-      "id": "duskoling",
-      "display_name": "Duskoling",
+      "id": "aqryniling",
+      "display_name": "Aqryniling",
       "description": "A electric-attuned creature roaming the Aquilon region.",
       "generation": "demo_g4",
       "origin_region": "aquilon",
@@ -22853,8 +22853,8 @@
       "forms": []
     },
     {
-      "id": "emberoling",
-      "display_name": "Emberoling",
+      "id": "aqsoliling",
+      "display_name": "Aqsoliling",
       "description": "A earth-attuned creature roaming the Aquilon region.",
       "generation": "demo_g4",
       "origin_region": "aquilon",
@@ -22908,8 +22908,8 @@
       "forms": []
     },
     {
-      "id": "frostoling",
-      "display_name": "Frostoling",
+      "id": "aqtamiling",
+      "display_name": "Aqtamiling",
       "description": "A wind-attuned creature roaming the Aquilon region.",
       "generation": "demo_g4",
       "origin_region": "aquilon",
@@ -22963,8 +22963,8 @@
       "forms": []
     },
     {
-      "id": "glimoling",
-      "display_name": "Glimoling",
+      "id": "aqumbriling",
+      "display_name": "Aqumbriling",
       "description": "A mystic-attuned creature roaming the Aquilon region.",
       "generation": "demo_g4",
       "origin_region": "aquilon",
@@ -23018,8 +23018,8 @@
       "forms": []
     },
     {
-      "id": "bramuling",
-      "display_name": "Bramuling",
+      "id": "civexiling",
+      "display_name": "Civexiling",
       "description": "A normal/grass-attuned creature roaming the Cindral region.",
       "generation": "demo_g4",
       "origin_region": "cindral",
@@ -23075,13 +23075,13 @@
         }
       ],
       "evolves_to": [
-        "cinqufang"
+        "civexifang"
       ],
       "forms": []
     },
     {
-      "id": "cinqufang",
-      "display_name": "Cinqufang",
+      "id": "civexifang",
+      "display_name": "Civexifang",
       "description": "A normal/grass-attuned creature roaming the Cindral region.",
       "generation": "demo_g4",
       "origin_region": "cindral",
@@ -23136,8 +23136,8 @@
       "forms": []
     },
     {
-      "id": "dornuling",
-      "display_name": "Dornuling",
+      "id": "ciwyniling",
+      "display_name": "Ciwyniling",
       "description": "A fire-attuned creature roaming the Cindral region.",
       "generation": "demo_g4",
       "origin_region": "cindral",
@@ -23188,13 +23188,13 @@
         }
       ],
       "evolves_to": [
-        "eldufang"
+        "ciwynifang"
       ],
       "forms": []
     },
     {
-      "id": "eldufang",
-      "display_name": "Eldufang",
+      "id": "ciwynifang",
+      "display_name": "Ciwynifang",
       "description": "A fire-attuned creature roaming the Cindral region.",
       "generation": "demo_g4",
       "origin_region": "cindral",
@@ -23244,8 +23244,8 @@
       "forms": []
     },
     {
-      "id": "fenuling",
-      "display_name": "Fenuling",
+      "id": "ciyariling",
+      "display_name": "Ciyariling",
       "description": "A water-attuned creature roaming the Cindral region.",
       "generation": "demo_g4",
       "origin_region": "cindral",
@@ -23296,13 +23296,13 @@
         }
       ],
       "evolves_to": [
-        "grimufang"
+        "ciyarifang"
       ],
       "forms": []
     },
     {
-      "id": "grimufang",
-      "display_name": "Grimufang",
+      "id": "ciyarifang",
+      "display_name": "Ciyarifang",
       "description": "A water-attuned creature roaming the Cindral region.",
       "generation": "demo_g4",
       "origin_region": "cindral",
@@ -23352,8 +23352,8 @@
       "forms": []
     },
     {
-      "id": "hollouling",
-      "display_name": "Hollouling",
+      "id": "cizephiling",
+      "display_name": "Cizephiling",
       "description": "A grass/wind-attuned creature roaming the Cindral region.",
       "generation": "demo_g4",
       "origin_region": "cindral",
@@ -23409,13 +23409,13 @@
         }
       ],
       "evolves_to": [
-        "iriufang"
+        "cizephifang"
       ],
       "forms": []
     },
     {
-      "id": "iriufang",
-      "display_name": "Iriufang",
+      "id": "cizephifang",
+      "display_name": "Cizephifang",
       "description": "A grass/wind-attuned creature roaming the Cindral region.",
       "generation": "demo_g4",
       "origin_region": "cindral",
@@ -23470,8 +23470,8 @@
       "forms": []
     },
     {
-      "id": "jorvuling",
-      "display_name": "Jorvuling",
+      "id": "cibaliling",
+      "display_name": "Cibaliling",
       "description": "A electric-attuned creature roaming the Cindral region.",
       "generation": "demo_g4",
       "origin_region": "cindral",
@@ -23522,13 +23522,13 @@
         }
       ],
       "evolves_to": [
-        "kestufang"
+        "cibalifang"
       ],
       "forms": []
     },
     {
-      "id": "kestufang",
-      "display_name": "Kestufang",
+      "id": "cibalifang",
+      "display_name": "Cibalifang",
       "description": "A electric-attuned creature roaming the Cindral region.",
       "generation": "demo_g4",
       "origin_region": "cindral",
@@ -23578,8 +23578,8 @@
       "forms": []
     },
     {
-      "id": "lumuling",
-      "display_name": "Lumuling",
+      "id": "cicreviling",
+      "display_name": "Cicreviling",
       "description": "A earth-attuned creature roaming the Cindral region.",
       "generation": "demo_g4",
       "origin_region": "cindral",
@@ -23630,13 +23630,13 @@
         }
       ],
       "evolves_to": [
-        "morufang"
+        "cicrevifang"
       ],
       "forms": []
     },
     {
-      "id": "morufang",
-      "display_name": "Morufang",
+      "id": "cicrevifang",
+      "display_name": "Cicrevifang",
       "description": "A earth-attuned creature roaming the Cindral region.",
       "generation": "demo_g4",
       "origin_region": "cindral",
@@ -23686,8 +23686,8 @@
       "forms": []
     },
     {
-      "id": "nyxuling",
-      "display_name": "Nyxuling",
+      "id": "ciduskiling",
+      "display_name": "Ciduskiling",
       "description": "A wind/fire-attuned creature roaming the Cindral region.",
       "generation": "demo_g4",
       "origin_region": "cindral",
@@ -23743,13 +23743,13 @@
         }
       ],
       "evolves_to": [
-        "orlufang"
+        "ciduskifang"
       ],
       "forms": []
     },
     {
-      "id": "orlufang",
-      "display_name": "Orlufang",
+      "id": "ciduskifang",
+      "display_name": "Ciduskifang",
       "description": "A wind/fire-attuned creature roaming the Cindral region.",
       "generation": "demo_g4",
       "origin_region": "cindral",
@@ -23804,8 +23804,8 @@
       "forms": []
     },
     {
-      "id": "pyruling",
-      "display_name": "Pyruling",
+      "id": "ciemberiling",
+      "display_name": "Ciemberiling",
       "description": "A mystic-attuned creature roaming the Cindral region.",
       "generation": "demo_g4",
       "origin_region": "cindral",
@@ -23856,13 +23856,13 @@
         }
       ],
       "evolves_to": [
-        "quillufang"
+        "ciemberifang"
       ],
       "forms": []
     },
     {
-      "id": "quillufang",
-      "display_name": "Quillufang",
+      "id": "ciemberifang",
+      "display_name": "Ciemberifang",
       "description": "A mystic-attuned creature roaming the Cindral region.",
       "generation": "demo_g4",
       "origin_region": "cindral",
@@ -23912,8 +23912,8 @@
       "forms": []
     },
     {
-      "id": "rynuling",
-      "display_name": "Rynuling",
+      "id": "cifrostiling",
+      "display_name": "Cifrostiling",
       "description": "A normal-attuned creature roaming the Cindral region.",
       "generation": "demo_g4",
       "origin_region": "cindral",
@@ -23964,13 +23964,13 @@
         }
       ],
       "evolves_to": [
-        "solufang"
+        "cifrostifang"
       ],
       "forms": []
     },
     {
-      "id": "solufang",
-      "display_name": "Solufang",
+      "id": "cifrostifang",
+      "display_name": "Cifrostifang",
       "description": "A normal-attuned creature roaming the Cindral region.",
       "generation": "demo_g4",
       "origin_region": "cindral",
@@ -24020,8 +24020,8 @@
       "forms": []
     },
     {
-      "id": "tamuling",
-      "display_name": "Tamuling",
+      "id": "ciglimiling",
+      "display_name": "Ciglimiling",
       "description": "A fire/electric-attuned creature roaming the Cindral region.",
       "generation": "demo_g4",
       "origin_region": "cindral",
@@ -24077,13 +24077,13 @@
         }
       ],
       "evolves_to": [
-        "umbrufang"
+        "ciglimifang"
       ],
       "forms": []
     },
     {
-      "id": "umbrufang",
-      "display_name": "Umbrufang",
+      "id": "ciglimifang",
+      "display_name": "Ciglimifang",
       "description": "A fire/electric-attuned creature roaming the Cindral region.",
       "generation": "demo_g4",
       "origin_region": "cindral",
@@ -24138,8 +24138,8 @@
       "forms": []
     },
     {
-      "id": "vexuling",
-      "display_name": "Vexuling",
+      "id": "cibramoling",
+      "display_name": "Cibramoling",
       "description": "A water-attuned creature roaming the Cindral region.",
       "generation": "demo_g4",
       "origin_region": "cindral",
@@ -24190,13 +24190,13 @@
         }
       ],
       "evolves_to": [
-        "wynufang"
+        "cibramofang"
       ],
       "forms": []
     },
     {
-      "id": "wynufang",
-      "display_name": "Wynufang",
+      "id": "cibramofang",
+      "display_name": "Cibramofang",
       "description": "A water-attuned creature roaming the Cindral region.",
       "generation": "demo_g4",
       "origin_region": "cindral",
@@ -24246,8 +24246,8 @@
       "forms": []
     },
     {
-      "id": "yaruling",
-      "display_name": "Yaruling",
+      "id": "cicinqoling",
+      "display_name": "Cicinqoling",
       "description": "A grass-attuned creature roaming the Cindral region.",
       "generation": "demo_g4",
       "origin_region": "cindral",
@@ -24298,13 +24298,13 @@
         }
       ],
       "evolves_to": [
-        "zephufang"
+        "cicinqofang"
       ],
       "forms": []
     },
     {
-      "id": "zephufang",
-      "display_name": "Zephufang",
+      "id": "cicinqofang",
+      "display_name": "Cicinqofang",
       "description": "A grass-attuned creature roaming the Cindral region.",
       "generation": "demo_g4",
       "origin_region": "cindral",
@@ -24354,8 +24354,8 @@
       "forms": []
     },
     {
-      "id": "baluling",
-      "display_name": "Baluling",
+      "id": "cidornoling",
+      "display_name": "Cidornoling",
       "description": "A electric/mystic-attuned creature roaming the Cindral region.",
       "generation": "demo_g4",
       "origin_region": "cindral",
@@ -24411,13 +24411,13 @@
         }
       ],
       "evolves_to": [
-        "crevufang"
+        "cidornofang"
       ],
       "forms": []
     },
     {
-      "id": "crevufang",
-      "display_name": "Crevufang",
+      "id": "cidornofang",
+      "display_name": "Cidornofang",
       "description": "A electric/mystic-attuned creature roaming the Cindral region.",
       "generation": "demo_g4",
       "origin_region": "cindral",
@@ -24472,8 +24472,8 @@
       "forms": []
     },
     {
-      "id": "duskuling",
-      "display_name": "Duskuling",
+      "id": "cieldoling",
+      "display_name": "Cieldoling",
       "description": "A earth-attuned creature roaming the Cindral region.",
       "generation": "demo_g4",
       "origin_region": "cindral",
@@ -24524,13 +24524,13 @@
         }
       ],
       "evolves_to": [
-        "emberufang"
+        "cieldofang"
       ],
       "forms": []
     },
     {
-      "id": "emberufang",
-      "display_name": "Emberufang",
+      "id": "cieldofang",
+      "display_name": "Cieldofang",
       "description": "A earth-attuned creature roaming the Cindral region.",
       "generation": "demo_g4",
       "origin_region": "cindral",
@@ -24580,8 +24580,8 @@
       "forms": []
     },
     {
-      "id": "frostuling",
-      "display_name": "Frostuling",
+      "id": "cifenoling",
+      "display_name": "Cifenoling",
       "description": "A wind-attuned creature roaming the Cindral region.",
       "generation": "demo_g4",
       "origin_region": "cindral",
@@ -24632,13 +24632,13 @@
         }
       ],
       "evolves_to": [
-        "glimufang"
+        "cifenofang"
       ],
       "forms": []
     },
     {
-      "id": "glimufang",
-      "display_name": "Glimufang",
+      "id": "cifenofang",
+      "display_name": "Cifenofang",
       "description": "A wind-attuned creature roaming the Cindral region.",
       "generation": "demo_g4",
       "origin_region": "cindral",
@@ -24688,8 +24688,8 @@
       "forms": []
     },
     {
-      "id": "bramaeling",
-      "display_name": "Bramaeling",
+      "id": "cigrimoling",
+      "display_name": "Cigrimoling",
       "description": "A mystic/water-attuned creature roaming the Cindral region.",
       "generation": "demo_g4",
       "origin_region": "cindral",
@@ -24745,13 +24745,13 @@
         }
       ],
       "evolves_to": [
-        "cinqaefang"
+        "cigrimofang"
       ],
       "forms": []
     },
     {
-      "id": "cinqaefang",
-      "display_name": "Cinqaefang",
+      "id": "cigrimofang",
+      "display_name": "Cigrimofang",
       "description": "A mystic/water-attuned creature roaming the Cindral region.",
       "generation": "demo_g4",
       "origin_region": "cindral",
@@ -24806,8 +24806,8 @@
       "forms": []
     },
     {
-      "id": "dornaeling",
-      "display_name": "Dornaeling",
+      "id": "cihollooling",
+      "display_name": "Cihollooling",
       "description": "A normal-attuned creature roaming the Cindral region.",
       "generation": "demo_g4",
       "origin_region": "cindral",
@@ -24858,13 +24858,13 @@
         }
       ],
       "evolves_to": [
-        "eldaefang"
+        "ciholloofang"
       ],
       "forms": []
     },
     {
-      "id": "eldaefang",
-      "display_name": "Eldaefang",
+      "id": "ciholloofang",
+      "display_name": "Ciholloofang",
       "description": "A normal-attuned creature roaming the Cindral region.",
       "generation": "demo_g4",
       "origin_region": "cindral",
@@ -24914,8 +24914,8 @@
       "forms": []
     },
     {
-      "id": "fenaeling",
-      "display_name": "Fenaeling",
+      "id": "ciirioling",
+      "display_name": "Ciirioling",
       "description": "A fire-attuned creature roaming the Cindral region.",
       "generation": "demo_g4",
       "origin_region": "cindral",
@@ -24966,13 +24966,13 @@
         }
       ],
       "evolves_to": [
-        "grimaefang"
+        "ciiriofang"
       ],
       "forms": []
     },
     {
-      "id": "grimaefang",
-      "display_name": "Grimaefang",
+      "id": "ciiriofang",
+      "display_name": "Ciiriofang",
       "description": "A fire-attuned creature roaming the Cindral region.",
       "generation": "demo_g4",
       "origin_region": "cindral",
@@ -25022,8 +25022,8 @@
       "forms": []
     },
     {
-      "id": "holloaeling",
-      "display_name": "Holloaeling",
+      "id": "cijorvoling",
+      "display_name": "Cijorvoling",
       "description": "A water/earth-attuned creature roaming the Cindral region.",
       "generation": "demo_g4",
       "origin_region": "cindral",
@@ -25079,13 +25079,13 @@
         }
       ],
       "evolves_to": [
-        "iriaefang"
+        "cijorvofang"
       ],
       "forms": []
     },
     {
-      "id": "iriaefang",
-      "display_name": "Iriaefang",
+      "id": "cijorvofang",
+      "display_name": "Cijorvofang",
       "description": "A water/earth-attuned creature roaming the Cindral region.",
       "generation": "demo_g4",
       "origin_region": "cindral",
@@ -25140,8 +25140,8 @@
       "forms": []
     },
     {
-      "id": "jorvaeling",
-      "display_name": "Jorvaeling",
+      "id": "cikestoling",
+      "display_name": "Cikestoling",
       "description": "A grass-attuned creature roaming the Cindral region.",
       "generation": "demo_g4",
       "origin_region": "cindral",
@@ -25192,13 +25192,13 @@
         }
       ],
       "evolves_to": [
-        "kestaefang"
+        "cikestofang"
       ],
       "forms": []
     },
     {
-      "id": "kestaefang",
-      "display_name": "Kestaefang",
+      "id": "cikestofang",
+      "display_name": "Cikestofang",
       "description": "A grass-attuned creature roaming the Cindral region.",
       "generation": "demo_g4",
       "origin_region": "cindral",
@@ -25248,8 +25248,8 @@
       "forms": []
     },
     {
-      "id": "lumaeling",
-      "display_name": "Lumaeling",
+      "id": "cilumoling",
+      "display_name": "Cilumoling",
       "description": "A electric-attuned creature roaming the Cindral region.",
       "generation": "demo_g4",
       "origin_region": "cindral",
@@ -25303,8 +25303,8 @@
       "forms": []
     },
     {
-      "id": "moraeling",
-      "display_name": "Moraeling",
+      "id": "cimoroling",
+      "display_name": "Cimoroling",
       "description": "A earth-attuned creature roaming the Cindral region.",
       "generation": "demo_g4",
       "origin_region": "cindral",
@@ -25358,8 +25358,8 @@
       "forms": []
     },
     {
-      "id": "nyxaeling",
-      "display_name": "Nyxaeling",
+      "id": "cinyxoling",
+      "display_name": "Cinyxoling",
       "description": "A wind-attuned creature roaming the Cindral region.",
       "generation": "demo_g4",
       "origin_region": "cindral",
@@ -25413,8 +25413,8 @@
       "forms": []
     },
     {
-      "id": "orlaeling",
-      "display_name": "Orlaeling",
+      "id": "ciorloling",
+      "display_name": "Ciorloling",
       "description": "A mystic-attuned creature roaming the Cindral region.",
       "generation": "demo_g4",
       "origin_region": "cindral",
@@ -25468,8 +25468,8 @@
       "forms": []
     },
     {
-      "id": "pyraeling",
-      "display_name": "Pyraeling",
+      "id": "cipyroling",
+      "display_name": "Cipyroling",
       "description": "A normal-attuned creature roaming the Cindral region.",
       "generation": "demo_g4",
       "origin_region": "cindral",
@@ -25523,8 +25523,8 @@
       "forms": []
     },
     {
-      "id": "quillaeling",
-      "display_name": "Quillaeling",
+      "id": "ciquilloling",
+      "display_name": "Ciquilloling",
       "description": "A fire-attuned creature roaming the Cindral region.",
       "generation": "demo_g4",
       "origin_region": "cindral",
@@ -25578,8 +25578,8 @@
       "forms": []
     },
     {
-      "id": "rynaeling",
-      "display_name": "Rynaeling",
+      "id": "cirynoling",
+      "display_name": "Cirynoling",
       "description": "A water-attuned creature roaming the Cindral region.",
       "generation": "demo_g4",
       "origin_region": "cindral",
@@ -25633,8 +25633,8 @@
       "forms": []
     },
     {
-      "id": "solaeling",
-      "display_name": "Solaeling",
+      "id": "cisololing",
+      "display_name": "Cisololing",
       "description": "A grass-attuned creature roaming the Cindral region.",
       "generation": "demo_g4",
       "origin_region": "cindral",
@@ -25688,8 +25688,8 @@
       "forms": []
     },
     {
-      "id": "tamaeling",
-      "display_name": "Tamaeling",
+      "id": "citamoling",
+      "display_name": "Citamoling",
       "description": "A electric-attuned creature roaming the Cindral region.",
       "generation": "demo_g4",
       "origin_region": "cindral",
@@ -25743,8 +25743,8 @@
       "forms": []
     },
     {
-      "id": "umbraeling",
-      "display_name": "Umbraeling",
+      "id": "ciumbroling",
+      "display_name": "Ciumbroling",
       "description": "A earth-attuned creature roaming the Cindral region.",
       "generation": "demo_g4",
       "origin_region": "cindral",
@@ -25798,8 +25798,8 @@
       "forms": []
     },
     {
-      "id": "vexaeling",
-      "display_name": "Vexaeling",
+      "id": "civexoling",
+      "display_name": "Civexoling",
       "description": "A wind-attuned creature roaming the Cindral region.",
       "generation": "demo_g4",
       "origin_region": "cindral",
@@ -25853,8 +25853,8 @@
       "forms": []
     },
     {
-      "id": "wynaeling",
-      "display_name": "Wynaeling",
+      "id": "ciwynoling",
+      "display_name": "Ciwynoling",
       "description": "A mystic-attuned creature roaming the Cindral region.",
       "generation": "demo_g4",
       "origin_region": "cindral",
@@ -25908,8 +25908,8 @@
       "forms": []
     },
     {
-      "id": "yaraeling",
-      "display_name": "Yaraeling",
+      "id": "ciyaroling",
+      "display_name": "Ciyaroling",
       "description": "A normal-attuned creature roaming the Cindral region.",
       "generation": "demo_g4",
       "origin_region": "cindral",
@@ -25963,8 +25963,8 @@
       "forms": []
     },
     {
-      "id": "zephaeling",
-      "display_name": "Zephaeling",
+      "id": "cizepholing",
+      "display_name": "Cizepholing",
       "description": "A fire-attuned creature roaming the Cindral region.",
       "generation": "demo_g4",
       "origin_region": "cindral",
@@ -26018,8 +26018,8 @@
       "forms": []
     },
     {
-      "id": "balaeling",
-      "display_name": "Balaeling",
+      "id": "cibaloling",
+      "display_name": "Cibaloling",
       "description": "A water-attuned creature roaming the Cindral region.",
       "generation": "demo_g4",
       "origin_region": "cindral",
@@ -26073,8 +26073,8 @@
       "forms": []
     },
     {
-      "id": "crevaeling",
-      "display_name": "Crevaeling",
+      "id": "cicrevoling",
+      "display_name": "Cicrevoling",
       "description": "A grass-attuned creature roaming the Cindral region.",
       "generation": "demo_g4",
       "origin_region": "cindral",
@@ -26128,8 +26128,8 @@
       "forms": []
     },
     {
-      "id": "duskaeling",
-      "display_name": "Duskaeling",
+      "id": "ciduskoling",
+      "display_name": "Ciduskoling",
       "description": "A electric-attuned creature roaming the Cindral region.",
       "generation": "demo_g4",
       "origin_region": "cindral",
@@ -26183,8 +26183,8 @@
       "forms": []
     },
     {
-      "id": "emberaeling",
-      "display_name": "Emberaeling",
+      "id": "ciemberoling",
+      "display_name": "Ciemberoling",
       "description": "A earth-attuned creature roaming the Cindral region.",
       "generation": "demo_g4",
       "origin_region": "cindral",
@@ -26238,8 +26238,8 @@
       "forms": []
     },
     {
-      "id": "frostaeling",
-      "display_name": "Frostaeling",
+      "id": "cifrostoling",
+      "display_name": "Cifrostoling",
       "description": "A wind-attuned creature roaming the Cindral region.",
       "generation": "demo_g4",
       "origin_region": "cindral",
@@ -26293,8 +26293,8 @@
       "forms": []
     },
     {
-      "id": "glimaeling",
-      "display_name": "Glimaeling",
+      "id": "ciglimoling",
+      "display_name": "Ciglimoling",
       "description": "A mystic-attuned creature roaming the Cindral region.",
       "generation": "demo_g4",
       "origin_region": "cindral",
@@ -26348,8 +26348,8 @@
       "forms": []
     },
     {
-      "id": "bramorling",
-      "display_name": "Bramorling",
+      "id": "sobramuling",
+      "display_name": "Sobramuling",
       "description": "A normal/grass-attuned creature roaming the Solane region.",
       "generation": "demo_g4",
       "origin_region": "solane",
@@ -26405,13 +26405,13 @@
         }
       ],
       "evolves_to": [
-        "cinqorfang"
+        "sobramufang"
       ],
       "forms": []
     },
     {
-      "id": "cinqorfang",
-      "display_name": "Cinqorfang",
+      "id": "sobramufang",
+      "display_name": "Sobramufang",
       "description": "A normal/grass-attuned creature roaming the Solane region.",
       "generation": "demo_g4",
       "origin_region": "solane",
@@ -26466,8 +26466,8 @@
       "forms": []
     },
     {
-      "id": "dornorling",
-      "display_name": "Dornorling",
+      "id": "socinquling",
+      "display_name": "Socinquling",
       "description": "A fire-attuned creature roaming the Solane region.",
       "generation": "demo_g4",
       "origin_region": "solane",
@@ -26518,13 +26518,13 @@
         }
       ],
       "evolves_to": [
-        "eldorfang"
+        "socinqufang"
       ],
       "forms": []
     },
     {
-      "id": "eldorfang",
-      "display_name": "Eldorfang",
+      "id": "socinqufang",
+      "display_name": "Socinqufang",
       "description": "A fire-attuned creature roaming the Solane region.",
       "generation": "demo_g4",
       "origin_region": "solane",
@@ -26574,8 +26574,8 @@
       "forms": []
     },
     {
-      "id": "fenorling",
-      "display_name": "Fenorling",
+      "id": "sodornuling",
+      "display_name": "Sodornuling",
       "description": "A water-attuned creature roaming the Solane region.",
       "generation": "demo_g4",
       "origin_region": "solane",
@@ -26626,13 +26626,13 @@
         }
       ],
       "evolves_to": [
-        "grimorfang"
+        "sodornufang"
       ],
       "forms": []
     },
     {
-      "id": "grimorfang",
-      "display_name": "Grimorfang",
+      "id": "sodornufang",
+      "display_name": "Sodornufang",
       "description": "A water-attuned creature roaming the Solane region.",
       "generation": "demo_g4",
       "origin_region": "solane",
@@ -26682,8 +26682,8 @@
       "forms": []
     },
     {
-      "id": "holloorling",
-      "display_name": "Holloorling",
+      "id": "soelduling",
+      "display_name": "Soelduling",
       "description": "A grass/wind-attuned creature roaming the Solane region.",
       "generation": "demo_g4",
       "origin_region": "solane",
@@ -26739,13 +26739,13 @@
         }
       ],
       "evolves_to": [
-        "iriorfang"
+        "soeldufang"
       ],
       "forms": []
     },
     {
-      "id": "iriorfang",
-      "display_name": "Iriorfang",
+      "id": "soeldufang",
+      "display_name": "Soeldufang",
       "description": "A grass/wind-attuned creature roaming the Solane region.",
       "generation": "demo_g4",
       "origin_region": "solane",
@@ -26800,8 +26800,8 @@
       "forms": []
     },
     {
-      "id": "jorvorling",
-      "display_name": "Jorvorling",
+      "id": "sofenuling",
+      "display_name": "Sofenuling",
       "description": "A electric-attuned creature roaming the Solane region.",
       "generation": "demo_g4",
       "origin_region": "solane",
@@ -26852,13 +26852,13 @@
         }
       ],
       "evolves_to": [
-        "kestorfang"
+        "sofenufang"
       ],
       "forms": []
     },
     {
-      "id": "kestorfang",
-      "display_name": "Kestorfang",
+      "id": "sofenufang",
+      "display_name": "Sofenufang",
       "description": "A electric-attuned creature roaming the Solane region.",
       "generation": "demo_g4",
       "origin_region": "solane",
@@ -26908,8 +26908,8 @@
       "forms": []
     },
     {
-      "id": "lumorling",
-      "display_name": "Lumorling",
+      "id": "sogrimuling",
+      "display_name": "Sogrimuling",
       "description": "A earth-attuned creature roaming the Solane region.",
       "generation": "demo_g4",
       "origin_region": "solane",
@@ -26960,13 +26960,13 @@
         }
       ],
       "evolves_to": [
-        "mororfang"
+        "sogrimufang"
       ],
       "forms": []
     },
     {
-      "id": "mororfang",
-      "display_name": "Mororfang",
+      "id": "sogrimufang",
+      "display_name": "Sogrimufang",
       "description": "A earth-attuned creature roaming the Solane region.",
       "generation": "demo_g4",
       "origin_region": "solane",
@@ -27016,8 +27016,8 @@
       "forms": []
     },
     {
-      "id": "nyxorling",
-      "display_name": "Nyxorling",
+      "id": "sohollouling",
+      "display_name": "Sohollouling",
       "description": "A wind/fire-attuned creature roaming the Solane region.",
       "generation": "demo_g4",
       "origin_region": "solane",
@@ -27073,13 +27073,13 @@
         }
       ],
       "evolves_to": [
-        "orlorfang"
+        "soholloufang"
       ],
       "forms": []
     },
     {
-      "id": "orlorfang",
-      "display_name": "Orlorfang",
+      "id": "soholloufang",
+      "display_name": "Soholloufang",
       "description": "A wind/fire-attuned creature roaming the Solane region.",
       "generation": "demo_g4",
       "origin_region": "solane",
@@ -27134,8 +27134,8 @@
       "forms": []
     },
     {
-      "id": "pyrorling",
-      "display_name": "Pyrorling",
+      "id": "soiriuling",
+      "display_name": "Soiriuling",
       "description": "A mystic-attuned creature roaming the Solane region.",
       "generation": "demo_g4",
       "origin_region": "solane",
@@ -27186,13 +27186,13 @@
         }
       ],
       "evolves_to": [
-        "quillorfang"
+        "soiriufang"
       ],
       "forms": []
     },
     {
-      "id": "quillorfang",
-      "display_name": "Quillorfang",
+      "id": "soiriufang",
+      "display_name": "Soiriufang",
       "description": "A mystic-attuned creature roaming the Solane region.",
       "generation": "demo_g4",
       "origin_region": "solane",
@@ -27242,8 +27242,8 @@
       "forms": []
     },
     {
-      "id": "rynorling",
-      "display_name": "Rynorling",
+      "id": "sojorvuling",
+      "display_name": "Sojorvuling",
       "description": "A normal-attuned creature roaming the Solane region.",
       "generation": "demo_g4",
       "origin_region": "solane",
@@ -27294,13 +27294,13 @@
         }
       ],
       "evolves_to": [
-        "solorfang"
+        "sojorvufang"
       ],
       "forms": []
     },
     {
-      "id": "solorfang",
-      "display_name": "Solorfang",
+      "id": "sojorvufang",
+      "display_name": "Sojorvufang",
       "description": "A normal-attuned creature roaming the Solane region.",
       "generation": "demo_g4",
       "origin_region": "solane",
@@ -27350,8 +27350,8 @@
       "forms": []
     },
     {
-      "id": "tamorling",
-      "display_name": "Tamorling",
+      "id": "sokestuling",
+      "display_name": "Sokestuling",
       "description": "A fire/electric-attuned creature roaming the Solane region.",
       "generation": "demo_g4",
       "origin_region": "solane",
@@ -27407,13 +27407,13 @@
         }
       ],
       "evolves_to": [
-        "umbrorfang"
+        "sokestufang"
       ],
       "forms": []
     },
     {
-      "id": "umbrorfang",
-      "display_name": "Umbrorfang",
+      "id": "sokestufang",
+      "display_name": "Sokestufang",
       "description": "A fire/electric-attuned creature roaming the Solane region.",
       "generation": "demo_g4",
       "origin_region": "solane",
@@ -27468,8 +27468,8 @@
       "forms": []
     },
     {
-      "id": "vexorling",
-      "display_name": "Vexorling",
+      "id": "solumuling",
+      "display_name": "Solumuling",
       "description": "A water-attuned creature roaming the Solane region.",
       "generation": "demo_g4",
       "origin_region": "solane",
@@ -27520,13 +27520,13 @@
         }
       ],
       "evolves_to": [
-        "wynorfang"
+        "solumufang"
       ],
       "forms": []
     },
     {
-      "id": "wynorfang",
-      "display_name": "Wynorfang",
+      "id": "solumufang",
+      "display_name": "Solumufang",
       "description": "A water-attuned creature roaming the Solane region.",
       "generation": "demo_g4",
       "origin_region": "solane",
@@ -27576,8 +27576,8 @@
       "forms": []
     },
     {
-      "id": "yarorling",
-      "display_name": "Yarorling",
+      "id": "somoruling",
+      "display_name": "Somoruling",
       "description": "A grass-attuned creature roaming the Solane region.",
       "generation": "demo_g4",
       "origin_region": "solane",
@@ -27628,13 +27628,13 @@
         }
       ],
       "evolves_to": [
-        "zephorfang"
+        "somorufang"
       ],
       "forms": []
     },
     {
-      "id": "zephorfang",
-      "display_name": "Zephorfang",
+      "id": "somorufang",
+      "display_name": "Somorufang",
       "description": "A grass-attuned creature roaming the Solane region.",
       "generation": "demo_g4",
       "origin_region": "solane",
@@ -27684,8 +27684,8 @@
       "forms": []
     },
     {
-      "id": "balorling",
-      "display_name": "Balorling",
+      "id": "sonyxuling",
+      "display_name": "Sonyxuling",
       "description": "A electric/mystic-attuned creature roaming the Solane region.",
       "generation": "demo_g4",
       "origin_region": "solane",
@@ -27741,13 +27741,13 @@
         }
       ],
       "evolves_to": [
-        "crevorfang"
+        "sonyxufang"
       ],
       "forms": []
     },
     {
-      "id": "crevorfang",
-      "display_name": "Crevorfang",
+      "id": "sonyxufang",
+      "display_name": "Sonyxufang",
       "description": "A electric/mystic-attuned creature roaming the Solane region.",
       "generation": "demo_g4",
       "origin_region": "solane",
@@ -27802,8 +27802,8 @@
       "forms": []
     },
     {
-      "id": "duskorling",
-      "display_name": "Duskorling",
+      "id": "soorluling",
+      "display_name": "Soorluling",
       "description": "A earth-attuned creature roaming the Solane region.",
       "generation": "demo_g4",
       "origin_region": "solane",
@@ -27854,13 +27854,13 @@
         }
       ],
       "evolves_to": [
-        "emberorfang"
+        "soorlufang"
       ],
       "forms": []
     },
     {
-      "id": "emberorfang",
-      "display_name": "Emberorfang",
+      "id": "soorlufang",
+      "display_name": "Soorlufang",
       "description": "A earth-attuned creature roaming the Solane region.",
       "generation": "demo_g4",
       "origin_region": "solane",
@@ -27910,8 +27910,8 @@
       "forms": []
     },
     {
-      "id": "frostorling",
-      "display_name": "Frostorling",
+      "id": "sopyruling",
+      "display_name": "Sopyruling",
       "description": "A wind-attuned creature roaming the Solane region.",
       "generation": "demo_g4",
       "origin_region": "solane",
@@ -27962,13 +27962,13 @@
         }
       ],
       "evolves_to": [
-        "glimorfang"
+        "sopyrufang"
       ],
       "forms": []
     },
     {
-      "id": "glimorfang",
-      "display_name": "Glimorfang",
+      "id": "sopyrufang",
+      "display_name": "Sopyrufang",
       "description": "A wind-attuned creature roaming the Solane region.",
       "generation": "demo_g4",
       "origin_region": "solane",
@@ -28018,8 +28018,8 @@
       "forms": []
     },
     {
-      "id": "bramenling",
-      "display_name": "Bramenling",
+      "id": "soquilluling",
+      "display_name": "Soquilluling",
       "description": "A mystic/water-attuned creature roaming the Solane region.",
       "generation": "demo_g4",
       "origin_region": "solane",
@@ -28075,13 +28075,13 @@
         }
       ],
       "evolves_to": [
-        "cinqenfang"
+        "soquillufang"
       ],
       "forms": []
     },
     {
-      "id": "cinqenfang",
-      "display_name": "Cinqenfang",
+      "id": "soquillufang",
+      "display_name": "Soquillufang",
       "description": "A mystic/water-attuned creature roaming the Solane region.",
       "generation": "demo_g4",
       "origin_region": "solane",
@@ -28136,8 +28136,8 @@
       "forms": []
     },
     {
-      "id": "dornenling",
-      "display_name": "Dornenling",
+      "id": "sorynuling",
+      "display_name": "Sorynuling",
       "description": "A normal-attuned creature roaming the Solane region.",
       "generation": "demo_g4",
       "origin_region": "solane",
@@ -28188,13 +28188,13 @@
         }
       ],
       "evolves_to": [
-        "eldenfang"
+        "sorynufang"
       ],
       "forms": []
     },
     {
-      "id": "eldenfang",
-      "display_name": "Eldenfang",
+      "id": "sorynufang",
+      "display_name": "Sorynufang",
       "description": "A normal-attuned creature roaming the Solane region.",
       "generation": "demo_g4",
       "origin_region": "solane",
@@ -28244,8 +28244,8 @@
       "forms": []
     },
     {
-      "id": "fenenling",
-      "display_name": "Fenenling",
+      "id": "sosoluling",
+      "display_name": "Sosoluling",
       "description": "A fire-attuned creature roaming the Solane region.",
       "generation": "demo_g4",
       "origin_region": "solane",
@@ -28296,13 +28296,13 @@
         }
       ],
       "evolves_to": [
-        "grimenfang"
+        "sosolufang"
       ],
       "forms": []
     },
     {
-      "id": "grimenfang",
-      "display_name": "Grimenfang",
+      "id": "sosolufang",
+      "display_name": "Sosolufang",
       "description": "A fire-attuned creature roaming the Solane region.",
       "generation": "demo_g4",
       "origin_region": "solane",
@@ -28352,8 +28352,8 @@
       "forms": []
     },
     {
-      "id": "holloenling",
-      "display_name": "Holloenling",
+      "id": "sotamuling",
+      "display_name": "Sotamuling",
       "description": "A water/earth-attuned creature roaming the Solane region.",
       "generation": "demo_g4",
       "origin_region": "solane",
@@ -28409,13 +28409,13 @@
         }
       ],
       "evolves_to": [
-        "irienfang"
+        "sotamufang"
       ],
       "forms": []
     },
     {
-      "id": "irienfang",
-      "display_name": "Irienfang",
+      "id": "sotamufang",
+      "display_name": "Sotamufang",
       "description": "A water/earth-attuned creature roaming the Solane region.",
       "generation": "demo_g4",
       "origin_region": "solane",
@@ -28470,8 +28470,8 @@
       "forms": []
     },
     {
-      "id": "jorvenling",
-      "display_name": "Jorvenling",
+      "id": "soumbruling",
+      "display_name": "Soumbruling",
       "description": "A grass-attuned creature roaming the Solane region.",
       "generation": "demo_g4",
       "origin_region": "solane",
@@ -28522,13 +28522,13 @@
         }
       ],
       "evolves_to": [
-        "kestenfang"
+        "soumbrufang"
       ],
       "forms": []
     },
     {
-      "id": "kestenfang",
-      "display_name": "Kestenfang",
+      "id": "soumbrufang",
+      "display_name": "Soumbrufang",
       "description": "A grass-attuned creature roaming the Solane region.",
       "generation": "demo_g4",
       "origin_region": "solane",
@@ -28578,8 +28578,8 @@
       "forms": []
     },
     {
-      "id": "lumenling",
-      "display_name": "Lumenling",
+      "id": "sovexuling",
+      "display_name": "Sovexuling",
       "description": "A electric-attuned creature roaming the Solane region.",
       "generation": "demo_g4",
       "origin_region": "solane",
@@ -28633,8 +28633,8 @@
       "forms": []
     },
     {
-      "id": "morenling",
-      "display_name": "Morenling",
+      "id": "sowynuling",
+      "display_name": "Sowynuling",
       "description": "A earth-attuned creature roaming the Solane region.",
       "generation": "demo_g4",
       "origin_region": "solane",
@@ -28688,8 +28688,8 @@
       "forms": []
     },
     {
-      "id": "nyxenling",
-      "display_name": "Nyxenling",
+      "id": "soyaruling",
+      "display_name": "Soyaruling",
       "description": "A wind-attuned creature roaming the Solane region.",
       "generation": "demo_g4",
       "origin_region": "solane",
@@ -28743,8 +28743,8 @@
       "forms": []
     },
     {
-      "id": "orlenling",
-      "display_name": "Orlenling",
+      "id": "sozephuling",
+      "display_name": "Sozephuling",
       "description": "A mystic-attuned creature roaming the Solane region.",
       "generation": "demo_g4",
       "origin_region": "solane",
@@ -28798,8 +28798,8 @@
       "forms": []
     },
     {
-      "id": "pyrenling",
-      "display_name": "Pyrenling",
+      "id": "sobaluling",
+      "display_name": "Sobaluling",
       "description": "A normal-attuned creature roaming the Solane region.",
       "generation": "demo_g4",
       "origin_region": "solane",
@@ -28853,8 +28853,8 @@
       "forms": []
     },
     {
-      "id": "quillenling",
-      "display_name": "Quillenling",
+      "id": "socrevuling",
+      "display_name": "Socrevuling",
       "description": "A fire-attuned creature roaming the Solane region.",
       "generation": "demo_g4",
       "origin_region": "solane",
@@ -28908,8 +28908,8 @@
       "forms": []
     },
     {
-      "id": "rynenling",
-      "display_name": "Rynenling",
+      "id": "soduskuling",
+      "display_name": "Soduskuling",
       "description": "A water-attuned creature roaming the Solane region.",
       "generation": "demo_g4",
       "origin_region": "solane",
@@ -28963,8 +28963,8 @@
       "forms": []
     },
     {
-      "id": "solenling",
-      "display_name": "Solenling",
+      "id": "soemberuling",
+      "display_name": "Soemberuling",
       "description": "A grass-attuned creature roaming the Solane region.",
       "generation": "demo_g4",
       "origin_region": "solane",
@@ -29018,8 +29018,8 @@
       "forms": []
     },
     {
-      "id": "tamenling",
-      "display_name": "Tamenling",
+      "id": "sofrostuling",
+      "display_name": "Sofrostuling",
       "description": "A electric-attuned creature roaming the Solane region.",
       "generation": "demo_g4",
       "origin_region": "solane",
@@ -29073,8 +29073,8 @@
       "forms": []
     },
     {
-      "id": "umbrenling",
-      "display_name": "Umbrenling",
+      "id": "soglimuling",
+      "display_name": "Soglimuling",
       "description": "A earth-attuned creature roaming the Solane region.",
       "generation": "demo_g4",
       "origin_region": "solane",
@@ -29128,8 +29128,8 @@
       "forms": []
     },
     {
-      "id": "vexenling",
-      "display_name": "Vexenling",
+      "id": "sobramaeling",
+      "display_name": "Sobramaeling",
       "description": "A wind-attuned creature roaming the Solane region.",
       "generation": "demo_g4",
       "origin_region": "solane",
@@ -29183,8 +29183,8 @@
       "forms": []
     },
     {
-      "id": "wynenling",
-      "display_name": "Wynenling",
+      "id": "socinqaeling",
+      "display_name": "Socinqaeling",
       "description": "A mystic-attuned creature roaming the Solane region.",
       "generation": "demo_g4",
       "origin_region": "solane",
@@ -29238,8 +29238,8 @@
       "forms": []
     },
     {
-      "id": "yarenling",
-      "display_name": "Yarenling",
+      "id": "sodornaeling",
+      "display_name": "Sodornaeling",
       "description": "A normal-attuned creature roaming the Solane region.",
       "generation": "demo_g4",
       "origin_region": "solane",
@@ -29293,8 +29293,8 @@
       "forms": []
     },
     {
-      "id": "zephenling",
-      "display_name": "Zephenling",
+      "id": "soeldaeling",
+      "display_name": "Soeldaeling",
       "description": "A fire-attuned creature roaming the Solane region.",
       "generation": "demo_g4",
       "origin_region": "solane",
@@ -29348,8 +29348,8 @@
       "forms": []
     },
     {
-      "id": "balenling",
-      "display_name": "Balenling",
+      "id": "sofenaeling",
+      "display_name": "Sofenaeling",
       "description": "A water-attuned creature roaming the Solane region.",
       "generation": "demo_g4",
       "origin_region": "solane",
@@ -29403,8 +29403,8 @@
       "forms": []
     },
     {
-      "id": "crevenling",
-      "display_name": "Crevenling",
+      "id": "sogrimaeling",
+      "display_name": "Sogrimaeling",
       "description": "A grass-attuned creature roaming the Solane region.",
       "generation": "demo_g4",
       "origin_region": "solane",
@@ -29458,8 +29458,8 @@
       "forms": []
     },
     {
-      "id": "duskenling",
-      "display_name": "Duskenling",
+      "id": "soholloaeling",
+      "display_name": "Soholloaeling",
       "description": "A electric-attuned creature roaming the Solane region.",
       "generation": "demo_g4",
       "origin_region": "solane",
@@ -29513,8 +29513,8 @@
       "forms": []
     },
     {
-      "id": "emberenling",
-      "display_name": "Emberenling",
+      "id": "soiriaeling",
+      "display_name": "Soiriaeling",
       "description": "A earth-attuned creature roaming the Solane region.",
       "generation": "demo_g4",
       "origin_region": "solane",
@@ -29568,8 +29568,8 @@
       "forms": []
     },
     {
-      "id": "frostenling",
-      "display_name": "Frostenling",
+      "id": "sojorvaeling",
+      "display_name": "Sojorvaeling",
       "description": "A wind-attuned creature roaming the Solane region.",
       "generation": "demo_g4",
       "origin_region": "solane",
@@ -29623,8 +29623,8 @@
       "forms": []
     },
     {
-      "id": "glimenling",
-      "display_name": "Glimenling",
+      "id": "sokestaeling",
+      "display_name": "Sokestaeling",
       "description": "A mystic-attuned creature roaming the Solane region.",
       "generation": "demo_g4",
       "origin_region": "solane",
@@ -29678,8 +29678,8 @@
       "forms": []
     },
     {
-      "id": "bramilling",
-      "display_name": "Bramilling",
+      "id": "umlumaeling",
+      "display_name": "Umlumaeling",
       "description": "A normal/grass-attuned creature roaming the Umbra region.",
       "generation": "demo_g4",
       "origin_region": "umbra",
@@ -29735,13 +29735,13 @@
         }
       ],
       "evolves_to": [
-        "cinqilfang"
+        "umlumaefang"
       ],
       "forms": []
     },
     {
-      "id": "cinqilfang",
-      "display_name": "Cinqilfang",
+      "id": "umlumaefang",
+      "display_name": "Umlumaefang",
       "description": "A normal/grass-attuned creature roaming the Umbra region.",
       "generation": "demo_g4",
       "origin_region": "umbra",
@@ -29796,8 +29796,8 @@
       "forms": []
     },
     {
-      "id": "dornilling",
-      "display_name": "Dornilling",
+      "id": "ummoraeling",
+      "display_name": "Ummoraeling",
       "description": "A fire-attuned creature roaming the Umbra region.",
       "generation": "demo_g4",
       "origin_region": "umbra",
@@ -29848,13 +29848,13 @@
         }
       ],
       "evolves_to": [
-        "eldilfang"
+        "ummoraefang"
       ],
       "forms": []
     },
     {
-      "id": "eldilfang",
-      "display_name": "Eldilfang",
+      "id": "ummoraefang",
+      "display_name": "Ummoraefang",
       "description": "A fire-attuned creature roaming the Umbra region.",
       "generation": "demo_g4",
       "origin_region": "umbra",
@@ -29904,8 +29904,8 @@
       "forms": []
     },
     {
-      "id": "fenilling",
-      "display_name": "Fenilling",
+      "id": "umnyxaeling",
+      "display_name": "Umnyxaeling",
       "description": "A water-attuned creature roaming the Umbra region.",
       "generation": "demo_g4",
       "origin_region": "umbra",
@@ -29956,13 +29956,13 @@
         }
       ],
       "evolves_to": [
-        "grimilfang"
+        "umnyxaefang"
       ],
       "forms": []
     },
     {
-      "id": "grimilfang",
-      "display_name": "Grimilfang",
+      "id": "umnyxaefang",
+      "display_name": "Umnyxaefang",
       "description": "A water-attuned creature roaming the Umbra region.",
       "generation": "demo_g4",
       "origin_region": "umbra",
@@ -30012,8 +30012,8 @@
       "forms": []
     },
     {
-      "id": "holloilling",
-      "display_name": "Holloilling",
+      "id": "umorlaeling",
+      "display_name": "Umorlaeling",
       "description": "A grass/wind-attuned creature roaming the Umbra region.",
       "generation": "demo_g4",
       "origin_region": "umbra",
@@ -30069,13 +30069,13 @@
         }
       ],
       "evolves_to": [
-        "iriilfang"
+        "umorlaefang"
       ],
       "forms": []
     },
     {
-      "id": "iriilfang",
-      "display_name": "Iriilfang",
+      "id": "umorlaefang",
+      "display_name": "Umorlaefang",
       "description": "A grass/wind-attuned creature roaming the Umbra region.",
       "generation": "demo_g4",
       "origin_region": "umbra",
@@ -30130,8 +30130,8 @@
       "forms": []
     },
     {
-      "id": "jorvilling",
-      "display_name": "Jorvilling",
+      "id": "umpyraeling",
+      "display_name": "Umpyraeling",
       "description": "A electric-attuned creature roaming the Umbra region.",
       "generation": "demo_g4",
       "origin_region": "umbra",
@@ -30182,13 +30182,13 @@
         }
       ],
       "evolves_to": [
-        "kestilfang"
+        "umpyraefang"
       ],
       "forms": []
     },
     {
-      "id": "kestilfang",
-      "display_name": "Kestilfang",
+      "id": "umpyraefang",
+      "display_name": "Umpyraefang",
       "description": "A electric-attuned creature roaming the Umbra region.",
       "generation": "demo_g4",
       "origin_region": "umbra",
@@ -30238,8 +30238,8 @@
       "forms": []
     },
     {
-      "id": "lumilling",
-      "display_name": "Lumilling",
+      "id": "umquillaeling",
+      "display_name": "Umquillaeling",
       "description": "A earth-attuned creature roaming the Umbra region.",
       "generation": "demo_g4",
       "origin_region": "umbra",
@@ -30290,13 +30290,13 @@
         }
       ],
       "evolves_to": [
-        "morilfang"
+        "umquillaefang"
       ],
       "forms": []
     },
     {
-      "id": "morilfang",
-      "display_name": "Morilfang",
+      "id": "umquillaefang",
+      "display_name": "Umquillaefang",
       "description": "A earth-attuned creature roaming the Umbra region.",
       "generation": "demo_g4",
       "origin_region": "umbra",
@@ -30346,8 +30346,8 @@
       "forms": []
     },
     {
-      "id": "nyxilling",
-      "display_name": "Nyxilling",
+      "id": "umrynaeling",
+      "display_name": "Umrynaeling",
       "description": "A wind/fire-attuned creature roaming the Umbra region.",
       "generation": "demo_g4",
       "origin_region": "umbra",
@@ -30403,13 +30403,13 @@
         }
       ],
       "evolves_to": [
-        "orlilfang"
+        "umrynaefang"
       ],
       "forms": []
     },
     {
-      "id": "orlilfang",
-      "display_name": "Orlilfang",
+      "id": "umrynaefang",
+      "display_name": "Umrynaefang",
       "description": "A wind/fire-attuned creature roaming the Umbra region.",
       "generation": "demo_g4",
       "origin_region": "umbra",
@@ -30464,8 +30464,8 @@
       "forms": []
     },
     {
-      "id": "pyrilling",
-      "display_name": "Pyrilling",
+      "id": "umsolaeling",
+      "display_name": "Umsolaeling",
       "description": "A mystic-attuned creature roaming the Umbra region.",
       "generation": "demo_g4",
       "origin_region": "umbra",
@@ -30516,13 +30516,13 @@
         }
       ],
       "evolves_to": [
-        "quillilfang"
+        "umsolaefang"
       ],
       "forms": []
     },
     {
-      "id": "quillilfang",
-      "display_name": "Quillilfang",
+      "id": "umsolaefang",
+      "display_name": "Umsolaefang",
       "description": "A mystic-attuned creature roaming the Umbra region.",
       "generation": "demo_g4",
       "origin_region": "umbra",
@@ -30572,8 +30572,8 @@
       "forms": []
     },
     {
-      "id": "rynilling",
-      "display_name": "Rynilling",
+      "id": "umtamaeling",
+      "display_name": "Umtamaeling",
       "description": "A normal-attuned creature roaming the Umbra region.",
       "generation": "demo_g4",
       "origin_region": "umbra",
@@ -30624,13 +30624,13 @@
         }
       ],
       "evolves_to": [
-        "solilfang"
+        "umtamaefang"
       ],
       "forms": []
     },
     {
-      "id": "solilfang",
-      "display_name": "Solilfang",
+      "id": "umtamaefang",
+      "display_name": "Umtamaefang",
       "description": "A normal-attuned creature roaming the Umbra region.",
       "generation": "demo_g4",
       "origin_region": "umbra",
@@ -30680,8 +30680,8 @@
       "forms": []
     },
     {
-      "id": "tamilling",
-      "display_name": "Tamilling",
+      "id": "umumbraeling",
+      "display_name": "Umumbraeling",
       "description": "A fire/electric-attuned creature roaming the Umbra region.",
       "generation": "demo_g4",
       "origin_region": "umbra",
@@ -30737,13 +30737,13 @@
         }
       ],
       "evolves_to": [
-        "umbrilfang"
+        "umumbraefang"
       ],
       "forms": []
     },
     {
-      "id": "umbrilfang",
-      "display_name": "Umbrilfang",
+      "id": "umumbraefang",
+      "display_name": "Umumbraefang",
       "description": "A fire/electric-attuned creature roaming the Umbra region.",
       "generation": "demo_g4",
       "origin_region": "umbra",
@@ -30798,8 +30798,8 @@
       "forms": []
     },
     {
-      "id": "vexilling",
-      "display_name": "Vexilling",
+      "id": "umvexaeling",
+      "display_name": "Umvexaeling",
       "description": "A water-attuned creature roaming the Umbra region.",
       "generation": "demo_g4",
       "origin_region": "umbra",
@@ -30850,13 +30850,13 @@
         }
       ],
       "evolves_to": [
-        "wynilfang"
+        "umvexaefang"
       ],
       "forms": []
     },
     {
-      "id": "wynilfang",
-      "display_name": "Wynilfang",
+      "id": "umvexaefang",
+      "display_name": "Umvexaefang",
       "description": "A water-attuned creature roaming the Umbra region.",
       "generation": "demo_g4",
       "origin_region": "umbra",
@@ -30906,8 +30906,8 @@
       "forms": []
     },
     {
-      "id": "yarilling",
-      "display_name": "Yarilling",
+      "id": "umwynaeling",
+      "display_name": "Umwynaeling",
       "description": "A grass-attuned creature roaming the Umbra region.",
       "generation": "demo_g4",
       "origin_region": "umbra",
@@ -30958,13 +30958,13 @@
         }
       ],
       "evolves_to": [
-        "zephilfang"
+        "umwynaefang"
       ],
       "forms": []
     },
     {
-      "id": "zephilfang",
-      "display_name": "Zephilfang",
+      "id": "umwynaefang",
+      "display_name": "Umwynaefang",
       "description": "A grass-attuned creature roaming the Umbra region.",
       "generation": "demo_g4",
       "origin_region": "umbra",
@@ -31014,8 +31014,8 @@
       "forms": []
     },
     {
-      "id": "balilling",
-      "display_name": "Balilling",
+      "id": "umyaraeling",
+      "display_name": "Umyaraeling",
       "description": "A electric/mystic-attuned creature roaming the Umbra region.",
       "generation": "demo_g4",
       "origin_region": "umbra",
@@ -31071,13 +31071,13 @@
         }
       ],
       "evolves_to": [
-        "crevilfang"
+        "umyaraefang"
       ],
       "forms": []
     },
     {
-      "id": "crevilfang",
-      "display_name": "Crevilfang",
+      "id": "umyaraefang",
+      "display_name": "Umyaraefang",
       "description": "A electric/mystic-attuned creature roaming the Umbra region.",
       "generation": "demo_g4",
       "origin_region": "umbra",
@@ -31132,8 +31132,8 @@
       "forms": []
     },
     {
-      "id": "duskilling",
-      "display_name": "Duskilling",
+      "id": "umzephaeling",
+      "display_name": "Umzephaeling",
       "description": "A earth-attuned creature roaming the Umbra region.",
       "generation": "demo_g4",
       "origin_region": "umbra",
@@ -31184,13 +31184,13 @@
         }
       ],
       "evolves_to": [
-        "emberilfang"
+        "umzephaefang"
       ],
       "forms": []
     },
     {
-      "id": "emberilfang",
-      "display_name": "Emberilfang",
+      "id": "umzephaefang",
+      "display_name": "Umzephaefang",
       "description": "A earth-attuned creature roaming the Umbra region.",
       "generation": "demo_g4",
       "origin_region": "umbra",
@@ -31240,8 +31240,8 @@
       "forms": []
     },
     {
-      "id": "frostilling",
-      "display_name": "Frostilling",
+      "id": "umbalaeling",
+      "display_name": "Umbalaeling",
       "description": "A wind-attuned creature roaming the Umbra region.",
       "generation": "demo_g4",
       "origin_region": "umbra",
@@ -31292,13 +31292,13 @@
         }
       ],
       "evolves_to": [
-        "glimilfang"
+        "umbalaefang"
       ],
       "forms": []
     },
     {
-      "id": "glimilfang",
-      "display_name": "Glimilfang",
+      "id": "umbalaefang",
+      "display_name": "Umbalaefang",
       "description": "A wind-attuned creature roaming the Umbra region.",
       "generation": "demo_g4",
       "origin_region": "umbra",
@@ -31348,8 +31348,8 @@
       "forms": []
     },
     {
-      "id": "bramarling",
-      "display_name": "Bramarling",
+      "id": "umcrevaeling",
+      "display_name": "Umcrevaeling",
       "description": "A mystic/water-attuned creature roaming the Umbra region.",
       "generation": "demo_g4",
       "origin_region": "umbra",
@@ -31405,13 +31405,13 @@
         }
       ],
       "evolves_to": [
-        "cinqarfang"
+        "umcrevaefang"
       ],
       "forms": []
     },
     {
-      "id": "cinqarfang",
-      "display_name": "Cinqarfang",
+      "id": "umcrevaefang",
+      "display_name": "Umcrevaefang",
       "description": "A mystic/water-attuned creature roaming the Umbra region.",
       "generation": "demo_g4",
       "origin_region": "umbra",
@@ -31466,8 +31466,8 @@
       "forms": []
     },
     {
-      "id": "dornarling",
-      "display_name": "Dornarling",
+      "id": "umduskaeling",
+      "display_name": "Umduskaeling",
       "description": "A normal-attuned creature roaming the Umbra region.",
       "generation": "demo_g4",
       "origin_region": "umbra",
@@ -31518,13 +31518,13 @@
         }
       ],
       "evolves_to": [
-        "eldarfang"
+        "umduskaefang"
       ],
       "forms": []
     },
     {
-      "id": "eldarfang",
-      "display_name": "Eldarfang",
+      "id": "umduskaefang",
+      "display_name": "Umduskaefang",
       "description": "A normal-attuned creature roaming the Umbra region.",
       "generation": "demo_g4",
       "origin_region": "umbra",
@@ -31574,8 +31574,8 @@
       "forms": []
     },
     {
-      "id": "fenarling",
-      "display_name": "Fenarling",
+      "id": "umemberaeling",
+      "display_name": "Umemberaeling",
       "description": "A fire-attuned creature roaming the Umbra region.",
       "generation": "demo_g4",
       "origin_region": "umbra",
@@ -31626,13 +31626,13 @@
         }
       ],
       "evolves_to": [
-        "grimarfang"
+        "umemberaefang"
       ],
       "forms": []
     },
     {
-      "id": "grimarfang",
-      "display_name": "Grimarfang",
+      "id": "umemberaefang",
+      "display_name": "Umemberaefang",
       "description": "A fire-attuned creature roaming the Umbra region.",
       "generation": "demo_g4",
       "origin_region": "umbra",
@@ -31682,8 +31682,8 @@
       "forms": []
     },
     {
-      "id": "holloarling",
-      "display_name": "Holloarling",
+      "id": "umfrostaeling",
+      "display_name": "Umfrostaeling",
       "description": "A water/earth-attuned creature roaming the Umbra region.",
       "generation": "demo_g4",
       "origin_region": "umbra",
@@ -31739,13 +31739,13 @@
         }
       ],
       "evolves_to": [
-        "iriarfang"
+        "umfrostaefang"
       ],
       "forms": []
     },
     {
-      "id": "iriarfang",
-      "display_name": "Iriarfang",
+      "id": "umfrostaefang",
+      "display_name": "Umfrostaefang",
       "description": "A water/earth-attuned creature roaming the Umbra region.",
       "generation": "demo_g4",
       "origin_region": "umbra",
@@ -31800,8 +31800,8 @@
       "forms": []
     },
     {
-      "id": "jorvarling",
-      "display_name": "Jorvarling",
+      "id": "umglimaeling",
+      "display_name": "Umglimaeling",
       "description": "A grass-attuned creature roaming the Umbra region.",
       "generation": "demo_g4",
       "origin_region": "umbra",
@@ -31852,13 +31852,13 @@
         }
       ],
       "evolves_to": [
-        "kestarfang"
+        "umglimaefang"
       ],
       "forms": []
     },
     {
-      "id": "kestarfang",
-      "display_name": "Kestarfang",
+      "id": "umglimaefang",
+      "display_name": "Umglimaefang",
       "description": "A grass-attuned creature roaming the Umbra region.",
       "generation": "demo_g4",
       "origin_region": "umbra",
@@ -31908,8 +31908,8 @@
       "forms": []
     },
     {
-      "id": "lumarling",
-      "display_name": "Lumarling",
+      "id": "umbramorling",
+      "display_name": "Umbramorling",
       "description": "A electric-attuned creature roaming the Umbra region.",
       "generation": "demo_g4",
       "origin_region": "umbra",
@@ -31963,8 +31963,8 @@
       "forms": []
     },
     {
-      "id": "morarling",
-      "display_name": "Morarling",
+      "id": "umcinqorling",
+      "display_name": "Umcinqorling",
       "description": "A earth-attuned creature roaming the Umbra region.",
       "generation": "demo_g4",
       "origin_region": "umbra",
@@ -32018,8 +32018,8 @@
       "forms": []
     },
     {
-      "id": "nyxarling",
-      "display_name": "Nyxarling",
+      "id": "umdornorling",
+      "display_name": "Umdornorling",
       "description": "A wind-attuned creature roaming the Umbra region.",
       "generation": "demo_g4",
       "origin_region": "umbra",
@@ -32073,8 +32073,8 @@
       "forms": []
     },
     {
-      "id": "orlarling",
-      "display_name": "Orlarling",
+      "id": "umeldorling",
+      "display_name": "Umeldorling",
       "description": "A mystic-attuned creature roaming the Umbra region.",
       "generation": "demo_g4",
       "origin_region": "umbra",
@@ -32128,8 +32128,8 @@
       "forms": []
     },
     {
-      "id": "pyrarling",
-      "display_name": "Pyrarling",
+      "id": "umfenorling",
+      "display_name": "Umfenorling",
       "description": "A normal-attuned creature roaming the Umbra region.",
       "generation": "demo_g4",
       "origin_region": "umbra",
@@ -32183,8 +32183,8 @@
       "forms": []
     },
     {
-      "id": "quillarling",
-      "display_name": "Quillarling",
+      "id": "umgrimorling",
+      "display_name": "Umgrimorling",
       "description": "A fire-attuned creature roaming the Umbra region.",
       "generation": "demo_g4",
       "origin_region": "umbra",
@@ -32238,8 +32238,8 @@
       "forms": []
     },
     {
-      "id": "rynarling",
-      "display_name": "Rynarling",
+      "id": "umholloorling",
+      "display_name": "Umholloorling",
       "description": "A water-attuned creature roaming the Umbra region.",
       "generation": "demo_g4",
       "origin_region": "umbra",
@@ -32293,8 +32293,8 @@
       "forms": []
     },
     {
-      "id": "solarling",
-      "display_name": "Solarling",
+      "id": "umiriorling",
+      "display_name": "Umiriorling",
       "description": "A grass-attuned creature roaming the Umbra region.",
       "generation": "demo_g4",
       "origin_region": "umbra",
@@ -32348,8 +32348,8 @@
       "forms": []
     },
     {
-      "id": "tamarling",
-      "display_name": "Tamarling",
+      "id": "umjorvorling",
+      "display_name": "Umjorvorling",
       "description": "A electric-attuned creature roaming the Umbra region.",
       "generation": "demo_g4",
       "origin_region": "umbra",
@@ -32403,8 +32403,8 @@
       "forms": []
     },
     {
-      "id": "umbrarling",
-      "display_name": "Umbrarling",
+      "id": "umkestorling",
+      "display_name": "Umkestorling",
       "description": "A earth-attuned creature roaming the Umbra region.",
       "generation": "demo_g4",
       "origin_region": "umbra",
@@ -32458,8 +32458,8 @@
       "forms": []
     },
     {
-      "id": "vexarling",
-      "display_name": "Vexarling",
+      "id": "umlumorling",
+      "display_name": "Umlumorling",
       "description": "A wind-attuned creature roaming the Umbra region.",
       "generation": "demo_g4",
       "origin_region": "umbra",
@@ -32513,8 +32513,8 @@
       "forms": []
     },
     {
-      "id": "wynarling",
-      "display_name": "Wynarling",
+      "id": "ummororling",
+      "display_name": "Ummororling",
       "description": "A mystic-attuned creature roaming the Umbra region.",
       "generation": "demo_g4",
       "origin_region": "umbra",
@@ -32568,8 +32568,8 @@
       "forms": []
     },
     {
-      "id": "yararling",
-      "display_name": "Yararling",
+      "id": "umnyxorling",
+      "display_name": "Umnyxorling",
       "description": "A normal-attuned creature roaming the Umbra region.",
       "generation": "demo_g4",
       "origin_region": "umbra",
@@ -32623,8 +32623,8 @@
       "forms": []
     },
     {
-      "id": "zepharling",
-      "display_name": "Zepharling",
+      "id": "umorlorling",
+      "display_name": "Umorlorling",
       "description": "A fire-attuned creature roaming the Umbra region.",
       "generation": "demo_g4",
       "origin_region": "umbra",
@@ -32678,8 +32678,8 @@
       "forms": []
     },
     {
-      "id": "balarling",
-      "display_name": "Balarling",
+      "id": "umpyrorling",
+      "display_name": "Umpyrorling",
       "description": "A water-attuned creature roaming the Umbra region.",
       "generation": "demo_g4",
       "origin_region": "umbra",
@@ -32733,8 +32733,8 @@
       "forms": []
     },
     {
-      "id": "crevarling",
-      "display_name": "Crevarling",
+      "id": "umquillorling",
+      "display_name": "Umquillorling",
       "description": "A grass-attuned creature roaming the Umbra region.",
       "generation": "demo_g4",
       "origin_region": "umbra",
@@ -32788,8 +32788,8 @@
       "forms": []
     },
     {
-      "id": "duskarling",
-      "display_name": "Duskarling",
+      "id": "umrynorling",
+      "display_name": "Umrynorling",
       "description": "A electric-attuned creature roaming the Umbra region.",
       "generation": "demo_g4",
       "origin_region": "umbra",
@@ -32843,8 +32843,8 @@
       "forms": []
     },
     {
-      "id": "emberarling",
-      "display_name": "Emberarling",
+      "id": "umsolorling",
+      "display_name": "Umsolorling",
       "description": "A earth-attuned creature roaming the Umbra region.",
       "generation": "demo_g4",
       "origin_region": "umbra",
@@ -32898,8 +32898,8 @@
       "forms": []
     },
     {
-      "id": "frostarling",
-      "display_name": "Frostarling",
+      "id": "umtamorling",
+      "display_name": "Umtamorling",
       "description": "A wind-attuned creature roaming the Umbra region.",
       "generation": "demo_g4",
       "origin_region": "umbra",
@@ -32953,8 +32953,8 @@
       "forms": []
     },
     {
-      "id": "glimarling",
-      "display_name": "Glimarling",
+      "id": "umumbrorling",
+      "display_name": "Umumbrorling",
       "description": "A mystic-attuned creature roaming the Umbra region.",
       "generation": "demo_g4",
       "origin_region": "umbra",
@@ -33008,8 +33008,8 @@
       "forms": []
     },
     {
-      "id": "bramakit",
-      "display_name": "Bramakit",
+      "id": "fevexorling",
+      "display_name": "Fevexorling",
       "description": "A normal/grass-attuned creature roaming the Ferrock region.",
       "generation": "demo_g4",
       "origin_region": "ferrock",
@@ -33065,13 +33065,13 @@
         }
       ],
       "evolves_to": [
-        "cinqaclaw"
+        "fevexorfang"
       ],
       "forms": []
     },
     {
-      "id": "cinqaclaw",
-      "display_name": "Cinqaclaw",
+      "id": "fevexorfang",
+      "display_name": "Fevexorfang",
       "description": "A normal/grass-attuned creature roaming the Ferrock region.",
       "generation": "demo_g4",
       "origin_region": "ferrock",
@@ -33126,8 +33126,8 @@
       "forms": []
     },
     {
-      "id": "dornakit",
-      "display_name": "Dornakit",
+      "id": "fewynorling",
+      "display_name": "Fewynorling",
       "description": "A fire-attuned creature roaming the Ferrock region.",
       "generation": "demo_g4",
       "origin_region": "ferrock",
@@ -33178,13 +33178,13 @@
         }
       ],
       "evolves_to": [
-        "eldaclaw"
+        "fewynorfang"
       ],
       "forms": []
     },
     {
-      "id": "eldaclaw",
-      "display_name": "Eldaclaw",
+      "id": "fewynorfang",
+      "display_name": "Fewynorfang",
       "description": "A fire-attuned creature roaming the Ferrock region.",
       "generation": "demo_g4",
       "origin_region": "ferrock",
@@ -33234,8 +33234,8 @@
       "forms": []
     },
     {
-      "id": "fenakit",
-      "display_name": "Fenakit",
+      "id": "feyarorling",
+      "display_name": "Feyarorling",
       "description": "A water-attuned creature roaming the Ferrock region.",
       "generation": "demo_g4",
       "origin_region": "ferrock",
@@ -33286,13 +33286,13 @@
         }
       ],
       "evolves_to": [
-        "grimaclaw"
+        "feyarorfang"
       ],
       "forms": []
     },
     {
-      "id": "grimaclaw",
-      "display_name": "Grimaclaw",
+      "id": "feyarorfang",
+      "display_name": "Feyarorfang",
       "description": "A water-attuned creature roaming the Ferrock region.",
       "generation": "demo_g4",
       "origin_region": "ferrock",
@@ -33342,8 +33342,8 @@
       "forms": []
     },
     {
-      "id": "holloakit",
-      "display_name": "Holloakit",
+      "id": "fezephorling",
+      "display_name": "Fezephorling",
       "description": "A grass/wind-attuned creature roaming the Ferrock region.",
       "generation": "demo_g4",
       "origin_region": "ferrock",
@@ -33399,13 +33399,13 @@
         }
       ],
       "evolves_to": [
-        "iriaclaw"
+        "fezephorfang"
       ],
       "forms": []
     },
     {
-      "id": "iriaclaw",
-      "display_name": "Iriaclaw",
+      "id": "fezephorfang",
+      "display_name": "Fezephorfang",
       "description": "A grass/wind-attuned creature roaming the Ferrock region.",
       "generation": "demo_g4",
       "origin_region": "ferrock",
@@ -33460,8 +33460,8 @@
       "forms": []
     },
     {
-      "id": "jorvakit",
-      "display_name": "Jorvakit",
+      "id": "febalorling",
+      "display_name": "Febalorling",
       "description": "A electric-attuned creature roaming the Ferrock region.",
       "generation": "demo_g4",
       "origin_region": "ferrock",
@@ -33512,13 +33512,13 @@
         }
       ],
       "evolves_to": [
-        "kestaclaw"
+        "febalorfang"
       ],
       "forms": []
     },
     {
-      "id": "kestaclaw",
-      "display_name": "Kestaclaw",
+      "id": "febalorfang",
+      "display_name": "Febalorfang",
       "description": "A electric-attuned creature roaming the Ferrock region.",
       "generation": "demo_g4",
       "origin_region": "ferrock",
@@ -33568,8 +33568,8 @@
       "forms": []
     },
     {
-      "id": "lumakit",
-      "display_name": "Lumakit",
+      "id": "fecrevorling",
+      "display_name": "Fecrevorling",
       "description": "A earth-attuned creature roaming the Ferrock region.",
       "generation": "demo_g4",
       "origin_region": "ferrock",
@@ -33620,13 +33620,13 @@
         }
       ],
       "evolves_to": [
-        "moraclaw"
+        "fecrevorfang"
       ],
       "forms": []
     },
     {
-      "id": "moraclaw",
-      "display_name": "Moraclaw",
+      "id": "fecrevorfang",
+      "display_name": "Fecrevorfang",
       "description": "A earth-attuned creature roaming the Ferrock region.",
       "generation": "demo_g4",
       "origin_region": "ferrock",
@@ -33676,8 +33676,8 @@
       "forms": []
     },
     {
-      "id": "nyxakit",
-      "display_name": "Nyxakit",
+      "id": "feduskorling",
+      "display_name": "Feduskorling",
       "description": "A wind/fire-attuned creature roaming the Ferrock region.",
       "generation": "demo_g4",
       "origin_region": "ferrock",
@@ -33733,13 +33733,13 @@
         }
       ],
       "evolves_to": [
-        "orlaclaw"
+        "feduskorfang"
       ],
       "forms": []
     },
     {
-      "id": "orlaclaw",
-      "display_name": "Orlaclaw",
+      "id": "feduskorfang",
+      "display_name": "Feduskorfang",
       "description": "A wind/fire-attuned creature roaming the Ferrock region.",
       "generation": "demo_g4",
       "origin_region": "ferrock",
@@ -33794,8 +33794,8 @@
       "forms": []
     },
     {
-      "id": "pyrakit",
-      "display_name": "Pyrakit",
+      "id": "feemberorling",
+      "display_name": "Feemberorling",
       "description": "A mystic-attuned creature roaming the Ferrock region.",
       "generation": "demo_g4",
       "origin_region": "ferrock",
@@ -33846,13 +33846,13 @@
         }
       ],
       "evolves_to": [
-        "quillaclaw"
+        "feemberorfang"
       ],
       "forms": []
     },
     {
-      "id": "quillaclaw",
-      "display_name": "Quillaclaw",
+      "id": "feemberorfang",
+      "display_name": "Feemberorfang",
       "description": "A mystic-attuned creature roaming the Ferrock region.",
       "generation": "demo_g4",
       "origin_region": "ferrock",
@@ -33902,8 +33902,8 @@
       "forms": []
     },
     {
-      "id": "rynakit",
-      "display_name": "Rynakit",
+      "id": "fefrostorling",
+      "display_name": "Fefrostorling",
       "description": "A normal-attuned creature roaming the Ferrock region.",
       "generation": "demo_g4",
       "origin_region": "ferrock",
@@ -33954,13 +33954,13 @@
         }
       ],
       "evolves_to": [
-        "solaclaw"
+        "fefrostorfang"
       ],
       "forms": []
     },
     {
-      "id": "solaclaw",
-      "display_name": "Solaclaw",
+      "id": "fefrostorfang",
+      "display_name": "Fefrostorfang",
       "description": "A normal-attuned creature roaming the Ferrock region.",
       "generation": "demo_g4",
       "origin_region": "ferrock",
@@ -34010,8 +34010,8 @@
       "forms": []
     },
     {
-      "id": "tamakit",
-      "display_name": "Tamakit",
+      "id": "feglimorling",
+      "display_name": "Feglimorling",
       "description": "A fire/electric-attuned creature roaming the Ferrock region.",
       "generation": "demo_g4",
       "origin_region": "ferrock",
@@ -34067,13 +34067,13 @@
         }
       ],
       "evolves_to": [
-        "umbraclaw"
+        "feglimorfang"
       ],
       "forms": []
     },
     {
-      "id": "umbraclaw",
-      "display_name": "Umbraclaw",
+      "id": "feglimorfang",
+      "display_name": "Feglimorfang",
       "description": "A fire/electric-attuned creature roaming the Ferrock region.",
       "generation": "demo_g4",
       "origin_region": "ferrock",
@@ -34128,8 +34128,8 @@
       "forms": []
     },
     {
-      "id": "vexakit",
-      "display_name": "Vexakit",
+      "id": "febramenling",
+      "display_name": "Febramenling",
       "description": "A water-attuned creature roaming the Ferrock region.",
       "generation": "demo_g4",
       "origin_region": "ferrock",
@@ -34180,13 +34180,13 @@
         }
       ],
       "evolves_to": [
-        "wynaclaw"
+        "febramenfang"
       ],
       "forms": []
     },
     {
-      "id": "wynaclaw",
-      "display_name": "Wynaclaw",
+      "id": "febramenfang",
+      "display_name": "Febramenfang",
       "description": "A water-attuned creature roaming the Ferrock region.",
       "generation": "demo_g4",
       "origin_region": "ferrock",
@@ -34236,8 +34236,8 @@
       "forms": []
     },
     {
-      "id": "yarakit",
-      "display_name": "Yarakit",
+      "id": "fecinqenling",
+      "display_name": "Fecinqenling",
       "description": "A grass-attuned creature roaming the Ferrock region.",
       "generation": "demo_g4",
       "origin_region": "ferrock",
@@ -34288,13 +34288,13 @@
         }
       ],
       "evolves_to": [
-        "zephaclaw"
+        "fecinqenfang"
       ],
       "forms": []
     },
     {
-      "id": "zephaclaw",
-      "display_name": "Zephaclaw",
+      "id": "fecinqenfang",
+      "display_name": "Fecinqenfang",
       "description": "A grass-attuned creature roaming the Ferrock region.",
       "generation": "demo_g4",
       "origin_region": "ferrock",
@@ -34344,8 +34344,8 @@
       "forms": []
     },
     {
-      "id": "balakit",
-      "display_name": "Balakit",
+      "id": "fedornenling",
+      "display_name": "Fedornenling",
       "description": "A electric/mystic-attuned creature roaming the Ferrock region.",
       "generation": "demo_g4",
       "origin_region": "ferrock",
@@ -34401,13 +34401,13 @@
         }
       ],
       "evolves_to": [
-        "crevaclaw"
+        "fedornenfang"
       ],
       "forms": []
     },
     {
-      "id": "crevaclaw",
-      "display_name": "Crevaclaw",
+      "id": "fedornenfang",
+      "display_name": "Fedornenfang",
       "description": "A electric/mystic-attuned creature roaming the Ferrock region.",
       "generation": "demo_g4",
       "origin_region": "ferrock",
@@ -34462,8 +34462,8 @@
       "forms": []
     },
     {
-      "id": "duskakit",
-      "display_name": "Duskakit",
+      "id": "feeldenling",
+      "display_name": "Feeldenling",
       "description": "A earth-attuned creature roaming the Ferrock region.",
       "generation": "demo_g4",
       "origin_region": "ferrock",
@@ -34514,13 +34514,13 @@
         }
       ],
       "evolves_to": [
-        "emberaclaw"
+        "feeldenfang"
       ],
       "forms": []
     },
     {
-      "id": "emberaclaw",
-      "display_name": "Emberaclaw",
+      "id": "feeldenfang",
+      "display_name": "Feeldenfang",
       "description": "A earth-attuned creature roaming the Ferrock region.",
       "generation": "demo_g4",
       "origin_region": "ferrock",
@@ -34570,8 +34570,8 @@
       "forms": []
     },
     {
-      "id": "frostakit",
-      "display_name": "Frostakit",
+      "id": "fefenenling",
+      "display_name": "Fefenenling",
       "description": "A wind-attuned creature roaming the Ferrock region.",
       "generation": "demo_g4",
       "origin_region": "ferrock",
@@ -34622,13 +34622,13 @@
         }
       ],
       "evolves_to": [
-        "glimaclaw"
+        "fefenenfang"
       ],
       "forms": []
     },
     {
-      "id": "glimaclaw",
-      "display_name": "Glimaclaw",
+      "id": "fefenenfang",
+      "display_name": "Fefenenfang",
       "description": "A wind-attuned creature roaming the Ferrock region.",
       "generation": "demo_g4",
       "origin_region": "ferrock",
@@ -34678,8 +34678,8 @@
       "forms": []
     },
     {
-      "id": "bramekit",
-      "display_name": "Bramekit",
+      "id": "fegrimenling",
+      "display_name": "Fegrimenling",
       "description": "A mystic/water-attuned creature roaming the Ferrock region.",
       "generation": "demo_g4",
       "origin_region": "ferrock",
@@ -34735,13 +34735,13 @@
         }
       ],
       "evolves_to": [
-        "cinqeclaw"
+        "fegrimenfang"
       ],
       "forms": []
     },
     {
-      "id": "cinqeclaw",
-      "display_name": "Cinqeclaw",
+      "id": "fegrimenfang",
+      "display_name": "Fegrimenfang",
       "description": "A mystic/water-attuned creature roaming the Ferrock region.",
       "generation": "demo_g4",
       "origin_region": "ferrock",
@@ -34796,8 +34796,8 @@
       "forms": []
     },
     {
-      "id": "dornekit",
-      "display_name": "Dornekit",
+      "id": "feholloenling",
+      "display_name": "Feholloenling",
       "description": "A normal-attuned creature roaming the Ferrock region.",
       "generation": "demo_g4",
       "origin_region": "ferrock",
@@ -34848,13 +34848,13 @@
         }
       ],
       "evolves_to": [
-        "eldeclaw"
+        "feholloenfang"
       ],
       "forms": []
     },
     {
-      "id": "eldeclaw",
-      "display_name": "Eldeclaw",
+      "id": "feholloenfang",
+      "display_name": "Feholloenfang",
       "description": "A normal-attuned creature roaming the Ferrock region.",
       "generation": "demo_g4",
       "origin_region": "ferrock",
@@ -34904,8 +34904,8 @@
       "forms": []
     },
     {
-      "id": "fenekit",
-      "display_name": "Fenekit",
+      "id": "feirienling",
+      "display_name": "Feirienling",
       "description": "A fire-attuned creature roaming the Ferrock region.",
       "generation": "demo_g4",
       "origin_region": "ferrock",
@@ -34956,13 +34956,13 @@
         }
       ],
       "evolves_to": [
-        "grimeclaw"
+        "feirienfang"
       ],
       "forms": []
     },
     {
-      "id": "grimeclaw",
-      "display_name": "Grimeclaw",
+      "id": "feirienfang",
+      "display_name": "Feirienfang",
       "description": "A fire-attuned creature roaming the Ferrock region.",
       "generation": "demo_g4",
       "origin_region": "ferrock",
@@ -35012,8 +35012,8 @@
       "forms": []
     },
     {
-      "id": "holloekit",
-      "display_name": "Holloekit",
+      "id": "fejorvenling",
+      "display_name": "Fejorvenling",
       "description": "A water/earth-attuned creature roaming the Ferrock region.",
       "generation": "demo_g4",
       "origin_region": "ferrock",
@@ -35069,13 +35069,13 @@
         }
       ],
       "evolves_to": [
-        "irieclaw"
+        "fejorvenfang"
       ],
       "forms": []
     },
     {
-      "id": "irieclaw",
-      "display_name": "Irieclaw",
+      "id": "fejorvenfang",
+      "display_name": "Fejorvenfang",
       "description": "A water/earth-attuned creature roaming the Ferrock region.",
       "generation": "demo_g4",
       "origin_region": "ferrock",
@@ -35130,8 +35130,8 @@
       "forms": []
     },
     {
-      "id": "jorvekit",
-      "display_name": "Jorvekit",
+      "id": "fekestenling",
+      "display_name": "Fekestenling",
       "description": "A grass-attuned creature roaming the Ferrock region.",
       "generation": "demo_g4",
       "origin_region": "ferrock",
@@ -35182,13 +35182,13 @@
         }
       ],
       "evolves_to": [
-        "kesteclaw"
+        "fekestenfang"
       ],
       "forms": []
     },
     {
-      "id": "kesteclaw",
-      "display_name": "Kesteclaw",
+      "id": "fekestenfang",
+      "display_name": "Fekestenfang",
       "description": "A grass-attuned creature roaming the Ferrock region.",
       "generation": "demo_g4",
       "origin_region": "ferrock",
@@ -35238,8 +35238,8 @@
       "forms": []
     },
     {
-      "id": "lumekit",
-      "display_name": "Lumekit",
+      "id": "felumenling",
+      "display_name": "Felumenling",
       "description": "A electric-attuned creature roaming the Ferrock region.",
       "generation": "demo_g4",
       "origin_region": "ferrock",
@@ -35293,8 +35293,8 @@
       "forms": []
     },
     {
-      "id": "morekit",
-      "display_name": "Morekit",
+      "id": "femorenling",
+      "display_name": "Femorenling",
       "description": "A earth-attuned creature roaming the Ferrock region.",
       "generation": "demo_g4",
       "origin_region": "ferrock",
@@ -35348,8 +35348,8 @@
       "forms": []
     },
     {
-      "id": "nyxekit",
-      "display_name": "Nyxekit",
+      "id": "fenyxenling",
+      "display_name": "Fenyxenling",
       "description": "A wind-attuned creature roaming the Ferrock region.",
       "generation": "demo_g4",
       "origin_region": "ferrock",
@@ -35403,8 +35403,8 @@
       "forms": []
     },
     {
-      "id": "orlekit",
-      "display_name": "Orlekit",
+      "id": "feorlenling",
+      "display_name": "Feorlenling",
       "description": "A mystic-attuned creature roaming the Ferrock region.",
       "generation": "demo_g4",
       "origin_region": "ferrock",
@@ -35458,8 +35458,8 @@
       "forms": []
     },
     {
-      "id": "pyrekit",
-      "display_name": "Pyrekit",
+      "id": "fepyrenling",
+      "display_name": "Fepyrenling",
       "description": "A normal-attuned creature roaming the Ferrock region.",
       "generation": "demo_g4",
       "origin_region": "ferrock",
@@ -35513,8 +35513,8 @@
       "forms": []
     },
     {
-      "id": "quillekit",
-      "display_name": "Quillekit",
+      "id": "fequillenling",
+      "display_name": "Fequillenling",
       "description": "A fire-attuned creature roaming the Ferrock region.",
       "generation": "demo_g4",
       "origin_region": "ferrock",
@@ -35568,8 +35568,8 @@
       "forms": []
     },
     {
-      "id": "rynekit",
-      "display_name": "Rynekit",
+      "id": "ferynenling",
+      "display_name": "Ferynenling",
       "description": "A water-attuned creature roaming the Ferrock region.",
       "generation": "demo_g4",
       "origin_region": "ferrock",
@@ -35623,8 +35623,8 @@
       "forms": []
     },
     {
-      "id": "solekit",
-      "display_name": "Solekit",
+      "id": "fesolenling",
+      "display_name": "Fesolenling",
       "description": "A grass-attuned creature roaming the Ferrock region.",
       "generation": "demo_g4",
       "origin_region": "ferrock",
@@ -35678,8 +35678,8 @@
       "forms": []
     },
     {
-      "id": "tamekit",
-      "display_name": "Tamekit",
+      "id": "fetamenling",
+      "display_name": "Fetamenling",
       "description": "A electric-attuned creature roaming the Ferrock region.",
       "generation": "demo_g4",
       "origin_region": "ferrock",
@@ -35733,8 +35733,8 @@
       "forms": []
     },
     {
-      "id": "umbrekit",
-      "display_name": "Umbrekit",
+      "id": "feumbrenling",
+      "display_name": "Feumbrenling",
       "description": "A earth-attuned creature roaming the Ferrock region.",
       "generation": "demo_g4",
       "origin_region": "ferrock",
@@ -35788,8 +35788,8 @@
       "forms": []
     },
     {
-      "id": "vexekit",
-      "display_name": "Vexekit",
+      "id": "fevexenling",
+      "display_name": "Fevexenling",
       "description": "A wind-attuned creature roaming the Ferrock region.",
       "generation": "demo_g4",
       "origin_region": "ferrock",
@@ -35843,8 +35843,8 @@
       "forms": []
     },
     {
-      "id": "wynekit",
-      "display_name": "Wynekit",
+      "id": "fewynenling",
+      "display_name": "Fewynenling",
       "description": "A mystic-attuned creature roaming the Ferrock region.",
       "generation": "demo_g4",
       "origin_region": "ferrock",
@@ -35898,8 +35898,8 @@
       "forms": []
     },
     {
-      "id": "yarekit",
-      "display_name": "Yarekit",
+      "id": "feyarenling",
+      "display_name": "Feyarenling",
       "description": "A normal-attuned creature roaming the Ferrock region.",
       "generation": "demo_g4",
       "origin_region": "ferrock",
@@ -35953,8 +35953,8 @@
       "forms": []
     },
     {
-      "id": "zephekit",
-      "display_name": "Zephekit",
+      "id": "fezephenling",
+      "display_name": "Fezephenling",
       "description": "A fire-attuned creature roaming the Ferrock region.",
       "generation": "demo_g4",
       "origin_region": "ferrock",
@@ -36008,8 +36008,8 @@
       "forms": []
     },
     {
-      "id": "balekit",
-      "display_name": "Balekit",
+      "id": "febalenling",
+      "display_name": "Febalenling",
       "description": "A water-attuned creature roaming the Ferrock region.",
       "generation": "demo_g4",
       "origin_region": "ferrock",
@@ -36063,8 +36063,8 @@
       "forms": []
     },
     {
-      "id": "crevekit",
-      "display_name": "Crevekit",
+      "id": "fecrevenling",
+      "display_name": "Fecrevenling",
       "description": "A grass-attuned creature roaming the Ferrock region.",
       "generation": "demo_g4",
       "origin_region": "ferrock",
@@ -36118,8 +36118,8 @@
       "forms": []
     },
     {
-      "id": "duskekit",
-      "display_name": "Duskekit",
+      "id": "feduskenling",
+      "display_name": "Feduskenling",
       "description": "A electric-attuned creature roaming the Ferrock region.",
       "generation": "demo_g4",
       "origin_region": "ferrock",
@@ -36173,8 +36173,8 @@
       "forms": []
     },
     {
-      "id": "emberekit",
-      "display_name": "Emberekit",
+      "id": "feemberenling",
+      "display_name": "Feemberenling",
       "description": "A earth-attuned creature roaming the Ferrock region.",
       "generation": "demo_g4",
       "origin_region": "ferrock",
@@ -36228,8 +36228,8 @@
       "forms": []
     },
     {
-      "id": "frostekit",
-      "display_name": "Frostekit",
+      "id": "fefrostenling",
+      "display_name": "Fefrostenling",
       "description": "A wind-attuned creature roaming the Ferrock region.",
       "generation": "demo_g4",
       "origin_region": "ferrock",
@@ -36283,8 +36283,8 @@
       "forms": []
     },
     {
-      "id": "glimekit",
-      "display_name": "Glimekit",
+      "id": "feglimenling",
+      "display_name": "Feglimenling",
       "description": "A mystic-attuned creature roaming the Ferrock region.",
       "generation": "demo_g4",
       "origin_region": "ferrock",
@@ -36338,8 +36338,8 @@
       "forms": []
     },
     {
-      "id": "bramikit",
-      "display_name": "Bramikit",
+      "id": "brbramilling",
+      "display_name": "Brbramilling",
       "description": "A normal/grass-attuned creature roaming the Brume region.",
       "generation": "demo_g4",
       "origin_region": "brume",
@@ -36395,13 +36395,13 @@
         }
       ],
       "evolves_to": [
-        "cinqiclaw"
+        "brbramilfang"
       ],
       "forms": []
     },
     {
-      "id": "cinqiclaw",
-      "display_name": "Cinqiclaw",
+      "id": "brbramilfang",
+      "display_name": "Brbramilfang",
       "description": "A normal/grass-attuned creature roaming the Brume region.",
       "generation": "demo_g4",
       "origin_region": "brume",
@@ -36456,8 +36456,8 @@
       "forms": []
     },
     {
-      "id": "dornikit",
-      "display_name": "Dornikit",
+      "id": "brcinqilling",
+      "display_name": "Brcinqilling",
       "description": "A fire-attuned creature roaming the Brume region.",
       "generation": "demo_g4",
       "origin_region": "brume",
@@ -36508,13 +36508,13 @@
         }
       ],
       "evolves_to": [
-        "eldiclaw"
+        "brcinqilfang"
       ],
       "forms": []
     },
     {
-      "id": "eldiclaw",
-      "display_name": "Eldiclaw",
+      "id": "brcinqilfang",
+      "display_name": "Brcinqilfang",
       "description": "A fire-attuned creature roaming the Brume region.",
       "generation": "demo_g4",
       "origin_region": "brume",
@@ -36564,8 +36564,8 @@
       "forms": []
     },
     {
-      "id": "fenikit",
-      "display_name": "Fenikit",
+      "id": "brdornilling",
+      "display_name": "Brdornilling",
       "description": "A water-attuned creature roaming the Brume region.",
       "generation": "demo_g4",
       "origin_region": "brume",
@@ -36616,13 +36616,13 @@
         }
       ],
       "evolves_to": [
-        "grimiclaw"
+        "brdornilfang"
       ],
       "forms": []
     },
     {
-      "id": "grimiclaw",
-      "display_name": "Grimiclaw",
+      "id": "brdornilfang",
+      "display_name": "Brdornilfang",
       "description": "A water-attuned creature roaming the Brume region.",
       "generation": "demo_g4",
       "origin_region": "brume",
@@ -36672,8 +36672,8 @@
       "forms": []
     },
     {
-      "id": "holloikit",
-      "display_name": "Holloikit",
+      "id": "breldilling",
+      "display_name": "Breldilling",
       "description": "A grass/wind-attuned creature roaming the Brume region.",
       "generation": "demo_g4",
       "origin_region": "brume",
@@ -36729,13 +36729,13 @@
         }
       ],
       "evolves_to": [
-        "iriiclaw"
+        "breldilfang"
       ],
       "forms": []
     },
     {
-      "id": "iriiclaw",
-      "display_name": "Iriiclaw",
+      "id": "breldilfang",
+      "display_name": "Breldilfang",
       "description": "A grass/wind-attuned creature roaming the Brume region.",
       "generation": "demo_g4",
       "origin_region": "brume",
@@ -36790,8 +36790,8 @@
       "forms": []
     },
     {
-      "id": "jorvikit",
-      "display_name": "Jorvikit",
+      "id": "brfenilling",
+      "display_name": "Brfenilling",
       "description": "A electric-attuned creature roaming the Brume region.",
       "generation": "demo_g4",
       "origin_region": "brume",
@@ -36842,13 +36842,13 @@
         }
       ],
       "evolves_to": [
-        "kesticlaw"
+        "brfenilfang"
       ],
       "forms": []
     },
     {
-      "id": "kesticlaw",
-      "display_name": "Kesticlaw",
+      "id": "brfenilfang",
+      "display_name": "Brfenilfang",
       "description": "A electric-attuned creature roaming the Brume region.",
       "generation": "demo_g4",
       "origin_region": "brume",
@@ -36898,8 +36898,8 @@
       "forms": []
     },
     {
-      "id": "lumikit",
-      "display_name": "Lumikit",
+      "id": "brgrimilling",
+      "display_name": "Brgrimilling",
       "description": "A earth-attuned creature roaming the Brume region.",
       "generation": "demo_g4",
       "origin_region": "brume",
@@ -36950,13 +36950,13 @@
         }
       ],
       "evolves_to": [
-        "moriclaw"
+        "brgrimilfang"
       ],
       "forms": []
     },
     {
-      "id": "moriclaw",
-      "display_name": "Moriclaw",
+      "id": "brgrimilfang",
+      "display_name": "Brgrimilfang",
       "description": "A earth-attuned creature roaming the Brume region.",
       "generation": "demo_g4",
       "origin_region": "brume",
@@ -37006,8 +37006,8 @@
       "forms": []
     },
     {
-      "id": "nyxikit",
-      "display_name": "Nyxikit",
+      "id": "brholloilling",
+      "display_name": "Brholloilling",
       "description": "A wind/fire-attuned creature roaming the Brume region.",
       "generation": "demo_g4",
       "origin_region": "brume",
@@ -37063,13 +37063,13 @@
         }
       ],
       "evolves_to": [
-        "orliclaw"
+        "brholloilfang"
       ],
       "forms": []
     },
     {
-      "id": "orliclaw",
-      "display_name": "Orliclaw",
+      "id": "brholloilfang",
+      "display_name": "Brholloilfang",
       "description": "A wind/fire-attuned creature roaming the Brume region.",
       "generation": "demo_g4",
       "origin_region": "brume",
@@ -37124,8 +37124,8 @@
       "forms": []
     },
     {
-      "id": "pyrikit",
-      "display_name": "Pyrikit",
+      "id": "bririilling",
+      "display_name": "Bririilling",
       "description": "A mystic-attuned creature roaming the Brume region.",
       "generation": "demo_g4",
       "origin_region": "brume",
@@ -37176,13 +37176,13 @@
         }
       ],
       "evolves_to": [
-        "quilliclaw"
+        "bririilfang"
       ],
       "forms": []
     },
     {
-      "id": "quilliclaw",
-      "display_name": "Quilliclaw",
+      "id": "bririilfang",
+      "display_name": "Bririilfang",
       "description": "A mystic-attuned creature roaming the Brume region.",
       "generation": "demo_g4",
       "origin_region": "brume",
@@ -37232,8 +37232,8 @@
       "forms": []
     },
     {
-      "id": "rynikit",
-      "display_name": "Rynikit",
+      "id": "brjorvilling",
+      "display_name": "Brjorvilling",
       "description": "A normal-attuned creature roaming the Brume region.",
       "generation": "demo_g4",
       "origin_region": "brume",
@@ -37284,13 +37284,13 @@
         }
       ],
       "evolves_to": [
-        "soliclaw"
+        "brjorvilfang"
       ],
       "forms": []
     },
     {
-      "id": "soliclaw",
-      "display_name": "Soliclaw",
+      "id": "brjorvilfang",
+      "display_name": "Brjorvilfang",
       "description": "A normal-attuned creature roaming the Brume region.",
       "generation": "demo_g4",
       "origin_region": "brume",
@@ -37340,8 +37340,8 @@
       "forms": []
     },
     {
-      "id": "tamikit",
-      "display_name": "Tamikit",
+      "id": "brkestilling",
+      "display_name": "Brkestilling",
       "description": "A fire/electric-attuned creature roaming the Brume region.",
       "generation": "demo_g4",
       "origin_region": "brume",
@@ -37397,13 +37397,13 @@
         }
       ],
       "evolves_to": [
-        "umbriclaw"
+        "brkestilfang"
       ],
       "forms": []
     },
     {
-      "id": "umbriclaw",
-      "display_name": "Umbriclaw",
+      "id": "brkestilfang",
+      "display_name": "Brkestilfang",
       "description": "A fire/electric-attuned creature roaming the Brume region.",
       "generation": "demo_g4",
       "origin_region": "brume",
@@ -37458,8 +37458,8 @@
       "forms": []
     },
     {
-      "id": "vexikit",
-      "display_name": "Vexikit",
+      "id": "brlumilling",
+      "display_name": "Brlumilling",
       "description": "A water-attuned creature roaming the Brume region.",
       "generation": "demo_g4",
       "origin_region": "brume",
@@ -37510,13 +37510,13 @@
         }
       ],
       "evolves_to": [
-        "wyniclaw"
+        "brlumilfang"
       ],
       "forms": []
     },
     {
-      "id": "wyniclaw",
-      "display_name": "Wyniclaw",
+      "id": "brlumilfang",
+      "display_name": "Brlumilfang",
       "description": "A water-attuned creature roaming the Brume region.",
       "generation": "demo_g4",
       "origin_region": "brume",
@@ -37566,8 +37566,8 @@
       "forms": []
     },
     {
-      "id": "yarikit",
-      "display_name": "Yarikit",
+      "id": "brmorilling",
+      "display_name": "Brmorilling",
       "description": "A grass-attuned creature roaming the Brume region.",
       "generation": "demo_g4",
       "origin_region": "brume",
@@ -37618,13 +37618,13 @@
         }
       ],
       "evolves_to": [
-        "zephiclaw"
+        "brmorilfang"
       ],
       "forms": []
     },
     {
-      "id": "zephiclaw",
-      "display_name": "Zephiclaw",
+      "id": "brmorilfang",
+      "display_name": "Brmorilfang",
       "description": "A grass-attuned creature roaming the Brume region.",
       "generation": "demo_g4",
       "origin_region": "brume",
@@ -37674,8 +37674,8 @@
       "forms": []
     },
     {
-      "id": "balikit",
-      "display_name": "Balikit",
+      "id": "brnyxilling",
+      "display_name": "Brnyxilling",
       "description": "A electric/mystic-attuned creature roaming the Brume region.",
       "generation": "demo_g4",
       "origin_region": "brume",
@@ -37731,13 +37731,13 @@
         }
       ],
       "evolves_to": [
-        "creviclaw"
+        "brnyxilfang"
       ],
       "forms": []
     },
     {
-      "id": "creviclaw",
-      "display_name": "Creviclaw",
+      "id": "brnyxilfang",
+      "display_name": "Brnyxilfang",
       "description": "A electric/mystic-attuned creature roaming the Brume region.",
       "generation": "demo_g4",
       "origin_region": "brume",
@@ -37792,8 +37792,8 @@
       "forms": []
     },
     {
-      "id": "duskikit",
-      "display_name": "Duskikit",
+      "id": "brorlilling",
+      "display_name": "Brorlilling",
       "description": "A earth-attuned creature roaming the Brume region.",
       "generation": "demo_g4",
       "origin_region": "brume",
@@ -37844,13 +37844,13 @@
         }
       ],
       "evolves_to": [
-        "embericlaw"
+        "brorlilfang"
       ],
       "forms": []
     },
     {
-      "id": "embericlaw",
-      "display_name": "Embericlaw",
+      "id": "brorlilfang",
+      "display_name": "Brorlilfang",
       "description": "A earth-attuned creature roaming the Brume region.",
       "generation": "demo_g4",
       "origin_region": "brume",
@@ -37900,8 +37900,8 @@
       "forms": []
     },
     {
-      "id": "frostikit",
-      "display_name": "Frostikit",
+      "id": "brpyrilling",
+      "display_name": "Brpyrilling",
       "description": "A wind-attuned creature roaming the Brume region.",
       "generation": "demo_g4",
       "origin_region": "brume",
@@ -37952,13 +37952,13 @@
         }
       ],
       "evolves_to": [
-        "glimiclaw"
+        "brpyrilfang"
       ],
       "forms": []
     },
     {
-      "id": "glimiclaw",
-      "display_name": "Glimiclaw",
+      "id": "brpyrilfang",
+      "display_name": "Brpyrilfang",
       "description": "A wind-attuned creature roaming the Brume region.",
       "generation": "demo_g4",
       "origin_region": "brume",
@@ -38008,8 +38008,8 @@
       "forms": []
     },
     {
-      "id": "bramokit",
-      "display_name": "Bramokit",
+      "id": "brquillilling",
+      "display_name": "Brquillilling",
       "description": "A mystic/water-attuned creature roaming the Brume region.",
       "generation": "demo_g4",
       "origin_region": "brume",
@@ -38065,13 +38065,13 @@
         }
       ],
       "evolves_to": [
-        "cinqoclaw"
+        "brquillilfang"
       ],
       "forms": []
     },
     {
-      "id": "cinqoclaw",
-      "display_name": "Cinqoclaw",
+      "id": "brquillilfang",
+      "display_name": "Brquillilfang",
       "description": "A mystic/water-attuned creature roaming the Brume region.",
       "generation": "demo_g4",
       "origin_region": "brume",
@@ -38126,8 +38126,8 @@
       "forms": []
     },
     {
-      "id": "dornokit",
-      "display_name": "Dornokit",
+      "id": "brrynilling",
+      "display_name": "Brrynilling",
       "description": "A normal-attuned creature roaming the Brume region.",
       "generation": "demo_g4",
       "origin_region": "brume",
@@ -38178,13 +38178,13 @@
         }
       ],
       "evolves_to": [
-        "eldoclaw"
+        "brrynilfang"
       ],
       "forms": []
     },
     {
-      "id": "eldoclaw",
-      "display_name": "Eldoclaw",
+      "id": "brrynilfang",
+      "display_name": "Brrynilfang",
       "description": "A normal-attuned creature roaming the Brume region.",
       "generation": "demo_g4",
       "origin_region": "brume",
@@ -38234,8 +38234,8 @@
       "forms": []
     },
     {
-      "id": "fenokit",
-      "display_name": "Fenokit",
+      "id": "brsolilling",
+      "display_name": "Brsolilling",
       "description": "A fire-attuned creature roaming the Brume region.",
       "generation": "demo_g4",
       "origin_region": "brume",
@@ -38286,13 +38286,13 @@
         }
       ],
       "evolves_to": [
-        "grimoclaw"
+        "brsolilfang"
       ],
       "forms": []
     },
     {
-      "id": "grimoclaw",
-      "display_name": "Grimoclaw",
+      "id": "brsolilfang",
+      "display_name": "Brsolilfang",
       "description": "A fire-attuned creature roaming the Brume region.",
       "generation": "demo_g4",
       "origin_region": "brume",
@@ -38342,8 +38342,8 @@
       "forms": []
     },
     {
-      "id": "hollookit",
-      "display_name": "Hollookit",
+      "id": "brtamilling",
+      "display_name": "Brtamilling",
       "description": "A water/earth-attuned creature roaming the Brume region.",
       "generation": "demo_g4",
       "origin_region": "brume",
@@ -38399,13 +38399,13 @@
         }
       ],
       "evolves_to": [
-        "irioclaw"
+        "brtamilfang"
       ],
       "forms": []
     },
     {
-      "id": "irioclaw",
-      "display_name": "Irioclaw",
+      "id": "brtamilfang",
+      "display_name": "Brtamilfang",
       "description": "A water/earth-attuned creature roaming the Brume region.",
       "generation": "demo_g4",
       "origin_region": "brume",
@@ -38460,8 +38460,8 @@
       "forms": []
     },
     {
-      "id": "jorvokit",
-      "display_name": "Jorvokit",
+      "id": "brumbrilling",
+      "display_name": "Brumbrilling",
       "description": "A grass-attuned creature roaming the Brume region.",
       "generation": "demo_g4",
       "origin_region": "brume",
@@ -38512,13 +38512,13 @@
         }
       ],
       "evolves_to": [
-        "kestoclaw"
+        "brumbrilfang"
       ],
       "forms": []
     },
     {
-      "id": "kestoclaw",
-      "display_name": "Kestoclaw",
+      "id": "brumbrilfang",
+      "display_name": "Brumbrilfang",
       "description": "A grass-attuned creature roaming the Brume region.",
       "generation": "demo_g4",
       "origin_region": "brume",
@@ -38568,8 +38568,8 @@
       "forms": []
     },
     {
-      "id": "lumokit",
-      "display_name": "Lumokit",
+      "id": "brvexilling",
+      "display_name": "Brvexilling",
       "description": "A electric-attuned creature roaming the Brume region.",
       "generation": "demo_g4",
       "origin_region": "brume",
@@ -38623,8 +38623,8 @@
       "forms": []
     },
     {
-      "id": "morokit",
-      "display_name": "Morokit",
+      "id": "brwynilling",
+      "display_name": "Brwynilling",
       "description": "A earth-attuned creature roaming the Brume region.",
       "generation": "demo_g4",
       "origin_region": "brume",
@@ -38678,8 +38678,8 @@
       "forms": []
     },
     {
-      "id": "nyxokit",
-      "display_name": "Nyxokit",
+      "id": "bryarilling",
+      "display_name": "Bryarilling",
       "description": "A wind-attuned creature roaming the Brume region.",
       "generation": "demo_g4",
       "origin_region": "brume",
@@ -38733,8 +38733,8 @@
       "forms": []
     },
     {
-      "id": "orlokit",
-      "display_name": "Orlokit",
+      "id": "brzephilling",
+      "display_name": "Brzephilling",
       "description": "A mystic-attuned creature roaming the Brume region.",
       "generation": "demo_g4",
       "origin_region": "brume",
@@ -38788,8 +38788,8 @@
       "forms": []
     },
     {
-      "id": "pyrokit",
-      "display_name": "Pyrokit",
+      "id": "brbalilling",
+      "display_name": "Brbalilling",
       "description": "A normal-attuned creature roaming the Brume region.",
       "generation": "demo_g4",
       "origin_region": "brume",
@@ -38843,8 +38843,8 @@
       "forms": []
     },
     {
-      "id": "quillokit",
-      "display_name": "Quillokit",
+      "id": "brcrevilling",
+      "display_name": "Brcrevilling",
       "description": "A fire-attuned creature roaming the Brume region.",
       "generation": "demo_g4",
       "origin_region": "brume",
@@ -38898,8 +38898,8 @@
       "forms": []
     },
     {
-      "id": "rynokit",
-      "display_name": "Rynokit",
+      "id": "brduskilling",
+      "display_name": "Brduskilling",
       "description": "A water-attuned creature roaming the Brume region.",
       "generation": "demo_g4",
       "origin_region": "brume",
@@ -38953,8 +38953,8 @@
       "forms": []
     },
     {
-      "id": "solokit",
-      "display_name": "Solokit",
+      "id": "bremberilling",
+      "display_name": "Bremberilling",
       "description": "A grass-attuned creature roaming the Brume region.",
       "generation": "demo_g4",
       "origin_region": "brume",
@@ -39008,8 +39008,8 @@
       "forms": []
     },
     {
-      "id": "tamokit",
-      "display_name": "Tamokit",
+      "id": "brfrostilling",
+      "display_name": "Brfrostilling",
       "description": "A electric-attuned creature roaming the Brume region.",
       "generation": "demo_g4",
       "origin_region": "brume",
@@ -39063,8 +39063,8 @@
       "forms": []
     },
     {
-      "id": "umbrokit",
-      "display_name": "Umbrokit",
+      "id": "brglimilling",
+      "display_name": "Brglimilling",
       "description": "A earth-attuned creature roaming the Brume region.",
       "generation": "demo_g4",
       "origin_region": "brume",
@@ -39118,8 +39118,8 @@
       "forms": []
     },
     {
-      "id": "vexokit",
-      "display_name": "Vexokit",
+      "id": "brbramarling",
+      "display_name": "Brbramarling",
       "description": "A wind-attuned creature roaming the Brume region.",
       "generation": "demo_g4",
       "origin_region": "brume",
@@ -39173,8 +39173,8 @@
       "forms": []
     },
     {
-      "id": "wynokit",
-      "display_name": "Wynokit",
+      "id": "brcinqarling",
+      "display_name": "Brcinqarling",
       "description": "A mystic-attuned creature roaming the Brume region.",
       "generation": "demo_g4",
       "origin_region": "brume",
@@ -39228,8 +39228,8 @@
       "forms": []
     },
     {
-      "id": "yarokit",
-      "display_name": "Yarokit",
+      "id": "brdornarling",
+      "display_name": "Brdornarling",
       "description": "A normal-attuned creature roaming the Brume region.",
       "generation": "demo_g4",
       "origin_region": "brume",
@@ -39283,8 +39283,8 @@
       "forms": []
     },
     {
-      "id": "zephokit",
-      "display_name": "Zephokit",
+      "id": "breldarling",
+      "display_name": "Breldarling",
       "description": "A fire-attuned creature roaming the Brume region.",
       "generation": "demo_g4",
       "origin_region": "brume",
@@ -39338,8 +39338,8 @@
       "forms": []
     },
     {
-      "id": "balokit",
-      "display_name": "Balokit",
+      "id": "brfenarling",
+      "display_name": "Brfenarling",
       "description": "A water-attuned creature roaming the Brume region.",
       "generation": "demo_g4",
       "origin_region": "brume",
@@ -39393,8 +39393,8 @@
       "forms": []
     },
     {
-      "id": "crevokit",
-      "display_name": "Crevokit",
+      "id": "brgrimarling",
+      "display_name": "Brgrimarling",
       "description": "A grass-attuned creature roaming the Brume region.",
       "generation": "demo_g4",
       "origin_region": "brume",
@@ -39448,8 +39448,8 @@
       "forms": []
     },
     {
-      "id": "duskokit",
-      "display_name": "Duskokit",
+      "id": "brholloarling",
+      "display_name": "Brholloarling",
       "description": "A electric-attuned creature roaming the Brume region.",
       "generation": "demo_g4",
       "origin_region": "brume",
@@ -39503,8 +39503,8 @@
       "forms": []
     },
     {
-      "id": "emberokit",
-      "display_name": "Emberokit",
+      "id": "bririarling",
+      "display_name": "Bririarling",
       "description": "A earth-attuned creature roaming the Brume region.",
       "generation": "demo_g4",
       "origin_region": "brume",
@@ -39558,8 +39558,8 @@
       "forms": []
     },
     {
-      "id": "frostokit",
-      "display_name": "Frostokit",
+      "id": "brjorvarling",
+      "display_name": "Brjorvarling",
       "description": "A wind-attuned creature roaming the Brume region.",
       "generation": "demo_g4",
       "origin_region": "brume",
@@ -39613,8 +39613,8 @@
       "forms": []
     },
     {
-      "id": "glimokit",
-      "display_name": "Glimokit",
+      "id": "brkestarling",
+      "display_name": "Brkestarling",
       "description": "A mystic-attuned creature roaming the Brume region.",
       "generation": "demo_g4",
       "origin_region": "brume",
@@ -39668,8 +39668,8 @@
       "forms": []
     },
     {
-      "id": "bramukit",
-      "display_name": "Bramukit",
+      "id": "lulumarling",
+      "display_name": "Lulumarling",
       "description": "A normal/grass-attuned creature roaming the Lumen region.",
       "generation": "demo_g4",
       "origin_region": "lumen",
@@ -39725,13 +39725,13 @@
         }
       ],
       "evolves_to": [
-        "cinquclaw"
+        "lulumarfang"
       ],
       "forms": []
     },
     {
-      "id": "cinquclaw",
-      "display_name": "Cinquclaw",
+      "id": "lulumarfang",
+      "display_name": "Lulumarfang",
       "description": "A normal/grass-attuned creature roaming the Lumen region.",
       "generation": "demo_g4",
       "origin_region": "lumen",
@@ -39786,8 +39786,8 @@
       "forms": []
     },
     {
-      "id": "dornukit",
-      "display_name": "Dornukit",
+      "id": "lumorarling",
+      "display_name": "Lumorarling",
       "description": "A fire-attuned creature roaming the Lumen region.",
       "generation": "demo_g4",
       "origin_region": "lumen",
@@ -39838,13 +39838,13 @@
         }
       ],
       "evolves_to": [
-        "elduclaw"
+        "lumorarfang"
       ],
       "forms": []
     },
     {
-      "id": "elduclaw",
-      "display_name": "Elduclaw",
+      "id": "lumorarfang",
+      "display_name": "Lumorarfang",
       "description": "A fire-attuned creature roaming the Lumen region.",
       "generation": "demo_g4",
       "origin_region": "lumen",
@@ -39894,8 +39894,8 @@
       "forms": []
     },
     {
-      "id": "fenukit",
-      "display_name": "Fenukit",
+      "id": "lunyxarling",
+      "display_name": "Lunyxarling",
       "description": "A water-attuned creature roaming the Lumen region.",
       "generation": "demo_g4",
       "origin_region": "lumen",
@@ -39946,13 +39946,13 @@
         }
       ],
       "evolves_to": [
-        "grimuclaw"
+        "lunyxarfang"
       ],
       "forms": []
     },
     {
-      "id": "grimuclaw",
-      "display_name": "Grimuclaw",
+      "id": "lunyxarfang",
+      "display_name": "Lunyxarfang",
       "description": "A water-attuned creature roaming the Lumen region.",
       "generation": "demo_g4",
       "origin_region": "lumen",
@@ -40002,8 +40002,8 @@
       "forms": []
     },
     {
-      "id": "holloukit",
-      "display_name": "Holloukit",
+      "id": "luorlarling",
+      "display_name": "Luorlarling",
       "description": "A grass/wind-attuned creature roaming the Lumen region.",
       "generation": "demo_g4",
       "origin_region": "lumen",
@@ -40059,13 +40059,13 @@
         }
       ],
       "evolves_to": [
-        "iriuclaw"
+        "luorlarfang"
       ],
       "forms": []
     },
     {
-      "id": "iriuclaw",
-      "display_name": "Iriuclaw",
+      "id": "luorlarfang",
+      "display_name": "Luorlarfang",
       "description": "A grass/wind-attuned creature roaming the Lumen region.",
       "generation": "demo_g4",
       "origin_region": "lumen",
@@ -40120,8 +40120,8 @@
       "forms": []
     },
     {
-      "id": "jorvukit",
-      "display_name": "Jorvukit",
+      "id": "lupyrarling",
+      "display_name": "Lupyrarling",
       "description": "A electric-attuned creature roaming the Lumen region.",
       "generation": "demo_g4",
       "origin_region": "lumen",
@@ -40172,13 +40172,13 @@
         }
       ],
       "evolves_to": [
-        "kestuclaw"
+        "lupyrarfang"
       ],
       "forms": []
     },
     {
-      "id": "kestuclaw",
-      "display_name": "Kestuclaw",
+      "id": "lupyrarfang",
+      "display_name": "Lupyrarfang",
       "description": "A electric-attuned creature roaming the Lumen region.",
       "generation": "demo_g4",
       "origin_region": "lumen",
@@ -40228,8 +40228,8 @@
       "forms": []
     },
     {
-      "id": "lumukit",
-      "display_name": "Lumukit",
+      "id": "luquillarling",
+      "display_name": "Luquillarling",
       "description": "A earth-attuned creature roaming the Lumen region.",
       "generation": "demo_g4",
       "origin_region": "lumen",
@@ -40280,13 +40280,13 @@
         }
       ],
       "evolves_to": [
-        "moruclaw"
+        "luquillarfang"
       ],
       "forms": []
     },
     {
-      "id": "moruclaw",
-      "display_name": "Moruclaw",
+      "id": "luquillarfang",
+      "display_name": "Luquillarfang",
       "description": "A earth-attuned creature roaming the Lumen region.",
       "generation": "demo_g4",
       "origin_region": "lumen",
@@ -40336,8 +40336,8 @@
       "forms": []
     },
     {
-      "id": "nyxukit",
-      "display_name": "Nyxukit",
+      "id": "lurynarling",
+      "display_name": "Lurynarling",
       "description": "A wind/fire-attuned creature roaming the Lumen region.",
       "generation": "demo_g4",
       "origin_region": "lumen",
@@ -40393,13 +40393,13 @@
         }
       ],
       "evolves_to": [
-        "orluclaw"
+        "lurynarfang"
       ],
       "forms": []
     },
     {
-      "id": "orluclaw",
-      "display_name": "Orluclaw",
+      "id": "lurynarfang",
+      "display_name": "Lurynarfang",
       "description": "A wind/fire-attuned creature roaming the Lumen region.",
       "generation": "demo_g4",
       "origin_region": "lumen",
@@ -40454,8 +40454,8 @@
       "forms": []
     },
     {
-      "id": "pyrukit",
-      "display_name": "Pyrukit",
+      "id": "lusolarling",
+      "display_name": "Lusolarling",
       "description": "A mystic-attuned creature roaming the Lumen region.",
       "generation": "demo_g4",
       "origin_region": "lumen",
@@ -40506,13 +40506,13 @@
         }
       ],
       "evolves_to": [
-        "quilluclaw"
+        "lusolarfang"
       ],
       "forms": []
     },
     {
-      "id": "quilluclaw",
-      "display_name": "Quilluclaw",
+      "id": "lusolarfang",
+      "display_name": "Lusolarfang",
       "description": "A mystic-attuned creature roaming the Lumen region.",
       "generation": "demo_g4",
       "origin_region": "lumen",
@@ -40562,8 +40562,8 @@
       "forms": []
     },
     {
-      "id": "rynukit",
-      "display_name": "Rynukit",
+      "id": "lutamarling",
+      "display_name": "Lutamarling",
       "description": "A normal-attuned creature roaming the Lumen region.",
       "generation": "demo_g4",
       "origin_region": "lumen",
@@ -40614,13 +40614,13 @@
         }
       ],
       "evolves_to": [
-        "soluclaw"
+        "lutamarfang"
       ],
       "forms": []
     },
     {
-      "id": "soluclaw",
-      "display_name": "Soluclaw",
+      "id": "lutamarfang",
+      "display_name": "Lutamarfang",
       "description": "A normal-attuned creature roaming the Lumen region.",
       "generation": "demo_g4",
       "origin_region": "lumen",
@@ -40670,8 +40670,8 @@
       "forms": []
     },
     {
-      "id": "tamukit",
-      "display_name": "Tamukit",
+      "id": "luumbrarling",
+      "display_name": "Luumbrarling",
       "description": "A fire/electric-attuned creature roaming the Lumen region.",
       "generation": "demo_g4",
       "origin_region": "lumen",
@@ -40727,13 +40727,13 @@
         }
       ],
       "evolves_to": [
-        "umbruclaw"
+        "luumbrarfang"
       ],
       "forms": []
     },
     {
-      "id": "umbruclaw",
-      "display_name": "Umbruclaw",
+      "id": "luumbrarfang",
+      "display_name": "Luumbrarfang",
       "description": "A fire/electric-attuned creature roaming the Lumen region.",
       "generation": "demo_g4",
       "origin_region": "lumen",
@@ -40788,8 +40788,8 @@
       "forms": []
     },
     {
-      "id": "vexukit",
-      "display_name": "Vexukit",
+      "id": "luvexarling",
+      "display_name": "Luvexarling",
       "description": "A water-attuned creature roaming the Lumen region.",
       "generation": "demo_g4",
       "origin_region": "lumen",
@@ -40840,13 +40840,13 @@
         }
       ],
       "evolves_to": [
-        "wynuclaw"
+        "luvexarfang"
       ],
       "forms": []
     },
     {
-      "id": "wynuclaw",
-      "display_name": "Wynuclaw",
+      "id": "luvexarfang",
+      "display_name": "Luvexarfang",
       "description": "A water-attuned creature roaming the Lumen region.",
       "generation": "demo_g4",
       "origin_region": "lumen",
@@ -40896,8 +40896,8 @@
       "forms": []
     },
     {
-      "id": "yarukit",
-      "display_name": "Yarukit",
+      "id": "luwynarling",
+      "display_name": "Luwynarling",
       "description": "A grass-attuned creature roaming the Lumen region.",
       "generation": "demo_g4",
       "origin_region": "lumen",
@@ -40948,13 +40948,13 @@
         }
       ],
       "evolves_to": [
-        "zephuclaw"
+        "luwynarfang"
       ],
       "forms": []
     },
     {
-      "id": "zephuclaw",
-      "display_name": "Zephuclaw",
+      "id": "luwynarfang",
+      "display_name": "Luwynarfang",
       "description": "A grass-attuned creature roaming the Lumen region.",
       "generation": "demo_g4",
       "origin_region": "lumen",
@@ -41004,8 +41004,8 @@
       "forms": []
     },
     {
-      "id": "balukit",
-      "display_name": "Balukit",
+      "id": "luyararling",
+      "display_name": "Luyararling",
       "description": "A electric/mystic-attuned creature roaming the Lumen region.",
       "generation": "demo_g4",
       "origin_region": "lumen",
@@ -41061,13 +41061,13 @@
         }
       ],
       "evolves_to": [
-        "crevuclaw"
+        "luyararfang"
       ],
       "forms": []
     },
     {
-      "id": "crevuclaw",
-      "display_name": "Crevuclaw",
+      "id": "luyararfang",
+      "display_name": "Luyararfang",
       "description": "A electric/mystic-attuned creature roaming the Lumen region.",
       "generation": "demo_g4",
       "origin_region": "lumen",
@@ -41122,8 +41122,8 @@
       "forms": []
     },
     {
-      "id": "duskukit",
-      "display_name": "Duskukit",
+      "id": "luzepharling",
+      "display_name": "Luzepharling",
       "description": "A earth-attuned creature roaming the Lumen region.",
       "generation": "demo_g4",
       "origin_region": "lumen",
@@ -41174,13 +41174,13 @@
         }
       ],
       "evolves_to": [
-        "emberuclaw"
+        "luzepharfang"
       ],
       "forms": []
     },
     {
-      "id": "emberuclaw",
-      "display_name": "Emberuclaw",
+      "id": "luzepharfang",
+      "display_name": "Luzepharfang",
       "description": "A earth-attuned creature roaming the Lumen region.",
       "generation": "demo_g4",
       "origin_region": "lumen",
@@ -41230,8 +41230,8 @@
       "forms": []
     },
     {
-      "id": "frostukit",
-      "display_name": "Frostukit",
+      "id": "lubalarling",
+      "display_name": "Lubalarling",
       "description": "A wind-attuned creature roaming the Lumen region.",
       "generation": "demo_g4",
       "origin_region": "lumen",
@@ -41282,13 +41282,13 @@
         }
       ],
       "evolves_to": [
-        "glimuclaw"
+        "lubalarfang"
       ],
       "forms": []
     },
     {
-      "id": "glimuclaw",
-      "display_name": "Glimuclaw",
+      "id": "lubalarfang",
+      "display_name": "Lubalarfang",
       "description": "A wind-attuned creature roaming the Lumen region.",
       "generation": "demo_g4",
       "origin_region": "lumen",
@@ -41338,8 +41338,8 @@
       "forms": []
     },
     {
-      "id": "bramaekit",
-      "display_name": "Bramaekit",
+      "id": "lucrevarling",
+      "display_name": "Lucrevarling",
       "description": "A mystic/water-attuned creature roaming the Lumen region.",
       "generation": "demo_g4",
       "origin_region": "lumen",
@@ -41395,13 +41395,13 @@
         }
       ],
       "evolves_to": [
-        "cinqaeclaw"
+        "lucrevarfang"
       ],
       "forms": []
     },
     {
-      "id": "cinqaeclaw",
-      "display_name": "Cinqaeclaw",
+      "id": "lucrevarfang",
+      "display_name": "Lucrevarfang",
       "description": "A mystic/water-attuned creature roaming the Lumen region.",
       "generation": "demo_g4",
       "origin_region": "lumen",
@@ -41456,8 +41456,8 @@
       "forms": []
     },
     {
-      "id": "dornaekit",
-      "display_name": "Dornaekit",
+      "id": "luduskarling",
+      "display_name": "Luduskarling",
       "description": "A normal-attuned creature roaming the Lumen region.",
       "generation": "demo_g4",
       "origin_region": "lumen",
@@ -41508,13 +41508,13 @@
         }
       ],
       "evolves_to": [
-        "eldaeclaw"
+        "luduskarfang"
       ],
       "forms": []
     },
     {
-      "id": "eldaeclaw",
-      "display_name": "Eldaeclaw",
+      "id": "luduskarfang",
+      "display_name": "Luduskarfang",
       "description": "A normal-attuned creature roaming the Lumen region.",
       "generation": "demo_g4",
       "origin_region": "lumen",
@@ -41564,8 +41564,8 @@
       "forms": []
     },
     {
-      "id": "fenaekit",
-      "display_name": "Fenaekit",
+      "id": "luemberarling",
+      "display_name": "Luemberarling",
       "description": "A fire-attuned creature roaming the Lumen region.",
       "generation": "demo_g4",
       "origin_region": "lumen",
@@ -41616,13 +41616,13 @@
         }
       ],
       "evolves_to": [
-        "grimaeclaw"
+        "luemberarfang"
       ],
       "forms": []
     },
     {
-      "id": "grimaeclaw",
-      "display_name": "Grimaeclaw",
+      "id": "luemberarfang",
+      "display_name": "Luemberarfang",
       "description": "A fire-attuned creature roaming the Lumen region.",
       "generation": "demo_g4",
       "origin_region": "lumen",
@@ -41672,8 +41672,8 @@
       "forms": []
     },
     {
-      "id": "holloaekit",
-      "display_name": "Holloaekit",
+      "id": "lufrostarling",
+      "display_name": "Lufrostarling",
       "description": "A water/earth-attuned creature roaming the Lumen region.",
       "generation": "demo_g4",
       "origin_region": "lumen",
@@ -41729,13 +41729,13 @@
         }
       ],
       "evolves_to": [
-        "iriaeclaw"
+        "lufrostarfang"
       ],
       "forms": []
     },
     {
-      "id": "iriaeclaw",
-      "display_name": "Iriaeclaw",
+      "id": "lufrostarfang",
+      "display_name": "Lufrostarfang",
       "description": "A water/earth-attuned creature roaming the Lumen region.",
       "generation": "demo_g4",
       "origin_region": "lumen",
@@ -41790,8 +41790,8 @@
       "forms": []
     },
     {
-      "id": "jorvaekit",
-      "display_name": "Jorvaekit",
+      "id": "luglimarling",
+      "display_name": "Luglimarling",
       "description": "A grass-attuned creature roaming the Lumen region.",
       "generation": "demo_g4",
       "origin_region": "lumen",
@@ -41842,13 +41842,13 @@
         }
       ],
       "evolves_to": [
-        "kestaeclaw"
+        "luglimarfang"
       ],
       "forms": []
     },
     {
-      "id": "kestaeclaw",
-      "display_name": "Kestaeclaw",
+      "id": "luglimarfang",
+      "display_name": "Luglimarfang",
       "description": "A grass-attuned creature roaming the Lumen region.",
       "generation": "demo_g4",
       "origin_region": "lumen",
@@ -41898,8 +41898,8 @@
       "forms": []
     },
     {
-      "id": "lumaekit",
-      "display_name": "Lumaekit",
+      "id": "lubramakit",
+      "display_name": "Lubramakit",
       "description": "A electric-attuned creature roaming the Lumen region.",
       "generation": "demo_g4",
       "origin_region": "lumen",
@@ -41953,8 +41953,8 @@
       "forms": []
     },
     {
-      "id": "moraekit",
-      "display_name": "Moraekit",
+      "id": "lucinqakit",
+      "display_name": "Lucinqakit",
       "description": "A earth-attuned creature roaming the Lumen region.",
       "generation": "demo_g4",
       "origin_region": "lumen",
@@ -42008,8 +42008,8 @@
       "forms": []
     },
     {
-      "id": "nyxaekit",
-      "display_name": "Nyxaekit",
+      "id": "ludornakit",
+      "display_name": "Ludornakit",
       "description": "A wind-attuned creature roaming the Lumen region.",
       "generation": "demo_g4",
       "origin_region": "lumen",
@@ -42063,8 +42063,8 @@
       "forms": []
     },
     {
-      "id": "orlaekit",
-      "display_name": "Orlaekit",
+      "id": "lueldakit",
+      "display_name": "Lueldakit",
       "description": "A mystic-attuned creature roaming the Lumen region.",
       "generation": "demo_g4",
       "origin_region": "lumen",
@@ -42118,8 +42118,8 @@
       "forms": []
     },
     {
-      "id": "pyraekit",
-      "display_name": "Pyraekit",
+      "id": "lufenakit",
+      "display_name": "Lufenakit",
       "description": "A normal-attuned creature roaming the Lumen region.",
       "generation": "demo_g4",
       "origin_region": "lumen",
@@ -42173,8 +42173,8 @@
       "forms": []
     },
     {
-      "id": "quillaekit",
-      "display_name": "Quillaekit",
+      "id": "lugrimakit",
+      "display_name": "Lugrimakit",
       "description": "A fire-attuned creature roaming the Lumen region.",
       "generation": "demo_g4",
       "origin_region": "lumen",
@@ -42228,8 +42228,8 @@
       "forms": []
     },
     {
-      "id": "rynaekit",
-      "display_name": "Rynaekit",
+      "id": "luholloakit",
+      "display_name": "Luholloakit",
       "description": "A water-attuned creature roaming the Lumen region.",
       "generation": "demo_g4",
       "origin_region": "lumen",
@@ -42283,8 +42283,8 @@
       "forms": []
     },
     {
-      "id": "solaekit",
-      "display_name": "Solaekit",
+      "id": "luiriakit",
+      "display_name": "Luiriakit",
       "description": "A grass-attuned creature roaming the Lumen region.",
       "generation": "demo_g4",
       "origin_region": "lumen",
@@ -42338,8 +42338,8 @@
       "forms": []
     },
     {
-      "id": "tamaekit",
-      "display_name": "Tamaekit",
+      "id": "lujorvakit",
+      "display_name": "Lujorvakit",
       "description": "A electric-attuned creature roaming the Lumen region.",
       "generation": "demo_g4",
       "origin_region": "lumen",
@@ -42393,8 +42393,8 @@
       "forms": []
     },
     {
-      "id": "umbraekit",
-      "display_name": "Umbraekit",
+      "id": "lukestakit",
+      "display_name": "Lukestakit",
       "description": "A earth-attuned creature roaming the Lumen region.",
       "generation": "demo_g4",
       "origin_region": "lumen",
@@ -42448,8 +42448,8 @@
       "forms": []
     },
     {
-      "id": "vexaekit",
-      "display_name": "Vexaekit",
+      "id": "lulumakit",
+      "display_name": "Lulumakit",
       "description": "A wind-attuned creature roaming the Lumen region.",
       "generation": "demo_g4",
       "origin_region": "lumen",
@@ -42503,8 +42503,8 @@
       "forms": []
     },
     {
-      "id": "wynaekit",
-      "display_name": "Wynaekit",
+      "id": "lumorakit",
+      "display_name": "Lumorakit",
       "description": "A mystic-attuned creature roaming the Lumen region.",
       "generation": "demo_g4",
       "origin_region": "lumen",
@@ -42558,8 +42558,8 @@
       "forms": []
     },
     {
-      "id": "yaraekit",
-      "display_name": "Yaraekit",
+      "id": "lunyxakit",
+      "display_name": "Lunyxakit",
       "description": "A normal-attuned creature roaming the Lumen region.",
       "generation": "demo_g4",
       "origin_region": "lumen",
@@ -42613,8 +42613,8 @@
       "forms": []
     },
     {
-      "id": "zephaekit",
-      "display_name": "Zephaekit",
+      "id": "luorlakit",
+      "display_name": "Luorlakit",
       "description": "A fire-attuned creature roaming the Lumen region.",
       "generation": "demo_g4",
       "origin_region": "lumen",
@@ -42668,8 +42668,8 @@
       "forms": []
     },
     {
-      "id": "balaekit",
-      "display_name": "Balaekit",
+      "id": "lupyrakit",
+      "display_name": "Lupyrakit",
       "description": "A water-attuned creature roaming the Lumen region.",
       "generation": "demo_g4",
       "origin_region": "lumen",
@@ -42723,8 +42723,8 @@
       "forms": []
     },
     {
-      "id": "crevaekit",
-      "display_name": "Crevaekit",
+      "id": "luquillakit",
+      "display_name": "Luquillakit",
       "description": "A grass-attuned creature roaming the Lumen region.",
       "generation": "demo_g4",
       "origin_region": "lumen",
@@ -42778,8 +42778,8 @@
       "forms": []
     },
     {
-      "id": "duskaekit",
-      "display_name": "Duskaekit",
+      "id": "lurynakit",
+      "display_name": "Lurynakit",
       "description": "A electric-attuned creature roaming the Lumen region.",
       "generation": "demo_g4",
       "origin_region": "lumen",
@@ -42833,8 +42833,8 @@
       "forms": []
     },
     {
-      "id": "emberaekit",
-      "display_name": "Emberaekit",
+      "id": "lusolakit",
+      "display_name": "Lusolakit",
       "description": "A earth-attuned creature roaming the Lumen region.",
       "generation": "demo_g4",
       "origin_region": "lumen",
@@ -42888,8 +42888,8 @@
       "forms": []
     },
     {
-      "id": "frostaekit",
-      "display_name": "Frostaekit",
+      "id": "lutamakit",
+      "display_name": "Lutamakit",
       "description": "A wind-attuned creature roaming the Lumen region.",
       "generation": "demo_g4",
       "origin_region": "lumen",
@@ -42943,8 +42943,8 @@
       "forms": []
     },
     {
-      "id": "glimaekit",
-      "display_name": "Glimaekit",
+      "id": "luumbrakit",
+      "display_name": "Luumbrakit",
       "description": "A mystic-attuned creature roaming the Lumen region.",
       "generation": "demo_g4",
       "origin_region": "lumen",
@@ -42998,8 +42998,8 @@
       "forms": []
     },
     {
-      "id": "bramorkit",
-      "display_name": "Bramorkit",
+      "id": "zevexakit",
+      "display_name": "Zevexakit",
       "description": "A normal/grass-attuned creature roaming the Zephyra region.",
       "generation": "demo_g4",
       "origin_region": "zephyra",
@@ -43055,13 +43055,13 @@
         }
       ],
       "evolves_to": [
-        "cinqorclaw"
+        "zevexaclaw"
       ],
       "forms": []
     },
     {
-      "id": "cinqorclaw",
-      "display_name": "Cinqorclaw",
+      "id": "zevexaclaw",
+      "display_name": "Zevexaclaw",
       "description": "A normal/grass-attuned creature roaming the Zephyra region.",
       "generation": "demo_g4",
       "origin_region": "zephyra",
@@ -43116,8 +43116,8 @@
       "forms": []
     },
     {
-      "id": "dornorkit",
-      "display_name": "Dornorkit",
+      "id": "zewynakit",
+      "display_name": "Zewynakit",
       "description": "A fire-attuned creature roaming the Zephyra region.",
       "generation": "demo_g4",
       "origin_region": "zephyra",
@@ -43168,13 +43168,13 @@
         }
       ],
       "evolves_to": [
-        "eldorclaw"
+        "zewynaclaw"
       ],
       "forms": []
     },
     {
-      "id": "eldorclaw",
-      "display_name": "Eldorclaw",
+      "id": "zewynaclaw",
+      "display_name": "Zewynaclaw",
       "description": "A fire-attuned creature roaming the Zephyra region.",
       "generation": "demo_g4",
       "origin_region": "zephyra",
@@ -43224,8 +43224,8 @@
       "forms": []
     },
     {
-      "id": "fenorkit",
-      "display_name": "Fenorkit",
+      "id": "zeyarakit",
+      "display_name": "Zeyarakit",
       "description": "A water-attuned creature roaming the Zephyra region.",
       "generation": "demo_g4",
       "origin_region": "zephyra",
@@ -43276,13 +43276,13 @@
         }
       ],
       "evolves_to": [
-        "grimorclaw"
+        "zeyaraclaw"
       ],
       "forms": []
     },
     {
-      "id": "grimorclaw",
-      "display_name": "Grimorclaw",
+      "id": "zeyaraclaw",
+      "display_name": "Zeyaraclaw",
       "description": "A water-attuned creature roaming the Zephyra region.",
       "generation": "demo_g4",
       "origin_region": "zephyra",
@@ -43332,8 +43332,8 @@
       "forms": []
     },
     {
-      "id": "holloorkit",
-      "display_name": "Holloorkit",
+      "id": "zezephakit",
+      "display_name": "Zezephakit",
       "description": "A grass/wind-attuned creature roaming the Zephyra region.",
       "generation": "demo_g4",
       "origin_region": "zephyra",
@@ -43389,13 +43389,13 @@
         }
       ],
       "evolves_to": [
-        "iriorclaw"
+        "zezephaclaw"
       ],
       "forms": []
     },
     {
-      "id": "iriorclaw",
-      "display_name": "Iriorclaw",
+      "id": "zezephaclaw",
+      "display_name": "Zezephaclaw",
       "description": "A grass/wind-attuned creature roaming the Zephyra region.",
       "generation": "demo_g4",
       "origin_region": "zephyra",
@@ -43450,8 +43450,8 @@
       "forms": []
     },
     {
-      "id": "jorvorkit",
-      "display_name": "Jorvorkit",
+      "id": "zebalakit",
+      "display_name": "Zebalakit",
       "description": "A electric-attuned creature roaming the Zephyra region.",
       "generation": "demo_g4",
       "origin_region": "zephyra",
@@ -43502,13 +43502,13 @@
         }
       ],
       "evolves_to": [
-        "kestorclaw"
+        "zebalaclaw"
       ],
       "forms": []
     },
     {
-      "id": "kestorclaw",
-      "display_name": "Kestorclaw",
+      "id": "zebalaclaw",
+      "display_name": "Zebalaclaw",
       "description": "A electric-attuned creature roaming the Zephyra region.",
       "generation": "demo_g4",
       "origin_region": "zephyra",
@@ -43558,8 +43558,8 @@
       "forms": []
     },
     {
-      "id": "lumorkit",
-      "display_name": "Lumorkit",
+      "id": "zecrevakit",
+      "display_name": "Zecrevakit",
       "description": "A earth-attuned creature roaming the Zephyra region.",
       "generation": "demo_g4",
       "origin_region": "zephyra",
@@ -43610,13 +43610,13 @@
         }
       ],
       "evolves_to": [
-        "mororclaw"
+        "zecrevaclaw"
       ],
       "forms": []
     },
     {
-      "id": "mororclaw",
-      "display_name": "Mororclaw",
+      "id": "zecrevaclaw",
+      "display_name": "Zecrevaclaw",
       "description": "A earth-attuned creature roaming the Zephyra region.",
       "generation": "demo_g4",
       "origin_region": "zephyra",
@@ -43666,8 +43666,8 @@
       "forms": []
     },
     {
-      "id": "nyxorkit",
-      "display_name": "Nyxorkit",
+      "id": "zeduskakit",
+      "display_name": "Zeduskakit",
       "description": "A wind/fire-attuned creature roaming the Zephyra region.",
       "generation": "demo_g4",
       "origin_region": "zephyra",
@@ -43723,13 +43723,13 @@
         }
       ],
       "evolves_to": [
-        "orlorclaw"
+        "zeduskaclaw"
       ],
       "forms": []
     },
     {
-      "id": "orlorclaw",
-      "display_name": "Orlorclaw",
+      "id": "zeduskaclaw",
+      "display_name": "Zeduskaclaw",
       "description": "A wind/fire-attuned creature roaming the Zephyra region.",
       "generation": "demo_g4",
       "origin_region": "zephyra",
@@ -43784,8 +43784,8 @@
       "forms": []
     },
     {
-      "id": "pyrorkit",
-      "display_name": "Pyrorkit",
+      "id": "zeemberakit",
+      "display_name": "Zeemberakit",
       "description": "A mystic-attuned creature roaming the Zephyra region.",
       "generation": "demo_g4",
       "origin_region": "zephyra",
@@ -43836,13 +43836,13 @@
         }
       ],
       "evolves_to": [
-        "quillorclaw"
+        "zeemberaclaw"
       ],
       "forms": []
     },
     {
-      "id": "quillorclaw",
-      "display_name": "Quillorclaw",
+      "id": "zeemberaclaw",
+      "display_name": "Zeemberaclaw",
       "description": "A mystic-attuned creature roaming the Zephyra region.",
       "generation": "demo_g4",
       "origin_region": "zephyra",
@@ -43892,8 +43892,8 @@
       "forms": []
     },
     {
-      "id": "rynorkit",
-      "display_name": "Rynorkit",
+      "id": "zefrostakit",
+      "display_name": "Zefrostakit",
       "description": "A normal-attuned creature roaming the Zephyra region.",
       "generation": "demo_g4",
       "origin_region": "zephyra",
@@ -43944,13 +43944,13 @@
         }
       ],
       "evolves_to": [
-        "solorclaw"
+        "zefrostaclaw"
       ],
       "forms": []
     },
     {
-      "id": "solorclaw",
-      "display_name": "Solorclaw",
+      "id": "zefrostaclaw",
+      "display_name": "Zefrostaclaw",
       "description": "A normal-attuned creature roaming the Zephyra region.",
       "generation": "demo_g4",
       "origin_region": "zephyra",
@@ -44000,8 +44000,8 @@
       "forms": []
     },
     {
-      "id": "tamorkit",
-      "display_name": "Tamorkit",
+      "id": "zeglimakit",
+      "display_name": "Zeglimakit",
       "description": "A fire/electric-attuned creature roaming the Zephyra region.",
       "generation": "demo_g4",
       "origin_region": "zephyra",
@@ -44057,13 +44057,13 @@
         }
       ],
       "evolves_to": [
-        "umbrorclaw"
+        "zeglimaclaw"
       ],
       "forms": []
     },
     {
-      "id": "umbrorclaw",
-      "display_name": "Umbrorclaw",
+      "id": "zeglimaclaw",
+      "display_name": "Zeglimaclaw",
       "description": "A fire/electric-attuned creature roaming the Zephyra region.",
       "generation": "demo_g4",
       "origin_region": "zephyra",
@@ -44118,8 +44118,8 @@
       "forms": []
     },
     {
-      "id": "vexorkit",
-      "display_name": "Vexorkit",
+      "id": "zebramekit",
+      "display_name": "Zebramekit",
       "description": "A water-attuned creature roaming the Zephyra region.",
       "generation": "demo_g4",
       "origin_region": "zephyra",
@@ -44170,13 +44170,13 @@
         }
       ],
       "evolves_to": [
-        "wynorclaw"
+        "zebrameclaw"
       ],
       "forms": []
     },
     {
-      "id": "wynorclaw",
-      "display_name": "Wynorclaw",
+      "id": "zebrameclaw",
+      "display_name": "Zebrameclaw",
       "description": "A water-attuned creature roaming the Zephyra region.",
       "generation": "demo_g4",
       "origin_region": "zephyra",
@@ -44226,8 +44226,8 @@
       "forms": []
     },
     {
-      "id": "yarorkit",
-      "display_name": "Yarorkit",
+      "id": "zecinqekit",
+      "display_name": "Zecinqekit",
       "description": "A grass-attuned creature roaming the Zephyra region.",
       "generation": "demo_g4",
       "origin_region": "zephyra",
@@ -44278,13 +44278,13 @@
         }
       ],
       "evolves_to": [
-        "zephorclaw"
+        "zecinqeclaw"
       ],
       "forms": []
     },
     {
-      "id": "zephorclaw",
-      "display_name": "Zephorclaw",
+      "id": "zecinqeclaw",
+      "display_name": "Zecinqeclaw",
       "description": "A grass-attuned creature roaming the Zephyra region.",
       "generation": "demo_g4",
       "origin_region": "zephyra",
@@ -44334,8 +44334,8 @@
       "forms": []
     },
     {
-      "id": "balorkit",
-      "display_name": "Balorkit",
+      "id": "zedornekit",
+      "display_name": "Zedornekit",
       "description": "A electric/mystic-attuned creature roaming the Zephyra region.",
       "generation": "demo_g4",
       "origin_region": "zephyra",
@@ -44391,13 +44391,13 @@
         }
       ],
       "evolves_to": [
-        "crevorclaw"
+        "zedorneclaw"
       ],
       "forms": []
     },
     {
-      "id": "crevorclaw",
-      "display_name": "Crevorclaw",
+      "id": "zedorneclaw",
+      "display_name": "Zedorneclaw",
       "description": "A electric/mystic-attuned creature roaming the Zephyra region.",
       "generation": "demo_g4",
       "origin_region": "zephyra",
@@ -44452,8 +44452,8 @@
       "forms": []
     },
     {
-      "id": "duskorkit",
-      "display_name": "Duskorkit",
+      "id": "zeeldekit",
+      "display_name": "Zeeldekit",
       "description": "A earth-attuned creature roaming the Zephyra region.",
       "generation": "demo_g4",
       "origin_region": "zephyra",
@@ -44504,13 +44504,13 @@
         }
       ],
       "evolves_to": [
-        "emberorclaw"
+        "zeeldeclaw"
       ],
       "forms": []
     },
     {
-      "id": "emberorclaw",
-      "display_name": "Emberorclaw",
+      "id": "zeeldeclaw",
+      "display_name": "Zeeldeclaw",
       "description": "A earth-attuned creature roaming the Zephyra region.",
       "generation": "demo_g4",
       "origin_region": "zephyra",
@@ -44560,8 +44560,8 @@
       "forms": []
     },
     {
-      "id": "frostorkit",
-      "display_name": "Frostorkit",
+      "id": "zefenekit",
+      "display_name": "Zefenekit",
       "description": "A wind-attuned creature roaming the Zephyra region.",
       "generation": "demo_g4",
       "origin_region": "zephyra",
@@ -44612,13 +44612,13 @@
         }
       ],
       "evolves_to": [
-        "glimorclaw"
+        "zefeneclaw"
       ],
       "forms": []
     },
     {
-      "id": "glimorclaw",
-      "display_name": "Glimorclaw",
+      "id": "zefeneclaw",
+      "display_name": "Zefeneclaw",
       "description": "A wind-attuned creature roaming the Zephyra region.",
       "generation": "demo_g4",
       "origin_region": "zephyra",
@@ -44668,8 +44668,8 @@
       "forms": []
     },
     {
-      "id": "bramenkit",
-      "display_name": "Bramenkit",
+      "id": "zegrimekit",
+      "display_name": "Zegrimekit",
       "description": "A mystic/water-attuned creature roaming the Zephyra region.",
       "generation": "demo_g4",
       "origin_region": "zephyra",
@@ -44725,13 +44725,13 @@
         }
       ],
       "evolves_to": [
-        "cinqenclaw"
+        "zegrimeclaw"
       ],
       "forms": []
     },
     {
-      "id": "cinqenclaw",
-      "display_name": "Cinqenclaw",
+      "id": "zegrimeclaw",
+      "display_name": "Zegrimeclaw",
       "description": "A mystic/water-attuned creature roaming the Zephyra region.",
       "generation": "demo_g4",
       "origin_region": "zephyra",
@@ -44786,8 +44786,8 @@
       "forms": []
     },
     {
-      "id": "dornenkit",
-      "display_name": "Dornenkit",
+      "id": "zeholloekit",
+      "display_name": "Zeholloekit",
       "description": "A normal-attuned creature roaming the Zephyra region.",
       "generation": "demo_g4",
       "origin_region": "zephyra",
@@ -44838,13 +44838,13 @@
         }
       ],
       "evolves_to": [
-        "eldenclaw"
+        "zeholloeclaw"
       ],
       "forms": []
     },
     {
-      "id": "eldenclaw",
-      "display_name": "Eldenclaw",
+      "id": "zeholloeclaw",
+      "display_name": "Zeholloeclaw",
       "description": "A normal-attuned creature roaming the Zephyra region.",
       "generation": "demo_g4",
       "origin_region": "zephyra",
@@ -44894,8 +44894,8 @@
       "forms": []
     },
     {
-      "id": "fenenkit",
-      "display_name": "Fenenkit",
+      "id": "zeiriekit",
+      "display_name": "Zeiriekit",
       "description": "A fire-attuned creature roaming the Zephyra region.",
       "generation": "demo_g4",
       "origin_region": "zephyra",
@@ -44946,13 +44946,13 @@
         }
       ],
       "evolves_to": [
-        "grimenclaw"
+        "zeirieclaw"
       ],
       "forms": []
     },
     {
-      "id": "grimenclaw",
-      "display_name": "Grimenclaw",
+      "id": "zeirieclaw",
+      "display_name": "Zeirieclaw",
       "description": "A fire-attuned creature roaming the Zephyra region.",
       "generation": "demo_g4",
       "origin_region": "zephyra",
@@ -45002,8 +45002,8 @@
       "forms": []
     },
     {
-      "id": "holloenkit",
-      "display_name": "Holloenkit",
+      "id": "zejorvekit",
+      "display_name": "Zejorvekit",
       "description": "A water/earth-attuned creature roaming the Zephyra region.",
       "generation": "demo_g4",
       "origin_region": "zephyra",
@@ -45059,13 +45059,13 @@
         }
       ],
       "evolves_to": [
-        "irienclaw"
+        "zejorveclaw"
       ],
       "forms": []
     },
     {
-      "id": "irienclaw",
-      "display_name": "Irienclaw",
+      "id": "zejorveclaw",
+      "display_name": "Zejorveclaw",
       "description": "A water/earth-attuned creature roaming the Zephyra region.",
       "generation": "demo_g4",
       "origin_region": "zephyra",
@@ -45120,8 +45120,8 @@
       "forms": []
     },
     {
-      "id": "jorvenkit",
-      "display_name": "Jorvenkit",
+      "id": "zekestekit",
+      "display_name": "Zekestekit",
       "description": "A grass-attuned creature roaming the Zephyra region.",
       "generation": "demo_g4",
       "origin_region": "zephyra",
@@ -45172,13 +45172,13 @@
         }
       ],
       "evolves_to": [
-        "kestenclaw"
+        "zekesteclaw"
       ],
       "forms": []
     },
     {
-      "id": "kestenclaw",
-      "display_name": "Kestenclaw",
+      "id": "zekesteclaw",
+      "display_name": "Zekesteclaw",
       "description": "A grass-attuned creature roaming the Zephyra region.",
       "generation": "demo_g4",
       "origin_region": "zephyra",
@@ -45228,8 +45228,8 @@
       "forms": []
     },
     {
-      "id": "lumenkit",
-      "display_name": "Lumenkit",
+      "id": "zelumekit",
+      "display_name": "Zelumekit",
       "description": "A electric-attuned creature roaming the Zephyra region.",
       "generation": "demo_g4",
       "origin_region": "zephyra",
@@ -45283,8 +45283,8 @@
       "forms": []
     },
     {
-      "id": "morenkit",
-      "display_name": "Morenkit",
+      "id": "zemorekit",
+      "display_name": "Zemorekit",
       "description": "A earth-attuned creature roaming the Zephyra region.",
       "generation": "demo_g4",
       "origin_region": "zephyra",
@@ -45338,8 +45338,8 @@
       "forms": []
     },
     {
-      "id": "nyxenkit",
-      "display_name": "Nyxenkit",
+      "id": "zenyxekit",
+      "display_name": "Zenyxekit",
       "description": "A wind-attuned creature roaming the Zephyra region.",
       "generation": "demo_g4",
       "origin_region": "zephyra",
@@ -45393,8 +45393,8 @@
       "forms": []
     },
     {
-      "id": "orlenkit",
-      "display_name": "Orlenkit",
+      "id": "zeorlekit",
+      "display_name": "Zeorlekit",
       "description": "A mystic-attuned creature roaming the Zephyra region.",
       "generation": "demo_g4",
       "origin_region": "zephyra",
@@ -45448,8 +45448,8 @@
       "forms": []
     },
     {
-      "id": "pyrenkit",
-      "display_name": "Pyrenkit",
+      "id": "zepyrekit",
+      "display_name": "Zepyrekit",
       "description": "A normal-attuned creature roaming the Zephyra region.",
       "generation": "demo_g4",
       "origin_region": "zephyra",
@@ -45503,8 +45503,8 @@
       "forms": []
     },
     {
-      "id": "quillenkit",
-      "display_name": "Quillenkit",
+      "id": "zequillekit",
+      "display_name": "Zequillekit",
       "description": "A fire-attuned creature roaming the Zephyra region.",
       "generation": "demo_g4",
       "origin_region": "zephyra",
@@ -45558,8 +45558,8 @@
       "forms": []
     },
     {
-      "id": "rynenkit",
-      "display_name": "Rynenkit",
+      "id": "zerynekit",
+      "display_name": "Zerynekit",
       "description": "A water-attuned creature roaming the Zephyra region.",
       "generation": "demo_g4",
       "origin_region": "zephyra",
@@ -45613,8 +45613,8 @@
       "forms": []
     },
     {
-      "id": "solenkit",
-      "display_name": "Solenkit",
+      "id": "zesolekit",
+      "display_name": "Zesolekit",
       "description": "A grass-attuned creature roaming the Zephyra region.",
       "generation": "demo_g4",
       "origin_region": "zephyra",
@@ -45668,8 +45668,8 @@
       "forms": []
     },
     {
-      "id": "tamenkit",
-      "display_name": "Tamenkit",
+      "id": "zetamekit",
+      "display_name": "Zetamekit",
       "description": "A electric-attuned creature roaming the Zephyra region.",
       "generation": "demo_g4",
       "origin_region": "zephyra",
@@ -45723,8 +45723,8 @@
       "forms": []
     },
     {
-      "id": "umbrenkit",
-      "display_name": "Umbrenkit",
+      "id": "zeumbrekit",
+      "display_name": "Zeumbrekit",
       "description": "A earth-attuned creature roaming the Zephyra region.",
       "generation": "demo_g4",
       "origin_region": "zephyra",
@@ -45778,8 +45778,8 @@
       "forms": []
     },
     {
-      "id": "vexenkit",
-      "display_name": "Vexenkit",
+      "id": "zevexekit",
+      "display_name": "Zevexekit",
       "description": "A wind-attuned creature roaming the Zephyra region.",
       "generation": "demo_g4",
       "origin_region": "zephyra",
@@ -45833,8 +45833,8 @@
       "forms": []
     },
     {
-      "id": "wynenkit",
-      "display_name": "Wynenkit",
+      "id": "zewynekit",
+      "display_name": "Zewynekit",
       "description": "A mystic-attuned creature roaming the Zephyra region.",
       "generation": "demo_g4",
       "origin_region": "zephyra",
@@ -45888,8 +45888,8 @@
       "forms": []
     },
     {
-      "id": "yarenkit",
-      "display_name": "Yarenkit",
+      "id": "zeyarekit",
+      "display_name": "Zeyarekit",
       "description": "A normal-attuned creature roaming the Zephyra region.",
       "generation": "demo_g4",
       "origin_region": "zephyra",
@@ -45943,8 +45943,8 @@
       "forms": []
     },
     {
-      "id": "zephenkit",
-      "display_name": "Zephenkit",
+      "id": "zezephekit",
+      "display_name": "Zezephekit",
       "description": "A fire-attuned creature roaming the Zephyra region.",
       "generation": "demo_g4",
       "origin_region": "zephyra",
@@ -45998,8 +45998,8 @@
       "forms": []
     },
     {
-      "id": "balenkit",
-      "display_name": "Balenkit",
+      "id": "zebalekit",
+      "display_name": "Zebalekit",
       "description": "A water-attuned creature roaming the Zephyra region.",
       "generation": "demo_g4",
       "origin_region": "zephyra",
@@ -46053,8 +46053,8 @@
       "forms": []
     },
     {
-      "id": "crevenkit",
-      "display_name": "Crevenkit",
+      "id": "zecrevekit",
+      "display_name": "Zecrevekit",
       "description": "A grass-attuned creature roaming the Zephyra region.",
       "generation": "demo_g4",
       "origin_region": "zephyra",
@@ -46108,8 +46108,8 @@
       "forms": []
     },
     {
-      "id": "duskenkit",
-      "display_name": "Duskenkit",
+      "id": "zeduskekit",
+      "display_name": "Zeduskekit",
       "description": "A electric-attuned creature roaming the Zephyra region.",
       "generation": "demo_g4",
       "origin_region": "zephyra",
@@ -46163,8 +46163,8 @@
       "forms": []
     },
     {
-      "id": "emberenkit",
-      "display_name": "Emberenkit",
+      "id": "zeemberekit",
+      "display_name": "Zeemberekit",
       "description": "A earth-attuned creature roaming the Zephyra region.",
       "generation": "demo_g4",
       "origin_region": "zephyra",
@@ -46218,8 +46218,8 @@
       "forms": []
     },
     {
-      "id": "frostenkit",
-      "display_name": "Frostenkit",
+      "id": "zefrostekit",
+      "display_name": "Zefrostekit",
       "description": "A wind-attuned creature roaming the Zephyra region.",
       "generation": "demo_g4",
       "origin_region": "zephyra",
@@ -46273,8 +46273,8 @@
       "forms": []
     },
     {
-      "id": "glimenkit",
-      "display_name": "Glimenkit",
+      "id": "zeglimekit",
+      "display_name": "Zeglimekit",
       "description": "A mystic-attuned creature roaming the Zephyra region.",
       "generation": "demo_g4",
       "origin_region": "zephyra",

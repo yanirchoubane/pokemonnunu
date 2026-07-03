@@ -94,6 +94,14 @@
       "x": 2,
       "y": 4,
       "text": "Cindral Gate — west: the port home. East: the wilds."
+    },
+    {
+      "type": "npc",
+      "x": 6,
+      "y": 4,
+      "npc_id": "defector",
+      "sprite": "npc_watcher",
+      "dialog_id": "hollow_defector"
     }
   ]
 }

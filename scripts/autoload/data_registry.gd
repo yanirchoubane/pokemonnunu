@@ -77,7 +77,13 @@ func _load_all() -> void:
 	encounter_tables = _index(_load_json("%s/encounters/encounters.json" % DATA_ROOT).get("tables", []), "id")
 	trainers = _index(_load_json("%s/trainers/trainers.json" % DATA_ROOT).get("trainers", []), "id")
 	quests = _index(_load_json("%s/quests/quests.json" % DATA_ROOT).get("quests", []), "id")
-	dialogs = _index(_load_json("%s/dialogs/dialogs.json" % DATA_ROOT).get("dialogs", []), "id")
+	# All dialog files in the folder are merged (by id), so story arcs can live in
+	# their own files (base and user packs alike).
+	dialogs.clear()
+	for path in _list_json("%s/dialogs" % DATA_ROOT):
+		for d in _load_json(path).get("dialogs", []):
+			if d is Dictionary and d.has("id"):
+				dialogs[String(d["id"])] = d
 	endings = _load_json("%s/endings/endings.json" % DATA_ROOT).get("endings", [])
 	balancing = _load_json("%s/balancing/balancing.json" % DATA_ROOT)
 	adaptive_config = _load_json("%s/balancing/adaptive.json" % DATA_ROOT)

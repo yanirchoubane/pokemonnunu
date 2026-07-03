@@ -118,6 +118,14 @@
       "sight": 2,
       "facing": "down",
       "flag": "beat_hollow_archon"
+    },
+    {
+      "type": "npc",
+      "x": 6,
+      "y": 3,
+      "npc_id": "archon_mask",
+      "sprite": "trainer_archon",
+      "dialog_id": "archon_finale"
     }
   ]
 }

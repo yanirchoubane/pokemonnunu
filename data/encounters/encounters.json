@@ -117,286 +117,6 @@
           "level_min": 2,
           "level_max": 8,
           "rarity": "common"
-        },
-        {
-          "creature": "bramaling",
-          "weight": 4,
-          "level_min": 2,
-          "level_max": 9,
-          "rarity": "common"
-        },
-        {
-          "creature": "dornaling",
-          "weight": 4,
-          "level_min": 2,
-          "level_max": 9,
-          "rarity": "common"
-        },
-        {
-          "creature": "fenaling",
-          "weight": 4,
-          "level_min": 2,
-          "level_max": 9,
-          "rarity": "common"
-        },
-        {
-          "creature": "holloaling",
-          "weight": 4,
-          "level_min": 2,
-          "level_max": 9,
-          "rarity": "common"
-        },
-        {
-          "creature": "jorvaling",
-          "weight": 4,
-          "level_min": 2,
-          "level_max": 9,
-          "rarity": "common"
-        },
-        {
-          "creature": "lumaling",
-          "weight": 4,
-          "level_min": 2,
-          "level_max": 9,
-          "rarity": "common"
-        },
-        {
-          "creature": "nyxaling",
-          "weight": 4,
-          "level_min": 2,
-          "level_max": 9,
-          "rarity": "common"
-        },
-        {
-          "creature": "pyraling",
-          "weight": 4,
-          "level_min": 2,
-          "level_max": 9,
-          "rarity": "common"
-        },
-        {
-          "creature": "rynaling",
-          "weight": 4,
-          "level_min": 2,
-          "level_max": 9,
-          "rarity": "common"
-        },
-        {
-          "creature": "tamaling",
-          "weight": 4,
-          "level_min": 2,
-          "level_max": 9,
-          "rarity": "common"
-        },
-        {
-          "creature": "vexaling",
-          "weight": 4,
-          "level_min": 2,
-          "level_max": 9,
-          "rarity": "common"
-        },
-        {
-          "creature": "yaraling",
-          "weight": 4,
-          "level_min": 2,
-          "level_max": 9,
-          "rarity": "common"
-        },
-        {
-          "creature": "balaling",
-          "weight": 4,
-          "level_min": 2,
-          "level_max": 9,
-          "rarity": "common"
-        },
-        {
-          "creature": "duskaling",
-          "weight": 4,
-          "level_min": 2,
-          "level_max": 9,
-          "rarity": "common"
-        },
-        {
-          "creature": "frostaling",
-          "weight": 4,
-          "level_min": 2,
-          "level_max": 9,
-          "rarity": "common"
-        },
-        {
-          "creature": "brameling",
-          "weight": 4,
-          "level_min": 2,
-          "level_max": 9,
-          "rarity": "common"
-        },
-        {
-          "creature": "dorneling",
-          "weight": 4,
-          "level_min": 2,
-          "level_max": 9,
-          "rarity": "common"
-        },
-        {
-          "creature": "feneling",
-          "weight": 4,
-          "level_min": 2,
-          "level_max": 9,
-          "rarity": "common"
-        },
-        {
-          "creature": "holloeling",
-          "weight": 4,
-          "level_min": 2,
-          "level_max": 9,
-          "rarity": "common"
-        },
-        {
-          "creature": "jorveling",
-          "weight": 4,
-          "level_min": 2,
-          "level_max": 9,
-          "rarity": "common"
-        },
-        {
-          "creature": "lumeling",
-          "weight": 4,
-          "level_min": 2,
-          "level_max": 9,
-          "rarity": "common"
-        },
-        {
-          "creature": "moreling",
-          "weight": 4,
-          "level_min": 2,
-          "level_max": 9,
-          "rarity": "common"
-        },
-        {
-          "creature": "nyxeling",
-          "weight": 4,
-          "level_min": 2,
-          "level_max": 9,
-          "rarity": "common"
-        },
-        {
-          "creature": "orleling",
-          "weight": 4,
-          "level_min": 2,
-          "level_max": 9,
-          "rarity": "common"
-        },
-        {
-          "creature": "pyreling",
-          "weight": 4,
-          "level_min": 2,
-          "level_max": 9,
-          "rarity": "common"
-        },
-        {
-          "creature": "quilleling",
-          "weight": 4,
-          "level_min": 2,
-          "level_max": 9,
-          "rarity": "common"
-        },
-        {
-          "creature": "ryneling",
-          "weight": 4,
-          "level_min": 2,
-          "level_max": 9,
-          "rarity": "common"
-        },
-        {
-          "creature": "soleling",
-          "weight": 4,
-          "level_min": 2,
-          "level_max": 9,
-          "rarity": "common"
-        },
-        {
-          "creature": "tameling",
-          "weight": 4,
-          "level_min": 2,
-          "level_max": 9,
-          "rarity": "common"
-        },
-        {
-          "creature": "umbreling",
-          "weight": 4,
-          "level_min": 2,
-          "level_max": 9,
-          "rarity": "common"
-        },
-        {
-          "creature": "vexeling",
-          "weight": 4,
-          "level_min": 2,
-          "level_max": 9,
-          "rarity": "common"
-        },
-        {
-          "creature": "wyneling",
-          "weight": 4,
-          "level_min": 2,
-          "level_max": 9,
-          "rarity": "common"
-        },
-        {
-          "creature": "yareling",
-          "weight": 4,
-          "level_min": 2,
-          "level_max": 9,
-          "rarity": "common"
-        },
-        {
-          "creature": "zepheling",
-          "weight": 4,
-          "level_min": 2,
-          "level_max": 9,
-          "rarity": "common"
-        },
-        {
-          "creature": "baleling",
-          "weight": 4,
-          "level_min": 2,
-          "level_max": 9,
-          "rarity": "common"
-        },
-        {
-          "creature": "creveling",
-          "weight": 4,
-          "level_min": 2,
-          "level_max": 9,
-          "rarity": "common"
-        },
-        {
-          "creature": "duskeling",
-          "weight": 4,
-          "level_min": 2,
-          "level_max": 9,
-          "rarity": "common"
-        },
-        {
-          "creature": "embereling",
-          "weight": 4,
-          "level_min": 2,
-          "level_max": 9,
-          "rarity": "common"
-        },
-        {
-          "creature": "frosteling",
-          "weight": 4,
-          "level_min": 2,
-          "level_max": 9,
-          "rarity": "common"
-        },
-        {
-          "creature": "glimeling",
-          "weight": 4,
-          "level_min": 2,
-          "level_max": 9,
-          "rarity": "common"
         }
       ]
     },
@@ -522,286 +242,6 @@
           "level_min": 8,
           "level_max": 14,
           "rarity": "common"
-        },
-        {
-          "creature": "bramiling",
-          "weight": 4,
-          "level_min": 8,
-          "level_max": 15,
-          "rarity": "common"
-        },
-        {
-          "creature": "dorniling",
-          "weight": 4,
-          "level_min": 8,
-          "level_max": 15,
-          "rarity": "common"
-        },
-        {
-          "creature": "feniling",
-          "weight": 4,
-          "level_min": 8,
-          "level_max": 15,
-          "rarity": "common"
-        },
-        {
-          "creature": "holloiling",
-          "weight": 4,
-          "level_min": 8,
-          "level_max": 15,
-          "rarity": "common"
-        },
-        {
-          "creature": "jorviling",
-          "weight": 4,
-          "level_min": 8,
-          "level_max": 15,
-          "rarity": "common"
-        },
-        {
-          "creature": "lumiling",
-          "weight": 4,
-          "level_min": 8,
-          "level_max": 15,
-          "rarity": "common"
-        },
-        {
-          "creature": "nyxiling",
-          "weight": 4,
-          "level_min": 8,
-          "level_max": 15,
-          "rarity": "common"
-        },
-        {
-          "creature": "pyriling",
-          "weight": 4,
-          "level_min": 8,
-          "level_max": 15,
-          "rarity": "common"
-        },
-        {
-          "creature": "ryniling",
-          "weight": 4,
-          "level_min": 8,
-          "level_max": 15,
-          "rarity": "common"
-        },
-        {
-          "creature": "tamiling",
-          "weight": 4,
-          "level_min": 8,
-          "level_max": 15,
-          "rarity": "common"
-        },
-        {
-          "creature": "vexiling",
-          "weight": 4,
-          "level_min": 8,
-          "level_max": 15,
-          "rarity": "common"
-        },
-        {
-          "creature": "yariling",
-          "weight": 4,
-          "level_min": 8,
-          "level_max": 15,
-          "rarity": "common"
-        },
-        {
-          "creature": "baliling",
-          "weight": 4,
-          "level_min": 8,
-          "level_max": 15,
-          "rarity": "common"
-        },
-        {
-          "creature": "duskiling",
-          "weight": 4,
-          "level_min": 8,
-          "level_max": 15,
-          "rarity": "common"
-        },
-        {
-          "creature": "frostiling",
-          "weight": 4,
-          "level_min": 8,
-          "level_max": 15,
-          "rarity": "common"
-        },
-        {
-          "creature": "bramoling",
-          "weight": 4,
-          "level_min": 8,
-          "level_max": 15,
-          "rarity": "common"
-        },
-        {
-          "creature": "dornoling",
-          "weight": 4,
-          "level_min": 8,
-          "level_max": 15,
-          "rarity": "common"
-        },
-        {
-          "creature": "fenoling",
-          "weight": 4,
-          "level_min": 8,
-          "level_max": 15,
-          "rarity": "common"
-        },
-        {
-          "creature": "hollooling",
-          "weight": 4,
-          "level_min": 8,
-          "level_max": 15,
-          "rarity": "common"
-        },
-        {
-          "creature": "jorvoling",
-          "weight": 4,
-          "level_min": 8,
-          "level_max": 15,
-          "rarity": "common"
-        },
-        {
-          "creature": "lumoling",
-          "weight": 4,
-          "level_min": 8,
-          "level_max": 15,
-          "rarity": "common"
-        },
-        {
-          "creature": "moroling",
-          "weight": 4,
-          "level_min": 8,
-          "level_max": 15,
-          "rarity": "common"
-        },
-        {
-          "creature": "nyxoling",
-          "weight": 4,
-          "level_min": 8,
-          "level_max": 15,
-          "rarity": "common"
-        },
-        {
-          "creature": "orloling",
-          "weight": 4,
-          "level_min": 8,
-          "level_max": 15,
-          "rarity": "common"
-        },
-        {
-          "creature": "pyroling",
-          "weight": 4,
-          "level_min": 8,
-          "level_max": 15,
-          "rarity": "common"
-        },
-        {
-          "creature": "quilloling",
-          "weight": 4,
-          "level_min": 8,
-          "level_max": 15,
-          "rarity": "common"
-        },
-        {
-          "creature": "rynoling",
-          "weight": 4,
-          "level_min": 8,
-          "level_max": 15,
-          "rarity": "common"
-        },
-        {
-          "creature": "sololing",
-          "weight": 4,
-          "level_min": 8,
-          "level_max": 15,
-          "rarity": "common"
-        },
-        {
-          "creature": "tamoling",
-          "weight": 4,
-          "level_min": 8,
-          "level_max": 15,
-          "rarity": "common"
-        },
-        {
-          "creature": "umbroling",
-          "weight": 4,
-          "level_min": 8,
-          "level_max": 15,
-          "rarity": "common"
-        },
-        {
-          "creature": "vexoling",
-          "weight": 4,
-          "level_min": 8,
-          "level_max": 15,
-          "rarity": "common"
-        },
-        {
-          "creature": "wynoling",
-          "weight": 4,
-          "level_min": 8,
-          "level_max": 15,
-          "rarity": "common"
-        },
-        {
-          "creature": "yaroling",
-          "weight": 4,
-          "level_min": 8,
-          "level_max": 15,
-          "rarity": "common"
-        },
-        {
-          "creature": "zepholing",
-          "weight": 4,
-          "level_min": 8,
-          "level_max": 15,
-          "rarity": "common"
-        },
-        {
-          "creature": "baloling",
-          "weight": 4,
-          "level_min": 8,
-          "level_max": 15,
-          "rarity": "common"
-        },
-        {
-          "creature": "crevoling",
-          "weight": 4,
-          "level_min": 8,
-          "level_max": 15,
-          "rarity": "common"
-        },
-        {
-          "creature": "duskoling",
-          "weight": 4,
-          "level_min": 8,
-          "level_max": 15,
-          "rarity": "common"
-        },
-        {
-          "creature": "emberoling",
-          "weight": 4,
-          "level_min": 8,
-          "level_max": 15,
-          "rarity": "common"
-        },
-        {
-          "creature": "frostoling",
-          "weight": 4,
-          "level_min": 8,
-          "level_max": 15,
-          "rarity": "common"
-        },
-        {
-          "creature": "glimoling",
-          "weight": 4,
-          "level_min": 8,
-          "level_max": 15,
-          "rarity": "common"
         }
       ]
     },
@@ -905,286 +345,6 @@
           "weight": 8,
           "level_min": 14,
           "level_max": 20,
-          "rarity": "common"
-        },
-        {
-          "creature": "bramuling",
-          "weight": 4,
-          "level_min": 14,
-          "level_max": 21,
-          "rarity": "common"
-        },
-        {
-          "creature": "dornuling",
-          "weight": 4,
-          "level_min": 14,
-          "level_max": 21,
-          "rarity": "common"
-        },
-        {
-          "creature": "fenuling",
-          "weight": 4,
-          "level_min": 14,
-          "level_max": 21,
-          "rarity": "common"
-        },
-        {
-          "creature": "hollouling",
-          "weight": 4,
-          "level_min": 14,
-          "level_max": 21,
-          "rarity": "common"
-        },
-        {
-          "creature": "jorvuling",
-          "weight": 4,
-          "level_min": 14,
-          "level_max": 21,
-          "rarity": "common"
-        },
-        {
-          "creature": "lumuling",
-          "weight": 4,
-          "level_min": 14,
-          "level_max": 21,
-          "rarity": "common"
-        },
-        {
-          "creature": "nyxuling",
-          "weight": 4,
-          "level_min": 14,
-          "level_max": 21,
-          "rarity": "common"
-        },
-        {
-          "creature": "pyruling",
-          "weight": 4,
-          "level_min": 14,
-          "level_max": 21,
-          "rarity": "common"
-        },
-        {
-          "creature": "rynuling",
-          "weight": 4,
-          "level_min": 14,
-          "level_max": 21,
-          "rarity": "common"
-        },
-        {
-          "creature": "tamuling",
-          "weight": 4,
-          "level_min": 14,
-          "level_max": 21,
-          "rarity": "common"
-        },
-        {
-          "creature": "vexuling",
-          "weight": 4,
-          "level_min": 14,
-          "level_max": 21,
-          "rarity": "common"
-        },
-        {
-          "creature": "yaruling",
-          "weight": 4,
-          "level_min": 14,
-          "level_max": 21,
-          "rarity": "common"
-        },
-        {
-          "creature": "baluling",
-          "weight": 4,
-          "level_min": 14,
-          "level_max": 21,
-          "rarity": "common"
-        },
-        {
-          "creature": "duskuling",
-          "weight": 4,
-          "level_min": 14,
-          "level_max": 21,
-          "rarity": "common"
-        },
-        {
-          "creature": "frostuling",
-          "weight": 4,
-          "level_min": 14,
-          "level_max": 21,
-          "rarity": "common"
-        },
-        {
-          "creature": "bramaeling",
-          "weight": 4,
-          "level_min": 14,
-          "level_max": 21,
-          "rarity": "common"
-        },
-        {
-          "creature": "dornaeling",
-          "weight": 4,
-          "level_min": 14,
-          "level_max": 21,
-          "rarity": "common"
-        },
-        {
-          "creature": "fenaeling",
-          "weight": 4,
-          "level_min": 14,
-          "level_max": 21,
-          "rarity": "common"
-        },
-        {
-          "creature": "holloaeling",
-          "weight": 4,
-          "level_min": 14,
-          "level_max": 21,
-          "rarity": "common"
-        },
-        {
-          "creature": "jorvaeling",
-          "weight": 4,
-          "level_min": 14,
-          "level_max": 21,
-          "rarity": "common"
-        },
-        {
-          "creature": "lumaeling",
-          "weight": 4,
-          "level_min": 14,
-          "level_max": 21,
-          "rarity": "common"
-        },
-        {
-          "creature": "moraeling",
-          "weight": 4,
-          "level_min": 14,
-          "level_max": 21,
-          "rarity": "common"
-        },
-        {
-          "creature": "nyxaeling",
-          "weight": 4,
-          "level_min": 14,
-          "level_max": 21,
-          "rarity": "common"
-        },
-        {
-          "creature": "orlaeling",
-          "weight": 4,
-          "level_min": 14,
-          "level_max": 21,
-          "rarity": "common"
-        },
-        {
-          "creature": "pyraeling",
-          "weight": 4,
-          "level_min": 14,
-          "level_max": 21,
-          "rarity": "common"
-        },
-        {
-          "creature": "quillaeling",
-          "weight": 4,
-          "level_min": 14,
-          "level_max": 21,
-          "rarity": "common"
-        },
-        {
-          "creature": "rynaeling",
-          "weight": 4,
-          "level_min": 14,
-          "level_max": 21,
-          "rarity": "common"
-        },
-        {
-          "creature": "solaeling",
-          "weight": 4,
-          "level_min": 14,
-          "level_max": 21,
-          "rarity": "common"
-        },
-        {
-          "creature": "tamaeling",
-          "weight": 4,
-          "level_min": 14,
-          "level_max": 21,
-          "rarity": "common"
-        },
-        {
-          "creature": "umbraeling",
-          "weight": 4,
-          "level_min": 14,
-          "level_max": 21,
-          "rarity": "common"
-        },
-        {
-          "creature": "vexaeling",
-          "weight": 4,
-          "level_min": 14,
-          "level_max": 21,
-          "rarity": "common"
-        },
-        {
-          "creature": "wynaeling",
-          "weight": 4,
-          "level_min": 14,
-          "level_max": 21,
-          "rarity": "common"
-        },
-        {
-          "creature": "yaraeling",
-          "weight": 4,
-          "level_min": 14,
-          "level_max": 21,
-          "rarity": "common"
-        },
-        {
-          "creature": "zephaeling",
-          "weight": 4,
-          "level_min": 14,
-          "level_max": 21,
-          "rarity": "common"
-        },
-        {
-          "creature": "balaeling",
-          "weight": 4,
-          "level_min": 14,
-          "level_max": 21,
-          "rarity": "common"
-        },
-        {
-          "creature": "crevaeling",
-          "weight": 4,
-          "level_min": 14,
-          "level_max": 21,
-          "rarity": "common"
-        },
-        {
-          "creature": "duskaeling",
-          "weight": 4,
-          "level_min": 14,
-          "level_max": 21,
-          "rarity": "common"
-        },
-        {
-          "creature": "emberaeling",
-          "weight": 4,
-          "level_min": 14,
-          "level_max": 21,
-          "rarity": "common"
-        },
-        {
-          "creature": "frostaeling",
-          "weight": 4,
-          "level_min": 14,
-          "level_max": 21,
-          "rarity": "common"
-        },
-        {
-          "creature": "glimaeling",
-          "weight": 4,
-          "level_min": 14,
-          "level_max": 21,
           "rarity": "common"
         }
       ]
@@ -1297,286 +457,6 @@
           "level_min": 20,
           "level_max": 26,
           "rarity": "common"
-        },
-        {
-          "creature": "bramorling",
-          "weight": 4,
-          "level_min": 20,
-          "level_max": 27,
-          "rarity": "common"
-        },
-        {
-          "creature": "dornorling",
-          "weight": 4,
-          "level_min": 20,
-          "level_max": 27,
-          "rarity": "common"
-        },
-        {
-          "creature": "fenorling",
-          "weight": 4,
-          "level_min": 20,
-          "level_max": 27,
-          "rarity": "common"
-        },
-        {
-          "creature": "holloorling",
-          "weight": 4,
-          "level_min": 20,
-          "level_max": 27,
-          "rarity": "common"
-        },
-        {
-          "creature": "jorvorling",
-          "weight": 4,
-          "level_min": 20,
-          "level_max": 27,
-          "rarity": "common"
-        },
-        {
-          "creature": "lumorling",
-          "weight": 4,
-          "level_min": 20,
-          "level_max": 27,
-          "rarity": "common"
-        },
-        {
-          "creature": "nyxorling",
-          "weight": 4,
-          "level_min": 20,
-          "level_max": 27,
-          "rarity": "common"
-        },
-        {
-          "creature": "pyrorling",
-          "weight": 4,
-          "level_min": 20,
-          "level_max": 27,
-          "rarity": "common"
-        },
-        {
-          "creature": "rynorling",
-          "weight": 4,
-          "level_min": 20,
-          "level_max": 27,
-          "rarity": "common"
-        },
-        {
-          "creature": "tamorling",
-          "weight": 4,
-          "level_min": 20,
-          "level_max": 27,
-          "rarity": "common"
-        },
-        {
-          "creature": "vexorling",
-          "weight": 4,
-          "level_min": 20,
-          "level_max": 27,
-          "rarity": "common"
-        },
-        {
-          "creature": "yarorling",
-          "weight": 4,
-          "level_min": 20,
-          "level_max": 27,
-          "rarity": "common"
-        },
-        {
-          "creature": "balorling",
-          "weight": 4,
-          "level_min": 20,
-          "level_max": 27,
-          "rarity": "common"
-        },
-        {
-          "creature": "duskorling",
-          "weight": 4,
-          "level_min": 20,
-          "level_max": 27,
-          "rarity": "common"
-        },
-        {
-          "creature": "frostorling",
-          "weight": 4,
-          "level_min": 20,
-          "level_max": 27,
-          "rarity": "common"
-        },
-        {
-          "creature": "bramenling",
-          "weight": 4,
-          "level_min": 20,
-          "level_max": 27,
-          "rarity": "common"
-        },
-        {
-          "creature": "dornenling",
-          "weight": 4,
-          "level_min": 20,
-          "level_max": 27,
-          "rarity": "common"
-        },
-        {
-          "creature": "fenenling",
-          "weight": 4,
-          "level_min": 20,
-          "level_max": 27,
-          "rarity": "common"
-        },
-        {
-          "creature": "holloenling",
-          "weight": 4,
-          "level_min": 20,
-          "level_max": 27,
-          "rarity": "common"
-        },
-        {
-          "creature": "jorvenling",
-          "weight": 4,
-          "level_min": 20,
-          "level_max": 27,
-          "rarity": "common"
-        },
-        {
-          "creature": "lumenling",
-          "weight": 4,
-          "level_min": 20,
-          "level_max": 27,
-          "rarity": "common"
-        },
-        {
-          "creature": "morenling",
-          "weight": 4,
-          "level_min": 20,
-          "level_max": 27,
-          "rarity": "common"
-        },
-        {
-          "creature": "nyxenling",
-          "weight": 4,
-          "level_min": 20,
-          "level_max": 27,
-          "rarity": "common"
-        },
-        {
-          "creature": "orlenling",
-          "weight": 4,
-          "level_min": 20,
-          "level_max": 27,
-          "rarity": "common"
-        },
-        {
-          "creature": "pyrenling",
-          "weight": 4,
-          "level_min": 20,
-          "level_max": 27,
-          "rarity": "common"
-        },
-        {
-          "creature": "quillenling",
-          "weight": 4,
-          "level_min": 20,
-          "level_max": 27,
-          "rarity": "common"
-        },
-        {
-          "creature": "rynenling",
-          "weight": 4,
-          "level_min": 20,
-          "level_max": 27,
-          "rarity": "common"
-        },
-        {
-          "creature": "solenling",
-          "weight": 4,
-          "level_min": 20,
-          "level_max": 27,
-          "rarity": "common"
-        },
-        {
-          "creature": "tamenling",
-          "weight": 4,
-          "level_min": 20,
-          "level_max": 27,
-          "rarity": "common"
-        },
-        {
-          "creature": "umbrenling",
-          "weight": 4,
-          "level_min": 20,
-          "level_max": 27,
-          "rarity": "common"
-        },
-        {
-          "creature": "vexenling",
-          "weight": 4,
-          "level_min": 20,
-          "level_max": 27,
-          "rarity": "common"
-        },
-        {
-          "creature": "wynenling",
-          "weight": 4,
-          "level_min": 20,
-          "level_max": 27,
-          "rarity": "common"
-        },
-        {
-          "creature": "yarenling",
-          "weight": 4,
-          "level_min": 20,
-          "level_max": 27,
-          "rarity": "common"
-        },
-        {
-          "creature": "zephenling",
-          "weight": 4,
-          "level_min": 20,
-          "level_max": 27,
-          "rarity": "common"
-        },
-        {
-          "creature": "balenling",
-          "weight": 4,
-          "level_min": 20,
-          "level_max": 27,
-          "rarity": "common"
-        },
-        {
-          "creature": "crevenling",
-          "weight": 4,
-          "level_min": 20,
-          "level_max": 27,
-          "rarity": "common"
-        },
-        {
-          "creature": "duskenling",
-          "weight": 4,
-          "level_min": 20,
-          "level_max": 27,
-          "rarity": "common"
-        },
-        {
-          "creature": "emberenling",
-          "weight": 4,
-          "level_min": 20,
-          "level_max": 27,
-          "rarity": "common"
-        },
-        {
-          "creature": "frostenling",
-          "weight": 4,
-          "level_min": 20,
-          "level_max": 27,
-          "rarity": "common"
-        },
-        {
-          "creature": "glimenling",
-          "weight": 4,
-          "level_min": 20,
-          "level_max": 27,
-          "rarity": "common"
         }
       ]
     },
@@ -1680,286 +560,6 @@
           "weight": 8,
           "level_min": 26,
           "level_max": 32,
-          "rarity": "common"
-        },
-        {
-          "creature": "bramilling",
-          "weight": 4,
-          "level_min": 26,
-          "level_max": 33,
-          "rarity": "common"
-        },
-        {
-          "creature": "dornilling",
-          "weight": 4,
-          "level_min": 26,
-          "level_max": 33,
-          "rarity": "common"
-        },
-        {
-          "creature": "fenilling",
-          "weight": 4,
-          "level_min": 26,
-          "level_max": 33,
-          "rarity": "common"
-        },
-        {
-          "creature": "holloilling",
-          "weight": 4,
-          "level_min": 26,
-          "level_max": 33,
-          "rarity": "common"
-        },
-        {
-          "creature": "jorvilling",
-          "weight": 4,
-          "level_min": 26,
-          "level_max": 33,
-          "rarity": "common"
-        },
-        {
-          "creature": "lumilling",
-          "weight": 4,
-          "level_min": 26,
-          "level_max": 33,
-          "rarity": "common"
-        },
-        {
-          "creature": "nyxilling",
-          "weight": 4,
-          "level_min": 26,
-          "level_max": 33,
-          "rarity": "common"
-        },
-        {
-          "creature": "pyrilling",
-          "weight": 4,
-          "level_min": 26,
-          "level_max": 33,
-          "rarity": "common"
-        },
-        {
-          "creature": "rynilling",
-          "weight": 4,
-          "level_min": 26,
-          "level_max": 33,
-          "rarity": "common"
-        },
-        {
-          "creature": "tamilling",
-          "weight": 4,
-          "level_min": 26,
-          "level_max": 33,
-          "rarity": "common"
-        },
-        {
-          "creature": "vexilling",
-          "weight": 4,
-          "level_min": 26,
-          "level_max": 33,
-          "rarity": "common"
-        },
-        {
-          "creature": "yarilling",
-          "weight": 4,
-          "level_min": 26,
-          "level_max": 33,
-          "rarity": "common"
-        },
-        {
-          "creature": "balilling",
-          "weight": 4,
-          "level_min": 26,
-          "level_max": 33,
-          "rarity": "common"
-        },
-        {
-          "creature": "duskilling",
-          "weight": 4,
-          "level_min": 26,
-          "level_max": 33,
-          "rarity": "common"
-        },
-        {
-          "creature": "frostilling",
-          "weight": 4,
-          "level_min": 26,
-          "level_max": 33,
-          "rarity": "common"
-        },
-        {
-          "creature": "bramarling",
-          "weight": 4,
-          "level_min": 26,
-          "level_max": 33,
-          "rarity": "common"
-        },
-        {
-          "creature": "dornarling",
-          "weight": 4,
-          "level_min": 26,
-          "level_max": 33,
-          "rarity": "common"
-        },
-        {
-          "creature": "fenarling",
-          "weight": 4,
-          "level_min": 26,
-          "level_max": 33,
-          "rarity": "common"
-        },
-        {
-          "creature": "holloarling",
-          "weight": 4,
-          "level_min": 26,
-          "level_max": 33,
-          "rarity": "common"
-        },
-        {
-          "creature": "jorvarling",
-          "weight": 4,
-          "level_min": 26,
-          "level_max": 33,
-          "rarity": "common"
-        },
-        {
-          "creature": "lumarling",
-          "weight": 4,
-          "level_min": 26,
-          "level_max": 33,
-          "rarity": "common"
-        },
-        {
-          "creature": "morarling",
-          "weight": 4,
-          "level_min": 26,
-          "level_max": 33,
-          "rarity": "common"
-        },
-        {
-          "creature": "nyxarling",
-          "weight": 4,
-          "level_min": 26,
-          "level_max": 33,
-          "rarity": "common"
-        },
-        {
-          "creature": "orlarling",
-          "weight": 4,
-          "level_min": 26,
-          "level_max": 33,
-          "rarity": "common"
-        },
-        {
-          "creature": "pyrarling",
-          "weight": 4,
-          "level_min": 26,
-          "level_max": 33,
-          "rarity": "common"
-        },
-        {
-          "creature": "quillarling",
-          "weight": 4,
-          "level_min": 26,
-          "level_max": 33,
-          "rarity": "common"
-        },
-        {
-          "creature": "rynarling",
-          "weight": 4,
-          "level_min": 26,
-          "level_max": 33,
-          "rarity": "common"
-        },
-        {
-          "creature": "solarling",
-          "weight": 4,
-          "level_min": 26,
-          "level_max": 33,
-          "rarity": "common"
-        },
-        {
-          "creature": "tamarling",
-          "weight": 4,
-          "level_min": 26,
-          "level_max": 33,
-          "rarity": "common"
-        },
-        {
-          "creature": "umbrarling",
-          "weight": 4,
-          "level_min": 26,
-          "level_max": 33,
-          "rarity": "common"
-        },
-        {
-          "creature": "vexarling",
-          "weight": 4,
-          "level_min": 26,
-          "level_max": 33,
-          "rarity": "common"
-        },
-        {
-          "creature": "wynarling",
-          "weight": 4,
-          "level_min": 26,
-          "level_max": 33,
-          "rarity": "common"
-        },
-        {
-          "creature": "yararling",
-          "weight": 4,
-          "level_min": 26,
-          "level_max": 33,
-          "rarity": "common"
-        },
-        {
-          "creature": "zepharling",
-          "weight": 4,
-          "level_min": 26,
-          "level_max": 33,
-          "rarity": "common"
-        },
-        {
-          "creature": "balarling",
-          "weight": 4,
-          "level_min": 26,
-          "level_max": 33,
-          "rarity": "common"
-        },
-        {
-          "creature": "crevarling",
-          "weight": 4,
-          "level_min": 26,
-          "level_max": 33,
-          "rarity": "common"
-        },
-        {
-          "creature": "duskarling",
-          "weight": 4,
-          "level_min": 26,
-          "level_max": 33,
-          "rarity": "common"
-        },
-        {
-          "creature": "emberarling",
-          "weight": 4,
-          "level_min": 26,
-          "level_max": 33,
-          "rarity": "common"
-        },
-        {
-          "creature": "frostarling",
-          "weight": 4,
-          "level_min": 26,
-          "level_max": 33,
-          "rarity": "common"
-        },
-        {
-          "creature": "glimarling",
-          "weight": 4,
-          "level_min": 26,
-          "level_max": 33,
           "rarity": "common"
         }
       ]
@@ -2072,286 +672,6 @@
           "level_min": 32,
           "level_max": 38,
           "rarity": "common"
-        },
-        {
-          "creature": "bramakit",
-          "weight": 4,
-          "level_min": 32,
-          "level_max": 39,
-          "rarity": "common"
-        },
-        {
-          "creature": "dornakit",
-          "weight": 4,
-          "level_min": 32,
-          "level_max": 39,
-          "rarity": "common"
-        },
-        {
-          "creature": "fenakit",
-          "weight": 4,
-          "level_min": 32,
-          "level_max": 39,
-          "rarity": "common"
-        },
-        {
-          "creature": "holloakit",
-          "weight": 4,
-          "level_min": 32,
-          "level_max": 39,
-          "rarity": "common"
-        },
-        {
-          "creature": "jorvakit",
-          "weight": 4,
-          "level_min": 32,
-          "level_max": 39,
-          "rarity": "common"
-        },
-        {
-          "creature": "lumakit",
-          "weight": 4,
-          "level_min": 32,
-          "level_max": 39,
-          "rarity": "common"
-        },
-        {
-          "creature": "nyxakit",
-          "weight": 4,
-          "level_min": 32,
-          "level_max": 39,
-          "rarity": "common"
-        },
-        {
-          "creature": "pyrakit",
-          "weight": 4,
-          "level_min": 32,
-          "level_max": 39,
-          "rarity": "common"
-        },
-        {
-          "creature": "rynakit",
-          "weight": 4,
-          "level_min": 32,
-          "level_max": 39,
-          "rarity": "common"
-        },
-        {
-          "creature": "tamakit",
-          "weight": 4,
-          "level_min": 32,
-          "level_max": 39,
-          "rarity": "common"
-        },
-        {
-          "creature": "vexakit",
-          "weight": 4,
-          "level_min": 32,
-          "level_max": 39,
-          "rarity": "common"
-        },
-        {
-          "creature": "yarakit",
-          "weight": 4,
-          "level_min": 32,
-          "level_max": 39,
-          "rarity": "common"
-        },
-        {
-          "creature": "balakit",
-          "weight": 4,
-          "level_min": 32,
-          "level_max": 39,
-          "rarity": "common"
-        },
-        {
-          "creature": "duskakit",
-          "weight": 4,
-          "level_min": 32,
-          "level_max": 39,
-          "rarity": "common"
-        },
-        {
-          "creature": "frostakit",
-          "weight": 4,
-          "level_min": 32,
-          "level_max": 39,
-          "rarity": "common"
-        },
-        {
-          "creature": "bramekit",
-          "weight": 4,
-          "level_min": 32,
-          "level_max": 39,
-          "rarity": "common"
-        },
-        {
-          "creature": "dornekit",
-          "weight": 4,
-          "level_min": 32,
-          "level_max": 39,
-          "rarity": "common"
-        },
-        {
-          "creature": "fenekit",
-          "weight": 4,
-          "level_min": 32,
-          "level_max": 39,
-          "rarity": "common"
-        },
-        {
-          "creature": "holloekit",
-          "weight": 4,
-          "level_min": 32,
-          "level_max": 39,
-          "rarity": "common"
-        },
-        {
-          "creature": "jorvekit",
-          "weight": 4,
-          "level_min": 32,
-          "level_max": 39,
-          "rarity": "common"
-        },
-        {
-          "creature": "lumekit",
-          "weight": 4,
-          "level_min": 32,
-          "level_max": 39,
-          "rarity": "common"
-        },
-        {
-          "creature": "morekit",
-          "weight": 4,
-          "level_min": 32,
-          "level_max": 39,
-          "rarity": "common"
-        },
-        {
-          "creature": "nyxekit",
-          "weight": 4,
-          "level_min": 32,
-          "level_max": 39,
-          "rarity": "common"
-        },
-        {
-          "creature": "orlekit",
-          "weight": 4,
-          "level_min": 32,
-          "level_max": 39,
-          "rarity": "common"
-        },
-        {
-          "creature": "pyrekit",
-          "weight": 4,
-          "level_min": 32,
-          "level_max": 39,
-          "rarity": "common"
-        },
-        {
-          "creature": "quillekit",
-          "weight": 4,
-          "level_min": 32,
-          "level_max": 39,
-          "rarity": "common"
-        },
-        {
-          "creature": "rynekit",
-          "weight": 4,
-          "level_min": 32,
-          "level_max": 39,
-          "rarity": "common"
-        },
-        {
-          "creature": "solekit",
-          "weight": 4,
-          "level_min": 32,
-          "level_max": 39,
-          "rarity": "common"
-        },
-        {
-          "creature": "tamekit",
-          "weight": 4,
-          "level_min": 32,
-          "level_max": 39,
-          "rarity": "common"
-        },
-        {
-          "creature": "umbrekit",
-          "weight": 4,
-          "level_min": 32,
-          "level_max": 39,
-          "rarity": "common"
-        },
-        {
-          "creature": "vexekit",
-          "weight": 4,
-          "level_min": 32,
-          "level_max": 39,
-          "rarity": "common"
-        },
-        {
-          "creature": "wynekit",
-          "weight": 4,
-          "level_min": 32,
-          "level_max": 39,
-          "rarity": "common"
-        },
-        {
-          "creature": "yarekit",
-          "weight": 4,
-          "level_min": 32,
-          "level_max": 39,
-          "rarity": "common"
-        },
-        {
-          "creature": "zephekit",
-          "weight": 4,
-          "level_min": 32,
-          "level_max": 39,
-          "rarity": "common"
-        },
-        {
-          "creature": "balekit",
-          "weight": 4,
-          "level_min": 32,
-          "level_max": 39,
-          "rarity": "common"
-        },
-        {
-          "creature": "crevekit",
-          "weight": 4,
-          "level_min": 32,
-          "level_max": 39,
-          "rarity": "common"
-        },
-        {
-          "creature": "duskekit",
-          "weight": 4,
-          "level_min": 32,
-          "level_max": 39,
-          "rarity": "common"
-        },
-        {
-          "creature": "emberekit",
-          "weight": 4,
-          "level_min": 32,
-          "level_max": 39,
-          "rarity": "common"
-        },
-        {
-          "creature": "frostekit",
-          "weight": 4,
-          "level_min": 32,
-          "level_max": 39,
-          "rarity": "common"
-        },
-        {
-          "creature": "glimekit",
-          "weight": 4,
-          "level_min": 32,
-          "level_max": 39,
-          "rarity": "common"
         }
       ]
     },
@@ -2463,286 +783,6 @@
           "level_min": 38,
           "level_max": 44,
           "rarity": "common"
-        },
-        {
-          "creature": "bramikit",
-          "weight": 4,
-          "level_min": 38,
-          "level_max": 45,
-          "rarity": "common"
-        },
-        {
-          "creature": "dornikit",
-          "weight": 4,
-          "level_min": 38,
-          "level_max": 45,
-          "rarity": "common"
-        },
-        {
-          "creature": "fenikit",
-          "weight": 4,
-          "level_min": 38,
-          "level_max": 45,
-          "rarity": "common"
-        },
-        {
-          "creature": "holloikit",
-          "weight": 4,
-          "level_min": 38,
-          "level_max": 45,
-          "rarity": "common"
-        },
-        {
-          "creature": "jorvikit",
-          "weight": 4,
-          "level_min": 38,
-          "level_max": 45,
-          "rarity": "common"
-        },
-        {
-          "creature": "lumikit",
-          "weight": 4,
-          "level_min": 38,
-          "level_max": 45,
-          "rarity": "common"
-        },
-        {
-          "creature": "nyxikit",
-          "weight": 4,
-          "level_min": 38,
-          "level_max": 45,
-          "rarity": "common"
-        },
-        {
-          "creature": "pyrikit",
-          "weight": 4,
-          "level_min": 38,
-          "level_max": 45,
-          "rarity": "common"
-        },
-        {
-          "creature": "rynikit",
-          "weight": 4,
-          "level_min": 38,
-          "level_max": 45,
-          "rarity": "common"
-        },
-        {
-          "creature": "tamikit",
-          "weight": 4,
-          "level_min": 38,
-          "level_max": 45,
-          "rarity": "common"
-        },
-        {
-          "creature": "vexikit",
-          "weight": 4,
-          "level_min": 38,
-          "level_max": 45,
-          "rarity": "common"
-        },
-        {
-          "creature": "yarikit",
-          "weight": 4,
-          "level_min": 38,
-          "level_max": 45,
-          "rarity": "common"
-        },
-        {
-          "creature": "balikit",
-          "weight": 4,
-          "level_min": 38,
-          "level_max": 45,
-          "rarity": "common"
-        },
-        {
-          "creature": "duskikit",
-          "weight": 4,
-          "level_min": 38,
-          "level_max": 45,
-          "rarity": "common"
-        },
-        {
-          "creature": "frostikit",
-          "weight": 4,
-          "level_min": 38,
-          "level_max": 45,
-          "rarity": "common"
-        },
-        {
-          "creature": "bramokit",
-          "weight": 4,
-          "level_min": 38,
-          "level_max": 45,
-          "rarity": "common"
-        },
-        {
-          "creature": "dornokit",
-          "weight": 4,
-          "level_min": 38,
-          "level_max": 45,
-          "rarity": "common"
-        },
-        {
-          "creature": "fenokit",
-          "weight": 4,
-          "level_min": 38,
-          "level_max": 45,
-          "rarity": "common"
-        },
-        {
-          "creature": "hollookit",
-          "weight": 4,
-          "level_min": 38,
-          "level_max": 45,
-          "rarity": "common"
-        },
-        {
-          "creature": "jorvokit",
-          "weight": 4,
-          "level_min": 38,
-          "level_max": 45,
-          "rarity": "common"
-        },
-        {
-          "creature": "lumokit",
-          "weight": 4,
-          "level_min": 38,
-          "level_max": 45,
-          "rarity": "common"
-        },
-        {
-          "creature": "morokit",
-          "weight": 4,
-          "level_min": 38,
-          "level_max": 45,
-          "rarity": "common"
-        },
-        {
-          "creature": "nyxokit",
-          "weight": 4,
-          "level_min": 38,
-          "level_max": 45,
-          "rarity": "common"
-        },
-        {
-          "creature": "orlokit",
-          "weight": 4,
-          "level_min": 38,
-          "level_max": 45,
-          "rarity": "common"
-        },
-        {
-          "creature": "pyrokit",
-          "weight": 4,
-          "level_min": 38,
-          "level_max": 45,
-          "rarity": "common"
-        },
-        {
-          "creature": "quillokit",
-          "weight": 4,
-          "level_min": 38,
-          "level_max": 45,
-          "rarity": "common"
-        },
-        {
-          "creature": "rynokit",
-          "weight": 4,
-          "level_min": 38,
-          "level_max": 45,
-          "rarity": "common"
-        },
-        {
-          "creature": "solokit",
-          "weight": 4,
-          "level_min": 38,
-          "level_max": 45,
-          "rarity": "common"
-        },
-        {
-          "creature": "tamokit",
-          "weight": 4,
-          "level_min": 38,
-          "level_max": 45,
-          "rarity": "common"
-        },
-        {
-          "creature": "umbrokit",
-          "weight": 4,
-          "level_min": 38,
-          "level_max": 45,
-          "rarity": "common"
-        },
-        {
-          "creature": "vexokit",
-          "weight": 4,
-          "level_min": 38,
-          "level_max": 45,
-          "rarity": "common"
-        },
-        {
-          "creature": "wynokit",
-          "weight": 4,
-          "level_min": 38,
-          "level_max": 45,
-          "rarity": "common"
-        },
-        {
-          "creature": "yarokit",
-          "weight": 4,
-          "level_min": 38,
-          "level_max": 45,
-          "rarity": "common"
-        },
-        {
-          "creature": "zephokit",
-          "weight": 4,
-          "level_min": 38,
-          "level_max": 45,
-          "rarity": "common"
-        },
-        {
-          "creature": "balokit",
-          "weight": 4,
-          "level_min": 38,
-          "level_max": 45,
-          "rarity": "common"
-        },
-        {
-          "creature": "crevokit",
-          "weight": 4,
-          "level_min": 38,
-          "level_max": 45,
-          "rarity": "common"
-        },
-        {
-          "creature": "duskokit",
-          "weight": 4,
-          "level_min": 38,
-          "level_max": 45,
-          "rarity": "common"
-        },
-        {
-          "creature": "emberokit",
-          "weight": 4,
-          "level_min": 38,
-          "level_max": 45,
-          "rarity": "common"
-        },
-        {
-          "creature": "frostokit",
-          "weight": 4,
-          "level_min": 38,
-          "level_max": 45,
-          "rarity": "common"
-        },
-        {
-          "creature": "glimokit",
-          "weight": 4,
-          "level_min": 38,
-          "level_max": 45,
-          "rarity": "common"
         }
       ]
     },
@@ -2846,286 +886,6 @@
           "weight": 8,
           "level_min": 44,
           "level_max": 50,
-          "rarity": "common"
-        },
-        {
-          "creature": "bramukit",
-          "weight": 4,
-          "level_min": 44,
-          "level_max": 51,
-          "rarity": "common"
-        },
-        {
-          "creature": "dornukit",
-          "weight": 4,
-          "level_min": 44,
-          "level_max": 51,
-          "rarity": "common"
-        },
-        {
-          "creature": "fenukit",
-          "weight": 4,
-          "level_min": 44,
-          "level_max": 51,
-          "rarity": "common"
-        },
-        {
-          "creature": "holloukit",
-          "weight": 4,
-          "level_min": 44,
-          "level_max": 51,
-          "rarity": "common"
-        },
-        {
-          "creature": "jorvukit",
-          "weight": 4,
-          "level_min": 44,
-          "level_max": 51,
-          "rarity": "common"
-        },
-        {
-          "creature": "lumukit",
-          "weight": 4,
-          "level_min": 44,
-          "level_max": 51,
-          "rarity": "common"
-        },
-        {
-          "creature": "nyxukit",
-          "weight": 4,
-          "level_min": 44,
-          "level_max": 51,
-          "rarity": "common"
-        },
-        {
-          "creature": "pyrukit",
-          "weight": 4,
-          "level_min": 44,
-          "level_max": 51,
-          "rarity": "common"
-        },
-        {
-          "creature": "rynukit",
-          "weight": 4,
-          "level_min": 44,
-          "level_max": 51,
-          "rarity": "common"
-        },
-        {
-          "creature": "tamukit",
-          "weight": 4,
-          "level_min": 44,
-          "level_max": 51,
-          "rarity": "common"
-        },
-        {
-          "creature": "vexukit",
-          "weight": 4,
-          "level_min": 44,
-          "level_max": 51,
-          "rarity": "common"
-        },
-        {
-          "creature": "yarukit",
-          "weight": 4,
-          "level_min": 44,
-          "level_max": 51,
-          "rarity": "common"
-        },
-        {
-          "creature": "balukit",
-          "weight": 4,
-          "level_min": 44,
-          "level_max": 51,
-          "rarity": "common"
-        },
-        {
-          "creature": "duskukit",
-          "weight": 4,
-          "level_min": 44,
-          "level_max": 51,
-          "rarity": "common"
-        },
-        {
-          "creature": "frostukit",
-          "weight": 4,
-          "level_min": 44,
-          "level_max": 51,
-          "rarity": "common"
-        },
-        {
-          "creature": "bramaekit",
-          "weight": 4,
-          "level_min": 44,
-          "level_max": 51,
-          "rarity": "common"
-        },
-        {
-          "creature": "dornaekit",
-          "weight": 4,
-          "level_min": 44,
-          "level_max": 51,
-          "rarity": "common"
-        },
-        {
-          "creature": "fenaekit",
-          "weight": 4,
-          "level_min": 44,
-          "level_max": 51,
-          "rarity": "common"
-        },
-        {
-          "creature": "holloaekit",
-          "weight": 4,
-          "level_min": 44,
-          "level_max": 51,
-          "rarity": "common"
-        },
-        {
-          "creature": "jorvaekit",
-          "weight": 4,
-          "level_min": 44,
-          "level_max": 51,
-          "rarity": "common"
-        },
-        {
-          "creature": "lumaekit",
-          "weight": 4,
-          "level_min": 44,
-          "level_max": 51,
-          "rarity": "common"
-        },
-        {
-          "creature": "moraekit",
-          "weight": 4,
-          "level_min": 44,
-          "level_max": 51,
-          "rarity": "common"
-        },
-        {
-          "creature": "nyxaekit",
-          "weight": 4,
-          "level_min": 44,
-          "level_max": 51,
-          "rarity": "common"
-        },
-        {
-          "creature": "orlaekit",
-          "weight": 4,
-          "level_min": 44,
-          "level_max": 51,
-          "rarity": "common"
-        },
-        {
-          "creature": "pyraekit",
-          "weight": 4,
-          "level_min": 44,
-          "level_max": 51,
-          "rarity": "common"
-        },
-        {
-          "creature": "quillaekit",
-          "weight": 4,
-          "level_min": 44,
-          "level_max": 51,
-          "rarity": "common"
-        },
-        {
-          "creature": "rynaekit",
-          "weight": 4,
-          "level_min": 44,
-          "level_max": 51,
-          "rarity": "common"
-        },
-        {
-          "creature": "solaekit",
-          "weight": 4,
-          "level_min": 44,
-          "level_max": 51,
-          "rarity": "common"
-        },
-        {
-          "creature": "tamaekit",
-          "weight": 4,
-          "level_min": 44,
-          "level_max": 51,
-          "rarity": "common"
-        },
-        {
-          "creature": "umbraekit",
-          "weight": 4,
-          "level_min": 44,
-          "level_max": 51,
-          "rarity": "common"
-        },
-        {
-          "creature": "vexaekit",
-          "weight": 4,
-          "level_min": 44,
-          "level_max": 51,
-          "rarity": "common"
-        },
-        {
-          "creature": "wynaekit",
-          "weight": 4,
-          "level_min": 44,
-          "level_max": 51,
-          "rarity": "common"
-        },
-        {
-          "creature": "yaraekit",
-          "weight": 4,
-          "level_min": 44,
-          "level_max": 51,
-          "rarity": "common"
-        },
-        {
-          "creature": "zephaekit",
-          "weight": 4,
-          "level_min": 44,
-          "level_max": 51,
-          "rarity": "common"
-        },
-        {
-          "creature": "balaekit",
-          "weight": 4,
-          "level_min": 44,
-          "level_max": 51,
-          "rarity": "common"
-        },
-        {
-          "creature": "crevaekit",
-          "weight": 4,
-          "level_min": 44,
-          "level_max": 51,
-          "rarity": "common"
-        },
-        {
-          "creature": "duskaekit",
-          "weight": 4,
-          "level_min": 44,
-          "level_max": 51,
-          "rarity": "common"
-        },
-        {
-          "creature": "emberaekit",
-          "weight": 4,
-          "level_min": 44,
-          "level_max": 51,
-          "rarity": "common"
-        },
-        {
-          "creature": "frostaekit",
-          "weight": 4,
-          "level_min": 44,
-          "level_max": 51,
-          "rarity": "common"
-        },
-        {
-          "creature": "glimaekit",
-          "weight": 4,
-          "level_min": 44,
-          "level_max": 51,
           "rarity": "common"
         }
       ]
@@ -3233,280 +993,280 @@
           "rarity": "common"
         },
         {
-          "creature": "bramorkit",
+          "creature": "zevexakit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "dornorkit",
+          "creature": "zewynakit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "fenorkit",
+          "creature": "zeyarakit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "holloorkit",
+          "creature": "zezephakit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "jorvorkit",
+          "creature": "zebalakit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "lumorkit",
+          "creature": "zecrevakit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "nyxorkit",
+          "creature": "zeduskakit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "pyrorkit",
+          "creature": "zeemberakit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "rynorkit",
+          "creature": "zefrostakit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "tamorkit",
+          "creature": "zeglimakit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "vexorkit",
+          "creature": "zebramekit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "yarorkit",
+          "creature": "zecinqekit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "balorkit",
+          "creature": "zedornekit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "duskorkit",
+          "creature": "zeeldekit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "frostorkit",
+          "creature": "zefenekit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "bramenkit",
+          "creature": "zegrimekit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "dornenkit",
+          "creature": "zeholloekit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "fenenkit",
+          "creature": "zeiriekit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "holloenkit",
+          "creature": "zejorvekit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "jorvenkit",
+          "creature": "zekestekit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "lumenkit",
+          "creature": "zelumekit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "morenkit",
+          "creature": "zemorekit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "nyxenkit",
+          "creature": "zenyxekit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "orlenkit",
+          "creature": "zeorlekit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "pyrenkit",
+          "creature": "zepyrekit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "quillenkit",
+          "creature": "zequillekit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "rynenkit",
+          "creature": "zerynekit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "solenkit",
+          "creature": "zesolekit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "tamenkit",
+          "creature": "zetamekit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "umbrenkit",
+          "creature": "zeumbrekit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "vexenkit",
+          "creature": "zevexekit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "wynenkit",
+          "creature": "zewynekit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "yarenkit",
+          "creature": "zeyarekit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zephenkit",
+          "creature": "zezephekit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "balenkit",
+          "creature": "zebalekit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "crevenkit",
+          "creature": "zecrevekit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "duskenkit",
+          "creature": "zeduskekit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "emberenkit",
+          "creature": "zeemberekit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "frostenkit",
+          "creature": "zefrostekit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "glimenkit",
+          "creature": "zeglimekit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,

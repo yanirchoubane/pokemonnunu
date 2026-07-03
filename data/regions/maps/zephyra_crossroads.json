@@ -212,6 +212,14 @@
       "id": "from_court_3",
       "x": 14,
       "y": 6
+    },
+    {
+      "type": "npc",
+      "x": 7,
+      "y": 6,
+      "npc_id": "corin",
+      "sprite": "npc_rival",
+      "dialog_id": "corin_road"
     }
   ]
 }

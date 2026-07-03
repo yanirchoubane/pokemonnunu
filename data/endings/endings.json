@@ -53,6 +53,57 @@
       ]
     },
     {
+      "id": "ending_rivals_true",
+      "title": "Rivals to the End",
+      "condition": {
+        "kind": "all",
+        "conditions": [
+          {
+            "kind": "flag",
+            "flag": "quest_hollow_done"
+          },
+          {
+            "kind": "relationship_at_least",
+            "npc": "corin",
+            "at_least": 4
+          }
+        ]
+      },
+      "lines": [
+        "Corin meets you on the Zephyra steppe, grinning through the wind.",
+        "\"Start to finish, ${player} — nine regions, one Order broken, and I never fell behind.\"",
+        "Two rivals, one unbroken road. Professor Maple's report has two names on the cover."
+      ]
+    },
+    {
+      "id": "ending_order_mercy",
+      "title": "The Hand You Didn't Raise",
+      "condition": {
+        "kind": "var_equals",
+        "var": "order_end",
+        "value": "mercy"
+      },
+      "lines": [
+        "You gave the Archon a road back instead of a fall.",
+        "The gray coats trade debt-ledgers for trail-maps, guiding travelers they once robbed.",
+        "Mercy, it turns out, hollows nothing. It fills."
+      ]
+    },
+    {
+      "id": "ending_order_justice",
+      "title": "Ledgers to Ash",
+      "condition": {
+        "kind": "var_equals",
+        "var": "order_end",
+        "value": "justice"
+      },
+      "lines": [
+        "The Order's debts burn on the steppe until only clean wind remains.",
+        "From Verdantia to Zephyra, no trainer flinches at a gray coat again.",
+        "You gave the roads back. That is a Champion's truest badge."
+      ]
+    },
+    {
       "id": "ending_order_undone",
       "title": "The Hollow, Undone",
       "condition": {

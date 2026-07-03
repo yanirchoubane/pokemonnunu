@@ -26,8 +26,11 @@ DATA = os.path.join(ROOT, "data")
 # ---- scale knobs -----------------------------------------------------------
 SPECIES_PER_REGION = 60      # 9 regions -> +540 species
 COURTS_PER_REGION = 3        # training-hall maps per region
-TRAINERS_PER_COURT = 24      # 9 * 3 * 24 = +648 optional grind trainers
+TRAINERS_PER_COURT = 48      # 9 * 3 * 48 = +1296 optional grind trainers
 # ---------------------------------------------------------------------------
+# Species and court ids are DETERMINISTIC (region-prefixed), and this generator
+# prunes its own previous output (generation == "demo_g4") before regenerating,
+# so it is fully idempotent even when the knobs above change.
 
 TYPES = ["normal", "fire", "water", "grass", "electric", "earth", "wind", "mystic"]
 REGION_ORDERS = {
@@ -86,24 +89,12 @@ def upsert(records, rec):
     records.append(rec)
 
 
-class Namer:
-    def __init__(self, used):
-        self.used = set(used)
-        self.i = 0
-
-    def next(self, stage):
-        for _ in range(4000):
-            p = PRE[self.i % len(PRE)]
-            m = MID[(self.i // len(PRE)) % len(MID)]
-            s = SUF[stage][(self.i // (len(PRE) * len(MID))) % len(SUF[stage])]
-            self.i += 1
-            sid = p + m + s
-            if sid not in self.used:
-                self.used.add(sid)
-                return sid
-        sid = f"sp{len(self.used)}"
-        self.used.add(sid)
-        return sid
+def make_name(rid, slot, stage):
+    """Deterministic, region-prefixed, unique species id for (region, slot, stage)."""
+    p = PRE[slot % len(PRE)]
+    m = MID[(slot // len(PRE)) % len(MID)]
+    s = SUF[stage][(slot // (len(PRE) * len(MID))) % len(SUF[stage])]
+    return f"{rid[:2]}{p}{m}{s}"
 
 
 def learnset(types, lo, stage):
@@ -184,15 +175,21 @@ def main():
     trainers_doc = load(os.path.join(DATA, "trainers", "trainers.json"))
     encounters_doc = load(os.path.join(DATA, "encounters", "encounters.json"))
 
-    namer = Namer({c["id"] for c in creatures_doc["creatures"]})
-    region_species = {}
+    # Prune this generator's previous output so re-runs (incl. knob changes) are clean.
+    creatures_doc["creatures"] = [c for c in creatures_doc["creatures"]
+                                  if c.get("generation") != "demo_g4"]
+    live_ids = {c["id"] for c in creatures_doc["creatures"]}
+    # Drop evolution rules whose source creature no longer exists (orphaned demo_g4);
+    # the ones we recreate below are re-added with identical ids.
+    evolutions_doc["evolutions"] = [e for e in evolutions_doc["evolutions"]
+                                    if e.get("from") in live_ids]
 
+    region_species = {}
+    slot = 0
     for rid, (order, lo) in REGION_ORDERS.items():
-        region_name = rid.capitalize()
         pool_ids = []
         n_lines = SPECIES_PER_REGION // 3   # ~1/3 are 2-stage lines (2 species each)
         n_singles = SPECIES_PER_REGION - n_lines * 2
-        made = 0
         ti = 0
         # two-stage lines
         for _ in range(n_lines):
@@ -200,8 +197,9 @@ def main():
             if ti % 3 == 0:
                 types = [TYPES[ti % 8], TYPES[(ti + 3) % 8]]
             ti += 1
-            base_id = namer.next(0)
-            evo_id = namer.next(1)
+            base_id = make_name(rid, slot, 0)
+            evo_id = make_name(rid, slot, 1)
+            slot += 1
             upsert(creatures_doc["creatures"],
                    species_rec(base_id, base_id.capitalize(), types, rid, lo, order, 0, [evo_id]))
             upsert(creatures_doc["creatures"],
@@ -210,17 +208,21 @@ def main():
                    {"id": f"evo_{base_id}", "from": base_id, "to": evo_id,
                     "condition": {"kind": "level_up", "level": min(58, lo + 12)}})
             pool_ids += [base_id, evo_id]
-            made += 2
         # singles
         for _ in range(n_singles):
             types = [TYPES[ti % 8]]
             ti += 1
-            sid = namer.next(0)
+            sid = make_name(rid, slot, 0)
+            slot += 1
             upsert(creatures_doc["creatures"],
                    species_rec(sid, sid.capitalize(), types, rid, lo, order, 0, []))
             pool_ids.append(sid)
-            made += 1
         region_species[rid] = pool_ids
+
+    # Trim any encounter entries that referenced now-removed demo_g4 species.
+    valid_ids = {c["id"] for c in creatures_doc["creatures"]}
+    for tbl in encounters_doc["tables"]:
+        tbl["entries"] = [e for e in tbl["entries"] if e.get("creature") in valid_ids]
 
         # wild table: add every new stage-1 / single as a light-weight spawn
         tbl = next((t for t in encounters_doc["tables"] if t.get("region") == rid), None)
@@ -275,9 +277,9 @@ def main():
         # Wire courts into the Crossroads (add doors on the free wall tiles).
         cp = os.path.join(DATA, "regions", "maps", f"{rid}_crossroads.json")
         cross = load(cp)
-        # free interior wall tiles: left col at rows 6, right col at rows 2 & 6
+        # free interior wall tiles: left col rows 6-7, right col rows 2 & 6
         wiring = [(0, 6, "from_court_1", 1, 6), (15, 2, "from_court_2", 14, 2),
-                  (15, 6, "from_court_3", 14, 6)]
+                  (15, 6, "from_court_3", 14, 6), (0, 7, "from_court_4", 1, 7)]
         for ci in range(COURTS_PER_REGION):
             dx, dy, spawn_id, sx, sy = wiring[ci]
             row = cross["rows"][dy]
