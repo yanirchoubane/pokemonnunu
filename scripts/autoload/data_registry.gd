@@ -441,7 +441,7 @@ func validate() -> Array:
 const VALID_ACTION_KINDS := [
 	"set_flag", "clear_flag", "set_var", "add_var", "adjust_relationship",
 	"give_item", "take_item", "add_money", "start_quest", "heal_team",
-	"unlock_region", "inc_counter", "trigger_ending",
+	"unlock_region", "inc_counter", "trigger_ending", "warp",
 ]
 
 func _validate_actions(actions: Array, where: String) -> Array:
@@ -459,6 +459,19 @@ func _validate_actions(actions: Array, where: String) -> Array:
 		elif kind == "unlock_region":
 			if not regions.has(String(a.get("region", ""))):
 				errors.append("Action in %s references unknown region '%s'." % [where, a.get("region", "")])
+		elif kind == "warp":
+			var wm := String(a.get("map", ""))
+			if not maps.has(wm):
+				errors.append("Warp action in %s targets unknown map '%s'." % [where, wm])
+			else:
+				var sid := String(a.get("spawn", "default"))
+				var found := false
+				for obj in maps[wm].get("objects", []):
+					if String(obj.get("type", "")) == "spawn" and String(obj.get("id", "")) == sid:
+						found = true
+						break
+				if not found:
+					errors.append("Warp action in %s targets unknown spawn '%s' on map '%s'." % [where, sid, wm])
 	return errors
 
 func _detect_evolution_cycles() -> Array:

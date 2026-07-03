@@ -228,7 +228,7 @@
           ]
         },
         {
-          "creature": "aerotail",
+          "creature": "stratoclaw",
           "level": 27,
           "moves": [
             "gale_slash",
@@ -256,7 +256,7 @@
           ]
         },
         {
-          "creature": "mystclaw",
+          "creature": "arcanefang",
           "level": 27,
           "moves": [
             "mind_ray",
@@ -320,7 +320,7 @@
           ]
         },
         {
-          "creature": "solacefang",
+          "creature": "tranceclaw",
           "level": 33,
           "moves": [
             "mind_ray",
@@ -339,7 +339,7 @@
           ]
         },
         {
-          "creature": "basalttail",
+          "creature": "boulderhorn",
           "level": 32,
           "moves": [
             "stone_toss",
@@ -348,7 +348,7 @@
           ]
         },
         {
-          "creature": "tuftclaw",
+          "creature": "dappletail",
           "level": 33,
           "moves": [
             "tackle",
@@ -403,7 +403,7 @@
       "dialogue_victory": "Arbiter Nocturne: You argued your case with force and forgot the mercy. The grove remembers both. Adjourned.",
       "team": [
         {
-          "creature": "siltclaw",
+          "creature": "granitetail",
           "level": 38,
           "moves": [
             "stone_toss",
@@ -412,7 +412,7 @@
           ]
         },
         {
-          "creature": "loperfang",
+          "creature": "cloverclaw",
           "level": 39,
           "moves": [
             "tackle",
@@ -431,7 +431,7 @@
           ]
         },
         {
-          "creature": "draftfang",
+          "creature": "gustclaw",
           "level": 38,
           "moves": [
             "gale_slash",
@@ -494,7 +494,7 @@
       "dialogue_victory": "Ironmonger Casque: The forge outlasted you today. Cold iron, warm heart — bring both next time, not just the one.",
       "team": [
         {
-          "creature": "breezemane",
+          "creature": "billowfang",
           "level": 44,
           "moves": [
             "gale_slash",
@@ -522,7 +522,7 @@
           ]
         },
         {
-          "creature": "aurawing",
+          "creature": "glyphmane",
           "level": 44,
           "moves": [
             "mind_ray",
@@ -586,7 +586,7 @@
       "dialogue_victory": "Abbess Threnody: You mistook my sorrow for softness. The drowned are the most stubborn of all. Come back when you understand.",
       "team": [
         {
-          "creature": "mysthorn",
+          "creature": "aurafang",
           "level": 50,
           "moves": [
             "mind_ray",
@@ -604,7 +604,7 @@
           ]
         },
         {
-          "creature": "dunemane",
+          "creature": "shaletail",
           "level": 52,
           "moves": [
             "stone_toss",
@@ -614,7 +614,7 @@
           ]
         },
         {
-          "creature": "russetwing",
+          "creature": "valeclaw",
           "level": 50,
           "moves": [
             "tackle",
@@ -677,7 +677,7 @@
       "dialogue_victory": "Oracle Calla: You lost exactly as the light showed. Change, or the vision will keep being right.",
       "team": [
         {
-          "creature": "tufthorn",
+          "creature": "russetfang",
           "level": 56,
           "moves": [
             "tackle",
@@ -695,7 +695,7 @@
           ]
         },
         {
-          "creature": "vanehorn",
+          "creature": "aerofang",
           "level": 58,
           "moves": [
             "gale_slash",
@@ -768,7 +768,7 @@
       "dialogue_victory": "Skylord Peregrine: The height took your breath before I did. No shame in the sky winning. Climb again.",
       "team": [
         {
-          "creature": "torchlord",
+          "creature": "hearthsage",
           "level": 62,
           "moves": [
             "ember_burst",
@@ -777,7 +777,7 @@
           ]
         },
         {
-          "creature": "staticmonarch",
+          "creature": "fulgorwarden",
           "level": 63,
           "moves": [
             "spark_zap",
@@ -786,7 +786,7 @@
           ]
         },
         {
-          "creature": "opalclaw",
+          "creature": "solacewing",
           "level": 64,
           "moves": [
             "mind_ray",
@@ -805,7 +805,7 @@
           ]
         },
         {
-          "creature": "silthorn",
+          "creature": "basaltfang",
           "level": 63,
           "moves": [
             "stone_toss",
@@ -1690,7 +1690,7 @@
       "dialogue_victory": "Plainskeeper Odan: Fundamentals beat flourish today. Come back when your basics are quieter.",
       "team": [
         {
-          "creature": "loperie",
+          "creature": "whiskkin",
           "level": 2,
           "moves": [
             "tackle",
@@ -1698,7 +1698,7 @@
           ]
         },
         {
-          "creature": "loperie",
+          "creature": "whiskkin",
           "level": 2,
           "moves": [
             "tackle",
@@ -1706,7 +1706,7 @@
           ]
         },
         {
-          "creature": "loperie",
+          "creature": "whiskkin",
           "level": 3,
           "moves": [
             "tackle",
@@ -1894,7 +1894,7 @@
       "dialogue_victory": "Cairnbreaker Petra: You threw yourself at the wall until you were the one that cracked. Patience, challenger.",
       "team": [
         {
-          "creature": "siltet",
+          "creature": "marlie",
           "level": 6,
           "moves": [
             "tackle",
@@ -1903,7 +1903,7 @@
           ]
         },
         {
-          "creature": "siltet",
+          "creature": "marlie",
           "level": 7,
           "moves": [
             "tackle",
@@ -1912,7 +1912,7 @@
           ]
         },
         {
-          "creature": "siltmane",
+          "creature": "marlwing",
           "level": 8,
           "moves": [
             "stone_toss",
@@ -1935,7 +1935,7 @@
       "dialogue_victory": "Skydancer Sorrel: You swung at where I'd been. The sky is always already somewhere else.",
       "team": [
         {
-          "creature": "draftie",
+          "creature": "zephyrkin",
           "level": 7,
           "moves": [
             "tackle",
@@ -1944,7 +1944,7 @@
           ]
         },
         {
-          "creature": "draftwing",
+          "creature": "zephyrhorn",
           "level": 8,
           "moves": [
             "gale_slash",
@@ -1952,7 +1952,7 @@
           ]
         },
         {
-          "creature": "draftwing",
+          "creature": "zephyrhorn",
           "level": 9,
           "moves": [
             "gale_slash",
@@ -1975,7 +1975,7 @@
       "dialogue_victory": "Dreambinder Yara: You fought the way I predicted, exactly. Surprise me next time, or don't return.",
       "team": [
         {
-          "creature": "opalhorn",
+          "creature": "runetail",
           "level": 8,
           "moves": [
             "mind_ray",
@@ -1983,7 +1983,7 @@
           ]
         },
         {
-          "creature": "opalhorn",
+          "creature": "runetail",
           "level": 9,
           "moves": [
             "mind_ray",
@@ -1991,7 +1991,7 @@
           ]
         },
         {
-          "creature": "opalhorn",
+          "creature": "runetail",
           "level": 10,
           "moves": [
             "mind_ray",
@@ -2082,7 +2082,7 @@
           ]
         },
         {
-          "creature": "siltmane",
+          "creature": "marlwing",
           "level": 11,
           "moves": [
             "stone_toss",
@@ -2091,7 +2091,7 @@
           ]
         },
         {
-          "creature": "draftwing",
+          "creature": "zephyrhorn",
           "level": 12,
           "moves": [
             "gale_slash",
@@ -2114,7 +2114,7 @@
       "dialogue_victory": "Elite Vantor: Doubt swallowed you. It does that to the certain. Steady yourself and return.",
       "team": [
         {
-          "creature": "siltmane",
+          "creature": "marlwing",
           "level": 12,
           "moves": [
             "stone_toss",
@@ -2123,7 +2123,7 @@
           ]
         },
         {
-          "creature": "draftwing",
+          "creature": "zephyrhorn",
           "level": 13,
           "moves": [
             "gale_slash",
@@ -2132,7 +2132,7 @@
           ]
         },
         {
-          "creature": "opalhorn",
+          "creature": "runetail",
           "level": 12,
           "moves": [
             "mind_ray",
@@ -2141,7 +2141,7 @@
           ]
         },
         {
-          "creature": "loperwing",
+          "creature": "whiskhorn",
           "level": 13,
           "moves": [
             "tackle",
@@ -2164,7 +2164,7 @@
       "dialogue_victory": "Elite Ondine: You didn't mean it enough. The corridor keeps its honest count. Come back meaning it.",
       "team": [
         {
-          "creature": "opalhorn",
+          "creature": "runetail",
           "level": 13,
           "moves": [
             "mind_ray",
@@ -2173,7 +2173,7 @@
           ]
         },
         {
-          "creature": "loperwing",
+          "creature": "whiskhorn",
           "level": 14,
           "moves": [
             "tackle",
@@ -2233,7 +2233,7 @@
           ]
         },
         {
-          "creature": "opalhorn",
+          "creature": "runetail",
           "level": 16,
           "moves": [
             "mind_ray",
@@ -2252,7 +2252,7 @@
           ]
         },
         {
-          "creature": "siltmane",
+          "creature": "marlwing",
           "level": 15,
           "moves": [
             "stone_toss",
@@ -2276,7 +2276,7 @@
       "dialogue_victory": "Plainskeeper Petra: Fundamentals beat flourish today. Come back when your basics are quieter.",
       "team": [
         {
-          "creature": "valekin",
+          "creature": "harrowlet",
           "level": 7,
           "moves": [
             "tackle",
@@ -2284,7 +2284,7 @@
           ]
         },
         {
-          "creature": "valekin",
+          "creature": "harrowlet",
           "level": 8,
           "moves": [
             "tackle",
@@ -2292,7 +2292,7 @@
           ]
         },
         {
-          "creature": "valekin",
+          "creature": "harrowlet",
           "level": 9,
           "moves": [
             "tackle",
@@ -2480,7 +2480,7 @@
       "dialogue_victory": "Cairnbreaker Garrick: You threw yourself at the wall until you were the one that cracked. Patience, challenger.",
       "team": [
         {
-          "creature": "shaleie",
+          "creature": "claykin",
           "level": 12,
           "moves": [
             "tackle",
@@ -2489,7 +2489,7 @@
           ]
         },
         {
-          "creature": "shaleie",
+          "creature": "claykin",
           "level": 13,
           "moves": [
             "tackle",
@@ -2498,7 +2498,7 @@
           ]
         },
         {
-          "creature": "shalewing",
+          "creature": "clayhorn",
           "level": 14,
           "moves": [
             "stone_toss",
@@ -2521,7 +2521,7 @@
       "dialogue_victory": "Skydancer Mira: You swung at where I'd been. The sky is always already somewhere else.",
       "team": [
         {
-          "creature": "breezekin",
+          "creature": "cirruslet",
           "level": 13,
           "moves": [
             "tackle",
@@ -2530,7 +2530,7 @@
           ]
         },
         {
-          "creature": "breezehorn",
+          "creature": "cirrustail",
           "level": 14,
           "moves": [
             "gale_slash",
@@ -2538,7 +2538,7 @@
           ]
         },
         {
-          "creature": "breezehorn",
+          "creature": "cirrustail",
           "level": 15,
           "moves": [
             "gale_slash",
@@ -2561,7 +2561,7 @@
       "dialogue_victory": "Dreambinder Torv: You fought the way I predicted, exactly. Surprise me next time, or don't return.",
       "team": [
         {
-          "creature": "auratail",
+          "creature": "omenclaw",
           "level": 14,
           "moves": [
             "mind_ray",
@@ -2569,7 +2569,7 @@
           ]
         },
         {
-          "creature": "auratail",
+          "creature": "omenclaw",
           "level": 15,
           "moves": [
             "mind_ray",
@@ -2577,7 +2577,7 @@
           ]
         },
         {
-          "creature": "auratail",
+          "creature": "omenclaw",
           "level": 16,
           "moves": [
             "mind_ray",
@@ -2627,7 +2627,7 @@
           ]
         },
         {
-          "creature": "shalewing",
+          "creature": "clayhorn",
           "level": 17,
           "moves": [
             "stone_toss",
@@ -2659,7 +2659,7 @@
           ]
         },
         {
-          "creature": "shalewing",
+          "creature": "clayhorn",
           "level": 18,
           "moves": [
             "stone_toss",
@@ -2668,7 +2668,7 @@
           ]
         },
         {
-          "creature": "breezehorn",
+          "creature": "cirrustail",
           "level": 17,
           "moves": [
             "gale_slash",
@@ -2677,7 +2677,7 @@
           ]
         },
         {
-          "creature": "auratail",
+          "creature": "omenclaw",
           "level": 18,
           "moves": [
             "mind_ray",
@@ -2700,7 +2700,7 @@
       "dialogue_victory": "Elite Thessa: Doubt swallowed you. It does that to the certain. Steady yourself and return.",
       "team": [
         {
-          "creature": "breezehorn",
+          "creature": "cirrustail",
           "level": 18,
           "moves": [
             "gale_slash",
@@ -2709,7 +2709,7 @@
           ]
         },
         {
-          "creature": "auratail",
+          "creature": "omenclaw",
           "level": 19,
           "moves": [
             "mind_ray",
@@ -2718,7 +2718,7 @@
           ]
         },
         {
-          "creature": "valehorn",
+          "creature": "harrowtail",
           "level": 18,
           "moves": [
             "tackle",
@@ -2750,7 +2750,7 @@
       "dialogue_victory": "Elite Ludo: You didn't mean it enough. The corridor keeps its honest count. Come back meaning it.",
       "team": [
         {
-          "creature": "valehorn",
+          "creature": "harrowtail",
           "level": 19,
           "moves": [
             "tackle",
@@ -2810,7 +2810,7 @@
           ]
         },
         {
-          "creature": "shalewing",
+          "creature": "clayhorn",
           "level": 21,
           "moves": [
             "stone_toss",
@@ -2819,7 +2819,7 @@
           ]
         },
         {
-          "creature": "valehorn",
+          "creature": "harrowtail",
           "level": 22,
           "moves": [
             "tackle",
@@ -2838,7 +2838,7 @@
           ]
         },
         {
-          "creature": "breezehorn",
+          "creature": "cirrustail",
           "level": 21,
           "moves": [
             "gale_slash",
@@ -2862,7 +2862,7 @@
       "dialogue_victory": "Plainskeeper Garrick: Fundamentals beat flourish today. Come back when your basics are quieter.",
       "team": [
         {
-          "creature": "russetlet",
+          "creature": "fawnling",
           "level": 13,
           "moves": [
             "tackle",
@@ -2870,7 +2870,7 @@
           ]
         },
         {
-          "creature": "russetlet",
+          "creature": "fawnling",
           "level": 14,
           "moves": [
             "tackle",
@@ -2878,7 +2878,7 @@
           ]
         },
         {
-          "creature": "russetlet",
+          "creature": "fawnling",
           "level": 15,
           "moves": [
             "tackle",
@@ -3066,7 +3066,7 @@
       "dialogue_victory": "Cairnbreaker Sylla: You threw yourself at the wall until you were the one that cracked. Patience, challenger.",
       "team": [
         {
-          "creature": "dunekin",
+          "creature": "quarrylet",
           "level": 18,
           "moves": [
             "tackle",
@@ -3075,7 +3075,7 @@
           ]
         },
         {
-          "creature": "dunekin",
+          "creature": "quarrylet",
           "level": 19,
           "moves": [
             "tackle",
@@ -3084,7 +3084,7 @@
           ]
         },
         {
-          "creature": "dunehorn",
+          "creature": "quarrytail",
           "level": 20,
           "moves": [
             "stone_toss",
@@ -3107,7 +3107,7 @@
       "dialogue_victory": "Skydancer Odan: You swung at where I'd been. The sky is always already somewhere else.",
       "team": [
         {
-          "creature": "aerolet",
+          "creature": "stratoling",
           "level": 19,
           "moves": [
             "tackle",
@@ -3116,7 +3116,7 @@
           ]
         },
         {
-          "creature": "aerotail",
+          "creature": "stratoclaw",
           "level": 20,
           "moves": [
             "gale_slash",
@@ -3124,7 +3124,7 @@
           ]
         },
         {
-          "creature": "aerotail",
+          "creature": "stratoclaw",
           "level": 21,
           "moves": [
             "gale_slash",
@@ -3147,7 +3147,7 @@
       "dialogue_victory": "Dreambinder Vesse: You fought the way I predicted, exactly. Surprise me next time, or don't return.",
       "team": [
         {
-          "creature": "mystclaw",
+          "creature": "arcanefang",
           "level": 20,
           "moves": [
             "mind_ray",
@@ -3155,7 +3155,7 @@
           ]
         },
         {
-          "creature": "mystclaw",
+          "creature": "arcanefang",
           "level": 21,
           "moves": [
             "mind_ray",
@@ -3163,7 +3163,7 @@
           ]
         },
         {
-          "creature": "mystclaw",
+          "creature": "arcanefang",
           "level": 22,
           "moves": [
             "mind_ray",
@@ -3204,7 +3204,7 @@
           ]
         },
         {
-          "creature": "dunehorn",
+          "creature": "quarrytail",
           "level": 22,
           "moves": [
             "stone_toss",
@@ -3213,7 +3213,7 @@
           ]
         },
         {
-          "creature": "aerotail",
+          "creature": "stratoclaw",
           "level": 23,
           "moves": [
             "gale_slash",
@@ -3236,7 +3236,7 @@
       "dialogue_victory": "Elite Averil: You left your best in the last hall. Bring it whole next time, not in pieces.",
       "team": [
         {
-          "creature": "dunehorn",
+          "creature": "quarrytail",
           "level": 23,
           "moves": [
             "stone_toss",
@@ -3245,7 +3245,7 @@
           ]
         },
         {
-          "creature": "aerotail",
+          "creature": "stratoclaw",
           "level": 24,
           "moves": [
             "gale_slash",
@@ -3254,7 +3254,7 @@
           ]
         },
         {
-          "creature": "mystclaw",
+          "creature": "arcanefang",
           "level": 23,
           "moves": [
             "mind_ray",
@@ -3263,7 +3263,7 @@
           ]
         },
         {
-          "creature": "russettail",
+          "creature": "fawnclaw",
           "level": 24,
           "moves": [
             "tackle",
@@ -3286,7 +3286,7 @@
       "dialogue_victory": "Elite Coriane: Doubt swallowed you. It does that to the certain. Steady yourself and return.",
       "team": [
         {
-          "creature": "mystclaw",
+          "creature": "arcanefang",
           "level": 24,
           "moves": [
             "mind_ray",
@@ -3295,7 +3295,7 @@
           ]
         },
         {
-          "creature": "russettail",
+          "creature": "fawnclaw",
           "level": 25,
           "moves": [
             "tackle",
@@ -3387,7 +3387,7 @@
       "dialogue_victory": "Plainskeeper Sylla: Fundamentals beat flourish today. Come back when your basics are quieter.",
       "team": [
         {
-          "creature": "tuftling",
+          "creature": "dapplelet",
           "level": 19,
           "moves": [
             "tackle",
@@ -3395,7 +3395,7 @@
           ]
         },
         {
-          "creature": "tuftling",
+          "creature": "dapplelet",
           "level": 20,
           "moves": [
             "tackle",
@@ -3403,7 +3403,7 @@
           ]
         },
         {
-          "creature": "tuftling",
+          "creature": "dapplelet",
           "level": 21,
           "moves": [
             "tackle",
@@ -3591,7 +3591,7 @@
       "dialogue_victory": "Cairnbreaker Roan: You threw yourself at the wall until you were the one that cracked. Patience, challenger.",
       "team": [
         {
-          "creature": "basaltlet",
+          "creature": "boulderkin",
           "level": 24,
           "moves": [
             "tackle",
@@ -3600,7 +3600,7 @@
           ]
         },
         {
-          "creature": "basaltlet",
+          "creature": "boulderkin",
           "level": 25,
           "moves": [
             "tackle",
@@ -3609,7 +3609,7 @@
           ]
         },
         {
-          "creature": "basalttail",
+          "creature": "boulderhorn",
           "level": 26,
           "moves": [
             "stone_toss",
@@ -3632,7 +3632,7 @@
       "dialogue_victory": "Skydancer Petra: You swung at where I'd been. The sky is always already somewhere else.",
       "team": [
         {
-          "creature": "vaneling",
+          "creature": "squalllet",
           "level": 25,
           "moves": [
             "tackle",
@@ -3641,7 +3641,7 @@
           ]
         },
         {
-          "creature": "vaneclaw",
+          "creature": "squalltail",
           "level": 26,
           "moves": [
             "gale_slash",
@@ -3649,7 +3649,7 @@
           ]
         },
         {
-          "creature": "vaneclaw",
+          "creature": "squalltail",
           "level": 27,
           "moves": [
             "gale_slash",
@@ -3672,7 +3672,7 @@
       "dialogue_victory": "Dreambinder Sorrel: You fought the way I predicted, exactly. Surprise me next time, or don't return.",
       "team": [
         {
-          "creature": "solacefang",
+          "creature": "tranceclaw",
           "level": 26,
           "moves": [
             "mind_ray",
@@ -3680,7 +3680,7 @@
           ]
         },
         {
-          "creature": "solacefang",
+          "creature": "tranceclaw",
           "level": 27,
           "moves": [
             "mind_ray",
@@ -3688,7 +3688,7 @@
           ]
         },
         {
-          "creature": "solacefang",
+          "creature": "tranceclaw",
           "level": 28,
           "moves": [
             "mind_ray",
@@ -3720,7 +3720,7 @@
           ]
         },
         {
-          "creature": "basalttail",
+          "creature": "boulderhorn",
           "level": 29,
           "moves": [
             "stone_toss",
@@ -3729,7 +3729,7 @@
           ]
         },
         {
-          "creature": "vaneclaw",
+          "creature": "squalltail",
           "level": 28,
           "moves": [
             "gale_slash",
@@ -3738,7 +3738,7 @@
           ]
         },
         {
-          "creature": "solacefang",
+          "creature": "tranceclaw",
           "level": 29,
           "moves": [
             "mind_ray",
@@ -3761,7 +3761,7 @@
       "dialogue_victory": "Elite Imara: You left your best in the last hall. Bring it whole next time, not in pieces.",
       "team": [
         {
-          "creature": "vaneclaw",
+          "creature": "squalltail",
           "level": 29,
           "moves": [
             "gale_slash",
@@ -3770,7 +3770,7 @@
           ]
         },
         {
-          "creature": "solacefang",
+          "creature": "tranceclaw",
           "level": 30,
           "moves": [
             "mind_ray",
@@ -3779,7 +3779,7 @@
           ]
         },
         {
-          "creature": "tuftclaw",
+          "creature": "dappletail",
           "level": 29,
           "moves": [
             "tackle",
@@ -3811,7 +3811,7 @@
       "dialogue_victory": "Elite Cassiel: Doubt swallowed you. It does that to the certain. Steady yourself and return.",
       "team": [
         {
-          "creature": "tuftclaw",
+          "creature": "dappletail",
           "level": 30,
           "moves": [
             "tackle",
@@ -3888,7 +3888,7 @@
           ]
         },
         {
-          "creature": "basalttail",
+          "creature": "boulderhorn",
           "level": 32,
           "moves": [
             "stone_toss",
@@ -3912,7 +3912,7 @@
       "dialogue_victory": "Plainskeeper Roan: Fundamentals beat flourish today. Come back when your basics are quieter.",
       "team": [
         {
-          "creature": "loperit",
+          "creature": "cloverling",
           "level": 25,
           "moves": [
             "tackle",
@@ -3920,7 +3920,7 @@
           ]
         },
         {
-          "creature": "loperit",
+          "creature": "cloverling",
           "level": 26,
           "moves": [
             "tackle",
@@ -3928,7 +3928,7 @@
           ]
         },
         {
-          "creature": "loperit",
+          "creature": "cloverling",
           "level": 27,
           "moves": [
             "tackle",
@@ -4116,7 +4116,7 @@
       "dialogue_victory": "Cairnbreaker Nyssa: You threw yourself at the wall until you were the one that cracked. Patience, challenger.",
       "team": [
         {
-          "creature": "siltling",
+          "creature": "granitelet",
           "level": 30,
           "moves": [
             "tackle",
@@ -4125,7 +4125,7 @@
           ]
         },
         {
-          "creature": "siltling",
+          "creature": "granitelet",
           "level": 31,
           "moves": [
             "tackle",
@@ -4134,7 +4134,7 @@
           ]
         },
         {
-          "creature": "siltclaw",
+          "creature": "granitetail",
           "level": 32,
           "moves": [
             "stone_toss",
@@ -4157,7 +4157,7 @@
       "dialogue_victory": "Skydancer Garrick: You swung at where I'd been. The sky is always already somewhere else.",
       "team": [
         {
-          "creature": "draftit",
+          "creature": "aeroit",
           "level": 31,
           "moves": [
             "tackle",
@@ -4166,7 +4166,7 @@
           ]
         },
         {
-          "creature": "draftfang",
+          "creature": "gustclaw",
           "level": 32,
           "moves": [
             "gale_slash",
@@ -4174,7 +4174,7 @@
           ]
         },
         {
-          "creature": "draftfang",
+          "creature": "gustclaw",
           "level": 33,
           "moves": [
             "gale_slash",
@@ -4197,7 +4197,7 @@
       "dialogue_victory": "Dreambinder Mira: You fought the way I predicted, exactly. Surprise me next time, or don't return.",
       "team": [
         {
-          "creature": "opalmane",
+          "creature": "seerfang",
           "level": 32,
           "moves": [
             "mind_ray",
@@ -4205,7 +4205,7 @@
           ]
         },
         {
-          "creature": "opalmane",
+          "creature": "seerfang",
           "level": 33,
           "moves": [
             "mind_ray",
@@ -4213,7 +4213,7 @@
           ]
         },
         {
-          "creature": "opalmane",
+          "creature": "seerfang",
           "level": 34,
           "moves": [
             "mind_ray",
@@ -4236,7 +4236,7 @@
       "dialogue_victory": "Elite Rooke: Confidence isn't a strategy. Come back when you've traded it for something that holds.",
       "team": [
         {
-          "creature": "siltclaw",
+          "creature": "granitetail",
           "level": 34,
           "moves": [
             "stone_toss",
@@ -4245,7 +4245,7 @@
           ]
         },
         {
-          "creature": "draftfang",
+          "creature": "gustclaw",
           "level": 35,
           "moves": [
             "gale_slash",
@@ -4254,7 +4254,7 @@
           ]
         },
         {
-          "creature": "opalmane",
+          "creature": "seerfang",
           "level": 34,
           "moves": [
             "mind_ray",
@@ -4263,7 +4263,7 @@
           ]
         },
         {
-          "creature": "loperfang",
+          "creature": "cloverclaw",
           "level": 35,
           "moves": [
             "tackle",
@@ -4286,7 +4286,7 @@
       "dialogue_victory": "Elite Solenne: You left your best in the last hall. Bring it whole next time, not in pieces.",
       "team": [
         {
-          "creature": "opalmane",
+          "creature": "seerfang",
           "level": 35,
           "moves": [
             "mind_ray",
@@ -4295,7 +4295,7 @@
           ]
         },
         {
-          "creature": "loperfang",
+          "creature": "cloverclaw",
           "level": 36,
           "moves": [
             "tackle",
@@ -4404,7 +4404,7 @@
           ]
         },
         {
-          "creature": "siltclaw",
+          "creature": "granitetail",
           "level": 37,
           "moves": [
             "stone_toss",
@@ -4413,7 +4413,7 @@
           ]
         },
         {
-          "creature": "draftfang",
+          "creature": "gustclaw",
           "level": 38,
           "moves": [
             "gale_slash",
@@ -4437,7 +4437,7 @@
       "dialogue_victory": "Plainskeeper Nyssa: Fundamentals beat flourish today. Come back when your basics are quieter.",
       "team": [
         {
-          "creature": "valeet",
+          "creature": "bristleit",
           "level": 31,
           "moves": [
             "tackle",
@@ -4445,7 +4445,7 @@
           ]
         },
         {
-          "creature": "valeet",
+          "creature": "bristleit",
           "level": 32,
           "moves": [
             "tackle",
@@ -4453,7 +4453,7 @@
           ]
         },
         {
-          "creature": "valeet",
+          "creature": "bristleit",
           "level": 33,
           "moves": [
             "tackle",
@@ -4641,7 +4641,7 @@
       "dialogue_victory": "Cairnbreaker Bren: You threw yourself at the wall until you were the one that cracked. Patience, challenger.",
       "team": [
         {
-          "creature": "shaleit",
+          "creature": "tremorling",
           "level": 36,
           "moves": [
             "tackle",
@@ -4650,7 +4650,7 @@
           ]
         },
         {
-          "creature": "shaleit",
+          "creature": "tremorling",
           "level": 37,
           "moves": [
             "tackle",
@@ -4659,7 +4659,7 @@
           ]
         },
         {
-          "creature": "shalefang",
+          "creature": "tremorclaw",
           "level": 38,
           "moves": [
             "stone_toss",
@@ -4682,7 +4682,7 @@
       "dialogue_victory": "Skydancer Sylla: You swung at where I'd been. The sky is always already somewhere else.",
       "team": [
         {
-          "creature": "breezeet",
+          "creature": "billowit",
           "level": 37,
           "moves": [
             "tackle",
@@ -4691,7 +4691,7 @@
           ]
         },
         {
-          "creature": "breezemane",
+          "creature": "billowfang",
           "level": 38,
           "moves": [
             "gale_slash",
@@ -4699,7 +4699,7 @@
           ]
         },
         {
-          "creature": "breezemane",
+          "creature": "billowfang",
           "level": 39,
           "moves": [
             "gale_slash",
@@ -4722,7 +4722,7 @@
       "dialogue_victory": "Dreambinder Odan: You fought the way I predicted, exactly. Surprise me next time, or don't return.",
       "team": [
         {
-          "creature": "aurawing",
+          "creature": "glyphmane",
           "level": 38,
           "moves": [
             "mind_ray",
@@ -4730,7 +4730,7 @@
           ]
         },
         {
-          "creature": "aurawing",
+          "creature": "glyphmane",
           "level": 39,
           "moves": [
             "mind_ray",
@@ -4738,7 +4738,7 @@
           ]
         },
         {
-          "creature": "aurawing",
+          "creature": "glyphmane",
           "level": 40,
           "moves": [
             "mind_ray",
@@ -4761,7 +4761,7 @@
       "dialogue_victory": "Elite Ondine: Confidence isn't a strategy. Come back when you've traded it for something that holds.",
       "team": [
         {
-          "creature": "breezemane",
+          "creature": "billowfang",
           "level": 40,
           "moves": [
             "gale_slash",
@@ -4770,7 +4770,7 @@
           ]
         },
         {
-          "creature": "aurawing",
+          "creature": "glyphmane",
           "level": 41,
           "moves": [
             "mind_ray",
@@ -4779,7 +4779,7 @@
           ]
         },
         {
-          "creature": "valemane",
+          "creature": "bristlefang",
           "level": 40,
           "moves": [
             "tackle",
@@ -4811,7 +4811,7 @@
       "dialogue_victory": "Elite Merrick: You left your best in the last hall. Bring it whole next time, not in pieces.",
       "team": [
         {
-          "creature": "valemane",
+          "creature": "bristlefang",
           "level": 41,
           "moves": [
             "tackle",
@@ -4888,7 +4888,7 @@
           ]
         },
         {
-          "creature": "shalefang",
+          "creature": "tremorclaw",
           "level": 43,
           "moves": [
             "stone_toss",
@@ -4920,7 +4920,7 @@
           ]
         },
         {
-          "creature": "shalefang",
+          "creature": "tremorclaw",
           "level": 44,
           "moves": [
             "stone_toss",
@@ -4929,7 +4929,7 @@
           ]
         },
         {
-          "creature": "breezemane",
+          "creature": "billowfang",
           "level": 43,
           "moves": [
             "gale_slash",
@@ -4938,7 +4938,7 @@
           ]
         },
         {
-          "creature": "aurawing",
+          "creature": "glyphmane",
           "level": 44,
           "moves": [
             "mind_ray",
@@ -4962,7 +4962,7 @@
       "dialogue_victory": "Plainskeeper Bren: Fundamentals beat flourish today. Come back when your basics are quieter.",
       "team": [
         {
-          "creature": "russetie",
+          "creature": "valeling",
           "level": 37,
           "moves": [
             "tackle",
@@ -4970,7 +4970,7 @@
           ]
         },
         {
-          "creature": "russetie",
+          "creature": "valeling",
           "level": 38,
           "moves": [
             "tackle",
@@ -4978,7 +4978,7 @@
           ]
         },
         {
-          "creature": "russetie",
+          "creature": "valeling",
           "level": 39,
           "moves": [
             "tackle",
@@ -5166,7 +5166,7 @@
       "dialogue_victory": "Cairnbreaker Ilya: You threw yourself at the wall until you were the one that cracked. Patience, challenger.",
       "team": [
         {
-          "creature": "duneet",
+          "creature": "shalelet",
           "level": 42,
           "moves": [
             "tackle",
@@ -5175,7 +5175,7 @@
           ]
         },
         {
-          "creature": "duneet",
+          "creature": "shalelet",
           "level": 43,
           "moves": [
             "tackle",
@@ -5184,7 +5184,7 @@
           ]
         },
         {
-          "creature": "dunemane",
+          "creature": "shaletail",
           "level": 44,
           "moves": [
             "stone_toss",
@@ -5207,7 +5207,7 @@
       "dialogue_victory": "Skydancer Roan: You swung at where I'd been. The sky is always already somewhere else.",
       "team": [
         {
-          "creature": "aeroie",
+          "creature": "breezeling",
           "level": 43,
           "moves": [
             "tackle",
@@ -5216,7 +5216,7 @@
           ]
         },
         {
-          "creature": "aerowing",
+          "creature": "breezeclaw",
           "level": 44,
           "moves": [
             "gale_slash",
@@ -5224,7 +5224,7 @@
           ]
         },
         {
-          "creature": "aerowing",
+          "creature": "breezeclaw",
           "level": 45,
           "moves": [
             "gale_slash",
@@ -5247,7 +5247,7 @@
       "dialogue_victory": "Dreambinder Petra: You fought the way I predicted, exactly. Surprise me next time, or don't return.",
       "team": [
         {
-          "creature": "mysthorn",
+          "creature": "aurafang",
           "level": 44,
           "moves": [
             "mind_ray",
@@ -5255,7 +5255,7 @@
           ]
         },
         {
-          "creature": "mysthorn",
+          "creature": "aurafang",
           "level": 45,
           "moves": [
             "mind_ray",
@@ -5263,7 +5263,7 @@
           ]
         },
         {
-          "creature": "mysthorn",
+          "creature": "aurafang",
           "level": 46,
           "moves": [
             "mind_ray",
@@ -5286,7 +5286,7 @@
       "dialogue_victory": "Elite Ludo: Confidence isn't a strategy. Come back when you've traded it for something that holds.",
       "team": [
         {
-          "creature": "mysthorn",
+          "creature": "aurafang",
           "level": 46,
           "moves": [
             "mind_ray",
@@ -5295,7 +5295,7 @@
           ]
         },
         {
-          "creature": "russetwing",
+          "creature": "valeclaw",
           "level": 47,
           "moves": [
             "tackle",
@@ -5404,7 +5404,7 @@
           ]
         },
         {
-          "creature": "dunemane",
+          "creature": "shaletail",
           "level": 48,
           "moves": [
             "stone_toss",
@@ -5413,7 +5413,7 @@
           ]
         },
         {
-          "creature": "aerowing",
+          "creature": "breezeclaw",
           "level": 49,
           "moves": [
             "gale_slash",
@@ -5436,7 +5436,7 @@
       "dialogue_victory": "Elite Halvard: You didn't mean it enough. The corridor keeps its honest count. Come back meaning it.",
       "team": [
         {
-          "creature": "dunemane",
+          "creature": "shaletail",
           "level": 49,
           "moves": [
             "stone_toss",
@@ -5445,7 +5445,7 @@
           ]
         },
         {
-          "creature": "aerowing",
+          "creature": "breezeclaw",
           "level": 50,
           "moves": [
             "gale_slash",
@@ -5454,7 +5454,7 @@
           ]
         },
         {
-          "creature": "mysthorn",
+          "creature": "aurafang",
           "level": 49,
           "moves": [
             "mind_ray",
@@ -5463,7 +5463,7 @@
           ]
         },
         {
-          "creature": "russetwing",
+          "creature": "valeclaw",
           "level": 50,
           "moves": [
             "tackle",
@@ -5487,7 +5487,7 @@
       "dialogue_victory": "Plainskeeper Ilya: Fundamentals beat flourish today. Come back when your basics are quieter.",
       "team": [
         {
-          "creature": "tuftkin",
+          "creature": "russetit",
           "level": 43,
           "moves": [
             "tackle",
@@ -5495,7 +5495,7 @@
           ]
         },
         {
-          "creature": "tuftkin",
+          "creature": "russetit",
           "level": 44,
           "moves": [
             "tackle",
@@ -5503,7 +5503,7 @@
           ]
         },
         {
-          "creature": "tuftkin",
+          "creature": "russetit",
           "level": 45,
           "moves": [
             "tackle",
@@ -5691,7 +5691,7 @@
       "dialogue_victory": "Cairnbreaker Colm: You threw yourself at the wall until you were the one that cracked. Patience, challenger.",
       "team": [
         {
-          "creature": "basaltie",
+          "creature": "boulder850",
           "level": 48,
           "moves": [
             "tackle",
@@ -5700,7 +5700,7 @@
           ]
         },
         {
-          "creature": "basaltie",
+          "creature": "boulder850",
           "level": 49,
           "moves": [
             "tackle",
@@ -5709,7 +5709,7 @@
           ]
         },
         {
-          "creature": "basaltwing",
+          "creature": "duneclaw",
           "level": 50,
           "moves": [
             "stone_toss",
@@ -5732,7 +5732,7 @@
       "dialogue_victory": "Skydancer Nyssa: You swung at where I'd been. The sky is always already somewhere else.",
       "team": [
         {
-          "creature": "vanekin",
+          "creature": "zephyr860",
           "level": 49,
           "moves": [
             "tackle",
@@ -5741,7 +5741,7 @@
           ]
         },
         {
-          "creature": "vanehorn",
+          "creature": "aerofang",
           "level": 50,
           "moves": [
             "gale_slash",
@@ -5749,7 +5749,7 @@
           ]
         },
         {
-          "creature": "vanehorn",
+          "creature": "aerofang",
           "level": 51,
           "moves": [
             "gale_slash",
@@ -5772,7 +5772,7 @@
       "dialogue_victory": "Dreambinder Garrick: You fought the way I predicted, exactly. Surprise me next time, or don't return.",
       "team": [
         {
-          "creature": "solacetail",
+          "creature": "mystmane",
           "level": 50,
           "moves": [
             "mind_ray",
@@ -5780,7 +5780,7 @@
           ]
         },
         {
-          "creature": "solacetail",
+          "creature": "mystmane",
           "level": 51,
           "moves": [
             "mind_ray",
@@ -5788,7 +5788,7 @@
           ]
         },
         {
-          "creature": "solacetail",
+          "creature": "mystmane",
           "level": 52,
           "moves": [
             "mind_ray",
@@ -5811,7 +5811,7 @@
       "dialogue_victory": "Elite Halvard: Confidence isn't a strategy. Come back when you've traded it for something that holds.",
       "team": [
         {
-          "creature": "tufthorn",
+          "creature": "russetfang",
           "level": 52,
           "moves": [
             "tackle",
@@ -5888,7 +5888,7 @@
           ]
         },
         {
-          "creature": "basaltwing",
+          "creature": "duneclaw",
           "level": 54,
           "moves": [
             "stone_toss",
@@ -5920,7 +5920,7 @@
           ]
         },
         {
-          "creature": "basaltwing",
+          "creature": "duneclaw",
           "level": 55,
           "moves": [
             "stone_toss",
@@ -5929,7 +5929,7 @@
           ]
         },
         {
-          "creature": "vanehorn",
+          "creature": "aerofang",
           "level": 54,
           "moves": [
             "gale_slash",
@@ -5938,7 +5938,7 @@
           ]
         },
         {
-          "creature": "solacetail",
+          "creature": "mystmane",
           "level": 55,
           "moves": [
             "mind_ray",
@@ -5961,7 +5961,7 @@
       "dialogue_victory": "Elite Rooke: You didn't mean it enough. The corridor keeps its honest count. Come back meaning it.",
       "team": [
         {
-          "creature": "vanehorn",
+          "creature": "aerofang",
           "level": 55,
           "moves": [
             "gale_slash",
@@ -5970,7 +5970,7 @@
           ]
         },
         {
-          "creature": "solacetail",
+          "creature": "mystmane",
           "level": 56,
           "moves": [
             "mind_ray",
@@ -5979,7 +5979,7 @@
           ]
         },
         {
-          "creature": "tufthorn",
+          "creature": "russetfang",
           "level": 55,
           "moves": [
             "tackle",
@@ -6012,7 +6012,7 @@
       "dialogue_victory": "Plainskeeper Colm: Fundamentals beat flourish today. Come back when your basics are quieter.",
       "team": [
         {
-          "creature": "loperlet",
+          "creature": "tuftet",
           "level": 49,
           "moves": [
             "tackle",
@@ -6020,7 +6020,7 @@
           ]
         },
         {
-          "creature": "loperlet",
+          "creature": "tuftet",
           "level": 50,
           "moves": [
             "tackle",
@@ -6028,7 +6028,7 @@
           ]
         },
         {
-          "creature": "loperlet",
+          "creature": "tuftet",
           "level": 51,
           "moves": [
             "tackle",
@@ -6216,7 +6216,7 @@
       "dialogue_victory": "Cairnbreaker Ashka: You threw yourself at the wall until you were the one that cracked. Patience, challenger.",
       "team": [
         {
-          "creature": "siltkin",
+          "creature": "basaltit",
           "level": 54,
           "moves": [
             "tackle",
@@ -6225,7 +6225,7 @@
           ]
         },
         {
-          "creature": "siltkin",
+          "creature": "basaltit",
           "level": 55,
           "moves": [
             "tackle",
@@ -6234,7 +6234,7 @@
           ]
         },
         {
-          "creature": "silthorn",
+          "creature": "basaltfang",
           "level": 56,
           "moves": [
             "stone_toss",
@@ -6257,7 +6257,7 @@
       "dialogue_victory": "Skydancer Bren: You swung at where I'd been. The sky is always already somewhere else.",
       "team": [
         {
-          "creature": "draftlet",
+          "creature": "vaneet",
           "level": 55,
           "moves": [
             "tackle",
@@ -6266,7 +6266,7 @@
           ]
         },
         {
-          "creature": "drafttail",
+          "creature": "vanemane",
           "level": 56,
           "moves": [
             "gale_slash",
@@ -6274,7 +6274,7 @@
           ]
         },
         {
-          "creature": "drafttail",
+          "creature": "vanemane",
           "level": 57,
           "moves": [
             "gale_slash",
@@ -6297,7 +6297,7 @@
       "dialogue_victory": "Dreambinder Sylla: You fought the way I predicted, exactly. Surprise me next time, or don't return.",
       "team": [
         {
-          "creature": "opalclaw",
+          "creature": "solacewing",
           "level": 56,
           "moves": [
             "mind_ray",
@@ -6305,7 +6305,7 @@
           ]
         },
         {
-          "creature": "opalclaw",
+          "creature": "solacewing",
           "level": 57,
           "moves": [
             "mind_ray",
@@ -6313,7 +6313,7 @@
           ]
         },
         {
-          "creature": "opalclaw",
+          "creature": "solacewing",
           "level": 58,
           "moves": [
             "mind_ray",
@@ -6336,7 +6336,7 @@
       "dialogue_victory": "Elite Rooke: Confidence isn't a strategy. Come back when you've traded it for something that holds.",
       "team": [
         {
-          "creature": "torchlord",
+          "creature": "hearthsage",
           "level": 58,
           "moves": [
             "ember_burst",
@@ -6363,7 +6363,7 @@
           ]
         },
         {
-          "creature": "staticmonarch",
+          "creature": "fulgorwarden",
           "level": 59,
           "moves": [
             "spark_zap",
@@ -6395,7 +6395,7 @@
           ]
         },
         {
-          "creature": "staticmonarch",
+          "creature": "fulgorwarden",
           "level": 60,
           "moves": [
             "spark_zap",
@@ -6404,7 +6404,7 @@
           ]
         },
         {
-          "creature": "silthorn",
+          "creature": "basaltfang",
           "level": 59,
           "moves": [
             "stone_toss",
@@ -6413,7 +6413,7 @@
           ]
         },
         {
-          "creature": "drafttail",
+          "creature": "vanemane",
           "level": 60,
           "moves": [
             "gale_slash",
@@ -6436,7 +6436,7 @@
       "dialogue_victory": "Elite Vantor: Doubt swallowed you. It does that to the certain. Steady yourself and return.",
       "team": [
         {
-          "creature": "silthorn",
+          "creature": "basaltfang",
           "level": 60,
           "moves": [
             "stone_toss",
@@ -6445,7 +6445,7 @@
           ]
         },
         {
-          "creature": "drafttail",
+          "creature": "vanemane",
           "level": 61,
           "moves": [
             "gale_slash",
@@ -6454,7 +6454,7 @@
           ]
         },
         {
-          "creature": "opalclaw",
+          "creature": "solacewing",
           "level": 60,
           "moves": [
             "mind_ray",
@@ -6463,7 +6463,7 @@
           ]
         },
         {
-          "creature": "lopertail",
+          "creature": "tuftmane",
           "level": 61,
           "moves": [
             "tackle",
@@ -6486,7 +6486,7 @@
       "dialogue_victory": "Elite Ondine: You didn't mean it enough. The corridor keeps its honest count. Come back meaning it.",
       "team": [
         {
-          "creature": "opalclaw",
+          "creature": "solacewing",
           "level": 61,
           "moves": [
             "mind_ray",
@@ -6495,7 +6495,7 @@
           ]
         },
         {
-          "creature": "lopertail",
+          "creature": "tuftmane",
           "level": 62,
           "moves": [
             "tackle",
@@ -6504,7 +6504,7 @@
           ]
         },
         {
-          "creature": "torchlord",
+          "creature": "hearthsage",
           "level": 61,
           "moves": [
             "ember_burst",

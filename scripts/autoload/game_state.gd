@@ -30,6 +30,7 @@ var region_progress: Dictionary = {} # region_id -> { unlocked, visited, complet
 var current_region: String = ""
 var playtime_seconds: float = 0.0
 var adaptive_state: Dictionary = {}   # owned by AdaptiveDirector, stored here for save
+var pending_warp: Dictionary = {}     # set by the "warp" dialog action; consumed by the overworld (transient, not saved)
 
 func _process(delta: float) -> void:
 	if initialized:
@@ -210,6 +211,10 @@ func apply_actions(actions: Array) -> void:
 				unlock_region(String(a.get("region", "")))
 			"inc_counter":
 				inc_counter(String(a.get("counter", "")), int(a.get("by", 1)))
+			"warp":
+				# Deferred: the overworld consumes pending_warp from _process, so a
+				# dialog can request travel without dying mid-coroutine.
+				pending_warp = {"map": String(a.get("map", "")), "spawn": String(a.get("spawn", "default"))}
 			"trigger_ending":
 				trigger_ending()
 

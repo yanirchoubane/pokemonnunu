@@ -103,6 +103,14 @@
     },
     {
       "type": "npc",
+      "x": 10,
+      "y": 4,
+      "npc_id": "harbormaster_brume",
+      "sprite": "npc_sailor",
+      "dialog_id": "ferry_network"
+    },
+    {
+      "type": "npc",
       "x": 4,
       "y": 4,
       "npc_id": "folk_brume_g0",

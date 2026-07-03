@@ -316,3 +316,17 @@ edit is required. See `DATA_FORMAT.md` and `REGION_CREATION_GUIDE.md`.
     completion, feeding the Rivals-to-the-End ending).
   - Full pipeline + all verifiers green: data validation, world walk (incl. the new
     Corin trainer tiles), structural gaps, 30/30 math tests.
+- 2026-07-03 — **Ferry network (free inter-region travel)**:
+  - Two small engine extensions: dialog **choices can carry a `condition`** (the runner
+    filters them via GameState.condition_met) and a new **`warp` action** that sets
+    GameState.pending_warp, consumed by the overworld's _process (same re-entrancy-safe
+    pattern as endings). Both validated at boot (GDScript + Python: warp target map and
+    spawn must exist).
+  - New `generate_ferry.py` (in run_all after story placements): one shared Harbormaster
+    dialog + 9 Harbormaster NPCs (one per region). Destinations are gated by
+    `region_visited`, so only regions you have set foot in are offered — sequential story
+    progression through the flag-gated ports is untouched, and return trips become
+    one conversation instead of a long walk. Fulfils the original spec's "travel freely
+    between unlocked regions".
+  - Full pipeline re-run: all verifiers green (validators, world walk, courts, landmarks,
+    structural gaps, 30/30 math tests).

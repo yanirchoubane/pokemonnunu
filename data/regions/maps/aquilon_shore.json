@@ -125,6 +125,14 @@
       "y": 5,
       "to_map": "aquilon_crossroads",
       "to_spawn": "from_wilds"
+    },
+    {
+      "type": "npc",
+      "x": 8,
+      "y": 6,
+      "npc_id": "harbormaster_aquilon",
+      "sprite": "npc_sailor",
+      "dialog_id": "ferry_network"
     }
   ]
 }

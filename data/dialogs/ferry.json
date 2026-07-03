@@ -1,0 +1,162 @@
+{
+  "$schema_version": 1,
+  "description": "Shared Harbormaster dialog: free travel between visited regions.",
+  "dialogs": [
+    {
+      "id": "ferry_network",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "harbormaster",
+          "lines": [
+            "Harbormaster: The ferry answers to no League and no Order — only to the tide and the fare you've already paid in footsteps.",
+            "Harbormaster: I sail to any gate you've stood on. Where to?"
+          ],
+          "prompt": "Where to?",
+          "choices": [
+            {
+              "text": "Sail to Verdantia.",
+              "condition": {
+                "kind": "region_visited",
+                "region": "verdantia"
+              },
+              "actions": [
+                {
+                  "kind": "warp",
+                  "map": "verdantia_town",
+                  "spawn": "default"
+                }
+              ],
+              "next": ""
+            },
+            {
+              "text": "Sail to Aquilon.",
+              "condition": {
+                "kind": "region_visited",
+                "region": "aquilon"
+              },
+              "actions": [
+                {
+                  "kind": "warp",
+                  "map": "aquilon_shore",
+                  "spawn": "default"
+                }
+              ],
+              "next": ""
+            },
+            {
+              "text": "Sail to Cindral.",
+              "condition": {
+                "kind": "region_visited",
+                "region": "cindral"
+              },
+              "actions": [
+                {
+                  "kind": "warp",
+                  "map": "cindral_gate",
+                  "spawn": "port"
+                }
+              ],
+              "next": ""
+            },
+            {
+              "text": "Sail to Solane.",
+              "condition": {
+                "kind": "region_visited",
+                "region": "solane"
+              },
+              "actions": [
+                {
+                  "kind": "warp",
+                  "map": "solane_gate",
+                  "spawn": "port"
+                }
+              ],
+              "next": ""
+            },
+            {
+              "text": "Sail to Umbra.",
+              "condition": {
+                "kind": "region_visited",
+                "region": "umbra"
+              },
+              "actions": [
+                {
+                  "kind": "warp",
+                  "map": "umbra_gate",
+                  "spawn": "port"
+                }
+              ],
+              "next": ""
+            },
+            {
+              "text": "Sail to Ferrock.",
+              "condition": {
+                "kind": "region_visited",
+                "region": "ferrock"
+              },
+              "actions": [
+                {
+                  "kind": "warp",
+                  "map": "ferrock_gate",
+                  "spawn": "port"
+                }
+              ],
+              "next": ""
+            },
+            {
+              "text": "Sail to Brume.",
+              "condition": {
+                "kind": "region_visited",
+                "region": "brume"
+              },
+              "actions": [
+                {
+                  "kind": "warp",
+                  "map": "brume_gate",
+                  "spawn": "port"
+                }
+              ],
+              "next": ""
+            },
+            {
+              "text": "Sail to Lumen.",
+              "condition": {
+                "kind": "region_visited",
+                "region": "lumen"
+              },
+              "actions": [
+                {
+                  "kind": "warp",
+                  "map": "lumen_gate",
+                  "spawn": "port"
+                }
+              ],
+              "next": ""
+            },
+            {
+              "text": "Sail to Zephyra.",
+              "condition": {
+                "kind": "region_visited",
+                "region": "zephyra"
+              },
+              "actions": [
+                {
+                  "kind": "warp",
+                  "map": "zephyra_gate",
+                  "spawn": "port"
+                }
+              ],
+              "next": ""
+            },
+            {
+              "text": "Stay ashore.",
+              "actions": [],
+              "next": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

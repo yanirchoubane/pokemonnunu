@@ -25,6 +25,7 @@ PIPELINE = [
     ("tools/generators/generate_extras.py", "items/abilities/moves/side quests"),
     ("tools/generators/generate_places.py", "landmarks + lore keepers + wonder quests"),
     ("tools/generators/generate_story_placements.py", "pins the story cast (Corin, Verel, Mourn, Archon) onto rewritten maps"),
+    ("tools/generators/generate_ferry.py", "fast-travel Harbormasters (visited-region gating)"),
     ("tools/generators/generate_rival_battles.py", "Corin fights (needs expansion species)"),
     ("tools/generators/generate_townsfolk.py", "mature townsfolk (prunes + re-places its NPCs)"),
     ("tools/generators/rewrite_trainer_voices.py", "MUST BE LAST trainer pass: names champions, voices bosses, syncs quest texts"),

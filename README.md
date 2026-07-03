@@ -50,6 +50,10 @@ JSON files that are validated at boot. You can add content without touching engi
   first-visit reward, and a `Wonders of <region>` exploration quest. **158 maps, 44 quests,
   14 dialogs.**
 - ✅ **Navigable atlas**: `python3 tools/world_summary.py` regenerates [`WORLD.md`](WORLD.md) from the live data (region-by-region table, progression spine, landmarks, story arc, endings) and flags any structural gaps.
+- ✅ **Free travel between visited regions**: a Harbormaster in every region offers ferry
+  passage to any region you have already set foot in (dialog choices are condition-gated
+  and executed through a deferred `warp` action, both validated at boot). Story ports and
+  their gating are untouched.
 
 Because Godot may not be installed where this was authored, **scene-level runtime testing
 is done in the Godot editor** (below). The engine-independent core is verified now via the

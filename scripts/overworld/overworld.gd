@@ -181,6 +181,13 @@ func _process(delta: float) -> void:
 		_pending_ending = {}
 		_show_ending(e)  # async: locks input itself, ends at the title screen
 		return
+	if not GameState.pending_warp.is_empty():
+		# Ferry travel requested from a dialog; execute once the dialog is done.
+		var w: Dictionary = GameState.pending_warp
+		GameState.pending_warp = {}
+		input_locked = true
+		SceneRouter.to_overworld(String(w.get("map", "")), String(w.get("spawn", "default")))
+		return
 	if Input.is_action_just_pressed("menu"):
 		_open_pause_menu()
 		return
@@ -295,7 +302,12 @@ func _run_dialog_script(dialog_id: String) -> void:
 		if not lines.is_empty():
 			await dialog.show_lines(lines)
 		GameState.apply_actions(current.get("actions", []))
-		var choices: Array = current.get("choices", [])
+		# Choices may carry a "condition"; only the ones that pass are offered
+		# (this is how the ferry lists only the regions you have visited).
+		var choices: Array = []
+		for ch in current.get("choices", []):
+			if ch is Dictionary and (not ch.has("condition") or GameState.condition_met(ch.get("condition", {}))):
+				choices.append(ch)
 		var next_id := String(current.get("next", ""))
 		if not choices.is_empty():
 			var texts: Array = []

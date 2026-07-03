@@ -43,7 +43,7 @@ def index(records, key, errors, label):
 VALID_ACTION_KINDS = {
     "set_flag", "clear_flag", "set_var", "add_var", "adjust_relationship",
     "give_item", "take_item", "add_money", "start_quest", "heal_team",
-    "unlock_region", "inc_counter", "trigger_ending",
+    "unlock_region", "inc_counter", "trigger_ending", "warp",
 }
 VALID_CONDITION_KINDS = {
     "flag", "counter", "var_equals", "var_at_least", "relationship_at_least",
@@ -206,6 +206,13 @@ def main() -> int:
                 errors.append(f"Action in {where} references unknown quest '{a.get('quest')}'.")
             elif kind == "unlock_region" and a.get("region") not in regions:
                 errors.append(f"Action in {where} references unknown region '{a.get('region')}'.")
+            elif kind == "warp":
+                wm, ws = a.get("map"), a.get("spawn", "default")
+                if wm not in maps:
+                    errors.append(f"Warp action in {where} targets unknown map '{wm}'.")
+                elif not any(o.get("type") == "spawn" and o.get("id") == ws
+                             for o in maps[wm].get("objects", [])):
+                    errors.append(f"Warp action in {where} targets unknown spawn '{ws}' on '{wm}'.")
 
     for qid, q in quests.items():
         check_actions(q.get("on_complete_actions", []), f"quest '{qid}' on_complete_actions")
