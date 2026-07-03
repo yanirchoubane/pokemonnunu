@@ -283,3 +283,15 @@ edit is required. See `DATA_FORMAT.md` and `REGION_CREATION_GUIDE.md`.
     Duskbell Grove and is folded into the `main_hollow_order` quest before the Archon.
   - Totals: **158 maps, 44 quests, 14 dialogs**. check_chain extended to verify every
     landmark (door round-trip + keeper reachable); all validators + 30/30 tests pass.
+- 2026-07-03 — **Population, mature voices & signposts**:
+  - `generate_townsfolk.py` rewritten in an **adult register** (debt, loss, compromise,
+    disillusion — not childish), expanded to **62 townsfolk** across Crossroads, gate
+    towns and landmarks, with region-specific voices and branching choices.
+  - `rewrite_trainer_voices.py`: characterful mature pre/post-battle lines for all
+    **72 gym leaders** (a philosophy per element), **36 Elites** (escalating gravitas by
+    seat) and **9 Champions**. Teams/badges/ids untouched.
+  - `generate_signs.py`: **+32 signposts** — a directory + League rules sign on every
+    Crossroads, a gate milepost, and a weathered wilds warning per region (many tied to
+    the Order arc). Total signs: 209.
+  - Totals: **76 dialog scripts, 97 map NPCs, 209 signs, 50→76 dialogs**. Validators,
+    check_chain and 30/30 tests all pass; WORLD.md regenerated.
