@@ -136,7 +136,7 @@
           "id": "post",
           "condition": { "kind": "flag", "flag": "beat_hollow_archon" },
           "portrait": "defector",
-          "lines": ["Sable: You saw the Archon's face at the end. Just a tired person who forgot why they started. Don't become that."],
+          "lines": ["Verel: You saw the Archon's face at the end. Just a tired person who forgot why they started. Don't become that."],
           "next": ""
         },
         {
@@ -144,9 +144,9 @@
           "condition": { "kind": "flag", "flag": "visited_cindral" },
           "portrait": "defector",
           "lines": [
-            "Sable: I wore the Hollow gray once. I collected 'debts' from trainers on these roads.",
-            "Sable: The Order isn't strong — it's empty. It hollows people until taking feels like winning.",
-            "Sable: Their Archon waits past Zephyra. If you face them... remember they were a trainer once, like you."
+            "Verel: I wore the Hollow gray once. I collected 'debts' from trainers on these roads.",
+            "Verel: The Order isn't strong — it's empty. It hollows people until taking feels like winning.",
+            "Verel: Their Archon waits past Zephyra. If you face them... remember they were a trainer once, like you."
           ],
           "actions": [
             { "kind": "set_flag", "flag": "met_defector" },
@@ -169,20 +169,20 @@
           "id": "justice_reply",
           "entry": false,
           "portrait": "defector",
-          "lines": ["Sable: Break it cleanly, then. The roads deserve to be safe."],
+          "lines": ["Verel: Break it cleanly, then. The roads deserve to be safe."],
           "next": ""
         },
         {
           "id": "mercy_reply",
           "entry": false,
           "portrait": "defector",
-          "lines": ["Sable: ...Maybe you're the one who can. I never could."],
+          "lines": ["Verel: ...Maybe you're the one who can. I never could."],
           "next": ""
         },
         {
           "id": "waiting",
           "portrait": "defector",
-          "lines": ["Sable: The gray coats moved north. Whatever you decide up there, decide it with open eyes."],
+          "lines": ["Verel: The gray coats moved north. Whatever you decide up there, decide it with open eyes."],
           "next": ""
         }
       ]

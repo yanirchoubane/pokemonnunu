@@ -188,7 +188,7 @@
         },
         {
           "id": "obj_champion",
-          "text": "Defeat the Champion of Cindral.",
+          "text": "Defeat Magnate Vulcaine, Champion of Cindral, in the League hall.",
           "condition": {
             "kind": "flag",
             "flag": "beat_cindral_champion"
@@ -233,7 +233,7 @@
         },
         {
           "id": "obj_champion",
-          "text": "Defeat the Champion of Solane.",
+          "text": "Defeat Consul Adnan, Champion of Solane, in the League hall.",
           "condition": {
             "kind": "flag",
             "flag": "beat_solane_champion"
@@ -278,7 +278,7 @@
         },
         {
           "id": "obj_champion",
-          "text": "Defeat the Champion of Umbra.",
+          "text": "Defeat Arbiter Nocturne, Champion of Umbra, in the League hall.",
           "condition": {
             "kind": "flag",
             "flag": "beat_umbra_champion"
@@ -323,7 +323,7 @@
         },
         {
           "id": "obj_champion",
-          "text": "Defeat the Champion of Ferrock.",
+          "text": "Defeat Ironmonger Casque, Champion of Ferrock, in the League hall.",
           "condition": {
             "kind": "flag",
             "flag": "beat_ferrock_champion"
@@ -368,7 +368,7 @@
         },
         {
           "id": "obj_champion",
-          "text": "Defeat the Champion of Brume.",
+          "text": "Defeat Abbess Threnody, Champion of Brume, in the League hall.",
           "condition": {
             "kind": "flag",
             "flag": "beat_brume_champion"
@@ -413,7 +413,7 @@
         },
         {
           "id": "obj_champion",
-          "text": "Defeat the Champion of Lumen.",
+          "text": "Defeat Oracle Calla, Champion of Lumen, in the League hall.",
           "condition": {
             "kind": "flag",
             "flag": "beat_lumen_champion"
@@ -458,7 +458,7 @@
         },
         {
           "id": "obj_champion",
-          "text": "Defeat the Champion of Zephyra.",
+          "text": "Defeat Skylord Peregrine, Champion of Zephyra, in the League hall.",
           "condition": {
             "kind": "flag",
             "flag": "beat_zephyra_champion"
@@ -2186,6 +2186,62 @@
         }
       ],
       "on_complete_flag": "wonder_zephyra_done"
+    },
+    {
+      "id": "side_rival_road",
+      "display_name": "The Count Between Us",
+      "category": "side",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "got_starter"
+      },
+      "description": "Corin keeps a running count of your battles. Meet him on the road — Verdantia, Solane, Brume — and settle it.",
+      "objectives": [
+        {
+          "id": "obj_r1",
+          "text": "Beat Corin on the Verdantia route.",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_corin_rival_1"
+          }
+        },
+        {
+          "id": "obj_r2",
+          "text": "Beat Corin in the Solane wilds.",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_corin_rival_2"
+          }
+        },
+        {
+          "id": "obj_r3",
+          "text": "Beat Corin in the Brume wilds.",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_corin_rival_3"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 3000
+        },
+        {
+          "kind": "item",
+          "item": "max_revive",
+          "quantity": 1
+        }
+      ],
+      "on_complete_flag": "rival_road_done",
+      "on_complete_actions": [
+        {
+          "kind": "adjust_relationship",
+          "npc": "corin",
+          "delta": 2
+        }
+      ]
     }
   ]
 }

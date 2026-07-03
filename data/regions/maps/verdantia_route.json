@@ -103,6 +103,16 @@
       "y": 3,
       "to_map": "verdantia_crossroads",
       "to_spawn": "from_wilds"
+    },
+    {
+      "type": "trainer",
+      "x": 2,
+      "y": 3,
+      "trainer_id": "corin_rival_1",
+      "sprite": "trainer_rival",
+      "sight": 2,
+      "facing": "right",
+      "flag": "beat_corin_rival_1"
     }
   ]
 }

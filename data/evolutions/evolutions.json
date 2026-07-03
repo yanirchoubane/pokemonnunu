@@ -1299,6 +1299,2274 @@
       }
     },
     {
+      "id": "evo_meadowet",
+      "from": "meadowet",
+      "to": "meadowmane",
+      "condition": {
+        "kind": "level_up",
+        "level": 8
+      }
+    },
+    {
+      "id": "evo_torchkin",
+      "from": "torchkin",
+      "to": "torchhorn",
+      "condition": {
+        "kind": "level_up",
+        "level": 8
+      }
+    },
+    {
+      "id": "evo_torchhorn",
+      "from": "torchhorn",
+      "to": "ashenmonarch",
+      "condition": {
+        "kind": "level_up",
+        "level": 20
+      }
+    },
+    {
+      "id": "evo_currentlet",
+      "from": "currentlet",
+      "to": "currenttail",
+      "condition": {
+        "kind": "level_up",
+        "level": 8
+      }
+    },
+    {
+      "id": "evo_sprigling",
+      "from": "sprigling",
+      "to": "sprigclaw",
+      "condition": {
+        "kind": "level_up",
+        "level": 8
+      }
+    },
+    {
+      "id": "evo_staticit",
+      "from": "staticit",
+      "to": "staticfang",
+      "condition": {
+        "kind": "level_up",
+        "level": 8
+      }
+    },
+    {
+      "id": "evo_staticfang",
+      "from": "staticfang",
+      "to": "amperelord",
+      "condition": {
+        "kind": "level_up",
+        "level": 20
+      }
+    },
+    {
+      "id": "evo_cairnit",
+      "from": "cairnit",
+      "to": "cairnfang",
+      "condition": {
+        "kind": "level_up",
+        "level": 8
+      }
+    },
+    {
+      "id": "evo_kestrelet",
+      "from": "kestrelet",
+      "to": "kestrelmane",
+      "condition": {
+        "kind": "level_up",
+        "level": 8
+      }
+    },
+    {
+      "id": "evo_eidolie",
+      "from": "eidolie",
+      "to": "eidolwing",
+      "condition": {
+        "kind": "level_up",
+        "level": 8
+      }
+    },
+    {
+      "id": "evo_cinderkin",
+      "from": "cinderkin",
+      "to": "cinderhorn",
+      "condition": {
+        "kind": "level_up",
+        "level": 8
+      }
+    },
+    {
+      "id": "evo_ripplelet",
+      "from": "ripplelet",
+      "to": "rippletail",
+      "condition": {
+        "kind": "level_up",
+        "level": 8
+      }
+    },
+    {
+      "id": "evo_mossling",
+      "from": "mossling",
+      "to": "mossclaw",
+      "condition": {
+        "kind": "level_up",
+        "level": 8
+      }
+    },
+    {
+      "id": "evo_ionit",
+      "from": "ionit",
+      "to": "ionfang",
+      "condition": {
+        "kind": "level_up",
+        "level": 8
+      }
+    },
+    {
+      "id": "evo_dappleie",
+      "from": "dappleie",
+      "to": "dapplewing",
+      "condition": {
+        "kind": "level_up",
+        "level": 14
+      }
+    },
+    {
+      "id": "evo_charrlet",
+      "from": "charrlet",
+      "to": "charrtail",
+      "condition": {
+        "kind": "level_up",
+        "level": 14
+      }
+    },
+    {
+      "id": "evo_driftling",
+      "from": "driftling",
+      "to": "driftclaw",
+      "condition": {
+        "kind": "level_up",
+        "level": 14
+      }
+    },
+    {
+      "id": "evo_driftclaw",
+      "from": "driftclaw",
+      "to": "shoalsage",
+      "condition": {
+        "kind": "level_up",
+        "level": 26
+      }
+    },
+    {
+      "id": "evo_seedit",
+      "from": "seedit",
+      "to": "seedfang",
+      "condition": {
+        "kind": "level_up",
+        "level": 14
+      }
+    },
+    {
+      "id": "evo_voltet",
+      "from": "voltet",
+      "to": "voltmane",
+      "condition": {
+        "kind": "level_up",
+        "level": 14
+      }
+    },
+    {
+      "id": "evo_boulderet",
+      "from": "boulderet",
+      "to": "bouldermane",
+      "condition": {
+        "kind": "level_up",
+        "level": 14
+      }
+    },
+    {
+      "id": "evo_bouldermane",
+      "from": "bouldermane",
+      "to": "bouldertitan",
+      "condition": {
+        "kind": "level_up",
+        "level": 26
+      }
+    },
+    {
+      "id": "evo_squallie",
+      "from": "squallie",
+      "to": "squallwing",
+      "condition": {
+        "kind": "level_up",
+        "level": 14
+      }
+    },
+    {
+      "id": "evo_trancekin",
+      "from": "trancekin",
+      "to": "trancehorn",
+      "condition": {
+        "kind": "level_up",
+        "level": 14
+      }
+    },
+    {
+      "id": "evo_brandlet",
+      "from": "brandlet",
+      "to": "brandtail",
+      "condition": {
+        "kind": "level_up",
+        "level": 14
+      }
+    },
+    {
+      "id": "evo_pearlling",
+      "from": "pearlling",
+      "to": "pearlclaw",
+      "condition": {
+        "kind": "level_up",
+        "level": 14
+      }
+    },
+    {
+      "id": "evo_verdureit",
+      "from": "verdureit",
+      "to": "verdurefang",
+      "condition": {
+        "kind": "level_up",
+        "level": 14
+      }
+    },
+    {
+      "id": "evo_coilet",
+      "from": "coilet",
+      "to": "coilmane",
+      "condition": {
+        "kind": "level_up",
+        "level": 14
+      }
+    },
+    {
+      "id": "evo_cloverkin",
+      "from": "cloverkin",
+      "to": "cloverhorn",
+      "condition": {
+        "kind": "level_up",
+        "level": 20
+      }
+    },
+    {
+      "id": "evo_cinderling",
+      "from": "cinderling",
+      "to": "cinderclaw",
+      "condition": {
+        "kind": "level_up",
+        "level": 20
+      }
+    },
+    {
+      "id": "evo_rippleit",
+      "from": "rippleit",
+      "to": "ripplefang",
+      "condition": {
+        "kind": "level_up",
+        "level": 20
+      }
+    },
+    {
+      "id": "evo_mosset",
+      "from": "mosset",
+      "to": "mossmane",
+      "condition": {
+        "kind": "level_up",
+        "level": 20
+      }
+    },
+    {
+      "id": "evo_mossmane",
+      "from": "mossmane",
+      "to": "fernwyrm",
+      "condition": {
+        "kind": "level_up",
+        "level": 32
+      }
+    },
+    {
+      "id": "evo_ionie",
+      "from": "ionie",
+      "to": "ionwing",
+      "condition": {
+        "kind": "level_up",
+        "level": 20
+      }
+    },
+    {
+      "id": "evo_graniteie",
+      "from": "graniteie",
+      "to": "granitewing",
+      "condition": {
+        "kind": "level_up",
+        "level": 20
+      }
+    },
+    {
+      "id": "evo_gustkin",
+      "from": "gustkin",
+      "to": "gusthorn",
+      "condition": {
+        "kind": "level_up",
+        "level": 20
+      }
+    },
+    {
+      "id": "evo_gusthorn",
+      "from": "gusthorn",
+      "to": "gustwarden",
+      "condition": {
+        "kind": "level_up",
+        "level": 32
+      }
+    },
+    {
+      "id": "evo_seerlet",
+      "from": "seerlet",
+      "to": "seertail",
+      "condition": {
+        "kind": "level_up",
+        "level": 20
+      }
+    },
+    {
+      "id": "evo_torchling",
+      "from": "torchling",
+      "to": "torchclaw",
+      "condition": {
+        "kind": "level_up",
+        "level": 20
+      }
+    },
+    {
+      "id": "evo_currentit",
+      "from": "currentit",
+      "to": "currentfang",
+      "condition": {
+        "kind": "level_up",
+        "level": 20
+      }
+    },
+    {
+      "id": "evo_spriget",
+      "from": "spriget",
+      "to": "sprigmane",
+      "condition": {
+        "kind": "level_up",
+        "level": 20
+      }
+    },
+    {
+      "id": "evo_staticie",
+      "from": "staticie",
+      "to": "staticwing",
+      "condition": {
+        "kind": "level_up",
+        "level": 20
+      }
+    },
+    {
+      "id": "evo_bristlelet",
+      "from": "bristlelet",
+      "to": "bristletail",
+      "condition": {
+        "kind": "level_up",
+        "level": 26
+      }
+    },
+    {
+      "id": "evo_scorchling",
+      "from": "scorchling",
+      "to": "scorchclaw",
+      "condition": {
+        "kind": "level_up",
+        "level": 26
+      }
+    },
+    {
+      "id": "evo_torrentit",
+      "from": "torrentit",
+      "to": "torrentfang",
+      "condition": {
+        "kind": "level_up",
+        "level": 26
+      }
+    },
+    {
+      "id": "evo_sapet",
+      "from": "sapet",
+      "to": "sapmane",
+      "condition": {
+        "kind": "level_up",
+        "level": 26
+      }
+    },
+    {
+      "id": "evo_fluxie",
+      "from": "fluxie",
+      "to": "fluxwing",
+      "condition": {
+        "kind": "level_up",
+        "level": 26
+      }
+    },
+    {
+      "id": "evo_fluxwing",
+      "from": "fluxwing",
+      "to": "fluxmonarch",
+      "condition": {
+        "kind": "level_up",
+        "level": 38
+      }
+    },
+    {
+      "id": "evo_tremorkin",
+      "from": "tremorkin",
+      "to": "tremorhorn",
+      "condition": {
+        "kind": "level_up",
+        "level": 26
+      }
+    },
+    {
+      "id": "evo_billowlet",
+      "from": "billowlet",
+      "to": "billowtail",
+      "condition": {
+        "kind": "level_up",
+        "level": 26
+      }
+    },
+    {
+      "id": "evo_glyphling",
+      "from": "glyphling",
+      "to": "glyphclaw",
+      "condition": {
+        "kind": "level_up",
+        "level": 26
+      }
+    },
+    {
+      "id": "evo_glyphclaw",
+      "from": "glyphclaw",
+      "to": "glyphlord",
+      "condition": {
+        "kind": "level_up",
+        "level": 38
+      }
+    },
+    {
+      "id": "evo_charrit",
+      "from": "charrit",
+      "to": "charrfang",
+      "condition": {
+        "kind": "level_up",
+        "level": 26
+      }
+    },
+    {
+      "id": "evo_driftet",
+      "from": "driftet",
+      "to": "driftmane",
+      "condition": {
+        "kind": "level_up",
+        "level": 26
+      }
+    },
+    {
+      "id": "evo_seedie",
+      "from": "seedie",
+      "to": "seedwing",
+      "condition": {
+        "kind": "level_up",
+        "level": 26
+      }
+    },
+    {
+      "id": "evo_voltkin",
+      "from": "voltkin",
+      "to": "volthorn",
+      "condition": {
+        "kind": "level_up",
+        "level": 26
+      }
+    },
+    {
+      "id": "evo_meadowling",
+      "from": "meadowling",
+      "to": "meadowclaw",
+      "condition": {
+        "kind": "level_up",
+        "level": 32
+      }
+    },
+    {
+      "id": "evo_meadowclaw",
+      "from": "meadowclaw",
+      "to": "meadowlord",
+      "condition": {
+        "kind": "level_up",
+        "level": 44
+      }
+    },
+    {
+      "id": "evo_ashenit",
+      "from": "ashenit",
+      "to": "ashenfang",
+      "condition": {
+        "kind": "level_up",
+        "level": 32
+      }
+    },
+    {
+      "id": "evo_spumeet",
+      "from": "spumeet",
+      "to": "spumemane",
+      "condition": {
+        "kind": "level_up",
+        "level": 32
+      }
+    },
+    {
+      "id": "evo_willowie",
+      "from": "willowie",
+      "to": "willowwing",
+      "condition": {
+        "kind": "level_up",
+        "level": 32
+      }
+    },
+    {
+      "id": "evo_amperekin",
+      "from": "amperekin",
+      "to": "amperehorn",
+      "condition": {
+        "kind": "level_up",
+        "level": 32
+      }
+    },
+    {
+      "id": "evo_cairnlet",
+      "from": "cairnlet",
+      "to": "cairntail",
+      "condition": {
+        "kind": "level_up",
+        "level": 32
+      }
+    },
+    {
+      "id": "evo_cairntail",
+      "from": "cairntail",
+      "to": "cairnsage",
+      "condition": {
+        "kind": "level_up",
+        "level": 44
+      }
+    },
+    {
+      "id": "evo_kestrelling",
+      "from": "kestrelling",
+      "to": "kestrelclaw",
+      "condition": {
+        "kind": "level_up",
+        "level": 32
+      }
+    },
+    {
+      "id": "evo_eidolit",
+      "from": "eidolit",
+      "to": "eidolfang",
+      "condition": {
+        "kind": "level_up",
+        "level": 32
+      }
+    },
+    {
+      "id": "evo_cinderet",
+      "from": "cinderet",
+      "to": "cindermane",
+      "condition": {
+        "kind": "level_up",
+        "level": 32
+      }
+    },
+    {
+      "id": "evo_rippleie",
+      "from": "rippleie",
+      "to": "ripplewing",
+      "condition": {
+        "kind": "level_up",
+        "level": 32
+      }
+    },
+    {
+      "id": "evo_mosskin",
+      "from": "mosskin",
+      "to": "mosshorn",
+      "condition": {
+        "kind": "level_up",
+        "level": 32
+      }
+    },
+    {
+      "id": "evo_ionlet",
+      "from": "ionlet",
+      "to": "iontail",
+      "condition": {
+        "kind": "level_up",
+        "level": 32
+      }
+    },
+    {
+      "id": "evo_dappleit",
+      "from": "dappleit",
+      "to": "dapplefang",
+      "condition": {
+        "kind": "level_up",
+        "level": 38
+      }
+    },
+    {
+      "id": "evo_furnet",
+      "from": "furnet",
+      "to": "furnmane",
+      "condition": {
+        "kind": "level_up",
+        "level": 38
+      }
+    },
+    {
+      "id": "evo_furnmane",
+      "from": "furnmane",
+      "to": "furntitan",
+      "condition": {
+        "kind": "level_up",
+        "level": 50
+      }
+    },
+    {
+      "id": "evo_shoalie",
+      "from": "shoalie",
+      "to": "shoalwing",
+      "condition": {
+        "kind": "level_up",
+        "level": 38
+      }
+    },
+    {
+      "id": "evo_loamkin",
+      "from": "loamkin",
+      "to": "loamhorn",
+      "condition": {
+        "kind": "level_up",
+        "level": 38
+      }
+    },
+    {
+      "id": "evo_dynamolet",
+      "from": "dynamolet",
+      "to": "dynamotail",
+      "condition": {
+        "kind": "level_up",
+        "level": 38
+      }
+    },
+    {
+      "id": "evo_boulderling",
+      "from": "boulderling",
+      "to": "boulderclaw",
+      "condition": {
+        "kind": "level_up",
+        "level": 38
+      }
+    },
+    {
+      "id": "evo_squallit",
+      "from": "squallit",
+      "to": "squallfang",
+      "condition": {
+        "kind": "level_up",
+        "level": 38
+      }
+    },
+    {
+      "id": "evo_squallfang",
+      "from": "squallfang",
+      "to": "squallwyrm",
+      "condition": {
+        "kind": "level_up",
+        "level": 50
+      }
+    },
+    {
+      "id": "evo_tranceet",
+      "from": "tranceet",
+      "to": "trancemane",
+      "condition": {
+        "kind": "level_up",
+        "level": 38
+      }
+    },
+    {
+      "id": "evo_brandie",
+      "from": "brandie",
+      "to": "brandwing",
+      "condition": {
+        "kind": "level_up",
+        "level": 38
+      }
+    },
+    {
+      "id": "evo_pearlkin",
+      "from": "pearlkin",
+      "to": "pearlhorn",
+      "condition": {
+        "kind": "level_up",
+        "level": 38
+      }
+    },
+    {
+      "id": "evo_verdurelet",
+      "from": "verdurelet",
+      "to": "verduretail",
+      "condition": {
+        "kind": "level_up",
+        "level": 38
+      }
+    },
+    {
+      "id": "evo_coilling",
+      "from": "coilling",
+      "to": "coilclaw",
+      "condition": {
+        "kind": "level_up",
+        "level": 38
+      }
+    },
+    {
+      "id": "evo_cloveret",
+      "from": "cloveret",
+      "to": "clovermane",
+      "condition": {
+        "kind": "level_up",
+        "level": 44
+      }
+    },
+    {
+      "id": "evo_brandit",
+      "from": "brandit",
+      "to": "brandfang",
+      "condition": {
+        "kind": "level_up",
+        "level": 44
+      }
+    },
+    {
+      "id": "evo_pearlet",
+      "from": "pearlet",
+      "to": "pearlmane",
+      "condition": {
+        "kind": "level_up",
+        "level": 44
+      }
+    },
+    {
+      "id": "evo_pearlmane",
+      "from": "pearlmane",
+      "to": "brinewarden",
+      "condition": {
+        "kind": "level_up",
+        "level": 56
+      }
+    },
+    {
+      "id": "evo_verdureie",
+      "from": "verdureie",
+      "to": "verdurewing",
+      "condition": {
+        "kind": "level_up",
+        "level": 44
+      }
+    },
+    {
+      "id": "evo_coilkin",
+      "from": "coilkin",
+      "to": "coilhorn",
+      "condition": {
+        "kind": "level_up",
+        "level": 44
+      }
+    },
+    {
+      "id": "evo_graniteit",
+      "from": "graniteit",
+      "to": "granitefang",
+      "condition": {
+        "kind": "level_up",
+        "level": 44
+      }
+    },
+    {
+      "id": "evo_gustet",
+      "from": "gustet",
+      "to": "gustmane",
+      "condition": {
+        "kind": "level_up",
+        "level": 44
+      }
+    },
+    {
+      "id": "evo_seerie",
+      "from": "seerie",
+      "to": "seerwing",
+      "condition": {
+        "kind": "level_up",
+        "level": 44
+      }
+    },
+    {
+      "id": "evo_seerwing",
+      "from": "seerwing",
+      "to": "seermonarch",
+      "condition": {
+        "kind": "level_up",
+        "level": 56
+      }
+    },
+    {
+      "id": "evo_smolderlet",
+      "from": "smolderlet",
+      "to": "smoldertail",
+      "condition": {
+        "kind": "level_up",
+        "level": 44
+      }
+    },
+    {
+      "id": "evo_deltaling",
+      "from": "deltaling",
+      "to": "deltaclaw",
+      "condition": {
+        "kind": "level_up",
+        "level": 44
+      }
+    },
+    {
+      "id": "evo_canopyit",
+      "from": "canopyit",
+      "to": "canopyfang",
+      "condition": {
+        "kind": "level_up",
+        "level": 44
+      }
+    },
+    {
+      "id": "evo_fulgoret",
+      "from": "fulgoret",
+      "to": "fulgormane",
+      "condition": {
+        "kind": "level_up",
+        "level": 44
+      }
+    },
+    {
+      "id": "evo_bristleie",
+      "from": "bristleie",
+      "to": "bristlewing",
+      "condition": {
+        "kind": "level_up",
+        "level": 50
+      }
+    },
+    {
+      "id": "evo_bristlewing",
+      "from": "bristlewing",
+      "to": "bristlemonarch",
+      "condition": {
+        "kind": "level_up",
+        "level": 58
+      }
+    },
+    {
+      "id": "evo_torchet",
+      "from": "torchet",
+      "to": "torchmane",
+      "condition": {
+        "kind": "level_up",
+        "level": 50
+      }
+    },
+    {
+      "id": "evo_currentie",
+      "from": "currentie",
+      "to": "currentwing",
+      "condition": {
+        "kind": "level_up",
+        "level": 50
+      }
+    },
+    {
+      "id": "evo_sprigkin",
+      "from": "sprigkin",
+      "to": "sprighorn",
+      "condition": {
+        "kind": "level_up",
+        "level": 50
+      }
+    },
+    {
+      "id": "evo_sprighorn",
+      "from": "sprighorn",
+      "to": "saplord",
+      "condition": {
+        "kind": "level_up",
+        "level": 58
+      }
+    },
+    {
+      "id": "evo_staticlet",
+      "from": "staticlet",
+      "to": "statictail",
+      "condition": {
+        "kind": "level_up",
+        "level": 50
+      }
+    },
+    {
+      "id": "evo_tremoret",
+      "from": "tremoret",
+      "to": "tremormane",
+      "condition": {
+        "kind": "level_up",
+        "level": 50
+      }
+    },
+    {
+      "id": "evo_billowie",
+      "from": "billowie",
+      "to": "billowwing",
+      "condition": {
+        "kind": "level_up",
+        "level": 50
+      }
+    },
+    {
+      "id": "evo_glyphkin",
+      "from": "glyphkin",
+      "to": "glyphhorn",
+      "condition": {
+        "kind": "level_up",
+        "level": 50
+      }
+    },
+    {
+      "id": "evo_blazenling",
+      "from": "blazenling",
+      "to": "blazenclaw",
+      "condition": {
+        "kind": "level_up",
+        "level": 50
+      }
+    },
+    {
+      "id": "evo_mistit",
+      "from": "mistit",
+      "to": "mistfang",
+      "condition": {
+        "kind": "level_up",
+        "level": 50
+      }
+    },
+    {
+      "id": "evo_brambleet",
+      "from": "brambleet",
+      "to": "bramblemane",
+      "condition": {
+        "kind": "level_up",
+        "level": 50
+      }
+    },
+    {
+      "id": "evo_arcie",
+      "from": "arcie",
+      "to": "arcwing",
+      "condition": {
+        "kind": "level_up",
+        "level": 50
+      }
+    },
+    {
+      "id": "evo_meadowkin",
+      "from": "meadowkin",
+      "to": "meadowhorn",
+      "condition": {
+        "kind": "level_up",
+        "level": 56
+      }
+    },
+    {
+      "id": "evo_charrie",
+      "from": "charrie",
+      "to": "charrwing",
+      "condition": {
+        "kind": "level_up",
+        "level": 56
+      }
+    },
+    {
+      "id": "evo_charrwing",
+      "from": "charrwing",
+      "to": "ashensage",
+      "condition": {
+        "kind": "level_up",
+        "level": 58
+      }
+    },
+    {
+      "id": "evo_driftkin",
+      "from": "driftkin",
+      "to": "drifthorn",
+      "condition": {
+        "kind": "level_up",
+        "level": 56
+      }
+    },
+    {
+      "id": "evo_seedlet",
+      "from": "seedlet",
+      "to": "seedtail",
+      "condition": {
+        "kind": "level_up",
+        "level": 56
+      }
+    },
+    {
+      "id": "evo_voltling",
+      "from": "voltling",
+      "to": "voltclaw",
+      "condition": {
+        "kind": "level_up",
+        "level": 56
+      }
+    },
+    {
+      "id": "evo_voltclaw",
+      "from": "voltclaw",
+      "to": "amperetitan",
+      "condition": {
+        "kind": "level_up",
+        "level": 58
+      }
+    },
+    {
+      "id": "evo_cairnie",
+      "from": "cairnie",
+      "to": "cairnwing",
+      "condition": {
+        "kind": "level_up",
+        "level": 56
+      }
+    },
+    {
+      "id": "evo_kestrelkin",
+      "from": "kestrelkin",
+      "to": "kestrelhorn",
+      "condition": {
+        "kind": "level_up",
+        "level": 56
+      }
+    },
+    {
+      "id": "evo_eidollet",
+      "from": "eidollet",
+      "to": "eidoltail",
+      "condition": {
+        "kind": "level_up",
+        "level": 56
+      }
+    },
+    {
+      "id": "evo_pyreit",
+      "from": "pyreit",
+      "to": "pyrefang",
+      "condition": {
+        "kind": "level_up",
+        "level": 56
+      }
+    },
+    {
+      "id": "evo_coveet",
+      "from": "coveet",
+      "to": "covemane",
+      "condition": {
+        "kind": "level_up",
+        "level": 56
+      }
+    },
+    {
+      "id": "evo_petalie",
+      "from": "petalie",
+      "to": "petalwing",
+      "condition": {
+        "kind": "level_up",
+        "level": 56
+      }
+    },
+    {
+      "id": "evo_surgekin",
+      "from": "surgekin",
+      "to": "surgehorn",
+      "condition": {
+        "kind": "level_up",
+        "level": 56
+      }
+    },
+    {
+      "id": "evo_loperie",
+      "from": "loperie",
+      "to": "loperwing",
+      "condition": {
+        "kind": "level_up",
+        "level": 8
+      }
+    },
+    {
+      "id": "evo_cinder110",
+      "from": "cinder110",
+      "to": "cinder111",
+      "condition": {
+        "kind": "level_up",
+        "level": 8
+      }
+    },
+    {
+      "id": "evo_cinder111",
+      "from": "cinder111",
+      "to": "torchwarden",
+      "condition": {
+        "kind": "level_up",
+        "level": 20
+      }
+    },
+    {
+      "id": "evo_brine120",
+      "from": "brine120",
+      "to": "brine121",
+      "condition": {
+        "kind": "level_up",
+        "level": 8
+      }
+    },
+    {
+      "id": "evo_bramble130",
+      "from": "bramble130",
+      "to": "bramble131",
+      "condition": {
+        "kind": "level_up",
+        "level": 8
+      }
+    },
+    {
+      "id": "evo_volt140",
+      "from": "volt140",
+      "to": "volt141",
+      "condition": {
+        "kind": "level_up",
+        "level": 8
+      }
+    },
+    {
+      "id": "evo_volt141",
+      "from": "volt141",
+      "to": "staticwyrm",
+      "condition": {
+        "kind": "level_up",
+        "level": 20
+      }
+    },
+    {
+      "id": "evo_siltet",
+      "from": "siltet",
+      "to": "siltmane",
+      "condition": {
+        "kind": "level_up",
+        "level": 8
+      }
+    },
+    {
+      "id": "evo_draftie",
+      "from": "draftie",
+      "to": "draftwing",
+      "condition": {
+        "kind": "level_up",
+        "level": 8
+      }
+    },
+    {
+      "id": "evo_opalkin",
+      "from": "opalkin",
+      "to": "opalhorn",
+      "condition": {
+        "kind": "level_up",
+        "level": 8
+      }
+    },
+    {
+      "id": "evo_cinder180",
+      "from": "cinder180",
+      "to": "cinder181",
+      "condition": {
+        "kind": "level_up",
+        "level": 8
+      }
+    },
+    {
+      "id": "evo_brine190",
+      "from": "brine190",
+      "to": "brine191",
+      "condition": {
+        "kind": "level_up",
+        "level": 8
+      }
+    },
+    {
+      "id": "evo_bramble1100",
+      "from": "bramble1100",
+      "to": "bramble1101",
+      "condition": {
+        "kind": "level_up",
+        "level": 8
+      }
+    },
+    {
+      "id": "evo_volt1110",
+      "from": "volt1110",
+      "to": "volt1111",
+      "condition": {
+        "kind": "level_up",
+        "level": 8
+      }
+    },
+    {
+      "id": "evo_valekin",
+      "from": "valekin",
+      "to": "valehorn",
+      "condition": {
+        "kind": "level_up",
+        "level": 14
+      }
+    },
+    {
+      "id": "evo_cinder210",
+      "from": "cinder210",
+      "to": "cinder211",
+      "condition": {
+        "kind": "level_up",
+        "level": 14
+      }
+    },
+    {
+      "id": "evo_brine220",
+      "from": "brine220",
+      "to": "brine221",
+      "condition": {
+        "kind": "level_up",
+        "level": 14
+      }
+    },
+    {
+      "id": "evo_brine221",
+      "from": "brine221",
+      "to": "driftlord",
+      "condition": {
+        "kind": "level_up",
+        "level": 26
+      }
+    },
+    {
+      "id": "evo_bramble230",
+      "from": "bramble230",
+      "to": "bramble231",
+      "condition": {
+        "kind": "level_up",
+        "level": 14
+      }
+    },
+    {
+      "id": "evo_volt240",
+      "from": "volt240",
+      "to": "volt241",
+      "condition": {
+        "kind": "level_up",
+        "level": 14
+      }
+    },
+    {
+      "id": "evo_shaleie",
+      "from": "shaleie",
+      "to": "shalewing",
+      "condition": {
+        "kind": "level_up",
+        "level": 14
+      }
+    },
+    {
+      "id": "evo_shalewing",
+      "from": "shalewing",
+      "to": "shalemonarch",
+      "condition": {
+        "kind": "level_up",
+        "level": 26
+      }
+    },
+    {
+      "id": "evo_breezekin",
+      "from": "breezekin",
+      "to": "breezehorn",
+      "condition": {
+        "kind": "level_up",
+        "level": 14
+      }
+    },
+    {
+      "id": "evo_auralet",
+      "from": "auralet",
+      "to": "auratail",
+      "condition": {
+        "kind": "level_up",
+        "level": 14
+      }
+    },
+    {
+      "id": "evo_cinder280",
+      "from": "cinder280",
+      "to": "cinder281",
+      "condition": {
+        "kind": "level_up",
+        "level": 14
+      }
+    },
+    {
+      "id": "evo_brine290",
+      "from": "brine290",
+      "to": "brine291",
+      "condition": {
+        "kind": "level_up",
+        "level": 14
+      }
+    },
+    {
+      "id": "evo_bramble2100",
+      "from": "bramble2100",
+      "to": "bramble2101",
+      "condition": {
+        "kind": "level_up",
+        "level": 14
+      }
+    },
+    {
+      "id": "evo_volt2110",
+      "from": "volt2110",
+      "to": "volt2111",
+      "condition": {
+        "kind": "level_up",
+        "level": 14
+      }
+    },
+    {
+      "id": "evo_russetlet",
+      "from": "russetlet",
+      "to": "russettail",
+      "condition": {
+        "kind": "level_up",
+        "level": 20
+      }
+    },
+    {
+      "id": "evo_cinder310",
+      "from": "cinder310",
+      "to": "cinder311",
+      "condition": {
+        "kind": "level_up",
+        "level": 20
+      }
+    },
+    {
+      "id": "evo_brine320",
+      "from": "brine320",
+      "to": "brine321",
+      "condition": {
+        "kind": "level_up",
+        "level": 20
+      }
+    },
+    {
+      "id": "evo_bramble330",
+      "from": "bramble330",
+      "to": "bramble331",
+      "condition": {
+        "kind": "level_up",
+        "level": 20
+      }
+    },
+    {
+      "id": "evo_bramble331",
+      "from": "bramble331",
+      "to": "mosstitan",
+      "condition": {
+        "kind": "level_up",
+        "level": 32
+      }
+    },
+    {
+      "id": "evo_volt340",
+      "from": "volt340",
+      "to": "volt341",
+      "condition": {
+        "kind": "level_up",
+        "level": 20
+      }
+    },
+    {
+      "id": "evo_dunekin",
+      "from": "dunekin",
+      "to": "dunehorn",
+      "condition": {
+        "kind": "level_up",
+        "level": 20
+      }
+    },
+    {
+      "id": "evo_aerolet",
+      "from": "aerolet",
+      "to": "aerotail",
+      "condition": {
+        "kind": "level_up",
+        "level": 20
+      }
+    },
+    {
+      "id": "evo_aerotail",
+      "from": "aerotail",
+      "to": "aerosage",
+      "condition": {
+        "kind": "level_up",
+        "level": 32
+      }
+    },
+    {
+      "id": "evo_mystling",
+      "from": "mystling",
+      "to": "mystclaw",
+      "condition": {
+        "kind": "level_up",
+        "level": 20
+      }
+    },
+    {
+      "id": "evo_cinder380",
+      "from": "cinder380",
+      "to": "cinder381",
+      "condition": {
+        "kind": "level_up",
+        "level": 20
+      }
+    },
+    {
+      "id": "evo_brine390",
+      "from": "brine390",
+      "to": "brine391",
+      "condition": {
+        "kind": "level_up",
+        "level": 20
+      }
+    },
+    {
+      "id": "evo_bramble3100",
+      "from": "bramble3100",
+      "to": "bramble3101",
+      "condition": {
+        "kind": "level_up",
+        "level": 20
+      }
+    },
+    {
+      "id": "evo_volt3110",
+      "from": "volt3110",
+      "to": "volt3111",
+      "condition": {
+        "kind": "level_up",
+        "level": 20
+      }
+    },
+    {
+      "id": "evo_tuftling",
+      "from": "tuftling",
+      "to": "tuftclaw",
+      "condition": {
+        "kind": "level_up",
+        "level": 26
+      }
+    },
+    {
+      "id": "evo_cinder410",
+      "from": "cinder410",
+      "to": "cinder411",
+      "condition": {
+        "kind": "level_up",
+        "level": 26
+      }
+    },
+    {
+      "id": "evo_brine420",
+      "from": "brine420",
+      "to": "brine421",
+      "condition": {
+        "kind": "level_up",
+        "level": 26
+      }
+    },
+    {
+      "id": "evo_bramble430",
+      "from": "bramble430",
+      "to": "bramble431",
+      "condition": {
+        "kind": "level_up",
+        "level": 26
+      }
+    },
+    {
+      "id": "evo_volt440",
+      "from": "volt440",
+      "to": "volt441",
+      "condition": {
+        "kind": "level_up",
+        "level": 26
+      }
+    },
+    {
+      "id": "evo_volt441",
+      "from": "volt441",
+      "to": "coilwarden",
+      "condition": {
+        "kind": "level_up",
+        "level": 38
+      }
+    },
+    {
+      "id": "evo_basaltlet",
+      "from": "basaltlet",
+      "to": "basalttail",
+      "condition": {
+        "kind": "level_up",
+        "level": 26
+      }
+    },
+    {
+      "id": "evo_vaneling",
+      "from": "vaneling",
+      "to": "vaneclaw",
+      "condition": {
+        "kind": "level_up",
+        "level": 26
+      }
+    },
+    {
+      "id": "evo_solaceit",
+      "from": "solaceit",
+      "to": "solacefang",
+      "condition": {
+        "kind": "level_up",
+        "level": 26
+      }
+    },
+    {
+      "id": "evo_solacefang",
+      "from": "solacefang",
+      "to": "solacewyrm",
+      "condition": {
+        "kind": "level_up",
+        "level": 38
+      }
+    },
+    {
+      "id": "evo_cinder480",
+      "from": "cinder480",
+      "to": "cinder481",
+      "condition": {
+        "kind": "level_up",
+        "level": 26
+      }
+    },
+    {
+      "id": "evo_brine490",
+      "from": "brine490",
+      "to": "brine491",
+      "condition": {
+        "kind": "level_up",
+        "level": 26
+      }
+    },
+    {
+      "id": "evo_bramble4100",
+      "from": "bramble4100",
+      "to": "bramble4101",
+      "condition": {
+        "kind": "level_up",
+        "level": 26
+      }
+    },
+    {
+      "id": "evo_volt4110",
+      "from": "volt4110",
+      "to": "volt4111",
+      "condition": {
+        "kind": "level_up",
+        "level": 26
+      }
+    },
+    {
+      "id": "evo_loperit",
+      "from": "loperit",
+      "to": "loperfang",
+      "condition": {
+        "kind": "level_up",
+        "level": 32
+      }
+    },
+    {
+      "id": "evo_loperfang",
+      "from": "loperfang",
+      "to": "loperwyrm",
+      "condition": {
+        "kind": "level_up",
+        "level": 44
+      }
+    },
+    {
+      "id": "evo_cinder510",
+      "from": "cinder510",
+      "to": "cinder511",
+      "condition": {
+        "kind": "level_up",
+        "level": 32
+      }
+    },
+    {
+      "id": "evo_brine520",
+      "from": "brine520",
+      "to": "brine521",
+      "condition": {
+        "kind": "level_up",
+        "level": 32
+      }
+    },
+    {
+      "id": "evo_bramble530",
+      "from": "bramble530",
+      "to": "bramble531",
+      "condition": {
+        "kind": "level_up",
+        "level": 32
+      }
+    },
+    {
+      "id": "evo_volt540",
+      "from": "volt540",
+      "to": "volt541",
+      "condition": {
+        "kind": "level_up",
+        "level": 32
+      }
+    },
+    {
+      "id": "evo_siltling",
+      "from": "siltling",
+      "to": "siltclaw",
+      "condition": {
+        "kind": "level_up",
+        "level": 32
+      }
+    },
+    {
+      "id": "evo_siltclaw",
+      "from": "siltclaw",
+      "to": "siltlord",
+      "condition": {
+        "kind": "level_up",
+        "level": 44
+      }
+    },
+    {
+      "id": "evo_draftit",
+      "from": "draftit",
+      "to": "draftfang",
+      "condition": {
+        "kind": "level_up",
+        "level": 32
+      }
+    },
+    {
+      "id": "evo_opalet",
+      "from": "opalet",
+      "to": "opalmane",
+      "condition": {
+        "kind": "level_up",
+        "level": 32
+      }
+    },
+    {
+      "id": "evo_cinder580",
+      "from": "cinder580",
+      "to": "cinder581",
+      "condition": {
+        "kind": "level_up",
+        "level": 32
+      }
+    },
+    {
+      "id": "evo_brine590",
+      "from": "brine590",
+      "to": "brine591",
+      "condition": {
+        "kind": "level_up",
+        "level": 32
+      }
+    },
+    {
+      "id": "evo_bramble5100",
+      "from": "bramble5100",
+      "to": "bramble5101",
+      "condition": {
+        "kind": "level_up",
+        "level": 32
+      }
+    },
+    {
+      "id": "evo_volt5110",
+      "from": "volt5110",
+      "to": "volt5111",
+      "condition": {
+        "kind": "level_up",
+        "level": 32
+      }
+    },
+    {
+      "id": "evo_valeet",
+      "from": "valeet",
+      "to": "valemane",
+      "condition": {
+        "kind": "level_up",
+        "level": 38
+      }
+    },
+    {
+      "id": "evo_cinder610",
+      "from": "cinder610",
+      "to": "cinder611",
+      "condition": {
+        "kind": "level_up",
+        "level": 38
+      }
+    },
+    {
+      "id": "evo_cinder611",
+      "from": "cinder611",
+      "to": "charrmonarch",
+      "condition": {
+        "kind": "level_up",
+        "level": 50
+      }
+    },
+    {
+      "id": "evo_brine620",
+      "from": "brine620",
+      "to": "brine621",
+      "condition": {
+        "kind": "level_up",
+        "level": 38
+      }
+    },
+    {
+      "id": "evo_bramble630",
+      "from": "bramble630",
+      "to": "bramble631",
+      "condition": {
+        "kind": "level_up",
+        "level": 38
+      }
+    },
+    {
+      "id": "evo_volt640",
+      "from": "volt640",
+      "to": "volt641",
+      "condition": {
+        "kind": "level_up",
+        "level": 38
+      }
+    },
+    {
+      "id": "evo_shaleit",
+      "from": "shaleit",
+      "to": "shalefang",
+      "condition": {
+        "kind": "level_up",
+        "level": 38
+      }
+    },
+    {
+      "id": "evo_breezeet",
+      "from": "breezeet",
+      "to": "breezemane",
+      "condition": {
+        "kind": "level_up",
+        "level": 38
+      }
+    },
+    {
+      "id": "evo_breezemane",
+      "from": "breezemane",
+      "to": "breezetitan",
+      "condition": {
+        "kind": "level_up",
+        "level": 50
+      }
+    },
+    {
+      "id": "evo_auraie",
+      "from": "auraie",
+      "to": "aurawing",
+      "condition": {
+        "kind": "level_up",
+        "level": 38
+      }
+    },
+    {
+      "id": "evo_cinder680",
+      "from": "cinder680",
+      "to": "cinder681",
+      "condition": {
+        "kind": "level_up",
+        "level": 38
+      }
+    },
+    {
+      "id": "evo_brine690",
+      "from": "brine690",
+      "to": "brine691",
+      "condition": {
+        "kind": "level_up",
+        "level": 38
+      }
+    },
+    {
+      "id": "evo_bramble6100",
+      "from": "bramble6100",
+      "to": "bramble6101",
+      "condition": {
+        "kind": "level_up",
+        "level": 38
+      }
+    },
+    {
+      "id": "evo_volt6110",
+      "from": "volt6110",
+      "to": "volt6111",
+      "condition": {
+        "kind": "level_up",
+        "level": 38
+      }
+    },
+    {
+      "id": "evo_russetie",
+      "from": "russetie",
+      "to": "russetwing",
+      "condition": {
+        "kind": "level_up",
+        "level": 44
+      }
+    },
+    {
+      "id": "evo_cinder710",
+      "from": "cinder710",
+      "to": "cinder711",
+      "condition": {
+        "kind": "level_up",
+        "level": 44
+      }
+    },
+    {
+      "id": "evo_brine720",
+      "from": "brine720",
+      "to": "brine721",
+      "condition": {
+        "kind": "level_up",
+        "level": 44
+      }
+    },
+    {
+      "id": "evo_brine721",
+      "from": "brine721",
+      "to": "ripplesage",
+      "condition": {
+        "kind": "level_up",
+        "level": 56
+      }
+    },
+    {
+      "id": "evo_bramble730",
+      "from": "bramble730",
+      "to": "bramble731",
+      "condition": {
+        "kind": "level_up",
+        "level": 44
+      }
+    },
+    {
+      "id": "evo_volt740",
+      "from": "volt740",
+      "to": "volt741",
+      "condition": {
+        "kind": "level_up",
+        "level": 44
+      }
+    },
+    {
+      "id": "evo_duneet",
+      "from": "duneet",
+      "to": "dunemane",
+      "condition": {
+        "kind": "level_up",
+        "level": 44
+      }
+    },
+    {
+      "id": "evo_aeroie",
+      "from": "aeroie",
+      "to": "aerowing",
+      "condition": {
+        "kind": "level_up",
+        "level": 44
+      }
+    },
+    {
+      "id": "evo_mystkin",
+      "from": "mystkin",
+      "to": "mysthorn",
+      "condition": {
+        "kind": "level_up",
+        "level": 44
+      }
+    },
+    {
+      "id": "evo_mysthorn",
+      "from": "mysthorn",
+      "to": "mystwarden",
+      "condition": {
+        "kind": "level_up",
+        "level": 56
+      }
+    },
+    {
+      "id": "evo_cinder780",
+      "from": "cinder780",
+      "to": "cinder781",
+      "condition": {
+        "kind": "level_up",
+        "level": 44
+      }
+    },
+    {
+      "id": "evo_brine790",
+      "from": "brine790",
+      "to": "brine791",
+      "condition": {
+        "kind": "level_up",
+        "level": 44
+      }
+    },
+    {
+      "id": "evo_bramble7100",
+      "from": "bramble7100",
+      "to": "bramble7101",
+      "condition": {
+        "kind": "level_up",
+        "level": 44
+      }
+    },
+    {
+      "id": "evo_volt7110",
+      "from": "volt7110",
+      "to": "volt7111",
+      "condition": {
+        "kind": "level_up",
+        "level": 44
+      }
+    },
+    {
+      "id": "evo_tuftkin",
+      "from": "tuftkin",
+      "to": "tufthorn",
+      "condition": {
+        "kind": "level_up",
+        "level": 50
+      }
+    },
+    {
+      "id": "evo_tufthorn",
+      "from": "tufthorn",
+      "to": "tuftwarden",
+      "condition": {
+        "kind": "level_up",
+        "level": 58
+      }
+    },
+    {
+      "id": "evo_cinder810",
+      "from": "cinder810",
+      "to": "cinder811",
+      "condition": {
+        "kind": "level_up",
+        "level": 50
+      }
+    },
+    {
+      "id": "evo_brine820",
+      "from": "brine820",
+      "to": "brine821",
+      "condition": {
+        "kind": "level_up",
+        "level": 50
+      }
+    },
+    {
+      "id": "evo_bramble830",
+      "from": "bramble830",
+      "to": "bramble831",
+      "condition": {
+        "kind": "level_up",
+        "level": 50
+      }
+    },
+    {
+      "id": "evo_bramble831",
+      "from": "bramble831",
+      "to": "verdurewyrm",
+      "condition": {
+        "kind": "level_up",
+        "level": 58
+      }
+    },
+    {
+      "id": "evo_volt840",
+      "from": "volt840",
+      "to": "volt841",
+      "condition": {
+        "kind": "level_up",
+        "level": 50
+      }
+    },
+    {
+      "id": "evo_basaltie",
+      "from": "basaltie",
+      "to": "basaltwing",
+      "condition": {
+        "kind": "level_up",
+        "level": 50
+      }
+    },
+    {
+      "id": "evo_vanekin",
+      "from": "vanekin",
+      "to": "vanehorn",
+      "condition": {
+        "kind": "level_up",
+        "level": 50
+      }
+    },
+    {
+      "id": "evo_solacelet",
+      "from": "solacelet",
+      "to": "solacetail",
+      "condition": {
+        "kind": "level_up",
+        "level": 50
+      }
+    },
+    {
+      "id": "evo_cinder880",
+      "from": "cinder880",
+      "to": "cinder881",
+      "condition": {
+        "kind": "level_up",
+        "level": 50
+      }
+    },
+    {
+      "id": "evo_brine890",
+      "from": "brine890",
+      "to": "brine891",
+      "condition": {
+        "kind": "level_up",
+        "level": 50
+      }
+    },
+    {
+      "id": "evo_bramble8100",
+      "from": "bramble8100",
+      "to": "bramble8101",
+      "condition": {
+        "kind": "level_up",
+        "level": 50
+      }
+    },
+    {
+      "id": "evo_volt8110",
+      "from": "volt8110",
+      "to": "volt8111",
+      "condition": {
+        "kind": "level_up",
+        "level": 50
+      }
+    },
+    {
+      "id": "evo_loperlet",
+      "from": "loperlet",
+      "to": "lopertail",
+      "condition": {
+        "kind": "level_up",
+        "level": 56
+      }
+    },
+    {
+      "id": "evo_cinder910",
+      "from": "cinder910",
+      "to": "cinder911",
+      "condition": {
+        "kind": "level_up",
+        "level": 56
+      }
+    },
+    {
+      "id": "evo_cinder911",
+      "from": "cinder911",
+      "to": "torchlord",
+      "condition": {
+        "kind": "level_up",
+        "level": 58
+      }
+    },
+    {
+      "id": "evo_brine920",
+      "from": "brine920",
+      "to": "brine921",
+      "condition": {
+        "kind": "level_up",
+        "level": 56
+      }
+    },
+    {
+      "id": "evo_bramble930",
+      "from": "bramble930",
+      "to": "bramble931",
+      "condition": {
+        "kind": "level_up",
+        "level": 56
+      }
+    },
+    {
+      "id": "evo_volt940",
+      "from": "volt940",
+      "to": "volt941",
+      "condition": {
+        "kind": "level_up",
+        "level": 56
+      }
+    },
+    {
+      "id": "evo_volt941",
+      "from": "volt941",
+      "to": "staticmonarch",
+      "condition": {
+        "kind": "level_up",
+        "level": 58
+      }
+    },
+    {
+      "id": "evo_siltkin",
+      "from": "siltkin",
+      "to": "silthorn",
+      "condition": {
+        "kind": "level_up",
+        "level": 56
+      }
+    },
+    {
+      "id": "evo_draftlet",
+      "from": "draftlet",
+      "to": "drafttail",
+      "condition": {
+        "kind": "level_up",
+        "level": 56
+      }
+    },
+    {
+      "id": "evo_opalling",
+      "from": "opalling",
+      "to": "opalclaw",
+      "condition": {
+        "kind": "level_up",
+        "level": 56
+      }
+    },
+    {
+      "id": "evo_cinder980",
+      "from": "cinder980",
+      "to": "cinder981",
+      "condition": {
+        "kind": "level_up",
+        "level": 56
+      }
+    },
+    {
+      "id": "evo_brine990",
+      "from": "brine990",
+      "to": "brine991",
+      "condition": {
+        "kind": "level_up",
+        "level": 56
+      }
+    },
+    {
+      "id": "evo_bramble9100",
+      "from": "bramble9100",
+      "to": "bramble9101",
+      "condition": {
+        "kind": "level_up",
+        "level": 56
+      }
+    },
+    {
+      "id": "evo_volt9110",
+      "from": "volt9110",
+      "to": "volt9111",
+      "condition": {
+        "kind": "level_up",
+        "level": 56
+      }
+    },
+    {
       "id": "evo_vebramaling",
       "from": "vebramaling",
       "to": "vebramafang",

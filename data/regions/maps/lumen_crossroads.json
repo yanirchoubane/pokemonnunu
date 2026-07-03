@@ -214,14 +214,6 @@
       "y": 6
     },
     {
-      "type": "npc",
-      "x": 7,
-      "y": 6,
-      "npc_id": "corin",
-      "sprite": "npc_rival",
-      "dialog_id": "corin_road"
-    },
-    {
       "type": "door",
       "x": 0,
       "y": 7,
@@ -246,6 +238,14 @@
       "id": "from_landmark",
       "x": 1,
       "y": 1
+    },
+    {
+      "type": "npc",
+      "x": 7,
+      "y": 6,
+      "npc_id": "corin",
+      "sprite": "npc_rival",
+      "dialog_id": "corin_road"
     },
     {
       "type": "npc",

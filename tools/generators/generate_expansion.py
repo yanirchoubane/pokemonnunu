@@ -456,8 +456,10 @@ def main():
             "Professor Maple's report gains a final chapter: the one where you gave the roads back.",
         ],
     })
-    # Priority order: nine crests > order undone > champion > bonds > lone pioneer.
-    priority = ["ending_nine_crests", "ending_order_undone", "ending_champion",
+    # Canonical first-match-wins order. Must stay in sync with ENDING_ORDER in
+    # generate_story_placements.py (which runs later and re-enforces it).
+    priority = ["ending_nine_crests", "ending_rivals_true", "ending_order_mercy",
+                "ending_order_justice", "ending_order_undone", "ending_champion",
                 "ending_bonds", "ending_lone_pioneer"]
     endings_doc["endings"].sort(
         key=lambda e: priority.index(e["id"]) if e["id"] in priority else 99)

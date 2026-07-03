@@ -30,8 +30,8 @@ whether the journey has meant anything with him in it.
 ## The antagonist: the Hollow Order
 
 A gray-coated order that "collects debts" from trainers on the northern roads. In
-**Cindral** you meet **Sable**, a **defector**, who explains that the Order isn't strong —
-it's *empty*, hollowing people until taking feels like winning. Talking to Sable starts
+**Cindral** you meet **Verel**, a **defector**, who explains that the Order isn't strong —
+it's *empty*, hollowing people until taking feels like winning. Talking to Verel starts
 the quest **"Shadows of the Hollow Order"** and lets you set your stance
 (`order_stance`: justice or mercy).
 

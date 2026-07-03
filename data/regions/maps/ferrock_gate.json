@@ -69,15 +69,15 @@
       "stock": [
         "capture_orb",
         "great_orb",
+        "dusk_orb",
         "potion",
         "super_potion",
-        "antidote",
-        "revive",
-        "dusk_orb",
         "hyper_potion",
         "max_potion",
+        "antidote",
         "burn_salve",
         "spark_charm",
+        "revive",
         "max_revive"
       ],
       "dialogue": [
@@ -103,7 +103,7 @@
     },
     {
       "type": "npc",
-      "x": 2,
+      "x": 4,
       "y": 4,
       "npc_id": "folk_ferrock_g0",
       "sprite": "npc_villager",

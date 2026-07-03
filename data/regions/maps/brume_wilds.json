@@ -110,6 +110,16 @@
       "flag": "beat_brume_miner"
     },
     {
+      "type": "trainer",
+      "x": 5,
+      "y": 1,
+      "trainer_id": "corin_rival_3",
+      "sprite": "trainer_rival",
+      "sight": 2,
+      "facing": "down",
+      "flag": "beat_corin_rival_3"
+    },
+    {
       "type": "sign",
       "x": 4,
       "y": 3,

@@ -134,7 +134,7 @@ def main() -> int:
         lines.append(f"| {r['display_name']} | {landmark_name(rid)} | {blurbs.get(rid, '')} |")
 
     lines.append("\n## The Hollow Order arc\n")
-    lines.append("Defector **Sable** (Cindral) → agents **Vole** (Cindral), **Cinder** (Ferrock), "
+    lines.append("Defector **Verel** (Cindral) → agents **Vole** (Cindral), **Cinder** (Ferrock), "
                  "**Wisp** (Lumen) → **Lieutenant Mourn** (Duskbell Grove, Umbra) → the **Archon** "
                  "(Zephyra wilds) → a **mercy / justice** choice that, with your rival relationship, "
                  "selects one of 8 endings. See `STORY.md`.\n")

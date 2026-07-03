@@ -295,3 +295,24 @@ edit is required. See `DATA_FORMAT.md` and `REGION_CREATION_GUIDE.md`.
     the Order arc). Total signs: 209.
   - Totals: **76 dialog scripts, 97 map NPCs, 209 signs, 50→76 dialogs**. Validators,
     check_chain and 30/30 tests all pass; WORLD.md regenerated.
+- 2026-07-03 — **Coherence hardening + rival battles**:
+  - Fixed a name collision: the Hollow defector is now **Verel** (was "Sable", clashing
+    with Warden Sable, Verdantia's gym boss) — renamed across dialogs, generators, docs.
+  - The 7 generated-region quest texts now name the actual Champions (synced by
+    `rewrite_trainer_voices.py`, so re-runs keep them coherent).
+  - **New canonical pipeline `tools/generators/run_all.py`** — runs every generator in
+    the one valid order, then all verifiers. Proved convergent end-to-end (twice).
+  - **`generate_story_placements.py` now OWNS the story**: cast placements (Corin ×9,
+    Verel, Mourn, Archon + mask), the named agent cell, the Lieutenant record, the
+    Hollow quest shape (Lieutenant step, finale-choice completion) and the canonical
+    ending order — previously one-off edits that a pipeline re-run silently erased
+    (endings mis-ordered, agents renamed back, quest step lost). All restored and pinned.
+  - Gate shops now stock the extras items on regeneration; gate townsfolk no longer
+    overlap the gate sign tile.
+  - **NEW: 3 rival battles vs Corin** (`generate_rival_battles.py`) — Verdantia route,
+    Solane wilds, Brume wilds — his team grows coherently across the game (Chirpit/Nibbit
+    → evolved forms + a Sunwisp caught in Solane → + a Brume Murkfin), with fork-neutral
+    mature dialogue, plus the side quest "The Count Between Us" (+2 Corin relationship on
+    completion, feeding the Rivals-to-the-End ending).
+  - Full pipeline + all verifiers green: data validation, world walk (incl. the new
+    Corin trainer tiles), structural gaps, 30/30 math tests.

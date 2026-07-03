@@ -52,7 +52,7 @@ ARCHES = [
         "I'm free of them now. Cost me the farm, but a debt paid in dirt is still paid."]),
     ("sympathizer", "Quiet {N}", [
         "I almost took the gray coat, you know. When you've lost enough, 'take before it's taken' sounds like wisdom.",
-        "The defector talked me out of it. Sable. Ask for them at the northern gate if you haven't met yet."],
+        "The defector talked me out of it. Verel. Ask for them at the northern gate if you haven't met yet."],
      [("Why didn't you join?", None, None, 0,
        "Quiet {N}: Because hollow's a one-way road. You don't come back with more. You come back with less."),
       ("Weakness, then.", "adjust_relationship", "quiet", -1,
@@ -92,7 +92,7 @@ REGION_SPECIFIC = {
 
 # placement: (map_suffix, [tiles]) per location kind
 CROSS_TILES = [(4, 2), (11, 2), (4, 6), (11, 6), (6, 2), (9, 6)]
-GATE_TILES = [(2, 4), (9, 5)]        # generated *_gate maps (12x7)
+GATE_TILES = [(4, 4), (9, 5)]        # generated *_gate maps (12x7); (2,4) holds the gate sign
 LAND_TILES = [(8, 3), (2, 5)]        # landmark maps (11x9)
 GENERATED = ["cindral", "solane", "umbra", "ferrock", "brume", "lumen", "zephyra"]
 SPRITE = {"veteran": "npc_watcher", "debtor": "npc_villager", "sympathizer": "npc_villager",

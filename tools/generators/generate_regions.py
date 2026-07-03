@@ -112,7 +112,9 @@ REGIONS = [
     },
 ]
 
-SHOP_STOCK = ["capture_orb", "great_orb", "potion", "super_potion", "antidote", "revive"]
+SHOP_STOCK = ["capture_orb", "great_orb", "dusk_orb", "potion", "super_potion",
+              "hyper_potion", "max_potion", "antidote", "burn_salve", "spark_charm",
+              "revive", "max_revive"]
 
 
 def band(order: int) -> tuple[int, int]:

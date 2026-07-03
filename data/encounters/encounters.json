@@ -117,6 +117,118 @@
           "level_min": 2,
           "level_max": 8,
           "rarity": "common"
+        },
+        {
+          "creature": "meadowet",
+          "weight": 8,
+          "level_min": 2,
+          "level_max": 8,
+          "rarity": "common"
+        },
+        {
+          "creature": "torchkin",
+          "weight": 8,
+          "level_min": 2,
+          "level_max": 8,
+          "rarity": "common"
+        },
+        {
+          "creature": "currentlet",
+          "weight": 8,
+          "level_min": 2,
+          "level_max": 8,
+          "rarity": "common"
+        },
+        {
+          "creature": "sprigling",
+          "weight": 8,
+          "level_min": 2,
+          "level_max": 8,
+          "rarity": "common"
+        },
+        {
+          "creature": "staticit",
+          "weight": 8,
+          "level_min": 2,
+          "level_max": 8,
+          "rarity": "common"
+        },
+        {
+          "creature": "cairnit",
+          "weight": 8,
+          "level_min": 2,
+          "level_max": 8,
+          "rarity": "common"
+        },
+        {
+          "creature": "kestrelet",
+          "weight": 8,
+          "level_min": 2,
+          "level_max": 8,
+          "rarity": "common"
+        },
+        {
+          "creature": "eidolie",
+          "weight": 8,
+          "level_min": 2,
+          "level_max": 8,
+          "rarity": "common"
+        },
+        {
+          "creature": "loperie",
+          "weight": 8,
+          "level_min": 2,
+          "level_max": 8,
+          "rarity": "common"
+        },
+        {
+          "creature": "cinder110",
+          "weight": 8,
+          "level_min": 2,
+          "level_max": 8,
+          "rarity": "common"
+        },
+        {
+          "creature": "brine120",
+          "weight": 8,
+          "level_min": 2,
+          "level_max": 8,
+          "rarity": "common"
+        },
+        {
+          "creature": "bramble130",
+          "weight": 8,
+          "level_min": 2,
+          "level_max": 8,
+          "rarity": "common"
+        },
+        {
+          "creature": "volt140",
+          "weight": 8,
+          "level_min": 2,
+          "level_max": 8,
+          "rarity": "common"
+        },
+        {
+          "creature": "siltet",
+          "weight": 8,
+          "level_min": 2,
+          "level_max": 8,
+          "rarity": "common"
+        },
+        {
+          "creature": "draftie",
+          "weight": 8,
+          "level_min": 2,
+          "level_max": 8,
+          "rarity": "common"
+        },
+        {
+          "creature": "opalkin",
+          "weight": 8,
+          "level_min": 2,
+          "level_max": 8,
+          "rarity": "common"
         }
       ]
     },
@@ -242,6 +354,118 @@
           "level_min": 8,
           "level_max": 14,
           "rarity": "common"
+        },
+        {
+          "creature": "dappleie",
+          "weight": 8,
+          "level_min": 8,
+          "level_max": 14,
+          "rarity": "common"
+        },
+        {
+          "creature": "charrlet",
+          "weight": 8,
+          "level_min": 8,
+          "level_max": 14,
+          "rarity": "common"
+        },
+        {
+          "creature": "driftling",
+          "weight": 8,
+          "level_min": 8,
+          "level_max": 14,
+          "rarity": "common"
+        },
+        {
+          "creature": "seedit",
+          "weight": 8,
+          "level_min": 8,
+          "level_max": 14,
+          "rarity": "common"
+        },
+        {
+          "creature": "voltet",
+          "weight": 8,
+          "level_min": 8,
+          "level_max": 14,
+          "rarity": "common"
+        },
+        {
+          "creature": "boulderet",
+          "weight": 8,
+          "level_min": 8,
+          "level_max": 14,
+          "rarity": "common"
+        },
+        {
+          "creature": "squallie",
+          "weight": 8,
+          "level_min": 8,
+          "level_max": 14,
+          "rarity": "common"
+        },
+        {
+          "creature": "trancekin",
+          "weight": 8,
+          "level_min": 8,
+          "level_max": 14,
+          "rarity": "common"
+        },
+        {
+          "creature": "valekin",
+          "weight": 8,
+          "level_min": 8,
+          "level_max": 14,
+          "rarity": "common"
+        },
+        {
+          "creature": "cinder210",
+          "weight": 8,
+          "level_min": 8,
+          "level_max": 14,
+          "rarity": "common"
+        },
+        {
+          "creature": "brine220",
+          "weight": 8,
+          "level_min": 8,
+          "level_max": 14,
+          "rarity": "common"
+        },
+        {
+          "creature": "bramble230",
+          "weight": 8,
+          "level_min": 8,
+          "level_max": 14,
+          "rarity": "common"
+        },
+        {
+          "creature": "volt240",
+          "weight": 8,
+          "level_min": 8,
+          "level_max": 14,
+          "rarity": "common"
+        },
+        {
+          "creature": "shaleie",
+          "weight": 8,
+          "level_min": 8,
+          "level_max": 14,
+          "rarity": "common"
+        },
+        {
+          "creature": "breezekin",
+          "weight": 8,
+          "level_min": 8,
+          "level_max": 14,
+          "rarity": "common"
+        },
+        {
+          "creature": "auralet",
+          "weight": 8,
+          "level_min": 8,
+          "level_max": 14,
+          "rarity": "common"
         }
       ]
     },
@@ -292,56 +516,56 @@
           "rarity": "uncommon"
         },
         {
-          "creature": "harrowie",
+          "creature": "russetlet",
           "weight": 8,
           "level_min": 14,
           "level_max": 20,
           "rarity": "common"
         },
         {
-          "creature": "blazenkin",
+          "creature": "cinder310",
           "weight": 8,
           "level_min": 14,
           "level_max": 20,
           "rarity": "common"
         },
         {
-          "creature": "mistlet",
+          "creature": "brine320",
           "weight": 8,
           "level_min": 14,
           "level_max": 20,
           "rarity": "common"
         },
         {
-          "creature": "brambleling",
+          "creature": "bramble330",
           "weight": 8,
           "level_min": 14,
           "level_max": 20,
           "rarity": "common"
         },
         {
-          "creature": "arcit",
+          "creature": "volt340",
           "weight": 8,
           "level_min": 14,
           "level_max": 20,
           "rarity": "common"
         },
         {
-          "creature": "clayet",
+          "creature": "dunekin",
           "weight": 8,
           "level_min": 14,
           "level_max": 20,
           "rarity": "common"
         },
         {
-          "creature": "cirrusie",
+          "creature": "aerolet",
           "weight": 8,
           "level_min": 14,
           "level_max": 20,
           "rarity": "common"
         },
         {
-          "creature": "omenkin",
+          "creature": "mystling",
           "weight": 8,
           "level_min": 14,
           "level_max": 20,
@@ -403,56 +627,56 @@
           "rarity": "uncommon"
         },
         {
-          "creature": "fawnkin",
+          "creature": "tuftling",
           "weight": 8,
           "level_min": 20,
           "level_max": 26,
           "rarity": "common"
         },
         {
-          "creature": "pyrelet",
+          "creature": "cinder410",
           "weight": 8,
           "level_min": 20,
           "level_max": 26,
           "rarity": "common"
         },
         {
-          "creature": "coveling",
+          "creature": "brine420",
           "weight": 8,
           "level_min": 20,
           "level_max": 26,
           "rarity": "common"
         },
         {
-          "creature": "petalit",
+          "creature": "bramble430",
           "weight": 8,
           "level_min": 20,
           "level_max": 26,
           "rarity": "common"
         },
         {
-          "creature": "surgeet",
+          "creature": "volt440",
           "weight": 8,
           "level_min": 20,
           "level_max": 26,
           "rarity": "common"
         },
         {
-          "creature": "quarryie",
+          "creature": "basaltlet",
           "weight": 8,
           "level_min": 20,
           "level_max": 26,
           "rarity": "common"
         },
         {
-          "creature": "stratokin",
+          "creature": "vaneling",
           "weight": 8,
           "level_min": 20,
           "level_max": 26,
           "rarity": "common"
         },
         {
-          "creature": "arcanelet",
+          "creature": "solaceit",
           "weight": 8,
           "level_min": 20,
           "level_max": 26,
@@ -507,56 +731,56 @@
           "rarity": "common"
         },
         {
-          "creature": "burrowlet",
+          "creature": "loperit",
           "weight": 8,
           "level_min": 26,
           "level_max": 32,
           "rarity": "common"
         },
         {
-          "creature": "kilnling",
+          "creature": "cinder510",
           "weight": 8,
           "level_min": 26,
           "level_max": 32,
           "rarity": "common"
         },
         {
-          "creature": "lagoonit",
+          "creature": "brine520",
           "weight": 8,
           "level_min": 26,
           "level_max": 32,
           "rarity": "common"
         },
         {
-          "creature": "thistleet",
+          "creature": "bramble530",
           "weight": 8,
           "level_min": 26,
           "level_max": 32,
           "rarity": "common"
         },
         {
-          "creature": "joltie",
+          "creature": "volt540",
           "weight": 8,
           "level_min": 26,
           "level_max": 32,
           "rarity": "common"
         },
         {
-          "creature": "ridgekin",
+          "creature": "siltling",
           "weight": 8,
           "level_min": 26,
           "level_max": 32,
           "rarity": "common"
         },
         {
-          "creature": "soarlet",
+          "creature": "draftit",
           "weight": 8,
           "level_min": 26,
           "level_max": 32,
           "rarity": "common"
         },
         {
-          "creature": "visionling",
+          "creature": "opalet",
           "weight": 8,
           "level_min": 26,
           "level_max": 32,
@@ -618,56 +842,56 @@
           "rarity": "uncommon"
         },
         {
-          "creature": "whiskling",
+          "creature": "valeet",
           "weight": 8,
           "level_min": 32,
           "level_max": 38,
           "rarity": "common"
         },
         {
-          "creature": "smolderit",
+          "creature": "cinder610",
           "weight": 8,
           "level_min": 32,
           "level_max": 38,
           "rarity": "common"
         },
         {
-          "creature": "deltaet",
+          "creature": "brine620",
           "weight": 8,
           "level_min": 32,
           "level_max": 38,
           "rarity": "common"
         },
         {
-          "creature": "canopyie",
+          "creature": "bramble630",
           "weight": 8,
           "level_min": 32,
           "level_max": 38,
           "rarity": "common"
         },
         {
-          "creature": "fulgorkin",
+          "creature": "volt640",
           "weight": 8,
           "level_min": 32,
           "level_max": 38,
           "rarity": "common"
         },
         {
-          "creature": "marllet",
+          "creature": "shaleit",
           "weight": 8,
           "level_min": 32,
           "level_max": 38,
           "rarity": "common"
         },
         {
-          "creature": "zephyrling",
+          "creature": "breezeet",
           "weight": 8,
           "level_min": 32,
           "level_max": 38,
           "rarity": "common"
         },
         {
-          "creature": "runeit",
+          "creature": "auraie",
           "weight": 8,
           "level_min": 32,
           "level_max": 38,
@@ -729,56 +953,56 @@
           "rarity": "uncommon"
         },
         {
-          "creature": "harrowit",
+          "creature": "russetie",
           "weight": 8,
           "level_min": 38,
           "level_max": 44,
           "rarity": "common"
         },
         {
-          "creature": "blazenet",
+          "creature": "cinder710",
           "weight": 8,
           "level_min": 38,
           "level_max": 44,
           "rarity": "common"
         },
         {
-          "creature": "mistie",
+          "creature": "brine720",
           "weight": 8,
           "level_min": 38,
           "level_max": 44,
           "rarity": "common"
         },
         {
-          "creature": "bramblekin",
+          "creature": "bramble730",
           "weight": 8,
           "level_min": 38,
           "level_max": 44,
           "rarity": "common"
         },
         {
-          "creature": "arclet",
+          "creature": "volt740",
           "weight": 8,
           "level_min": 38,
           "level_max": 44,
           "rarity": "common"
         },
         {
-          "creature": "clayling",
+          "creature": "duneet",
           "weight": 8,
           "level_min": 38,
           "level_max": 44,
           "rarity": "common"
         },
         {
-          "creature": "cirrusit",
+          "creature": "aeroie",
           "weight": 8,
           "level_min": 38,
           "level_max": 44,
           "rarity": "common"
         },
         {
-          "creature": "omenet",
+          "creature": "mystkin",
           "weight": 8,
           "level_min": 38,
           "level_max": 44,
@@ -833,56 +1057,56 @@
           "rarity": "uncommon"
         },
         {
-          "creature": "fawnet",
+          "creature": "tuftkin",
           "weight": 8,
           "level_min": 44,
           "level_max": 50,
           "rarity": "common"
         },
         {
-          "creature": "pyreie",
+          "creature": "cinder810",
           "weight": 8,
           "level_min": 44,
           "level_max": 50,
           "rarity": "common"
         },
         {
-          "creature": "covekin",
+          "creature": "brine820",
           "weight": 8,
           "level_min": 44,
           "level_max": 50,
           "rarity": "common"
         },
         {
-          "creature": "petallet",
+          "creature": "bramble830",
           "weight": 8,
           "level_min": 44,
           "level_max": 50,
           "rarity": "common"
         },
         {
-          "creature": "surgeling",
+          "creature": "volt840",
           "weight": 8,
           "level_min": 44,
           "level_max": 50,
           "rarity": "common"
         },
         {
-          "creature": "quarryit",
+          "creature": "basaltie",
           "weight": 8,
           "level_min": 44,
           "level_max": 50,
           "rarity": "common"
         },
         {
-          "creature": "stratoet",
+          "creature": "vanekin",
           "weight": 8,
           "level_min": 44,
           "level_max": 50,
           "rarity": "common"
         },
         {
-          "creature": "arcaneie",
+          "creature": "solacelet",
           "weight": 8,
           "level_min": 44,
           "level_max": 50,
@@ -937,56 +1161,56 @@
           "rarity": "legendary"
         },
         {
-          "creature": "burrowie",
+          "creature": "loperlet",
           "weight": 8,
           "level_min": 50,
           "level_max": 56,
           "rarity": "common"
         },
         {
-          "creature": "kilnkin",
+          "creature": "cinder910",
           "weight": 8,
           "level_min": 50,
           "level_max": 56,
           "rarity": "common"
         },
         {
-          "creature": "lagoonlet",
+          "creature": "brine920",
           "weight": 8,
           "level_min": 50,
           "level_max": 56,
           "rarity": "common"
         },
         {
-          "creature": "thistleling",
+          "creature": "bramble930",
           "weight": 8,
           "level_min": 50,
           "level_max": 56,
           "rarity": "common"
         },
         {
-          "creature": "joltit",
+          "creature": "volt940",
           "weight": 8,
           "level_min": 50,
           "level_max": 56,
           "rarity": "common"
         },
         {
-          "creature": "ridgeet",
+          "creature": "siltkin",
           "weight": 8,
           "level_min": 50,
           "level_max": 56,
           "rarity": "common"
         },
         {
-          "creature": "soarie",
+          "creature": "draftlet",
           "weight": 8,
           "level_min": 50,
           "level_max": 56,
           "rarity": "common"
         },
         {
-          "creature": "visionkin",
+          "creature": "opalling",
           "weight": 8,
           "level_min": 50,
           "level_max": 56,

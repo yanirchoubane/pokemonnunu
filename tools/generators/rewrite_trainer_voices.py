@@ -156,7 +156,23 @@ def main():
             champs += 1
 
     save(tp, doc)
-    print(f"Rewrote voices: {gyms} gym leaders, {elites} Elites, {champs} Champions.")
+
+    # Keep quest texts coherent with the champion names (generate_regions writes
+    # the generic "Champion of X" — this pass, run after it, fixes them up).
+    qp = os.path.join(DATA, "quests", "quests.json")
+    qdoc = load(qp)
+    synced = 0
+    for quest in qdoc["quests"]:
+        for rid in REGION_ORDER:
+            if quest["id"] == f"main_{rid}" and rid in CHAMP_NAME:
+                for obj in quest.get("objectives", []):
+                    if obj.get("id") == "obj_champion":
+                        obj["text"] = ("Defeat %s, Champion of %s, in the League hall."
+                                       % (CHAMP_NAME[rid], rid.capitalize()))
+                        synced += 1
+    save(qp, qdoc)
+    print(f"Rewrote voices: {gyms} gym leaders, {elites} Elites, {champs} Champions; "
+          f"synced {synced} quest texts.")
 
 
 if __name__ == "__main__":

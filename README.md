@@ -161,6 +161,16 @@ For a full scaffold (three maps, encounter table, scout + boss trainers, quest, 
 wiring), add a spec to `tools/generators/generate_regions.py` and re-run it — that is how
 regions 3–9 were produced. The generator is idempotent (records upsert by id).
 
+### Regenerating the world
+⚠️ **Never run a single content generator in isolation** — several rewrite files that
+later ones patch (the League replaces summit halls, the story pass re-pins the cast onto
+rewritten maps, the voices pass renames champions and syncs quest texts). Always use the
+canonical pipeline, which runs everything in the one valid order and then all verifiers:
+
+```bash
+python3 tools/generators/run_all.py
+```
+
 ### Create a save
 Play, open the pause menu (Esc) → **Save**, pick a slot. Autosave fires after each battle.
 See [`SAVE_FORMAT.md`](SAVE_FORMAT.md).
