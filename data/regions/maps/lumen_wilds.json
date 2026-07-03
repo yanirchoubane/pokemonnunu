@@ -78,6 +78,46 @@
       "x": 4,
       "y": 3,
       "text": "Lumen Wilds — locals report creatures around Lv 44."
+    },
+    {
+      "type": "trainer",
+      "x": 2,
+      "y": 3,
+      "trainer_id": "lumen_rambler",
+      "sprite": "trainer_rambler",
+      "sight": 2,
+      "facing": "down",
+      "flag": "beat_lumen_rambler"
+    },
+    {
+      "type": "trainer",
+      "x": 11,
+      "y": 5,
+      "trainer_id": "lumen_angler",
+      "sprite": "trainer_angler",
+      "sight": 2,
+      "facing": "up",
+      "flag": "beat_lumen_angler"
+    },
+    {
+      "type": "trainer",
+      "x": 6,
+      "y": 6,
+      "trainer_id": "lumen_miner",
+      "sprite": "trainer_miner",
+      "sight": 2,
+      "facing": "right",
+      "flag": "beat_lumen_miner"
+    },
+    {
+      "type": "trainer",
+      "x": 10,
+      "y": 2,
+      "trainer_id": "hollow_agent_lumen",
+      "sprite": "trainer_hollow",
+      "sight": 2,
+      "facing": "down",
+      "flag": "beat_hollow_agent_lumen"
     }
   ]
 }

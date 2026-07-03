@@ -40,6 +40,27 @@
           "level_min": 3,
           "level_max": 6,
           "rarity": "uncommon"
+        },
+        {
+          "creature": "chirpit",
+          "weight": 18,
+          "level_min": 2,
+          "level_max": 8,
+          "rarity": "common"
+        },
+        {
+          "creature": "nibbit",
+          "weight": 18,
+          "level_min": 2,
+          "level_max": 8,
+          "rarity": "common"
+        },
+        {
+          "creature": "glimbug",
+          "weight": 18,
+          "level_min": 2,
+          "level_max": 8,
+          "rarity": "common"
         }
       ]
     },
@@ -88,6 +109,27 @@
           "level_min": 9,
           "level_max": 13,
           "rarity": "uncommon"
+        },
+        {
+          "creature": "floekit",
+          "weight": 18,
+          "level_min": 8,
+          "level_max": 14,
+          "rarity": "common"
+        },
+        {
+          "creature": "skerrit",
+          "weight": 10,
+          "level_min": 8,
+          "level_max": 14,
+          "rarity": "uncommon"
+        },
+        {
+          "creature": "brinemaw",
+          "weight": 10,
+          "level_min": 8,
+          "level_max": 14,
+          "rarity": "uncommon"
         }
       ]
     },
@@ -121,6 +163,20 @@
           "weight": 15,
           "level_min": 16,
           "level_max": 21,
+          "rarity": "uncommon"
+        },
+        {
+          "creature": "flarekit",
+          "weight": 18,
+          "level_min": 14,
+          "level_max": 20,
+          "rarity": "common"
+        },
+        {
+          "creature": "sootwing",
+          "weight": 10,
+          "level_min": 14,
+          "level_max": 20,
           "rarity": "uncommon"
         }
       ]
@@ -156,6 +212,27 @@
           "level_min": 22,
           "level_max": 27,
           "rarity": "uncommon"
+        },
+        {
+          "creature": "cactling",
+          "weight": 18,
+          "level_min": 20,
+          "level_max": 26,
+          "rarity": "common"
+        },
+        {
+          "creature": "mirageel",
+          "weight": 10,
+          "level_min": 20,
+          "level_max": 26,
+          "rarity": "uncommon"
+        },
+        {
+          "creature": "scorchion",
+          "weight": 10,
+          "level_min": 20,
+          "level_max": 26,
+          "rarity": "uncommon"
         }
       ]
     },
@@ -190,6 +267,20 @@
           "level_min": 28,
           "level_max": 33,
           "rarity": "uncommon"
+        },
+        {
+          "creature": "shadeling",
+          "weight": 18,
+          "level_min": 26,
+          "level_max": 32,
+          "rarity": "common"
+        },
+        {
+          "creature": "sporeling",
+          "weight": 18,
+          "level_min": 26,
+          "level_max": 32,
+          "rarity": "common"
         }
       ]
     },
@@ -223,6 +314,27 @@
           "weight": 15,
           "level_min": 34,
           "level_max": 39,
+          "rarity": "uncommon"
+        },
+        {
+          "creature": "ironsnout",
+          "weight": 18,
+          "level_min": 32,
+          "level_max": 38,
+          "rarity": "common"
+        },
+        {
+          "creature": "coilbolt",
+          "weight": 10,
+          "level_min": 32,
+          "level_max": 38,
+          "rarity": "uncommon"
+        },
+        {
+          "creature": "rustwing",
+          "weight": 10,
+          "level_min": 32,
+          "level_max": 38,
           "rarity": "uncommon"
         }
       ]
@@ -258,6 +370,27 @@
           "level_min": 40,
           "level_max": 45,
           "rarity": "uncommon"
+        },
+        {
+          "creature": "mireling",
+          "weight": 18,
+          "level_min": 38,
+          "level_max": 44,
+          "rarity": "common"
+        },
+        {
+          "creature": "fogfin",
+          "weight": 10,
+          "level_min": 38,
+          "level_max": 44,
+          "rarity": "uncommon"
+        },
+        {
+          "creature": "wispurr",
+          "weight": 10,
+          "level_min": 38,
+          "level_max": 44,
+          "rarity": "uncommon"
         }
       ]
     },
@@ -291,6 +424,20 @@
           "weight": 15,
           "level_min": 46,
           "level_max": 51,
+          "rarity": "uncommon"
+        },
+        {
+          "creature": "shardling",
+          "weight": 18,
+          "level_min": 44,
+          "level_max": 50,
+          "rarity": "common"
+        },
+        {
+          "creature": "glowray",
+          "weight": 10,
+          "level_min": 44,
+          "level_max": 50,
           "rarity": "uncommon"
         }
       ]
@@ -326,6 +473,20 @@
           "level_min": 52,
           "level_max": 57,
           "rarity": "uncommon"
+        },
+        {
+          "creature": "nimbling",
+          "weight": 18,
+          "level_min": 50,
+          "level_max": 56,
+          "rarity": "common"
+        },
+        {
+          "creature": "aetherion",
+          "weight": 1,
+          "level_min": 55,
+          "level_max": 58,
+          "rarity": "legendary"
         }
       ]
     }

@@ -21,10 +21,14 @@ JSON files that are validated at boot. You can add content without touching engi
 - 🟩 Full playable loop: title → new game → starter → overworld → wild & trainer battles →
   capture → level up → evolution → quest completion → inter-region travel → return → save/load.
 - ✅ **Nine connected regions** (Verdantia → Aquilon → Cindral → Solane → Umbra → Ferrock →
-  Brume → Lumen → Zephyra): each with a gate town (heal + shop), wilds (encounters + scout),
-  and a Summit Hall (boss champion + crest badge), chained by flag-gated ports with return
-  trips. The whole chain's walkability is **verified by a BFS simulation** over the map data.
-  26 original creatures, 19 trainers, 30 maps, 11 quests, 4 endings.
+  Brume → Lumen → Zephyra): each with a gate town (heal + shop), wilds (encounters + scout +
+  route trainers), and a Summit Hall (boss champion + crest badge), chained by flag-gated
+  ports with return trips. The whole chain's walkability is **verified by a BFS simulation**
+  over the map data.
+- ✅ **63 original creatures** (2-3 stage evolution lines, region natives, one apex rarity),
+  **31 moves**, **48 trainers** (9 champions, route classes, an antagonist organization —
+  the Hollow Order — with agents across the north and a final Archon boss), 30 maps,
+  12 quests, 5 endings.
 
 Because Godot may not be installed where this was authored, **scene-level runtime testing
 is done in the Godot editor** (below). The engine-independent core is verified now via the

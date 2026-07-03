@@ -684,6 +684,867 @@
           ]
         }
       ]
+    },
+    {
+      "id": "cindral_rambler",
+      "display_name": "Rambler of Cindral",
+      "sprite": "trainer_rambler",
+      "ai": "intermediate",
+      "boss": false,
+      "reward_money": 280,
+      "dialogue_intro": "Rambler: These trails taught me everything. Your turn to learn!",
+      "dialogue_defeat": "Rambler: Well fought. The road is yours.",
+      "dialogue_victory": "Rambler: The road humbles everyone eventually.",
+      "team": [
+        {
+          "creature": "flarekit",
+          "level": 15,
+          "moves": [
+            "tackle",
+            "ember_burst"
+          ]
+        },
+        {
+          "creature": "magmaraud",
+          "level": 16,
+          "moves": [
+            "ember_burst",
+            "stone_toss"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cindral_angler",
+      "display_name": "Angler of Cindral",
+      "sprite": "trainer_angler",
+      "ai": "basic",
+      "boss": false,
+      "reward_money": 280,
+      "dialogue_intro": "Angler: Patience wins fights and fills nets. Got either?",
+      "dialogue_defeat": "Angler: Well fought. The road is yours.",
+      "dialogue_victory": "Angler: The road humbles everyone eventually.",
+      "team": [
+        {
+          "creature": "magmaraud",
+          "level": 15,
+          "moves": [
+            "ember_burst"
+          ]
+        },
+        {
+          "creature": "sootwing",
+          "level": 16,
+          "moves": [
+            "tackle",
+            "ember_burst"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cindral_miner",
+      "display_name": "Miner of Cindral",
+      "sprite": "trainer_miner",
+      "ai": "intermediate",
+      "boss": false,
+      "reward_money": 280,
+      "dialogue_intro": "Miner: I dig up more than ore out here. En garde!",
+      "dialogue_defeat": "Miner: Well fought. The road is yours.",
+      "dialogue_victory": "Miner: The road humbles everyone eventually.",
+      "team": [
+        {
+          "creature": "sootwing",
+          "level": 15,
+          "moves": [
+            "tackle",
+            "ember_burst"
+          ]
+        },
+        {
+          "creature": "flarekit",
+          "level": 16,
+          "moves": [
+            "tackle",
+            "ember_burst",
+            "blaze_wheel"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hollow_agent_cindral",
+      "display_name": "Hollow Order Agent",
+      "sprite": "trainer_hollow",
+      "ai": "advanced",
+      "boss": false,
+      "reward_money": 440,
+      "dialogue_intro": "Agent: The Order hollows out what trainers hoard. Stand aside.",
+      "dialogue_defeat": "Agent: The Archon will hear of you...",
+      "dialogue_victory": "Agent: Hoarders always fall.",
+      "team": [
+        {
+          "creature": "flarekit",
+          "level": 17,
+          "moves": [
+            "tackle",
+            "ember_burst",
+            "blaze_wheel"
+          ]
+        },
+        {
+          "creature": "sootwing",
+          "level": 18,
+          "moves": [
+            "tackle",
+            "ember_burst",
+            "gale_slash"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "solane_rambler",
+      "display_name": "Rambler of Solane",
+      "sprite": "trainer_rambler",
+      "ai": "intermediate",
+      "boss": false,
+      "reward_money": 340,
+      "dialogue_intro": "Rambler: These trails taught me everything. Your turn to learn!",
+      "dialogue_defeat": "Rambler: Well fought. The road is yours.",
+      "dialogue_victory": "Rambler: The road humbles everyone eventually.",
+      "team": [
+        {
+          "creature": "cactling",
+          "level": 21,
+          "moves": [
+            "tackle",
+            "leaf_cut"
+          ]
+        },
+        {
+          "creature": "saguarok",
+          "level": 22,
+          "moves": [
+            "leaf_cut",
+            "stone_toss"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "solane_angler",
+      "display_name": "Angler of Solane",
+      "sprite": "trainer_angler",
+      "ai": "basic",
+      "boss": false,
+      "reward_money": 340,
+      "dialogue_intro": "Angler: Patience wins fights and fills nets. Got either?",
+      "dialogue_defeat": "Angler: Well fought. The road is yours.",
+      "dialogue_victory": "Angler: The road humbles everyone eventually.",
+      "team": [
+        {
+          "creature": "saguarok",
+          "level": 21,
+          "moves": [
+            "leaf_cut"
+          ]
+        },
+        {
+          "creature": "mirageel",
+          "level": 22,
+          "moves": [
+            "tackle",
+            "mind_ray"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "solane_miner",
+      "display_name": "Miner of Solane",
+      "sprite": "trainer_miner",
+      "ai": "intermediate",
+      "boss": false,
+      "reward_money": 340,
+      "dialogue_intro": "Miner: I dig up more than ore out here. En garde!",
+      "dialogue_defeat": "Miner: Well fought. The road is yours.",
+      "dialogue_victory": "Miner: The road humbles everyone eventually.",
+      "team": [
+        {
+          "creature": "mirageel",
+          "level": 21,
+          "moves": [
+            "tackle",
+            "mind_ray"
+          ]
+        },
+        {
+          "creature": "scorchion",
+          "level": 22,
+          "moves": [
+            "tackle",
+            "ember_burst"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "umbra_rambler",
+      "display_name": "Rambler of Umbra",
+      "sprite": "trainer_rambler",
+      "ai": "intermediate",
+      "boss": false,
+      "reward_money": 400,
+      "dialogue_intro": "Rambler: These trails taught me everything. Your turn to learn!",
+      "dialogue_defeat": "Rambler: Well fought. The road is yours.",
+      "dialogue_victory": "Rambler: The road humbles everyone eventually.",
+      "team": [
+        {
+          "creature": "shadeling",
+          "level": 27,
+          "moves": [
+            "tackle",
+            "mind_ray"
+          ]
+        },
+        {
+          "creature": "umbrelynx",
+          "level": 28,
+          "moves": [
+            "mind_ray",
+            "dream_pulse"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "umbra_angler",
+      "display_name": "Angler of Umbra",
+      "sprite": "trainer_angler",
+      "ai": "basic",
+      "boss": false,
+      "reward_money": 400,
+      "dialogue_intro": "Angler: Patience wins fights and fills nets. Got either?",
+      "dialogue_defeat": "Angler: Well fought. The road is yours.",
+      "dialogue_victory": "Angler: The road humbles everyone eventually.",
+      "team": [
+        {
+          "creature": "umbrelynx",
+          "level": 27,
+          "moves": [
+            "mind_ray"
+          ]
+        },
+        {
+          "creature": "sporeling",
+          "level": 28,
+          "moves": [
+            "tackle",
+            "leaf_cut"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "umbra_miner",
+      "display_name": "Miner of Umbra",
+      "sprite": "trainer_miner",
+      "ai": "intermediate",
+      "boss": false,
+      "reward_money": 400,
+      "dialogue_intro": "Miner: I dig up more than ore out here. En garde!",
+      "dialogue_defeat": "Miner: Well fought. The road is yours.",
+      "dialogue_victory": "Miner: The road humbles everyone eventually.",
+      "team": [
+        {
+          "creature": "sporeling",
+          "level": 27,
+          "moves": [
+            "tackle",
+            "leaf_cut"
+          ]
+        },
+        {
+          "creature": "mycolossus",
+          "level": 28,
+          "moves": [
+            "leaf_cut"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ferrock_rambler",
+      "display_name": "Rambler of Ferrock",
+      "sprite": "trainer_rambler",
+      "ai": "intermediate",
+      "boss": false,
+      "reward_money": 460,
+      "dialogue_intro": "Rambler: These trails taught me everything. Your turn to learn!",
+      "dialogue_defeat": "Rambler: Well fought. The road is yours.",
+      "dialogue_victory": "Rambler: The road humbles everyone eventually.",
+      "team": [
+        {
+          "creature": "ironsnout",
+          "level": 33,
+          "moves": [
+            "tackle",
+            "stone_toss"
+          ]
+        },
+        {
+          "creature": "ferroboar",
+          "level": 34,
+          "moves": [
+            "stone_toss",
+            "sand_grind"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ferrock_angler",
+      "display_name": "Angler of Ferrock",
+      "sprite": "trainer_angler",
+      "ai": "basic",
+      "boss": false,
+      "reward_money": 460,
+      "dialogue_intro": "Angler: Patience wins fights and fills nets. Got either?",
+      "dialogue_defeat": "Angler: Well fought. The road is yours.",
+      "dialogue_victory": "Angler: The road humbles everyone eventually.",
+      "team": [
+        {
+          "creature": "ferroboar",
+          "level": 33,
+          "moves": [
+            "stone_toss"
+          ]
+        },
+        {
+          "creature": "coilbolt",
+          "level": 34,
+          "moves": [
+            "tackle",
+            "spark_zap"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ferrock_miner",
+      "display_name": "Miner of Ferrock",
+      "sprite": "trainer_miner",
+      "ai": "intermediate",
+      "boss": false,
+      "reward_money": 460,
+      "dialogue_intro": "Miner: I dig up more than ore out here. En garde!",
+      "dialogue_defeat": "Miner: Well fought. The road is yours.",
+      "dialogue_victory": "Miner: The road humbles everyone eventually.",
+      "team": [
+        {
+          "creature": "coilbolt",
+          "level": 33,
+          "moves": [
+            "tackle",
+            "spark_zap"
+          ]
+        },
+        {
+          "creature": "rustwing",
+          "level": 34,
+          "moves": [
+            "tackle",
+            "gale_slash"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hollow_agent_ferrock",
+      "display_name": "Hollow Order Agent",
+      "sprite": "trainer_hollow",
+      "ai": "advanced",
+      "boss": false,
+      "reward_money": 680,
+      "dialogue_intro": "Agent: The Order hollows out what trainers hoard. Stand aside.",
+      "dialogue_defeat": "Agent: The Archon will hear of you...",
+      "dialogue_victory": "Agent: Hoarders always fall.",
+      "team": [
+        {
+          "creature": "ironsnout",
+          "level": 35,
+          "moves": [
+            "tackle",
+            "stone_toss",
+            "sand_grind"
+          ]
+        },
+        {
+          "creature": "rustwing",
+          "level": 36,
+          "moves": [
+            "tackle",
+            "gale_slash",
+            "stone_toss"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brume_rambler",
+      "display_name": "Rambler of Brume",
+      "sprite": "trainer_rambler",
+      "ai": "intermediate",
+      "boss": false,
+      "reward_money": 520,
+      "dialogue_intro": "Rambler: These trails taught me everything. Your turn to learn!",
+      "dialogue_defeat": "Rambler: Well fought. The road is yours.",
+      "dialogue_victory": "Rambler: The road humbles everyone eventually.",
+      "team": [
+        {
+          "creature": "mireling",
+          "level": 39,
+          "moves": [
+            "tackle",
+            "leaf_cut"
+          ]
+        },
+        {
+          "creature": "bogthorn",
+          "level": 40,
+          "moves": [
+            "leaf_cut",
+            "aqua_dart"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brume_angler",
+      "display_name": "Angler of Brume",
+      "sprite": "trainer_angler",
+      "ai": "basic",
+      "boss": false,
+      "reward_money": 520,
+      "dialogue_intro": "Angler: Patience wins fights and fills nets. Got either?",
+      "dialogue_defeat": "Angler: Well fought. The road is yours.",
+      "dialogue_victory": "Angler: The road humbles everyone eventually.",
+      "team": [
+        {
+          "creature": "bogthorn",
+          "level": 39,
+          "moves": [
+            "leaf_cut"
+          ]
+        },
+        {
+          "creature": "fogfin",
+          "level": 40,
+          "moves": [
+            "tackle",
+            "aqua_dart"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brume_miner",
+      "display_name": "Miner of Brume",
+      "sprite": "trainer_miner",
+      "ai": "intermediate",
+      "boss": false,
+      "reward_money": 520,
+      "dialogue_intro": "Miner: I dig up more than ore out here. En garde!",
+      "dialogue_defeat": "Miner: Well fought. The road is yours.",
+      "dialogue_victory": "Miner: The road humbles everyone eventually.",
+      "team": [
+        {
+          "creature": "fogfin",
+          "level": 39,
+          "moves": [
+            "tackle",
+            "aqua_dart"
+          ]
+        },
+        {
+          "creature": "wispurr",
+          "level": 40,
+          "moves": [
+            "tackle",
+            "mind_ray"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lumen_rambler",
+      "display_name": "Rambler of Lumen",
+      "sprite": "trainer_rambler",
+      "ai": "intermediate",
+      "boss": false,
+      "reward_money": 580,
+      "dialogue_intro": "Rambler: These trails taught me everything. Your turn to learn!",
+      "dialogue_defeat": "Rambler: Well fought. The road is yours.",
+      "dialogue_victory": "Rambler: The road humbles everyone eventually.",
+      "team": [
+        {
+          "creature": "shardling",
+          "level": 45,
+          "moves": [
+            "tackle",
+            "mind_ray"
+          ]
+        },
+        {
+          "creature": "crystalisk",
+          "level": 46,
+          "moves": [
+            "mind_ray",
+            "stone_toss"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lumen_angler",
+      "display_name": "Angler of Lumen",
+      "sprite": "trainer_angler",
+      "ai": "basic",
+      "boss": false,
+      "reward_money": 580,
+      "dialogue_intro": "Angler: Patience wins fights and fills nets. Got either?",
+      "dialogue_defeat": "Angler: Well fought. The road is yours.",
+      "dialogue_victory": "Angler: The road humbles everyone eventually.",
+      "team": [
+        {
+          "creature": "crystalisk",
+          "level": 45,
+          "moves": [
+            "mind_ray"
+          ]
+        },
+        {
+          "creature": "glowray",
+          "level": 46,
+          "moves": [
+            "tackle",
+            "spark_zap"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lumen_miner",
+      "display_name": "Miner of Lumen",
+      "sprite": "trainer_miner",
+      "ai": "intermediate",
+      "boss": false,
+      "reward_money": 580,
+      "dialogue_intro": "Miner: I dig up more than ore out here. En garde!",
+      "dialogue_defeat": "Miner: Well fought. The road is yours.",
+      "dialogue_victory": "Miner: The road humbles everyone eventually.",
+      "team": [
+        {
+          "creature": "glowray",
+          "level": 45,
+          "moves": [
+            "tackle",
+            "spark_zap"
+          ]
+        },
+        {
+          "creature": "shardling",
+          "level": 46,
+          "moves": [
+            "tackle",
+            "mind_ray",
+            "stone_toss"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hollow_agent_lumen",
+      "display_name": "Hollow Order Agent",
+      "sprite": "trainer_hollow",
+      "ai": "advanced",
+      "boss": false,
+      "reward_money": 840,
+      "dialogue_intro": "Agent: The Order hollows out what trainers hoard. Stand aside.",
+      "dialogue_defeat": "Agent: The Archon will hear of you...",
+      "dialogue_victory": "Agent: Hoarders always fall.",
+      "team": [
+        {
+          "creature": "shardling",
+          "level": 47,
+          "moves": [
+            "tackle",
+            "mind_ray",
+            "stone_toss"
+          ]
+        },
+        {
+          "creature": "glowray",
+          "level": 48,
+          "moves": [
+            "tackle",
+            "spark_zap",
+            "mind_ray"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zephyra_rambler",
+      "display_name": "Rambler of Zephyra",
+      "sprite": "trainer_rambler",
+      "ai": "intermediate",
+      "boss": false,
+      "reward_money": 640,
+      "dialogue_intro": "Rambler: These trails taught me everything. Your turn to learn!",
+      "dialogue_defeat": "Rambler: Well fought. The road is yours.",
+      "dialogue_victory": "Rambler: The road humbles everyone eventually.",
+      "team": [
+        {
+          "creature": "nimbling",
+          "level": 51,
+          "moves": [
+            "tackle",
+            "gale_slash"
+          ]
+        },
+        {
+          "creature": "tempestrix",
+          "level": 52,
+          "moves": [
+            "gale_slash",
+            "spark_zap"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zephyra_angler",
+      "display_name": "Angler of Zephyra",
+      "sprite": "trainer_angler",
+      "ai": "basic",
+      "boss": false,
+      "reward_money": 640,
+      "dialogue_intro": "Angler: Patience wins fights and fills nets. Got either?",
+      "dialogue_defeat": "Angler: Well fought. The road is yours.",
+      "dialogue_victory": "Angler: The road humbles everyone eventually.",
+      "team": [
+        {
+          "creature": "tempestrix",
+          "level": 51,
+          "moves": [
+            "gale_slash"
+          ]
+        },
+        {
+          "creature": "nimbling",
+          "level": 52,
+          "moves": [
+            "tackle",
+            "gale_slash",
+            "cyclone_dive"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zephyra_miner",
+      "display_name": "Miner of Zephyra",
+      "sprite": "trainer_miner",
+      "ai": "intermediate",
+      "boss": false,
+      "reward_money": 640,
+      "dialogue_intro": "Miner: I dig up more than ore out here. En garde!",
+      "dialogue_defeat": "Miner: Well fought. The road is yours.",
+      "dialogue_victory": "Miner: The road humbles everyone eventually.",
+      "team": [
+        {
+          "creature": "nimbling",
+          "level": 51,
+          "moves": [
+            "tackle",
+            "gale_slash"
+          ]
+        },
+        {
+          "creature": "tempestrix",
+          "level": 52,
+          "moves": [
+            "gale_slash",
+            "spark_zap"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hollow_archon",
+      "display_name": "Hollow Archon",
+      "sprite": "trainer_archon",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 4000,
+      "dialogue_intro": "Archon: Every crest you carry fed the Order's ledger. Time to collect.",
+      "dialogue_defeat": "Archon: The Order... hollowed by its own design. Fitting.",
+      "dialogue_victory": "Archon: As hollow as the rest.",
+      "team": [
+        {
+          "creature": "umbrelynx",
+          "level": 54,
+          "moves": [
+            "mind_ray",
+            "dream_pulse",
+            "veil_of_calm",
+            "focus_charge"
+          ]
+        },
+        {
+          "creature": "crystalisk",
+          "level": 55,
+          "moves": [
+            "mind_ray",
+            "stone_toss",
+            "dream_pulse"
+          ]
+        },
+        {
+          "creature": "tempestrix",
+          "level": 57,
+          "moves": [
+            "gale_slash",
+            "spark_zap"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "meadow_rambler",
+      "display_name": "Rambler Tass",
+      "sprite": "trainer_rambler",
+      "ai": "intermediate",
+      "boss": false,
+      "reward_money": 150,
+      "dialogue_intro": "Tass: Fresh boots on the route! Let's break them in.",
+      "dialogue_defeat": "Rambler: Well fought.",
+      "dialogue_victory": "Rambler: Another day, another win.",
+      "team": [
+        {
+          "creature": "nibbit",
+          "level": 6,
+          "moves": [
+            "tackle",
+            "tackle",
+            "quick_jab"
+          ]
+        },
+        {
+          "creature": "chirpit",
+          "level": 7,
+          "moves": [
+            "tackle",
+            "gale_slash",
+            "cyclone_dive"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "forest_botanist",
+      "display_name": "Botanist Fen",
+      "sprite": "trainer_botanist",
+      "ai": "intermediate",
+      "boss": false,
+      "reward_money": 200,
+      "dialogue_intro": "Fen: The forest shares its secrets with the persistent. Are you?",
+      "dialogue_defeat": "Botanist: Well fought.",
+      "dialogue_victory": "Botanist: Another day, another win.",
+      "team": [
+        {
+          "creature": "glimbug",
+          "level": 8,
+          "moves": [
+            "tackle",
+            "leaf_cut",
+            "mind_ray"
+          ]
+        },
+        {
+          "creature": "sproutkit",
+          "level": 9,
+          "moves": [
+            "scratch",
+            "leaf_cut",
+            "guard_up"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shore_angler",
+      "display_name": "Angler Morrow",
+      "sprite": "trainer_angler",
+      "ai": "basic",
+      "boss": false,
+      "reward_money": 260,
+      "dialogue_intro": "Morrow: The tide brought me a challenger for once!",
+      "dialogue_defeat": "Angler: Well fought.",
+      "dialogue_victory": "Angler: Another day, another win.",
+      "team": [
+        {
+          "creature": "brinemaw",
+          "level": 11,
+          "moves": [
+            "tackle",
+            "aqua_dart"
+          ]
+        },
+        {
+          "creature": "floekit",
+          "level": 12,
+          "moves": [
+            "tackle",
+            "aqua_dart",
+            "stone_toss"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ridge_drifter",
+      "display_name": "Drifter Kael",
+      "sprite": "trainer_drifter",
+      "ai": "intermediate",
+      "boss": false,
+      "reward_money": 300,
+      "dialogue_intro": "Kael: The ridge wind carries rumors of you. Let's verify them.",
+      "dialogue_defeat": "Drifter: Well fought.",
+      "dialogue_victory": "Drifter: Another day, another win.",
+      "team": [
+        {
+          "creature": "skerrit",
+          "level": 12,
+          "moves": [
+            "tackle",
+            "gale_slash",
+            "aqua_dart"
+          ]
+        },
+        {
+          "creature": "gustling",
+          "level": 13,
+          "moves": [
+            "scratch",
+            "gale_slash",
+            "quick_jab"
+          ]
+        }
+      ]
     }
   ]
 }

@@ -1312,6 +1312,2108 @@
       ],
       "evolves_to": [],
       "forms": []
+    },
+    {
+      "id": "chirpit",
+      "display_name": "Chirpit",
+      "description": "A restless fledgling that naps mid-hop.",
+      "generation": "demo_g2",
+      "origin_region": "verdantia",
+      "types": [
+        "wind"
+      ],
+      "base_stats": {
+        "hp": 50,
+        "attack": 58,
+        "defense": 44,
+        "sp_attack": 52,
+        "sp_defense": 46,
+        "speed": 78
+      },
+      "ev_yield": {
+        "speed": 1
+      },
+      "exp_curve": "medium_fast",
+      "gender_ratio": 0.5,
+      "abilities": [
+        "swift_foot"
+      ],
+      "capture_rate": 140,
+      "rarity": "common",
+      "breeding_groups": [
+        "field"
+      ],
+      "learnset": [
+        {
+          "level": 1,
+          "move": "tackle"
+        },
+        {
+          "level": 1,
+          "move": "gale_slash"
+        },
+        {
+          "level": 4,
+          "move": "cyclone_dive"
+        },
+        {
+          "level": 10,
+          "move": "tempest"
+        },
+        {
+          "level": 16,
+          "move": "quick_jab"
+        }
+      ],
+      "evolves_to": [
+        "galecrest"
+      ],
+      "forms": []
+    },
+    {
+      "id": "galecrest",
+      "display_name": "Galecrest",
+      "description": "Its crest feathers read the wind like a map.",
+      "generation": "demo_g2",
+      "origin_region": "verdantia",
+      "types": [
+        "wind"
+      ],
+      "base_stats": {
+        "hp": 69,
+        "attack": 80,
+        "defense": 60,
+        "sp_attack": 71,
+        "sp_defense": 63,
+        "speed": 107
+      },
+      "ev_yield": {
+        "speed": 2
+      },
+      "exp_curve": "medium_fast",
+      "gender_ratio": 0.5,
+      "abilities": [
+        "swift_foot"
+      ],
+      "capture_rate": 70,
+      "rarity": "uncommon",
+      "breeding_groups": [
+        "field"
+      ],
+      "learnset": [
+        {
+          "level": 1,
+          "move": "gale_slash"
+        },
+        {
+          "level": 4,
+          "move": "cyclone_dive"
+        },
+        {
+          "level": 10,
+          "move": "tempest"
+        },
+        {
+          "level": 16,
+          "move": "quick_jab"
+        }
+      ],
+      "evolves_to": [],
+      "forms": []
+    },
+    {
+      "id": "nibbit",
+      "display_name": "Nibbit",
+      "description": "It gnaws fence posts to keep its teeth short.",
+      "generation": "demo_g2",
+      "origin_region": "verdantia",
+      "types": [
+        "normal"
+      ],
+      "base_stats": {
+        "hp": 56,
+        "attack": 56,
+        "defense": 56,
+        "sp_attack": 56,
+        "sp_defense": 56,
+        "speed": 56
+      },
+      "ev_yield": {
+        "hp": 1
+      },
+      "exp_curve": "medium_fast",
+      "gender_ratio": 0.5,
+      "abilities": [
+        "tide_soul"
+      ],
+      "capture_rate": 140,
+      "rarity": "common",
+      "breeding_groups": [
+        "field"
+      ],
+      "learnset": [
+        {
+          "level": 1,
+          "move": "tackle"
+        },
+        {
+          "level": 1,
+          "move": "tackle"
+        },
+        {
+          "level": 4,
+          "move": "quick_jab"
+        },
+        {
+          "level": 10,
+          "move": "rend"
+        },
+        {
+          "level": 16,
+          "move": "focus_charge"
+        }
+      ],
+      "evolves_to": [
+        "gnawber"
+      ],
+      "forms": []
+    },
+    {
+      "id": "gnawber",
+      "display_name": "Gnawber",
+      "description": "Its jaws can shear green branches in one bite.",
+      "generation": "demo_g2",
+      "origin_region": "verdantia",
+      "types": [
+        "normal"
+      ],
+      "base_stats": {
+        "hp": 77,
+        "attack": 77,
+        "defense": 77,
+        "sp_attack": 77,
+        "sp_defense": 77,
+        "speed": 77
+      },
+      "ev_yield": {
+        "hp": 2
+      },
+      "exp_curve": "medium_fast",
+      "gender_ratio": 0.5,
+      "abilities": [
+        "tide_soul"
+      ],
+      "capture_rate": 70,
+      "rarity": "uncommon",
+      "breeding_groups": [
+        "field"
+      ],
+      "learnset": [
+        {
+          "level": 1,
+          "move": "tackle"
+        },
+        {
+          "level": 4,
+          "move": "quick_jab"
+        },
+        {
+          "level": 10,
+          "move": "rend"
+        },
+        {
+          "level": 16,
+          "move": "focus_charge"
+        }
+      ],
+      "evolves_to": [],
+      "forms": []
+    },
+    {
+      "id": "glimbug",
+      "display_name": "Glimbug",
+      "description": "A mossy beetle that blinks softly at dusk.",
+      "generation": "demo_g2",
+      "origin_region": "verdantia",
+      "types": [
+        "grass",
+        "mystic"
+      ],
+      "base_stats": {
+        "hp": 52,
+        "attack": 40,
+        "defense": 48,
+        "sp_attack": 74,
+        "sp_defense": 64,
+        "speed": 56
+      },
+      "ev_yield": {
+        "hp": 1
+      },
+      "exp_curve": "medium_fast",
+      "gender_ratio": 0.5,
+      "abilities": [
+        "keen_mind"
+      ],
+      "capture_rate": 140,
+      "rarity": "common",
+      "breeding_groups": [
+        "field"
+      ],
+      "learnset": [
+        {
+          "level": 1,
+          "move": "tackle"
+        },
+        {
+          "level": 1,
+          "move": "leaf_cut"
+        },
+        {
+          "level": 5,
+          "move": "mind_ray"
+        },
+        {
+          "level": 11,
+          "move": "thorn_barrage"
+        },
+        {
+          "level": 17,
+          "move": "dream_pulse"
+        },
+        {
+          "level": 23,
+          "move": "vine_wrap"
+        }
+      ],
+      "evolves_to": [
+        "luminmoth"
+      ],
+      "forms": []
+    },
+    {
+      "id": "luminmoth",
+      "display_name": "Luminmoth",
+      "description": "Meadows bloom brighter where it settles.",
+      "generation": "demo_g2",
+      "origin_region": "verdantia",
+      "types": [
+        "grass",
+        "mystic"
+      ],
+      "base_stats": {
+        "hp": 71,
+        "attack": 55,
+        "defense": 66,
+        "sp_attack": 102,
+        "sp_defense": 88,
+        "speed": 77
+      },
+      "ev_yield": {
+        "hp": 2
+      },
+      "exp_curve": "medium_fast",
+      "gender_ratio": 0.5,
+      "abilities": [
+        "keen_mind"
+      ],
+      "capture_rate": 70,
+      "rarity": "uncommon",
+      "breeding_groups": [
+        "field"
+      ],
+      "learnset": [
+        {
+          "level": 1,
+          "move": "leaf_cut"
+        },
+        {
+          "level": 5,
+          "move": "mind_ray"
+        },
+        {
+          "level": 11,
+          "move": "thorn_barrage"
+        },
+        {
+          "level": 17,
+          "move": "dream_pulse"
+        },
+        {
+          "level": 23,
+          "move": "vine_wrap"
+        }
+      ],
+      "evolves_to": [],
+      "forms": []
+    },
+    {
+      "id": "floekit",
+      "display_name": "Floekit",
+      "description": "It naps on drift-stones in the cold surf.",
+      "generation": "demo_g2",
+      "origin_region": "aquilon",
+      "types": [
+        "water",
+        "earth"
+      ],
+      "base_stats": {
+        "hp": 62,
+        "attack": 52,
+        "defense": 74,
+        "sp_attack": 44,
+        "sp_defense": 64,
+        "speed": 34
+      },
+      "ev_yield": {
+        "hp": 1
+      },
+      "exp_curve": "medium_fast",
+      "gender_ratio": 0.5,
+      "abilities": [
+        "thick_hide"
+      ],
+      "capture_rate": 140,
+      "rarity": "common",
+      "breeding_groups": [
+        "field"
+      ],
+      "learnset": [
+        {
+          "level": 1,
+          "move": "tackle"
+        },
+        {
+          "level": 1,
+          "move": "aqua_dart"
+        },
+        {
+          "level": 10,
+          "move": "stone_toss"
+        },
+        {
+          "level": 16,
+          "move": "riptide"
+        },
+        {
+          "level": 22,
+          "move": "sand_grind"
+        },
+        {
+          "level": 28,
+          "move": "tide_crash"
+        }
+      ],
+      "evolves_to": [
+        "floeguard"
+      ],
+      "forms": []
+    },
+    {
+      "id": "floeguard",
+      "display_name": "Floeguard",
+      "description": "Harbor folk trust it to watch the moorings.",
+      "generation": "demo_g2",
+      "origin_region": "aquilon",
+      "types": [
+        "water",
+        "earth"
+      ],
+      "base_stats": {
+        "hp": 85,
+        "attack": 71,
+        "defense": 102,
+        "sp_attack": 60,
+        "sp_defense": 88,
+        "speed": 46
+      },
+      "ev_yield": {
+        "hp": 2
+      },
+      "exp_curve": "medium_fast",
+      "gender_ratio": 0.5,
+      "abilities": [
+        "thick_hide"
+      ],
+      "capture_rate": 70,
+      "rarity": "uncommon",
+      "breeding_groups": [
+        "field"
+      ],
+      "learnset": [
+        {
+          "level": 1,
+          "move": "aqua_dart"
+        },
+        {
+          "level": 10,
+          "move": "stone_toss"
+        },
+        {
+          "level": 16,
+          "move": "riptide"
+        },
+        {
+          "level": 22,
+          "move": "sand_grind"
+        },
+        {
+          "level": 28,
+          "move": "tide_crash"
+        }
+      ],
+      "evolves_to": [],
+      "forms": []
+    },
+    {
+      "id": "skerrit",
+      "display_name": "Skerrit",
+      "description": "It skims wavetops chasing spray.",
+      "generation": "demo_g2",
+      "origin_region": "aquilon",
+      "types": [
+        "wind",
+        "water"
+      ],
+      "base_stats": {
+        "hp": 50,
+        "attack": 58,
+        "defense": 44,
+        "sp_attack": 52,
+        "sp_defense": 46,
+        "speed": 78
+      },
+      "ev_yield": {
+        "speed": 1
+      },
+      "exp_curve": "medium_fast",
+      "gender_ratio": 0.5,
+      "abilities": [
+        "swift_foot"
+      ],
+      "capture_rate": 140,
+      "rarity": "common",
+      "breeding_groups": [
+        "field"
+      ],
+      "learnset": [
+        {
+          "level": 1,
+          "move": "tackle"
+        },
+        {
+          "level": 1,
+          "move": "gale_slash"
+        },
+        {
+          "level": 11,
+          "move": "aqua_dart"
+        },
+        {
+          "level": 17,
+          "move": "cyclone_dive"
+        },
+        {
+          "level": 23,
+          "move": "riptide"
+        },
+        {
+          "level": 29,
+          "move": "tempest"
+        }
+      ],
+      "evolves_to": [],
+      "forms": []
+    },
+    {
+      "id": "brinemaw",
+      "display_name": "Brinemaw",
+      "description": "Its bite marks are a fisher's tall tale.",
+      "generation": "demo_g2",
+      "origin_region": "aquilon",
+      "types": [
+        "water"
+      ],
+      "base_stats": {
+        "hp": 58,
+        "attack": 72,
+        "defense": 55,
+        "sp_attack": 42,
+        "sp_defense": 48,
+        "speed": 52
+      },
+      "ev_yield": {
+        "hp": 1
+      },
+      "exp_curve": "medium_fast",
+      "gender_ratio": 0.5,
+      "abilities": [
+        "tide_soul"
+      ],
+      "capture_rate": 140,
+      "rarity": "common",
+      "breeding_groups": [
+        "field"
+      ],
+      "learnset": [
+        {
+          "level": 1,
+          "move": "tackle"
+        },
+        {
+          "level": 1,
+          "move": "aqua_dart"
+        },
+        {
+          "level": 12,
+          "move": "riptide"
+        },
+        {
+          "level": 18,
+          "move": "tide_crash"
+        },
+        {
+          "level": 24,
+          "move": "deluge"
+        }
+      ],
+      "evolves_to": [],
+      "forms": []
+    },
+    {
+      "id": "flarekit",
+      "display_name": "Flarekit",
+      "description": "A cinder-tailed kit born near vents.",
+      "generation": "demo_g2",
+      "origin_region": "cindral",
+      "types": [
+        "fire"
+      ],
+      "base_stats": {
+        "hp": 58,
+        "attack": 72,
+        "defense": 55,
+        "sp_attack": 42,
+        "sp_defense": 48,
+        "speed": 52
+      },
+      "ev_yield": {
+        "hp": 1
+      },
+      "exp_curve": "medium_fast",
+      "gender_ratio": 0.5,
+      "abilities": [
+        "blaze_heart"
+      ],
+      "capture_rate": 140,
+      "rarity": "common",
+      "breeding_groups": [
+        "field"
+      ],
+      "learnset": [
+        {
+          "level": 1,
+          "move": "tackle"
+        },
+        {
+          "level": 1,
+          "move": "ember_burst"
+        },
+        {
+          "level": 16,
+          "move": "blaze_wheel"
+        },
+        {
+          "level": 22,
+          "move": "flame_lash"
+        },
+        {
+          "level": 28,
+          "move": "inferno_ray"
+        }
+      ],
+      "evolves_to": [
+        "pyrelisk"
+      ],
+      "forms": []
+    },
+    {
+      "id": "pyrelisk",
+      "display_name": "Pyrelisk",
+      "description": "Its scales bank heat for cold nights.",
+      "generation": "demo_g2",
+      "origin_region": "cindral",
+      "types": [
+        "fire"
+      ],
+      "base_stats": {
+        "hp": 80,
+        "attack": 99,
+        "defense": 75,
+        "sp_attack": 57,
+        "sp_defense": 66,
+        "speed": 71
+      },
+      "ev_yield": {
+        "hp": 2
+      },
+      "exp_curve": "medium_fast",
+      "gender_ratio": 0.5,
+      "abilities": [
+        "blaze_heart"
+      ],
+      "capture_rate": 70,
+      "rarity": "uncommon",
+      "breeding_groups": [
+        "field"
+      ],
+      "learnset": [
+        {
+          "level": 1,
+          "move": "ember_burst"
+        },
+        {
+          "level": 16,
+          "move": "blaze_wheel"
+        },
+        {
+          "level": 22,
+          "move": "flame_lash"
+        },
+        {
+          "level": 28,
+          "move": "inferno_ray"
+        }
+      ],
+      "evolves_to": [
+        "magmaraud"
+      ],
+      "forms": []
+    },
+    {
+      "id": "magmaraud",
+      "display_name": "Magmaraud",
+      "description": "Old lava tubes are its hunting halls.",
+      "generation": "demo_g2",
+      "origin_region": "cindral",
+      "types": [
+        "fire",
+        "earth"
+      ],
+      "base_stats": {
+        "hp": 99,
+        "attack": 123,
+        "defense": 94,
+        "sp_attack": 72,
+        "sp_defense": 82,
+        "speed": 89
+      },
+      "ev_yield": {
+        "hp": 3
+      },
+      "exp_curve": "medium_fast",
+      "gender_ratio": 0.5,
+      "abilities": [
+        "thick_hide"
+      ],
+      "capture_rate": 30,
+      "rarity": "rare",
+      "breeding_groups": [
+        "field"
+      ],
+      "learnset": [
+        {
+          "level": 1,
+          "move": "ember_burst"
+        },
+        {
+          "level": 16,
+          "move": "stone_toss"
+        },
+        {
+          "level": 22,
+          "move": "blaze_wheel"
+        },
+        {
+          "level": 28,
+          "move": "sand_grind"
+        },
+        {
+          "level": 34,
+          "move": "flame_lash"
+        }
+      ],
+      "evolves_to": [],
+      "forms": []
+    },
+    {
+      "id": "sootwing",
+      "display_name": "Sootwing",
+      "description": "It rides thermals above the calderas.",
+      "generation": "demo_g2",
+      "origin_region": "cindral",
+      "types": [
+        "fire",
+        "wind"
+      ],
+      "base_stats": {
+        "hp": 50,
+        "attack": 58,
+        "defense": 44,
+        "sp_attack": 52,
+        "sp_defense": 46,
+        "speed": 78
+      },
+      "ev_yield": {
+        "speed": 1
+      },
+      "exp_curve": "medium_fast",
+      "gender_ratio": 0.5,
+      "abilities": [
+        "swift_foot"
+      ],
+      "capture_rate": 140,
+      "rarity": "common",
+      "breeding_groups": [
+        "field"
+      ],
+      "learnset": [
+        {
+          "level": 1,
+          "move": "tackle"
+        },
+        {
+          "level": 1,
+          "move": "ember_burst"
+        },
+        {
+          "level": 17,
+          "move": "gale_slash"
+        },
+        {
+          "level": 23,
+          "move": "blaze_wheel"
+        },
+        {
+          "level": 29,
+          "move": "cyclone_dive"
+        },
+        {
+          "level": 35,
+          "move": "flame_lash"
+        }
+      ],
+      "evolves_to": [],
+      "forms": []
+    },
+    {
+      "id": "cactling",
+      "display_name": "Cactling",
+      "description": "It buries itself to sip deep water.",
+      "generation": "demo_g2",
+      "origin_region": "solane",
+      "types": [
+        "grass",
+        "earth"
+      ],
+      "base_stats": {
+        "hp": 62,
+        "attack": 52,
+        "defense": 74,
+        "sp_attack": 44,
+        "sp_defense": 64,
+        "speed": 34
+      },
+      "ev_yield": {
+        "hp": 1
+      },
+      "exp_curve": "medium_fast",
+      "gender_ratio": 0.5,
+      "abilities": [
+        "thick_hide"
+      ],
+      "capture_rate": 140,
+      "rarity": "common",
+      "breeding_groups": [
+        "field"
+      ],
+      "learnset": [
+        {
+          "level": 1,
+          "move": "tackle"
+        },
+        {
+          "level": 1,
+          "move": "leaf_cut"
+        },
+        {
+          "level": 22,
+          "move": "stone_toss"
+        },
+        {
+          "level": 28,
+          "move": "thorn_barrage"
+        },
+        {
+          "level": 34,
+          "move": "sand_grind"
+        },
+        {
+          "level": 40,
+          "move": "vine_wrap"
+        }
+      ],
+      "evolves_to": [
+        "saguarok"
+      ],
+      "forms": []
+    },
+    {
+      "id": "saguarok",
+      "display_name": "Saguarok",
+      "description": "Caravans navigate by its silhouette.",
+      "generation": "demo_g2",
+      "origin_region": "solane",
+      "types": [
+        "grass",
+        "earth"
+      ],
+      "base_stats": {
+        "hp": 85,
+        "attack": 71,
+        "defense": 102,
+        "sp_attack": 60,
+        "sp_defense": 88,
+        "speed": 46
+      },
+      "ev_yield": {
+        "hp": 2
+      },
+      "exp_curve": "medium_fast",
+      "gender_ratio": 0.5,
+      "abilities": [
+        "thick_hide"
+      ],
+      "capture_rate": 70,
+      "rarity": "uncommon",
+      "breeding_groups": [
+        "field"
+      ],
+      "learnset": [
+        {
+          "level": 1,
+          "move": "leaf_cut"
+        },
+        {
+          "level": 22,
+          "move": "stone_toss"
+        },
+        {
+          "level": 28,
+          "move": "thorn_barrage"
+        },
+        {
+          "level": 34,
+          "move": "sand_grind"
+        },
+        {
+          "level": 40,
+          "move": "vine_wrap"
+        }
+      ],
+      "evolves_to": [],
+      "forms": []
+    },
+    {
+      "id": "mirageel",
+      "display_name": "Mirageel",
+      "description": "Travelers swear it was never there.",
+      "generation": "demo_g2",
+      "origin_region": "solane",
+      "types": [
+        "mystic"
+      ],
+      "base_stats": {
+        "hp": 52,
+        "attack": 40,
+        "defense": 48,
+        "sp_attack": 74,
+        "sp_defense": 64,
+        "speed": 56
+      },
+      "ev_yield": {
+        "hp": 1
+      },
+      "exp_curve": "medium_fast",
+      "gender_ratio": 0.5,
+      "abilities": [
+        "keen_mind"
+      ],
+      "capture_rate": 140,
+      "rarity": "common",
+      "breeding_groups": [
+        "field"
+      ],
+      "learnset": [
+        {
+          "level": 1,
+          "move": "tackle"
+        },
+        {
+          "level": 1,
+          "move": "mind_ray"
+        },
+        {
+          "level": 23,
+          "move": "dream_pulse"
+        },
+        {
+          "level": 29,
+          "move": "veil_of_calm"
+        },
+        {
+          "level": 35,
+          "move": "focus_charge"
+        }
+      ],
+      "evolves_to": [],
+      "forms": []
+    },
+    {
+      "id": "scorchion",
+      "display_name": "Scorchion",
+      "description": "Its stinger cauterizes what it strikes.",
+      "generation": "demo_g2",
+      "origin_region": "solane",
+      "types": [
+        "fire",
+        "earth"
+      ],
+      "base_stats": {
+        "hp": 58,
+        "attack": 72,
+        "defense": 55,
+        "sp_attack": 42,
+        "sp_defense": 48,
+        "speed": 52
+      },
+      "ev_yield": {
+        "hp": 1
+      },
+      "exp_curve": "medium_fast",
+      "gender_ratio": 0.5,
+      "abilities": [
+        "thick_hide"
+      ],
+      "capture_rate": 140,
+      "rarity": "common",
+      "breeding_groups": [
+        "field"
+      ],
+      "learnset": [
+        {
+          "level": 1,
+          "move": "tackle"
+        },
+        {
+          "level": 1,
+          "move": "ember_burst"
+        },
+        {
+          "level": 24,
+          "move": "stone_toss"
+        },
+        {
+          "level": 30,
+          "move": "blaze_wheel"
+        },
+        {
+          "level": 36,
+          "move": "sand_grind"
+        },
+        {
+          "level": 42,
+          "move": "flame_lash"
+        }
+      ],
+      "evolves_to": [],
+      "forms": []
+    },
+    {
+      "id": "shadeling",
+      "display_name": "Shadeling",
+      "description": "It pools in shadows like spilled ink.",
+      "generation": "demo_g2",
+      "origin_region": "umbra",
+      "types": [
+        "mystic"
+      ],
+      "base_stats": {
+        "hp": 50,
+        "attack": 58,
+        "defense": 44,
+        "sp_attack": 52,
+        "sp_defense": 46,
+        "speed": 78
+      },
+      "ev_yield": {
+        "speed": 1
+      },
+      "exp_curve": "medium_fast",
+      "gender_ratio": 0.5,
+      "abilities": [
+        "keen_mind"
+      ],
+      "capture_rate": 140,
+      "rarity": "common",
+      "breeding_groups": [
+        "field"
+      ],
+      "learnset": [
+        {
+          "level": 1,
+          "move": "tackle"
+        },
+        {
+          "level": 1,
+          "move": "mind_ray"
+        },
+        {
+          "level": 28,
+          "move": "dream_pulse"
+        },
+        {
+          "level": 34,
+          "move": "veil_of_calm"
+        },
+        {
+          "level": 40,
+          "move": "focus_charge"
+        }
+      ],
+      "evolves_to": [
+        "umbrelynx"
+      ],
+      "forms": []
+    },
+    {
+      "id": "umbrelynx",
+      "display_name": "Umbrelynx",
+      "description": "Its eyes gather the last light of dusk.",
+      "generation": "demo_g2",
+      "origin_region": "umbra",
+      "types": [
+        "mystic"
+      ],
+      "base_stats": {
+        "hp": 69,
+        "attack": 80,
+        "defense": 60,
+        "sp_attack": 71,
+        "sp_defense": 63,
+        "speed": 107
+      },
+      "ev_yield": {
+        "speed": 2
+      },
+      "exp_curve": "medium_fast",
+      "gender_ratio": 0.5,
+      "abilities": [
+        "keen_mind"
+      ],
+      "capture_rate": 70,
+      "rarity": "uncommon",
+      "breeding_groups": [
+        "field"
+      ],
+      "learnset": [
+        {
+          "level": 1,
+          "move": "mind_ray"
+        },
+        {
+          "level": 28,
+          "move": "dream_pulse"
+        },
+        {
+          "level": 34,
+          "move": "veil_of_calm"
+        },
+        {
+          "level": 40,
+          "move": "focus_charge"
+        }
+      ],
+      "evolves_to": [],
+      "forms": []
+    },
+    {
+      "id": "sporeling",
+      "display_name": "Sporeling",
+      "description": "It naps beneath a cap of soft spores.",
+      "generation": "demo_g2",
+      "origin_region": "umbra",
+      "types": [
+        "grass"
+      ],
+      "base_stats": {
+        "hp": 62,
+        "attack": 52,
+        "defense": 74,
+        "sp_attack": 44,
+        "sp_defense": 64,
+        "speed": 34
+      },
+      "ev_yield": {
+        "hp": 1
+      },
+      "exp_curve": "medium_fast",
+      "gender_ratio": 0.5,
+      "abilities": [
+        "tide_soul"
+      ],
+      "capture_rate": 140,
+      "rarity": "common",
+      "breeding_groups": [
+        "field"
+      ],
+      "learnset": [
+        {
+          "level": 1,
+          "move": "tackle"
+        },
+        {
+          "level": 1,
+          "move": "leaf_cut"
+        },
+        {
+          "level": 29,
+          "move": "thorn_barrage"
+        },
+        {
+          "level": 35,
+          "move": "vine_wrap"
+        },
+        {
+          "level": 41,
+          "move": "bloom_burst"
+        }
+      ],
+      "evolves_to": [
+        "mycolossus"
+      ],
+      "forms": []
+    },
+    {
+      "id": "mycolossus",
+      "display_name": "Mycolossus",
+      "description": "A walking grove bound by fungal threads.",
+      "generation": "demo_g2",
+      "origin_region": "umbra",
+      "types": [
+        "grass"
+      ],
+      "base_stats": {
+        "hp": 85,
+        "attack": 71,
+        "defense": 102,
+        "sp_attack": 60,
+        "sp_defense": 88,
+        "speed": 46
+      },
+      "ev_yield": {
+        "hp": 2
+      },
+      "exp_curve": "medium_fast",
+      "gender_ratio": 0.5,
+      "abilities": [
+        "tide_soul"
+      ],
+      "capture_rate": 70,
+      "rarity": "uncommon",
+      "breeding_groups": [
+        "field"
+      ],
+      "learnset": [
+        {
+          "level": 1,
+          "move": "leaf_cut"
+        },
+        {
+          "level": 29,
+          "move": "thorn_barrage"
+        },
+        {
+          "level": 35,
+          "move": "vine_wrap"
+        },
+        {
+          "level": 41,
+          "move": "bloom_burst"
+        }
+      ],
+      "evolves_to": [],
+      "forms": []
+    },
+    {
+      "id": "ironsnout",
+      "display_name": "Ironsnout",
+      "description": "It roots for ore nuggets like truffles.",
+      "generation": "demo_g2",
+      "origin_region": "ferrock",
+      "types": [
+        "earth"
+      ],
+      "base_stats": {
+        "hp": 58,
+        "attack": 72,
+        "defense": 55,
+        "sp_attack": 42,
+        "sp_defense": 48,
+        "speed": 52
+      },
+      "ev_yield": {
+        "hp": 1
+      },
+      "exp_curve": "medium_fast",
+      "gender_ratio": 0.5,
+      "abilities": [
+        "thick_hide"
+      ],
+      "capture_rate": 140,
+      "rarity": "common",
+      "breeding_groups": [
+        "field"
+      ],
+      "learnset": [
+        {
+          "level": 1,
+          "move": "tackle"
+        },
+        {
+          "level": 1,
+          "move": "stone_toss"
+        },
+        {
+          "level": 34,
+          "move": "sand_grind"
+        },
+        {
+          "level": 40,
+          "move": "quake_stomp"
+        },
+        {
+          "level": 46,
+          "move": "guard_up"
+        }
+      ],
+      "evolves_to": [
+        "ferroboar"
+      ],
+      "forms": []
+    },
+    {
+      "id": "ferroboar",
+      "display_name": "Ferroboar",
+      "description": "Its tusks are prized by honest smiths.",
+      "generation": "demo_g2",
+      "origin_region": "ferrock",
+      "types": [
+        "earth"
+      ],
+      "base_stats": {
+        "hp": 80,
+        "attack": 99,
+        "defense": 75,
+        "sp_attack": 57,
+        "sp_defense": 66,
+        "speed": 71
+      },
+      "ev_yield": {
+        "hp": 2
+      },
+      "exp_curve": "medium_fast",
+      "gender_ratio": 0.5,
+      "abilities": [
+        "thick_hide"
+      ],
+      "capture_rate": 70,
+      "rarity": "uncommon",
+      "breeding_groups": [
+        "field"
+      ],
+      "learnset": [
+        {
+          "level": 1,
+          "move": "stone_toss"
+        },
+        {
+          "level": 34,
+          "move": "sand_grind"
+        },
+        {
+          "level": 40,
+          "move": "quake_stomp"
+        },
+        {
+          "level": 46,
+          "move": "guard_up"
+        }
+      ],
+      "evolves_to": [],
+      "forms": []
+    },
+    {
+      "id": "coilbolt",
+      "display_name": "Coilbolt",
+      "description": "A living spring that snaps with charge.",
+      "generation": "demo_g2",
+      "origin_region": "ferrock",
+      "types": [
+        "electric"
+      ],
+      "base_stats": {
+        "hp": 50,
+        "attack": 58,
+        "defense": 44,
+        "sp_attack": 52,
+        "sp_defense": 46,
+        "speed": 78
+      },
+      "ev_yield": {
+        "speed": 1
+      },
+      "exp_curve": "medium_fast",
+      "gender_ratio": 0.5,
+      "abilities": [
+        "tide_soul"
+      ],
+      "capture_rate": 140,
+      "rarity": "common",
+      "breeding_groups": [
+        "field"
+      ],
+      "learnset": [
+        {
+          "level": 1,
+          "move": "tackle"
+        },
+        {
+          "level": 1,
+          "move": "spark_zap"
+        },
+        {
+          "level": 35,
+          "move": "volt_lance"
+        },
+        {
+          "level": 41,
+          "move": "static_field"
+        },
+        {
+          "level": 47,
+          "move": "storm_surge"
+        }
+      ],
+      "evolves_to": [],
+      "forms": []
+    },
+    {
+      "id": "rustwing",
+      "display_name": "Rustwing",
+      "description": "Its oxidized feathers ring like chimes.",
+      "generation": "demo_g2",
+      "origin_region": "ferrock",
+      "types": [
+        "wind",
+        "earth"
+      ],
+      "base_stats": {
+        "hp": 62,
+        "attack": 52,
+        "defense": 74,
+        "sp_attack": 44,
+        "sp_defense": 64,
+        "speed": 34
+      },
+      "ev_yield": {
+        "hp": 1
+      },
+      "exp_curve": "medium_fast",
+      "gender_ratio": 0.5,
+      "abilities": [
+        "swift_foot"
+      ],
+      "capture_rate": 140,
+      "rarity": "common",
+      "breeding_groups": [
+        "field"
+      ],
+      "learnset": [
+        {
+          "level": 1,
+          "move": "tackle"
+        },
+        {
+          "level": 1,
+          "move": "gale_slash"
+        },
+        {
+          "level": 36,
+          "move": "stone_toss"
+        },
+        {
+          "level": 42,
+          "move": "cyclone_dive"
+        },
+        {
+          "level": 48,
+          "move": "sand_grind"
+        },
+        {
+          "level": 54,
+          "move": "tempest"
+        }
+      ],
+      "evolves_to": [],
+      "forms": []
+    },
+    {
+      "id": "mireling",
+      "display_name": "Mireling",
+      "description": "It surfaces only to watch the rain.",
+      "generation": "demo_g2",
+      "origin_region": "brume",
+      "types": [
+        "grass",
+        "water"
+      ],
+      "base_stats": {
+        "hp": 62,
+        "attack": 52,
+        "defense": 74,
+        "sp_attack": 44,
+        "sp_defense": 64,
+        "speed": 34
+      },
+      "ev_yield": {
+        "hp": 1
+      },
+      "exp_curve": "medium_fast",
+      "gender_ratio": 0.5,
+      "abilities": [
+        "tide_soul"
+      ],
+      "capture_rate": 140,
+      "rarity": "common",
+      "breeding_groups": [
+        "field"
+      ],
+      "learnset": [
+        {
+          "level": 1,
+          "move": "tackle"
+        },
+        {
+          "level": 1,
+          "move": "leaf_cut"
+        },
+        {
+          "level": 40,
+          "move": "aqua_dart"
+        },
+        {
+          "level": 46,
+          "move": "thorn_barrage"
+        },
+        {
+          "level": 52,
+          "move": "riptide"
+        },
+        {
+          "level": 58,
+          "move": "vine_wrap"
+        }
+      ],
+      "evolves_to": [
+        "bogthorn"
+      ],
+      "forms": []
+    },
+    {
+      "id": "bogthorn",
+      "display_name": "Bogthorn",
+      "description": "The fen reshapes itself around its roots.",
+      "generation": "demo_g2",
+      "origin_region": "brume",
+      "types": [
+        "grass",
+        "water"
+      ],
+      "base_stats": {
+        "hp": 85,
+        "attack": 71,
+        "defense": 102,
+        "sp_attack": 60,
+        "sp_defense": 88,
+        "speed": 46
+      },
+      "ev_yield": {
+        "hp": 2
+      },
+      "exp_curve": "medium_fast",
+      "gender_ratio": 0.5,
+      "abilities": [
+        "tide_soul"
+      ],
+      "capture_rate": 70,
+      "rarity": "uncommon",
+      "breeding_groups": [
+        "field"
+      ],
+      "learnset": [
+        {
+          "level": 1,
+          "move": "leaf_cut"
+        },
+        {
+          "level": 40,
+          "move": "aqua_dart"
+        },
+        {
+          "level": 46,
+          "move": "thorn_barrage"
+        },
+        {
+          "level": 52,
+          "move": "riptide"
+        },
+        {
+          "level": 58,
+          "move": "vine_wrap"
+        }
+      ],
+      "evolves_to": [],
+      "forms": []
+    },
+    {
+      "id": "fogfin",
+      "display_name": "Fogfin",
+      "description": "It swims through mist as easily as water.",
+      "generation": "demo_g2",
+      "origin_region": "brume",
+      "types": [
+        "water",
+        "wind"
+      ],
+      "base_stats": {
+        "hp": 50,
+        "attack": 58,
+        "defense": 44,
+        "sp_attack": 52,
+        "sp_defense": 46,
+        "speed": 78
+      },
+      "ev_yield": {
+        "speed": 1
+      },
+      "exp_curve": "medium_fast",
+      "gender_ratio": 0.5,
+      "abilities": [
+        "swift_foot"
+      ],
+      "capture_rate": 140,
+      "rarity": "common",
+      "breeding_groups": [
+        "field"
+      ],
+      "learnset": [
+        {
+          "level": 1,
+          "move": "tackle"
+        },
+        {
+          "level": 1,
+          "move": "aqua_dart"
+        },
+        {
+          "level": 41,
+          "move": "gale_slash"
+        },
+        {
+          "level": 47,
+          "move": "riptide"
+        },
+        {
+          "level": 53,
+          "move": "cyclone_dive"
+        },
+        {
+          "level": 59,
+          "move": "tide_crash"
+        }
+      ],
+      "evolves_to": [],
+      "forms": []
+    },
+    {
+      "id": "wispurr",
+      "display_name": "Wispurr",
+      "description": "Its purr carries no sound, only calm.",
+      "generation": "demo_g2",
+      "origin_region": "brume",
+      "types": [
+        "mystic"
+      ],
+      "base_stats": {
+        "hp": 52,
+        "attack": 40,
+        "defense": 48,
+        "sp_attack": 74,
+        "sp_defense": 64,
+        "speed": 56
+      },
+      "ev_yield": {
+        "hp": 1
+      },
+      "exp_curve": "medium_fast",
+      "gender_ratio": 0.5,
+      "abilities": [
+        "keen_mind"
+      ],
+      "capture_rate": 140,
+      "rarity": "common",
+      "breeding_groups": [
+        "field"
+      ],
+      "learnset": [
+        {
+          "level": 1,
+          "move": "tackle"
+        },
+        {
+          "level": 1,
+          "move": "mind_ray"
+        },
+        {
+          "level": 42,
+          "move": "dream_pulse"
+        },
+        {
+          "level": 48,
+          "move": "veil_of_calm"
+        },
+        {
+          "level": 54,
+          "move": "focus_charge"
+        }
+      ],
+      "evolves_to": [],
+      "forms": []
+    },
+    {
+      "id": "shardling",
+      "display_name": "Shardling",
+      "description": "A splinter of the valley's oldest prism.",
+      "generation": "demo_g2",
+      "origin_region": "lumen",
+      "types": [
+        "mystic",
+        "earth"
+      ],
+      "base_stats": {
+        "hp": 52,
+        "attack": 40,
+        "defense": 48,
+        "sp_attack": 74,
+        "sp_defense": 64,
+        "speed": 56
+      },
+      "ev_yield": {
+        "hp": 1
+      },
+      "exp_curve": "medium_fast",
+      "gender_ratio": 0.5,
+      "abilities": [
+        "keen_mind"
+      ],
+      "capture_rate": 140,
+      "rarity": "common",
+      "breeding_groups": [
+        "field"
+      ],
+      "learnset": [
+        {
+          "level": 1,
+          "move": "tackle"
+        },
+        {
+          "level": 1,
+          "move": "mind_ray"
+        },
+        {
+          "level": 46,
+          "move": "stone_toss"
+        },
+        {
+          "level": 52,
+          "move": "dream_pulse"
+        },
+        {
+          "level": 58,
+          "move": "sand_grind"
+        },
+        {
+          "level": 64,
+          "move": "veil_of_calm"
+        }
+      ],
+      "evolves_to": [
+        "crystalisk"
+      ],
+      "forms": []
+    },
+    {
+      "id": "crystalisk",
+      "display_name": "Crystalisk",
+      "description": "Light bends politely around it.",
+      "generation": "demo_g2",
+      "origin_region": "lumen",
+      "types": [
+        "mystic",
+        "earth"
+      ],
+      "base_stats": {
+        "hp": 71,
+        "attack": 55,
+        "defense": 66,
+        "sp_attack": 102,
+        "sp_defense": 88,
+        "speed": 77
+      },
+      "ev_yield": {
+        "hp": 2
+      },
+      "exp_curve": "medium_fast",
+      "gender_ratio": 0.5,
+      "abilities": [
+        "keen_mind"
+      ],
+      "capture_rate": 70,
+      "rarity": "uncommon",
+      "breeding_groups": [
+        "field"
+      ],
+      "learnset": [
+        {
+          "level": 1,
+          "move": "mind_ray"
+        },
+        {
+          "level": 46,
+          "move": "stone_toss"
+        },
+        {
+          "level": 52,
+          "move": "dream_pulse"
+        },
+        {
+          "level": 58,
+          "move": "sand_grind"
+        },
+        {
+          "level": 64,
+          "move": "veil_of_calm"
+        }
+      ],
+      "evolves_to": [],
+      "forms": []
+    },
+    {
+      "id": "glowray",
+      "display_name": "Glowray",
+      "description": "It glides on lines of static light.",
+      "generation": "demo_g2",
+      "origin_region": "lumen",
+      "types": [
+        "electric",
+        "mystic"
+      ],
+      "base_stats": {
+        "hp": 50,
+        "attack": 58,
+        "defense": 44,
+        "sp_attack": 52,
+        "sp_defense": 46,
+        "speed": 78
+      },
+      "ev_yield": {
+        "speed": 1
+      },
+      "exp_curve": "medium_fast",
+      "gender_ratio": 0.5,
+      "abilities": [
+        "keen_mind"
+      ],
+      "capture_rate": 140,
+      "rarity": "common",
+      "breeding_groups": [
+        "field"
+      ],
+      "learnset": [
+        {
+          "level": 1,
+          "move": "tackle"
+        },
+        {
+          "level": 1,
+          "move": "spark_zap"
+        },
+        {
+          "level": 47,
+          "move": "mind_ray"
+        },
+        {
+          "level": 53,
+          "move": "volt_lance"
+        },
+        {
+          "level": 59,
+          "move": "dream_pulse"
+        },
+        {
+          "level": 65,
+          "move": "static_field"
+        }
+      ],
+      "evolves_to": [],
+      "forms": []
+    },
+    {
+      "id": "nimbling",
+      "display_name": "Nimbling",
+      "description": "A puff of cloud with a stubborn streak.",
+      "generation": "demo_g2",
+      "origin_region": "zephyra",
+      "types": [
+        "wind"
+      ],
+      "base_stats": {
+        "hp": 50,
+        "attack": 58,
+        "defense": 44,
+        "sp_attack": 52,
+        "sp_defense": 46,
+        "speed": 78
+      },
+      "ev_yield": {
+        "speed": 1
+      },
+      "exp_curve": "medium_fast",
+      "gender_ratio": 0.5,
+      "abilities": [
+        "swift_foot"
+      ],
+      "capture_rate": 140,
+      "rarity": "common",
+      "breeding_groups": [
+        "field"
+      ],
+      "learnset": [
+        {
+          "level": 1,
+          "move": "tackle"
+        },
+        {
+          "level": 1,
+          "move": "gale_slash"
+        },
+        {
+          "level": 52,
+          "move": "cyclone_dive"
+        },
+        {
+          "level": 58,
+          "move": "tempest"
+        },
+        {
+          "level": 64,
+          "move": "quick_jab"
+        }
+      ],
+      "evolves_to": [
+        "cumulor"
+      ],
+      "forms": []
+    },
+    {
+      "id": "cumulor",
+      "display_name": "Cumulor",
+      "description": "It herds smaller clouds across the steppe.",
+      "generation": "demo_g2",
+      "origin_region": "zephyra",
+      "types": [
+        "wind"
+      ],
+      "base_stats": {
+        "hp": 69,
+        "attack": 80,
+        "defense": 60,
+        "sp_attack": 71,
+        "sp_defense": 63,
+        "speed": 107
+      },
+      "ev_yield": {
+        "speed": 2
+      },
+      "exp_curve": "medium_fast",
+      "gender_ratio": 0.5,
+      "abilities": [
+        "swift_foot"
+      ],
+      "capture_rate": 70,
+      "rarity": "uncommon",
+      "breeding_groups": [
+        "field"
+      ],
+      "learnset": [
+        {
+          "level": 1,
+          "move": "gale_slash"
+        },
+        {
+          "level": 52,
+          "move": "cyclone_dive"
+        },
+        {
+          "level": 58,
+          "move": "tempest"
+        },
+        {
+          "level": 64,
+          "move": "quick_jab"
+        }
+      ],
+      "evolves_to": [
+        "tempestrix"
+      ],
+      "forms": []
+    },
+    {
+      "id": "tempestrix",
+      "display_name": "Tempestrix",
+      "description": "Storm fronts part to let it pass.",
+      "generation": "demo_g2",
+      "origin_region": "zephyra",
+      "types": [
+        "wind",
+        "electric"
+      ],
+      "base_stats": {
+        "hp": 86,
+        "attack": 99,
+        "defense": 75,
+        "sp_attack": 89,
+        "sp_defense": 79,
+        "speed": 134
+      },
+      "ev_yield": {
+        "speed": 3
+      },
+      "exp_curve": "medium_fast",
+      "gender_ratio": 0.5,
+      "abilities": [
+        "swift_foot"
+      ],
+      "capture_rate": 30,
+      "rarity": "rare",
+      "breeding_groups": [
+        "field"
+      ],
+      "learnset": [
+        {
+          "level": 1,
+          "move": "gale_slash"
+        },
+        {
+          "level": 52,
+          "move": "spark_zap"
+        },
+        {
+          "level": 58,
+          "move": "cyclone_dive"
+        },
+        {
+          "level": 64,
+          "move": "volt_lance"
+        },
+        {
+          "level": 70,
+          "move": "tempest"
+        }
+      ],
+      "evolves_to": [],
+      "forms": []
+    },
+    {
+      "id": "aetherion",
+      "display_name": "Aetherion",
+      "description": "The steppe's oldest legend: a sky-spirit seen once a generation.",
+      "generation": "demo_g2",
+      "origin_region": "zephyra",
+      "types": [
+        "wind",
+        "mystic"
+      ],
+      "base_stats": {
+        "hp": 95,
+        "attack": 105,
+        "defense": 90,
+        "sp_attack": 125,
+        "sp_defense": 100,
+        "speed": 115
+      },
+      "ev_yield": {
+        "hp": 1
+      },
+      "exp_curve": "medium_fast",
+      "gender_ratio": 0.5,
+      "abilities": [
+        "swift_foot"
+      ],
+      "capture_rate": 5,
+      "rarity": "legendary",
+      "breeding_groups": [
+        "field"
+      ],
+      "learnset": [
+        {
+          "level": 1,
+          "move": "tackle"
+        },
+        {
+          "level": 1,
+          "move": "gale_slash"
+        },
+        {
+          "level": 54,
+          "move": "mind_ray"
+        },
+        {
+          "level": 60,
+          "move": "cyclone_dive"
+        },
+        {
+          "level": 66,
+          "move": "dream_pulse"
+        },
+        {
+          "level": 72,
+          "move": "tempest"
+        }
+      ],
+      "evolves_to": [],
+      "forms": []
     }
   ]
 }

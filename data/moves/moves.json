@@ -12,7 +12,11 @@
       "priority": 0,
       "pp": 35,
       "description": "A plain full-body charge.",
-      "effects": [ { "kind": "damage" } ]
+      "effects": [
+        {
+          "kind": "damage"
+        }
+      ]
     },
     {
       "id": "scratch",
@@ -24,7 +28,11 @@
       "priority": 0,
       "pp": 35,
       "description": "Sharp claws rake the target.",
-      "effects": [ { "kind": "damage" } ]
+      "effects": [
+        {
+          "kind": "damage"
+        }
+      ]
     },
     {
       "id": "quick_jab",
@@ -36,7 +44,11 @@
       "priority": 1,
       "pp": 30,
       "description": "Always strikes first.",
-      "effects": [ { "kind": "damage" } ]
+      "effects": [
+        {
+          "kind": "damage"
+        }
+      ]
     },
     {
       "id": "ember_burst",
@@ -49,8 +61,15 @@
       "pp": 25,
       "description": "A burst of sparks that may leave a burn.",
       "effects": [
-        { "kind": "damage" },
-        { "kind": "apply_status", "status": "burn", "chance": 0.1, "target": "enemy" }
+        {
+          "kind": "damage"
+        },
+        {
+          "kind": "apply_status",
+          "status": "burn",
+          "chance": 0.1,
+          "target": "enemy"
+        }
       ]
     },
     {
@@ -64,8 +83,15 @@
       "pp": 15,
       "description": "A whip of flame with a higher burn chance.",
       "effects": [
-        { "kind": "damage" },
-        { "kind": "apply_status", "status": "burn", "chance": 0.2, "target": "enemy" }
+        {
+          "kind": "damage"
+        },
+        {
+          "kind": "apply_status",
+          "status": "burn",
+          "chance": 0.2,
+          "target": "enemy"
+        }
       ]
     },
     {
@@ -78,7 +104,11 @@
       "priority": 0,
       "pp": 25,
       "description": "A pressurized jet of water.",
-      "effects": [ { "kind": "damage" } ]
+      "effects": [
+        {
+          "kind": "damage"
+        }
+      ]
     },
     {
       "id": "tide_crash",
@@ -91,8 +121,16 @@
       "pp": 12,
       "description": "A crashing wave that may lower Speed.",
       "effects": [
-        { "kind": "damage" },
-        { "kind": "stat_change", "stat": "speed", "stages": -1, "chance": 0.3, "target": "enemy" }
+        {
+          "kind": "damage"
+        },
+        {
+          "kind": "stat_change",
+          "stat": "speed",
+          "stages": -1,
+          "chance": 0.3,
+          "target": "enemy"
+        }
       ]
     },
     {
@@ -105,7 +143,11 @@
       "priority": 0,
       "pp": 25,
       "description": "Razor leaves slice the foe.",
-      "effects": [ { "kind": "damage" } ]
+      "effects": [
+        {
+          "kind": "damage"
+        }
+      ]
     },
     {
       "id": "vine_wrap",
@@ -118,8 +160,15 @@
       "pp": 15,
       "description": "Vines that sap and may poison-slow the foe.",
       "effects": [
-        { "kind": "damage" },
-        { "kind": "apply_status", "status": "poison", "chance": 0.15, "target": "enemy" }
+        {
+          "kind": "damage"
+        },
+        {
+          "kind": "apply_status",
+          "status": "poison",
+          "chance": 0.15,
+          "target": "enemy"
+        }
       ]
     },
     {
@@ -133,8 +182,15 @@
       "pp": 25,
       "description": "A jolt that can paralyze.",
       "effects": [
-        { "kind": "damage" },
-        { "kind": "apply_status", "status": "paralyze", "chance": 0.1, "target": "enemy" }
+        {
+          "kind": "damage"
+        },
+        {
+          "kind": "apply_status",
+          "status": "paralyze",
+          "chance": 0.1,
+          "target": "enemy"
+        }
       ]
     },
     {
@@ -148,7 +204,12 @@
       "pp": 20,
       "description": "Paralyzes the target with a charged field.",
       "effects": [
-        { "kind": "apply_status", "status": "paralyze", "chance": 1.0, "target": "enemy" }
+        {
+          "kind": "apply_status",
+          "status": "paralyze",
+          "chance": 1.0,
+          "target": "enemy"
+        }
       ]
     },
     {
@@ -161,7 +222,11 @@
       "priority": 0,
       "pp": 20,
       "description": "Hurls a heavy stone.",
-      "effects": [ { "kind": "damage" } ]
+      "effects": [
+        {
+          "kind": "damage"
+        }
+      ]
     },
     {
       "id": "gale_slash",
@@ -173,7 +238,11 @@
       "priority": 0,
       "pp": 20,
       "description": "A cutting gust.",
-      "effects": [ { "kind": "damage" } ]
+      "effects": [
+        {
+          "kind": "damage"
+        }
+      ]
     },
     {
       "id": "mind_ray",
@@ -186,8 +255,16 @@
       "pp": 15,
       "description": "A focused psychic beam.",
       "effects": [
-        { "kind": "damage" },
-        { "kind": "stat_change", "stat": "sp_defense", "stages": -1, "chance": 0.2, "target": "enemy" }
+        {
+          "kind": "damage"
+        },
+        {
+          "kind": "stat_change",
+          "stat": "sp_defense",
+          "stages": -1,
+          "chance": 0.2,
+          "target": "enemy"
+        }
       ]
     },
     {
@@ -201,7 +278,13 @@
       "pp": 20,
       "description": "Raises the user's Defense.",
       "effects": [
-        { "kind": "stat_change", "stat": "defense", "stages": 1, "chance": 1.0, "target": "self" }
+        {
+          "kind": "stat_change",
+          "stat": "defense",
+          "stages": 1,
+          "chance": 1.0,
+          "target": "self"
+        }
       ]
     },
     {
@@ -215,8 +298,312 @@
       "pp": 15,
       "description": "Raises the user's Attack and Sp. Attack.",
       "effects": [
-        { "kind": "stat_change", "stat": "attack", "stages": 1, "chance": 1.0, "target": "self" },
-        { "kind": "stat_change", "stat": "sp_attack", "stages": 1, "chance": 1.0, "target": "self" }
+        {
+          "kind": "stat_change",
+          "stat": "attack",
+          "stages": 1,
+          "chance": 1.0,
+          "target": "self"
+        },
+        {
+          "kind": "stat_change",
+          "stat": "sp_attack",
+          "stages": 1,
+          "chance": 1.0,
+          "target": "self"
+        }
+      ]
+    },
+    {
+      "id": "rend",
+      "display_name": "Rend",
+      "type": "normal",
+      "category": "physical",
+      "power": 70,
+      "accuracy": 95,
+      "priority": 0,
+      "pp": 20,
+      "description": "A savage tearing strike.",
+      "effects": [
+        {
+          "kind": "damage"
+        }
+      ]
+    },
+    {
+      "id": "blaze_wheel",
+      "display_name": "Blaze Wheel",
+      "type": "fire",
+      "category": "physical",
+      "power": 75,
+      "accuracy": 95,
+      "priority": 0,
+      "pp": 15,
+      "description": "A rolling charge sheathed in flame.",
+      "effects": [
+        {
+          "kind": "damage"
+        },
+        {
+          "kind": "apply_status",
+          "status": "burn",
+          "chance": 0.1,
+          "target": "enemy"
+        }
+      ]
+    },
+    {
+      "id": "inferno_ray",
+      "display_name": "Inferno Ray",
+      "type": "fire",
+      "category": "special",
+      "power": 95,
+      "accuracy": 85,
+      "priority": 0,
+      "pp": 8,
+      "description": "A concentrated beam of furnace heat.",
+      "effects": [
+        {
+          "kind": "damage"
+        },
+        {
+          "kind": "apply_status",
+          "status": "burn",
+          "chance": 0.15,
+          "target": "enemy"
+        }
+      ]
+    },
+    {
+      "id": "riptide",
+      "display_name": "Riptide",
+      "type": "water",
+      "category": "physical",
+      "power": 70,
+      "accuracy": 100,
+      "priority": 0,
+      "pp": 15,
+      "description": "A dragging undertow slam.",
+      "effects": [
+        {
+          "kind": "damage"
+        }
+      ]
+    },
+    {
+      "id": "deluge",
+      "display_name": "Deluge",
+      "type": "water",
+      "category": "special",
+      "power": 95,
+      "accuracy": 85,
+      "priority": 0,
+      "pp": 8,
+      "description": "A crushing wall of water.",
+      "effects": [
+        {
+          "kind": "damage"
+        },
+        {
+          "kind": "stat_change",
+          "stat": "speed",
+          "stages": -1,
+          "chance": 0.2,
+          "target": "enemy"
+        }
+      ]
+    },
+    {
+      "id": "thorn_barrage",
+      "display_name": "Thorn Barrage",
+      "type": "grass",
+      "category": "physical",
+      "power": 75,
+      "accuracy": 95,
+      "priority": 0,
+      "pp": 15,
+      "description": "A volley of hardened thorns.",
+      "effects": [
+        {
+          "kind": "damage"
+        }
+      ]
+    },
+    {
+      "id": "bloom_burst",
+      "display_name": "Bloom Burst",
+      "type": "grass",
+      "category": "special",
+      "power": 90,
+      "accuracy": 90,
+      "priority": 0,
+      "pp": 10,
+      "description": "An explosive release of pollen and light.",
+      "effects": [
+        {
+          "kind": "damage"
+        },
+        {
+          "kind": "apply_status",
+          "status": "poison",
+          "chance": 0.15,
+          "target": "enemy"
+        }
+      ]
+    },
+    {
+      "id": "volt_lance",
+      "display_name": "Volt Lance",
+      "type": "electric",
+      "category": "physical",
+      "power": 75,
+      "accuracy": 95,
+      "priority": 0,
+      "pp": 15,
+      "description": "A piercing thrust of charge.",
+      "effects": [
+        {
+          "kind": "damage"
+        },
+        {
+          "kind": "apply_status",
+          "status": "paralyze",
+          "chance": 0.1,
+          "target": "enemy"
+        }
+      ]
+    },
+    {
+      "id": "storm_surge",
+      "display_name": "Storm Surge",
+      "type": "electric",
+      "category": "special",
+      "power": 95,
+      "accuracy": 85,
+      "priority": 0,
+      "pp": 8,
+      "description": "A cascading discharge.",
+      "effects": [
+        {
+          "kind": "damage"
+        },
+        {
+          "kind": "apply_status",
+          "status": "paralyze",
+          "chance": 0.15,
+          "target": "enemy"
+        }
+      ]
+    },
+    {
+      "id": "sand_grind",
+      "display_name": "Sand Grind",
+      "type": "earth",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 100,
+      "priority": 0,
+      "pp": 20,
+      "description": "Abrasive grit that wears armor down.",
+      "effects": [
+        {
+          "kind": "damage"
+        },
+        {
+          "kind": "stat_change",
+          "stat": "defense",
+          "stages": -1,
+          "chance": 0.2,
+          "target": "enemy"
+        }
+      ]
+    },
+    {
+      "id": "quake_stomp",
+      "display_name": "Quake Stomp",
+      "type": "earth",
+      "category": "physical",
+      "power": 85,
+      "accuracy": 95,
+      "priority": 0,
+      "pp": 10,
+      "description": "A ground-shaking stamp.",
+      "effects": [
+        {
+          "kind": "damage"
+        }
+      ]
+    },
+    {
+      "id": "cyclone_dive",
+      "display_name": "Cyclone Dive",
+      "type": "wind",
+      "category": "physical",
+      "power": 80,
+      "accuracy": 90,
+      "priority": 0,
+      "pp": 12,
+      "description": "A spiraling aerial strike.",
+      "effects": [
+        {
+          "kind": "damage"
+        }
+      ]
+    },
+    {
+      "id": "tempest",
+      "display_name": "Tempest",
+      "type": "wind",
+      "category": "special",
+      "power": 90,
+      "accuracy": 85,
+      "priority": 0,
+      "pp": 8,
+      "description": "A howling, battering gale.",
+      "effects": [
+        {
+          "kind": "damage"
+        }
+      ]
+    },
+    {
+      "id": "dream_pulse",
+      "display_name": "Dream Pulse",
+      "type": "mystic",
+      "category": "special",
+      "power": 90,
+      "accuracy": 90,
+      "priority": 0,
+      "pp": 10,
+      "description": "A wave of overwhelming reverie.",
+      "effects": [
+        {
+          "kind": "damage"
+        },
+        {
+          "kind": "stat_change",
+          "stat": "sp_attack",
+          "stages": -1,
+          "chance": 0.2,
+          "target": "enemy"
+        }
+      ]
+    },
+    {
+      "id": "veil_of_calm",
+      "display_name": "Veil of Calm",
+      "type": "mystic",
+      "category": "status",
+      "power": 0,
+      "accuracy": 100,
+      "priority": 0,
+      "pp": 10,
+      "description": "A soothing veil that mends wounds.",
+      "effects": [
+        {
+          "kind": "heal",
+          "fraction": 0.5
+        }
       ]
     }
   ]

@@ -102,6 +102,16 @@
       "to_spawn": "port",
       "requires_flag": "beat_aquilon_champion",
       "locked_text": "The northern ferry serves crest-bearers only. Defeat Champion Isolde first."
+    },
+    {
+      "type": "trainer",
+      "x": 10,
+      "y": 5,
+      "trainer_id": "shore_angler",
+      "sprite": "trainer_angler",
+      "sight": 4,
+      "facing": "left",
+      "flag": "beat_shore_angler"
     }
   ]
 }

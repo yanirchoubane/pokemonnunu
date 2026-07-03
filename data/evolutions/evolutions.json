@@ -2,9 +2,167 @@
   "$schema_version": 1,
   "description": "Evolution rules. 'from' evolves into 'to' when 'condition' is met. Kinds: level_up, use_item, trade.",
   "evolutions": [
-    { "id": "evo_emberpup",  "from": "emberpup",  "to": "emberhound", "condition": { "kind": "level_up", "level": 16 } },
-    { "id": "evo_aquafin",   "from": "aquafin",   "to": "aquarion",   "condition": { "kind": "level_up", "level": 16 } },
-    { "id": "evo_sproutkit", "from": "sproutkit", "to": "bloomcat",   "condition": { "kind": "level_up", "level": 16 } },
-    { "id": "evo_mistcalf",  "from": "mistcalf",  "to": "mistelk",    "condition": { "kind": "level_up", "level": 20 } }
+    {
+      "id": "evo_emberpup",
+      "from": "emberpup",
+      "to": "emberhound",
+      "condition": {
+        "kind": "level_up",
+        "level": 16
+      }
+    },
+    {
+      "id": "evo_aquafin",
+      "from": "aquafin",
+      "to": "aquarion",
+      "condition": {
+        "kind": "level_up",
+        "level": 16
+      }
+    },
+    {
+      "id": "evo_sproutkit",
+      "from": "sproutkit",
+      "to": "bloomcat",
+      "condition": {
+        "kind": "level_up",
+        "level": 16
+      }
+    },
+    {
+      "id": "evo_mistcalf",
+      "from": "mistcalf",
+      "to": "mistelk",
+      "condition": {
+        "kind": "level_up",
+        "level": 20
+      }
+    },
+    {
+      "id": "evo_chirpit",
+      "from": "chirpit",
+      "to": "galecrest",
+      "condition": {
+        "kind": "level_up",
+        "level": 14
+      }
+    },
+    {
+      "id": "evo_nibbit",
+      "from": "nibbit",
+      "to": "gnawber",
+      "condition": {
+        "kind": "level_up",
+        "level": 15
+      }
+    },
+    {
+      "id": "evo_glimbug",
+      "from": "glimbug",
+      "to": "luminmoth",
+      "condition": {
+        "kind": "level_up",
+        "level": 12
+      }
+    },
+    {
+      "id": "evo_floekit",
+      "from": "floekit",
+      "to": "floeguard",
+      "condition": {
+        "kind": "level_up",
+        "level": 22
+      }
+    },
+    {
+      "id": "evo_flarekit",
+      "from": "flarekit",
+      "to": "pyrelisk",
+      "condition": {
+        "kind": "level_up",
+        "level": 20
+      }
+    },
+    {
+      "id": "evo_pyrelisk",
+      "from": "pyrelisk",
+      "to": "magmaraud",
+      "condition": {
+        "kind": "level_up",
+        "level": 34
+      }
+    },
+    {
+      "id": "evo_cactling",
+      "from": "cactling",
+      "to": "saguarok",
+      "condition": {
+        "kind": "level_up",
+        "level": 24
+      }
+    },
+    {
+      "id": "evo_shadeling",
+      "from": "shadeling",
+      "to": "umbrelynx",
+      "condition": {
+        "kind": "level_up",
+        "level": 30
+      }
+    },
+    {
+      "id": "evo_sporeling",
+      "from": "sporeling",
+      "to": "mycolossus",
+      "condition": {
+        "kind": "level_up",
+        "level": 32
+      }
+    },
+    {
+      "id": "evo_ironsnout",
+      "from": "ironsnout",
+      "to": "ferroboar",
+      "condition": {
+        "kind": "level_up",
+        "level": 36
+      }
+    },
+    {
+      "id": "evo_mireling",
+      "from": "mireling",
+      "to": "bogthorn",
+      "condition": {
+        "kind": "level_up",
+        "level": 42
+      }
+    },
+    {
+      "id": "evo_shardling",
+      "from": "shardling",
+      "to": "crystalisk",
+      "condition": {
+        "kind": "level_up",
+        "level": 46
+      }
+    },
+    {
+      "id": "evo_nimbling",
+      "from": "nimbling",
+      "to": "cumulor",
+      "condition": {
+        "kind": "level_up",
+        "level": 30
+      }
+    },
+    {
+      "id": "evo_cumulor",
+      "from": "cumulor",
+      "to": "tempestrix",
+      "condition": {
+        "kind": "level_up",
+        "level": 52
+      }
+    }
   ]
 }

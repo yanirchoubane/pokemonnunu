@@ -53,6 +53,28 @@
       ]
     },
     {
+      "id": "ending_order_undone",
+      "title": "The Hollow, Undone",
+      "condition": {
+        "kind": "all",
+        "conditions": [
+          {
+            "kind": "flag",
+            "flag": "quest_aquilon_done"
+          },
+          {
+            "kind": "flag",
+            "flag": "quest_hollow_done"
+          }
+        ]
+      },
+      "lines": [
+        "With the Archon unmasked, the Hollow Order's ledgers burn in every region at once.",
+        "Trainers walk the northern roads without looking over their shoulders again.",
+        "Professor Maple's report gains a final chapter: the one where you gave the roads back."
+      ]
+    },
+    {
       "id": "ending_champion",
       "title": "Champion of the North",
       "condition": {

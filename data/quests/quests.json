@@ -477,6 +477,63 @@
         }
       ],
       "on_complete_flag": "quest_zephyra_done"
+    },
+    {
+      "id": "main_hollow_order",
+      "display_name": "Shadows of the Hollow Order",
+      "category": "main",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_cindral"
+      },
+      "description": "A shadowy order is shaking down trainers along the northern roads. Root out its agents and unmask their Archon.",
+      "objectives": [
+        {
+          "id": "obj_agent1",
+          "text": "Defeat the Hollow agent in Cindral.",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_hollow_agent_cindral"
+          }
+        },
+        {
+          "id": "obj_agent2",
+          "text": "Defeat the Hollow agent in Ferrock.",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_hollow_agent_ferrock"
+          }
+        },
+        {
+          "id": "obj_agent3",
+          "text": "Defeat the Hollow agent in Lumen.",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_hollow_agent_lumen"
+          }
+        },
+        {
+          "id": "obj_archon",
+          "text": "Defeat the Hollow Archon in the Zephyra Wilds.",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_hollow_archon"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 5000
+        },
+        {
+          "kind": "item",
+          "item": "revive",
+          "quantity": 3
+        }
+      ],
+      "on_complete_flag": "quest_hollow_done"
     }
   ]
 }

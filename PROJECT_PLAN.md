@@ -199,3 +199,17 @@ edit is required. See `DATA_FORMAT.md` and `REGION_CREATION_GUIDE.md`.
   - Grand ending "Legend of the Nine Crests" (all nine champion flags), first in priority.
   - Whole-chain BFS reachability simulation passes (gate→wilds→hall→next region and back);
     validators green: 26 creatures, 19 trainers, 9 regions, 30 maps, 11 quests, 4 endings.
+- 2026-07-03 — **Content expansion** (`tools/generators/generate_expansion.py`, all original):
+  - +15 moves (every type now has an early/mid/late kit incl. strong 85-95 power finishers).
+  - +37 species → **63 total**: 2-3 stage evolution lines per region (early-route bird and
+    rodent archetypes, region singles, a 3-stage fire line, a 3-stage wind pseudo line, and
+    the apex rarity Aetherion — ultra-rare wild spawn), 14 new evolution rules → 18 total.
+  - +29 trainers → **48 total**: 3 route trainers per generated region (Rambler / Angler /
+    Miner classes), 4 hand-placed trainers in Verdantia/Aquilon, and an original antagonist
+    arc — the **Hollow Order**: agents in Cindral/Ferrock/Lumen wilds and the Archon boss
+    (team of 54-57) in the Zephyra wilds.
+  - New story quest "Shadows of the Hollow Order" (4 objectives across regions) and a fifth
+    ending "The Hollow, Undone" (priority between Nine Crests and Champion).
+  - Encounter tables now include all new stage-1 natives and singles; whole-chain BFS
+    reachability still passes with the new trainer obstacles; validators green:
+    63 creatures, 31 moves, 48 trainers, 12 quests, 5 endings; 30/30 math tests.
