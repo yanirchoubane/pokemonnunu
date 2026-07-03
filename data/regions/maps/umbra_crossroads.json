@@ -1,0 +1,178 @@
+{
+  "$schema_version": 1,
+  "id": "umbra_crossroads",
+  "display_name": "Umbra Crossroads",
+  "region": "umbra",
+  "bgm": "town",
+  "tile_size": 32,
+  "legend": {
+    "#": "wall",
+    ".": "ground",
+    "D": "door",
+    "H": "heal_pad"
+  },
+  "rows": [
+    "##D##D##D##D####",
+    "#..............#",
+    "#..............#",
+    "D..............#",
+    "#......H.......#",
+    "#..............D",
+    "#..............#",
+    "#..............#",
+    "##D##D##D##D####"
+  ],
+  "objects": [
+    {
+      "type": "spawn",
+      "id": "from_wilds",
+      "x": 1,
+      "y": 3
+    },
+    {
+      "type": "spawn",
+      "id": "from_league",
+      "x": 14,
+      "y": 5
+    },
+    {
+      "type": "spawn",
+      "id": "default",
+      "x": 7,
+      "y": 5
+    },
+    {
+      "type": "door",
+      "x": 0,
+      "y": 3,
+      "to_map": "umbra_wilds",
+      "to_spawn": "from_hall"
+    },
+    {
+      "type": "door",
+      "x": 15,
+      "y": 5,
+      "to_map": "umbra_hall",
+      "to_spawn": "entrance",
+      "requires_flag": "league_open_umbra",
+      "locked_text": "The League gates open only to holders of all eight Umbra badges."
+    },
+    {
+      "type": "heal",
+      "x": 7,
+      "y": 4,
+      "sets_respawn": true,
+      "respawn_spawn": "default"
+    },
+    {
+      "type": "sign",
+      "x": 6,
+      "y": 5,
+      "text": "Umbra Crossroads — eight gyms, one League."
+    },
+    {
+      "type": "door",
+      "x": 2,
+      "y": 0,
+      "to_map": "umbra_gym_normal",
+      "to_spawn": "entrance"
+    },
+    {
+      "type": "spawn",
+      "id": "from_normal_gym",
+      "x": 2,
+      "y": 1
+    },
+    {
+      "type": "door",
+      "x": 5,
+      "y": 0,
+      "to_map": "umbra_gym_fire",
+      "to_spawn": "entrance"
+    },
+    {
+      "type": "spawn",
+      "id": "from_fire_gym",
+      "x": 5,
+      "y": 1
+    },
+    {
+      "type": "door",
+      "x": 8,
+      "y": 0,
+      "to_map": "umbra_gym_water",
+      "to_spawn": "entrance"
+    },
+    {
+      "type": "spawn",
+      "id": "from_water_gym",
+      "x": 8,
+      "y": 1
+    },
+    {
+      "type": "door",
+      "x": 11,
+      "y": 0,
+      "to_map": "umbra_gym_grass",
+      "to_spawn": "entrance"
+    },
+    {
+      "type": "spawn",
+      "id": "from_grass_gym",
+      "x": 11,
+      "y": 1
+    },
+    {
+      "type": "door",
+      "x": 2,
+      "y": 8,
+      "to_map": "umbra_gym_electric",
+      "to_spawn": "entrance"
+    },
+    {
+      "type": "spawn",
+      "id": "from_electric_gym",
+      "x": 2,
+      "y": 7
+    },
+    {
+      "type": "door",
+      "x": 5,
+      "y": 8,
+      "to_map": "umbra_gym_earth",
+      "to_spawn": "entrance"
+    },
+    {
+      "type": "spawn",
+      "id": "from_earth_gym",
+      "x": 5,
+      "y": 7
+    },
+    {
+      "type": "door",
+      "x": 8,
+      "y": 8,
+      "to_map": "umbra_gym_wind",
+      "to_spawn": "entrance"
+    },
+    {
+      "type": "spawn",
+      "id": "from_wind_gym",
+      "x": 8,
+      "y": 7
+    },
+    {
+      "type": "door",
+      "x": 11,
+      "y": 8,
+      "to_map": "umbra_gym_mystic",
+      "to_spawn": "entrance"
+    },
+    {
+      "type": "spawn",
+      "id": "from_mystic_gym",
+      "x": 11,
+      "y": 7
+    }
+  ]
+}

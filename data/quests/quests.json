@@ -534,6 +534,762 @@
         }
       ],
       "on_complete_flag": "quest_hollow_done"
+    },
+    {
+      "id": "circuit_verdantia",
+      "display_name": "The Verdantia Gym Circuit",
+      "category": "main",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_verdantia"
+      },
+      "description": "Defeat all eight gym leaders of Verdantia to open its League.",
+      "objectives": [
+        {
+          "id": "obj_normal",
+          "text": "Earn the normal badge (Plainskeeper).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_verdantia_gym_normal"
+          }
+        },
+        {
+          "id": "obj_fire",
+          "text": "Earn the fire badge (Ember Sage).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_verdantia_gym_fire"
+          }
+        },
+        {
+          "id": "obj_water",
+          "text": "Earn the water badge (Tidecaller).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_verdantia_gym_water"
+          }
+        },
+        {
+          "id": "obj_grass",
+          "text": "Earn the grass badge (Grovewarden).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_verdantia_gym_grass"
+          }
+        },
+        {
+          "id": "obj_electric",
+          "text": "Earn the electric badge (Stormsmith).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_verdantia_gym_electric"
+          }
+        },
+        {
+          "id": "obj_earth",
+          "text": "Earn the earth badge (Cairnbreaker).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_verdantia_gym_earth"
+          }
+        },
+        {
+          "id": "obj_wind",
+          "text": "Earn the wind badge (Skydancer).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_verdantia_gym_wind"
+          }
+        },
+        {
+          "id": "obj_mystic",
+          "text": "Earn the mystic badge (Dreambinder).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_verdantia_gym_mystic"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 1500
+        }
+      ],
+      "on_complete_flag": "league_open_verdantia"
+    },
+    {
+      "id": "circuit_aquilon",
+      "display_name": "The Aquilon Gym Circuit",
+      "category": "main",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_aquilon"
+      },
+      "description": "Defeat all eight gym leaders of Aquilon to open its League.",
+      "objectives": [
+        {
+          "id": "obj_normal",
+          "text": "Earn the normal badge (Plainskeeper).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_aquilon_gym_normal"
+          }
+        },
+        {
+          "id": "obj_fire",
+          "text": "Earn the fire badge (Ember Sage).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_aquilon_gym_fire"
+          }
+        },
+        {
+          "id": "obj_water",
+          "text": "Earn the water badge (Tidecaller).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_aquilon_gym_water"
+          }
+        },
+        {
+          "id": "obj_grass",
+          "text": "Earn the grass badge (Grovewarden).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_aquilon_gym_grass"
+          }
+        },
+        {
+          "id": "obj_electric",
+          "text": "Earn the electric badge (Stormsmith).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_aquilon_gym_electric"
+          }
+        },
+        {
+          "id": "obj_earth",
+          "text": "Earn the earth badge (Cairnbreaker).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_aquilon_gym_earth"
+          }
+        },
+        {
+          "id": "obj_wind",
+          "text": "Earn the wind badge (Skydancer).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_aquilon_gym_wind"
+          }
+        },
+        {
+          "id": "obj_mystic",
+          "text": "Earn the mystic badge (Dreambinder).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_aquilon_gym_mystic"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 2000
+        }
+      ],
+      "on_complete_flag": "league_open_aquilon"
+    },
+    {
+      "id": "circuit_cindral",
+      "display_name": "The Cindral Gym Circuit",
+      "category": "main",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_cindral"
+      },
+      "description": "Defeat all eight gym leaders of Cindral to open its League.",
+      "objectives": [
+        {
+          "id": "obj_normal",
+          "text": "Earn the normal badge (Plainskeeper).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_cindral_gym_normal"
+          }
+        },
+        {
+          "id": "obj_fire",
+          "text": "Earn the fire badge (Ember Sage).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_cindral_gym_fire"
+          }
+        },
+        {
+          "id": "obj_water",
+          "text": "Earn the water badge (Tidecaller).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_cindral_gym_water"
+          }
+        },
+        {
+          "id": "obj_grass",
+          "text": "Earn the grass badge (Grovewarden).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_cindral_gym_grass"
+          }
+        },
+        {
+          "id": "obj_electric",
+          "text": "Earn the electric badge (Stormsmith).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_cindral_gym_electric"
+          }
+        },
+        {
+          "id": "obj_earth",
+          "text": "Earn the earth badge (Cairnbreaker).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_cindral_gym_earth"
+          }
+        },
+        {
+          "id": "obj_wind",
+          "text": "Earn the wind badge (Skydancer).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_cindral_gym_wind"
+          }
+        },
+        {
+          "id": "obj_mystic",
+          "text": "Earn the mystic badge (Dreambinder).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_cindral_gym_mystic"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 2500
+        }
+      ],
+      "on_complete_flag": "league_open_cindral"
+    },
+    {
+      "id": "circuit_solane",
+      "display_name": "The Solane Gym Circuit",
+      "category": "main",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_solane"
+      },
+      "description": "Defeat all eight gym leaders of Solane to open its League.",
+      "objectives": [
+        {
+          "id": "obj_normal",
+          "text": "Earn the normal badge (Plainskeeper).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_solane_gym_normal"
+          }
+        },
+        {
+          "id": "obj_fire",
+          "text": "Earn the fire badge (Ember Sage).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_solane_gym_fire"
+          }
+        },
+        {
+          "id": "obj_water",
+          "text": "Earn the water badge (Tidecaller).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_solane_gym_water"
+          }
+        },
+        {
+          "id": "obj_grass",
+          "text": "Earn the grass badge (Grovewarden).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_solane_gym_grass"
+          }
+        },
+        {
+          "id": "obj_electric",
+          "text": "Earn the electric badge (Stormsmith).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_solane_gym_electric"
+          }
+        },
+        {
+          "id": "obj_earth",
+          "text": "Earn the earth badge (Cairnbreaker).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_solane_gym_earth"
+          }
+        },
+        {
+          "id": "obj_wind",
+          "text": "Earn the wind badge (Skydancer).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_solane_gym_wind"
+          }
+        },
+        {
+          "id": "obj_mystic",
+          "text": "Earn the mystic badge (Dreambinder).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_solane_gym_mystic"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 3000
+        }
+      ],
+      "on_complete_flag": "league_open_solane"
+    },
+    {
+      "id": "circuit_umbra",
+      "display_name": "The Umbra Gym Circuit",
+      "category": "main",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_umbra"
+      },
+      "description": "Defeat all eight gym leaders of Umbra to open its League.",
+      "objectives": [
+        {
+          "id": "obj_normal",
+          "text": "Earn the normal badge (Plainskeeper).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_umbra_gym_normal"
+          }
+        },
+        {
+          "id": "obj_fire",
+          "text": "Earn the fire badge (Ember Sage).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_umbra_gym_fire"
+          }
+        },
+        {
+          "id": "obj_water",
+          "text": "Earn the water badge (Tidecaller).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_umbra_gym_water"
+          }
+        },
+        {
+          "id": "obj_grass",
+          "text": "Earn the grass badge (Grovewarden).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_umbra_gym_grass"
+          }
+        },
+        {
+          "id": "obj_electric",
+          "text": "Earn the electric badge (Stormsmith).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_umbra_gym_electric"
+          }
+        },
+        {
+          "id": "obj_earth",
+          "text": "Earn the earth badge (Cairnbreaker).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_umbra_gym_earth"
+          }
+        },
+        {
+          "id": "obj_wind",
+          "text": "Earn the wind badge (Skydancer).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_umbra_gym_wind"
+          }
+        },
+        {
+          "id": "obj_mystic",
+          "text": "Earn the mystic badge (Dreambinder).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_umbra_gym_mystic"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 3500
+        }
+      ],
+      "on_complete_flag": "league_open_umbra"
+    },
+    {
+      "id": "circuit_ferrock",
+      "display_name": "The Ferrock Gym Circuit",
+      "category": "main",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_ferrock"
+      },
+      "description": "Defeat all eight gym leaders of Ferrock to open its League.",
+      "objectives": [
+        {
+          "id": "obj_normal",
+          "text": "Earn the normal badge (Plainskeeper).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_ferrock_gym_normal"
+          }
+        },
+        {
+          "id": "obj_fire",
+          "text": "Earn the fire badge (Ember Sage).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_ferrock_gym_fire"
+          }
+        },
+        {
+          "id": "obj_water",
+          "text": "Earn the water badge (Tidecaller).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_ferrock_gym_water"
+          }
+        },
+        {
+          "id": "obj_grass",
+          "text": "Earn the grass badge (Grovewarden).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_ferrock_gym_grass"
+          }
+        },
+        {
+          "id": "obj_electric",
+          "text": "Earn the electric badge (Stormsmith).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_ferrock_gym_electric"
+          }
+        },
+        {
+          "id": "obj_earth",
+          "text": "Earn the earth badge (Cairnbreaker).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_ferrock_gym_earth"
+          }
+        },
+        {
+          "id": "obj_wind",
+          "text": "Earn the wind badge (Skydancer).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_ferrock_gym_wind"
+          }
+        },
+        {
+          "id": "obj_mystic",
+          "text": "Earn the mystic badge (Dreambinder).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_ferrock_gym_mystic"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 4000
+        }
+      ],
+      "on_complete_flag": "league_open_ferrock"
+    },
+    {
+      "id": "circuit_brume",
+      "display_name": "The Brume Gym Circuit",
+      "category": "main",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_brume"
+      },
+      "description": "Defeat all eight gym leaders of Brume to open its League.",
+      "objectives": [
+        {
+          "id": "obj_normal",
+          "text": "Earn the normal badge (Plainskeeper).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_brume_gym_normal"
+          }
+        },
+        {
+          "id": "obj_fire",
+          "text": "Earn the fire badge (Ember Sage).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_brume_gym_fire"
+          }
+        },
+        {
+          "id": "obj_water",
+          "text": "Earn the water badge (Tidecaller).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_brume_gym_water"
+          }
+        },
+        {
+          "id": "obj_grass",
+          "text": "Earn the grass badge (Grovewarden).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_brume_gym_grass"
+          }
+        },
+        {
+          "id": "obj_electric",
+          "text": "Earn the electric badge (Stormsmith).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_brume_gym_electric"
+          }
+        },
+        {
+          "id": "obj_earth",
+          "text": "Earn the earth badge (Cairnbreaker).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_brume_gym_earth"
+          }
+        },
+        {
+          "id": "obj_wind",
+          "text": "Earn the wind badge (Skydancer).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_brume_gym_wind"
+          }
+        },
+        {
+          "id": "obj_mystic",
+          "text": "Earn the mystic badge (Dreambinder).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_brume_gym_mystic"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 4500
+        }
+      ],
+      "on_complete_flag": "league_open_brume"
+    },
+    {
+      "id": "circuit_lumen",
+      "display_name": "The Lumen Gym Circuit",
+      "category": "main",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_lumen"
+      },
+      "description": "Defeat all eight gym leaders of Lumen to open its League.",
+      "objectives": [
+        {
+          "id": "obj_normal",
+          "text": "Earn the normal badge (Plainskeeper).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_lumen_gym_normal"
+          }
+        },
+        {
+          "id": "obj_fire",
+          "text": "Earn the fire badge (Ember Sage).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_lumen_gym_fire"
+          }
+        },
+        {
+          "id": "obj_water",
+          "text": "Earn the water badge (Tidecaller).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_lumen_gym_water"
+          }
+        },
+        {
+          "id": "obj_grass",
+          "text": "Earn the grass badge (Grovewarden).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_lumen_gym_grass"
+          }
+        },
+        {
+          "id": "obj_electric",
+          "text": "Earn the electric badge (Stormsmith).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_lumen_gym_electric"
+          }
+        },
+        {
+          "id": "obj_earth",
+          "text": "Earn the earth badge (Cairnbreaker).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_lumen_gym_earth"
+          }
+        },
+        {
+          "id": "obj_wind",
+          "text": "Earn the wind badge (Skydancer).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_lumen_gym_wind"
+          }
+        },
+        {
+          "id": "obj_mystic",
+          "text": "Earn the mystic badge (Dreambinder).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_lumen_gym_mystic"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 5000
+        }
+      ],
+      "on_complete_flag": "league_open_lumen"
+    },
+    {
+      "id": "circuit_zephyra",
+      "display_name": "The Zephyra Gym Circuit",
+      "category": "main",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_zephyra"
+      },
+      "description": "Defeat all eight gym leaders of Zephyra to open its League.",
+      "objectives": [
+        {
+          "id": "obj_normal",
+          "text": "Earn the normal badge (Plainskeeper).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_zephyra_gym_normal"
+          }
+        },
+        {
+          "id": "obj_fire",
+          "text": "Earn the fire badge (Ember Sage).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_zephyra_gym_fire"
+          }
+        },
+        {
+          "id": "obj_water",
+          "text": "Earn the water badge (Tidecaller).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_zephyra_gym_water"
+          }
+        },
+        {
+          "id": "obj_grass",
+          "text": "Earn the grass badge (Grovewarden).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_zephyra_gym_grass"
+          }
+        },
+        {
+          "id": "obj_electric",
+          "text": "Earn the electric badge (Stormsmith).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_zephyra_gym_electric"
+          }
+        },
+        {
+          "id": "obj_earth",
+          "text": "Earn the earth badge (Cairnbreaker).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_zephyra_gym_earth"
+          }
+        },
+        {
+          "id": "obj_wind",
+          "text": "Earn the wind badge (Skydancer).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_zephyra_gym_wind"
+          }
+        },
+        {
+          "id": "obj_mystic",
+          "text": "Earn the mystic badge (Dreambinder).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_zephyra_gym_mystic"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 5500
+        }
+      ],
+      "on_complete_flag": "league_open_zephyra"
     }
   ]
 }

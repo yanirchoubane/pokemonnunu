@@ -213,3 +213,19 @@ edit is required. See `DATA_FORMAT.md` and `REGION_CREATION_GUIDE.md`.
   - Encounter tables now include all new stage-1 natives and singles; whole-chain BFS
     reachability still passes with the new trainer obstacles; validators green:
     63 creatures, 31 moves, 48 trainers, 12 quests, 5 endings; 30/30 math tests.
+- 2026-07-03 — **Full league structure** (`tools/generators/generate_league.py`, original):
+  - Every region now has a **Crossroads** city map with **eight type-themed gyms** (one per
+    elemental type — all types represented in every region), each led by a boss gym leader
+    with its own badge (72 gym leaders / 72 badges).
+  - A **gym-circuit quest** per region: all 8 badges set `league_open_<region>`, which
+    unlocks the **League corridor** — four Elite trainers on 1-tile chokepoints that must
+    be beaten in sequence, then the region **Champion** (5-creature team, region crest).
+    New champions for Verdantia (Sovereign Laurel) and Aquilon (Marshal Eirwen); Isolde
+    remains Aquilon's summit story boss gating the inter-region ferry.
+  - Dex generator with **guaranteed type coverage**: one evolution line per type per
+    region (+ dual-type flavor lines; `EXTRA_LINES` scales the dex further). Region-scaled
+    stats, unique procedural names, learnsets from type move pools, evolutions wired.
+  - Totals: **297 creatures, 158 trainers (81 bosses), 113 maps, 21 quests, 81 badges**.
+  - New permanent validator `tools/validators/check_chain.py`: static map integrity plus a
+    progression walk of all nine regions (entries → gyms → elite sequence → champion →
+    ports → returns). Passes; data validators green; 30/30 math tests.

@@ -6,7 +6,7 @@
   "starting_map": "brume_gate",
   "recommended_level_min": 38,
   "recommended_level_max": 48,
-  "badge_count": 1,
+  "badge_count": 9,
   "league_id": "brume_league",
   "next_regions": [
     "lumen"
@@ -14,7 +14,16 @@
   "maps": [
     "brume_gate",
     "brume_wilds",
-    "brume_hall"
+    "brume_hall",
+    "brume_crossroads",
+    "brume_gym_normal",
+    "brume_gym_fire",
+    "brume_gym_water",
+    "brume_gym_grass",
+    "brume_gym_electric",
+    "brume_gym_earth",
+    "brume_gym_wind",
+    "brume_gym_mystic"
   ],
   "regional_rules": {
     "level_scaling": "soft",

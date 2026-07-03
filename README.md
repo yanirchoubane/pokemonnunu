@@ -25,10 +25,16 @@ JSON files that are validated at boot. You can add content without touching engi
   route trainers), and a Summit Hall (boss champion + crest badge), chained by flag-gated
   ports with return trips. The whole chain's walkability is **verified by a BFS simulation**
   over the map data.
-- ✅ **63 original creatures** (2-3 stage evolution lines, region natives, one apex rarity),
-  **31 moves**, **48 trainers** (9 champions, route classes, an antagonist organization —
-  the Hollow Order — with agents across the north and a final Archon boss), 30 maps,
-  12 quests, 5 endings.
+- ✅ **297 original creatures** — every one of the 8 types has an evolution line in every
+  region (dex generator guarantees coverage; raise its parameters to grow it further),
+  plus region natives and one apex rarity.
+- ✅ **Full league structure in all 9 regions**: a Crossroads city with **8 type-themed
+  gyms** (72 leaders, one badge each), a **gym-circuit quest** that opens the League, and
+  a League corridor where the **four Elites** must be beaten in sequence before the
+  **Champion** (5-creature team). 158 trainers total, incl. route classes and the Hollow
+  Order antagonist arc; 113 maps, 21 quests, 5 endings, 31 moves. The whole progression —
+  entries, gyms, elite sequences, ports, return trips — is verified by
+  `python3 tools/validators/check_chain.py`.
 
 Because Godot may not be installed where this was authored, **scene-level runtime testing
 is done in the Godot editor** (below). The engine-independent core is verified now via the

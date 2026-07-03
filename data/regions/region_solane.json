@@ -6,7 +6,7 @@
   "starting_map": "solane_gate",
   "recommended_level_min": 20,
   "recommended_level_max": 30,
-  "badge_count": 1,
+  "badge_count": 9,
   "league_id": "solane_league",
   "next_regions": [
     "umbra"
@@ -14,7 +14,16 @@
   "maps": [
     "solane_gate",
     "solane_wilds",
-    "solane_hall"
+    "solane_hall",
+    "solane_crossroads",
+    "solane_gym_normal",
+    "solane_gym_fire",
+    "solane_gym_water",
+    "solane_gym_grass",
+    "solane_gym_electric",
+    "solane_gym_earth",
+    "solane_gym_wind",
+    "solane_gym_mystic"
   ],
   "regional_rules": {
     "level_scaling": "soft",

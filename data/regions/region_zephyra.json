@@ -6,13 +6,22 @@
   "starting_map": "zephyra_gate",
   "recommended_level_min": 50,
   "recommended_level_max": 60,
-  "badge_count": 1,
+  "badge_count": 9,
   "league_id": "zephyra_league",
   "next_regions": [],
   "maps": [
     "zephyra_gate",
     "zephyra_wilds",
-    "zephyra_hall"
+    "zephyra_hall",
+    "zephyra_crossroads",
+    "zephyra_gym_normal",
+    "zephyra_gym_fire",
+    "zephyra_gym_water",
+    "zephyra_gym_grass",
+    "zephyra_gym_electric",
+    "zephyra_gym_earth",
+    "zephyra_gym_wind",
+    "zephyra_gym_mystic"
   ],
   "regional_rules": {
     "level_scaling": "soft",

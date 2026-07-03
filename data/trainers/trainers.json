@@ -212,37 +212,56 @@
       "ai": "advanced",
       "boss": true,
       "boss_scaling": "limited",
-      "reward_money": 1250,
+      "reward_money": 2700,
       "reward_badge": "cindral_crest",
-      "dialogue_intro": "Champion: Cindral crowns only the worthy. Begin.",
-      "dialogue_defeat": "Champion: The Cindral Crest is yours. Travel on.",
-      "dialogue_victory": "Champion: The summit is patient. Return stronger.",
+      "dialogue_intro": "Champion of Cindral: Eight badges brought you here. Show me their weight.",
+      "dialogue_defeat": "Champion of Cindral: Cindral bows to a new Champion.",
+      "dialogue_victory": "Champion of Cindral: Come back when the badges feel heavier.",
       "team": [
         {
-          "creature": "pebblet",
-          "level": 19,
+          "creature": "brambleclaw",
+          "level": 26,
           "moves": [
-            "tackle",
-            "stone_toss",
-            "guard_up"
+            "leaf_cut",
+            "thorn_barrage",
+            "vine_wrap"
           ]
         },
         {
-          "creature": "cindermole",
-          "level": 20,
+          "creature": "cirruswing",
+          "level": 27,
           "moves": [
-            "scratch",
+            "gale_slash",
+            "cyclone_dive",
+            "tempest"
+          ]
+        },
+        {
+          "creature": "blazenhorn",
+          "level": 28,
+          "moves": [
             "ember_burst",
-            "stone_toss"
+            "blaze_wheel",
+            "flame_lash",
+            "inferno_ray"
           ]
         },
         {
-          "creature": "ashvole",
-          "level": 22,
+          "creature": "arcfang",
+          "level": 26,
           "moves": [
-            "tackle",
-            "stone_toss",
-            "guard_up"
+            "spark_zap",
+            "volt_lance",
+            "static_field"
+          ]
+        },
+        {
+          "creature": "omenhorn",
+          "level": 27,
+          "moves": [
+            "mind_ray",
+            "dream_pulse",
+            "veil_of_calm"
           ]
         }
       ]
@@ -285,37 +304,56 @@
       "ai": "advanced",
       "boss": true,
       "boss_scaling": "limited",
-      "reward_money": 1500,
+      "reward_money": 3100,
       "reward_badge": "solane_crest",
-      "dialogue_intro": "Champion: Solane crowns only the worthy. Begin.",
-      "dialogue_defeat": "Champion: The Solane Crest is yours. Travel on.",
-      "dialogue_victory": "Champion: The summit is patient. Return stronger.",
+      "dialogue_intro": "Champion of Solane: Eight badges brought you here. Show me their weight.",
+      "dialogue_defeat": "Champion of Solane: Solane bows to a new Champion.",
+      "dialogue_victory": "Champion of Solane: Come back when the badges feel heavier.",
       "team": [
         {
-          "creature": "gustling",
-          "level": 25,
+          "creature": "surgemane",
+          "level": 32,
           "moves": [
-            "scratch",
-            "gale_slash",
-            "quick_jab"
+            "spark_zap",
+            "volt_lance",
+            "static_field"
           ]
         },
         {
-          "creature": "duneling",
-          "level": 26,
+          "creature": "arcanetail",
+          "level": 33,
+          "moves": [
+            "mind_ray",
+            "dream_pulse",
+            "veil_of_calm"
+          ]
+        },
+        {
+          "creature": "coveclaw",
+          "level": 34,
+          "moves": [
+            "aqua_dart",
+            "riptide",
+            "tide_crash",
+            "deluge"
+          ]
+        },
+        {
+          "creature": "quarrywing",
+          "level": 32,
+          "moves": [
+            "stone_toss",
+            "sand_grind",
+            "quake_stomp"
+          ]
+        },
+        {
+          "creature": "fawnhorn",
+          "level": 33,
           "moves": [
             "tackle",
-            "stone_toss",
-            "quick_jab"
-          ]
-        },
-        {
-          "creature": "sunwisp",
-          "level": 28,
-          "moves": [
-            "ember_burst",
-            "mind_ray",
-            "focus_charge"
+            "quick_jab",
+            "rend"
           ]
         }
       ]
@@ -358,37 +396,56 @@
       "ai": "advanced",
       "boss": true,
       "boss_scaling": "limited",
-      "reward_money": 1750,
+      "reward_money": 3500,
       "reward_badge": "umbra_crest",
-      "dialogue_intro": "Champion: Umbra crowns only the worthy. Begin.",
-      "dialogue_defeat": "Champion: The Umbra Crest is yours. Travel on.",
-      "dialogue_victory": "Champion: The summit is patient. Return stronger.",
+      "dialogue_intro": "Champion of Umbra: Eight badges brought you here. Show me their weight.",
+      "dialogue_defeat": "Champion of Umbra: Umbra bows to a new Champion.",
+      "dialogue_victory": "Champion of Umbra: Come back when the badges feel heavier.",
       "team": [
         {
-          "creature": "psywisp",
-          "level": 31,
+          "creature": "ridgehorn",
+          "level": 38,
+          "moves": [
+            "stone_toss",
+            "sand_grind",
+            "quake_stomp"
+          ]
+        },
+        {
+          "creature": "burrowtail",
+          "level": 39,
           "moves": [
             "tackle",
-            "mind_ray",
-            "guard_up"
+            "quick_jab",
+            "rend"
           ]
         },
         {
-          "creature": "gloomoth",
-          "level": 32,
+          "creature": "thistlemane",
+          "level": 40,
           "moves": [
-            "mind_ray",
-            "gale_slash",
-            "static_field"
-          ]
-        },
-        {
-          "creature": "thornrat",
-          "level": 34,
-          "moves": [
-            "scratch",
             "leaf_cut",
-            "vine_wrap"
+            "thorn_barrage",
+            "vine_wrap",
+            "bloom_burst"
+          ]
+        },
+        {
+          "creature": "soartail",
+          "level": 38,
+          "moves": [
+            "gale_slash",
+            "cyclone_dive",
+            "tempest"
+          ]
+        },
+        {
+          "creature": "kilnclaw",
+          "level": 39,
+          "moves": [
+            "ember_burst",
+            "blaze_wheel",
+            "flame_lash"
           ]
         }
       ]
@@ -430,38 +487,56 @@
       "ai": "advanced",
       "boss": true,
       "boss_scaling": "limited",
-      "reward_money": 2000,
+      "reward_money": 3900,
       "reward_badge": "ferrock_crest",
-      "dialogue_intro": "Champion: Ferrock crowns only the worthy. Begin.",
-      "dialogue_defeat": "Champion: The Ferrock Crest is yours. Travel on.",
-      "dialogue_victory": "Champion: The summit is patient. Return stronger.",
+      "dialogue_intro": "Champion of Ferrock: Eight badges brought you here. Show me their weight.",
+      "dialogue_defeat": "Champion of Ferrock: Ferrock bows to a new Champion.",
+      "dialogue_victory": "Champion of Ferrock: Come back when the badges feel heavier.",
       "team": [
         {
-          "creature": "zapmouse",
-          "level": 37,
+          "creature": "zephyrclaw",
+          "level": 44,
           "moves": [
-            "tackle",
-            "spark_zap",
-            "static_field",
-            "quick_jab"
+            "gale_slash",
+            "cyclone_dive",
+            "tempest"
           ]
         },
         {
-          "creature": "boltram",
-          "level": 38,
+          "creature": "smolderfang",
+          "level": 45,
           "moves": [
-            "tackle",
-            "spark_zap",
-            "stone_toss"
-          ]
-        },
-        {
-          "creature": "slagbeetle",
-          "level": 40,
-          "moves": [
-            "tackle",
             "ember_burst",
-            "stone_toss"
+            "blaze_wheel",
+            "flame_lash"
+          ]
+        },
+        {
+          "creature": "fulgorhorn",
+          "level": 46,
+          "moves": [
+            "spark_zap",
+            "volt_lance",
+            "static_field",
+            "storm_surge"
+          ]
+        },
+        {
+          "creature": "runefang",
+          "level": 44,
+          "moves": [
+            "mind_ray",
+            "dream_pulse",
+            "veil_of_calm"
+          ]
+        },
+        {
+          "creature": "deltamane",
+          "level": 45,
+          "moves": [
+            "aqua_dart",
+            "riptide",
+            "tide_crash"
           ]
         }
       ]
@@ -504,38 +579,56 @@
       "ai": "advanced",
       "boss": true,
       "boss_scaling": "limited",
-      "reward_money": 2250,
+      "reward_money": 4300,
       "reward_badge": "brume_crest",
-      "dialogue_intro": "Champion: Brume crowns only the worthy. Begin.",
-      "dialogue_defeat": "Champion: The Brume Crest is yours. Travel on.",
-      "dialogue_victory": "Champion: The summit is patient. Return stronger.",
+      "dialogue_intro": "Champion of Brume: Eight badges brought you here. Show me their weight.",
+      "dialogue_defeat": "Champion of Brume: Brume bows to a new Champion.",
+      "dialogue_victory": "Champion of Brume: Come back when the badges feel heavier.",
       "team": [
         {
-          "creature": "mistcalf",
-          "level": 43,
+          "creature": "omenmane",
+          "level": 50,
           "moves": [
-            "tackle",
+            "mind_ray",
+            "dream_pulse",
+            "veil_of_calm"
+          ]
+        },
+        {
+          "creature": "mistwing",
+          "level": 51,
+          "moves": [
             "aqua_dart",
-            "guard_up",
+            "riptide",
             "tide_crash"
           ]
         },
         {
-          "creature": "fenling",
-          "level": 44,
+          "creature": "clayclaw",
+          "level": 52,
           "moves": [
-            "aqua_dart",
-            "leaf_cut",
-            "vine_wrap"
+            "stone_toss",
+            "sand_grind",
+            "quake_stomp",
+            "guard_up"
           ]
         },
         {
-          "creature": "murkfin",
-          "level": 46,
+          "creature": "harrowfang",
+          "level": 50,
           "moves": [
-            "aqua_dart",
-            "tide_crash",
-            "quick_jab"
+            "tackle",
+            "quick_jab",
+            "rend"
+          ]
+        },
+        {
+          "creature": "bramblehorn",
+          "level": 51,
+          "moves": [
+            "leaf_cut",
+            "thorn_barrage",
+            "vine_wrap"
           ]
         }
       ]
@@ -577,37 +670,56 @@
       "ai": "advanced",
       "boss": true,
       "boss_scaling": "limited",
-      "reward_money": 2500,
+      "reward_money": 4700,
       "reward_badge": "lumen_crest",
-      "dialogue_intro": "Champion: Lumen crowns only the worthy. Begin.",
-      "dialogue_defeat": "Champion: The Lumen Crest is yours. Travel on.",
-      "dialogue_victory": "Champion: The summit is patient. Return stronger.",
+      "dialogue_intro": "Champion of Lumen: Eight badges brought you here. Show me their weight.",
+      "dialogue_defeat": "Champion of Lumen: Lumen bows to a new Champion.",
+      "dialogue_victory": "Champion of Lumen: Come back when the badges feel heavier.",
       "team": [
         {
-          "creature": "pebblet",
-          "level": 49,
+          "creature": "fawnmane",
+          "level": 56,
           "moves": [
             "tackle",
-            "stone_toss",
-            "guard_up"
+            "quick_jab",
+            "rend"
           ]
         },
         {
-          "creature": "glimshard",
-          "level": 50,
+          "creature": "petaltail",
+          "level": 57,
           "moves": [
-            "mind_ray",
-            "static_field",
-            "focus_charge"
+            "leaf_cut",
+            "thorn_barrage",
+            "vine_wrap"
           ]
         },
         {
-          "creature": "prismole",
-          "level": 52,
+          "creature": "stratomane",
+          "level": 58,
           "moves": [
-            "scratch",
-            "stone_toss",
-            "mind_ray"
+            "gale_slash",
+            "cyclone_dive",
+            "tempest",
+            "quick_jab"
+          ]
+        },
+        {
+          "creature": "pyrewing",
+          "level": 56,
+          "moves": [
+            "ember_burst",
+            "blaze_wheel",
+            "flame_lash"
+          ]
+        },
+        {
+          "creature": "surgeclaw",
+          "level": 57,
+          "moves": [
+            "spark_zap",
+            "volt_lance",
+            "static_field"
           ]
         }
       ]
@@ -649,38 +761,56 @@
       "ai": "advanced",
       "boss": true,
       "boss_scaling": "limited",
-      "reward_money": 2750,
+      "reward_money": 5100,
       "reward_badge": "zephyra_crest",
-      "dialogue_intro": "Champion: Zephyra crowns only the worthy. Begin.",
-      "dialogue_defeat": "Champion: The Zephyra Crest is yours. Travel on.",
-      "dialogue_victory": "Champion: The summit is patient. Return stronger.",
+      "dialogue_intro": "Champion of Zephyra: Eight badges brought you here. Show me their weight.",
+      "dialogue_defeat": "Champion of Zephyra: Zephyra bows to a new Champion.",
+      "dialogue_victory": "Champion of Zephyra: Come back when the badges feel heavier.",
       "team": [
         {
-          "creature": "mistelk",
-          "level": 55,
+          "creature": "kilnwarden",
+          "level": 62,
           "moves": [
-            "aqua_dart",
-            "gale_slash",
-            "tide_crash",
-            "guard_up"
+            "ember_burst",
+            "blaze_wheel",
+            "flame_lash"
           ]
         },
         {
-          "creature": "galehare",
-          "level": 56,
+          "creature": "joltwyrm",
+          "level": 63,
           "moves": [
-            "quick_jab",
-            "gale_slash",
+            "spark_zap",
+            "volt_lance",
+            "static_field"
+          ]
+        },
+        {
+          "creature": "visionhorn",
+          "level": 64,
+          "moves": [
+            "mind_ray",
+            "dream_pulse",
+            "veil_of_calm",
             "focus_charge"
           ]
         },
         {
-          "creature": "stormkite",
-          "level": 58,
+          "creature": "lagoontail",
+          "level": 62,
           "moves": [
-            "gale_slash",
-            "spark_zap",
-            "static_field"
+            "aqua_dart",
+            "riptide",
+            "tide_crash"
+          ]
+        },
+        {
+          "creature": "ridgemane",
+          "level": 63,
+          "moves": [
+            "stone_toss",
+            "sand_grind",
+            "quake_stomp"
           ]
         }
       ]
@@ -1542,6 +1672,4853 @@
             "scratch",
             "gale_slash",
             "quick_jab"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verdantia_gym_normal",
+      "display_name": "Plainskeeper Odan",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 420,
+      "reward_badge": "verdantia_normal_badge",
+      "dialogue_intro": "Odan: Plainskeepers test every challenger with pure normal craft. Begin!",
+      "dialogue_defeat": "Odan: Masterfully done. The normal badge of Verdantia is yours.",
+      "dialogue_victory": "Odan: Study the normal arts and return.",
+      "team": [
+        {
+          "creature": "burrowit",
+          "level": 2,
+          "moves": [
+            "tackle",
+            "tackle"
+          ]
+        },
+        {
+          "creature": "burrowit",
+          "level": 2,
+          "moves": [
+            "tackle",
+            "tackle"
+          ]
+        },
+        {
+          "creature": "burrowit",
+          "level": 3,
+          "moves": [
+            "tackle",
+            "tackle"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verdantia_gym_fire",
+      "display_name": "Ember Sage Vesse",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 460,
+      "reward_badge": "verdantia_fire_badge",
+      "dialogue_intro": "Vesse: Ember Sages test every challenger with pure fire craft. Begin!",
+      "dialogue_defeat": "Vesse: Masterfully done. The fire badge of Verdantia is yours.",
+      "dialogue_victory": "Vesse: Study the fire arts and return.",
+      "team": [
+        {
+          "creature": "kilnet",
+          "level": 2,
+          "moves": [
+            "tackle",
+            "ember_burst"
+          ]
+        },
+        {
+          "creature": "kilnet",
+          "level": 3,
+          "moves": [
+            "tackle",
+            "ember_burst"
+          ]
+        },
+        {
+          "creature": "kilnet",
+          "level": 4,
+          "moves": [
+            "tackle",
+            "ember_burst",
+            "blaze_wheel"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verdantia_gym_water",
+      "display_name": "Tidecaller Karn",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 500,
+      "reward_badge": "verdantia_water_badge",
+      "dialogue_intro": "Karn: Tidecallers test every challenger with pure water craft. Begin!",
+      "dialogue_defeat": "Karn: Masterfully done. The water badge of Verdantia is yours.",
+      "dialogue_victory": "Karn: Study the water arts and return.",
+      "team": [
+        {
+          "creature": "lagoonie",
+          "level": 3,
+          "moves": [
+            "tackle",
+            "aqua_dart"
+          ]
+        },
+        {
+          "creature": "lagoonie",
+          "level": 4,
+          "moves": [
+            "tackle",
+            "aqua_dart",
+            "riptide"
+          ]
+        },
+        {
+          "creature": "lagoonie",
+          "level": 5,
+          "moves": [
+            "tackle",
+            "aqua_dart",
+            "riptide"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verdantia_gym_grass",
+      "display_name": "Grovewarden Ilya",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 540,
+      "reward_badge": "verdantia_grass_badge",
+      "dialogue_intro": "Ilya: Grovewardens test every challenger with pure grass craft. Begin!",
+      "dialogue_defeat": "Ilya: Masterfully done. The grass badge of Verdantia is yours.",
+      "dialogue_victory": "Ilya: Study the grass arts and return.",
+      "team": [
+        {
+          "creature": "thistlekin",
+          "level": 4,
+          "moves": [
+            "tackle",
+            "leaf_cut",
+            "thorn_barrage"
+          ]
+        },
+        {
+          "creature": "thistlekin",
+          "level": 5,
+          "moves": [
+            "tackle",
+            "leaf_cut",
+            "thorn_barrage"
+          ]
+        },
+        {
+          "creature": "thistlekin",
+          "level": 6,
+          "moves": [
+            "tackle",
+            "leaf_cut",
+            "thorn_barrage"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verdantia_gym_electric",
+      "display_name": "Stormsmith Roan",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 580,
+      "reward_badge": "verdantia_electric_badge",
+      "dialogue_intro": "Roan: Stormsmiths test every challenger with pure electric craft. Begin!",
+      "dialogue_defeat": "Roan: Masterfully done. The electric badge of Verdantia is yours.",
+      "dialogue_victory": "Roan: Study the electric arts and return.",
+      "team": [
+        {
+          "creature": "joltlet",
+          "level": 5,
+          "moves": [
+            "tackle",
+            "spark_zap",
+            "volt_lance"
+          ]
+        },
+        {
+          "creature": "joltlet",
+          "level": 6,
+          "moves": [
+            "tackle",
+            "spark_zap",
+            "volt_lance"
+          ]
+        },
+        {
+          "creature": "joltlet",
+          "level": 7,
+          "moves": [
+            "tackle",
+            "spark_zap",
+            "volt_lance"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verdantia_gym_earth",
+      "display_name": "Cairnbreaker Petra",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 620,
+      "reward_badge": "verdantia_earth_badge",
+      "dialogue_intro": "Petra: Cairnbreakers test every challenger with pure earth craft. Begin!",
+      "dialogue_defeat": "Petra: Masterfully done. The earth badge of Verdantia is yours.",
+      "dialogue_victory": "Petra: Study the earth arts and return.",
+      "team": [
+        {
+          "creature": "ridgeling",
+          "level": 6,
+          "moves": [
+            "tackle",
+            "stone_toss",
+            "sand_grind"
+          ]
+        },
+        {
+          "creature": "ridgeling",
+          "level": 7,
+          "moves": [
+            "tackle",
+            "stone_toss",
+            "sand_grind"
+          ]
+        },
+        {
+          "creature": "ridgeclaw",
+          "level": 8,
+          "moves": [
+            "stone_toss",
+            "sand_grind"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verdantia_gym_wind",
+      "display_name": "Skydancer Sorrel",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 660,
+      "reward_badge": "verdantia_wind_badge",
+      "dialogue_intro": "Sorrel: Skydancers test every challenger with pure wind craft. Begin!",
+      "dialogue_defeat": "Sorrel: Masterfully done. The wind badge of Verdantia is yours.",
+      "dialogue_victory": "Sorrel: Study the wind arts and return.",
+      "team": [
+        {
+          "creature": "soarit",
+          "level": 7,
+          "moves": [
+            "tackle",
+            "gale_slash",
+            "cyclone_dive"
+          ]
+        },
+        {
+          "creature": "soarfang",
+          "level": 8,
+          "moves": [
+            "gale_slash",
+            "cyclone_dive"
+          ]
+        },
+        {
+          "creature": "soarfang",
+          "level": 9,
+          "moves": [
+            "gale_slash",
+            "cyclone_dive"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verdantia_gym_mystic",
+      "display_name": "Dreambinder Yara",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 700,
+      "reward_badge": "verdantia_mystic_badge",
+      "dialogue_intro": "Yara: Dreambinders test every challenger with pure mystic craft. Begin!",
+      "dialogue_defeat": "Yara: Masterfully done. The mystic badge of Verdantia is yours.",
+      "dialogue_victory": "Yara: Study the mystic arts and return.",
+      "team": [
+        {
+          "creature": "visionmane",
+          "level": 8,
+          "moves": [
+            "mind_ray",
+            "dream_pulse"
+          ]
+        },
+        {
+          "creature": "visionmane",
+          "level": 9,
+          "moves": [
+            "mind_ray",
+            "dream_pulse"
+          ]
+        },
+        {
+          "creature": "visionmane",
+          "level": 10,
+          "moves": [
+            "mind_ray",
+            "dream_pulse",
+            "veil_of_calm"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verdantia_elite_1",
+      "display_name": "Elite Rooke",
+      "sprite": "trainer_elite",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 1000,
+      "dialogue_intro": "Rooke: The Elite Four of Verdantia yield to no one unproven.",
+      "dialogue_defeat": "Rooke: Proven. Pass.",
+      "dialogue_victory": "Rooke: The corridor ends here for you.",
+      "team": [
+        {
+          "creature": "kilnmane",
+          "level": 10,
+          "moves": [
+            "ember_burst",
+            "blaze_wheel",
+            "flame_lash"
+          ]
+        },
+        {
+          "creature": "lagoonwing",
+          "level": 11,
+          "moves": [
+            "aqua_dart",
+            "riptide",
+            "tide_crash"
+          ]
+        },
+        {
+          "creature": "thistlehorn",
+          "level": 10,
+          "moves": [
+            "leaf_cut",
+            "thorn_barrage",
+            "vine_wrap"
+          ]
+        },
+        {
+          "creature": "jolttail",
+          "level": 11,
+          "moves": [
+            "spark_zap",
+            "volt_lance",
+            "static_field"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verdantia_elite_2",
+      "display_name": "Elite Solenne",
+      "sprite": "trainer_elite",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 1100,
+      "dialogue_intro": "Solenne: The Elite Four of Verdantia yield to no one unproven.",
+      "dialogue_defeat": "Solenne: Proven. Pass.",
+      "dialogue_victory": "Solenne: The corridor ends here for you.",
+      "team": [
+        {
+          "creature": "thistlehorn",
+          "level": 11,
+          "moves": [
+            "leaf_cut",
+            "thorn_barrage",
+            "vine_wrap"
+          ]
+        },
+        {
+          "creature": "jolttail",
+          "level": 12,
+          "moves": [
+            "spark_zap",
+            "volt_lance",
+            "static_field"
+          ]
+        },
+        {
+          "creature": "ridgeclaw",
+          "level": 11,
+          "moves": [
+            "stone_toss",
+            "sand_grind",
+            "quake_stomp"
+          ]
+        },
+        {
+          "creature": "soarfang",
+          "level": 12,
+          "moves": [
+            "gale_slash",
+            "cyclone_dive",
+            "tempest"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verdantia_elite_3",
+      "display_name": "Elite Vantor",
+      "sprite": "trainer_elite",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 1200,
+      "dialogue_intro": "Vantor: The Elite Four of Verdantia yield to no one unproven.",
+      "dialogue_defeat": "Vantor: Proven. Pass.",
+      "dialogue_victory": "Vantor: The corridor ends here for you.",
+      "team": [
+        {
+          "creature": "ridgeclaw",
+          "level": 12,
+          "moves": [
+            "stone_toss",
+            "sand_grind",
+            "quake_stomp"
+          ]
+        },
+        {
+          "creature": "soarfang",
+          "level": 13,
+          "moves": [
+            "gale_slash",
+            "cyclone_dive",
+            "tempest"
+          ]
+        },
+        {
+          "creature": "visionmane",
+          "level": 12,
+          "moves": [
+            "mind_ray",
+            "dream_pulse",
+            "veil_of_calm"
+          ]
+        },
+        {
+          "creature": "burrowfang",
+          "level": 13,
+          "moves": [
+            "tackle",
+            "quick_jab",
+            "rend"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verdantia_elite_4",
+      "display_name": "Elite Ondine",
+      "sprite": "trainer_elite",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 1300,
+      "dialogue_intro": "Ondine: The Elite Four of Verdantia yield to no one unproven.",
+      "dialogue_defeat": "Ondine: Proven. Pass.",
+      "dialogue_victory": "Ondine: The corridor ends here for you.",
+      "team": [
+        {
+          "creature": "visionmane",
+          "level": 13,
+          "moves": [
+            "mind_ray",
+            "dream_pulse",
+            "veil_of_calm"
+          ]
+        },
+        {
+          "creature": "burrowfang",
+          "level": 14,
+          "moves": [
+            "tackle",
+            "quick_jab",
+            "rend"
+          ]
+        },
+        {
+          "creature": "kilnmane",
+          "level": 13,
+          "moves": [
+            "ember_burst",
+            "blaze_wheel",
+            "flame_lash"
+          ]
+        },
+        {
+          "creature": "lagoonwing",
+          "level": 14,
+          "moves": [
+            "aqua_dart",
+            "riptide",
+            "tide_crash"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verdantia_sovereign",
+      "display_name": "Sovereign Laurel",
+      "sprite": "trainer_champion",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 1900,
+      "reward_badge": "verdantia_crest",
+      "dialogue_intro": "Sovereign Laurel: Eight badges brought you here. Show me their weight.",
+      "dialogue_defeat": "Sovereign Laurel: Verdantia bows to a new Champion.",
+      "dialogue_victory": "Sovereign Laurel: Come back when the badges feel heavier.",
+      "team": [
+        {
+          "creature": "kilnmane",
+          "level": 14,
+          "moves": [
+            "ember_burst",
+            "blaze_wheel",
+            "flame_lash"
+          ]
+        },
+        {
+          "creature": "jolttail",
+          "level": 15,
+          "moves": [
+            "spark_zap",
+            "volt_lance",
+            "static_field"
+          ]
+        },
+        {
+          "creature": "visionmane",
+          "level": 16,
+          "moves": [
+            "mind_ray",
+            "dream_pulse",
+            "veil_of_calm",
+            "focus_charge"
+          ]
+        },
+        {
+          "creature": "lagoonwing",
+          "level": 14,
+          "moves": [
+            "aqua_dart",
+            "riptide",
+            "tide_crash"
+          ]
+        },
+        {
+          "creature": "ridgeclaw",
+          "level": 15,
+          "moves": [
+            "stone_toss",
+            "sand_grind",
+            "quake_stomp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aquilon_gym_normal",
+      "display_name": "Plainskeeper Petra",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 540,
+      "reward_badge": "aquilon_normal_badge",
+      "dialogue_intro": "Petra: Plainskeepers test every challenger with pure normal craft. Begin!",
+      "dialogue_defeat": "Petra: Masterfully done. The normal badge of Aquilon is yours.",
+      "dialogue_victory": "Petra: Study the normal arts and return.",
+      "team": [
+        {
+          "creature": "whisket",
+          "level": 7,
+          "moves": [
+            "tackle",
+            "tackle"
+          ]
+        },
+        {
+          "creature": "whisket",
+          "level": 8,
+          "moves": [
+            "tackle",
+            "tackle"
+          ]
+        },
+        {
+          "creature": "whisket",
+          "level": 9,
+          "moves": [
+            "tackle",
+            "tackle"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aquilon_gym_fire",
+      "display_name": "Ember Sage Sorrel",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 580,
+      "reward_badge": "aquilon_fire_badge",
+      "dialogue_intro": "Sorrel: Ember Sages test every challenger with pure fire craft. Begin!",
+      "dialogue_defeat": "Sorrel: Masterfully done. The fire badge of Aquilon is yours.",
+      "dialogue_victory": "Sorrel: Study the fire arts and return.",
+      "team": [
+        {
+          "creature": "smolderie",
+          "level": 8,
+          "moves": [
+            "tackle",
+            "ember_burst"
+          ]
+        },
+        {
+          "creature": "smolderie",
+          "level": 9,
+          "moves": [
+            "tackle",
+            "ember_burst"
+          ]
+        },
+        {
+          "creature": "smolderie",
+          "level": 10,
+          "moves": [
+            "tackle",
+            "ember_burst",
+            "blaze_wheel"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aquilon_gym_water",
+      "display_name": "Tidecaller Yara",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 620,
+      "reward_badge": "aquilon_water_badge",
+      "dialogue_intro": "Yara: Tidecallers test every challenger with pure water craft. Begin!",
+      "dialogue_defeat": "Yara: Masterfully done. The water badge of Aquilon is yours.",
+      "dialogue_victory": "Yara: Study the water arts and return.",
+      "team": [
+        {
+          "creature": "deltakin",
+          "level": 9,
+          "moves": [
+            "tackle",
+            "aqua_dart"
+          ]
+        },
+        {
+          "creature": "deltakin",
+          "level": 10,
+          "moves": [
+            "tackle",
+            "aqua_dart",
+            "riptide"
+          ]
+        },
+        {
+          "creature": "deltakin",
+          "level": 11,
+          "moves": [
+            "tackle",
+            "aqua_dart",
+            "riptide"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aquilon_gym_grass",
+      "display_name": "Grovewarden Colm",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 660,
+      "reward_badge": "aquilon_grass_badge",
+      "dialogue_intro": "Colm: Grovewardens test every challenger with pure grass craft. Begin!",
+      "dialogue_defeat": "Colm: Masterfully done. The grass badge of Aquilon is yours.",
+      "dialogue_victory": "Colm: Study the grass arts and return.",
+      "team": [
+        {
+          "creature": "canopylet",
+          "level": 10,
+          "moves": [
+            "tackle",
+            "leaf_cut",
+            "thorn_barrage"
+          ]
+        },
+        {
+          "creature": "canopylet",
+          "level": 11,
+          "moves": [
+            "tackle",
+            "leaf_cut",
+            "thorn_barrage"
+          ]
+        },
+        {
+          "creature": "canopylet",
+          "level": 12,
+          "moves": [
+            "tackle",
+            "leaf_cut",
+            "thorn_barrage"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aquilon_gym_electric",
+      "display_name": "Stormsmith Nyssa",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 700,
+      "reward_badge": "aquilon_electric_badge",
+      "dialogue_intro": "Nyssa: Stormsmiths test every challenger with pure electric craft. Begin!",
+      "dialogue_defeat": "Nyssa: Masterfully done. The electric badge of Aquilon is yours.",
+      "dialogue_victory": "Nyssa: Study the electric arts and return.",
+      "team": [
+        {
+          "creature": "fulgorling",
+          "level": 11,
+          "moves": [
+            "tackle",
+            "spark_zap",
+            "volt_lance"
+          ]
+        },
+        {
+          "creature": "fulgorling",
+          "level": 12,
+          "moves": [
+            "tackle",
+            "spark_zap",
+            "volt_lance"
+          ]
+        },
+        {
+          "creature": "fulgorling",
+          "level": 13,
+          "moves": [
+            "tackle",
+            "spark_zap",
+            "volt_lance"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aquilon_gym_earth",
+      "display_name": "Cairnbreaker Garrick",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 740,
+      "reward_badge": "aquilon_earth_badge",
+      "dialogue_intro": "Garrick: Cairnbreakers test every challenger with pure earth craft. Begin!",
+      "dialogue_defeat": "Garrick: Masterfully done. The earth badge of Aquilon is yours.",
+      "dialogue_victory": "Garrick: Study the earth arts and return.",
+      "team": [
+        {
+          "creature": "marlit",
+          "level": 12,
+          "moves": [
+            "tackle",
+            "stone_toss",
+            "sand_grind"
+          ]
+        },
+        {
+          "creature": "marlit",
+          "level": 13,
+          "moves": [
+            "tackle",
+            "stone_toss",
+            "sand_grind"
+          ]
+        },
+        {
+          "creature": "marlfang",
+          "level": 14,
+          "moves": [
+            "stone_toss",
+            "sand_grind"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aquilon_gym_wind",
+      "display_name": "Skydancer Mira",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 780,
+      "reward_badge": "aquilon_wind_badge",
+      "dialogue_intro": "Mira: Skydancers test every challenger with pure wind craft. Begin!",
+      "dialogue_defeat": "Mira: Masterfully done. The wind badge of Aquilon is yours.",
+      "dialogue_victory": "Mira: Study the wind arts and return.",
+      "team": [
+        {
+          "creature": "zephyret",
+          "level": 13,
+          "moves": [
+            "tackle",
+            "gale_slash",
+            "cyclone_dive"
+          ]
+        },
+        {
+          "creature": "zephyrmane",
+          "level": 14,
+          "moves": [
+            "gale_slash",
+            "cyclone_dive"
+          ]
+        },
+        {
+          "creature": "zephyrmane",
+          "level": 15,
+          "moves": [
+            "gale_slash",
+            "cyclone_dive"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aquilon_gym_mystic",
+      "display_name": "Dreambinder Torv",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 820,
+      "reward_badge": "aquilon_mystic_badge",
+      "dialogue_intro": "Torv: Dreambinders test every challenger with pure mystic craft. Begin!",
+      "dialogue_defeat": "Torv: Masterfully done. The mystic badge of Aquilon is yours.",
+      "dialogue_victory": "Torv: Study the mystic arts and return.",
+      "team": [
+        {
+          "creature": "runewing",
+          "level": 14,
+          "moves": [
+            "mind_ray",
+            "dream_pulse"
+          ]
+        },
+        {
+          "creature": "runewing",
+          "level": 15,
+          "moves": [
+            "mind_ray",
+            "dream_pulse"
+          ]
+        },
+        {
+          "creature": "runewing",
+          "level": 16,
+          "moves": [
+            "mind_ray",
+            "dream_pulse",
+            "veil_of_calm"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aquilon_elite_1",
+      "display_name": "Elite Ondine",
+      "sprite": "trainer_elite",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 1200,
+      "dialogue_intro": "Ondine: The Elite Four of Aquilon yield to no one unproven.",
+      "dialogue_defeat": "Ondine: Proven. Pass.",
+      "dialogue_victory": "Ondine: The corridor ends here for you.",
+      "team": [
+        {
+          "creature": "deltahorn",
+          "level": 16,
+          "moves": [
+            "aqua_dart",
+            "riptide",
+            "tide_crash"
+          ]
+        },
+        {
+          "creature": "canopytail",
+          "level": 17,
+          "moves": [
+            "leaf_cut",
+            "thorn_barrage",
+            "vine_wrap"
+          ]
+        },
+        {
+          "creature": "fulgorclaw",
+          "level": 16,
+          "moves": [
+            "spark_zap",
+            "volt_lance",
+            "static_field"
+          ]
+        },
+        {
+          "creature": "marlfang",
+          "level": 17,
+          "moves": [
+            "stone_toss",
+            "sand_grind",
+            "quake_stomp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aquilon_elite_2",
+      "display_name": "Elite Merrick",
+      "sprite": "trainer_elite",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 1300,
+      "dialogue_intro": "Merrick: The Elite Four of Aquilon yield to no one unproven.",
+      "dialogue_defeat": "Merrick: Proven. Pass.",
+      "dialogue_victory": "Merrick: The corridor ends here for you.",
+      "team": [
+        {
+          "creature": "fulgorclaw",
+          "level": 17,
+          "moves": [
+            "spark_zap",
+            "volt_lance",
+            "static_field"
+          ]
+        },
+        {
+          "creature": "marlfang",
+          "level": 18,
+          "moves": [
+            "stone_toss",
+            "sand_grind",
+            "quake_stomp"
+          ]
+        },
+        {
+          "creature": "zephyrmane",
+          "level": 17,
+          "moves": [
+            "gale_slash",
+            "cyclone_dive",
+            "tempest"
+          ]
+        },
+        {
+          "creature": "runewing",
+          "level": 18,
+          "moves": [
+            "mind_ray",
+            "dream_pulse",
+            "veil_of_calm"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aquilon_elite_3",
+      "display_name": "Elite Thessa",
+      "sprite": "trainer_elite",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 1400,
+      "dialogue_intro": "Thessa: The Elite Four of Aquilon yield to no one unproven.",
+      "dialogue_defeat": "Thessa: Proven. Pass.",
+      "dialogue_victory": "Thessa: The corridor ends here for you.",
+      "team": [
+        {
+          "creature": "zephyrmane",
+          "level": 18,
+          "moves": [
+            "gale_slash",
+            "cyclone_dive",
+            "tempest"
+          ]
+        },
+        {
+          "creature": "runewing",
+          "level": 19,
+          "moves": [
+            "mind_ray",
+            "dream_pulse",
+            "veil_of_calm"
+          ]
+        },
+        {
+          "creature": "whiskmane",
+          "level": 18,
+          "moves": [
+            "tackle",
+            "quick_jab",
+            "rend"
+          ]
+        },
+        {
+          "creature": "smolderwing",
+          "level": 19,
+          "moves": [
+            "ember_burst",
+            "blaze_wheel",
+            "flame_lash"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aquilon_elite_4",
+      "display_name": "Elite Ludo",
+      "sprite": "trainer_elite",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 1500,
+      "dialogue_intro": "Ludo: The Elite Four of Aquilon yield to no one unproven.",
+      "dialogue_defeat": "Ludo: Proven. Pass.",
+      "dialogue_victory": "Ludo: The corridor ends here for you.",
+      "team": [
+        {
+          "creature": "whiskmane",
+          "level": 19,
+          "moves": [
+            "tackle",
+            "quick_jab",
+            "rend"
+          ]
+        },
+        {
+          "creature": "smolderwing",
+          "level": 20,
+          "moves": [
+            "ember_burst",
+            "blaze_wheel",
+            "flame_lash"
+          ]
+        },
+        {
+          "creature": "deltahorn",
+          "level": 19,
+          "moves": [
+            "aqua_dart",
+            "riptide",
+            "tide_crash"
+          ]
+        },
+        {
+          "creature": "canopytail",
+          "level": 20,
+          "moves": [
+            "leaf_cut",
+            "thorn_barrage",
+            "vine_wrap"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aquilon_marshal",
+      "display_name": "Marshal Eirwen",
+      "sprite": "trainer_champion",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 2300,
+      "reward_badge": "aquilon_crest",
+      "dialogue_intro": "Marshal Eirwen: Eight badges brought you here. Show me their weight.",
+      "dialogue_defeat": "Marshal Eirwen: Aquilon bows to a new Champion.",
+      "dialogue_victory": "Marshal Eirwen: Come back when the badges feel heavier.",
+      "team": [
+        {
+          "creature": "deltahorn",
+          "level": 20,
+          "moves": [
+            "aqua_dart",
+            "riptide",
+            "tide_crash"
+          ]
+        },
+        {
+          "creature": "marlfang",
+          "level": 21,
+          "moves": [
+            "stone_toss",
+            "sand_grind",
+            "quake_stomp"
+          ]
+        },
+        {
+          "creature": "whiskmane",
+          "level": 22,
+          "moves": [
+            "tackle",
+            "quick_jab",
+            "rend",
+            "focus_charge"
+          ]
+        },
+        {
+          "creature": "canopytail",
+          "level": 20,
+          "moves": [
+            "leaf_cut",
+            "thorn_barrage",
+            "vine_wrap"
+          ]
+        },
+        {
+          "creature": "zephyrmane",
+          "level": 21,
+          "moves": [
+            "gale_slash",
+            "cyclone_dive",
+            "tempest"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cindral_gym_normal",
+      "display_name": "Plainskeeper Garrick",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 660,
+      "reward_badge": "cindral_normal_badge",
+      "dialogue_intro": "Garrick: Plainskeepers test every challenger with pure normal craft. Begin!",
+      "dialogue_defeat": "Garrick: Masterfully done. The normal badge of Cindral is yours.",
+      "dialogue_victory": "Garrick: Study the normal arts and return.",
+      "team": [
+        {
+          "creature": "harrowie",
+          "level": 13,
+          "moves": [
+            "tackle",
+            "tackle"
+          ]
+        },
+        {
+          "creature": "harrowie",
+          "level": 14,
+          "moves": [
+            "tackle",
+            "tackle"
+          ]
+        },
+        {
+          "creature": "harrowie",
+          "level": 15,
+          "moves": [
+            "tackle",
+            "tackle"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cindral_gym_fire",
+      "display_name": "Ember Sage Mira",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 700,
+      "reward_badge": "cindral_fire_badge",
+      "dialogue_intro": "Mira: Ember Sages test every challenger with pure fire craft. Begin!",
+      "dialogue_defeat": "Mira: Masterfully done. The fire badge of Cindral is yours.",
+      "dialogue_victory": "Mira: Study the fire arts and return.",
+      "team": [
+        {
+          "creature": "blazenkin",
+          "level": 14,
+          "moves": [
+            "tackle",
+            "ember_burst"
+          ]
+        },
+        {
+          "creature": "blazenkin",
+          "level": 15,
+          "moves": [
+            "tackle",
+            "ember_burst"
+          ]
+        },
+        {
+          "creature": "blazenkin",
+          "level": 16,
+          "moves": [
+            "tackle",
+            "ember_burst",
+            "blaze_wheel"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cindral_gym_water",
+      "display_name": "Tidecaller Torv",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 740,
+      "reward_badge": "cindral_water_badge",
+      "dialogue_intro": "Torv: Tidecallers test every challenger with pure water craft. Begin!",
+      "dialogue_defeat": "Torv: Masterfully done. The water badge of Cindral is yours.",
+      "dialogue_victory": "Torv: Study the water arts and return.",
+      "team": [
+        {
+          "creature": "mistlet",
+          "level": 15,
+          "moves": [
+            "tackle",
+            "aqua_dart"
+          ]
+        },
+        {
+          "creature": "mistlet",
+          "level": 16,
+          "moves": [
+            "tackle",
+            "aqua_dart",
+            "riptide"
+          ]
+        },
+        {
+          "creature": "mistlet",
+          "level": 17,
+          "moves": [
+            "tackle",
+            "aqua_dart",
+            "riptide"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cindral_gym_grass",
+      "display_name": "Grovewarden Ashka",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 780,
+      "reward_badge": "cindral_grass_badge",
+      "dialogue_intro": "Ashka: Grovewardens test every challenger with pure grass craft. Begin!",
+      "dialogue_defeat": "Ashka: Masterfully done. The grass badge of Cindral is yours.",
+      "dialogue_victory": "Ashka: Study the grass arts and return.",
+      "team": [
+        {
+          "creature": "brambleling",
+          "level": 16,
+          "moves": [
+            "tackle",
+            "leaf_cut",
+            "thorn_barrage"
+          ]
+        },
+        {
+          "creature": "brambleling",
+          "level": 17,
+          "moves": [
+            "tackle",
+            "leaf_cut",
+            "thorn_barrage"
+          ]
+        },
+        {
+          "creature": "brambleling",
+          "level": 18,
+          "moves": [
+            "tackle",
+            "leaf_cut",
+            "thorn_barrage"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cindral_gym_electric",
+      "display_name": "Stormsmith Bren",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 820,
+      "reward_badge": "cindral_electric_badge",
+      "dialogue_intro": "Bren: Stormsmiths test every challenger with pure electric craft. Begin!",
+      "dialogue_defeat": "Bren: Masterfully done. The electric badge of Cindral is yours.",
+      "dialogue_victory": "Bren: Study the electric arts and return.",
+      "team": [
+        {
+          "creature": "arcit",
+          "level": 17,
+          "moves": [
+            "tackle",
+            "spark_zap",
+            "volt_lance"
+          ]
+        },
+        {
+          "creature": "arcit",
+          "level": 18,
+          "moves": [
+            "tackle",
+            "spark_zap",
+            "volt_lance"
+          ]
+        },
+        {
+          "creature": "arcit",
+          "level": 19,
+          "moves": [
+            "tackle",
+            "spark_zap",
+            "volt_lance"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cindral_gym_earth",
+      "display_name": "Cairnbreaker Sylla",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 860,
+      "reward_badge": "cindral_earth_badge",
+      "dialogue_intro": "Sylla: Cairnbreakers test every challenger with pure earth craft. Begin!",
+      "dialogue_defeat": "Sylla: Masterfully done. The earth badge of Cindral is yours.",
+      "dialogue_victory": "Sylla: Study the earth arts and return.",
+      "team": [
+        {
+          "creature": "clayet",
+          "level": 18,
+          "moves": [
+            "tackle",
+            "stone_toss",
+            "sand_grind"
+          ]
+        },
+        {
+          "creature": "clayet",
+          "level": 19,
+          "moves": [
+            "tackle",
+            "stone_toss",
+            "sand_grind"
+          ]
+        },
+        {
+          "creature": "claymane",
+          "level": 20,
+          "moves": [
+            "stone_toss",
+            "sand_grind"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cindral_gym_wind",
+      "display_name": "Skydancer Odan",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 900,
+      "reward_badge": "cindral_wind_badge",
+      "dialogue_intro": "Odan: Skydancers test every challenger with pure wind craft. Begin!",
+      "dialogue_defeat": "Odan: Masterfully done. The wind badge of Cindral is yours.",
+      "dialogue_victory": "Odan: Study the wind arts and return.",
+      "team": [
+        {
+          "creature": "cirrusie",
+          "level": 19,
+          "moves": [
+            "tackle",
+            "gale_slash",
+            "cyclone_dive"
+          ]
+        },
+        {
+          "creature": "cirruswing",
+          "level": 20,
+          "moves": [
+            "gale_slash",
+            "cyclone_dive"
+          ]
+        },
+        {
+          "creature": "cirruswing",
+          "level": 21,
+          "moves": [
+            "gale_slash",
+            "cyclone_dive"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cindral_gym_mystic",
+      "display_name": "Dreambinder Vesse",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 940,
+      "reward_badge": "cindral_mystic_badge",
+      "dialogue_intro": "Vesse: Dreambinders test every challenger with pure mystic craft. Begin!",
+      "dialogue_defeat": "Vesse: Masterfully done. The mystic badge of Cindral is yours.",
+      "dialogue_victory": "Vesse: Study the mystic arts and return.",
+      "team": [
+        {
+          "creature": "omenhorn",
+          "level": 20,
+          "moves": [
+            "mind_ray",
+            "dream_pulse"
+          ]
+        },
+        {
+          "creature": "omenhorn",
+          "level": 21,
+          "moves": [
+            "mind_ray",
+            "dream_pulse"
+          ]
+        },
+        {
+          "creature": "omenhorn",
+          "level": 22,
+          "moves": [
+            "mind_ray",
+            "dream_pulse",
+            "veil_of_calm"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cindral_elite_1",
+      "display_name": "Elite Ludo",
+      "sprite": "trainer_elite",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 1400,
+      "dialogue_intro": "Ludo: The Elite Four of Cindral yield to no one unproven.",
+      "dialogue_defeat": "Ludo: Proven. Pass.",
+      "dialogue_victory": "Ludo: The corridor ends here for you.",
+      "team": [
+        {
+          "creature": "brambleclaw",
+          "level": 22,
+          "moves": [
+            "leaf_cut",
+            "thorn_barrage",
+            "vine_wrap"
+          ]
+        },
+        {
+          "creature": "arcfang",
+          "level": 23,
+          "moves": [
+            "spark_zap",
+            "volt_lance",
+            "static_field"
+          ]
+        },
+        {
+          "creature": "claymane",
+          "level": 22,
+          "moves": [
+            "stone_toss",
+            "sand_grind",
+            "quake_stomp"
+          ]
+        },
+        {
+          "creature": "cirruswing",
+          "level": 23,
+          "moves": [
+            "gale_slash",
+            "cyclone_dive",
+            "tempest"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cindral_elite_2",
+      "display_name": "Elite Averil",
+      "sprite": "trainer_elite",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 1500,
+      "dialogue_intro": "Averil: The Elite Four of Cindral yield to no one unproven.",
+      "dialogue_defeat": "Averil: Proven. Pass.",
+      "dialogue_victory": "Averil: The corridor ends here for you.",
+      "team": [
+        {
+          "creature": "claymane",
+          "level": 23,
+          "moves": [
+            "stone_toss",
+            "sand_grind",
+            "quake_stomp"
+          ]
+        },
+        {
+          "creature": "cirruswing",
+          "level": 24,
+          "moves": [
+            "gale_slash",
+            "cyclone_dive",
+            "tempest"
+          ]
+        },
+        {
+          "creature": "omenhorn",
+          "level": 23,
+          "moves": [
+            "mind_ray",
+            "dream_pulse",
+            "veil_of_calm"
+          ]
+        },
+        {
+          "creature": "harrowwing",
+          "level": 24,
+          "moves": [
+            "tackle",
+            "quick_jab",
+            "rend"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cindral_elite_3",
+      "display_name": "Elite Coriane",
+      "sprite": "trainer_elite",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 1600,
+      "dialogue_intro": "Coriane: The Elite Four of Cindral yield to no one unproven.",
+      "dialogue_defeat": "Coriane: Proven. Pass.",
+      "dialogue_victory": "Coriane: The corridor ends here for you.",
+      "team": [
+        {
+          "creature": "omenhorn",
+          "level": 24,
+          "moves": [
+            "mind_ray",
+            "dream_pulse",
+            "veil_of_calm"
+          ]
+        },
+        {
+          "creature": "harrowwing",
+          "level": 25,
+          "moves": [
+            "tackle",
+            "quick_jab",
+            "rend"
+          ]
+        },
+        {
+          "creature": "blazenhorn",
+          "level": 24,
+          "moves": [
+            "ember_burst",
+            "blaze_wheel",
+            "flame_lash"
+          ]
+        },
+        {
+          "creature": "misttail",
+          "level": 25,
+          "moves": [
+            "aqua_dart",
+            "riptide",
+            "tide_crash"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cindral_elite_4",
+      "display_name": "Elite Halvard",
+      "sprite": "trainer_elite",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 1700,
+      "dialogue_intro": "Halvard: The Elite Four of Cindral yield to no one unproven.",
+      "dialogue_defeat": "Halvard: Proven. Pass.",
+      "dialogue_victory": "Halvard: The corridor ends here for you.",
+      "team": [
+        {
+          "creature": "blazenhorn",
+          "level": 25,
+          "moves": [
+            "ember_burst",
+            "blaze_wheel",
+            "flame_lash"
+          ]
+        },
+        {
+          "creature": "misttail",
+          "level": 26,
+          "moves": [
+            "aqua_dart",
+            "riptide",
+            "tide_crash"
+          ]
+        },
+        {
+          "creature": "brambleclaw",
+          "level": 25,
+          "moves": [
+            "leaf_cut",
+            "thorn_barrage",
+            "vine_wrap"
+          ]
+        },
+        {
+          "creature": "arcfang",
+          "level": 26,
+          "moves": [
+            "spark_zap",
+            "volt_lance",
+            "static_field"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "solane_gym_normal",
+      "display_name": "Plainskeeper Sylla",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 780,
+      "reward_badge": "solane_normal_badge",
+      "dialogue_intro": "Sylla: Plainskeepers test every challenger with pure normal craft. Begin!",
+      "dialogue_defeat": "Sylla: Masterfully done. The normal badge of Solane is yours.",
+      "dialogue_victory": "Sylla: Study the normal arts and return.",
+      "team": [
+        {
+          "creature": "fawnkin",
+          "level": 19,
+          "moves": [
+            "tackle",
+            "tackle"
+          ]
+        },
+        {
+          "creature": "fawnkin",
+          "level": 20,
+          "moves": [
+            "tackle",
+            "tackle"
+          ]
+        },
+        {
+          "creature": "fawnkin",
+          "level": 21,
+          "moves": [
+            "tackle",
+            "tackle"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "solane_gym_fire",
+      "display_name": "Ember Sage Odan",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 820,
+      "reward_badge": "solane_fire_badge",
+      "dialogue_intro": "Odan: Ember Sages test every challenger with pure fire craft. Begin!",
+      "dialogue_defeat": "Odan: Masterfully done. The fire badge of Solane is yours.",
+      "dialogue_victory": "Odan: Study the fire arts and return.",
+      "team": [
+        {
+          "creature": "pyrelet",
+          "level": 20,
+          "moves": [
+            "tackle",
+            "ember_burst"
+          ]
+        },
+        {
+          "creature": "pyrelet",
+          "level": 21,
+          "moves": [
+            "tackle",
+            "ember_burst"
+          ]
+        },
+        {
+          "creature": "pyrelet",
+          "level": 22,
+          "moves": [
+            "tackle",
+            "ember_burst",
+            "blaze_wheel"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "solane_gym_water",
+      "display_name": "Tidecaller Vesse",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 860,
+      "reward_badge": "solane_water_badge",
+      "dialogue_intro": "Vesse: Tidecallers test every challenger with pure water craft. Begin!",
+      "dialogue_defeat": "Vesse: Masterfully done. The water badge of Solane is yours.",
+      "dialogue_victory": "Vesse: Study the water arts and return.",
+      "team": [
+        {
+          "creature": "coveling",
+          "level": 21,
+          "moves": [
+            "tackle",
+            "aqua_dart"
+          ]
+        },
+        {
+          "creature": "coveling",
+          "level": 22,
+          "moves": [
+            "tackle",
+            "aqua_dart",
+            "riptide"
+          ]
+        },
+        {
+          "creature": "coveling",
+          "level": 23,
+          "moves": [
+            "tackle",
+            "aqua_dart",
+            "riptide"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "solane_gym_grass",
+      "display_name": "Grovewarden Karn",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 900,
+      "reward_badge": "solane_grass_badge",
+      "dialogue_intro": "Karn: Grovewardens test every challenger with pure grass craft. Begin!",
+      "dialogue_defeat": "Karn: Masterfully done. The grass badge of Solane is yours.",
+      "dialogue_victory": "Karn: Study the grass arts and return.",
+      "team": [
+        {
+          "creature": "petalit",
+          "level": 22,
+          "moves": [
+            "tackle",
+            "leaf_cut",
+            "thorn_barrage"
+          ]
+        },
+        {
+          "creature": "petalit",
+          "level": 23,
+          "moves": [
+            "tackle",
+            "leaf_cut",
+            "thorn_barrage"
+          ]
+        },
+        {
+          "creature": "petalit",
+          "level": 24,
+          "moves": [
+            "tackle",
+            "leaf_cut",
+            "thorn_barrage"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "solane_gym_electric",
+      "display_name": "Stormsmith Ilya",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 940,
+      "reward_badge": "solane_electric_badge",
+      "dialogue_intro": "Ilya: Stormsmiths test every challenger with pure electric craft. Begin!",
+      "dialogue_defeat": "Ilya: Masterfully done. The electric badge of Solane is yours.",
+      "dialogue_victory": "Ilya: Study the electric arts and return.",
+      "team": [
+        {
+          "creature": "surgeet",
+          "level": 23,
+          "moves": [
+            "tackle",
+            "spark_zap",
+            "volt_lance"
+          ]
+        },
+        {
+          "creature": "surgeet",
+          "level": 24,
+          "moves": [
+            "tackle",
+            "spark_zap",
+            "volt_lance"
+          ]
+        },
+        {
+          "creature": "surgeet",
+          "level": 25,
+          "moves": [
+            "tackle",
+            "spark_zap",
+            "volt_lance"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "solane_gym_earth",
+      "display_name": "Cairnbreaker Roan",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 980,
+      "reward_badge": "solane_earth_badge",
+      "dialogue_intro": "Roan: Cairnbreakers test every challenger with pure earth craft. Begin!",
+      "dialogue_defeat": "Roan: Masterfully done. The earth badge of Solane is yours.",
+      "dialogue_victory": "Roan: Study the earth arts and return.",
+      "team": [
+        {
+          "creature": "quarryie",
+          "level": 24,
+          "moves": [
+            "tackle",
+            "stone_toss",
+            "sand_grind"
+          ]
+        },
+        {
+          "creature": "quarryie",
+          "level": 25,
+          "moves": [
+            "tackle",
+            "stone_toss",
+            "sand_grind"
+          ]
+        },
+        {
+          "creature": "quarrywing",
+          "level": 26,
+          "moves": [
+            "stone_toss",
+            "sand_grind"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "solane_gym_wind",
+      "display_name": "Skydancer Petra",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 1020,
+      "reward_badge": "solane_wind_badge",
+      "dialogue_intro": "Petra: Skydancers test every challenger with pure wind craft. Begin!",
+      "dialogue_defeat": "Petra: Masterfully done. The wind badge of Solane is yours.",
+      "dialogue_victory": "Petra: Study the wind arts and return.",
+      "team": [
+        {
+          "creature": "stratokin",
+          "level": 25,
+          "moves": [
+            "tackle",
+            "gale_slash",
+            "cyclone_dive"
+          ]
+        },
+        {
+          "creature": "stratohorn",
+          "level": 26,
+          "moves": [
+            "gale_slash",
+            "cyclone_dive"
+          ]
+        },
+        {
+          "creature": "stratohorn",
+          "level": 27,
+          "moves": [
+            "gale_slash",
+            "cyclone_dive"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "solane_gym_mystic",
+      "display_name": "Dreambinder Sorrel",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 1060,
+      "reward_badge": "solane_mystic_badge",
+      "dialogue_intro": "Sorrel: Dreambinders test every challenger with pure mystic craft. Begin!",
+      "dialogue_defeat": "Sorrel: Masterfully done. The mystic badge of Solane is yours.",
+      "dialogue_victory": "Sorrel: Study the mystic arts and return.",
+      "team": [
+        {
+          "creature": "arcanetail",
+          "level": 26,
+          "moves": [
+            "mind_ray",
+            "dream_pulse"
+          ]
+        },
+        {
+          "creature": "arcanetail",
+          "level": 27,
+          "moves": [
+            "mind_ray",
+            "dream_pulse"
+          ]
+        },
+        {
+          "creature": "arcanetail",
+          "level": 28,
+          "moves": [
+            "mind_ray",
+            "dream_pulse",
+            "veil_of_calm"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "solane_elite_1",
+      "display_name": "Elite Halvard",
+      "sprite": "trainer_elite",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 1600,
+      "dialogue_intro": "Halvard: The Elite Four of Solane yield to no one unproven.",
+      "dialogue_defeat": "Halvard: Proven. Pass.",
+      "dialogue_victory": "Halvard: The corridor ends here for you.",
+      "team": [
+        {
+          "creature": "surgemane",
+          "level": 28,
+          "moves": [
+            "spark_zap",
+            "volt_lance",
+            "static_field"
+          ]
+        },
+        {
+          "creature": "quarrywing",
+          "level": 29,
+          "moves": [
+            "stone_toss",
+            "sand_grind",
+            "quake_stomp"
+          ]
+        },
+        {
+          "creature": "stratohorn",
+          "level": 28,
+          "moves": [
+            "gale_slash",
+            "cyclone_dive",
+            "tempest"
+          ]
+        },
+        {
+          "creature": "arcanetail",
+          "level": 29,
+          "moves": [
+            "mind_ray",
+            "dream_pulse",
+            "veil_of_calm"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "solane_elite_2",
+      "display_name": "Elite Imara",
+      "sprite": "trainer_elite",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 1700,
+      "dialogue_intro": "Imara: The Elite Four of Solane yield to no one unproven.",
+      "dialogue_defeat": "Imara: Proven. Pass.",
+      "dialogue_victory": "Imara: The corridor ends here for you.",
+      "team": [
+        {
+          "creature": "stratohorn",
+          "level": 29,
+          "moves": [
+            "gale_slash",
+            "cyclone_dive",
+            "tempest"
+          ]
+        },
+        {
+          "creature": "arcanetail",
+          "level": 30,
+          "moves": [
+            "mind_ray",
+            "dream_pulse",
+            "veil_of_calm"
+          ]
+        },
+        {
+          "creature": "fawnhorn",
+          "level": 29,
+          "moves": [
+            "tackle",
+            "quick_jab",
+            "rend"
+          ]
+        },
+        {
+          "creature": "pyretail",
+          "level": 30,
+          "moves": [
+            "ember_burst",
+            "blaze_wheel",
+            "flame_lash"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "solane_elite_3",
+      "display_name": "Elite Cassiel",
+      "sprite": "trainer_elite",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 1800,
+      "dialogue_intro": "Cassiel: The Elite Four of Solane yield to no one unproven.",
+      "dialogue_defeat": "Cassiel: Proven. Pass.",
+      "dialogue_victory": "Cassiel: The corridor ends here for you.",
+      "team": [
+        {
+          "creature": "fawnhorn",
+          "level": 30,
+          "moves": [
+            "tackle",
+            "quick_jab",
+            "rend"
+          ]
+        },
+        {
+          "creature": "pyretail",
+          "level": 31,
+          "moves": [
+            "ember_burst",
+            "blaze_wheel",
+            "flame_lash"
+          ]
+        },
+        {
+          "creature": "coveclaw",
+          "level": 30,
+          "moves": [
+            "aqua_dart",
+            "riptide",
+            "tide_crash"
+          ]
+        },
+        {
+          "creature": "petalfang",
+          "level": 31,
+          "moves": [
+            "leaf_cut",
+            "thorn_barrage",
+            "vine_wrap"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "solane_elite_4",
+      "display_name": "Elite Rooke",
+      "sprite": "trainer_elite",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 1900,
+      "dialogue_intro": "Rooke: The Elite Four of Solane yield to no one unproven.",
+      "dialogue_defeat": "Rooke: Proven. Pass.",
+      "dialogue_victory": "Rooke: The corridor ends here for you.",
+      "team": [
+        {
+          "creature": "coveclaw",
+          "level": 31,
+          "moves": [
+            "aqua_dart",
+            "riptide",
+            "tide_crash"
+          ]
+        },
+        {
+          "creature": "petalfang",
+          "level": 32,
+          "moves": [
+            "leaf_cut",
+            "thorn_barrage",
+            "vine_wrap"
+          ]
+        },
+        {
+          "creature": "surgemane",
+          "level": 31,
+          "moves": [
+            "spark_zap",
+            "volt_lance",
+            "static_field"
+          ]
+        },
+        {
+          "creature": "quarrywing",
+          "level": 32,
+          "moves": [
+            "stone_toss",
+            "sand_grind",
+            "quake_stomp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "umbra_gym_normal",
+      "display_name": "Plainskeeper Roan",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 900,
+      "reward_badge": "umbra_normal_badge",
+      "dialogue_intro": "Roan: Plainskeepers test every challenger with pure normal craft. Begin!",
+      "dialogue_defeat": "Roan: Masterfully done. The normal badge of Umbra is yours.",
+      "dialogue_victory": "Roan: Study the normal arts and return.",
+      "team": [
+        {
+          "creature": "burrowlet",
+          "level": 25,
+          "moves": [
+            "tackle",
+            "tackle"
+          ]
+        },
+        {
+          "creature": "burrowlet",
+          "level": 26,
+          "moves": [
+            "tackle",
+            "tackle"
+          ]
+        },
+        {
+          "creature": "burrowlet",
+          "level": 27,
+          "moves": [
+            "tackle",
+            "tackle"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "umbra_gym_fire",
+      "display_name": "Ember Sage Petra",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 940,
+      "reward_badge": "umbra_fire_badge",
+      "dialogue_intro": "Petra: Ember Sages test every challenger with pure fire craft. Begin!",
+      "dialogue_defeat": "Petra: Masterfully done. The fire badge of Umbra is yours.",
+      "dialogue_victory": "Petra: Study the fire arts and return.",
+      "team": [
+        {
+          "creature": "kilnling",
+          "level": 26,
+          "moves": [
+            "tackle",
+            "ember_burst"
+          ]
+        },
+        {
+          "creature": "kilnling",
+          "level": 27,
+          "moves": [
+            "tackle",
+            "ember_burst"
+          ]
+        },
+        {
+          "creature": "kilnling",
+          "level": 28,
+          "moves": [
+            "tackle",
+            "ember_burst",
+            "blaze_wheel"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "umbra_gym_water",
+      "display_name": "Tidecaller Sorrel",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 980,
+      "reward_badge": "umbra_water_badge",
+      "dialogue_intro": "Sorrel: Tidecallers test every challenger with pure water craft. Begin!",
+      "dialogue_defeat": "Sorrel: Masterfully done. The water badge of Umbra is yours.",
+      "dialogue_victory": "Sorrel: Study the water arts and return.",
+      "team": [
+        {
+          "creature": "lagoonit",
+          "level": 27,
+          "moves": [
+            "tackle",
+            "aqua_dart"
+          ]
+        },
+        {
+          "creature": "lagoonit",
+          "level": 28,
+          "moves": [
+            "tackle",
+            "aqua_dart",
+            "riptide"
+          ]
+        },
+        {
+          "creature": "lagoonit",
+          "level": 29,
+          "moves": [
+            "tackle",
+            "aqua_dart",
+            "riptide"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "umbra_gym_grass",
+      "display_name": "Grovewarden Yara",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 1020,
+      "reward_badge": "umbra_grass_badge",
+      "dialogue_intro": "Yara: Grovewardens test every challenger with pure grass craft. Begin!",
+      "dialogue_defeat": "Yara: Masterfully done. The grass badge of Umbra is yours.",
+      "dialogue_victory": "Yara: Study the grass arts and return.",
+      "team": [
+        {
+          "creature": "thistleet",
+          "level": 28,
+          "moves": [
+            "tackle",
+            "leaf_cut",
+            "thorn_barrage"
+          ]
+        },
+        {
+          "creature": "thistleet",
+          "level": 29,
+          "moves": [
+            "tackle",
+            "leaf_cut",
+            "thorn_barrage"
+          ]
+        },
+        {
+          "creature": "thistleet",
+          "level": 30,
+          "moves": [
+            "tackle",
+            "leaf_cut",
+            "thorn_barrage"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "umbra_gym_electric",
+      "display_name": "Stormsmith Colm",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 1060,
+      "reward_badge": "umbra_electric_badge",
+      "dialogue_intro": "Colm: Stormsmiths test every challenger with pure electric craft. Begin!",
+      "dialogue_defeat": "Colm: Masterfully done. The electric badge of Umbra is yours.",
+      "dialogue_victory": "Colm: Study the electric arts and return.",
+      "team": [
+        {
+          "creature": "joltie",
+          "level": 29,
+          "moves": [
+            "tackle",
+            "spark_zap",
+            "volt_lance"
+          ]
+        },
+        {
+          "creature": "joltie",
+          "level": 30,
+          "moves": [
+            "tackle",
+            "spark_zap",
+            "volt_lance"
+          ]
+        },
+        {
+          "creature": "joltie",
+          "level": 31,
+          "moves": [
+            "tackle",
+            "spark_zap",
+            "volt_lance"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "umbra_gym_earth",
+      "display_name": "Cairnbreaker Nyssa",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 1100,
+      "reward_badge": "umbra_earth_badge",
+      "dialogue_intro": "Nyssa: Cairnbreakers test every challenger with pure earth craft. Begin!",
+      "dialogue_defeat": "Nyssa: Masterfully done. The earth badge of Umbra is yours.",
+      "dialogue_victory": "Nyssa: Study the earth arts and return.",
+      "team": [
+        {
+          "creature": "ridgekin",
+          "level": 30,
+          "moves": [
+            "tackle",
+            "stone_toss",
+            "sand_grind"
+          ]
+        },
+        {
+          "creature": "ridgekin",
+          "level": 31,
+          "moves": [
+            "tackle",
+            "stone_toss",
+            "sand_grind"
+          ]
+        },
+        {
+          "creature": "ridgehorn",
+          "level": 32,
+          "moves": [
+            "stone_toss",
+            "sand_grind"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "umbra_gym_wind",
+      "display_name": "Skydancer Garrick",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 1140,
+      "reward_badge": "umbra_wind_badge",
+      "dialogue_intro": "Garrick: Skydancers test every challenger with pure wind craft. Begin!",
+      "dialogue_defeat": "Garrick: Masterfully done. The wind badge of Umbra is yours.",
+      "dialogue_victory": "Garrick: Study the wind arts and return.",
+      "team": [
+        {
+          "creature": "soarlet",
+          "level": 31,
+          "moves": [
+            "tackle",
+            "gale_slash",
+            "cyclone_dive"
+          ]
+        },
+        {
+          "creature": "soartail",
+          "level": 32,
+          "moves": [
+            "gale_slash",
+            "cyclone_dive"
+          ]
+        },
+        {
+          "creature": "soartail",
+          "level": 33,
+          "moves": [
+            "gale_slash",
+            "cyclone_dive"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "umbra_gym_mystic",
+      "display_name": "Dreambinder Mira",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 1180,
+      "reward_badge": "umbra_mystic_badge",
+      "dialogue_intro": "Mira: Dreambinders test every challenger with pure mystic craft. Begin!",
+      "dialogue_defeat": "Mira: Masterfully done. The mystic badge of Umbra is yours.",
+      "dialogue_victory": "Mira: Study the mystic arts and return.",
+      "team": [
+        {
+          "creature": "visionclaw",
+          "level": 32,
+          "moves": [
+            "mind_ray",
+            "dream_pulse"
+          ]
+        },
+        {
+          "creature": "visionclaw",
+          "level": 33,
+          "moves": [
+            "mind_ray",
+            "dream_pulse"
+          ]
+        },
+        {
+          "creature": "visionclaw",
+          "level": 34,
+          "moves": [
+            "mind_ray",
+            "dream_pulse",
+            "veil_of_calm"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "umbra_elite_1",
+      "display_name": "Elite Rooke",
+      "sprite": "trainer_elite",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 1800,
+      "dialogue_intro": "Rooke: The Elite Four of Umbra yield to no one unproven.",
+      "dialogue_defeat": "Rooke: Proven. Pass.",
+      "dialogue_victory": "Rooke: The corridor ends here for you.",
+      "team": [
+        {
+          "creature": "ridgehorn",
+          "level": 34,
+          "moves": [
+            "stone_toss",
+            "sand_grind",
+            "quake_stomp"
+          ]
+        },
+        {
+          "creature": "soartail",
+          "level": 35,
+          "moves": [
+            "gale_slash",
+            "cyclone_dive",
+            "tempest"
+          ]
+        },
+        {
+          "creature": "visionclaw",
+          "level": 34,
+          "moves": [
+            "mind_ray",
+            "dream_pulse",
+            "veil_of_calm"
+          ]
+        },
+        {
+          "creature": "burrowtail",
+          "level": 35,
+          "moves": [
+            "tackle",
+            "quick_jab",
+            "rend"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "umbra_elite_2",
+      "display_name": "Elite Solenne",
+      "sprite": "trainer_elite",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 1900,
+      "dialogue_intro": "Solenne: The Elite Four of Umbra yield to no one unproven.",
+      "dialogue_defeat": "Solenne: Proven. Pass.",
+      "dialogue_victory": "Solenne: The corridor ends here for you.",
+      "team": [
+        {
+          "creature": "visionclaw",
+          "level": 35,
+          "moves": [
+            "mind_ray",
+            "dream_pulse",
+            "veil_of_calm"
+          ]
+        },
+        {
+          "creature": "burrowtail",
+          "level": 36,
+          "moves": [
+            "tackle",
+            "quick_jab",
+            "rend"
+          ]
+        },
+        {
+          "creature": "kilnclaw",
+          "level": 35,
+          "moves": [
+            "ember_burst",
+            "blaze_wheel",
+            "flame_lash"
+          ]
+        },
+        {
+          "creature": "lagoonfang",
+          "level": 36,
+          "moves": [
+            "aqua_dart",
+            "riptide",
+            "tide_crash"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "umbra_elite_3",
+      "display_name": "Elite Vantor",
+      "sprite": "trainer_elite",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 2000,
+      "dialogue_intro": "Vantor: The Elite Four of Umbra yield to no one unproven.",
+      "dialogue_defeat": "Vantor: Proven. Pass.",
+      "dialogue_victory": "Vantor: The corridor ends here for you.",
+      "team": [
+        {
+          "creature": "kilnclaw",
+          "level": 36,
+          "moves": [
+            "ember_burst",
+            "blaze_wheel",
+            "flame_lash"
+          ]
+        },
+        {
+          "creature": "lagoonfang",
+          "level": 37,
+          "moves": [
+            "aqua_dart",
+            "riptide",
+            "tide_crash"
+          ]
+        },
+        {
+          "creature": "thistlemane",
+          "level": 36,
+          "moves": [
+            "leaf_cut",
+            "thorn_barrage",
+            "vine_wrap"
+          ]
+        },
+        {
+          "creature": "joltwing",
+          "level": 37,
+          "moves": [
+            "spark_zap",
+            "volt_lance",
+            "static_field"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "umbra_elite_4",
+      "display_name": "Elite Ondine",
+      "sprite": "trainer_elite",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 2100,
+      "dialogue_intro": "Ondine: The Elite Four of Umbra yield to no one unproven.",
+      "dialogue_defeat": "Ondine: Proven. Pass.",
+      "dialogue_victory": "Ondine: The corridor ends here for you.",
+      "team": [
+        {
+          "creature": "thistlemane",
+          "level": 37,
+          "moves": [
+            "leaf_cut",
+            "thorn_barrage",
+            "vine_wrap"
+          ]
+        },
+        {
+          "creature": "joltwing",
+          "level": 38,
+          "moves": [
+            "spark_zap",
+            "volt_lance",
+            "static_field"
+          ]
+        },
+        {
+          "creature": "ridgehorn",
+          "level": 37,
+          "moves": [
+            "stone_toss",
+            "sand_grind",
+            "quake_stomp"
+          ]
+        },
+        {
+          "creature": "soartail",
+          "level": 38,
+          "moves": [
+            "gale_slash",
+            "cyclone_dive",
+            "tempest"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ferrock_gym_normal",
+      "display_name": "Plainskeeper Nyssa",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 1020,
+      "reward_badge": "ferrock_normal_badge",
+      "dialogue_intro": "Nyssa: Plainskeepers test every challenger with pure normal craft. Begin!",
+      "dialogue_defeat": "Nyssa: Masterfully done. The normal badge of Ferrock is yours.",
+      "dialogue_victory": "Nyssa: Study the normal arts and return.",
+      "team": [
+        {
+          "creature": "whiskling",
+          "level": 31,
+          "moves": [
+            "tackle",
+            "tackle"
+          ]
+        },
+        {
+          "creature": "whiskling",
+          "level": 32,
+          "moves": [
+            "tackle",
+            "tackle"
+          ]
+        },
+        {
+          "creature": "whiskling",
+          "level": 33,
+          "moves": [
+            "tackle",
+            "tackle"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ferrock_gym_fire",
+      "display_name": "Ember Sage Garrick",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 1060,
+      "reward_badge": "ferrock_fire_badge",
+      "dialogue_intro": "Garrick: Ember Sages test every challenger with pure fire craft. Begin!",
+      "dialogue_defeat": "Garrick: Masterfully done. The fire badge of Ferrock is yours.",
+      "dialogue_victory": "Garrick: Study the fire arts and return.",
+      "team": [
+        {
+          "creature": "smolderit",
+          "level": 32,
+          "moves": [
+            "tackle",
+            "ember_burst"
+          ]
+        },
+        {
+          "creature": "smolderit",
+          "level": 33,
+          "moves": [
+            "tackle",
+            "ember_burst"
+          ]
+        },
+        {
+          "creature": "smolderit",
+          "level": 34,
+          "moves": [
+            "tackle",
+            "ember_burst",
+            "blaze_wheel"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ferrock_gym_water",
+      "display_name": "Tidecaller Mira",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 1100,
+      "reward_badge": "ferrock_water_badge",
+      "dialogue_intro": "Mira: Tidecallers test every challenger with pure water craft. Begin!",
+      "dialogue_defeat": "Mira: Masterfully done. The water badge of Ferrock is yours.",
+      "dialogue_victory": "Mira: Study the water arts and return.",
+      "team": [
+        {
+          "creature": "deltaet",
+          "level": 33,
+          "moves": [
+            "tackle",
+            "aqua_dart"
+          ]
+        },
+        {
+          "creature": "deltaet",
+          "level": 34,
+          "moves": [
+            "tackle",
+            "aqua_dart",
+            "riptide"
+          ]
+        },
+        {
+          "creature": "deltaet",
+          "level": 35,
+          "moves": [
+            "tackle",
+            "aqua_dart",
+            "riptide"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ferrock_gym_grass",
+      "display_name": "Grovewarden Torv",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 1140,
+      "reward_badge": "ferrock_grass_badge",
+      "dialogue_intro": "Torv: Grovewardens test every challenger with pure grass craft. Begin!",
+      "dialogue_defeat": "Torv: Masterfully done. The grass badge of Ferrock is yours.",
+      "dialogue_victory": "Torv: Study the grass arts and return.",
+      "team": [
+        {
+          "creature": "canopyie",
+          "level": 34,
+          "moves": [
+            "tackle",
+            "leaf_cut",
+            "thorn_barrage"
+          ]
+        },
+        {
+          "creature": "canopyie",
+          "level": 35,
+          "moves": [
+            "tackle",
+            "leaf_cut",
+            "thorn_barrage"
+          ]
+        },
+        {
+          "creature": "canopyie",
+          "level": 36,
+          "moves": [
+            "tackle",
+            "leaf_cut",
+            "thorn_barrage"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ferrock_gym_electric",
+      "display_name": "Stormsmith Ashka",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 1180,
+      "reward_badge": "ferrock_electric_badge",
+      "dialogue_intro": "Ashka: Stormsmiths test every challenger with pure electric craft. Begin!",
+      "dialogue_defeat": "Ashka: Masterfully done. The electric badge of Ferrock is yours.",
+      "dialogue_victory": "Ashka: Study the electric arts and return.",
+      "team": [
+        {
+          "creature": "fulgorkin",
+          "level": 35,
+          "moves": [
+            "tackle",
+            "spark_zap",
+            "volt_lance"
+          ]
+        },
+        {
+          "creature": "fulgorkin",
+          "level": 36,
+          "moves": [
+            "tackle",
+            "spark_zap",
+            "volt_lance"
+          ]
+        },
+        {
+          "creature": "fulgorkin",
+          "level": 37,
+          "moves": [
+            "tackle",
+            "spark_zap",
+            "volt_lance"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ferrock_gym_earth",
+      "display_name": "Cairnbreaker Bren",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 1220,
+      "reward_badge": "ferrock_earth_badge",
+      "dialogue_intro": "Bren: Cairnbreakers test every challenger with pure earth craft. Begin!",
+      "dialogue_defeat": "Bren: Masterfully done. The earth badge of Ferrock is yours.",
+      "dialogue_victory": "Bren: Study the earth arts and return.",
+      "team": [
+        {
+          "creature": "marllet",
+          "level": 36,
+          "moves": [
+            "tackle",
+            "stone_toss",
+            "sand_grind"
+          ]
+        },
+        {
+          "creature": "marllet",
+          "level": 37,
+          "moves": [
+            "tackle",
+            "stone_toss",
+            "sand_grind"
+          ]
+        },
+        {
+          "creature": "marltail",
+          "level": 38,
+          "moves": [
+            "stone_toss",
+            "sand_grind"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ferrock_gym_wind",
+      "display_name": "Skydancer Sylla",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 1260,
+      "reward_badge": "ferrock_wind_badge",
+      "dialogue_intro": "Sylla: Skydancers test every challenger with pure wind craft. Begin!",
+      "dialogue_defeat": "Sylla: Masterfully done. The wind badge of Ferrock is yours.",
+      "dialogue_victory": "Sylla: Study the wind arts and return.",
+      "team": [
+        {
+          "creature": "zephyrling",
+          "level": 37,
+          "moves": [
+            "tackle",
+            "gale_slash",
+            "cyclone_dive"
+          ]
+        },
+        {
+          "creature": "zephyrclaw",
+          "level": 38,
+          "moves": [
+            "gale_slash",
+            "cyclone_dive"
+          ]
+        },
+        {
+          "creature": "zephyrclaw",
+          "level": 39,
+          "moves": [
+            "gale_slash",
+            "cyclone_dive"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ferrock_gym_mystic",
+      "display_name": "Dreambinder Odan",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 1300,
+      "reward_badge": "ferrock_mystic_badge",
+      "dialogue_intro": "Odan: Dreambinders test every challenger with pure mystic craft. Begin!",
+      "dialogue_defeat": "Odan: Masterfully done. The mystic badge of Ferrock is yours.",
+      "dialogue_victory": "Odan: Study the mystic arts and return.",
+      "team": [
+        {
+          "creature": "runefang",
+          "level": 38,
+          "moves": [
+            "mind_ray",
+            "dream_pulse"
+          ]
+        },
+        {
+          "creature": "runefang",
+          "level": 39,
+          "moves": [
+            "mind_ray",
+            "dream_pulse"
+          ]
+        },
+        {
+          "creature": "runefang",
+          "level": 40,
+          "moves": [
+            "mind_ray",
+            "dream_pulse",
+            "veil_of_calm"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ferrock_elite_1",
+      "display_name": "Elite Ondine",
+      "sprite": "trainer_elite",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 2000,
+      "dialogue_intro": "Ondine: The Elite Four of Ferrock yield to no one unproven.",
+      "dialogue_defeat": "Ondine: Proven. Pass.",
+      "dialogue_victory": "Ondine: The corridor ends here for you.",
+      "team": [
+        {
+          "creature": "zephyrclaw",
+          "level": 40,
+          "moves": [
+            "gale_slash",
+            "cyclone_dive",
+            "tempest"
+          ]
+        },
+        {
+          "creature": "runefang",
+          "level": 41,
+          "moves": [
+            "mind_ray",
+            "dream_pulse",
+            "veil_of_calm"
+          ]
+        },
+        {
+          "creature": "whiskclaw",
+          "level": 40,
+          "moves": [
+            "tackle",
+            "quick_jab",
+            "rend"
+          ]
+        },
+        {
+          "creature": "smolderfang",
+          "level": 41,
+          "moves": [
+            "ember_burst",
+            "blaze_wheel",
+            "flame_lash"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ferrock_elite_2",
+      "display_name": "Elite Merrick",
+      "sprite": "trainer_elite",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 2100,
+      "dialogue_intro": "Merrick: The Elite Four of Ferrock yield to no one unproven.",
+      "dialogue_defeat": "Merrick: Proven. Pass.",
+      "dialogue_victory": "Merrick: The corridor ends here for you.",
+      "team": [
+        {
+          "creature": "whiskclaw",
+          "level": 41,
+          "moves": [
+            "tackle",
+            "quick_jab",
+            "rend"
+          ]
+        },
+        {
+          "creature": "smolderfang",
+          "level": 42,
+          "moves": [
+            "ember_burst",
+            "blaze_wheel",
+            "flame_lash"
+          ]
+        },
+        {
+          "creature": "deltamane",
+          "level": 41,
+          "moves": [
+            "aqua_dart",
+            "riptide",
+            "tide_crash"
+          ]
+        },
+        {
+          "creature": "canopywing",
+          "level": 42,
+          "moves": [
+            "leaf_cut",
+            "thorn_barrage",
+            "vine_wrap"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ferrock_elite_3",
+      "display_name": "Elite Thessa",
+      "sprite": "trainer_elite",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 2200,
+      "dialogue_intro": "Thessa: The Elite Four of Ferrock yield to no one unproven.",
+      "dialogue_defeat": "Thessa: Proven. Pass.",
+      "dialogue_victory": "Thessa: The corridor ends here for you.",
+      "team": [
+        {
+          "creature": "deltamane",
+          "level": 42,
+          "moves": [
+            "aqua_dart",
+            "riptide",
+            "tide_crash"
+          ]
+        },
+        {
+          "creature": "canopywing",
+          "level": 43,
+          "moves": [
+            "leaf_cut",
+            "thorn_barrage",
+            "vine_wrap"
+          ]
+        },
+        {
+          "creature": "fulgorhorn",
+          "level": 42,
+          "moves": [
+            "spark_zap",
+            "volt_lance",
+            "static_field"
+          ]
+        },
+        {
+          "creature": "marltail",
+          "level": 43,
+          "moves": [
+            "stone_toss",
+            "sand_grind",
+            "quake_stomp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ferrock_elite_4",
+      "display_name": "Elite Ludo",
+      "sprite": "trainer_elite",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 2300,
+      "dialogue_intro": "Ludo: The Elite Four of Ferrock yield to no one unproven.",
+      "dialogue_defeat": "Ludo: Proven. Pass.",
+      "dialogue_victory": "Ludo: The corridor ends here for you.",
+      "team": [
+        {
+          "creature": "fulgorhorn",
+          "level": 43,
+          "moves": [
+            "spark_zap",
+            "volt_lance",
+            "static_field"
+          ]
+        },
+        {
+          "creature": "marltail",
+          "level": 44,
+          "moves": [
+            "stone_toss",
+            "sand_grind",
+            "quake_stomp"
+          ]
+        },
+        {
+          "creature": "zephyrclaw",
+          "level": 43,
+          "moves": [
+            "gale_slash",
+            "cyclone_dive",
+            "tempest"
+          ]
+        },
+        {
+          "creature": "runefang",
+          "level": 44,
+          "moves": [
+            "mind_ray",
+            "dream_pulse",
+            "veil_of_calm"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brume_gym_normal",
+      "display_name": "Plainskeeper Bren",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 1140,
+      "reward_badge": "brume_normal_badge",
+      "dialogue_intro": "Bren: Plainskeepers test every challenger with pure normal craft. Begin!",
+      "dialogue_defeat": "Bren: Masterfully done. The normal badge of Brume is yours.",
+      "dialogue_victory": "Bren: Study the normal arts and return.",
+      "team": [
+        {
+          "creature": "harrowit",
+          "level": 37,
+          "moves": [
+            "tackle",
+            "tackle"
+          ]
+        },
+        {
+          "creature": "harrowit",
+          "level": 38,
+          "moves": [
+            "tackle",
+            "tackle"
+          ]
+        },
+        {
+          "creature": "harrowit",
+          "level": 39,
+          "moves": [
+            "tackle",
+            "tackle"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brume_gym_fire",
+      "display_name": "Ember Sage Sylla",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 1180,
+      "reward_badge": "brume_fire_badge",
+      "dialogue_intro": "Sylla: Ember Sages test every challenger with pure fire craft. Begin!",
+      "dialogue_defeat": "Sylla: Masterfully done. The fire badge of Brume is yours.",
+      "dialogue_victory": "Sylla: Study the fire arts and return.",
+      "team": [
+        {
+          "creature": "blazenet",
+          "level": 38,
+          "moves": [
+            "tackle",
+            "ember_burst"
+          ]
+        },
+        {
+          "creature": "blazenet",
+          "level": 39,
+          "moves": [
+            "tackle",
+            "ember_burst"
+          ]
+        },
+        {
+          "creature": "blazenet",
+          "level": 40,
+          "moves": [
+            "tackle",
+            "ember_burst",
+            "blaze_wheel"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brume_gym_water",
+      "display_name": "Tidecaller Odan",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 1220,
+      "reward_badge": "brume_water_badge",
+      "dialogue_intro": "Odan: Tidecallers test every challenger with pure water craft. Begin!",
+      "dialogue_defeat": "Odan: Masterfully done. The water badge of Brume is yours.",
+      "dialogue_victory": "Odan: Study the water arts and return.",
+      "team": [
+        {
+          "creature": "mistie",
+          "level": 39,
+          "moves": [
+            "tackle",
+            "aqua_dart"
+          ]
+        },
+        {
+          "creature": "mistie",
+          "level": 40,
+          "moves": [
+            "tackle",
+            "aqua_dart",
+            "riptide"
+          ]
+        },
+        {
+          "creature": "mistie",
+          "level": 41,
+          "moves": [
+            "tackle",
+            "aqua_dart",
+            "riptide"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brume_gym_grass",
+      "display_name": "Grovewarden Vesse",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 1260,
+      "reward_badge": "brume_grass_badge",
+      "dialogue_intro": "Vesse: Grovewardens test every challenger with pure grass craft. Begin!",
+      "dialogue_defeat": "Vesse: Masterfully done. The grass badge of Brume is yours.",
+      "dialogue_victory": "Vesse: Study the grass arts and return.",
+      "team": [
+        {
+          "creature": "bramblekin",
+          "level": 40,
+          "moves": [
+            "tackle",
+            "leaf_cut",
+            "thorn_barrage"
+          ]
+        },
+        {
+          "creature": "bramblekin",
+          "level": 41,
+          "moves": [
+            "tackle",
+            "leaf_cut",
+            "thorn_barrage"
+          ]
+        },
+        {
+          "creature": "bramblekin",
+          "level": 42,
+          "moves": [
+            "tackle",
+            "leaf_cut",
+            "thorn_barrage"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brume_gym_electric",
+      "display_name": "Stormsmith Karn",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 1300,
+      "reward_badge": "brume_electric_badge",
+      "dialogue_intro": "Karn: Stormsmiths test every challenger with pure electric craft. Begin!",
+      "dialogue_defeat": "Karn: Masterfully done. The electric badge of Brume is yours.",
+      "dialogue_victory": "Karn: Study the electric arts and return.",
+      "team": [
+        {
+          "creature": "arclet",
+          "level": 41,
+          "moves": [
+            "tackle",
+            "spark_zap",
+            "volt_lance"
+          ]
+        },
+        {
+          "creature": "arclet",
+          "level": 42,
+          "moves": [
+            "tackle",
+            "spark_zap",
+            "volt_lance"
+          ]
+        },
+        {
+          "creature": "arclet",
+          "level": 43,
+          "moves": [
+            "tackle",
+            "spark_zap",
+            "volt_lance"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brume_gym_earth",
+      "display_name": "Cairnbreaker Ilya",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 1340,
+      "reward_badge": "brume_earth_badge",
+      "dialogue_intro": "Ilya: Cairnbreakers test every challenger with pure earth craft. Begin!",
+      "dialogue_defeat": "Ilya: Masterfully done. The earth badge of Brume is yours.",
+      "dialogue_victory": "Ilya: Study the earth arts and return.",
+      "team": [
+        {
+          "creature": "clayling",
+          "level": 42,
+          "moves": [
+            "tackle",
+            "stone_toss",
+            "sand_grind"
+          ]
+        },
+        {
+          "creature": "clayling",
+          "level": 43,
+          "moves": [
+            "tackle",
+            "stone_toss",
+            "sand_grind"
+          ]
+        },
+        {
+          "creature": "clayclaw",
+          "level": 44,
+          "moves": [
+            "stone_toss",
+            "sand_grind"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brume_gym_wind",
+      "display_name": "Skydancer Roan",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 1380,
+      "reward_badge": "brume_wind_badge",
+      "dialogue_intro": "Roan: Skydancers test every challenger with pure wind craft. Begin!",
+      "dialogue_defeat": "Roan: Masterfully done. The wind badge of Brume is yours.",
+      "dialogue_victory": "Roan: Study the wind arts and return.",
+      "team": [
+        {
+          "creature": "cirrusit",
+          "level": 43,
+          "moves": [
+            "tackle",
+            "gale_slash",
+            "cyclone_dive"
+          ]
+        },
+        {
+          "creature": "cirrusfang",
+          "level": 44,
+          "moves": [
+            "gale_slash",
+            "cyclone_dive"
+          ]
+        },
+        {
+          "creature": "cirrusfang",
+          "level": 45,
+          "moves": [
+            "gale_slash",
+            "cyclone_dive"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brume_gym_mystic",
+      "display_name": "Dreambinder Petra",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 1420,
+      "reward_badge": "brume_mystic_badge",
+      "dialogue_intro": "Petra: Dreambinders test every challenger with pure mystic craft. Begin!",
+      "dialogue_defeat": "Petra: Masterfully done. The mystic badge of Brume is yours.",
+      "dialogue_victory": "Petra: Study the mystic arts and return.",
+      "team": [
+        {
+          "creature": "omenmane",
+          "level": 44,
+          "moves": [
+            "mind_ray",
+            "dream_pulse"
+          ]
+        },
+        {
+          "creature": "omenmane",
+          "level": 45,
+          "moves": [
+            "mind_ray",
+            "dream_pulse"
+          ]
+        },
+        {
+          "creature": "omenmane",
+          "level": 46,
+          "moves": [
+            "mind_ray",
+            "dream_pulse",
+            "veil_of_calm"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brume_elite_1",
+      "display_name": "Elite Ludo",
+      "sprite": "trainer_elite",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 2200,
+      "dialogue_intro": "Ludo: The Elite Four of Brume yield to no one unproven.",
+      "dialogue_defeat": "Ludo: Proven. Pass.",
+      "dialogue_victory": "Ludo: The corridor ends here for you.",
+      "team": [
+        {
+          "creature": "omenmane",
+          "level": 46,
+          "moves": [
+            "mind_ray",
+            "dream_pulse",
+            "veil_of_calm"
+          ]
+        },
+        {
+          "creature": "harrowfang",
+          "level": 47,
+          "moves": [
+            "tackle",
+            "quick_jab",
+            "rend"
+          ]
+        },
+        {
+          "creature": "blazenmane",
+          "level": 46,
+          "moves": [
+            "ember_burst",
+            "blaze_wheel",
+            "flame_lash"
+          ]
+        },
+        {
+          "creature": "mistwing",
+          "level": 47,
+          "moves": [
+            "aqua_dart",
+            "riptide",
+            "tide_crash"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brume_elite_2",
+      "display_name": "Elite Averil",
+      "sprite": "trainer_elite",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 2300,
+      "dialogue_intro": "Averil: The Elite Four of Brume yield to no one unproven.",
+      "dialogue_defeat": "Averil: Proven. Pass.",
+      "dialogue_victory": "Averil: The corridor ends here for you.",
+      "team": [
+        {
+          "creature": "blazenmane",
+          "level": 47,
+          "moves": [
+            "ember_burst",
+            "blaze_wheel",
+            "flame_lash"
+          ]
+        },
+        {
+          "creature": "mistwing",
+          "level": 48,
+          "moves": [
+            "aqua_dart",
+            "riptide",
+            "tide_crash"
+          ]
+        },
+        {
+          "creature": "bramblehorn",
+          "level": 47,
+          "moves": [
+            "leaf_cut",
+            "thorn_barrage",
+            "vine_wrap"
+          ]
+        },
+        {
+          "creature": "arctail",
+          "level": 48,
+          "moves": [
+            "spark_zap",
+            "volt_lance",
+            "static_field"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brume_elite_3",
+      "display_name": "Elite Coriane",
+      "sprite": "trainer_elite",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 2400,
+      "dialogue_intro": "Coriane: The Elite Four of Brume yield to no one unproven.",
+      "dialogue_defeat": "Coriane: Proven. Pass.",
+      "dialogue_victory": "Coriane: The corridor ends here for you.",
+      "team": [
+        {
+          "creature": "bramblehorn",
+          "level": 48,
+          "moves": [
+            "leaf_cut",
+            "thorn_barrage",
+            "vine_wrap"
+          ]
+        },
+        {
+          "creature": "arctail",
+          "level": 49,
+          "moves": [
+            "spark_zap",
+            "volt_lance",
+            "static_field"
+          ]
+        },
+        {
+          "creature": "clayclaw",
+          "level": 48,
+          "moves": [
+            "stone_toss",
+            "sand_grind",
+            "quake_stomp"
+          ]
+        },
+        {
+          "creature": "cirrusfang",
+          "level": 49,
+          "moves": [
+            "gale_slash",
+            "cyclone_dive",
+            "tempest"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brume_elite_4",
+      "display_name": "Elite Halvard",
+      "sprite": "trainer_elite",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 2500,
+      "dialogue_intro": "Halvard: The Elite Four of Brume yield to no one unproven.",
+      "dialogue_defeat": "Halvard: Proven. Pass.",
+      "dialogue_victory": "Halvard: The corridor ends here for you.",
+      "team": [
+        {
+          "creature": "clayclaw",
+          "level": 49,
+          "moves": [
+            "stone_toss",
+            "sand_grind",
+            "quake_stomp"
+          ]
+        },
+        {
+          "creature": "cirrusfang",
+          "level": 50,
+          "moves": [
+            "gale_slash",
+            "cyclone_dive",
+            "tempest"
+          ]
+        },
+        {
+          "creature": "omenmane",
+          "level": 49,
+          "moves": [
+            "mind_ray",
+            "dream_pulse",
+            "veil_of_calm"
+          ]
+        },
+        {
+          "creature": "harrowfang",
+          "level": 50,
+          "moves": [
+            "tackle",
+            "quick_jab",
+            "rend"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lumen_gym_normal",
+      "display_name": "Plainskeeper Ilya",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 1260,
+      "reward_badge": "lumen_normal_badge",
+      "dialogue_intro": "Ilya: Plainskeepers test every challenger with pure normal craft. Begin!",
+      "dialogue_defeat": "Ilya: Masterfully done. The normal badge of Lumen is yours.",
+      "dialogue_victory": "Ilya: Study the normal arts and return.",
+      "team": [
+        {
+          "creature": "fawnet",
+          "level": 43,
+          "moves": [
+            "tackle",
+            "tackle"
+          ]
+        },
+        {
+          "creature": "fawnet",
+          "level": 44,
+          "moves": [
+            "tackle",
+            "tackle"
+          ]
+        },
+        {
+          "creature": "fawnet",
+          "level": 45,
+          "moves": [
+            "tackle",
+            "tackle"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lumen_gym_fire",
+      "display_name": "Ember Sage Roan",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 1300,
+      "reward_badge": "lumen_fire_badge",
+      "dialogue_intro": "Roan: Ember Sages test every challenger with pure fire craft. Begin!",
+      "dialogue_defeat": "Roan: Masterfully done. The fire badge of Lumen is yours.",
+      "dialogue_victory": "Roan: Study the fire arts and return.",
+      "team": [
+        {
+          "creature": "pyreie",
+          "level": 44,
+          "moves": [
+            "tackle",
+            "ember_burst"
+          ]
+        },
+        {
+          "creature": "pyreie",
+          "level": 45,
+          "moves": [
+            "tackle",
+            "ember_burst"
+          ]
+        },
+        {
+          "creature": "pyreie",
+          "level": 46,
+          "moves": [
+            "tackle",
+            "ember_burst",
+            "blaze_wheel"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lumen_gym_water",
+      "display_name": "Tidecaller Petra",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 1340,
+      "reward_badge": "lumen_water_badge",
+      "dialogue_intro": "Petra: Tidecallers test every challenger with pure water craft. Begin!",
+      "dialogue_defeat": "Petra: Masterfully done. The water badge of Lumen is yours.",
+      "dialogue_victory": "Petra: Study the water arts and return.",
+      "team": [
+        {
+          "creature": "covekin",
+          "level": 45,
+          "moves": [
+            "tackle",
+            "aqua_dart"
+          ]
+        },
+        {
+          "creature": "covekin",
+          "level": 46,
+          "moves": [
+            "tackle",
+            "aqua_dart",
+            "riptide"
+          ]
+        },
+        {
+          "creature": "covekin",
+          "level": 47,
+          "moves": [
+            "tackle",
+            "aqua_dart",
+            "riptide"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lumen_gym_grass",
+      "display_name": "Grovewarden Sorrel",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 1380,
+      "reward_badge": "lumen_grass_badge",
+      "dialogue_intro": "Sorrel: Grovewardens test every challenger with pure grass craft. Begin!",
+      "dialogue_defeat": "Sorrel: Masterfully done. The grass badge of Lumen is yours.",
+      "dialogue_victory": "Sorrel: Study the grass arts and return.",
+      "team": [
+        {
+          "creature": "petallet",
+          "level": 46,
+          "moves": [
+            "tackle",
+            "leaf_cut",
+            "thorn_barrage"
+          ]
+        },
+        {
+          "creature": "petallet",
+          "level": 47,
+          "moves": [
+            "tackle",
+            "leaf_cut",
+            "thorn_barrage"
+          ]
+        },
+        {
+          "creature": "petallet",
+          "level": 48,
+          "moves": [
+            "tackle",
+            "leaf_cut",
+            "thorn_barrage"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lumen_gym_electric",
+      "display_name": "Stormsmith Yara",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 1420,
+      "reward_badge": "lumen_electric_badge",
+      "dialogue_intro": "Yara: Stormsmiths test every challenger with pure electric craft. Begin!",
+      "dialogue_defeat": "Yara: Masterfully done. The electric badge of Lumen is yours.",
+      "dialogue_victory": "Yara: Study the electric arts and return.",
+      "team": [
+        {
+          "creature": "surgeling",
+          "level": 47,
+          "moves": [
+            "tackle",
+            "spark_zap",
+            "volt_lance"
+          ]
+        },
+        {
+          "creature": "surgeling",
+          "level": 48,
+          "moves": [
+            "tackle",
+            "spark_zap",
+            "volt_lance"
+          ]
+        },
+        {
+          "creature": "surgeling",
+          "level": 49,
+          "moves": [
+            "tackle",
+            "spark_zap",
+            "volt_lance"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lumen_gym_earth",
+      "display_name": "Cairnbreaker Colm",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 1460,
+      "reward_badge": "lumen_earth_badge",
+      "dialogue_intro": "Colm: Cairnbreakers test every challenger with pure earth craft. Begin!",
+      "dialogue_defeat": "Colm: Masterfully done. The earth badge of Lumen is yours.",
+      "dialogue_victory": "Colm: Study the earth arts and return.",
+      "team": [
+        {
+          "creature": "quarryit",
+          "level": 48,
+          "moves": [
+            "tackle",
+            "stone_toss",
+            "sand_grind"
+          ]
+        },
+        {
+          "creature": "quarryit",
+          "level": 49,
+          "moves": [
+            "tackle",
+            "stone_toss",
+            "sand_grind"
+          ]
+        },
+        {
+          "creature": "quarryfang",
+          "level": 50,
+          "moves": [
+            "stone_toss",
+            "sand_grind"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lumen_gym_wind",
+      "display_name": "Skydancer Nyssa",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 1500,
+      "reward_badge": "lumen_wind_badge",
+      "dialogue_intro": "Nyssa: Skydancers test every challenger with pure wind craft. Begin!",
+      "dialogue_defeat": "Nyssa: Masterfully done. The wind badge of Lumen is yours.",
+      "dialogue_victory": "Nyssa: Study the wind arts and return.",
+      "team": [
+        {
+          "creature": "stratoet",
+          "level": 49,
+          "moves": [
+            "tackle",
+            "gale_slash",
+            "cyclone_dive"
+          ]
+        },
+        {
+          "creature": "stratomane",
+          "level": 50,
+          "moves": [
+            "gale_slash",
+            "cyclone_dive"
+          ]
+        },
+        {
+          "creature": "stratomane",
+          "level": 51,
+          "moves": [
+            "gale_slash",
+            "cyclone_dive"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lumen_gym_mystic",
+      "display_name": "Dreambinder Garrick",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 1540,
+      "reward_badge": "lumen_mystic_badge",
+      "dialogue_intro": "Garrick: Dreambinders test every challenger with pure mystic craft. Begin!",
+      "dialogue_defeat": "Garrick: Masterfully done. The mystic badge of Lumen is yours.",
+      "dialogue_victory": "Garrick: Study the mystic arts and return.",
+      "team": [
+        {
+          "creature": "arcanewing",
+          "level": 50,
+          "moves": [
+            "mind_ray",
+            "dream_pulse"
+          ]
+        },
+        {
+          "creature": "arcanewing",
+          "level": 51,
+          "moves": [
+            "mind_ray",
+            "dream_pulse"
+          ]
+        },
+        {
+          "creature": "arcanewing",
+          "level": 52,
+          "moves": [
+            "mind_ray",
+            "dream_pulse",
+            "veil_of_calm"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lumen_elite_1",
+      "display_name": "Elite Halvard",
+      "sprite": "trainer_elite",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 2400,
+      "dialogue_intro": "Halvard: The Elite Four of Lumen yield to no one unproven.",
+      "dialogue_defeat": "Halvard: Proven. Pass.",
+      "dialogue_victory": "Halvard: The corridor ends here for you.",
+      "team": [
+        {
+          "creature": "fawnmane",
+          "level": 52,
+          "moves": [
+            "tackle",
+            "quick_jab",
+            "rend"
+          ]
+        },
+        {
+          "creature": "pyrewing",
+          "level": 53,
+          "moves": [
+            "ember_burst",
+            "blaze_wheel",
+            "flame_lash"
+          ]
+        },
+        {
+          "creature": "covehorn",
+          "level": 52,
+          "moves": [
+            "aqua_dart",
+            "riptide",
+            "tide_crash"
+          ]
+        },
+        {
+          "creature": "petaltail",
+          "level": 53,
+          "moves": [
+            "leaf_cut",
+            "thorn_barrage",
+            "vine_wrap"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lumen_elite_2",
+      "display_name": "Elite Imara",
+      "sprite": "trainer_elite",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 2500,
+      "dialogue_intro": "Imara: The Elite Four of Lumen yield to no one unproven.",
+      "dialogue_defeat": "Imara: Proven. Pass.",
+      "dialogue_victory": "Imara: The corridor ends here for you.",
+      "team": [
+        {
+          "creature": "covehorn",
+          "level": 53,
+          "moves": [
+            "aqua_dart",
+            "riptide",
+            "tide_crash"
+          ]
+        },
+        {
+          "creature": "petaltail",
+          "level": 54,
+          "moves": [
+            "leaf_cut",
+            "thorn_barrage",
+            "vine_wrap"
+          ]
+        },
+        {
+          "creature": "surgeclaw",
+          "level": 53,
+          "moves": [
+            "spark_zap",
+            "volt_lance",
+            "static_field"
+          ]
+        },
+        {
+          "creature": "quarryfang",
+          "level": 54,
+          "moves": [
+            "stone_toss",
+            "sand_grind",
+            "quake_stomp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lumen_elite_3",
+      "display_name": "Elite Cassiel",
+      "sprite": "trainer_elite",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 2600,
+      "dialogue_intro": "Cassiel: The Elite Four of Lumen yield to no one unproven.",
+      "dialogue_defeat": "Cassiel: Proven. Pass.",
+      "dialogue_victory": "Cassiel: The corridor ends here for you.",
+      "team": [
+        {
+          "creature": "surgeclaw",
+          "level": 54,
+          "moves": [
+            "spark_zap",
+            "volt_lance",
+            "static_field"
+          ]
+        },
+        {
+          "creature": "quarryfang",
+          "level": 55,
+          "moves": [
+            "stone_toss",
+            "sand_grind",
+            "quake_stomp"
+          ]
+        },
+        {
+          "creature": "stratomane",
+          "level": 54,
+          "moves": [
+            "gale_slash",
+            "cyclone_dive",
+            "tempest"
+          ]
+        },
+        {
+          "creature": "arcanewing",
+          "level": 55,
+          "moves": [
+            "mind_ray",
+            "dream_pulse",
+            "veil_of_calm"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lumen_elite_4",
+      "display_name": "Elite Rooke",
+      "sprite": "trainer_elite",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 2700,
+      "dialogue_intro": "Rooke: The Elite Four of Lumen yield to no one unproven.",
+      "dialogue_defeat": "Rooke: Proven. Pass.",
+      "dialogue_victory": "Rooke: The corridor ends here for you.",
+      "team": [
+        {
+          "creature": "stratomane",
+          "level": 55,
+          "moves": [
+            "gale_slash",
+            "cyclone_dive",
+            "tempest"
+          ]
+        },
+        {
+          "creature": "arcanewing",
+          "level": 56,
+          "moves": [
+            "mind_ray",
+            "dream_pulse",
+            "veil_of_calm"
+          ]
+        },
+        {
+          "creature": "fawnmane",
+          "level": 55,
+          "moves": [
+            "tackle",
+            "quick_jab",
+            "rend"
+          ]
+        },
+        {
+          "creature": "pyrewing",
+          "level": 56,
+          "moves": [
+            "ember_burst",
+            "blaze_wheel",
+            "flame_lash"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zephyra_gym_normal",
+      "display_name": "Plainskeeper Colm",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 1380,
+      "reward_badge": "zephyra_normal_badge",
+      "dialogue_intro": "Colm: Plainskeepers test every challenger with pure normal craft. Begin!",
+      "dialogue_defeat": "Colm: Masterfully done. The normal badge of Zephyra is yours.",
+      "dialogue_victory": "Colm: Study the normal arts and return.",
+      "team": [
+        {
+          "creature": "burrowie",
+          "level": 49,
+          "moves": [
+            "tackle",
+            "tackle"
+          ]
+        },
+        {
+          "creature": "burrowie",
+          "level": 50,
+          "moves": [
+            "tackle",
+            "tackle"
+          ]
+        },
+        {
+          "creature": "burrowie",
+          "level": 51,
+          "moves": [
+            "tackle",
+            "tackle"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zephyra_gym_fire",
+      "display_name": "Ember Sage Nyssa",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 1420,
+      "reward_badge": "zephyra_fire_badge",
+      "dialogue_intro": "Nyssa: Ember Sages test every challenger with pure fire craft. Begin!",
+      "dialogue_defeat": "Nyssa: Masterfully done. The fire badge of Zephyra is yours.",
+      "dialogue_victory": "Nyssa: Study the fire arts and return.",
+      "team": [
+        {
+          "creature": "kilnkin",
+          "level": 50,
+          "moves": [
+            "tackle",
+            "ember_burst"
+          ]
+        },
+        {
+          "creature": "kilnkin",
+          "level": 51,
+          "moves": [
+            "tackle",
+            "ember_burst"
+          ]
+        },
+        {
+          "creature": "kilnkin",
+          "level": 52,
+          "moves": [
+            "tackle",
+            "ember_burst",
+            "blaze_wheel"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zephyra_gym_water",
+      "display_name": "Tidecaller Garrick",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 1460,
+      "reward_badge": "zephyra_water_badge",
+      "dialogue_intro": "Garrick: Tidecallers test every challenger with pure water craft. Begin!",
+      "dialogue_defeat": "Garrick: Masterfully done. The water badge of Zephyra is yours.",
+      "dialogue_victory": "Garrick: Study the water arts and return.",
+      "team": [
+        {
+          "creature": "lagoonlet",
+          "level": 51,
+          "moves": [
+            "tackle",
+            "aqua_dart"
+          ]
+        },
+        {
+          "creature": "lagoonlet",
+          "level": 52,
+          "moves": [
+            "tackle",
+            "aqua_dart",
+            "riptide"
+          ]
+        },
+        {
+          "creature": "lagoonlet",
+          "level": 53,
+          "moves": [
+            "tackle",
+            "aqua_dart",
+            "riptide"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zephyra_gym_grass",
+      "display_name": "Grovewarden Mira",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 1500,
+      "reward_badge": "zephyra_grass_badge",
+      "dialogue_intro": "Mira: Grovewardens test every challenger with pure grass craft. Begin!",
+      "dialogue_defeat": "Mira: Masterfully done. The grass badge of Zephyra is yours.",
+      "dialogue_victory": "Mira: Study the grass arts and return.",
+      "team": [
+        {
+          "creature": "thistleling",
+          "level": 52,
+          "moves": [
+            "tackle",
+            "leaf_cut",
+            "thorn_barrage"
+          ]
+        },
+        {
+          "creature": "thistleling",
+          "level": 53,
+          "moves": [
+            "tackle",
+            "leaf_cut",
+            "thorn_barrage"
+          ]
+        },
+        {
+          "creature": "thistleling",
+          "level": 54,
+          "moves": [
+            "tackle",
+            "leaf_cut",
+            "thorn_barrage"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zephyra_gym_electric",
+      "display_name": "Stormsmith Torv",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 1540,
+      "reward_badge": "zephyra_electric_badge",
+      "dialogue_intro": "Torv: Stormsmiths test every challenger with pure electric craft. Begin!",
+      "dialogue_defeat": "Torv: Masterfully done. The electric badge of Zephyra is yours.",
+      "dialogue_victory": "Torv: Study the electric arts and return.",
+      "team": [
+        {
+          "creature": "joltit",
+          "level": 53,
+          "moves": [
+            "tackle",
+            "spark_zap",
+            "volt_lance"
+          ]
+        },
+        {
+          "creature": "joltit",
+          "level": 54,
+          "moves": [
+            "tackle",
+            "spark_zap",
+            "volt_lance"
+          ]
+        },
+        {
+          "creature": "joltit",
+          "level": 55,
+          "moves": [
+            "tackle",
+            "spark_zap",
+            "volt_lance"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zephyra_gym_earth",
+      "display_name": "Cairnbreaker Ashka",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 1580,
+      "reward_badge": "zephyra_earth_badge",
+      "dialogue_intro": "Ashka: Cairnbreakers test every challenger with pure earth craft. Begin!",
+      "dialogue_defeat": "Ashka: Masterfully done. The earth badge of Zephyra is yours.",
+      "dialogue_victory": "Ashka: Study the earth arts and return.",
+      "team": [
+        {
+          "creature": "ridgeet",
+          "level": 54,
+          "moves": [
+            "tackle",
+            "stone_toss",
+            "sand_grind"
+          ]
+        },
+        {
+          "creature": "ridgeet",
+          "level": 55,
+          "moves": [
+            "tackle",
+            "stone_toss",
+            "sand_grind"
+          ]
+        },
+        {
+          "creature": "ridgemane",
+          "level": 56,
+          "moves": [
+            "stone_toss",
+            "sand_grind"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zephyra_gym_wind",
+      "display_name": "Skydancer Bren",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 1620,
+      "reward_badge": "zephyra_wind_badge",
+      "dialogue_intro": "Bren: Skydancers test every challenger with pure wind craft. Begin!",
+      "dialogue_defeat": "Bren: Masterfully done. The wind badge of Zephyra is yours.",
+      "dialogue_victory": "Bren: Study the wind arts and return.",
+      "team": [
+        {
+          "creature": "soarie",
+          "level": 55,
+          "moves": [
+            "tackle",
+            "gale_slash",
+            "cyclone_dive"
+          ]
+        },
+        {
+          "creature": "soarwing",
+          "level": 56,
+          "moves": [
+            "gale_slash",
+            "cyclone_dive"
+          ]
+        },
+        {
+          "creature": "soarwing",
+          "level": 57,
+          "moves": [
+            "gale_slash",
+            "cyclone_dive"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zephyra_gym_mystic",
+      "display_name": "Dreambinder Sylla",
+      "sprite": "trainer_gym",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 1660,
+      "reward_badge": "zephyra_mystic_badge",
+      "dialogue_intro": "Sylla: Dreambinders test every challenger with pure mystic craft. Begin!",
+      "dialogue_defeat": "Sylla: Masterfully done. The mystic badge of Zephyra is yours.",
+      "dialogue_victory": "Sylla: Study the mystic arts and return.",
+      "team": [
+        {
+          "creature": "visionhorn",
+          "level": 56,
+          "moves": [
+            "mind_ray",
+            "dream_pulse"
+          ]
+        },
+        {
+          "creature": "visionhorn",
+          "level": 57,
+          "moves": [
+            "mind_ray",
+            "dream_pulse"
+          ]
+        },
+        {
+          "creature": "visionhorn",
+          "level": 58,
+          "moves": [
+            "mind_ray",
+            "dream_pulse",
+            "veil_of_calm"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zephyra_elite_1",
+      "display_name": "Elite Rooke",
+      "sprite": "trainer_elite",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 2600,
+      "dialogue_intro": "Rooke: The Elite Four of Zephyra yield to no one unproven.",
+      "dialogue_defeat": "Rooke: Proven. Pass.",
+      "dialogue_victory": "Rooke: The corridor ends here for you.",
+      "team": [
+        {
+          "creature": "kilnwarden",
+          "level": 58,
+          "moves": [
+            "ember_burst",
+            "blaze_wheel",
+            "flame_lash"
+          ]
+        },
+        {
+          "creature": "lagoontail",
+          "level": 59,
+          "moves": [
+            "aqua_dart",
+            "riptide",
+            "tide_crash"
+          ]
+        },
+        {
+          "creature": "thistleclaw",
+          "level": 58,
+          "moves": [
+            "leaf_cut",
+            "thorn_barrage",
+            "vine_wrap"
+          ]
+        },
+        {
+          "creature": "joltwyrm",
+          "level": 59,
+          "moves": [
+            "spark_zap",
+            "volt_lance",
+            "static_field"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zephyra_elite_2",
+      "display_name": "Elite Solenne",
+      "sprite": "trainer_elite",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 2700,
+      "dialogue_intro": "Solenne: The Elite Four of Zephyra yield to no one unproven.",
+      "dialogue_defeat": "Solenne: Proven. Pass.",
+      "dialogue_victory": "Solenne: The corridor ends here for you.",
+      "team": [
+        {
+          "creature": "thistleclaw",
+          "level": 59,
+          "moves": [
+            "leaf_cut",
+            "thorn_barrage",
+            "vine_wrap"
+          ]
+        },
+        {
+          "creature": "joltwyrm",
+          "level": 60,
+          "moves": [
+            "spark_zap",
+            "volt_lance",
+            "static_field"
+          ]
+        },
+        {
+          "creature": "ridgemane",
+          "level": 59,
+          "moves": [
+            "stone_toss",
+            "sand_grind",
+            "quake_stomp"
+          ]
+        },
+        {
+          "creature": "soarwing",
+          "level": 60,
+          "moves": [
+            "gale_slash",
+            "cyclone_dive",
+            "tempest"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zephyra_elite_3",
+      "display_name": "Elite Vantor",
+      "sprite": "trainer_elite",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 2800,
+      "dialogue_intro": "Vantor: The Elite Four of Zephyra yield to no one unproven.",
+      "dialogue_defeat": "Vantor: Proven. Pass.",
+      "dialogue_victory": "Vantor: The corridor ends here for you.",
+      "team": [
+        {
+          "creature": "ridgemane",
+          "level": 60,
+          "moves": [
+            "stone_toss",
+            "sand_grind",
+            "quake_stomp"
+          ]
+        },
+        {
+          "creature": "soarwing",
+          "level": 61,
+          "moves": [
+            "gale_slash",
+            "cyclone_dive",
+            "tempest"
+          ]
+        },
+        {
+          "creature": "visionhorn",
+          "level": 60,
+          "moves": [
+            "mind_ray",
+            "dream_pulse",
+            "veil_of_calm"
+          ]
+        },
+        {
+          "creature": "burrowwing",
+          "level": 61,
+          "moves": [
+            "tackle",
+            "quick_jab",
+            "rend"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zephyra_elite_4",
+      "display_name": "Elite Ondine",
+      "sprite": "trainer_elite",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 2900,
+      "dialogue_intro": "Ondine: The Elite Four of Zephyra yield to no one unproven.",
+      "dialogue_defeat": "Ondine: Proven. Pass.",
+      "dialogue_victory": "Ondine: The corridor ends here for you.",
+      "team": [
+        {
+          "creature": "visionhorn",
+          "level": 61,
+          "moves": [
+            "mind_ray",
+            "dream_pulse",
+            "veil_of_calm"
+          ]
+        },
+        {
+          "creature": "burrowwing",
+          "level": 62,
+          "moves": [
+            "tackle",
+            "quick_jab",
+            "rend"
+          ]
+        },
+        {
+          "creature": "kilnwarden",
+          "level": 61,
+          "moves": [
+            "ember_burst",
+            "blaze_wheel",
+            "flame_lash"
+          ]
+        },
+        {
+          "creature": "lagoontail",
+          "level": 62,
+          "moves": [
+            "aqua_dart",
+            "riptide",
+            "tide_crash"
           ]
         }
       ]

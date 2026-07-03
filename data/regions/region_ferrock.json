@@ -6,7 +6,7 @@
   "starting_map": "ferrock_gate",
   "recommended_level_min": 32,
   "recommended_level_max": 42,
-  "badge_count": 1,
+  "badge_count": 9,
   "league_id": "ferrock_league",
   "next_regions": [
     "brume"
@@ -14,7 +14,16 @@
   "maps": [
     "ferrock_gate",
     "ferrock_wilds",
-    "ferrock_hall"
+    "ferrock_hall",
+    "ferrock_crossroads",
+    "ferrock_gym_normal",
+    "ferrock_gym_fire",
+    "ferrock_gym_water",
+    "ferrock_gym_grass",
+    "ferrock_gym_electric",
+    "ferrock_gym_earth",
+    "ferrock_gym_wind",
+    "ferrock_gym_mystic"
   ],
   "regional_rules": {
     "level_scaling": "soft",

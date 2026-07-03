@@ -21,7 +21,7 @@
     "W....~~~~.....W",
     "W....~~~~.....W",
     "W..H..........W",
-    "W.............W",
+    "W.............D",
     "W.............W",
     "W~~~.....~~~..W",
     "W~~~.....~~~..W",
@@ -112,6 +112,19 @@
       "sight": 4,
       "facing": "left",
       "flag": "beat_shore_angler"
+    },
+    {
+      "type": "spawn",
+      "id": "from_crossroads",
+      "x": 13,
+      "y": 5
+    },
+    {
+      "type": "door",
+      "x": 14,
+      "y": 5,
+      "to_map": "aquilon_crossroads",
+      "to_spawn": "from_wilds"
     }
   ]
 }

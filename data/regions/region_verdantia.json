@@ -6,10 +6,29 @@
   "starting_map": "verdantia_town",
   "recommended_level_min": 1,
   "recommended_level_max": 20,
-  "badge_count": 1,
+  "badge_count": 9,
   "league_id": "verdantia_league",
-  "next_regions": ["aquilon"],
-  "maps": ["verdantia_town", "verdantia_route", "verdantia_forest", "verdantia_lab", "verdantia_center", "verdantia_shop"],
+  "next_regions": [
+    "aquilon"
+  ],
+  "maps": [
+    "verdantia_town",
+    "verdantia_route",
+    "verdantia_forest",
+    "verdantia_lab",
+    "verdantia_center",
+    "verdantia_shop",
+    "verdantia_crossroads",
+    "verdantia_gym_normal",
+    "verdantia_gym_fire",
+    "verdantia_gym_water",
+    "verdantia_gym_grass",
+    "verdantia_gym_electric",
+    "verdantia_gym_earth",
+    "verdantia_gym_wind",
+    "verdantia_gym_mystic",
+    "verdantia_league"
+  ],
   "regional_rules": {
     "level_scaling": "soft",
     "encounter_table": "verdantia_encounters",

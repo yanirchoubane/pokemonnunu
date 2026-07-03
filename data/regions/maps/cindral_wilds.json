@@ -47,8 +47,8 @@
       "type": "door",
       "x": 13,
       "y": 4,
-      "to_map": "cindral_hall",
-      "to_spawn": "entrance",
+      "to_map": "cindral_crossroads",
+      "to_spawn": "from_wilds",
       "requires_flag": "beat_cindral_scout",
       "locked_text": "The hall road opens once the wilds' scout acknowledges you."
     },

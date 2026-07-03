@@ -6,7 +6,7 @@
   "starting_map": "aquilon_shore",
   "recommended_level_min": 8,
   "recommended_level_max": 30,
-  "badge_count": 1,
+  "badge_count": 9,
   "league_id": "aquilon_league",
   "next_regions": [
     "cindral"
@@ -14,7 +14,17 @@
   "maps": [
     "aquilon_shore",
     "aquilon_ridge",
-    "aquilon_hall"
+    "aquilon_hall",
+    "aquilon_crossroads",
+    "aquilon_gym_normal",
+    "aquilon_gym_fire",
+    "aquilon_gym_water",
+    "aquilon_gym_grass",
+    "aquilon_gym_electric",
+    "aquilon_gym_earth",
+    "aquilon_gym_wind",
+    "aquilon_gym_mystic",
+    "aquilon_league"
   ],
   "regional_rules": {
     "level_scaling": "soft",

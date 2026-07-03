@@ -1,21 +1,30 @@
 {
   "$schema_version": 1,
   "id": "lumen_hall",
-  "display_name": "Lumen Summit Hall",
+  "display_name": "Lumen League",
   "region": "lumen",
   "bgm": "town",
   "tile_size": 32,
   "legend": {
     "#": "wall",
     ".": "floor",
-    "D": "door"
+    "D": "door",
+    "H": "heal_pad"
   },
   "rows": [
     "####D####",
     "#.......#",
     "#.......#",
     "#.......#",
+    "####.####",
     "#.......#",
+    "####.####",
+    "#.......#",
+    "####.####",
+    "#.......#",
+    "####.####",
+    "#.......#",
+    "#...H...#",
     "#.......#",
     "####D####"
   ],
@@ -24,7 +33,7 @@
       "type": "spawn",
       "id": "entrance",
       "x": 4,
-      "y": 5
+      "y": 13
     },
     {
       "type": "spawn",
@@ -35,9 +44,62 @@
     {
       "type": "door",
       "x": 4,
+      "y": 14,
+      "to_map": "lumen_crossroads",
+      "to_spawn": "from_league"
+    },
+    {
+      "type": "heal",
+      "x": 4,
+      "y": 12,
+      "sets_respawn": true,
+      "respawn_spawn": "entrance"
+    },
+    {
+      "type": "sign",
+      "x": 2,
+      "y": 11,
+      "text": "Lumen League — four Elites guard the Champion."
+    },
+    {
+      "type": "trainer",
+      "x": 4,
+      "y": 10,
+      "trainer_id": "lumen_elite_1",
+      "sprite": "trainer_elite",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_lumen_elite_1"
+    },
+    {
+      "type": "trainer",
+      "x": 4,
+      "y": 8,
+      "trainer_id": "lumen_elite_2",
+      "sprite": "trainer_elite",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_lumen_elite_2"
+    },
+    {
+      "type": "trainer",
+      "x": 4,
       "y": 6,
-      "to_map": "lumen_wilds",
-      "to_spawn": "from_hall"
+      "trainer_id": "lumen_elite_3",
+      "sprite": "trainer_elite",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_lumen_elite_3"
+    },
+    {
+      "type": "trainer",
+      "x": 4,
+      "y": 4,
+      "trainer_id": "lumen_elite_4",
+      "sprite": "trainer_elite",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_lumen_elite_4"
     },
     {
       "type": "trainer",
@@ -48,12 +110,6 @@
       "sight": 2,
       "facing": "down",
       "flag": "beat_lumen_champion"
-    },
-    {
-      "type": "sign",
-      "x": 2,
-      "y": 1,
-      "text": "Lumen Summit Hall — the Lumen Crest awaits."
     },
     {
       "type": "door",

@@ -11,13 +11,14 @@
     "#": "wall",
     "T": "tree",
     "~": "tall_grass",
-    "W": "water"
+    "W": "water",
+    "D": "door"
   },
   "rows": [
     "TTTTTTPTTTTTTTT",
     "T~~~..P..~~~~.T",
     "T~~~..P..~~~~.T",
-    "T.....P.......T",
+    "T.....P.......D",
     "T..TT.P.TT....T",
     "T.....P.......T",
     "T~~~..P..~~~~.T",
@@ -89,6 +90,19 @@
       "sight": 3,
       "facing": "left",
       "flag": "beat_meadow_rambler"
+    },
+    {
+      "type": "spawn",
+      "id": "from_crossroads",
+      "x": 13,
+      "y": 3
+    },
+    {
+      "type": "door",
+      "x": 14,
+      "y": 3,
+      "to_map": "verdantia_crossroads",
+      "to_spawn": "from_wilds"
     }
   ]
 }
