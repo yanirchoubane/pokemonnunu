@@ -26,7 +26,8 @@
     "lumen_gym_mystic",
     "lumen_court_1",
     "lumen_court_2",
-    "lumen_court_3"
+    "lumen_court_3",
+    "lumen_court_4"
   ],
   "regional_rules": {
     "level_scaling": "soft",

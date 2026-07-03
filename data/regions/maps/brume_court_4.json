@@ -1,8 +1,8 @@
 {
   "$schema_version": 1,
-  "id": "lumen_court_1",
-  "display_name": "Lumen Battle Court 1",
-  "region": "lumen",
+  "id": "brume_court_4",
+  "display_name": "Brume Battle Court 4",
+  "region": "brume",
   "bgm": "town",
   "tile_size": 32,
   "legend": {
@@ -43,724 +43,724 @@
       "type": "door",
       "x": 10,
       "y": 19,
-      "to_map": "lumen_crossroads",
-      "to_spawn": "from_court_1"
+      "to_map": "brume_crossroads",
+      "to_spawn": "from_court_4"
     },
     {
       "type": "sign",
       "x": 2,
       "y": 1,
-      "text": "Lumen Battle Court 1 — endless sparring for the ambitious."
+      "text": "Brume Battle Court 4 — endless sparring for the ambitious."
     },
     {
       "type": "trainer",
       "x": 2,
       "y": 2,
-      "trainer_id": "lumen_court1_t0",
+      "trainer_id": "brume_court4_t0",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t0"
+      "flag": "beat_brume_court4_t0"
     },
     {
       "type": "trainer",
       "x": 4,
       "y": 2,
-      "trainer_id": "lumen_court1_t1",
+      "trainer_id": "brume_court4_t1",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t1"
+      "flag": "beat_brume_court4_t1"
     },
     {
       "type": "trainer",
       "x": 6,
       "y": 2,
-      "trainer_id": "lumen_court1_t2",
+      "trainer_id": "brume_court4_t2",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t2"
+      "flag": "beat_brume_court4_t2"
     },
     {
       "type": "trainer",
       "x": 8,
       "y": 2,
-      "trainer_id": "lumen_court1_t3",
+      "trainer_id": "brume_court4_t3",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t3"
+      "flag": "beat_brume_court4_t3"
     },
     {
       "type": "trainer",
       "x": 10,
       "y": 2,
-      "trainer_id": "lumen_court1_t4",
+      "trainer_id": "brume_court4_t4",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t4"
+      "flag": "beat_brume_court4_t4"
     },
     {
       "type": "trainer",
       "x": 12,
       "y": 2,
-      "trainer_id": "lumen_court1_t5",
+      "trainer_id": "brume_court4_t5",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t5"
+      "flag": "beat_brume_court4_t5"
     },
     {
       "type": "trainer",
       "x": 14,
       "y": 2,
-      "trainer_id": "lumen_court1_t6",
+      "trainer_id": "brume_court4_t6",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t6"
+      "flag": "beat_brume_court4_t6"
     },
     {
       "type": "trainer",
       "x": 16,
       "y": 2,
-      "trainer_id": "lumen_court1_t7",
+      "trainer_id": "brume_court4_t7",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t7"
+      "flag": "beat_brume_court4_t7"
     },
     {
       "type": "trainer",
       "x": 18,
       "y": 2,
-      "trainer_id": "lumen_court1_t8",
+      "trainer_id": "brume_court4_t8",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t8"
+      "flag": "beat_brume_court4_t8"
     },
     {
       "type": "trainer",
       "x": 2,
       "y": 4,
-      "trainer_id": "lumen_court1_t9",
+      "trainer_id": "brume_court4_t9",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t9"
+      "flag": "beat_brume_court4_t9"
     },
     {
       "type": "trainer",
       "x": 4,
       "y": 4,
-      "trainer_id": "lumen_court1_t10",
+      "trainer_id": "brume_court4_t10",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t10"
+      "flag": "beat_brume_court4_t10"
     },
     {
       "type": "trainer",
       "x": 6,
       "y": 4,
-      "trainer_id": "lumen_court1_t11",
+      "trainer_id": "brume_court4_t11",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t11"
+      "flag": "beat_brume_court4_t11"
     },
     {
       "type": "trainer",
       "x": 8,
       "y": 4,
-      "trainer_id": "lumen_court1_t12",
+      "trainer_id": "brume_court4_t12",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t12"
+      "flag": "beat_brume_court4_t12"
     },
     {
       "type": "trainer",
       "x": 10,
       "y": 4,
-      "trainer_id": "lumen_court1_t13",
+      "trainer_id": "brume_court4_t13",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t13"
+      "flag": "beat_brume_court4_t13"
     },
     {
       "type": "trainer",
       "x": 12,
       "y": 4,
-      "trainer_id": "lumen_court1_t14",
+      "trainer_id": "brume_court4_t14",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t14"
+      "flag": "beat_brume_court4_t14"
     },
     {
       "type": "trainer",
       "x": 14,
       "y": 4,
-      "trainer_id": "lumen_court1_t15",
+      "trainer_id": "brume_court4_t15",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t15"
+      "flag": "beat_brume_court4_t15"
     },
     {
       "type": "trainer",
       "x": 16,
       "y": 4,
-      "trainer_id": "lumen_court1_t16",
+      "trainer_id": "brume_court4_t16",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t16"
+      "flag": "beat_brume_court4_t16"
     },
     {
       "type": "trainer",
       "x": 18,
       "y": 4,
-      "trainer_id": "lumen_court1_t17",
+      "trainer_id": "brume_court4_t17",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t17"
+      "flag": "beat_brume_court4_t17"
     },
     {
       "type": "trainer",
       "x": 2,
       "y": 6,
-      "trainer_id": "lumen_court1_t18",
+      "trainer_id": "brume_court4_t18",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t18"
+      "flag": "beat_brume_court4_t18"
     },
     {
       "type": "trainer",
       "x": 4,
       "y": 6,
-      "trainer_id": "lumen_court1_t19",
+      "trainer_id": "brume_court4_t19",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t19"
+      "flag": "beat_brume_court4_t19"
     },
     {
       "type": "trainer",
       "x": 6,
       "y": 6,
-      "trainer_id": "lumen_court1_t20",
+      "trainer_id": "brume_court4_t20",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t20"
+      "flag": "beat_brume_court4_t20"
     },
     {
       "type": "trainer",
       "x": 8,
       "y": 6,
-      "trainer_id": "lumen_court1_t21",
+      "trainer_id": "brume_court4_t21",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t21"
+      "flag": "beat_brume_court4_t21"
     },
     {
       "type": "trainer",
       "x": 10,
       "y": 6,
-      "trainer_id": "lumen_court1_t22",
+      "trainer_id": "brume_court4_t22",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t22"
+      "flag": "beat_brume_court4_t22"
     },
     {
       "type": "trainer",
       "x": 12,
       "y": 6,
-      "trainer_id": "lumen_court1_t23",
+      "trainer_id": "brume_court4_t23",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t23"
+      "flag": "beat_brume_court4_t23"
     },
     {
       "type": "trainer",
       "x": 14,
       "y": 6,
-      "trainer_id": "lumen_court1_t24",
+      "trainer_id": "brume_court4_t24",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t24"
+      "flag": "beat_brume_court4_t24"
     },
     {
       "type": "trainer",
       "x": 16,
       "y": 6,
-      "trainer_id": "lumen_court1_t25",
+      "trainer_id": "brume_court4_t25",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t25"
+      "flag": "beat_brume_court4_t25"
     },
     {
       "type": "trainer",
       "x": 18,
       "y": 6,
-      "trainer_id": "lumen_court1_t26",
+      "trainer_id": "brume_court4_t26",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t26"
+      "flag": "beat_brume_court4_t26"
     },
     {
       "type": "trainer",
       "x": 2,
       "y": 8,
-      "trainer_id": "lumen_court1_t27",
+      "trainer_id": "brume_court4_t27",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t27"
+      "flag": "beat_brume_court4_t27"
     },
     {
       "type": "trainer",
       "x": 4,
       "y": 8,
-      "trainer_id": "lumen_court1_t28",
+      "trainer_id": "brume_court4_t28",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t28"
+      "flag": "beat_brume_court4_t28"
     },
     {
       "type": "trainer",
       "x": 6,
       "y": 8,
-      "trainer_id": "lumen_court1_t29",
+      "trainer_id": "brume_court4_t29",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t29"
+      "flag": "beat_brume_court4_t29"
     },
     {
       "type": "trainer",
       "x": 8,
       "y": 8,
-      "trainer_id": "lumen_court1_t30",
+      "trainer_id": "brume_court4_t30",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t30"
+      "flag": "beat_brume_court4_t30"
     },
     {
       "type": "trainer",
       "x": 10,
       "y": 8,
-      "trainer_id": "lumen_court1_t31",
+      "trainer_id": "brume_court4_t31",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t31"
+      "flag": "beat_brume_court4_t31"
     },
     {
       "type": "trainer",
       "x": 12,
       "y": 8,
-      "trainer_id": "lumen_court1_t32",
+      "trainer_id": "brume_court4_t32",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t32"
+      "flag": "beat_brume_court4_t32"
     },
     {
       "type": "trainer",
       "x": 14,
       "y": 8,
-      "trainer_id": "lumen_court1_t33",
+      "trainer_id": "brume_court4_t33",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t33"
+      "flag": "beat_brume_court4_t33"
     },
     {
       "type": "trainer",
       "x": 16,
       "y": 8,
-      "trainer_id": "lumen_court1_t34",
+      "trainer_id": "brume_court4_t34",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t34"
+      "flag": "beat_brume_court4_t34"
     },
     {
       "type": "trainer",
       "x": 18,
       "y": 8,
-      "trainer_id": "lumen_court1_t35",
+      "trainer_id": "brume_court4_t35",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t35"
+      "flag": "beat_brume_court4_t35"
     },
     {
       "type": "trainer",
       "x": 2,
       "y": 10,
-      "trainer_id": "lumen_court1_t36",
+      "trainer_id": "brume_court4_t36",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t36"
+      "flag": "beat_brume_court4_t36"
     },
     {
       "type": "trainer",
       "x": 4,
       "y": 10,
-      "trainer_id": "lumen_court1_t37",
+      "trainer_id": "brume_court4_t37",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t37"
+      "flag": "beat_brume_court4_t37"
     },
     {
       "type": "trainer",
       "x": 6,
       "y": 10,
-      "trainer_id": "lumen_court1_t38",
+      "trainer_id": "brume_court4_t38",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t38"
+      "flag": "beat_brume_court4_t38"
     },
     {
       "type": "trainer",
       "x": 8,
       "y": 10,
-      "trainer_id": "lumen_court1_t39",
+      "trainer_id": "brume_court4_t39",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t39"
+      "flag": "beat_brume_court4_t39"
     },
     {
       "type": "trainer",
       "x": 10,
       "y": 10,
-      "trainer_id": "lumen_court1_t40",
+      "trainer_id": "brume_court4_t40",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t40"
+      "flag": "beat_brume_court4_t40"
     },
     {
       "type": "trainer",
       "x": 12,
       "y": 10,
-      "trainer_id": "lumen_court1_t41",
+      "trainer_id": "brume_court4_t41",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t41"
+      "flag": "beat_brume_court4_t41"
     },
     {
       "type": "trainer",
       "x": 14,
       "y": 10,
-      "trainer_id": "lumen_court1_t42",
+      "trainer_id": "brume_court4_t42",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t42"
+      "flag": "beat_brume_court4_t42"
     },
     {
       "type": "trainer",
       "x": 16,
       "y": 10,
-      "trainer_id": "lumen_court1_t43",
+      "trainer_id": "brume_court4_t43",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t43"
+      "flag": "beat_brume_court4_t43"
     },
     {
       "type": "trainer",
       "x": 18,
       "y": 10,
-      "trainer_id": "lumen_court1_t44",
+      "trainer_id": "brume_court4_t44",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t44"
+      "flag": "beat_brume_court4_t44"
     },
     {
       "type": "trainer",
       "x": 2,
       "y": 12,
-      "trainer_id": "lumen_court1_t45",
+      "trainer_id": "brume_court4_t45",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t45"
+      "flag": "beat_brume_court4_t45"
     },
     {
       "type": "trainer",
       "x": 4,
       "y": 12,
-      "trainer_id": "lumen_court1_t46",
+      "trainer_id": "brume_court4_t46",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t46"
+      "flag": "beat_brume_court4_t46"
     },
     {
       "type": "trainer",
       "x": 6,
       "y": 12,
-      "trainer_id": "lumen_court1_t47",
+      "trainer_id": "brume_court4_t47",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t47"
+      "flag": "beat_brume_court4_t47"
     },
     {
       "type": "trainer",
       "x": 8,
       "y": 12,
-      "trainer_id": "lumen_court1_t48",
+      "trainer_id": "brume_court4_t48",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t48"
+      "flag": "beat_brume_court4_t48"
     },
     {
       "type": "trainer",
       "x": 10,
       "y": 12,
-      "trainer_id": "lumen_court1_t49",
+      "trainer_id": "brume_court4_t49",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t49"
+      "flag": "beat_brume_court4_t49"
     },
     {
       "type": "trainer",
       "x": 12,
       "y": 12,
-      "trainer_id": "lumen_court1_t50",
+      "trainer_id": "brume_court4_t50",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t50"
+      "flag": "beat_brume_court4_t50"
     },
     {
       "type": "trainer",
       "x": 14,
       "y": 12,
-      "trainer_id": "lumen_court1_t51",
+      "trainer_id": "brume_court4_t51",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t51"
+      "flag": "beat_brume_court4_t51"
     },
     {
       "type": "trainer",
       "x": 16,
       "y": 12,
-      "trainer_id": "lumen_court1_t52",
+      "trainer_id": "brume_court4_t52",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t52"
+      "flag": "beat_brume_court4_t52"
     },
     {
       "type": "trainer",
       "x": 18,
       "y": 12,
-      "trainer_id": "lumen_court1_t53",
+      "trainer_id": "brume_court4_t53",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t53"
+      "flag": "beat_brume_court4_t53"
     },
     {
       "type": "trainer",
       "x": 2,
       "y": 14,
-      "trainer_id": "lumen_court1_t54",
+      "trainer_id": "brume_court4_t54",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t54"
+      "flag": "beat_brume_court4_t54"
     },
     {
       "type": "trainer",
       "x": 4,
       "y": 14,
-      "trainer_id": "lumen_court1_t55",
+      "trainer_id": "brume_court4_t55",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t55"
+      "flag": "beat_brume_court4_t55"
     },
     {
       "type": "trainer",
       "x": 6,
       "y": 14,
-      "trainer_id": "lumen_court1_t56",
+      "trainer_id": "brume_court4_t56",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t56"
+      "flag": "beat_brume_court4_t56"
     },
     {
       "type": "trainer",
       "x": 8,
       "y": 14,
-      "trainer_id": "lumen_court1_t57",
+      "trainer_id": "brume_court4_t57",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t57"
+      "flag": "beat_brume_court4_t57"
     },
     {
       "type": "trainer",
       "x": 10,
       "y": 14,
-      "trainer_id": "lumen_court1_t58",
+      "trainer_id": "brume_court4_t58",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t58"
+      "flag": "beat_brume_court4_t58"
     },
     {
       "type": "trainer",
       "x": 12,
       "y": 14,
-      "trainer_id": "lumen_court1_t59",
+      "trainer_id": "brume_court4_t59",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t59"
+      "flag": "beat_brume_court4_t59"
     },
     {
       "type": "trainer",
       "x": 14,
       "y": 14,
-      "trainer_id": "lumen_court1_t60",
+      "trainer_id": "brume_court4_t60",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t60"
+      "flag": "beat_brume_court4_t60"
     },
     {
       "type": "trainer",
       "x": 16,
       "y": 14,
-      "trainer_id": "lumen_court1_t61",
+      "trainer_id": "brume_court4_t61",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t61"
+      "flag": "beat_brume_court4_t61"
     },
     {
       "type": "trainer",
       "x": 18,
       "y": 14,
-      "trainer_id": "lumen_court1_t62",
+      "trainer_id": "brume_court4_t62",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t62"
+      "flag": "beat_brume_court4_t62"
     },
     {
       "type": "trainer",
       "x": 2,
       "y": 16,
-      "trainer_id": "lumen_court1_t63",
+      "trainer_id": "brume_court4_t63",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t63"
+      "flag": "beat_brume_court4_t63"
     },
     {
       "type": "trainer",
       "x": 4,
       "y": 16,
-      "trainer_id": "lumen_court1_t64",
+      "trainer_id": "brume_court4_t64",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t64"
+      "flag": "beat_brume_court4_t64"
     },
     {
       "type": "trainer",
       "x": 6,
       "y": 16,
-      "trainer_id": "lumen_court1_t65",
+      "trainer_id": "brume_court4_t65",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t65"
+      "flag": "beat_brume_court4_t65"
     },
     {
       "type": "trainer",
       "x": 8,
       "y": 16,
-      "trainer_id": "lumen_court1_t66",
+      "trainer_id": "brume_court4_t66",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t66"
+      "flag": "beat_brume_court4_t66"
     },
     {
       "type": "trainer",
       "x": 12,
       "y": 16,
-      "trainer_id": "lumen_court1_t67",
+      "trainer_id": "brume_court4_t67",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t67"
+      "flag": "beat_brume_court4_t67"
     },
     {
       "type": "trainer",
       "x": 14,
       "y": 16,
-      "trainer_id": "lumen_court1_t68",
+      "trainer_id": "brume_court4_t68",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t68"
+      "flag": "beat_brume_court4_t68"
     },
     {
       "type": "trainer",
       "x": 16,
       "y": 16,
-      "trainer_id": "lumen_court1_t69",
+      "trainer_id": "brume_court4_t69",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t69"
+      "flag": "beat_brume_court4_t69"
     },
     {
       "type": "trainer",
       "x": 18,
       "y": 16,
-      "trainer_id": "lumen_court1_t70",
+      "trainer_id": "brume_court4_t70",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
-      "flag": "beat_lumen_court1_t70"
+      "flag": "beat_brume_court4_t70"
     }
   ]
 }

@@ -26,7 +26,8 @@
     "solane_gym_mystic",
     "solane_court_1",
     "solane_court_2",
-    "solane_court_3"
+    "solane_court_3",
+    "solane_court_4"
   ],
   "regional_rules": {
     "level_scaling": "soft",

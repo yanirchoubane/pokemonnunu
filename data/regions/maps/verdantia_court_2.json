@@ -11,36 +11,38 @@
     "D": "door"
   },
   "rows": [
-    "###################",
-    "#.................#",
-    "#.................#",
-    "#.................#",
-    "#.................#",
-    "#.................#",
-    "#.................#",
-    "#.................#",
-    "#.................#",
-    "#.................#",
-    "#.................#",
-    "#.................#",
-    "#.................#",
-    "#.................#",
-    "#.................#",
-    "#.................#",
-    "#.................#",
-    "#########D#########"
+    "#####################",
+    "#...................#",
+    "#...................#",
+    "#...................#",
+    "#...................#",
+    "#...................#",
+    "#...................#",
+    "#...................#",
+    "#...................#",
+    "#...................#",
+    "#...................#",
+    "#...................#",
+    "#...................#",
+    "#...................#",
+    "#...................#",
+    "#...................#",
+    "#...................#",
+    "#...................#",
+    "#...................#",
+    "##########D##########"
   ],
   "objects": [
     {
       "type": "spawn",
       "id": "entrance",
-      "x": 9,
-      "y": 16
+      "x": 10,
+      "y": 18
     },
     {
       "type": "door",
-      "x": 9,
-      "y": 17,
+      "x": 10,
+      "y": 19,
       "to_map": "verdantia_crossroads",
       "to_spawn": "from_court_2"
     },
@@ -132,8 +134,8 @@
     },
     {
       "type": "trainer",
-      "x": 2,
-      "y": 4,
+      "x": 18,
+      "y": 2,
       "trainer_id": "verdantia_court2_t8",
       "sprite": "trainer_ace",
       "sight": 1,
@@ -142,7 +144,7 @@
     },
     {
       "type": "trainer",
-      "x": 4,
+      "x": 2,
       "y": 4,
       "trainer_id": "verdantia_court2_t9",
       "sprite": "trainer_ace",
@@ -152,7 +154,7 @@
     },
     {
       "type": "trainer",
-      "x": 6,
+      "x": 4,
       "y": 4,
       "trainer_id": "verdantia_court2_t10",
       "sprite": "trainer_ace",
@@ -162,7 +164,7 @@
     },
     {
       "type": "trainer",
-      "x": 8,
+      "x": 6,
       "y": 4,
       "trainer_id": "verdantia_court2_t11",
       "sprite": "trainer_ace",
@@ -172,7 +174,7 @@
     },
     {
       "type": "trainer",
-      "x": 10,
+      "x": 8,
       "y": 4,
       "trainer_id": "verdantia_court2_t12",
       "sprite": "trainer_ace",
@@ -182,7 +184,7 @@
     },
     {
       "type": "trainer",
-      "x": 12,
+      "x": 10,
       "y": 4,
       "trainer_id": "verdantia_court2_t13",
       "sprite": "trainer_ace",
@@ -192,7 +194,7 @@
     },
     {
       "type": "trainer",
-      "x": 14,
+      "x": 12,
       "y": 4,
       "trainer_id": "verdantia_court2_t14",
       "sprite": "trainer_ace",
@@ -202,7 +204,7 @@
     },
     {
       "type": "trainer",
-      "x": 16,
+      "x": 14,
       "y": 4,
       "trainer_id": "verdantia_court2_t15",
       "sprite": "trainer_ace",
@@ -212,8 +214,8 @@
     },
     {
       "type": "trainer",
-      "x": 2,
-      "y": 6,
+      "x": 16,
+      "y": 4,
       "trainer_id": "verdantia_court2_t16",
       "sprite": "trainer_ace",
       "sight": 1,
@@ -222,8 +224,8 @@
     },
     {
       "type": "trainer",
-      "x": 4,
-      "y": 6,
+      "x": 18,
+      "y": 4,
       "trainer_id": "verdantia_court2_t17",
       "sprite": "trainer_ace",
       "sight": 1,
@@ -232,7 +234,7 @@
     },
     {
       "type": "trainer",
-      "x": 6,
+      "x": 2,
       "y": 6,
       "trainer_id": "verdantia_court2_t18",
       "sprite": "trainer_ace",
@@ -242,7 +244,7 @@
     },
     {
       "type": "trainer",
-      "x": 8,
+      "x": 4,
       "y": 6,
       "trainer_id": "verdantia_court2_t19",
       "sprite": "trainer_ace",
@@ -252,7 +254,7 @@
     },
     {
       "type": "trainer",
-      "x": 10,
+      "x": 6,
       "y": 6,
       "trainer_id": "verdantia_court2_t20",
       "sprite": "trainer_ace",
@@ -262,7 +264,7 @@
     },
     {
       "type": "trainer",
-      "x": 12,
+      "x": 8,
       "y": 6,
       "trainer_id": "verdantia_court2_t21",
       "sprite": "trainer_ace",
@@ -272,7 +274,7 @@
     },
     {
       "type": "trainer",
-      "x": 14,
+      "x": 10,
       "y": 6,
       "trainer_id": "verdantia_court2_t22",
       "sprite": "trainer_ace",
@@ -282,7 +284,7 @@
     },
     {
       "type": "trainer",
-      "x": 16,
+      "x": 12,
       "y": 6,
       "trainer_id": "verdantia_court2_t23",
       "sprite": "trainer_ace",
@@ -292,8 +294,8 @@
     },
     {
       "type": "trainer",
-      "x": 2,
-      "y": 8,
+      "x": 14,
+      "y": 6,
       "trainer_id": "verdantia_court2_t24",
       "sprite": "trainer_ace",
       "sight": 1,
@@ -302,8 +304,8 @@
     },
     {
       "type": "trainer",
-      "x": 4,
-      "y": 8,
+      "x": 16,
+      "y": 6,
       "trainer_id": "verdantia_court2_t25",
       "sprite": "trainer_ace",
       "sight": 1,
@@ -312,8 +314,8 @@
     },
     {
       "type": "trainer",
-      "x": 6,
-      "y": 8,
+      "x": 18,
+      "y": 6,
       "trainer_id": "verdantia_court2_t26",
       "sprite": "trainer_ace",
       "sight": 1,
@@ -322,7 +324,7 @@
     },
     {
       "type": "trainer",
-      "x": 8,
+      "x": 2,
       "y": 8,
       "trainer_id": "verdantia_court2_t27",
       "sprite": "trainer_ace",
@@ -332,7 +334,7 @@
     },
     {
       "type": "trainer",
-      "x": 10,
+      "x": 4,
       "y": 8,
       "trainer_id": "verdantia_court2_t28",
       "sprite": "trainer_ace",
@@ -342,7 +344,7 @@
     },
     {
       "type": "trainer",
-      "x": 12,
+      "x": 6,
       "y": 8,
       "trainer_id": "verdantia_court2_t29",
       "sprite": "trainer_ace",
@@ -352,7 +354,7 @@
     },
     {
       "type": "trainer",
-      "x": 14,
+      "x": 8,
       "y": 8,
       "trainer_id": "verdantia_court2_t30",
       "sprite": "trainer_ace",
@@ -362,7 +364,7 @@
     },
     {
       "type": "trainer",
-      "x": 16,
+      "x": 10,
       "y": 8,
       "trainer_id": "verdantia_court2_t31",
       "sprite": "trainer_ace",
@@ -372,8 +374,8 @@
     },
     {
       "type": "trainer",
-      "x": 2,
-      "y": 10,
+      "x": 12,
+      "y": 8,
       "trainer_id": "verdantia_court2_t32",
       "sprite": "trainer_ace",
       "sight": 1,
@@ -382,8 +384,8 @@
     },
     {
       "type": "trainer",
-      "x": 4,
-      "y": 10,
+      "x": 14,
+      "y": 8,
       "trainer_id": "verdantia_court2_t33",
       "sprite": "trainer_ace",
       "sight": 1,
@@ -392,8 +394,8 @@
     },
     {
       "type": "trainer",
-      "x": 6,
-      "y": 10,
+      "x": 16,
+      "y": 8,
       "trainer_id": "verdantia_court2_t34",
       "sprite": "trainer_ace",
       "sight": 1,
@@ -402,8 +404,8 @@
     },
     {
       "type": "trainer",
-      "x": 8,
-      "y": 10,
+      "x": 18,
+      "y": 8,
       "trainer_id": "verdantia_court2_t35",
       "sprite": "trainer_ace",
       "sight": 1,
@@ -412,7 +414,7 @@
     },
     {
       "type": "trainer",
-      "x": 10,
+      "x": 2,
       "y": 10,
       "trainer_id": "verdantia_court2_t36",
       "sprite": "trainer_ace",
@@ -422,7 +424,7 @@
     },
     {
       "type": "trainer",
-      "x": 12,
+      "x": 4,
       "y": 10,
       "trainer_id": "verdantia_court2_t37",
       "sprite": "trainer_ace",
@@ -432,7 +434,7 @@
     },
     {
       "type": "trainer",
-      "x": 14,
+      "x": 6,
       "y": 10,
       "trainer_id": "verdantia_court2_t38",
       "sprite": "trainer_ace",
@@ -442,7 +444,7 @@
     },
     {
       "type": "trainer",
-      "x": 16,
+      "x": 8,
       "y": 10,
       "trainer_id": "verdantia_court2_t39",
       "sprite": "trainer_ace",
@@ -452,8 +454,8 @@
     },
     {
       "type": "trainer",
-      "x": 2,
-      "y": 12,
+      "x": 10,
+      "y": 10,
       "trainer_id": "verdantia_court2_t40",
       "sprite": "trainer_ace",
       "sight": 1,
@@ -462,8 +464,8 @@
     },
     {
       "type": "trainer",
-      "x": 4,
-      "y": 12,
+      "x": 12,
+      "y": 10,
       "trainer_id": "verdantia_court2_t41",
       "sprite": "trainer_ace",
       "sight": 1,
@@ -472,8 +474,8 @@
     },
     {
       "type": "trainer",
-      "x": 6,
-      "y": 12,
+      "x": 14,
+      "y": 10,
       "trainer_id": "verdantia_court2_t42",
       "sprite": "trainer_ace",
       "sight": 1,
@@ -482,8 +484,8 @@
     },
     {
       "type": "trainer",
-      "x": 8,
-      "y": 12,
+      "x": 16,
+      "y": 10,
       "trainer_id": "verdantia_court2_t43",
       "sprite": "trainer_ace",
       "sight": 1,
@@ -492,8 +494,8 @@
     },
     {
       "type": "trainer",
-      "x": 10,
-      "y": 12,
+      "x": 18,
+      "y": 10,
       "trainer_id": "verdantia_court2_t44",
       "sprite": "trainer_ace",
       "sight": 1,
@@ -502,7 +504,7 @@
     },
     {
       "type": "trainer",
-      "x": 12,
+      "x": 2,
       "y": 12,
       "trainer_id": "verdantia_court2_t45",
       "sprite": "trainer_ace",
@@ -512,7 +514,7 @@
     },
     {
       "type": "trainer",
-      "x": 14,
+      "x": 4,
       "y": 12,
       "trainer_id": "verdantia_court2_t46",
       "sprite": "trainer_ace",
@@ -522,7 +524,7 @@
     },
     {
       "type": "trainer",
-      "x": 16,
+      "x": 6,
       "y": 12,
       "trainer_id": "verdantia_court2_t47",
       "sprite": "trainer_ace",
@@ -532,8 +534,8 @@
     },
     {
       "type": "trainer",
-      "x": 2,
-      "y": 14,
+      "x": 8,
+      "y": 12,
       "trainer_id": "verdantia_court2_t48",
       "sprite": "trainer_ace",
       "sight": 1,
@@ -542,8 +544,8 @@
     },
     {
       "type": "trainer",
-      "x": 4,
-      "y": 14,
+      "x": 10,
+      "y": 12,
       "trainer_id": "verdantia_court2_t49",
       "sprite": "trainer_ace",
       "sight": 1,
@@ -552,8 +554,8 @@
     },
     {
       "type": "trainer",
-      "x": 6,
-      "y": 14,
+      "x": 12,
+      "y": 12,
       "trainer_id": "verdantia_court2_t50",
       "sprite": "trainer_ace",
       "sight": 1,
@@ -562,8 +564,8 @@
     },
     {
       "type": "trainer",
-      "x": 8,
-      "y": 14,
+      "x": 14,
+      "y": 12,
       "trainer_id": "verdantia_court2_t51",
       "sprite": "trainer_ace",
       "sight": 1,
@@ -572,8 +574,8 @@
     },
     {
       "type": "trainer",
-      "x": 10,
-      "y": 14,
+      "x": 16,
+      "y": 12,
       "trainer_id": "verdantia_court2_t52",
       "sprite": "trainer_ace",
       "sight": 1,
@@ -582,8 +584,8 @@
     },
     {
       "type": "trainer",
-      "x": 12,
-      "y": 14,
+      "x": 18,
+      "y": 12,
       "trainer_id": "verdantia_court2_t53",
       "sprite": "trainer_ace",
       "sight": 1,
@@ -592,7 +594,7 @@
     },
     {
       "type": "trainer",
-      "x": 14,
+      "x": 2,
       "y": 14,
       "trainer_id": "verdantia_court2_t54",
       "sprite": "trainer_ace",
@@ -602,13 +604,163 @@
     },
     {
       "type": "trainer",
-      "x": 16,
+      "x": 4,
       "y": 14,
       "trainer_id": "verdantia_court2_t55",
       "sprite": "trainer_ace",
       "sight": 1,
       "facing": "down",
       "flag": "beat_verdantia_court2_t55"
+    },
+    {
+      "type": "trainer",
+      "x": 6,
+      "y": 14,
+      "trainer_id": "verdantia_court2_t56",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court2_t56"
+    },
+    {
+      "type": "trainer",
+      "x": 8,
+      "y": 14,
+      "trainer_id": "verdantia_court2_t57",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court2_t57"
+    },
+    {
+      "type": "trainer",
+      "x": 10,
+      "y": 14,
+      "trainer_id": "verdantia_court2_t58",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court2_t58"
+    },
+    {
+      "type": "trainer",
+      "x": 12,
+      "y": 14,
+      "trainer_id": "verdantia_court2_t59",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court2_t59"
+    },
+    {
+      "type": "trainer",
+      "x": 14,
+      "y": 14,
+      "trainer_id": "verdantia_court2_t60",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court2_t60"
+    },
+    {
+      "type": "trainer",
+      "x": 16,
+      "y": 14,
+      "trainer_id": "verdantia_court2_t61",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court2_t61"
+    },
+    {
+      "type": "trainer",
+      "x": 18,
+      "y": 14,
+      "trainer_id": "verdantia_court2_t62",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court2_t62"
+    },
+    {
+      "type": "trainer",
+      "x": 2,
+      "y": 16,
+      "trainer_id": "verdantia_court2_t63",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court2_t63"
+    },
+    {
+      "type": "trainer",
+      "x": 4,
+      "y": 16,
+      "trainer_id": "verdantia_court2_t64",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court2_t64"
+    },
+    {
+      "type": "trainer",
+      "x": 6,
+      "y": 16,
+      "trainer_id": "verdantia_court2_t65",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court2_t65"
+    },
+    {
+      "type": "trainer",
+      "x": 8,
+      "y": 16,
+      "trainer_id": "verdantia_court2_t66",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court2_t66"
+    },
+    {
+      "type": "trainer",
+      "x": 12,
+      "y": 16,
+      "trainer_id": "verdantia_court2_t67",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court2_t67"
+    },
+    {
+      "type": "trainer",
+      "x": 14,
+      "y": 16,
+      "trainer_id": "verdantia_court2_t68",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court2_t68"
+    },
+    {
+      "type": "trainer",
+      "x": 16,
+      "y": 16,
+      "trainer_id": "verdantia_court2_t69",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court2_t69"
+    },
+    {
+      "type": "trainer",
+      "x": 18,
+      "y": 16,
+      "trainer_id": "verdantia_court2_t70",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court2_t70"
     }
   ]
 }

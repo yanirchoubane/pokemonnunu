@@ -26,7 +26,8 @@
     "cindral_gym_mystic",
     "cindral_court_1",
     "cindral_court_2",
-    "cindral_court_3"
+    "cindral_court_3",
+    "cindral_court_4"
   ],
   "regional_rules": {
     "level_scaling": "soft",

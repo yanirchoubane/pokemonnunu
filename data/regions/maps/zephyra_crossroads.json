@@ -19,7 +19,7 @@
     "#......H.......#",
     "#..............D",
     "D..............D",
-    "#..............#",
+    "D..............#",
     "##D##D##D##D####"
   ],
   "objects": [
@@ -220,6 +220,19 @@
       "npc_id": "corin",
       "sprite": "npc_rival",
       "dialog_id": "corin_road"
+    },
+    {
+      "type": "door",
+      "x": 0,
+      "y": 7,
+      "to_map": "zephyra_court_4",
+      "to_spawn": "entrance"
+    },
+    {
+      "type": "spawn",
+      "id": "from_court_4",
+      "x": 1,
+      "y": 7
     }
   ]
 }

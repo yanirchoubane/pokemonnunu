@@ -26,7 +26,8 @@
     "brume_gym_mystic",
     "brume_court_1",
     "brume_court_2",
-    "brume_court_3"
+    "brume_court_3",
+    "brume_court_4"
   ],
   "regional_rules": {
     "level_scaling": "soft",

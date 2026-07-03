@@ -26,7 +26,8 @@
     "ferrock_gym_mystic",
     "ferrock_court_1",
     "ferrock_court_2",
-    "ferrock_court_3"
+    "ferrock_court_3",
+    "ferrock_court_4"
   ],
   "regional_rules": {
     "level_scaling": "soft",

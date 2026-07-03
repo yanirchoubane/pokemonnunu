@@ -993,469 +993,938 @@
           "rarity": "common"
         },
         {
-          "creature": "zeduskenkit",
+          "creature": "zeyaraepip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zeemberenkit",
+          "creature": "zezephaepip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zefrostenkit",
+          "creature": "zebalaepip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zeglimenkit",
+          "creature": "zecrevaepip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zebramilkit",
+          "creature": "zeduskaepip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zecinqilkit",
+          "creature": "zeemberaepip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zedornilkit",
+          "creature": "zefrostaepip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zeeldilkit",
+          "creature": "zeglimaepip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zefenilkit",
+          "creature": "zebramorpip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zegrimilkit",
+          "creature": "zecinqorpip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zeholloilkit",
+          "creature": "zedornorpip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zeiriilkit",
+          "creature": "zeeldorpip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zejorvilkit",
+          "creature": "zefenorpip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zekestilkit",
+          "creature": "zegrimorpip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zelumilkit",
+          "creature": "zeholloorpip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zemorilkit",
+          "creature": "zeiriorpip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zenyxilkit",
+          "creature": "zejorvorpip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zeorlilkit",
+          "creature": "zekestorpip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zepyrilkit",
+          "creature": "zelumorpip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zequillilkit",
+          "creature": "zemororpip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zerynilkit",
+          "creature": "zenyxorpip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zesolilkit",
+          "creature": "zeorlorpip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zetamilkit",
+          "creature": "zepyrorpip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zeumbrilkit",
+          "creature": "zequillorpip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zevexilkit",
+          "creature": "zerynorpip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zewynilkit",
+          "creature": "zesolorpip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zeyarilkit",
+          "creature": "zetamorpip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zezephilkit",
+          "creature": "zeumbrorpip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zebalilkit",
+          "creature": "zevexorpip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zecrevilkit",
+          "creature": "zewynorpip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zeduskilkit",
+          "creature": "zeyarorpip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zeemberilkit",
+          "creature": "zezephorpip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zefrostilkit",
+          "creature": "zebalorpip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zeglimilkit",
+          "creature": "zecrevorpip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zebramarkit",
+          "creature": "zeduskorpip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zecinqarkit",
+          "creature": "zeemberorpip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zedornarkit",
+          "creature": "zefrostorpip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zeeldarkit",
+          "creature": "zeglimorpip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zefenarkit",
+          "creature": "zebramenpip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zegrimarkit",
+          "creature": "zecinqenpip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zeholloarkit",
+          "creature": "zedornenpip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zeiriarkit",
+          "creature": "zeeldenpip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zejorvarkit",
+          "creature": "zefenenpip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zekestarkit",
+          "creature": "zegrimenpip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zelumarkit",
+          "creature": "zeholloenpip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zemorarkit",
+          "creature": "zeirienpip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zenyxarkit",
+          "creature": "zejorvenpip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zeorlarkit",
+          "creature": "zekestenpip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zepyrarkit",
+          "creature": "zelumenpip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zequillarkit",
+          "creature": "zemorenpip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zerynarkit",
+          "creature": "zenyxenpip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zesolarkit",
+          "creature": "zeorlenpip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zetamarkit",
+          "creature": "zepyrenpip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zeumbrarkit",
+          "creature": "zequillenpip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zevexarkit",
+          "creature": "zerynenpip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zewynarkit",
+          "creature": "zesolenpip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zeyararkit",
+          "creature": "zetamenpip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zezepharkit",
+          "creature": "zeumbrenpip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zebalarkit",
+          "creature": "zevexenpip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zecrevarkit",
+          "creature": "zewynenpip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zeduskarkit",
+          "creature": "zeyarenpip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zeemberarkit",
+          "creature": "zezephenpip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zefrostarkit",
+          "creature": "zebalenpip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zeglimarkit",
+          "creature": "zecrevenpip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zebramaet",
+          "creature": "zeduskenpip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zecinqaet",
+          "creature": "zeemberenpip",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zedornaet",
+          "creature": "zefrostenpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeglimenpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zebramilpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zecinqilpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zedornilpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeeldilpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zefenilpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zegrimilpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeholloilpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeiriilpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zejorvilpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zekestilpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zelumilpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zemorilpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zenyxilpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeorlilpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zepyrilpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zequillilpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zerynilpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zesolilpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zetamilpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeumbrilpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zevexilpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zewynilpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeyarilpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zezephilpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zebalilpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zecrevilpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeduskilpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeemberilpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zefrostilpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeglimilpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zebramarpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zecinqarpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zedornarpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeeldarpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zefenarpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zegrimarpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeholloarpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeiriarpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zejorvarpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zekestarpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zelumarpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zemorarpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zenyxarpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeorlarpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zepyrarpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zequillarpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zerynarpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zesolarpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zetamarpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeumbrarpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zevexarpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zewynarpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeyararpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zezepharpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zebalarpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zecrevarpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeduskarpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeemberarpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zefrostarpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeglimarpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zebramalet",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zecinqalet",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zedornalet",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeeldalet",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zefenalet",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zegrimalet",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,

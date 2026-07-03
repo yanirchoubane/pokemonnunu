@@ -267,3 +267,8 @@ edit is required. See `DATA_FORMAT.md` and `REGION_CREATION_GUIDE.md`.
   - Bulk knobs raised: SPECIES_PER_REGION 60→100, TRAINERS_PER_COURT 48→60 (court maps
     auto-size to fit). Totals: **1,197 creatures, 1,778 trainers, 56 moves, 15 abilities,
     14 items, 35 quests**. Idempotent; validators + check_chain + 30/30 tests all pass.
+- 2026-07-03 — **Scale-up to 2,000+**: bulk knobs raised again (SPECIES_PER_REGION →200,
+  COURTS_PER_REGION →4, TRAINERS_PER_COURT →72). Totals now **2,097 creatures, 2,750
+  trainers, 149 maps (36 Battle Courts)**. Generation stays ~1 s and fully idempotent
+  (deterministic ids); data validators, check_chain (world walk + all 36 courts), and
+  30/30 math tests all pass.

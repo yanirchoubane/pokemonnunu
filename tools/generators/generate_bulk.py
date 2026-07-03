@@ -24,9 +24,9 @@ ROOT = os.path.normpath(os.path.join(os.path.dirname(__file__), "..", ".."))
 DATA = os.path.join(ROOT, "data")
 
 # ---- scale knobs -----------------------------------------------------------
-SPECIES_PER_REGION = 100     # 9 regions -> +900 species
-COURTS_PER_REGION = 3        # training-hall maps per region
-TRAINERS_PER_COURT = 60      # 9 * 3 * 60 = +1620 optional grind trainers
+SPECIES_PER_REGION = 200     # 9 regions -> +1800 species
+COURTS_PER_REGION = 4        # training-hall maps per region
+TRAINERS_PER_COURT = 72      # 9 * 4 * 72 = +2592 optional grind trainers
 # ---------------------------------------------------------------------------
 # Species and court ids are DETERMINISTIC (region-prefixed), and this generator
 # prunes its own previous output (generation == "demo_g4") before regenerating,

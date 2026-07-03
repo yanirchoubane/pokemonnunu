@@ -26,7 +26,8 @@
     "umbra_gym_mystic",
     "umbra_court_1",
     "umbra_court_2",
-    "umbra_court_3"
+    "umbra_court_3",
+    "umbra_court_4"
   ],
   "regional_rules": {
     "level_scaling": "soft",
