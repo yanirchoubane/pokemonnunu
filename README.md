@@ -49,6 +49,7 @@ JSON files that are validated at boot. You can add content without touching engi
   Prism Cavern, Skyreach Shrine): each hand-written with lore signs, a keeper NPC, a
   first-visit reward, and a `Wonders of <region>` exploration quest. **158 maps, 44 quests,
   14 dialogs.**
+- ✅ **Navigable atlas**: `python3 tools/world_summary.py` regenerates [`WORLD.md`](WORLD.md) from the live data (region-by-region table, progression spine, landmarks, story arc, endings) and flags any structural gaps.
 
 Because Godot may not be installed where this was authored, **scene-level runtime testing
 is done in the Godot editor** (below). The engine-independent core is verified now via the
