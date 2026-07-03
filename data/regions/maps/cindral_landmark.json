@@ -1,0 +1,87 @@
+{
+  "$schema_version": 1,
+  "id": "cindral_landmark",
+  "display_name": "Ashfall Caldera",
+  "region": "cindral",
+  "bgm": "ridge",
+  "tile_size": 32,
+  "legend": {
+    "#": "wall",
+    ".": "stone",
+    "D": "door",
+    "H": "heal_pad",
+    "~": "wall"
+  },
+  "rows": [
+    "###########",
+    "#~~.....~~#",
+    "#.........#",
+    "#.........#",
+    "D.........#",
+    "#.........#",
+    "#.........#",
+    "#~~.....~~#",
+    "#####D#####"
+  ],
+  "objects": [
+    {
+      "type": "spawn",
+      "id": "entrance",
+      "x": 5,
+      "y": 7
+    },
+    {
+      "type": "spawn",
+      "id": "from_crossroads",
+      "x": 1,
+      "y": 4
+    },
+    {
+      "type": "door",
+      "x": 5,
+      "y": 8,
+      "to_map": "cindral_crossroads",
+      "to_spawn": "from_landmark"
+    },
+    {
+      "type": "door",
+      "x": 0,
+      "y": 4,
+      "to_map": "cindral_crossroads",
+      "to_spawn": "from_landmark"
+    },
+    {
+      "type": "npc",
+      "x": 5,
+      "y": 2,
+      "npc_id": "cindral_keeper",
+      "sprite": "npc_watcher",
+      "dialog_id": "lore_cindral"
+    },
+    {
+      "type": "sign",
+      "x": 3,
+      "y": 3,
+      "text": "Ashfall Caldera — the mountain's heartbeat, felt in the soles of your feet."
+    },
+    {
+      "type": "sign",
+      "x": 7,
+      "y": 3,
+      "text": "Cinders here fall upward on the hottest nights. Old-timers call it the mountain breathing."
+    },
+    {
+      "type": "sign",
+      "x": 5,
+      "y": 5,
+      "text": "Cindral was born from this fire. So were half its creatures."
+    },
+    {
+      "type": "item",
+      "x": 2,
+      "y": 6,
+      "item": "super_potion",
+      "flag": "item_cindral_landmark"
+    }
+  ]
+}

@@ -216,6 +216,22 @@ def main() -> int:
         if cd is None:
             errors.append(f"{cross}: no door to {mid}")
 
+    # Landmarks: door round-trip + keeper/signs reachable from the entrance.
+    landmarks = 0
+    for mid, m in maps.items():
+        if not mid.endswith("_landmark"):
+            continue
+        landmarks += 1
+        cross = f"{m['region']}_crossroads"
+        if door_at(mid, lambda o: o.get("to_map") == cross) is None:
+            errors.append(f"{mid}: no door back to {cross}")
+        r = bfs(mid, spawn_pos(mid, "entrance"), flags)
+        for o in m["objects"]:
+            if o["type"] == "npc" and not adj(r, o["x"], o["y"]):
+                errors.append(f"{mid}: keeper {o.get('npc_id')} unreachable")
+        if door_at(cross, lambda o, mid=mid: o.get("to_map") == mid) is None:
+            errors.append(f"{cross}: no door to {mid}")
+
     if errors:
         print(f"✗ {len(errors)} problem(s):")
         for e in errors:
@@ -224,6 +240,7 @@ def main() -> int:
     print("✓ All 9 regions fully traversable: entries, 72 gyms, 9 league corridors "
           "(elites in sequence), champions, ports and return trips.")
     print(f"✓ {courts} Battle Courts verified: door round-trips and every trainer reachable.")
+    print(f"✓ {landmarks} region landmarks verified: door round-trips and keepers reachable.")
     return 0
 
 

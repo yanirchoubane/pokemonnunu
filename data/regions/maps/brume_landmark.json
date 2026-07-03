@@ -1,0 +1,87 @@
+{
+  "$schema_version": 1,
+  "id": "brume_landmark",
+  "display_name": "The Sunken Chapel",
+  "region": "brume",
+  "bgm": "route",
+  "tile_size": 32,
+  "legend": {
+    "#": "wall",
+    ".": "stone",
+    "D": "door",
+    "H": "heal_pad",
+    "~": "wall"
+  },
+  "rows": [
+    "###########",
+    "#~~.....~~#",
+    "#.........#",
+    "#.........#",
+    "D.........#",
+    "#.........#",
+    "#.........#",
+    "#~~.....~~#",
+    "#####D#####"
+  ],
+  "objects": [
+    {
+      "type": "spawn",
+      "id": "entrance",
+      "x": 5,
+      "y": 7
+    },
+    {
+      "type": "spawn",
+      "id": "from_crossroads",
+      "x": 1,
+      "y": 4
+    },
+    {
+      "type": "door",
+      "x": 5,
+      "y": 8,
+      "to_map": "brume_crossroads",
+      "to_spawn": "from_landmark"
+    },
+    {
+      "type": "door",
+      "x": 0,
+      "y": 4,
+      "to_map": "brume_crossroads",
+      "to_spawn": "from_landmark"
+    },
+    {
+      "type": "npc",
+      "x": 5,
+      "y": 2,
+      "npc_id": "brume_keeper",
+      "sprite": "npc_watcher",
+      "dialog_id": "lore_brume"
+    },
+    {
+      "type": "sign",
+      "x": 3,
+      "y": 3,
+      "text": "The Sunken Chapel — a whole town knelt here before the fen rose to keep it."
+    },
+    {
+      "type": "sign",
+      "x": 7,
+      "y": 3,
+      "text": "The water never took the bell. It still tolls, muffled, under the reeds."
+    },
+    {
+      "type": "sign",
+      "x": 5,
+      "y": 5,
+      "text": "In Brume, nothing is truly lost. It only goes quiet for a while."
+    },
+    {
+      "type": "item",
+      "x": 2,
+      "y": 6,
+      "item": "max_revive",
+      "flag": "item_brume_landmark"
+    }
+  ]
+}

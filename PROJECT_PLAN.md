@@ -272,3 +272,14 @@ edit is required. See `DATA_FORMAT.md` and `REGION_CREATION_GUIDE.md`.
   trainers, 149 maps (36 Battle Courts)**. Generation stays ~1 s and fully idempotent
   (deterministic ids); data validators, check_chain (world walk + all 36 courts), and
   30/30 math tests all pass.
+- 2026-07-03 — **Story & places focus**:
+  - New `generate_places.py`: one hand-flavored **landmark per region** (Verdant Glade,
+    Frostwatch Lighthouse, Ashfall Caldera, Mirage Oasis, Duskbell Grove, Old Foundry,
+    Sunken Chapel, Prism Cavern, Skyreach Shrine) — each with worldbuilding lore signs, a
+    keeper NPC (branching dialog in `data/dialogs/regions_lore.json`), a first-visit
+    reward, and a `Wonders of <region>` exploration side quest. Wired to each Crossroads.
+  - **Story deepened**: the three Hollow agents are now a named cell (Vole/Cinder/Wisp)
+    that reacts to your progress; a new mid-arc boss, **Lieutenant Mourn**, waits in
+    Duskbell Grove and is folded into the `main_hollow_order` quest before the Archon.
+  - Totals: **158 maps, 44 quests, 14 dialogs**. check_chain extended to verify every
+    landmark (door round-trip + keeper reachable); all validators + 30/30 tests pass.

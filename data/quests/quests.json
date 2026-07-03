@@ -514,6 +514,14 @@
           }
         },
         {
+          "id": "obj_lieutenant",
+          "text": "Defeat Hollow Lieutenant Mourn in Duskbell Grove.",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_hollow_lieutenant"
+          }
+        },
+        {
           "id": "obj_archon",
           "text": "Confront the Hollow Archon and decide the Order's fate.",
           "condition": {
@@ -1881,6 +1889,303 @@
         }
       ],
       "on_complete_flag": "spar_zephyra_done"
+    },
+    {
+      "id": "wonder_verdantia",
+      "display_name": "Wonders of Verdantia",
+      "category": "side",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_verdantia"
+      },
+      "description": "Seek out the Verdant Glade and hear what its keeper remembers.",
+      "objectives": [
+        {
+          "id": "obj_explore",
+          "text": "Visit the Verdant Glade and speak with Elder Root.",
+          "condition": {
+            "kind": "flag",
+            "flag": "explored_verdantia"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 400
+        },
+        {
+          "kind": "item",
+          "item": "hyper_potion",
+          "quantity": 1
+        }
+      ],
+      "on_complete_flag": "wonder_verdantia_done"
+    },
+    {
+      "id": "wonder_aquilon",
+      "display_name": "Wonders of Aquilon",
+      "category": "side",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_aquilon"
+      },
+      "description": "Seek out the Frostwatch Lighthouse and hear what its keeper remembers.",
+      "objectives": [
+        {
+          "id": "obj_explore",
+          "text": "Visit the Frostwatch Lighthouse and speak with Keeper Halden.",
+          "condition": {
+            "kind": "flag",
+            "flag": "explored_aquilon"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 550
+        },
+        {
+          "kind": "item",
+          "item": "hyper_potion",
+          "quantity": 1
+        }
+      ],
+      "on_complete_flag": "wonder_aquilon_done"
+    },
+    {
+      "id": "wonder_cindral",
+      "display_name": "Wonders of Cindral",
+      "category": "side",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_cindral"
+      },
+      "description": "Seek out the Ashfall Caldera and hear what its keeper remembers.",
+      "objectives": [
+        {
+          "id": "obj_explore",
+          "text": "Visit the Ashfall Caldera and speak with Emberwarden Sol.",
+          "condition": {
+            "kind": "flag",
+            "flag": "explored_cindral"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 700
+        },
+        {
+          "kind": "item",
+          "item": "hyper_potion",
+          "quantity": 1
+        }
+      ],
+      "on_complete_flag": "wonder_cindral_done"
+    },
+    {
+      "id": "wonder_solane",
+      "display_name": "Wonders of Solane",
+      "category": "side",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_solane"
+      },
+      "description": "Seek out the Mirage Oasis and hear what its keeper remembers.",
+      "objectives": [
+        {
+          "id": "obj_explore",
+          "text": "Visit the Mirage Oasis and speak with Wanderer Sima.",
+          "condition": {
+            "kind": "flag",
+            "flag": "explored_solane"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 850
+        },
+        {
+          "kind": "item",
+          "item": "hyper_potion",
+          "quantity": 1
+        }
+      ],
+      "on_complete_flag": "wonder_solane_done"
+    },
+    {
+      "id": "wonder_umbra",
+      "display_name": "Wonders of Umbra",
+      "category": "side",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_umbra"
+      },
+      "description": "Seek out the Duskbell Grove and hear what its keeper remembers.",
+      "objectives": [
+        {
+          "id": "obj_explore",
+          "text": "Visit the Duskbell Grove and speak with Nightwarden Vesper.",
+          "condition": {
+            "kind": "flag",
+            "flag": "explored_umbra"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 1000
+        },
+        {
+          "kind": "item",
+          "item": "hyper_potion",
+          "quantity": 1
+        }
+      ],
+      "on_complete_flag": "wonder_umbra_done"
+    },
+    {
+      "id": "wonder_ferrock",
+      "display_name": "Wonders of Ferrock",
+      "category": "side",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_ferrock"
+      },
+      "description": "Seek out the The Old Foundry and hear what its keeper remembers.",
+      "objectives": [
+        {
+          "id": "obj_explore",
+          "text": "Visit the The Old Foundry and speak with Foreman Dross.",
+          "condition": {
+            "kind": "flag",
+            "flag": "explored_ferrock"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 1150
+        },
+        {
+          "kind": "item",
+          "item": "hyper_potion",
+          "quantity": 1
+        }
+      ],
+      "on_complete_flag": "wonder_ferrock_done"
+    },
+    {
+      "id": "wonder_brume",
+      "display_name": "Wonders of Brume",
+      "category": "side",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_brume"
+      },
+      "description": "Seek out the The Sunken Chapel and hear what its keeper remembers.",
+      "objectives": [
+        {
+          "id": "obj_explore",
+          "text": "Visit the The Sunken Chapel and speak with Fenpriest Maren.",
+          "condition": {
+            "kind": "flag",
+            "flag": "explored_brume"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 1300
+        },
+        {
+          "kind": "item",
+          "item": "hyper_potion",
+          "quantity": 1
+        }
+      ],
+      "on_complete_flag": "wonder_brume_done"
+    },
+    {
+      "id": "wonder_lumen",
+      "display_name": "Wonders of Lumen",
+      "category": "side",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_lumen"
+      },
+      "description": "Seek out the Prism Cavern and hear what its keeper remembers.",
+      "objectives": [
+        {
+          "id": "obj_explore",
+          "text": "Visit the Prism Cavern and speak with Lumar the Seer.",
+          "condition": {
+            "kind": "flag",
+            "flag": "explored_lumen"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 1450
+        },
+        {
+          "kind": "item",
+          "item": "hyper_potion",
+          "quantity": 1
+        }
+      ],
+      "on_complete_flag": "wonder_lumen_done"
+    },
+    {
+      "id": "wonder_zephyra",
+      "display_name": "Wonders of Zephyra",
+      "category": "side",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_zephyra"
+      },
+      "description": "Seek out the Skyreach Shrine and hear what its keeper remembers.",
+      "objectives": [
+        {
+          "id": "obj_explore",
+          "text": "Visit the Skyreach Shrine and speak with Windspeaker Aquila.",
+          "condition": {
+            "kind": "flag",
+            "flag": "explored_zephyra"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 1600
+        },
+        {
+          "kind": "item",
+          "item": "hyper_potion",
+          "quantity": 1
+        }
+      ],
+      "on_complete_flag": "wonder_zephyra_done"
     }
   ]
 }

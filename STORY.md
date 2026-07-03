@@ -35,8 +35,12 @@ it's *empty*, hollowing people until taking feels like winning. Talking to Sable
 the quest **"Shadows of the Hollow Order"** and lets you set your stance
 (`order_stance`: justice or mercy).
 
-You track down three **Hollow agents** (Cindral, Ferrock, Lumen) and finally the
-**Hollow Archon** in the Zephyra wilds. After the battle, a choice decides the arc:
+You track down three named **Hollow agents** — **Vole** (Cindral), **Cinder** (Ferrock)
+and **Wisp** (Lumen), a single cell that reacts to how far you've unravelled them — then
+the **Hollow Lieutenant, Mourn**, who waits in Umbra's **Duskbell Grove** and is the
+arc's emotional turn: someone who joined the Order to stop feeling hollow and watched it
+spread. Finally the **Hollow Archon** in the Zephyra wilds. After the battle, a choice
+decides the arc:
 
 - **Mercy** — offer the Archon a road back. (`order_end = "mercy"`)
 - **Justice** — burn the Order's ledgers and free the roads. (`order_end = "justice"`)
@@ -59,6 +63,24 @@ Either way the quest completes (`hollow_resolved` → `quest_hollow_done`).
 An ending fires from a `trigger_ending` action (the Archon finale, or Professor Maple's
 epilogue), plays its text, autosaves, and returns to the title — the save stays playable
 as post-game.
+
+## Places worth visiting
+
+Each region hangs a **unique landmark** off its Crossroads — a hand-written place with its
+own lore signs, a keeper who remembers something, a first-visit reward, and an exploration
+side quest (`Wonders of <region>`):
+
+| Region | Landmark | Keeper |
+|---|---|---|
+| Verdantia | **Verdant Glade** — the first bond between human and creature | Elder Root |
+| Aquilon | **Frostwatch Lighthouse** — a beam kept lit by a creature that never sleeps | Keeper Halden |
+| Cindral | **Ashfall Caldera** — the mountain's heartbeat | Emberwarden Sol |
+| Solane | **Mirage Oasis** — the real water beside the false one | Wanderer Sima |
+| Umbra | **Duskbell Grove** — where day and night hold a conversation (and Mourn waits) | Nightwarden Vesper |
+| Ferrock | **The Old Foundry** — where creatures forged a region | Foreman Dross |
+| Brume | **The Sunken Chapel** — a town the fen rose to keep | Fenpriest Maren |
+| Lumen | **Prism Cavern** — crystals that hold the valley's memories | Lumar the Seer |
+| Zephyra | **Skyreach Shrine** — where a sky-spirit alights once a generation | Windspeaker Aquila |
 
 ## Extending it
 

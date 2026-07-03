@@ -904,13 +904,13 @@
     },
     {
       "id": "hollow_agent_cindral",
-      "display_name": "Hollow Order Agent",
+      "display_name": "Hollow Agent Vole",
       "sprite": "trainer_hollow",
       "ai": "advanced",
       "boss": false,
       "reward_money": 440,
-      "dialogue_intro": "Agent: The Order hollows out what trainers hoard. Stand aside.",
-      "dialogue_defeat": "Agent: The Archon will hear of you...",
+      "dialogue_intro": "Vole: The Order collects what trainers hoard. Your team is a very full ledger.",
+      "dialogue_defeat": "Vole: ...Report to the Archon that Cindral's road has teeth now.",
       "dialogue_victory": "Agent: Hoarders always fall.",
       "team": [
         {
@@ -1192,13 +1192,13 @@
     },
     {
       "id": "hollow_agent_ferrock",
-      "display_name": "Hollow Order Agent",
+      "display_name": "Hollow Agent Cinder",
       "sprite": "trainer_hollow",
       "ai": "advanced",
       "boss": false,
       "reward_money": 680,
-      "dialogue_intro": "Agent: The Order hollows out what trainers hoard. Stand aside.",
-      "dialogue_defeat": "Agent: The Archon will hear of you...",
+      "dialogue_intro": "Cinder: Vole warned us about you. The Order does not forgive interest unpaid.",
+      "dialogue_defeat": "Cinder: Two of us down. The Lieutenant will not be so easily read.",
       "dialogue_victory": "Agent: Hoarders always fall.",
       "team": [
         {
@@ -1396,13 +1396,13 @@
     },
     {
       "id": "hollow_agent_lumen",
-      "display_name": "Hollow Order Agent",
+      "display_name": "Hollow Agent Wisp",
       "sprite": "trainer_hollow",
       "ai": "advanced",
       "boss": false,
       "reward_money": 840,
-      "dialogue_intro": "Agent: The Order hollows out what trainers hoard. Stand aside.",
-      "dialogue_defeat": "Agent: The Archon will hear of you...",
+      "dialogue_intro": "Wisp: You've unravelled half our cell. But the Archon's debt always comes due.",
+      "dialogue_defeat": "Wisp: Go north, then. The Archon is done sending others.",
       "dialogue_victory": "Agent: Hoarders always fall.",
       "team": [
         {
@@ -96123,6 +96123,48 @@
           "moves": [
             "mind_ray",
             "astral_ram"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hollow_lieutenant",
+      "display_name": "Hollow Lieutenant Mourn",
+      "sprite": "trainer_hollow",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 2200,
+      "dialogue_intro": "Mourn: The agents were arithmetic. I am the whole equation. The Order remembers every debt — including mine.",
+      "dialogue_defeat": "Mourn: ...I joined to stop feeling hollow. It only spread. Go on. The Archon is just a tireder version of me.",
+      "dialogue_victory": "Mourn: The ledger balances. As it always does.",
+      "team": [
+        {
+          "creature": "gloomoth",
+          "level": 34,
+          "moves": [
+            "mind_ray",
+            "gale_slash",
+            "static_field"
+          ]
+        },
+        {
+          "creature": "thornrat",
+          "level": 35,
+          "moves": [
+            "scratch",
+            "leaf_cut",
+            "vine_wrap"
+          ]
+        },
+        {
+          "creature": "shadeling",
+          "level": 37,
+          "moves": [
+            "tackle",
+            "mind_ray",
+            "dream_pulse",
+            "veil_of_calm"
           ]
         }
       ]

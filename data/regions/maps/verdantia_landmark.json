@@ -1,0 +1,87 @@
+{
+  "$schema_version": 1,
+  "id": "verdantia_landmark",
+  "display_name": "Verdant Glade",
+  "region": "verdantia",
+  "bgm": "town",
+  "tile_size": 32,
+  "legend": {
+    "#": "wall",
+    ".": "ground",
+    "D": "door",
+    "H": "heal_pad",
+    "~": "wall"
+  },
+  "rows": [
+    "###########",
+    "#~~.....~~#",
+    "#.........#",
+    "#.........#",
+    "D.........#",
+    "#.........#",
+    "#.........#",
+    "#~~.....~~#",
+    "#####D#####"
+  ],
+  "objects": [
+    {
+      "type": "spawn",
+      "id": "entrance",
+      "x": 5,
+      "y": 7
+    },
+    {
+      "type": "spawn",
+      "id": "from_crossroads",
+      "x": 1,
+      "y": 4
+    },
+    {
+      "type": "door",
+      "x": 5,
+      "y": 8,
+      "to_map": "verdantia_crossroads",
+      "to_spawn": "from_landmark"
+    },
+    {
+      "type": "door",
+      "x": 0,
+      "y": 4,
+      "to_map": "verdantia_crossroads",
+      "to_spawn": "from_landmark"
+    },
+    {
+      "type": "npc",
+      "x": 5,
+      "y": 2,
+      "npc_id": "verdantia_keeper",
+      "sprite": "npc_watcher",
+      "dialog_id": "lore_verdantia"
+    },
+    {
+      "type": "sign",
+      "x": 3,
+      "y": 3,
+      "text": "Verdant Glade — where the first trainer and the first creature are said to have shared a meal."
+    },
+    {
+      "type": "sign",
+      "x": 7,
+      "y": 3,
+      "text": "The moss here remembers footsteps. Walk gently."
+    },
+    {
+      "type": "sign",
+      "x": 5,
+      "y": 5,
+      "text": "They say a bond made in this glade never fully breaks."
+    },
+    {
+      "type": "item",
+      "x": 2,
+      "y": 6,
+      "item": "great_orb",
+      "flag": "item_verdantia_landmark"
+    }
+  ]
+}

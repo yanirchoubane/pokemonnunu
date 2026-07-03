@@ -40,9 +40,15 @@ JSON files that are validated at boot. You can add content without touching engi
   `python3 tools/validators/check_chain.py`.
 - ✅ **Branching story arc**: a recurring rival, **Corin**, meets you at every region's
   Crossroads; your answers move a relationship score that decides whether he stays a true
-  rival or is drawn into the antagonist **Hollow Order**. A defector reveals the Order's
-  rot, and after the Archon boss you choose **mercy or justice** — the finale, and which
-  of the 8 endings you get, follows your choices (see `STORY.md`).
+  rival or is drawn into the antagonist **Hollow Order** (named agents Vole/Cinder/Wisp, a
+  Lieutenant, and the Archon). A defector reveals the Order's rot, and after the Archon
+  boss you choose **mercy or justice** — the finale, and which of the 8 endings you get,
+  follows your choices (see `STORY.md`).
+- ✅ **A distinctive landmark in every region** (Verdant Glade, Frostwatch Lighthouse,
+  Ashfall Caldera, Mirage Oasis, Duskbell Grove, the Old Foundry, the Sunken Chapel,
+  Prism Cavern, Skyreach Shrine): each hand-written with lore signs, a keeper NPC, a
+  first-visit reward, and a `Wonders of <region>` exploration quest. **158 maps, 44 quests,
+  14 dialogs.**
 
 Because Godot may not be installed where this was authored, **scene-level runtime testing
 is done in the Godot editor** (below). The engine-independent core is verified now via the

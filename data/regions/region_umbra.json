@@ -27,7 +27,8 @@
     "umbra_court_1",
     "umbra_court_2",
     "umbra_court_3",
-    "umbra_court_4"
+    "umbra_court_4",
+    "umbra_landmark"
   ],
   "regional_rules": {
     "level_scaling": "soft",

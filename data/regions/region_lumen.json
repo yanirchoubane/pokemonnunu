@@ -27,7 +27,8 @@
     "lumen_court_1",
     "lumen_court_2",
     "lumen_court_3",
-    "lumen_court_4"
+    "lumen_court_4",
+    "lumen_landmark"
   ],
   "regional_rules": {
     "level_scaling": "soft",

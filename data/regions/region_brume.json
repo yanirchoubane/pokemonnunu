@@ -27,7 +27,8 @@
     "brume_court_1",
     "brume_court_2",
     "brume_court_3",
-    "brume_court_4"
+    "brume_court_4",
+    "brume_landmark"
   ],
   "regional_rules": {
     "level_scaling": "soft",

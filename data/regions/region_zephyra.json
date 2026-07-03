@@ -25,7 +25,8 @@
     "zephyra_court_1",
     "zephyra_court_2",
     "zephyra_court_3",
-    "zephyra_court_4"
+    "zephyra_court_4",
+    "zephyra_landmark"
   ],
   "regional_rules": {
     "level_scaling": "soft",

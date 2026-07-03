@@ -1,0 +1,87 @@
+{
+  "$schema_version": 1,
+  "id": "solane_landmark",
+  "display_name": "Mirage Oasis",
+  "region": "solane",
+  "bgm": "route",
+  "tile_size": 32,
+  "legend": {
+    "#": "wall",
+    ".": "sand",
+    "D": "door",
+    "H": "heal_pad",
+    "~": "wall"
+  },
+  "rows": [
+    "###########",
+    "#~~.....~~#",
+    "#.........#",
+    "#.........#",
+    "D.........#",
+    "#.........#",
+    "#.........#",
+    "#~~.....~~#",
+    "#####D#####"
+  ],
+  "objects": [
+    {
+      "type": "spawn",
+      "id": "entrance",
+      "x": 5,
+      "y": 7
+    },
+    {
+      "type": "spawn",
+      "id": "from_crossroads",
+      "x": 1,
+      "y": 4
+    },
+    {
+      "type": "door",
+      "x": 5,
+      "y": 8,
+      "to_map": "solane_crossroads",
+      "to_spawn": "from_landmark"
+    },
+    {
+      "type": "door",
+      "x": 0,
+      "y": 4,
+      "to_map": "solane_crossroads",
+      "to_spawn": "from_landmark"
+    },
+    {
+      "type": "npc",
+      "x": 5,
+      "y": 2,
+      "npc_id": "solane_keeper",
+      "sprite": "npc_watcher",
+      "dialog_id": "lore_solane"
+    },
+    {
+      "type": "sign",
+      "x": 3,
+      "y": 3,
+      "text": "Mirage Oasis — half the travelers who reach it swear it wasn't here yesterday."
+    },
+    {
+      "type": "sign",
+      "x": 7,
+      "y": 3,
+      "text": "The water is real. The second oasis you see beside it is not. Choose carefully."
+    },
+    {
+      "type": "sign",
+      "x": 5,
+      "y": 5,
+      "text": "In Solane, thirst teaches faster than any gym."
+    },
+    {
+      "type": "item",
+      "x": 2,
+      "y": 6,
+      "item": "hyper_potion",
+      "flag": "item_solane_landmark"
+    }
+  ]
+}

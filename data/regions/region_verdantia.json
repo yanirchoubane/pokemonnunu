@@ -31,7 +31,8 @@
     "verdantia_court_1",
     "verdantia_court_2",
     "verdantia_court_3",
-    "verdantia_court_4"
+    "verdantia_court_4",
+    "verdantia_landmark"
   ],
   "regional_rules": {
     "level_scaling": "soft",
