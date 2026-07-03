@@ -91,7 +91,7 @@ REGION_SPECIFIC = {
 }
 
 # placement: (map_suffix, [tiles]) per location kind
-CROSS_TILES = [(4, 2), (11, 2), (4, 6), (11, 6)]
+CROSS_TILES = [(4, 2), (11, 2), (4, 6), (11, 6), (6, 2), (9, 6)]
 GATE_TILES = [(2, 4), (9, 5)]        # generated *_gate maps (12x7)
 LAND_TILES = [(8, 3), (2, 5)]        # landmark maps (11x9)
 GENERATED = ["cindral", "solane", "umbra", "ferrock", "brume", "lumen", "zephyra"]
@@ -167,8 +167,8 @@ def main():
     total = 0
     for r_i, rid in enumerate(order):
         # rotate the shared archetypes so regions don't all read identically
-        picks = [ARCHES[(r_i + k) % len(ARCHES)] for k in range(4)]
-        # Crossroads (4 mature NPCs)
+        picks = [ARCHES[(r_i + k) % len(ARCHES)] for k in range(len(CROSS_TILES))]
+        # Crossroads mature NPCs
         cp = os.path.join(DATA, "regions", "maps", f"{rid}_crossroads.json")
         cross = load(cp); prune_folk(cross)
         place(cross, CROSS_TILES, picks, rid, doc, "x")

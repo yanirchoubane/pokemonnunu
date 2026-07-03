@@ -63,20 +63,47 @@ ELITE_VOICE = [
      "You didn't mean it enough. The corridor keeps its honest count. Come back meaning it."),
 ]
 
+# Each of the nine Champions gets a name and a region-textured, adult voice.
+CHAMP_NAME = {
+    "verdantia": "Sovereign Laurel", "aquilon": "Marshal Eirwen", "cindral": "Magnate Vulcaine",
+    "solane": "Consul Adnan", "umbra": "Arbiter Nocturne", "ferrock": "Ironmonger Casque",
+    "brume": "Abbess Threnody", "lumen": "Oracle Calla", "zephyra": "Skylord Peregrine",
+}
 CHAMP_VOICE = {
-    "verdantia": ("Sovereign Laurel: Eight badges say you can win. I'm here to ask a harder question — can you keep going?",
-                  "Sovereign Laurel: You can. Verdantia has its answer, and its new Champion. Go north; the road only gets truer.",
-                  "Sovereign Laurel: Not yet. Winning is loud. Enduring is quiet. Come back quiet."),
-    "aquilon": ("Marshal Eirwen: The north doesn't crown the strongest. It crowns whoever's still upright at the end. Begin.",
-                "Marshal Eirwen: Upright, and clear-eyed. Aquilon is yours to carry. Mind what you do with the weight.",
-                "Marshal Eirwen: The cold took the steam out of you. Rest, then climb back."),
+    "verdantia": ("Eight badges say you can win. I'm here to ask the harder question — can you keep going once no one's clapping?",
+                  "You can. Verdantia has its answer, and its new Champion. Go north; the road only gets truer and lonelier.",
+                  "Not yet. Winning is loud. Enduring is quiet. Come back when you've learned the difference."),
+    "aquilon": ("The north doesn't crown the strongest. It crowns whoever's still upright at the end. Let's find out which you are.",
+                "Upright, and clear-eyed. Aquilon is yours to carry. Mind what the weight does to a person — I've watched it hollow better ones.",
+                "The cold took the steam out of you. There's no shame in it. Rest, and climb back."),
+    "cindral": ("I bought this mountain's mines and I answer for every lung they cost. A crest doesn't absolve that. Neither will beating me.",
+                "You fought like the debt was personal. Good. Cindral's crest is heavier than it looks — carry it honestly.",
+                "You spent everything early, like the miners do. The mountain teaches patience the slow way. Return."),
+    "solane": ("Out here, water is law and I am its consul. I've turned away the Order and the desperate alike. Show me which you are.",
+               "Neither, it turns out — just certain. Solane's crest is yours. Ration your certainty; the dunes punish waste.",
+               "The heat found the crack in your resolve. It always does. Drink, wait for dusk, come back sure."),
+    "umbra": ("I judge disputes no gym could settle — debts, betrayals, the Order's quiet cruelties. Consider this hearing your last appeal.",
+              "The ruling favours you. Umbra's crest, and my respect — spend both carefully, they don't refund.",
+              "You argued your case with force and forgot the mercy. The grove remembers both. Adjourned."),
+    "ferrock": ("I kept the last forge lit when the town went dark. Everything I love, I've had to outlast. Try to outlast me.",
+                "You did. Barely, honestly, completely. Ferrock's crest was struck for hands like yours. Keep it useful.",
+                "The forge outlasted you today. Cold iron, warm heart — bring both next time, not just the one."),
+    "brume": ("I buried this town under the fen to keep it whole, and I've grieved it every day since. Grief makes a patient opponent.",
+              "You walked through the mist instead of around it. So few do. Brume's crest, and a prayer for your road.",
+              "You mistook my sorrow for softness. The drowned are the most stubborn of all. Come back when you understand."),
+    "lumen": ("I've watched a thousand challengers in the crystals before they ever reached me. I already know how you lose. Prove the vision wrong.",
+              "You broke the pattern I foresaw — the only victory the cavern honours. Lumen's crest reflects a bright day. Earn more of them.",
+              "You lost exactly as the light showed. Change, or the vision will keep being right."),
+    "zephyra": ("You climbed nine regions to breathe this wind. Most people leave something behind to get this high. I intend to find out what you kept.",
+                "You kept the part that matters. Zephyra's crest, and the whole sky, are yours. The Archon kept nothing — remember that up there.",
+                "The height took your breath before I did. No shame in the sky winning. Climb again."),
 }
 
 
 def champ_generic(region):
-    return (f"Champion of {region}: You came a long way to stand here. Let's see what the road left in you.",
-            f"Champion of {region}: It left plenty. {region} bows — carry its crest without letting it carry you.",
-            f"Champion of {region}: The summit keeps its count. Come back heavier.")
+    return (f"You came a long way to stand here. Let's see what the road left in you.",
+            f"It left plenty. {region} bows — carry its crest without letting it carry you.",
+            f"The summit keeps its count. Come back heavier.")
 
 
 def load(p):
@@ -116,16 +143,16 @@ def main():
                 by[tid]["dialogue_defeat"] = f"{name}: {defeat}"
                 by[tid]["dialogue_victory"] = f"{name}: {victory}"
                 elites += 1
-        # champion (region-specific voice if present, else generic mature)
+        # champion: give it a name and a region-textured, adult voice
         champ_id = {"verdantia": "verdantia_sovereign", "aquilon": "aquilon_marshal"}.get(rid, f"{rid}_champion")
         if champ_id in by:
-            if rid in CHAMP_VOICE:
-                intro, defeat, victory = CHAMP_VOICE[rid]
-            else:
-                intro, defeat, victory = champ_generic(region)
-            by[champ_id]["dialogue_intro"] = intro
-            by[champ_id]["dialogue_defeat"] = defeat
-            by[champ_id]["dialogue_victory"] = victory
+            name = CHAMP_NAME.get(rid, by[champ_id].get("display_name", f"Champion of {region}"))
+            by[champ_id]["display_name"] = name
+            lines = CHAMP_VOICE.get(rid) or champ_generic(region)
+            intro, defeat, victory = lines
+            by[champ_id]["dialogue_intro"] = f"{name}: {intro}"
+            by[champ_id]["dialogue_defeat"] = f"{name}: {defeat}"
+            by[champ_id]["dialogue_victory"] = f"{name}: {victory}"
             champs += 1
 
     save(tp, doc)

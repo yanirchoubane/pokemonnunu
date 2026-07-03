@@ -280,6 +280,22 @@
       "dialog_id": "town_zephyra_x3"
     },
     {
+      "type": "npc",
+      "x": 6,
+      "y": 2,
+      "npc_id": "folk_zephyra_x4",
+      "sprite": "npc_villager",
+      "dialog_id": "town_zephyra_x4"
+    },
+    {
+      "type": "npc",
+      "x": 9,
+      "y": 6,
+      "npc_id": "folk_zephyra_x5",
+      "sprite": "npc_villager",
+      "dialog_id": "town_zephyra_x5"
+    },
+    {
       "type": "sign",
       "x": 6,
       "y": 5,

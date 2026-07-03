@@ -207,16 +207,16 @@
     },
     {
       "id": "cindral_champion",
-      "display_name": "Champion of Cindral",
+      "display_name": "Magnate Vulcaine",
       "sprite": "trainer_champion",
       "ai": "advanced",
       "boss": true,
       "boss_scaling": "limited",
       "reward_money": 2700,
       "reward_badge": "cindral_crest",
-      "dialogue_intro": "Champion of Cindral: You came a long way to stand here. Let's see what the road left in you.",
-      "dialogue_defeat": "Champion of Cindral: It left plenty. Cindral bows — carry its crest without letting it carry you.",
-      "dialogue_victory": "Champion of Cindral: The summit keeps its count. Come back heavier.",
+      "dialogue_intro": "Magnate Vulcaine: I bought this mountain's mines and I answer for every lung they cost. A crest doesn't absolve that. Neither will beating me.",
+      "dialogue_defeat": "Magnate Vulcaine: You fought like the debt was personal. Good. Cindral's crest is heavier than it looks — carry it honestly.",
+      "dialogue_victory": "Magnate Vulcaine: You spent everything early, like the miners do. The mountain teaches patience the slow way. Return.",
       "team": [
         {
           "creature": "brambleclaw",
@@ -299,16 +299,16 @@
     },
     {
       "id": "solane_champion",
-      "display_name": "Champion of Solane",
+      "display_name": "Consul Adnan",
       "sprite": "trainer_champion",
       "ai": "advanced",
       "boss": true,
       "boss_scaling": "limited",
       "reward_money": 3100,
       "reward_badge": "solane_crest",
-      "dialogue_intro": "Champion of Solane: You came a long way to stand here. Let's see what the road left in you.",
-      "dialogue_defeat": "Champion of Solane: It left plenty. Solane bows — carry its crest without letting it carry you.",
-      "dialogue_victory": "Champion of Solane: The summit keeps its count. Come back heavier.",
+      "dialogue_intro": "Consul Adnan: Out here, water is law and I am its consul. I've turned away the Order and the desperate alike. Show me which you are.",
+      "dialogue_defeat": "Consul Adnan: Neither, it turns out — just certain. Solane's crest is yours. Ration your certainty; the dunes punish waste.",
+      "dialogue_victory": "Consul Adnan: The heat found the crack in your resolve. It always does. Drink, wait for dusk, come back sure.",
       "team": [
         {
           "creature": "surgemane",
@@ -391,16 +391,16 @@
     },
     {
       "id": "umbra_champion",
-      "display_name": "Champion of Umbra",
+      "display_name": "Arbiter Nocturne",
       "sprite": "trainer_champion",
       "ai": "advanced",
       "boss": true,
       "boss_scaling": "limited",
       "reward_money": 3500,
       "reward_badge": "umbra_crest",
-      "dialogue_intro": "Champion of Umbra: You came a long way to stand here. Let's see what the road left in you.",
-      "dialogue_defeat": "Champion of Umbra: It left plenty. Umbra bows — carry its crest without letting it carry you.",
-      "dialogue_victory": "Champion of Umbra: The summit keeps its count. Come back heavier.",
+      "dialogue_intro": "Arbiter Nocturne: I judge disputes no gym could settle — debts, betrayals, the Order's quiet cruelties. Consider this hearing your last appeal.",
+      "dialogue_defeat": "Arbiter Nocturne: The ruling favours you. Umbra's crest, and my respect — spend both carefully, they don't refund.",
+      "dialogue_victory": "Arbiter Nocturne: You argued your case with force and forgot the mercy. The grove remembers both. Adjourned.",
       "team": [
         {
           "creature": "ridgehorn",
@@ -482,16 +482,16 @@
     },
     {
       "id": "ferrock_champion",
-      "display_name": "Champion of Ferrock",
+      "display_name": "Ironmonger Casque",
       "sprite": "trainer_champion",
       "ai": "advanced",
       "boss": true,
       "boss_scaling": "limited",
       "reward_money": 3900,
       "reward_badge": "ferrock_crest",
-      "dialogue_intro": "Champion of Ferrock: You came a long way to stand here. Let's see what the road left in you.",
-      "dialogue_defeat": "Champion of Ferrock: It left plenty. Ferrock bows — carry its crest without letting it carry you.",
-      "dialogue_victory": "Champion of Ferrock: The summit keeps its count. Come back heavier.",
+      "dialogue_intro": "Ironmonger Casque: I kept the last forge lit when the town went dark. Everything I love, I've had to outlast. Try to outlast me.",
+      "dialogue_defeat": "Ironmonger Casque: You did. Barely, honestly, completely. Ferrock's crest was struck for hands like yours. Keep it useful.",
+      "dialogue_victory": "Ironmonger Casque: The forge outlasted you today. Cold iron, warm heart — bring both next time, not just the one.",
       "team": [
         {
           "creature": "zephyrclaw",
@@ -574,16 +574,16 @@
     },
     {
       "id": "brume_champion",
-      "display_name": "Champion of Brume",
+      "display_name": "Abbess Threnody",
       "sprite": "trainer_champion",
       "ai": "advanced",
       "boss": true,
       "boss_scaling": "limited",
       "reward_money": 4300,
       "reward_badge": "brume_crest",
-      "dialogue_intro": "Champion of Brume: You came a long way to stand here. Let's see what the road left in you.",
-      "dialogue_defeat": "Champion of Brume: It left plenty. Brume bows — carry its crest without letting it carry you.",
-      "dialogue_victory": "Champion of Brume: The summit keeps its count. Come back heavier.",
+      "dialogue_intro": "Abbess Threnody: I buried this town under the fen to keep it whole, and I've grieved it every day since. Grief makes a patient opponent.",
+      "dialogue_defeat": "Abbess Threnody: You walked through the mist instead of around it. So few do. Brume's crest, and a prayer for your road.",
+      "dialogue_victory": "Abbess Threnody: You mistook my sorrow for softness. The drowned are the most stubborn of all. Come back when you understand.",
       "team": [
         {
           "creature": "omenmane",
@@ -665,16 +665,16 @@
     },
     {
       "id": "lumen_champion",
-      "display_name": "Champion of Lumen",
+      "display_name": "Oracle Calla",
       "sprite": "trainer_champion",
       "ai": "advanced",
       "boss": true,
       "boss_scaling": "limited",
       "reward_money": 4700,
       "reward_badge": "lumen_crest",
-      "dialogue_intro": "Champion of Lumen: You came a long way to stand here. Let's see what the road left in you.",
-      "dialogue_defeat": "Champion of Lumen: It left plenty. Lumen bows — carry its crest without letting it carry you.",
-      "dialogue_victory": "Champion of Lumen: The summit keeps its count. Come back heavier.",
+      "dialogue_intro": "Oracle Calla: I've watched a thousand challengers in the crystals before they ever reached me. I already know how you lose. Prove the vision wrong.",
+      "dialogue_defeat": "Oracle Calla: You broke the pattern I foresaw — the only victory the cavern honours. Lumen's crest reflects a bright day. Earn more of them.",
+      "dialogue_victory": "Oracle Calla: You lost exactly as the light showed. Change, or the vision will keep being right.",
       "team": [
         {
           "creature": "fawnmane",
@@ -756,16 +756,16 @@
     },
     {
       "id": "zephyra_champion",
-      "display_name": "Champion of Zephyra",
+      "display_name": "Skylord Peregrine",
       "sprite": "trainer_champion",
       "ai": "advanced",
       "boss": true,
       "boss_scaling": "limited",
       "reward_money": 5100,
       "reward_badge": "zephyra_crest",
-      "dialogue_intro": "Champion of Zephyra: You came a long way to stand here. Let's see what the road left in you.",
-      "dialogue_defeat": "Champion of Zephyra: It left plenty. Zephyra bows — carry its crest without letting it carry you.",
-      "dialogue_victory": "Champion of Zephyra: The summit keeps its count. Come back heavier.",
+      "dialogue_intro": "Skylord Peregrine: You climbed nine regions to breathe this wind. Most people leave something behind to get this high. I intend to find out what you kept.",
+      "dialogue_defeat": "Skylord Peregrine: You kept the part that matters. Zephyra's crest, and the whole sky, are yours. The Archon kept nothing — remember that up there.",
+      "dialogue_victory": "Skylord Peregrine: The height took your breath before I did. No shame in the sky winning. Climb again.",
       "team": [
         {
           "creature": "kilnwarden",
@@ -2210,9 +2210,9 @@
       "boss_scaling": "limited",
       "reward_money": 1900,
       "reward_badge": "verdantia_crest",
-      "dialogue_intro": "Sovereign Laurel: Eight badges say you can win. I'm here to ask a harder question — can you keep going?",
-      "dialogue_defeat": "Sovereign Laurel: You can. Verdantia has its answer, and its new Champion. Go north; the road only gets truer.",
-      "dialogue_victory": "Sovereign Laurel: Not yet. Winning is loud. Enduring is quiet. Come back quiet.",
+      "dialogue_intro": "Sovereign Laurel: Eight badges say you can win. I'm here to ask the harder question — can you keep going once no one's clapping?",
+      "dialogue_defeat": "Sovereign Laurel: You can. Verdantia has its answer, and its new Champion. Go north; the road only gets truer and lonelier.",
+      "dialogue_victory": "Sovereign Laurel: Not yet. Winning is loud. Enduring is quiet. Come back when you've learned the difference.",
       "team": [
         {
           "creature": "kilnmane",
@@ -2796,9 +2796,9 @@
       "boss_scaling": "limited",
       "reward_money": 2300,
       "reward_badge": "aquilon_crest",
-      "dialogue_intro": "Marshal Eirwen: The north doesn't crown the strongest. It crowns whoever's still upright at the end. Begin.",
-      "dialogue_defeat": "Marshal Eirwen: Upright, and clear-eyed. Aquilon is yours to carry. Mind what you do with the weight.",
-      "dialogue_victory": "Marshal Eirwen: The cold took the steam out of you. Rest, then climb back.",
+      "dialogue_intro": "Marshal Eirwen: The north doesn't crown the strongest. It crowns whoever's still upright at the end. Let's find out which you are.",
+      "dialogue_defeat": "Marshal Eirwen: Upright, and clear-eyed. Aquilon is yours to carry. Mind what the weight does to a person — I've watched it hollow better ones.",
+      "dialogue_victory": "Marshal Eirwen: The cold took the steam out of you. There's no shame in it. Rest, and climb back.",
       "team": [
         {
           "creature": "deltahorn",
