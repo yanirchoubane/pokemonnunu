@@ -96,6 +96,25 @@ func team_first_alive() -> int:
 			return i
 	return -1
 
+## Move a team member into the box. Refused if it would empty the team.
+func deposit_creature(team_index: int) -> bool:
+	if team.size() <= 1 or team_index < 0 or team_index >= team.size():
+		return false
+	box.append(team[team_index])
+	team.remove_at(team_index)
+	team_changed.emit()
+	return true
+
+## Move a boxed creature into the team. Refused when the team is full.
+func withdraw_creature(box_index: int) -> bool:
+	var maxsize: int = int(DataRegistry.party_cfg().get("max_team_size", 6))
+	if team.size() >= maxsize or box_index < 0 or box_index >= box.size():
+		return false
+	team.append(box[box_index])
+	box.remove_at(box_index)
+	team_changed.emit()
+	return true
+
 func heal_team() -> void:
 	for c in team:
 		c.heal_full()

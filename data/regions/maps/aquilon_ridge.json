@@ -11,10 +11,11 @@
     "#": "wall",
     "T": "pine",
     "~": "tall_grass",
-    "W": "water"
+    "W": "water",
+    "D": "door"
   },
   "rows": [
-    "TTTTTTTTTTTTTT",
+    "TTTTTTDTTTTTTT",
     "T~~~..PP..~~~T",
     "T~~~..PP..~~~T",
     "T....PP......T",
@@ -26,6 +27,9 @@
   ],
   "objects": [
     { "type": "spawn", "id": "from_shore", "x": 6, "y": 1 },
+    { "type": "spawn", "id": "from_hall", "x": 7, "y": 1 },
+    { "type": "door", "x": 6, "y": 0, "to_map": "aquilon_hall", "to_spawn": "entrance",
+      "requires_flag": "beat_aquilon_gatekeeper", "locked_text": "The Summit Hall opens only to those Tactician Wrenn has acknowledged." },
     { "type": "warp", "x": 12, "y": 8, "to_map": "aquilon_shore", "to_spawn": "from_ridge" },
     { "type": "encounter_zone", "table": "aquilon_encounters" },
     { "type": "trainer", "x": 7, "y": 4, "trainer_id": "aquilon_gatekeeper", "sprite": "trainer_tactician",

@@ -4,6 +4,7 @@
   "evolutions": [
     { "id": "evo_emberpup",  "from": "emberpup",  "to": "emberhound", "condition": { "kind": "level_up", "level": 16 } },
     { "id": "evo_aquafin",   "from": "aquafin",   "to": "aquarion",   "condition": { "kind": "level_up", "level": 16 } },
-    { "id": "evo_sproutkit", "from": "sproutkit", "to": "bloomcat",   "condition": { "kind": "level_up", "level": 16 } }
+    { "id": "evo_sproutkit", "from": "sproutkit", "to": "bloomcat",   "condition": { "kind": "level_up", "level": 16 } },
+    { "id": "evo_mistcalf",  "from": "mistcalf",  "to": "mistelk",    "condition": { "kind": "level_up", "level": 20 } }
   ]
 }

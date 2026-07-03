@@ -111,13 +111,41 @@ func _run_battle() -> void:
 		_show_ai_debug(ai_decision)
 		var events := engine.resolve_turn(player_action, ai_decision["action"])
 		await _play_events(events)
+		await _handle_move_learning(events)
 		if engine.need_player_switch and not engine.finished:
 			await _forced_switch()
 
 	await _resolve_outcome()
 
+## When a level-up wants a 5th move, let the player pick a move to forget (or skip).
+func _handle_move_learning(events: Array) -> void:
+	for ev in events:
+		if String(ev.get("type", "")) != "learn_move_full":
+			continue
+		var idx := int(ev.get("team_index", -1))
+		if idx < 0 or idx >= GameState.team.size():
+			continue
+		var c: CreatureInstance = GameState.team[idx]
+		var mid := String(ev.get("move", ""))
+		var rec: Dictionary = DataRegistry.moves.get(mid, {})
+		var new_name := String(rec.get("display_name", mid))
+		var opts: Array = []
+		for m in c.moves:
+			opts.append("Forget %s" % DataRegistry.moves.get(String(m["id"]), {}).get("display_name", m["id"]))
+		opts.append("Skip %s" % new_name)
+		var pick := await dialog.show_choice("Replace a move to learn %s?" % new_name, opts)
+		if pick >= c.moves.size():
+			await dialog.show_lines(["%s did not learn %s." % [c.display_name(), new_name]])
+			continue
+		var old_name := String(DataRegistry.moves.get(String(c.moves[pick]["id"]), {}).get("display_name", c.moves[pick]["id"]))
+		var pp := int(rec.get("pp", 10))
+		c.moves[pick] = {"id": mid, "pp": pp, "max_pp": pp}
+		await dialog.show_lines(["%s forgot %s and learned %s!" % [c.display_name(), old_name, new_name]])
+
 func _get_player_action() -> Dictionary:
-	var choice := await dialog.show_choice("What will %s do?" % engine.active_player().display_name(), ["Fight", "Bag", "Team", "Run"])
+	var choice := await dialog.show_choice("What will %s do?" % engine.active_player().display_name(),
+			[DataRegistry.tr_key("battle.fight"), DataRegistry.tr_key("battle.bag"),
+			DataRegistry.tr_key("battle.team"), DataRegistry.tr_key("battle.run")])
 	match choice:
 		0:
 			return await _choose_move()
@@ -291,7 +319,8 @@ func _describe_event(ev: Dictionary) -> String:
 		"learn_move":
 			return "%s learned %s!" % [ev.get("name", "?"), DataRegistry.moves.get(String(ev.get("move", "")), {}).get("display_name", ev.get("move", "?"))]
 		"learn_move_full":
-			return "%s wants to learn %s but knows 4 moves already." % [ev.get("name", "?"), ev.get("move", "?")]
+			return "%s wants to learn %s but knows 4 moves already." % [ev.get("name", "?"),
+					DataRegistry.moves.get(String(ev.get("move", "")), {}).get("display_name", ev.get("move", "?"))]
 		"capture_attempt":
 			if bool(ev.get("caught", false)):
 				return "Gotcha! %s was caught!" % ev.get("name", "?")

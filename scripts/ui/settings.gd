@@ -37,6 +37,11 @@ func _ready() -> void:
 	_add_slider(vb, "Music volume", "music_volume", 0.0, 1.0, 0.05)
 	_add_slider(vb, "SFX volume", "sfx_volume", 0.0, 1.0, 0.05)
 	_add_option(vb, "Text speed", ["slow", "normal", "fast", "instant"], "text_speed")
+	# Languages come from the loaded string tables (base + user packs).
+	var langs: Array = DataRegistry.strings.keys()
+	langs.sort()
+	if langs.size() > 1:
+		_add_option(vb, "Language", langs, "language")
 	_add_check(vb, "Fullscreen", "fullscreen")
 	_add_slider(vb, "UI scale", "ui_scale", 0.8, 1.5, 0.1)
 	_add_check(vb, "Reduce animations", "reduce_animations")

@@ -3,6 +3,22 @@
   "description": "Data-driven endings. When a 'trigger_ending' action fires, the FIRST ending (in array order) whose condition passes is shown, then the game returns to the title screen (the save remains playable). Conditions use the same composable kinds as quests/dialogs: flag, counter, var_equals, var_at_least, relationship_at_least, all, any, not.",
   "endings": [
     {
+      "id": "ending_champion",
+      "title": "Champion of the North",
+      "condition": {
+        "kind": "all",
+        "conditions": [
+          { "kind": "flag", "flag": "quest_aquilon_done" },
+          { "kind": "flag", "flag": "beat_aquilon_champion" }
+        ]
+      },
+      "lines": [
+        "Professor Maple publishes the expedition report — signed by the Champion of the North.",
+        "Isolde's crest gleams beside the Verdant Badge. Two regions, two titles, one journey.",
+        "In the Summit Hall, your name is carved among the champions. The north remembers."
+      ]
+    },
+    {
       "id": "ending_bonds",
       "title": "Bonds Across Regions",
       "condition": {

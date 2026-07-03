@@ -410,7 +410,9 @@ func _learn_new_moves(c: CreatureInstance, events: Array) -> void:
 				c.moves.append({"id": mid, "pp": pp, "max_pp": pp})
 				events.append({"type": "learn_move", "name": c.display_name(), "move": mid})
 			else:
-				events.append({"type": "learn_move_full", "name": c.display_name(), "move": mid})
+				# The UI resolves this interactively (forget a move or skip).
+				events.append({"type": "learn_move_full", "name": c.display_name(), "move": mid,
+						"team_index": player_team.find(c)})
 
 func _queue_evolution(c: CreatureInstance, events: Array) -> void:
 	# Evolution eligibility is resolved after battle by EvolutionSystem against

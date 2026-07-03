@@ -170,3 +170,19 @@ edit is required. See `DATA_FORMAT.md` and `REGION_CREATION_GUIDE.md`.
     localization string tables with language fallback.
   - Demo: rival Corin (friendly/cold branch affects the ending), Professor Maple epilogue
     with two endings. Validators (GDScript + Python) extended to the new schemas.
+- 2026-07-03 — Completeness pass:
+  - **Storage UI** in the pause menu: deposit team members to the box / withdraw to the
+    team (never below 1 team member, never above the max team size).
+  - **Interactive move learning**: when a level-up offers a 5th move, the player picks a
+    move to forget or skips (engine emits `learn_move_full` with the team index; the
+    battle scene resolves it in dialog).
+  - **Language selector** in Settings (built from the loaded string tables) + full French
+    string table (`data/localization/fr.json`); title, pause-menu and battle command
+    labels now resolve through `tr_key`.
+  - **Aquilon league arc**: Champion Isolde (boss, advanced AI, `aquilon_crest` badge) in
+    the new Summit Hall map, gated behind defeating Tactician Wrenn
+    (`requires_flag` door); quest "The Summit Challenge"; third ending
+    "Champion of the North" (takes precedence over the Corin-relationship endings).
+  - **2 new original creatures**: Mistcalf → Mistelk (water/wind, level-20 evolution),
+    added to the Aquilon encounter table (Mistelk as a rare high-level spawn).
+  - Validators pass: 12 creatures, 16 moves, 5 trainers, 9 maps, 4 quests, 3 endings.

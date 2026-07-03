@@ -47,6 +47,19 @@
       ],
       "rewards": [ { "kind": "money", "amount": 1000 } ],
       "on_complete_flag": "quest_aquilon_done"
+    },
+    {
+      "id": "main_aquilon_league",
+      "display_name": "The Summit Challenge",
+      "category": "main",
+      "auto_start": false,
+      "start_condition": { "kind": "flag", "flag": "beat_aquilon_gatekeeper" },
+      "description": "Wrenn has opened the Summit Hall. Face Champion Isolde and claim the Aquilon Crest.",
+      "objectives": [
+        { "id": "obj_champion", "text": "Defeat Champion Isolde in the Summit Hall.", "condition": { "kind": "flag", "flag": "beat_aquilon_champion" } }
+      ],
+      "rewards": [ { "kind": "money", "amount": 1500 }, { "kind": "item", "item": "great_orb", "quantity": 5 } ],
+      "on_complete_flag": "quest_league_done"
     }
   ]
 }

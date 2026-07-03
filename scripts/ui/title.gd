@@ -19,16 +19,16 @@ func _ready() -> void:
 	spacer.custom_minimum_size = Vector2(0, 20)
 	vb.add_child(spacer)
 
-	_add_button(vb, "New Game", _on_new_game)
+	_add_button(vb, DataRegistry.tr_key("ui.new_game"), _on_new_game)
 	var has_any := false
 	for slot in range(0, SaveManager.SLOT_COUNT + 1):
 		if SaveManager.has_save(slot):
 			has_any = true
 			break
-	var cont := _add_button(vb, "Continue", _on_continue)
+	var cont := _add_button(vb, DataRegistry.tr_key("ui.continue"), _on_continue)
 	cont.disabled = not has_any
-	_add_button(vb, "Settings", _on_settings)
-	_add_button(vb, "Quit", _on_quit)
+	_add_button(vb, DataRegistry.tr_key("ui.settings"), _on_settings)
+	_add_button(vb, DataRegistry.tr_key("ui.quit"), _on_quit)
 	_update_highlight()
 
 func _add_button(vb: VBoxContainer, text: String, cb: Callable) -> Button:

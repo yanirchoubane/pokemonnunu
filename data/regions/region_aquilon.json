@@ -9,7 +9,11 @@
   "badge_count": 1,
   "league_id": "aquilon_league",
   "next_regions": [],
-  "maps": ["aquilon_shore", "aquilon_ridge"],
+  "maps": [
+    "aquilon_shore",
+    "aquilon_ridge",
+    "aquilon_hall"
+  ],
   "regional_rules": {
     "level_scaling": "soft",
     "encounter_table": "aquilon_encounters",

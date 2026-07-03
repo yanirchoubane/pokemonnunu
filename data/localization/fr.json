@@ -1,0 +1,25 @@
+{
+  "$schema_version": 1,
+  "description": "Table de chaînes française — traductions des textes originaux du projet.",
+  "language": "fr",
+  "strings": {
+    "ui.new_game": "Nouvelle partie",
+    "ui.continue": "Continuer",
+    "ui.settings": "Options",
+    "ui.quit": "Quitter",
+    "ui.menu": "Menu",
+    "ui.team": "Équipe",
+    "ui.bag": "Sac",
+    "ui.quests": "Quêtes",
+    "ui.storage": "Stockage",
+    "ui.encyclopedia": "Encyclopédie",
+    "ui.save": "Sauvegarder",
+    "ui.close": "Fermer",
+    "battle.fight": "Attaque",
+    "battle.bag": "Sac",
+    "battle.team": "Équipe",
+    "battle.run": "Fuite",
+    "dialog.healed": "Votre équipe est entièrement soignée !",
+    "ending.the_end": "— Fin —"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "$schema_version": 1,
+  "id": "aquilon_hall",
+  "display_name": "Summit Hall",
+  "region": "aquilon",
+  "bgm": "town",
+  "tile_size": 32,
+  "legend": { "#": "wall", ".": "floor", "D": "door", "B": "wall" },
+  "rows": [
+    "#########",
+    "#.......#",
+    "#..BBB..#",
+    "#.......#",
+    "#.......#",
+    "#.......#",
+    "####D####"
+  ],
+  "objects": [
+    { "type": "spawn", "id": "entrance", "x": 4, "y": 5 },
+    { "type": "door", "x": 4, "y": 6, "to_map": "aquilon_ridge", "to_spawn": "from_hall" },
+    { "type": "trainer", "x": 4, "y": 3, "trainer_id": "aquilon_champion", "sprite": "trainer_champion",
+      "sight": 2, "facing": "down", "flag": "beat_aquilon_champion" },
+    { "type": "sign", "x": 2, "y": 1, "text": "Summit Hall — where the north crowns its champions." }
+  ]
+}

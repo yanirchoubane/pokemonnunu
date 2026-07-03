@@ -57,12 +57,30 @@
       "boss": false,
       "reward_money": 800,
       "dialogue_intro": "Wrenn: Aquilon respects a thinking trainer. Prove you are one.",
-      "dialogue_defeat": "Wrenn: A worthy mind. The northern paths are open to you.",
+      "dialogue_defeat": "Wrenn: A worthy mind. Champion Isolde awaits in the Summit Hall, above the ridge.",
       "dialogue_victory": "Wren: Think harder next time.",
       "team": [
         { "creature": "psywisp",  "level": 12, "moves": ["mind_ray", "guard_up"] },
         { "creature": "gustling", "level": 12, "moves": ["gale_slash", "quick_jab"] },
         { "creature": "zapmouse", "level": 13, "moves": ["spark_zap", "static_field", "quick_jab"] }
+      ]
+    },
+    {
+      "id": "aquilon_champion",
+      "display_name": "Champion Isolde",
+      "sprite": "trainer_champion",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 2000,
+      "reward_badge": "aquilon_crest",
+      "dialogue_intro": "Isolde: Two regions carried you here. Show me what they taught you.",
+      "dialogue_defeat": "Isolde: The north bows to you, Champion. Wear the Aquilon Crest with pride.",
+      "dialogue_victory": "Isolde: The summit is patient. Return when you are ready.",
+      "team": [
+        { "creature": "gustling", "level": 16, "moves": ["gale_slash", "quick_jab", "guard_up"] },
+        { "creature": "psywisp",  "level": 17, "moves": ["mind_ray", "guard_up", "tackle"] },
+        { "creature": "mistelk",  "level": 19, "moves": ["aqua_dart", "tide_crash", "gale_slash", "guard_up"] }
       ]
     }
   ]

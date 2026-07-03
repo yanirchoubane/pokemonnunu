@@ -216,6 +216,54 @@
       "forms": []
     },
     {
+      "id": "mistcalf",
+      "display_name": "Mistcalf",
+      "description": "A shy calf wrapped in sea fog. It hides in the surf at dawn.",
+      "generation": "demo_g1",
+      "origin_region": "aquilon",
+      "types": ["water"],
+      "base_stats": { "hp": 58, "attack": 48, "defense": 52, "sp_attack": 55, "sp_defense": 60, "speed": 44 },
+      "ev_yield": { "hp": 1 },
+      "exp_curve": "medium_slow",
+      "gender_ratio": 0.5,
+      "abilities": ["tide_soul"],
+      "capture_rate": 100,
+      "rarity": "common",
+      "breeding_groups": ["field", "water"],
+      "learnset": [
+        { "level": 1, "move": "tackle" },
+        { "level": 1, "move": "aqua_dart" },
+        { "level": 12, "move": "guard_up" },
+        { "level": 17, "move": "tide_crash" }
+      ],
+      "evolves_to": ["mistelk"],
+      "forms": []
+    },
+    {
+      "id": "mistelk",
+      "display_name": "Mistelk",
+      "description": "Its antlers comb the wind into rolling banks of fog.",
+      "generation": "demo_g1",
+      "origin_region": "aquilon",
+      "types": ["water", "wind"],
+      "base_stats": { "hp": 82, "attack": 68, "defense": 72, "sp_attack": 78, "sp_defense": 84, "speed": 64 },
+      "ev_yield": { "sp_defense": 2 },
+      "exp_curve": "medium_slow",
+      "gender_ratio": 0.5,
+      "abilities": ["tide_soul", "swift_foot"],
+      "capture_rate": 30,
+      "rarity": "rare",
+      "breeding_groups": ["field", "water"],
+      "learnset": [
+        { "level": 1, "move": "aqua_dart" },
+        { "level": 20, "move": "gale_slash" },
+        { "level": 26, "move": "tide_crash" },
+        { "level": 30, "move": "guard_up" }
+      ],
+      "evolves_to": [],
+      "forms": []
+    },
+    {
       "id": "psywisp",
       "display_name": "Psywisp",
       "description": "A drifting wisp of focused thought, native to the northern isles.",

@@ -28,9 +28,11 @@ func _ready() -> void:
 	_root_box = VBoxContainer.new()
 	_root_box.add_theme_constant_override("separation", 6)
 	hb.add_child(_root_box)
-	_root_box.add_child(UIFactory.make_title("Menu", 26))
-	for entry in [["Team", _view_team], ["Bag", _view_bag], ["Quests", _view_quests],
-			["Encyclopedia", _view_dex], ["Save", _view_save], ["Settings", _open_settings], ["Close", _close]]:
+	_root_box.add_child(UIFactory.make_title(DataRegistry.tr_key("ui.menu"), 26))
+	for entry in [[DataRegistry.tr_key("ui.team"), _view_team], [DataRegistry.tr_key("ui.bag"), _view_bag],
+			[DataRegistry.tr_key("ui.quests"), _view_quests], [DataRegistry.tr_key("ui.storage"), _view_storage],
+			[DataRegistry.tr_key("ui.encyclopedia"), _view_dex], [DataRegistry.tr_key("ui.save"), _view_save],
+			[DataRegistry.tr_key("ui.settings"), _open_settings], [DataRegistry.tr_key("ui.close"), _close]]:
 		var b := UIFactory.make_button(String(entry[0]))
 		b.custom_minimum_size = Vector2(160, 34)
 		b.pressed.connect(entry[1])
@@ -126,6 +128,37 @@ func _view_dex() -> void:
 				rec.get("display_name", cid), "/".join(rec.get("types", [])), rec.get("description", "")], 13))
 		else:
 			_content.add_child(UIFactory.make_label("• ??? (undiscovered)", 13, Color("#888")))
+
+## Simplified storage box: deposit team members / withdraw boxed creatures.
+func _view_storage() -> void:
+	var maxsize: int = int(DataRegistry.party_cfg().get("max_team_size", 6))
+	_header("Storage — Team %d/%d, Box %d" % [GameState.team.size(), maxsize, GameState.box.size()])
+	_content.add_child(UIFactory.make_label("Team (select to deposit into the box):", 15))
+	if GameState.team.size() <= 1:
+		_content.add_child(UIFactory.make_label("You must keep at least one creature with you.", 13, Color("#888")))
+	for i in GameState.team.size():
+		var c: CreatureInstance = GameState.team[i]
+		var b := UIFactory.make_button("▼ %s  Lv%d  HP %d/%d" % [c.display_name(), c.level, c.current_hp, c.max_hp()])
+		b.pressed.connect(func():
+			if GameState.deposit_creature(i):
+				AudioManager.play_sfx("confirm")
+			else:
+				AudioManager.play_sfx("cancel")
+			_view_storage())
+		_content.add_child(b)
+	_content.add_child(UIFactory.make_label("Box (select to withdraw into the team):", 15))
+	if GameState.box.is_empty():
+		_content.add_child(UIFactory.make_label("The box is empty.", 13, Color("#888")))
+	for i in GameState.box.size():
+		var c: CreatureInstance = GameState.box[i]
+		var b := UIFactory.make_button("▲ %s  Lv%d  HP %d/%d" % [c.display_name(), c.level, c.current_hp, c.max_hp()])
+		b.pressed.connect(func():
+			if GameState.withdraw_creature(i):
+				AudioManager.play_sfx("confirm")
+			else:
+				AudioManager.play_sfx("cancel")
+			_view_storage())
+		_content.add_child(b)
 
 func _view_save() -> void:
 	_header("Save Game")
