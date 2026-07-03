@@ -1,0 +1,714 @@
+{
+  "$schema_version": 1,
+  "description": "Townsfolk conversations placed on each region's Crossroads.",
+  "dialogs": [
+    {
+      "id": "town_verdantia_elder",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "elder",
+          "lines": [
+            "Old Perisel: I've watched trainers leave this town for forty springs.",
+            "Old Perisel: The ones who came back changed always visited the Verdant Glade first. Funny, that."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_verdantia_kid",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "kid",
+          "lines": [
+            "Tavi: Are you gonna be a Champion?! My brother said the League has EIGHT gyms per region now!",
+            "Tavi: Eight! That's like... a whole lot of eight!"
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_verdantia_merchant",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "merchant",
+          "lines": [
+            "Onna: Fresh orbs, salves, the works. A trainer crossing nine regions needs a full bag.",
+            "Onna: Word to the wise — the northern roads aren't as safe as they were."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_verdantia_fan",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "fan",
+          "lines": [
+            "Bem: You know the Verdantia meadows hold creatures found nowhere else?",
+            "Bem: Every region does. Two thousand species, they reckon, and still counting."
+          ],
+          "choices": [
+            {
+              "text": "Two thousand? I'll catch them all.",
+              "actions": [
+                {
+                  "kind": "adjust_relationship",
+                  "npc": "bem",
+                  "delta": 1
+                }
+              ],
+              "next": "reply_0"
+            },
+            {
+              "text": "I only need six good ones.",
+              "actions": [],
+              "next": "reply_1"
+            }
+          ]
+        },
+        {
+          "id": "reply_0",
+          "entry": false,
+          "portrait": "fan",
+          "lines": [
+            "Bem: Ha! Spoken like a true field naturalist. I'll be watching your Pokédex."
+          ],
+          "next": ""
+        },
+        {
+          "id": "reply_1",
+          "entry": false,
+          "portrait": "fan",
+          "lines": [
+            "Bem: A purist. The old masters would approve."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_aquilon_elder",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "elder",
+          "lines": [
+            "Sella: My husband tended the Frostwatch Lighthouse till the sea took him. The little light-creature still keeps it lit.",
+            "Sella: Loyalty outlasts us. Remember that when you bond with yours."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_aquilon_kid",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "kid",
+          "lines": [
+            "Pim: The gym leaders here are TOUGH. Tidecaller nearly swept my whole team!",
+            "Pim: You gotta beat all eight to even reach the League corridor, y'know."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_aquilon_sailor",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "sailor",
+          "lines": [
+            "Krael: Gray coats came through on the last ferry. Didn't like the look of 'em.",
+            "Krael: 'The Hollow Order,' they called themselves. Collectin' debts nobody owed."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_aquilon_fan",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "fan",
+          "lines": [
+            "Ives: Nine regions, one road. I'm mapping every port between them.",
+            "Ives: Beat a region's Champion and its northern ferry opens. That's the whole spine of the world."
+          ],
+          "choices": [
+            {
+              "text": "Where does the road end?",
+              "actions": [],
+              "next": "reply_0"
+            },
+            {
+              "text": "I'll map it with my feet.",
+              "actions": [
+                {
+                  "kind": "adjust_relationship",
+                  "npc": "ives",
+                  "delta": 1
+                }
+              ],
+              "next": "reply_1"
+            }
+          ]
+        },
+        {
+          "id": "reply_0",
+          "entry": false,
+          "portrait": "fan",
+          "lines": [
+            "Ives: Zephyra. The sky steppes. After that... you carry the map yourself."
+          ],
+          "next": ""
+        },
+        {
+          "id": "reply_1",
+          "entry": false,
+          "portrait": "fan",
+          "lines": [
+            "Ives: A walker! Send word from the far north, would you?"
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_cindral_elder",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "elder",
+          "lines": [
+            "Tolz: The Ashfall Caldera breathes, traveler. Cinders fall upward on the hottest nights.",
+            "Tolz: Fire that endures beats fire that rages. Ask any old ember-creature."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_cindral_kid",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "kid",
+          "lines": [
+            "Wen: A lady in a gray coat asked me to 'lend' her my creature. I said NO WAY!",
+            "Wen: She had the coldest eyes. Be careful out in the wilds."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_cindral_miner",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "miner",
+          "lines": [
+            "Hob: The ore veins here hum. The creatures that live in 'em hum back.",
+            "Hob: Dig long enough and you learn to listen. Same with a good team."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_cindral_fan",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "fan",
+          "lines": [
+            "Cael: They say a defector named Sable is warning trainers about the Hollow Order.",
+            "Cael: If you meet them at the gate — listen. They know things the rest of us don't."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_solane_elder",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "elder",
+          "lines": [
+            "Riss: Two oases shimmer at the Mirage Oasis. Only one holds water. Choose with your eyes closed.",
+            "Riss: The desert rewards the sure, not the swift."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_solane_kid",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "kid",
+          "lines": [
+            "Lu: I saw a Hollow agent get chased off by a wild pack! Even the creatures don't like 'em!"
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_solane_nomad",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "nomad",
+          "lines": [
+            "Ode: I've crossed four regions with the same team. We keep our real levels; the regions just... balance us.",
+            "Ode: A soft cap, they call it. Keeps a strong traveler from trampling a new land."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_solane_fan",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "fan",
+          "lines": [
+            "Sett: Heard the Order has a Lieutenant now. Mourn. Waits somewhere in Umbra's grove.",
+            "Sett: Tragic figure, by all accounts. Doesn't make him easy."
+          ],
+          "choices": [
+            {
+              "text": "Where in Umbra exactly?",
+              "actions": [],
+              "next": "reply_0"
+            },
+            {
+              "text": "I'll find him myself.",
+              "actions": [],
+              "next": "reply_1"
+            }
+          ]
+        },
+        {
+          "id": "reply_0",
+          "entry": false,
+          "portrait": "fan",
+          "lines": [
+            "Sett: The Duskbell Grove. Where the bells ring with no hand. You'll feel it."
+          ],
+          "next": ""
+        },
+        {
+          "id": "reply_1",
+          "entry": false,
+          "portrait": "fan",
+          "lines": [
+            "Sett: Course you will, hero."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_umbra_elder",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "elder",
+          "lines": [
+            "Vane: Stay for the dusk bell at the Duskbell Grove. It rings once, for everyone.",
+            "Vane: The Order's Lieutenant lingers there now. He never stays for the bell either."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_umbra_kid",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "kid",
+          "lines": [
+            "Nix: The creatures here glow at night! Umbra's the prettiest scary place ever."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_umbra_watcher",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "watcher",
+          "lines": [
+            "Oru: Mourn passed through. Said he joined the Order to stop feeling hollow.",
+            "Oru: It only spread, he said. Sad man. Strong team, though — mind yourself."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_umbra_fan",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "fan",
+          "lines": [
+            "Sile: They say your choices ripple, trainer. How you treat a rival. Whether you show mercy.",
+            "Sile: The world remembers. I've seen a dozen different endings walk out of these woods."
+          ],
+          "choices": [
+            {
+              "text": "My choices are my own.",
+              "actions": [
+                {
+                  "kind": "adjust_relationship",
+                  "npc": "sile",
+                  "delta": 1
+                }
+              ],
+              "next": "reply_0"
+            },
+            {
+              "text": "Endings? Tell me more.",
+              "actions": [],
+              "next": "reply_1"
+            }
+          ]
+        },
+        {
+          "id": "reply_0",
+          "entry": false,
+          "portrait": "fan",
+          "lines": [
+            "Sile: As they should be. That's rather the point."
+          ],
+          "next": ""
+        },
+        {
+          "id": "reply_1",
+          "entry": false,
+          "portrait": "fan",
+          "lines": [
+            "Sile: No, no. You write yours by living it. Go on."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_ferrock_elder",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "elder",
+          "lines": [
+            "Gann: Every anvil in Ferrock was struck first at the The Old Foundry. The creatures who worked it never left.",
+            "Gann: Partnership, not ownership. The ones who forgot always left with less."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_ferrock_kid",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "kid",
+          "lines": [
+            "Reya: I wanna be the Stormsmith someday and run the electric gym! Zap zap!"
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_ferrock_smith",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "smith",
+          "lines": [
+            "Dex: Strong things are simple things, kept. A team. A promise. A hammer.",
+            "Dex: The Order forgot 'kept.' They only ever took."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_ferrock_fan",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "fan",
+          "lines": [
+            "Ims: Two of the Order's agents already fell to some traveler. Vole, then Cinder.",
+            "Ims: If that's you — the third, Wisp, hides in Lumen's crystal deeps."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_brume_elder",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "elder",
+          "lines": [
+            "Morrow: The The Sunken Chapel drowned with a whole town kneeling in it. The bell still tolls under the reeds.",
+            "Morrow: In Brume, nothing's lost. It only goes quiet a while."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_brume_kid",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "kid",
+          "lines": [
+            "Ply: The fog talks if you listen! ...Okay, maybe it's just the creatures. But maybe not!"
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_brume_priest",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "priest",
+          "lines": [
+            "Sen: Grief and mist look alike from far off. Up close, both can be walked through.",
+            "Sen: Whatever weighs on you, traveler — the fen has carried heavier."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_brume_fan",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "fan",
+          "lines": [
+            "Vell: The Archon waits past Zephyra now. Done sending others.",
+            "Vell: When you face them, remember: they were a trainer once. Like you. Like Mourn."
+          ],
+          "choices": [
+            {
+              "text": "I'll end the Order for good.",
+              "actions": [
+                {
+                  "kind": "set_var",
+                  "var": "order_stance",
+                  "value": "justice"
+                }
+              ],
+              "next": "reply_0"
+            },
+            {
+              "text": "Maybe it can be mended.",
+              "actions": [
+                {
+                  "kind": "set_var",
+                  "var": "order_stance",
+                  "value": "mercy"
+                }
+              ],
+              "next": "reply_1"
+            }
+          ]
+        },
+        {
+          "id": "reply_0",
+          "entry": false,
+          "portrait": "fan",
+          "lines": [
+            "Vell: Clean and final. The roads would thank you."
+          ],
+          "next": ""
+        },
+        {
+          "id": "reply_1",
+          "entry": false,
+          "portrait": "fan",
+          "lines": [
+            "Vell: ...Maybe you're the one who can. Few would try."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_lumen_elder",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "elder",
+          "lines": [
+            "Lux: Look into the Prism Cavern's crystals and you'll see a day the valley kept for you.",
+            "Lux: The kind trainers shine longer in the stone. I've watched thousands pass."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_lumen_kid",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "kid",
+          "lines": [
+            "Ami: The rocks glow rainbow! I wanna catch one that glows just like them!"
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_lumen_guide",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "guide",
+          "lines": [
+            "Oss: The last Hollow agent, Wisp, is here in the deeps. End the cell, traveler.",
+            "Oss: After Wisp, only the Lieutenant and the Archon remain."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_lumen_fan",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "fan",
+          "lines": [
+            "Pia: They say a sky-spirit — Aetherion — visits Zephyra's shrine once a generation.",
+            "Pia: Ultra rare. Most trainers only ever see it in a story. Will you?"
+          ],
+          "choices": [
+            {
+              "text": "I'll be the one who catches it.",
+              "actions": [
+                {
+                  "kind": "adjust_relationship",
+                  "npc": "pia",
+                  "delta": 1
+                }
+              ],
+              "next": "reply_0"
+            },
+            {
+              "text": "Some things should stay legends.",
+              "actions": [],
+              "next": "reply_1"
+            }
+          ]
+        },
+        {
+          "id": "reply_0",
+          "entry": false,
+          "portrait": "fan",
+          "lines": [
+            "Pia: Then climb high and watch the quiet skies. I believe you."
+          ],
+          "next": ""
+        },
+        {
+          "id": "reply_1",
+          "entry": false,
+          "portrait": "fan",
+          "lines": [
+            "Pia: ...A rare kind of wisdom. The shrine would like you."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_zephyra_elder",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "elder",
+          "lines": [
+            "Elah: You climbed nine regions to reach this wind. Breathe it. You earned the height.",
+            "Elah: The Skyreach Shrine is the last floor a trainer stands on and is still called grounded."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_zephyra_kid",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "kid",
+          "lines": [
+            "Bit: The Champion's up top and she's got FIVE creatures! Five! You beat all four Elites first though."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_zephyra_skywatch",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "skywatch",
+          "lines": [
+            "Corr: The Archon's out in our wilds. Whatever you decide up there — decide it clear-eyed.",
+            "Corr: Mercy or justice, the steppe will carry the story either way."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_zephyra_fan",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "fan",
+          "lines": [
+            "Nel: Nine crests. One unbroken road. If you've carried a team the whole way...",
+            "Nel: ...then you're not far from a legend they'll tell at every gate you passed."
+          ],
+          "next": ""
+        }
+      ]
+    }
+  ]
+}

@@ -246,6 +246,38 @@
       "id": "from_landmark",
       "x": 1,
       "y": 1
+    },
+    {
+      "type": "npc",
+      "x": 4,
+      "y": 2,
+      "npc_id": "verdantia_folk_0",
+      "sprite": "npc_villager",
+      "dialog_id": "town_verdantia_elder"
+    },
+    {
+      "type": "npc",
+      "x": 11,
+      "y": 2,
+      "npc_id": "verdantia_folk_1",
+      "sprite": "npc_kid",
+      "dialog_id": "town_verdantia_kid"
+    },
+    {
+      "type": "npc",
+      "x": 4,
+      "y": 6,
+      "npc_id": "verdantia_folk_2",
+      "sprite": "npc_clerk",
+      "dialog_id": "town_verdantia_merchant"
+    },
+    {
+      "type": "npc",
+      "x": 11,
+      "y": 6,
+      "npc_id": "verdantia_folk_3",
+      "sprite": "npc_villager",
+      "dialog_id": "town_verdantia_fan"
     }
   ]
 }
