@@ -9,15 +9,54 @@
       "auto_start": true,
       "description": "Begin your journey, grow a team, and earn the Verdant Badge.",
       "objectives": [
-        { "id": "obj_starter", "text": "Choose a starter from Professor Maple.", "condition": { "kind": "flag", "flag": "got_starter" } },
-        { "id": "obj_catch",   "text": "Catch a wild creature.", "condition": { "kind": "counter", "counter": "creatures_caught", "at_least": 1 } },
-        { "id": "obj_scout",   "text": "Defeat Scout Perrin on Route 1.", "condition": { "kind": "flag", "flag": "beat_route_scout" } },
-        { "id": "obj_badge",   "text": "Defeat Warden Sable and earn the Verdant Badge.", "condition": { "kind": "flag", "flag": "beat_gym_verdantia" } }
+        {
+          "id": "obj_starter",
+          "text": "Choose a starter from Professor Maple.",
+          "condition": {
+            "kind": "flag",
+            "flag": "got_starter"
+          }
+        },
+        {
+          "id": "obj_catch",
+          "text": "Catch a wild creature.",
+          "condition": {
+            "kind": "counter",
+            "counter": "creatures_caught",
+            "at_least": 1
+          }
+        },
+        {
+          "id": "obj_scout",
+          "text": "Defeat Scout Perrin on Route 1.",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_route_scout"
+          }
+        },
+        {
+          "id": "obj_badge",
+          "text": "Defeat Warden Sable and earn the Verdant Badge.",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_gym_verdantia"
+          }
+        }
       ],
       "rewards": [
-        { "kind": "money", "amount": 500 },
-        { "kind": "item", "item": "great_orb", "quantity": 3 },
-        { "kind": "unlock_region", "region": "aquilon" }
+        {
+          "kind": "money",
+          "amount": 500
+        },
+        {
+          "kind": "item",
+          "item": "great_orb",
+          "quantity": 3
+        },
+        {
+          "kind": "unlock_region",
+          "region": "aquilon"
+        }
       ],
       "on_complete_flag": "quest_verdant_done"
     },
@@ -28,9 +67,23 @@
       "auto_start": true,
       "description": "The town kid wants to know what lives in the grass.",
       "objectives": [
-        { "id": "obj_catch3", "text": "Catch 3 creatures.", "condition": { "kind": "counter", "counter": "creatures_caught", "at_least": 3 } }
+        {
+          "id": "obj_catch3",
+          "text": "Catch 3 creatures.",
+          "condition": {
+            "kind": "counter",
+            "counter": "creatures_caught",
+            "at_least": 3
+          }
+        }
       ],
-      "rewards": [ { "kind": "item", "item": "super_potion", "quantity": 2 } ],
+      "rewards": [
+        {
+          "kind": "item",
+          "item": "super_potion",
+          "quantity": 2
+        }
+      ],
       "on_complete_flag": "quest_field_study_done"
     },
     {
@@ -38,14 +91,43 @@
       "display_name": "Northern Passage",
       "category": "main",
       "auto_start": false,
-      "start_condition": { "kind": "flag", "flag": "quest_verdant_done" },
+      "start_condition": {
+        "kind": "flag",
+        "flag": "quest_verdant_done"
+      },
       "description": "Cross to Aquilon and prove yourself to Tactician Wrenn.",
       "objectives": [
-        { "id": "obj_reach_aquilon", "text": "Travel to Aquilon Shore.", "condition": { "kind": "flag", "flag": "visited_aquilon" } },
-        { "id": "obj_wrenn", "text": "Defeat Tactician Wrenn on the Ridge.", "condition": { "kind": "flag", "flag": "beat_aquilon_gatekeeper" } },
-        { "id": "obj_return", "text": "Return to Verdantia at least once.", "condition": { "kind": "flag", "flag": "returned_to_verdantia" } }
+        {
+          "id": "obj_reach_aquilon",
+          "text": "Travel to Aquilon Shore.",
+          "condition": {
+            "kind": "flag",
+            "flag": "visited_aquilon"
+          }
+        },
+        {
+          "id": "obj_wrenn",
+          "text": "Defeat Tactician Wrenn on the Ridge.",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_aquilon_gatekeeper"
+          }
+        },
+        {
+          "id": "obj_return",
+          "text": "Return to Verdantia at least once.",
+          "condition": {
+            "kind": "flag",
+            "flag": "returned_to_verdantia"
+          }
+        }
       ],
-      "rewards": [ { "kind": "money", "amount": 1000 } ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 1000
+        }
+      ],
       "on_complete_flag": "quest_aquilon_done"
     },
     {
@@ -53,13 +135,348 @@
       "display_name": "The Summit Challenge",
       "category": "main",
       "auto_start": false,
-      "start_condition": { "kind": "flag", "flag": "beat_aquilon_gatekeeper" },
+      "start_condition": {
+        "kind": "flag",
+        "flag": "beat_aquilon_gatekeeper"
+      },
       "description": "Wrenn has opened the Summit Hall. Face Champion Isolde and claim the Aquilon Crest.",
       "objectives": [
-        { "id": "obj_champion", "text": "Defeat Champion Isolde in the Summit Hall.", "condition": { "kind": "flag", "flag": "beat_aquilon_champion" } }
+        {
+          "id": "obj_champion",
+          "text": "Defeat Champion Isolde in the Summit Hall.",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_aquilon_champion"
+          }
+        }
       ],
-      "rewards": [ { "kind": "money", "amount": 1500 }, { "kind": "item", "item": "great_orb", "quantity": 5 } ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 1500
+        },
+        {
+          "kind": "item",
+          "item": "great_orb",
+          "quantity": 5
+        },
+        {
+          "kind": "unlock_region",
+          "region": "cindral"
+        }
+      ],
       "on_complete_flag": "quest_league_done"
+    },
+    {
+      "id": "main_cindral",
+      "display_name": "The Cindral Crest",
+      "category": "main",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_cindral"
+      },
+      "description": "Cross the volcanic slopes of Cindral and claim its crest.",
+      "objectives": [
+        {
+          "id": "obj_scout",
+          "text": "Defeat the Scout in the Cindral Wilds.",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_cindral_scout"
+          }
+        },
+        {
+          "id": "obj_champion",
+          "text": "Defeat the Champion of Cindral.",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_cindral_champion"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 1000
+        },
+        {
+          "kind": "item",
+          "item": "great_orb",
+          "quantity": 3
+        },
+        {
+          "kind": "unlock_region",
+          "region": "solane"
+        }
+      ],
+      "on_complete_flag": "quest_cindral_done"
+    },
+    {
+      "id": "main_solane",
+      "display_name": "The Solane Crest",
+      "category": "main",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_solane"
+      },
+      "description": "Cross the sun-baked dunes of Solane and claim its crest.",
+      "objectives": [
+        {
+          "id": "obj_scout",
+          "text": "Defeat the Scout in the Solane Wilds.",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_solane_scout"
+          }
+        },
+        {
+          "id": "obj_champion",
+          "text": "Defeat the Champion of Solane.",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_solane_champion"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 1200
+        },
+        {
+          "kind": "item",
+          "item": "great_orb",
+          "quantity": 3
+        },
+        {
+          "kind": "unlock_region",
+          "region": "umbra"
+        }
+      ],
+      "on_complete_flag": "quest_solane_done"
+    },
+    {
+      "id": "main_umbra",
+      "display_name": "The Umbra Crest",
+      "category": "main",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_umbra"
+      },
+      "description": "Cross the twilight woods of Umbra and claim its crest.",
+      "objectives": [
+        {
+          "id": "obj_scout",
+          "text": "Defeat the Scout in the Umbra Wilds.",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_umbra_scout"
+          }
+        },
+        {
+          "id": "obj_champion",
+          "text": "Defeat the Champion of Umbra.",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_umbra_champion"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 1400
+        },
+        {
+          "kind": "item",
+          "item": "great_orb",
+          "quantity": 3
+        },
+        {
+          "kind": "unlock_region",
+          "region": "ferrock"
+        }
+      ],
+      "on_complete_flag": "quest_umbra_done"
+    },
+    {
+      "id": "main_ferrock",
+      "display_name": "The Ferrock Crest",
+      "category": "main",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_ferrock"
+      },
+      "description": "Cross the iron hills of Ferrock and claim its crest.",
+      "objectives": [
+        {
+          "id": "obj_scout",
+          "text": "Defeat the Scout in the Ferrock Wilds.",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_ferrock_scout"
+          }
+        },
+        {
+          "id": "obj_champion",
+          "text": "Defeat the Champion of Ferrock.",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_ferrock_champion"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 1600
+        },
+        {
+          "kind": "item",
+          "item": "great_orb",
+          "quantity": 3
+        },
+        {
+          "kind": "unlock_region",
+          "region": "brume"
+        }
+      ],
+      "on_complete_flag": "quest_ferrock_done"
+    },
+    {
+      "id": "main_brume",
+      "display_name": "The Brume Crest",
+      "category": "main",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_brume"
+      },
+      "description": "Cross the misty fens of Brume and claim its crest.",
+      "objectives": [
+        {
+          "id": "obj_scout",
+          "text": "Defeat the Scout in the Brume Wilds.",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_brume_scout"
+          }
+        },
+        {
+          "id": "obj_champion",
+          "text": "Defeat the Champion of Brume.",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_brume_champion"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 1800
+        },
+        {
+          "kind": "item",
+          "item": "great_orb",
+          "quantity": 3
+        },
+        {
+          "kind": "unlock_region",
+          "region": "lumen"
+        }
+      ],
+      "on_complete_flag": "quest_brume_done"
+    },
+    {
+      "id": "main_lumen",
+      "display_name": "The Lumen Crest",
+      "category": "main",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_lumen"
+      },
+      "description": "Cross the crystal vale of Lumen and claim its crest.",
+      "objectives": [
+        {
+          "id": "obj_scout",
+          "text": "Defeat the Scout in the Lumen Wilds.",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_lumen_scout"
+          }
+        },
+        {
+          "id": "obj_champion",
+          "text": "Defeat the Champion of Lumen.",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_lumen_champion"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 2000
+        },
+        {
+          "kind": "item",
+          "item": "great_orb",
+          "quantity": 3
+        },
+        {
+          "kind": "unlock_region",
+          "region": "zephyra"
+        }
+      ],
+      "on_complete_flag": "quest_lumen_done"
+    },
+    {
+      "id": "main_zephyra",
+      "display_name": "The Zephyra Crest",
+      "category": "main",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_zephyra"
+      },
+      "description": "Cross the sky steppes of Zephyra and claim its crest.",
+      "objectives": [
+        {
+          "id": "obj_scout",
+          "text": "Defeat the Scout in the Zephyra Wilds.",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_zephyra_scout"
+          }
+        },
+        {
+          "id": "obj_champion",
+          "text": "Defeat the Champion of Zephyra.",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_zephyra_champion"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 2200
+        },
+        {
+          "kind": "item",
+          "item": "great_orb",
+          "quantity": 3
+        }
+      ],
+      "on_complete_flag": "quest_zephyra_done"
     }
   ]
 }

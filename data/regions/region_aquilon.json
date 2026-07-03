@@ -8,7 +8,9 @@
   "recommended_level_max": 30,
   "badge_count": 1,
   "league_id": "aquilon_league",
-  "next_regions": [],
+  "next_regions": [
+    "cindral"
+  ],
   "maps": [
     "aquilon_shore",
     "aquilon_ridge",

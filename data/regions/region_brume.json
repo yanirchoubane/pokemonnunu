@@ -1,0 +1,25 @@
+{
+  "$schema_version": 1,
+  "id": "brume",
+  "display_name": "Brume",
+  "order": 7,
+  "starting_map": "brume_gate",
+  "recommended_level_min": 38,
+  "recommended_level_max": 48,
+  "badge_count": 1,
+  "league_id": "brume_league",
+  "next_regions": [
+    "lumen"
+  ],
+  "maps": [
+    "brume_gate",
+    "brume_wilds",
+    "brume_hall"
+  ],
+  "regional_rules": {
+    "level_scaling": "soft",
+    "encounter_table": "brume_encounters",
+    "allow_previous_team": true,
+    "obedience_cap_level": 58
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "$schema_version": 1,
+  "id": "umbra_hall",
+  "display_name": "Umbra Summit Hall",
+  "region": "umbra",
+  "bgm": "town",
+  "tile_size": 32,
+  "legend": {
+    "#": "wall",
+    ".": "floor",
+    "D": "door"
+  },
+  "rows": [
+    "####D####",
+    "#.......#",
+    "#.......#",
+    "#.......#",
+    "#.......#",
+    "#.......#",
+    "####D####"
+  ],
+  "objects": [
+    {
+      "type": "spawn",
+      "id": "entrance",
+      "x": 4,
+      "y": 5
+    },
+    {
+      "type": "spawn",
+      "id": "from_next",
+      "x": 4,
+      "y": 1
+    },
+    {
+      "type": "door",
+      "x": 4,
+      "y": 6,
+      "to_map": "umbra_wilds",
+      "to_spawn": "from_hall"
+    },
+    {
+      "type": "trainer",
+      "x": 4,
+      "y": 2,
+      "trainer_id": "umbra_champion",
+      "sprite": "trainer_champion",
+      "sight": 2,
+      "facing": "down",
+      "flag": "beat_umbra_champion"
+    },
+    {
+      "type": "sign",
+      "x": 2,
+      "y": 1,
+      "text": "Umbra Summit Hall — the Umbra Crest awaits."
+    },
+    {
+      "type": "door",
+      "x": 4,
+      "y": 0,
+      "to_map": "ferrock_gate",
+      "to_spawn": "port",
+      "requires_flag": "beat_umbra_champion",
+      "locked_text": "The northern port opens to crest-bearers only."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "$schema_version": 1,
+  "id": "ferrock",
+  "display_name": "Ferrock",
+  "order": 6,
+  "starting_map": "ferrock_gate",
+  "recommended_level_min": 32,
+  "recommended_level_max": 42,
+  "badge_count": 1,
+  "league_id": "ferrock_league",
+  "next_regions": [
+    "brume"
+  ],
+  "maps": [
+    "ferrock_gate",
+    "ferrock_wilds",
+    "ferrock_hall"
+  ],
+  "regional_rules": {
+    "level_scaling": "soft",
+    "encounter_table": "ferrock_encounters",
+    "allow_previous_team": true,
+    "obedience_cap_level": 52
+  }
+}

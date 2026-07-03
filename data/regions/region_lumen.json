@@ -1,0 +1,25 @@
+{
+  "$schema_version": 1,
+  "id": "lumen",
+  "display_name": "Lumen",
+  "order": 8,
+  "starting_map": "lumen_gate",
+  "recommended_level_min": 44,
+  "recommended_level_max": 54,
+  "badge_count": 1,
+  "league_id": "lumen_league",
+  "next_regions": [
+    "zephyra"
+  ],
+  "maps": [
+    "lumen_gate",
+    "lumen_wilds",
+    "lumen_hall"
+  ],
+  "regional_rules": {
+    "level_scaling": "soft",
+    "encounter_table": "lumen_encounters",
+    "allow_previous_team": true,
+    "obedience_cap_level": 64
+  }
+}

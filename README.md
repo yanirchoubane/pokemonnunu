@@ -19,7 +19,12 @@ JSON files that are validated at boot. You can add content without touching engi
 - ✅ Data validation catches duplicate ids, dangling references, unknown types/moves,
   circular evolutions, bad stats, malformed maps (`python3 tools/validators/validate_data.py`).
 - 🟩 Full playable loop: title → new game → starter → overworld → wild & trainer battles →
-  capture → level up → evolution → quest completion → travel to region 2 → return → save/load.
+  capture → level up → evolution → quest completion → inter-region travel → return → save/load.
+- ✅ **Nine connected regions** (Verdantia → Aquilon → Cindral → Solane → Umbra → Ferrock →
+  Brume → Lumen → Zephyra): each with a gate town (heal + shop), wilds (encounters + scout),
+  and a Summit Hall (boss champion + crest badge), chained by flag-gated ports with return
+  trips. The whole chain's walkability is **verified by a BFS simulation** over the map data.
+  26 original creatures, 19 trainers, 30 maps, 11 quests, 4 endings.
 
 Because Godot may not be installed where this was authored, **scene-level runtime testing
 is done in the Godot editor** (below). The engine-independent core is verified now via the
@@ -127,6 +132,9 @@ Add to `data/trainers/trainers.json`: `id`, `ai` tier, a `team[]` (each with `cr
 See [`REGION_CREATION_GUIDE.md`](REGION_CREATION_GUIDE.md). In short: drop a
 `data/regions/region_<id>.json` manifest and one or more `data/regions/maps/<id>.json` grid
 maps, and connect them with `warp`/`door` objects. `next_regions` links regions together.
+For a full scaffold (three maps, encounter table, scout + boss trainers, quest, port
+wiring), add a spec to `tools/generators/generate_regions.py` and re-run it — that is how
+regions 3–9 were produced. The generator is idempotent (records upsert by id).
 
 ### Create a save
 Play, open the pause menu (Esc) → **Save**, pick a slot. Autosave fires after each battle.

@@ -1,0 +1,99 @@
+{
+  "$schema_version": 1,
+  "id": "ferrock_gate",
+  "display_name": "Ferrock Gate",
+  "region": "ferrock",
+  "bgm": "town",
+  "tile_size": 32,
+  "legend": {
+    "#": "wall",
+    ".": "ground",
+    "D": "door",
+    "H": "heal_pad"
+  },
+  "rows": [
+    "############",
+    "#..........#",
+    "#..H.......#",
+    "D..........D",
+    "#..........#",
+    "#..........#",
+    "############"
+  ],
+  "objects": [
+    {
+      "type": "spawn",
+      "id": "port",
+      "x": 1,
+      "y": 3
+    },
+    {
+      "type": "spawn",
+      "id": "from_wilds",
+      "x": 10,
+      "y": 3
+    },
+    {
+      "type": "spawn",
+      "id": "default",
+      "x": 5,
+      "y": 4
+    },
+    {
+      "type": "door",
+      "x": 0,
+      "y": 3,
+      "to_map": "umbra_hall",
+      "to_spawn": "from_next"
+    },
+    {
+      "type": "door",
+      "x": 11,
+      "y": 3,
+      "to_map": "ferrock_wilds",
+      "to_spawn": "from_gate"
+    },
+    {
+      "type": "heal",
+      "x": 3,
+      "y": 2,
+      "sets_respawn": true,
+      "respawn_spawn": "default"
+    },
+    {
+      "type": "shop",
+      "x": 8,
+      "y": 2,
+      "npc_id": "ferrock_clerk",
+      "sprite": "npc_clerk",
+      "stock": [
+        "capture_orb",
+        "great_orb",
+        "potion",
+        "super_potion",
+        "antidote",
+        "revive"
+      ],
+      "dialogue": [
+        "Clerk: Welcome to Ferrock! Gear up for the iron hills."
+      ]
+    },
+    {
+      "type": "npc",
+      "x": 6,
+      "y": 2,
+      "npc_id": "ferrock_greeter",
+      "sprite": "npc_villager",
+      "dialogue": [
+        "Greeter: Ferrock lies ahead — iron hills as far as the eye can see.",
+        "The Summit Hall only opens to those the wilds have tested."
+      ]
+    },
+    {
+      "type": "sign",
+      "x": 2,
+      "y": 4,
+      "text": "Ferrock Gate — west: the port home. East: the wilds."
+    }
+  ]
+}

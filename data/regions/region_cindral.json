@@ -1,0 +1,25 @@
+{
+  "$schema_version": 1,
+  "id": "cindral",
+  "display_name": "Cindral",
+  "order": 3,
+  "starting_map": "cindral_gate",
+  "recommended_level_min": 14,
+  "recommended_level_max": 24,
+  "badge_count": 1,
+  "league_id": "cindral_league",
+  "next_regions": [
+    "solane"
+  ],
+  "maps": [
+    "cindral_gate",
+    "cindral_wilds",
+    "cindral_hall"
+  ],
+  "regional_rules": {
+    "level_scaling": "soft",
+    "encounter_table": "cindral_encounters",
+    "allow_previous_team": true,
+    "obedience_cap_level": 34
+  }
+}

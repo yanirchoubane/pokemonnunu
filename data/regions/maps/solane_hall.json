@@ -1,0 +1,68 @@
+{
+  "$schema_version": 1,
+  "id": "solane_hall",
+  "display_name": "Solane Summit Hall",
+  "region": "solane",
+  "bgm": "town",
+  "tile_size": 32,
+  "legend": {
+    "#": "wall",
+    ".": "floor",
+    "D": "door"
+  },
+  "rows": [
+    "####D####",
+    "#.......#",
+    "#.......#",
+    "#.......#",
+    "#.......#",
+    "#.......#",
+    "####D####"
+  ],
+  "objects": [
+    {
+      "type": "spawn",
+      "id": "entrance",
+      "x": 4,
+      "y": 5
+    },
+    {
+      "type": "spawn",
+      "id": "from_next",
+      "x": 4,
+      "y": 1
+    },
+    {
+      "type": "door",
+      "x": 4,
+      "y": 6,
+      "to_map": "solane_wilds",
+      "to_spawn": "from_hall"
+    },
+    {
+      "type": "trainer",
+      "x": 4,
+      "y": 2,
+      "trainer_id": "solane_champion",
+      "sprite": "trainer_champion",
+      "sight": 2,
+      "facing": "down",
+      "flag": "beat_solane_champion"
+    },
+    {
+      "type": "sign",
+      "x": 2,
+      "y": 1,
+      "text": "Solane Summit Hall — the Solane Crest awaits."
+    },
+    {
+      "type": "door",
+      "x": 4,
+      "y": 0,
+      "to_map": "umbra_gate",
+      "to_spawn": "port",
+      "requires_flag": "beat_solane_champion",
+      "locked_text": "The northern port opens to crest-bearers only."
+    }
+  ]
+}

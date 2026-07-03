@@ -1,0 +1,65 @@
+{
+  "$schema_version": 1,
+  "id": "zephyra_hall",
+  "display_name": "Zephyra Summit Hall",
+  "region": "zephyra",
+  "bgm": "town",
+  "tile_size": 32,
+  "legend": {
+    "#": "wall",
+    ".": "floor",
+    "D": "door"
+  },
+  "rows": [
+    "#########",
+    "#.......#",
+    "#.......#",
+    "#.......#",
+    "#.......#",
+    "#.......#",
+    "####D####"
+  ],
+  "objects": [
+    {
+      "type": "spawn",
+      "id": "entrance",
+      "x": 4,
+      "y": 5
+    },
+    {
+      "type": "spawn",
+      "id": "from_next",
+      "x": 4,
+      "y": 1
+    },
+    {
+      "type": "door",
+      "x": 4,
+      "y": 6,
+      "to_map": "zephyra_wilds",
+      "to_spawn": "from_hall"
+    },
+    {
+      "type": "trainer",
+      "x": 4,
+      "y": 2,
+      "trainer_id": "zephyra_champion",
+      "sprite": "trainer_champion",
+      "sight": 2,
+      "facing": "down",
+      "flag": "beat_zephyra_champion"
+    },
+    {
+      "type": "sign",
+      "x": 2,
+      "y": 1,
+      "text": "Zephyra Summit Hall — the Zephyra Crest awaits."
+    },
+    {
+      "type": "sign",
+      "x": 6,
+      "y": 1,
+      "text": "The charted world ends here... for now."
+    }
+  ]
+}

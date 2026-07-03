@@ -6,23 +6,327 @@
       "id": "verdantia_encounters",
       "region": "verdantia",
       "entries": [
-        { "creature": "zapmouse",  "weight": 35, "level_min": 2, "level_max": 5, "rarity": "common" },
-        { "creature": "pebblet",   "weight": 30, "level_min": 2, "level_max": 5, "rarity": "common" },
-        { "creature": "sproutkit", "weight": 15, "level_min": 3, "level_max": 6, "rarity": "uncommon" },
-        { "creature": "emberpup",  "weight": 10, "level_min": 3, "level_max": 6, "rarity": "uncommon" },
-        { "creature": "aquafin",   "weight": 10, "level_min": 3, "level_max": 6, "rarity": "uncommon" }
+        {
+          "creature": "zapmouse",
+          "weight": 35,
+          "level_min": 2,
+          "level_max": 5,
+          "rarity": "common"
+        },
+        {
+          "creature": "pebblet",
+          "weight": 30,
+          "level_min": 2,
+          "level_max": 5,
+          "rarity": "common"
+        },
+        {
+          "creature": "sproutkit",
+          "weight": 15,
+          "level_min": 3,
+          "level_max": 6,
+          "rarity": "uncommon"
+        },
+        {
+          "creature": "emberpup",
+          "weight": 10,
+          "level_min": 3,
+          "level_max": 6,
+          "rarity": "uncommon"
+        },
+        {
+          "creature": "aquafin",
+          "weight": 10,
+          "level_min": 3,
+          "level_max": 6,
+          "rarity": "uncommon"
+        }
       ]
     },
     {
       "id": "aquilon_encounters",
       "region": "aquilon",
       "entries": [
-        { "creature": "gustling", "weight": 30, "level_min": 8,  "level_max": 12, "rarity": "common" },
-        { "creature": "mistcalf", "weight": 22, "level_min": 9,  "level_max": 14, "rarity": "common" },
-        { "creature": "mistelk",  "weight": 3,  "level_min": 18, "level_max": 21, "rarity": "rare" },
-        { "creature": "psywisp",  "weight": 25, "level_min": 9,  "level_max": 13, "rarity": "uncommon" },
-        { "creature": "zapmouse", "weight": 20, "level_min": 8,  "level_max": 12, "rarity": "common" },
-        { "creature": "aquafin",  "weight": 15, "level_min": 9,  "level_max": 13, "rarity": "uncommon" }
+        {
+          "creature": "gustling",
+          "weight": 30,
+          "level_min": 8,
+          "level_max": 12,
+          "rarity": "common"
+        },
+        {
+          "creature": "mistcalf",
+          "weight": 22,
+          "level_min": 9,
+          "level_max": 14,
+          "rarity": "common"
+        },
+        {
+          "creature": "mistelk",
+          "weight": 3,
+          "level_min": 18,
+          "level_max": 21,
+          "rarity": "rare"
+        },
+        {
+          "creature": "psywisp",
+          "weight": 25,
+          "level_min": 9,
+          "level_max": 13,
+          "rarity": "uncommon"
+        },
+        {
+          "creature": "zapmouse",
+          "weight": 20,
+          "level_min": 8,
+          "level_max": 12,
+          "rarity": "common"
+        },
+        {
+          "creature": "aquafin",
+          "weight": 15,
+          "level_min": 9,
+          "level_max": 13,
+          "rarity": "uncommon"
+        }
+      ]
+    },
+    {
+      "id": "cindral_encounters",
+      "region": "cindral",
+      "entries": [
+        {
+          "creature": "cindermole",
+          "weight": 30,
+          "level_min": 14,
+          "level_max": 20,
+          "rarity": "common"
+        },
+        {
+          "creature": "ashvole",
+          "weight": 30,
+          "level_min": 14,
+          "level_max": 20,
+          "rarity": "common"
+        },
+        {
+          "creature": "emberpup",
+          "weight": 25,
+          "level_min": 14,
+          "level_max": 19,
+          "rarity": "common"
+        },
+        {
+          "creature": "pebblet",
+          "weight": 15,
+          "level_min": 16,
+          "level_max": 21,
+          "rarity": "uncommon"
+        }
+      ]
+    },
+    {
+      "id": "solane_encounters",
+      "region": "solane",
+      "entries": [
+        {
+          "creature": "duneling",
+          "weight": 30,
+          "level_min": 20,
+          "level_max": 26,
+          "rarity": "common"
+        },
+        {
+          "creature": "sunwisp",
+          "weight": 30,
+          "level_min": 20,
+          "level_max": 26,
+          "rarity": "common"
+        },
+        {
+          "creature": "zapmouse",
+          "weight": 25,
+          "level_min": 20,
+          "level_max": 25,
+          "rarity": "common"
+        },
+        {
+          "creature": "gustling",
+          "weight": 15,
+          "level_min": 22,
+          "level_max": 27,
+          "rarity": "uncommon"
+        }
+      ]
+    },
+    {
+      "id": "umbra_encounters",
+      "region": "umbra",
+      "entries": [
+        {
+          "creature": "gloomoth",
+          "weight": 30,
+          "level_min": 26,
+          "level_max": 32,
+          "rarity": "common"
+        },
+        {
+          "creature": "thornrat",
+          "weight": 30,
+          "level_min": 26,
+          "level_max": 32,
+          "rarity": "common"
+        },
+        {
+          "creature": "sproutkit",
+          "weight": 25,
+          "level_min": 26,
+          "level_max": 31,
+          "rarity": "common"
+        },
+        {
+          "creature": "psywisp",
+          "weight": 15,
+          "level_min": 28,
+          "level_max": 33,
+          "rarity": "uncommon"
+        }
+      ]
+    },
+    {
+      "id": "ferrock_encounters",
+      "region": "ferrock",
+      "entries": [
+        {
+          "creature": "boltram",
+          "weight": 30,
+          "level_min": 32,
+          "level_max": 38,
+          "rarity": "common"
+        },
+        {
+          "creature": "slagbeetle",
+          "weight": 30,
+          "level_min": 32,
+          "level_max": 38,
+          "rarity": "common"
+        },
+        {
+          "creature": "pebblet",
+          "weight": 25,
+          "level_min": 32,
+          "level_max": 37,
+          "rarity": "common"
+        },
+        {
+          "creature": "zapmouse",
+          "weight": 15,
+          "level_min": 34,
+          "level_max": 39,
+          "rarity": "uncommon"
+        }
+      ]
+    },
+    {
+      "id": "brume_encounters",
+      "region": "brume",
+      "entries": [
+        {
+          "creature": "fenling",
+          "weight": 30,
+          "level_min": 38,
+          "level_max": 44,
+          "rarity": "common"
+        },
+        {
+          "creature": "murkfin",
+          "weight": 30,
+          "level_min": 38,
+          "level_max": 44,
+          "rarity": "common"
+        },
+        {
+          "creature": "aquafin",
+          "weight": 25,
+          "level_min": 38,
+          "level_max": 43,
+          "rarity": "common"
+        },
+        {
+          "creature": "mistcalf",
+          "weight": 15,
+          "level_min": 40,
+          "level_max": 45,
+          "rarity": "uncommon"
+        }
+      ]
+    },
+    {
+      "id": "lumen_encounters",
+      "region": "lumen",
+      "entries": [
+        {
+          "creature": "glimshard",
+          "weight": 30,
+          "level_min": 44,
+          "level_max": 50,
+          "rarity": "common"
+        },
+        {
+          "creature": "prismole",
+          "weight": 30,
+          "level_min": 44,
+          "level_max": 50,
+          "rarity": "common"
+        },
+        {
+          "creature": "psywisp",
+          "weight": 25,
+          "level_min": 44,
+          "level_max": 49,
+          "rarity": "common"
+        },
+        {
+          "creature": "pebblet",
+          "weight": 15,
+          "level_min": 46,
+          "level_max": 51,
+          "rarity": "uncommon"
+        }
+      ]
+    },
+    {
+      "id": "zephyra_encounters",
+      "region": "zephyra",
+      "entries": [
+        {
+          "creature": "galehare",
+          "weight": 30,
+          "level_min": 50,
+          "level_max": 56,
+          "rarity": "common"
+        },
+        {
+          "creature": "stormkite",
+          "weight": 30,
+          "level_min": 50,
+          "level_max": 56,
+          "rarity": "common"
+        },
+        {
+          "creature": "gustling",
+          "weight": 25,
+          "level_min": 50,
+          "level_max": 55,
+          "rarity": "common"
+        },
+        {
+          "creature": "mistelk",
+          "weight": 15,
+          "level_min": 52,
+          "level_max": 57,
+          "rarity": "uncommon"
+        }
       ]
     }
   ]

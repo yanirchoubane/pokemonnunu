@@ -1,0 +1,99 @@
+{
+  "$schema_version": 1,
+  "id": "cindral_gate",
+  "display_name": "Cindral Gate",
+  "region": "cindral",
+  "bgm": "town",
+  "tile_size": 32,
+  "legend": {
+    "#": "wall",
+    ".": "ground",
+    "D": "door",
+    "H": "heal_pad"
+  },
+  "rows": [
+    "############",
+    "#..........#",
+    "#..H.......#",
+    "D..........D",
+    "#..........#",
+    "#..........#",
+    "############"
+  ],
+  "objects": [
+    {
+      "type": "spawn",
+      "id": "port",
+      "x": 1,
+      "y": 3
+    },
+    {
+      "type": "spawn",
+      "id": "from_wilds",
+      "x": 10,
+      "y": 3
+    },
+    {
+      "type": "spawn",
+      "id": "default",
+      "x": 5,
+      "y": 4
+    },
+    {
+      "type": "door",
+      "x": 0,
+      "y": 3,
+      "to_map": "aquilon_shore",
+      "to_spawn": "from_north"
+    },
+    {
+      "type": "door",
+      "x": 11,
+      "y": 3,
+      "to_map": "cindral_wilds",
+      "to_spawn": "from_gate"
+    },
+    {
+      "type": "heal",
+      "x": 3,
+      "y": 2,
+      "sets_respawn": true,
+      "respawn_spawn": "default"
+    },
+    {
+      "type": "shop",
+      "x": 8,
+      "y": 2,
+      "npc_id": "cindral_clerk",
+      "sprite": "npc_clerk",
+      "stock": [
+        "capture_orb",
+        "great_orb",
+        "potion",
+        "super_potion",
+        "antidote",
+        "revive"
+      ],
+      "dialogue": [
+        "Clerk: Welcome to Cindral! Gear up for the volcanic slopes."
+      ]
+    },
+    {
+      "type": "npc",
+      "x": 6,
+      "y": 2,
+      "npc_id": "cindral_greeter",
+      "sprite": "npc_villager",
+      "dialogue": [
+        "Greeter: Cindral lies ahead — volcanic slopes as far as the eye can see.",
+        "The Summit Hall only opens to those the wilds have tested."
+      ]
+    },
+    {
+      "type": "sign",
+      "x": 2,
+      "y": 4,
+      "text": "Cindral Gate — west: the port home. East: the wilds."
+    }
+  ]
+}

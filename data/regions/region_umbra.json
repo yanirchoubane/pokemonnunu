@@ -1,0 +1,25 @@
+{
+  "$schema_version": 1,
+  "id": "umbra",
+  "display_name": "Umbra",
+  "order": 5,
+  "starting_map": "umbra_gate",
+  "recommended_level_min": 26,
+  "recommended_level_max": 36,
+  "badge_count": 1,
+  "league_id": "umbra_league",
+  "next_regions": [
+    "ferrock"
+  ],
+  "maps": [
+    "umbra_gate",
+    "umbra_wilds",
+    "umbra_hall"
+  ],
+  "regional_rules": {
+    "level_scaling": "soft",
+    "encounter_table": "umbra_encounters",
+    "allow_previous_team": true,
+    "obedience_cap_level": 46
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "$schema_version": 1,
+  "id": "lumen_wilds",
+  "display_name": "Lumen Wilds",
+  "region": "lumen",
+  "bgm": "route",
+  "tile_size": 32,
+  "legend": {
+    "#": "wall",
+    ".": "ground",
+    "~": "tall_grass",
+    "P": "path",
+    "D": "door"
+  },
+  "rows": [
+    "##############",
+    "#~~~....~~~..#",
+    "#~~~....~~~..#",
+    "#............#",
+    "D....PPPP....D",
+    "#............#",
+    "#..~~~...~~~.#",
+    "#..~~~...~~~.#",
+    "##############"
+  ],
+  "objects": [
+    {
+      "type": "spawn",
+      "id": "from_gate",
+      "x": 1,
+      "y": 4
+    },
+    {
+      "type": "spawn",
+      "id": "from_hall",
+      "x": 12,
+      "y": 4
+    },
+    {
+      "type": "door",
+      "x": 0,
+      "y": 4,
+      "to_map": "lumen_gate",
+      "to_spawn": "from_wilds"
+    },
+    {
+      "type": "door",
+      "x": 13,
+      "y": 4,
+      "to_map": "lumen_hall",
+      "to_spawn": "entrance",
+      "requires_flag": "beat_lumen_scout",
+      "locked_text": "The hall road opens once the wilds' scout acknowledges you."
+    },
+    {
+      "type": "encounter_zone",
+      "table": "lumen_encounters"
+    },
+    {
+      "type": "trainer",
+      "x": 7,
+      "y": 3,
+      "trainer_id": "lumen_scout",
+      "sprite": "trainer_scout",
+      "sight": 2,
+      "facing": "down",
+      "flag": "beat_lumen_scout"
+    },
+    {
+      "type": "item",
+      "x": 11,
+      "y": 1,
+      "item": "super_potion",
+      "flag": "item_lumen_wilds_1"
+    },
+    {
+      "type": "sign",
+      "x": 4,
+      "y": 3,
+      "text": "Lumen Wilds — locals report creatures around Lv 44."
+    }
+  ]
+}

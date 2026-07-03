@@ -3,13 +3,69 @@
   "description": "Data-driven endings. When a 'trigger_ending' action fires, the FIRST ending (in array order) whose condition passes is shown, then the game returns to the title screen (the save remains playable). Conditions use the same composable kinds as quests/dialogs: flag, counter, var_equals, var_at_least, relationship_at_least, all, any, not.",
   "endings": [
     {
+      "id": "ending_nine_crests",
+      "title": "Legend of the Nine Crests",
+      "condition": {
+        "kind": "all",
+        "conditions": [
+          {
+            "kind": "flag",
+            "flag": "beat_gym_verdantia"
+          },
+          {
+            "kind": "flag",
+            "flag": "beat_aquilon_champion"
+          },
+          {
+            "kind": "flag",
+            "flag": "beat_cindral_champion"
+          },
+          {
+            "kind": "flag",
+            "flag": "beat_solane_champion"
+          },
+          {
+            "kind": "flag",
+            "flag": "beat_umbra_champion"
+          },
+          {
+            "kind": "flag",
+            "flag": "beat_ferrock_champion"
+          },
+          {
+            "kind": "flag",
+            "flag": "beat_brume_champion"
+          },
+          {
+            "kind": "flag",
+            "flag": "beat_lumen_champion"
+          },
+          {
+            "kind": "flag",
+            "flag": "beat_zephyra_champion"
+          }
+        ]
+      },
+      "lines": [
+        "Nine regions. Nine crests. One unbroken road from Verdantia's meadows to Zephyra's storms.",
+        "Professor Maple's final report needs no title but your name.",
+        "Wherever new coastlines rise, the legend of the Nine Crests will arrive first."
+      ]
+    },
+    {
       "id": "ending_champion",
       "title": "Champion of the North",
       "condition": {
         "kind": "all",
         "conditions": [
-          { "kind": "flag", "flag": "quest_aquilon_done" },
-          { "kind": "flag", "flag": "beat_aquilon_champion" }
+          {
+            "kind": "flag",
+            "flag": "quest_aquilon_done"
+          },
+          {
+            "kind": "flag",
+            "flag": "beat_aquilon_champion"
+          }
         ]
       },
       "lines": [
@@ -24,8 +80,15 @@
       "condition": {
         "kind": "all",
         "conditions": [
-          { "kind": "flag", "flag": "quest_aquilon_done" },
-          { "kind": "relationship_at_least", "npc": "corin", "at_least": 2 }
+          {
+            "kind": "flag",
+            "flag": "quest_aquilon_done"
+          },
+          {
+            "kind": "relationship_at_least",
+            "npc": "corin",
+            "at_least": 2
+          }
         ]
       },
       "lines": [
@@ -37,7 +100,10 @@
     {
       "id": "ending_lone_pioneer",
       "title": "The Lone Pioneer",
-      "condition": { "kind": "flag", "flag": "quest_aquilon_done" },
+      "condition": {
+        "kind": "flag",
+        "flag": "quest_aquilon_done"
+      },
       "lines": [
         "Professor Maple publishes the expedition report under a single name: yours.",
         "From Verdantia's meadows to Aquilon's cold ridges, you walked alone — and prevailed.",

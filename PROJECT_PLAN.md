@@ -186,3 +186,16 @@ edit is required. See `DATA_FORMAT.md` and `REGION_CREATION_GUIDE.md`.
   - **2 new original creatures**: Mistcalf → Mistelk (water/wind, level-20 evolution),
     added to the Aquilon encounter table (Mistelk as a rare high-level spawn).
   - Validators pass: 12 creatures, 16 moves, 5 trainers, 9 maps, 4 quests, 3 endings.
+- 2026-07-03 — **Nine-region campaign** (all original content):
+  - New reusable generator `tools/generators/generate_regions.py` scaffolds complete
+    regions from specs (manifest, gate town with heal/shop, wilds with encounters + scout,
+    Summit Hall with boss champion + crest badge, encounter table, two trainers, main
+    quest, port wiring). Idempotent — records upsert by id; documented for user regions.
+  - Seven new regions chained after Aquilon: Cindral (volcanic), Solane (dunes),
+    Umbra (twilight woods), Ferrock (iron hills), Brume (fens), Lumen (crystal vale),
+    Zephyra (sky steppes) — level bands 14-24 up to 50-60, obedience caps scaled,
+    ports gated by each region's crest, full return trips.
+  - 14 new original native species (2 per region) wired into encounters and trainer teams.
+  - Grand ending "Legend of the Nine Crests" (all nine champion flags), first in priority.
+  - Whole-chain BFS reachability simulation passes (gate→wilds→hall→next region and back);
+    validators green: 26 creatures, 19 trainers, 9 regions, 30 maps, 11 quests, 4 endings.

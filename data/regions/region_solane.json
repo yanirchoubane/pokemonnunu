@@ -1,0 +1,25 @@
+{
+  "$schema_version": 1,
+  "id": "solane",
+  "display_name": "Solane",
+  "order": 4,
+  "starting_map": "solane_gate",
+  "recommended_level_min": 20,
+  "recommended_level_max": 30,
+  "badge_count": 1,
+  "league_id": "solane_league",
+  "next_regions": [
+    "umbra"
+  ],
+  "maps": [
+    "solane_gate",
+    "solane_wilds",
+    "solane_hall"
+  ],
+  "regional_rules": {
+    "level_scaling": "soft",
+    "encounter_table": "solane_encounters",
+    "allow_previous_team": true,
+    "obedience_cap_level": 40
+  }
+}

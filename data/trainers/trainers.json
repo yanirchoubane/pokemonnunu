@@ -13,7 +13,14 @@
       "dialogue_defeat": "Nova: Not bad... I'll train harder!",
       "dialogue_victory": "Nova: Better luck next time!",
       "team": [
-        { "creature": "zapmouse", "level": 5, "moves": ["tackle", "spark_zap"] }
+        {
+          "creature": "zapmouse",
+          "level": 5,
+          "moves": [
+            "tackle",
+            "spark_zap"
+          ]
+        }
       ]
     },
     {
@@ -27,8 +34,22 @@
       "dialogue_defeat": "Perrin: Sharp indeed.",
       "dialogue_victory": "Perrin: The wilds win today.",
       "team": [
-        { "creature": "pebblet",  "level": 6, "moves": ["tackle", "stone_toss"] },
-        { "creature": "gustling", "level": 7, "moves": ["gale_slash", "quick_jab"] }
+        {
+          "creature": "pebblet",
+          "level": 6,
+          "moves": [
+            "tackle",
+            "stone_toss"
+          ]
+        },
+        {
+          "creature": "gustling",
+          "level": 7,
+          "moves": [
+            "gale_slash",
+            "quick_jab"
+          ]
+        }
       ]
     },
     {
@@ -44,9 +65,32 @@
       "dialogue_defeat": "Sable: You bent with the wind and did not break. The badge is yours.",
       "dialogue_victory": "Sable: Come again when your bond is deeper.",
       "team": [
-        { "creature": "sproutkit", "level": 10, "moves": ["leaf_cut", "guard_up"] },
-        { "creature": "pebblet",   "level": 11, "moves": ["stone_toss", "guard_up", "tackle"] },
-        { "creature": "bloomcat",  "level": 13, "moves": ["leaf_cut", "vine_wrap", "guard_up"] }
+        {
+          "creature": "sproutkit",
+          "level": 10,
+          "moves": [
+            "leaf_cut",
+            "guard_up"
+          ]
+        },
+        {
+          "creature": "pebblet",
+          "level": 11,
+          "moves": [
+            "stone_toss",
+            "guard_up",
+            "tackle"
+          ]
+        },
+        {
+          "creature": "bloomcat",
+          "level": 13,
+          "moves": [
+            "leaf_cut",
+            "vine_wrap",
+            "guard_up"
+          ]
+        }
       ]
     },
     {
@@ -60,9 +104,31 @@
       "dialogue_defeat": "Wrenn: A worthy mind. Champion Isolde awaits in the Summit Hall, above the ridge.",
       "dialogue_victory": "Wren: Think harder next time.",
       "team": [
-        { "creature": "psywisp",  "level": 12, "moves": ["mind_ray", "guard_up"] },
-        { "creature": "gustling", "level": 12, "moves": ["gale_slash", "quick_jab"] },
-        { "creature": "zapmouse", "level": 13, "moves": ["spark_zap", "static_field", "quick_jab"] }
+        {
+          "creature": "psywisp",
+          "level": 12,
+          "moves": [
+            "mind_ray",
+            "guard_up"
+          ]
+        },
+        {
+          "creature": "gustling",
+          "level": 12,
+          "moves": [
+            "gale_slash",
+            "quick_jab"
+          ]
+        },
+        {
+          "creature": "zapmouse",
+          "level": 13,
+          "moves": [
+            "spark_zap",
+            "static_field",
+            "quick_jab"
+          ]
+        }
       ]
     },
     {
@@ -78,9 +144,545 @@
       "dialogue_defeat": "Isolde: The north bows to you, Champion. Wear the Aquilon Crest with pride.",
       "dialogue_victory": "Isolde: The summit is patient. Return when you are ready.",
       "team": [
-        { "creature": "gustling", "level": 16, "moves": ["gale_slash", "quick_jab", "guard_up"] },
-        { "creature": "psywisp",  "level": 17, "moves": ["mind_ray", "guard_up", "tackle"] },
-        { "creature": "mistelk",  "level": 19, "moves": ["aqua_dart", "tide_crash", "gale_slash", "guard_up"] }
+        {
+          "creature": "gustling",
+          "level": 16,
+          "moves": [
+            "gale_slash",
+            "quick_jab",
+            "guard_up"
+          ]
+        },
+        {
+          "creature": "psywisp",
+          "level": 17,
+          "moves": [
+            "mind_ray",
+            "guard_up",
+            "tackle"
+          ]
+        },
+        {
+          "creature": "mistelk",
+          "level": 19,
+          "moves": [
+            "aqua_dart",
+            "tide_crash",
+            "gale_slash",
+            "guard_up"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cindral_scout",
+      "display_name": "Scout of Cindral",
+      "sprite": "trainer_scout",
+      "ai": "intermediate",
+      "boss": false,
+      "reward_money": 450,
+      "dialogue_intro": "Scout: The volcanic slopes test every traveler. Show me your mettle.",
+      "dialogue_defeat": "Scout: The hall road is yours.",
+      "dialogue_victory": "Scout: The wilds win today.",
+      "team": [
+        {
+          "creature": "cindermole",
+          "level": 15,
+          "moves": [
+            "scratch",
+            "ember_burst"
+          ]
+        },
+        {
+          "creature": "emberpup",
+          "level": 16,
+          "moves": [
+            "scratch",
+            "ember_burst",
+            "focus_charge",
+            "flame_lash"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cindral_champion",
+      "display_name": "Champion of Cindral",
+      "sprite": "trainer_champion",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 1250,
+      "reward_badge": "cindral_crest",
+      "dialogue_intro": "Champion: Cindral crowns only the worthy. Begin.",
+      "dialogue_defeat": "Champion: The Cindral Crest is yours. Travel on.",
+      "dialogue_victory": "Champion: The summit is patient. Return stronger.",
+      "team": [
+        {
+          "creature": "pebblet",
+          "level": 19,
+          "moves": [
+            "tackle",
+            "stone_toss",
+            "guard_up"
+          ]
+        },
+        {
+          "creature": "cindermole",
+          "level": 20,
+          "moves": [
+            "scratch",
+            "ember_burst",
+            "stone_toss"
+          ]
+        },
+        {
+          "creature": "ashvole",
+          "level": 22,
+          "moves": [
+            "tackle",
+            "stone_toss",
+            "guard_up"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "solane_scout",
+      "display_name": "Scout of Solane",
+      "sprite": "trainer_scout",
+      "ai": "intermediate",
+      "boss": false,
+      "reward_money": 550,
+      "dialogue_intro": "Scout: The sun-baked dunes test every traveler. Show me your mettle.",
+      "dialogue_defeat": "Scout: The hall road is yours.",
+      "dialogue_victory": "Scout: The wilds win today.",
+      "team": [
+        {
+          "creature": "duneling",
+          "level": 21,
+          "moves": [
+            "tackle",
+            "stone_toss"
+          ]
+        },
+        {
+          "creature": "zapmouse",
+          "level": 22,
+          "moves": [
+            "tackle",
+            "spark_zap",
+            "static_field",
+            "quick_jab"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "solane_champion",
+      "display_name": "Champion of Solane",
+      "sprite": "trainer_champion",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 1500,
+      "reward_badge": "solane_crest",
+      "dialogue_intro": "Champion: Solane crowns only the worthy. Begin.",
+      "dialogue_defeat": "Champion: The Solane Crest is yours. Travel on.",
+      "dialogue_victory": "Champion: The summit is patient. Return stronger.",
+      "team": [
+        {
+          "creature": "gustling",
+          "level": 25,
+          "moves": [
+            "scratch",
+            "gale_slash",
+            "quick_jab"
+          ]
+        },
+        {
+          "creature": "duneling",
+          "level": 26,
+          "moves": [
+            "tackle",
+            "stone_toss",
+            "quick_jab"
+          ]
+        },
+        {
+          "creature": "sunwisp",
+          "level": 28,
+          "moves": [
+            "ember_burst",
+            "mind_ray",
+            "focus_charge"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "umbra_scout",
+      "display_name": "Scout of Umbra",
+      "sprite": "trainer_scout",
+      "ai": "intermediate",
+      "boss": false,
+      "reward_money": 650,
+      "dialogue_intro": "Scout: The twilight woods test every traveler. Show me your mettle.",
+      "dialogue_defeat": "Scout: The hall road is yours.",
+      "dialogue_victory": "Scout: The wilds win today.",
+      "team": [
+        {
+          "creature": "gloomoth",
+          "level": 27,
+          "moves": [
+            "mind_ray",
+            "gale_slash"
+          ]
+        },
+        {
+          "creature": "sproutkit",
+          "level": 28,
+          "moves": [
+            "scratch",
+            "leaf_cut",
+            "guard_up",
+            "vine_wrap"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "umbra_champion",
+      "display_name": "Champion of Umbra",
+      "sprite": "trainer_champion",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 1750,
+      "reward_badge": "umbra_crest",
+      "dialogue_intro": "Champion: Umbra crowns only the worthy. Begin.",
+      "dialogue_defeat": "Champion: The Umbra Crest is yours. Travel on.",
+      "dialogue_victory": "Champion: The summit is patient. Return stronger.",
+      "team": [
+        {
+          "creature": "psywisp",
+          "level": 31,
+          "moves": [
+            "tackle",
+            "mind_ray",
+            "guard_up"
+          ]
+        },
+        {
+          "creature": "gloomoth",
+          "level": 32,
+          "moves": [
+            "mind_ray",
+            "gale_slash",
+            "static_field"
+          ]
+        },
+        {
+          "creature": "thornrat",
+          "level": 34,
+          "moves": [
+            "scratch",
+            "leaf_cut",
+            "vine_wrap"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ferrock_scout",
+      "display_name": "Scout of Ferrock",
+      "sprite": "trainer_scout",
+      "ai": "intermediate",
+      "boss": false,
+      "reward_money": 750,
+      "dialogue_intro": "Scout: The iron hills test every traveler. Show me your mettle.",
+      "dialogue_defeat": "Scout: The hall road is yours.",
+      "dialogue_victory": "Scout: The wilds win today.",
+      "team": [
+        {
+          "creature": "boltram",
+          "level": 33,
+          "moves": [
+            "tackle",
+            "spark_zap"
+          ]
+        },
+        {
+          "creature": "pebblet",
+          "level": 34,
+          "moves": [
+            "tackle",
+            "stone_toss",
+            "guard_up"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ferrock_champion",
+      "display_name": "Champion of Ferrock",
+      "sprite": "trainer_champion",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 2000,
+      "reward_badge": "ferrock_crest",
+      "dialogue_intro": "Champion: Ferrock crowns only the worthy. Begin.",
+      "dialogue_defeat": "Champion: The Ferrock Crest is yours. Travel on.",
+      "dialogue_victory": "Champion: The summit is patient. Return stronger.",
+      "team": [
+        {
+          "creature": "zapmouse",
+          "level": 37,
+          "moves": [
+            "tackle",
+            "spark_zap",
+            "static_field",
+            "quick_jab"
+          ]
+        },
+        {
+          "creature": "boltram",
+          "level": 38,
+          "moves": [
+            "tackle",
+            "spark_zap",
+            "stone_toss"
+          ]
+        },
+        {
+          "creature": "slagbeetle",
+          "level": 40,
+          "moves": [
+            "tackle",
+            "ember_burst",
+            "stone_toss"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brume_scout",
+      "display_name": "Scout of Brume",
+      "sprite": "trainer_scout",
+      "ai": "intermediate",
+      "boss": false,
+      "reward_money": 850,
+      "dialogue_intro": "Scout: The misty fens test every traveler. Show me your mettle.",
+      "dialogue_defeat": "Scout: The hall road is yours.",
+      "dialogue_victory": "Scout: The wilds win today.",
+      "team": [
+        {
+          "creature": "fenling",
+          "level": 39,
+          "moves": [
+            "aqua_dart",
+            "leaf_cut"
+          ]
+        },
+        {
+          "creature": "aquafin",
+          "level": 40,
+          "moves": [
+            "tackle",
+            "aqua_dart",
+            "guard_up",
+            "tide_crash"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brume_champion",
+      "display_name": "Champion of Brume",
+      "sprite": "trainer_champion",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 2250,
+      "reward_badge": "brume_crest",
+      "dialogue_intro": "Champion: Brume crowns only the worthy. Begin.",
+      "dialogue_defeat": "Champion: The Brume Crest is yours. Travel on.",
+      "dialogue_victory": "Champion: The summit is patient. Return stronger.",
+      "team": [
+        {
+          "creature": "mistcalf",
+          "level": 43,
+          "moves": [
+            "tackle",
+            "aqua_dart",
+            "guard_up",
+            "tide_crash"
+          ]
+        },
+        {
+          "creature": "fenling",
+          "level": 44,
+          "moves": [
+            "aqua_dart",
+            "leaf_cut",
+            "vine_wrap"
+          ]
+        },
+        {
+          "creature": "murkfin",
+          "level": 46,
+          "moves": [
+            "aqua_dart",
+            "tide_crash",
+            "quick_jab"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lumen_scout",
+      "display_name": "Scout of Lumen",
+      "sprite": "trainer_scout",
+      "ai": "intermediate",
+      "boss": false,
+      "reward_money": 950,
+      "dialogue_intro": "Scout: The crystal vale test every traveler. Show me your mettle.",
+      "dialogue_defeat": "Scout: The hall road is yours.",
+      "dialogue_victory": "Scout: The wilds win today.",
+      "team": [
+        {
+          "creature": "glimshard",
+          "level": 45,
+          "moves": [
+            "mind_ray",
+            "static_field"
+          ]
+        },
+        {
+          "creature": "psywisp",
+          "level": 46,
+          "moves": [
+            "tackle",
+            "mind_ray",
+            "guard_up"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lumen_champion",
+      "display_name": "Champion of Lumen",
+      "sprite": "trainer_champion",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 2500,
+      "reward_badge": "lumen_crest",
+      "dialogue_intro": "Champion: Lumen crowns only the worthy. Begin.",
+      "dialogue_defeat": "Champion: The Lumen Crest is yours. Travel on.",
+      "dialogue_victory": "Champion: The summit is patient. Return stronger.",
+      "team": [
+        {
+          "creature": "pebblet",
+          "level": 49,
+          "moves": [
+            "tackle",
+            "stone_toss",
+            "guard_up"
+          ]
+        },
+        {
+          "creature": "glimshard",
+          "level": 50,
+          "moves": [
+            "mind_ray",
+            "static_field",
+            "focus_charge"
+          ]
+        },
+        {
+          "creature": "prismole",
+          "level": 52,
+          "moves": [
+            "scratch",
+            "stone_toss",
+            "mind_ray"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zephyra_scout",
+      "display_name": "Scout of Zephyra",
+      "sprite": "trainer_scout",
+      "ai": "intermediate",
+      "boss": false,
+      "reward_money": 1050,
+      "dialogue_intro": "Scout: The sky steppes test every traveler. Show me your mettle.",
+      "dialogue_defeat": "Scout: The hall road is yours.",
+      "dialogue_victory": "Scout: The wilds win today.",
+      "team": [
+        {
+          "creature": "galehare",
+          "level": 51,
+          "moves": [
+            "quick_jab",
+            "gale_slash"
+          ]
+        },
+        {
+          "creature": "gustling",
+          "level": 52,
+          "moves": [
+            "scratch",
+            "gale_slash",
+            "quick_jab"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zephyra_champion",
+      "display_name": "Champion of Zephyra",
+      "sprite": "trainer_champion",
+      "ai": "advanced",
+      "boss": true,
+      "boss_scaling": "limited",
+      "reward_money": 2750,
+      "reward_badge": "zephyra_crest",
+      "dialogue_intro": "Champion: Zephyra crowns only the worthy. Begin.",
+      "dialogue_defeat": "Champion: The Zephyra Crest is yours. Travel on.",
+      "dialogue_victory": "Champion: The summit is patient. Return stronger.",
+      "team": [
+        {
+          "creature": "mistelk",
+          "level": 55,
+          "moves": [
+            "aqua_dart",
+            "gale_slash",
+            "tide_crash",
+            "guard_up"
+          ]
+        },
+        {
+          "creature": "galehare",
+          "level": 56,
+          "moves": [
+            "quick_jab",
+            "gale_slash",
+            "focus_charge"
+          ]
+        },
+        {
+          "creature": "stormkite",
+          "level": 58,
+          "moves": [
+            "gale_slash",
+            "spark_zap",
+            "static_field"
+          ]
+        }
       ]
     }
   ]
