@@ -1,73 +1,318 @@
 {
   "$schema_version": 1,
-  "description": "Townsfolk conversations placed on each region's Crossroads.",
+  "description": "Mature townsfolk conversations across Crossroads, gates and landmarks.",
   "dialogs": [
     {
-      "id": "town_verdantia_elder",
+      "id": "town_verdantia_x0",
       "nodes": [
         {
           "id": "start",
-          "portrait": "elder",
+          "portrait": "veteran",
           "lines": [
-            "Old Perisel: I've watched trainers leave this town for forty springs.",
-            "Old Perisel: The ones who came back changed always visited the Verdant Glade first. Funny, that."
+            "I held an Elite seat once. Four hundred challengers, and I remember the faces of the ones who beat me.",
+            "You don't retire from this. You just stop getting up when they knock you down. The soil's thinner every year, and the young leave for the League and don't write."
           ],
           "next": ""
         }
       ]
     },
     {
-      "id": "town_verdantia_kid",
+      "id": "town_verdantia_x1",
       "nodes": [
         {
           "id": "start",
-          "portrait": "kid",
+          "portrait": "debtor",
           "lines": [
-            "Tavi: Are you gonna be a Champion?! My brother said the League has EIGHT gyms per region now!",
-            "Tavi: Eight! That's like... a whole lot of eight!"
+            "The Order 'lent' my family a season's grain and called back triple. Gray coats always do.",
+            "I'm free of them now. Cost me the farm, but a debt paid in dirt is still paid."
           ],
           "next": ""
         }
       ]
     },
     {
-      "id": "town_verdantia_merchant",
+      "id": "town_verdantia_x2",
       "nodes": [
         {
           "id": "start",
-          "portrait": "merchant",
+          "portrait": "sympathizer",
           "lines": [
-            "Onna: Fresh orbs, salves, the works. A trainer crossing nine regions needs a full bag.",
-            "Onna: Word to the wise — the northern roads aren't as safe as they were."
-          ],
-          "next": ""
-        }
-      ]
-    },
-    {
-      "id": "town_verdantia_fan",
-      "nodes": [
-        {
-          "id": "start",
-          "portrait": "fan",
-          "lines": [
-            "Bem: You know the Verdantia meadows hold creatures found nowhere else?",
-            "Bem: Every region does. Two thousand species, they reckon, and still counting."
+            "I almost took the gray coat, you know. When you've lost enough, 'take before it's taken' sounds like wisdom.",
+            "The defector talked me out of it. Sable. Ask for them at the northern gate if you haven't met yet."
           ],
           "choices": [
             {
-              "text": "Two thousand? I'll catch them all.",
+              "text": "Why didn't you join?",
+              "actions": [],
+              "next": "reply_0"
+            },
+            {
+              "text": "Weakness, then.",
               "actions": [
                 {
                   "kind": "adjust_relationship",
-                  "npc": "bem",
+                  "npc": "quiet",
+                  "delta": -1
+                }
+              ],
+              "next": "reply_1"
+            }
+          ]
+        },
+        {
+          "id": "reply_0",
+          "entry": false,
+          "portrait": "sympathizer",
+          "lines": [
+            "Quiet 3: Because hollow's a one-way road. You don't come back with more. You come back with less."
+          ],
+          "next": ""
+        },
+        {
+          "id": "reply_1",
+          "entry": false,
+          "portrait": "sympathizer",
+          "lines": [
+            "Quiet 3: ...Say that after you've buried something. Then we'll talk."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_verdantia_x3",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "fixer",
+          "lines": [
+            "Orbs, salves, information — I move all three. In Verdantia, knowing a thing is worth more than owning it.",
+            "Word is you're unpicking the Order's cell, region by region. That's worth a discount. And a warning."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_verdantia_l0",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "watch",
+          "lines": [
+            "I patrol between the gyms. Since the Order moved north, the wilds have teeth after dark.",
+            "If you're headed for the Lieutenant in Umbra — go rested. Mourn doesn't fight angry. He fights tired, and wins."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_aquilon_x0",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "debtor",
+          "lines": [
+            "The Order 'lent' my family a season's grain and called back triple. Gray coats always do.",
+            "I'm free of them now. Cost me the farm, but a debt paid in dirt is still paid."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_aquilon_x1",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "sympathizer",
+          "lines": [
+            "I almost took the gray coat, you know. When you've lost enough, 'take before it's taken' sounds like wisdom.",
+            "The defector talked me out of it. Sable. Ask for them at the northern gate if you haven't met yet."
+          ],
+          "choices": [
+            {
+              "text": "Why didn't you join?",
+              "actions": [],
+              "next": "reply_0"
+            },
+            {
+              "text": "Weakness, then.",
+              "actions": [
+                {
+                  "kind": "adjust_relationship",
+                  "npc": "quiet",
+                  "delta": -1
+                }
+              ],
+              "next": "reply_1"
+            }
+          ]
+        },
+        {
+          "id": "reply_0",
+          "entry": false,
+          "portrait": "sympathizer",
+          "lines": [
+            "Quiet 2: Because hollow's a one-way road. You don't come back with more. You come back with less."
+          ],
+          "next": ""
+        },
+        {
+          "id": "reply_1",
+          "entry": false,
+          "portrait": "sympathizer",
+          "lines": [
+            "Quiet 2: ...Say that after you've buried something. Then we'll talk."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_aquilon_x2",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "fixer",
+          "lines": [
+            "Orbs, salves, information — I move all three. In Aquilon, knowing a thing is worth more than owning it.",
+            "Word is you're unpicking the Order's cell, region by region. That's worth a discount. And a warning."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_aquilon_x3",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "mourner",
+          "lines": [
+            "My partner trained the same team for twenty years. When they passed, the creatures wouldn't eat for a week.",
+            "That's the part the Leagues don't put on the badges. Bonds cut both ways. Three boats didn't come back this winter. The sea keeps its own ledger."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_aquilon_l0",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "scholar",
+          "lines": [
+            "Two thousand species catalogued and the cold coast of Aquilon still hand me a new one every month.",
+            "Ambition's fine. But the ones who last learn to be curious instead. It ages better."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_cindral_x0",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "sympathizer",
+          "lines": [
+            "I almost took the gray coat, you know. When you've lost enough, 'take before it's taken' sounds like wisdom.",
+            "The defector talked me out of it. Sable. Ask for them at the northern gate if you haven't met yet."
+          ],
+          "choices": [
+            {
+              "text": "Why didn't you join?",
+              "actions": [],
+              "next": "reply_0"
+            },
+            {
+              "text": "Weakness, then.",
+              "actions": [
+                {
+                  "kind": "adjust_relationship",
+                  "npc": "quiet",
+                  "delta": -1
+                }
+              ],
+              "next": "reply_1"
+            }
+          ]
+        },
+        {
+          "id": "reply_0",
+          "entry": false,
+          "portrait": "sympathizer",
+          "lines": [
+            "Quiet 1: Because hollow's a one-way road. You don't come back with more. You come back with less."
+          ],
+          "next": ""
+        },
+        {
+          "id": "reply_1",
+          "entry": false,
+          "portrait": "sympathizer",
+          "lines": [
+            "Quiet 1: ...Say that after you've buried something. Then we'll talk."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_cindral_x1",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "fixer",
+          "lines": [
+            "Orbs, salves, information — I move all three. In Cindral, knowing a thing is worth more than owning it.",
+            "Word is you're unpicking the Order's cell, region by region. That's worth a discount. And a warning."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_cindral_x2",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "mourner",
+          "lines": [
+            "My partner trained the same team for twenty years. When they passed, the creatures wouldn't eat for a week.",
+            "That's the part the Leagues don't put on the badges. Bonds cut both ways. The mountain gives work and takes lungs. Everyone here coughs by fifty."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_cindral_x3",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "cynic",
+          "lines": [
+            "Nine crests, they'll tell you. As if a wall of medals ever fed anyone.",
+            "Chase it if you must. Just don't mistake the applause for a life."
+          ],
+          "choices": [
+            {
+              "text": "It's more than applause to me.",
+              "actions": [
+                {
+                  "kind": "adjust_relationship",
+                  "npc": "old",
                   "delta": 1
                 }
               ],
               "next": "reply_0"
             },
             {
-              "text": "I only need six good ones.",
+              "text": "Spare me the sermon.",
               "actions": [],
               "next": "reply_1"
             }
@@ -76,319 +321,131 @@
         {
           "id": "reply_0",
           "entry": false,
-          "portrait": "fan",
+          "portrait": "cynic",
           "lines": [
-            "Bem: Ha! Spoken like a true field naturalist. I'll be watching your Pokédex."
+            "Old 4: ...Good. Hold onto the more. It's the only part that lasts."
           ],
           "next": ""
         },
         {
           "id": "reply_1",
           "entry": false,
-          "portrait": "fan",
+          "portrait": "cynic",
           "lines": [
-            "Bem: A purist. The old masters would approve."
+            "Old 4: Suit yourself. The road's a patient teacher."
           ],
           "next": ""
         }
       ]
     },
     {
-      "id": "town_aquilon_elder",
+      "id": "town_cindral_g0",
       "nodes": [
         {
           "id": "start",
-          "portrait": "elder",
+          "portrait": "watch",
           "lines": [
-            "Sella: My husband tended the Frostwatch Lighthouse till the sea took him. The little light-creature still keeps it lit.",
-            "Sella: Loyalty outlasts us. Remember that when you bond with yours."
+            "I patrol between the gyms. Since the Order moved north, the wilds have teeth after dark.",
+            "If you're headed for the Lieutenant in Umbra — go rested. Mourn doesn't fight angry. He fights tired, and wins."
           ],
           "next": ""
         }
       ]
     },
     {
-      "id": "town_aquilon_kid",
+      "id": "town_cindral_g1",
       "nodes": [
         {
           "id": "start",
-          "portrait": "kid",
+          "portrait": "scholar",
           "lines": [
-            "Pim: The gym leaders here are TOUGH. Tidecaller nearly swept my whole team!",
-            "Pim: You gotta beat all eight to even reach the League corridor, y'know."
+            "Two thousand species catalogued and the volcanic slopes of Cindral still hand me a new one every month.",
+            "Ambition's fine. But the ones who last learn to be curious instead. It ages better."
           ],
           "next": ""
         }
       ]
     },
     {
-      "id": "town_aquilon_sailor",
+      "id": "town_cindral_l0",
       "nodes": [
         {
           "id": "start",
-          "portrait": "sailor",
+          "portrait": "emberwidow",
           "lines": [
-            "Krael: Gray coats came through on the last ferry. Didn't like the look of 'em.",
-            "Krael: 'The Hollow Order,' they called themselves. Collectin' debts nobody owed."
+            "Furnace-widow Ost: My husband fed the Ashfall Caldera's fire for thirty years. It fed on him right back.",
+            "Furnace-widow Ost: The Order came the week after the funeral. Vultures know a thin season."
           ],
           "next": ""
         }
       ]
     },
     {
-      "id": "town_aquilon_fan",
+      "id": "town_cindral_l1",
       "nodes": [
         {
           "id": "start",
-          "portrait": "fan",
+          "portrait": "veteran",
           "lines": [
-            "Ives: Nine regions, one road. I'm mapping every port between them.",
-            "Ives: Beat a region's Champion and its northern ferry opens. That's the whole spine of the world."
+            "I held an Elite seat once. Four hundred challengers, and I remember the faces of the ones who beat me.",
+            "You don't retire from this. You just stop getting up when they knock you down. The mountain gives work and takes lungs. Everyone here coughs by fifty."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_solane_x0",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "fixer",
+          "lines": [
+            "Orbs, salves, information — I move all three. In Solane, knowing a thing is worth more than owning it.",
+            "Word is you're unpicking the Order's cell, region by region. That's worth a discount. And a warning."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_solane_x1",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "mourner",
+          "lines": [
+            "My partner trained the same team for twenty years. When they passed, the creatures wouldn't eat for a week.",
+            "That's the part the Leagues don't put on the badges. Bonds cut both ways. Water's currency out here. The Order understood that better than we'd like."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_solane_x2",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "cynic",
+          "lines": [
+            "Nine crests, they'll tell you. As if a wall of medals ever fed anyone.",
+            "Chase it if you must. Just don't mistake the applause for a life."
           ],
           "choices": [
             {
-              "text": "Where does the road end?",
-              "actions": [],
-              "next": "reply_0"
-            },
-            {
-              "text": "I'll map it with my feet.",
+              "text": "It's more than applause to me.",
               "actions": [
                 {
                   "kind": "adjust_relationship",
-                  "npc": "ives",
-                  "delta": 1
-                }
-              ],
-              "next": "reply_1"
-            }
-          ]
-        },
-        {
-          "id": "reply_0",
-          "entry": false,
-          "portrait": "fan",
-          "lines": [
-            "Ives: Zephyra. The sky steppes. After that... you carry the map yourself."
-          ],
-          "next": ""
-        },
-        {
-          "id": "reply_1",
-          "entry": false,
-          "portrait": "fan",
-          "lines": [
-            "Ives: A walker! Send word from the far north, would you?"
-          ],
-          "next": ""
-        }
-      ]
-    },
-    {
-      "id": "town_cindral_elder",
-      "nodes": [
-        {
-          "id": "start",
-          "portrait": "elder",
-          "lines": [
-            "Tolz: The Ashfall Caldera breathes, traveler. Cinders fall upward on the hottest nights.",
-            "Tolz: Fire that endures beats fire that rages. Ask any old ember-creature."
-          ],
-          "next": ""
-        }
-      ]
-    },
-    {
-      "id": "town_cindral_kid",
-      "nodes": [
-        {
-          "id": "start",
-          "portrait": "kid",
-          "lines": [
-            "Wen: A lady in a gray coat asked me to 'lend' her my creature. I said NO WAY!",
-            "Wen: She had the coldest eyes. Be careful out in the wilds."
-          ],
-          "next": ""
-        }
-      ]
-    },
-    {
-      "id": "town_cindral_miner",
-      "nodes": [
-        {
-          "id": "start",
-          "portrait": "miner",
-          "lines": [
-            "Hob: The ore veins here hum. The creatures that live in 'em hum back.",
-            "Hob: Dig long enough and you learn to listen. Same with a good team."
-          ],
-          "next": ""
-        }
-      ]
-    },
-    {
-      "id": "town_cindral_fan",
-      "nodes": [
-        {
-          "id": "start",
-          "portrait": "fan",
-          "lines": [
-            "Cael: They say a defector named Sable is warning trainers about the Hollow Order.",
-            "Cael: If you meet them at the gate — listen. They know things the rest of us don't."
-          ],
-          "next": ""
-        }
-      ]
-    },
-    {
-      "id": "town_solane_elder",
-      "nodes": [
-        {
-          "id": "start",
-          "portrait": "elder",
-          "lines": [
-            "Riss: Two oases shimmer at the Mirage Oasis. Only one holds water. Choose with your eyes closed.",
-            "Riss: The desert rewards the sure, not the swift."
-          ],
-          "next": ""
-        }
-      ]
-    },
-    {
-      "id": "town_solane_kid",
-      "nodes": [
-        {
-          "id": "start",
-          "portrait": "kid",
-          "lines": [
-            "Lu: I saw a Hollow agent get chased off by a wild pack! Even the creatures don't like 'em!"
-          ],
-          "next": ""
-        }
-      ]
-    },
-    {
-      "id": "town_solane_nomad",
-      "nodes": [
-        {
-          "id": "start",
-          "portrait": "nomad",
-          "lines": [
-            "Ode: I've crossed four regions with the same team. We keep our real levels; the regions just... balance us.",
-            "Ode: A soft cap, they call it. Keeps a strong traveler from trampling a new land."
-          ],
-          "next": ""
-        }
-      ]
-    },
-    {
-      "id": "town_solane_fan",
-      "nodes": [
-        {
-          "id": "start",
-          "portrait": "fan",
-          "lines": [
-            "Sett: Heard the Order has a Lieutenant now. Mourn. Waits somewhere in Umbra's grove.",
-            "Sett: Tragic figure, by all accounts. Doesn't make him easy."
-          ],
-          "choices": [
-            {
-              "text": "Where in Umbra exactly?",
-              "actions": [],
-              "next": "reply_0"
-            },
-            {
-              "text": "I'll find him myself.",
-              "actions": [],
-              "next": "reply_1"
-            }
-          ]
-        },
-        {
-          "id": "reply_0",
-          "entry": false,
-          "portrait": "fan",
-          "lines": [
-            "Sett: The Duskbell Grove. Where the bells ring with no hand. You'll feel it."
-          ],
-          "next": ""
-        },
-        {
-          "id": "reply_1",
-          "entry": false,
-          "portrait": "fan",
-          "lines": [
-            "Sett: Course you will, hero."
-          ],
-          "next": ""
-        }
-      ]
-    },
-    {
-      "id": "town_umbra_elder",
-      "nodes": [
-        {
-          "id": "start",
-          "portrait": "elder",
-          "lines": [
-            "Vane: Stay for the dusk bell at the Duskbell Grove. It rings once, for everyone.",
-            "Vane: The Order's Lieutenant lingers there now. He never stays for the bell either."
-          ],
-          "next": ""
-        }
-      ]
-    },
-    {
-      "id": "town_umbra_kid",
-      "nodes": [
-        {
-          "id": "start",
-          "portrait": "kid",
-          "lines": [
-            "Nix: The creatures here glow at night! Umbra's the prettiest scary place ever."
-          ],
-          "next": ""
-        }
-      ]
-    },
-    {
-      "id": "town_umbra_watcher",
-      "nodes": [
-        {
-          "id": "start",
-          "portrait": "watcher",
-          "lines": [
-            "Oru: Mourn passed through. Said he joined the Order to stop feeling hollow.",
-            "Oru: It only spread, he said. Sad man. Strong team, though — mind yourself."
-          ],
-          "next": ""
-        }
-      ]
-    },
-    {
-      "id": "town_umbra_fan",
-      "nodes": [
-        {
-          "id": "start",
-          "portrait": "fan",
-          "lines": [
-            "Sile: They say your choices ripple, trainer. How you treat a rival. Whether you show mercy.",
-            "Sile: The world remembers. I've seen a dozen different endings walk out of these woods."
-          ],
-          "choices": [
-            {
-              "text": "My choices are my own.",
-              "actions": [
-                {
-                  "kind": "adjust_relationship",
-                  "npc": "sile",
+                  "npc": "old",
                   "delta": 1
                 }
               ],
               "next": "reply_0"
             },
             {
-              "text": "Endings? Tell me more.",
+              "text": "Spare me the sermon.",
               "actions": [],
               "next": "reply_1"
             }
@@ -397,239 +454,117 @@
         {
           "id": "reply_0",
           "entry": false,
-          "portrait": "fan",
+          "portrait": "cynic",
           "lines": [
-            "Sile: As they should be. That's rather the point."
+            "Old 3: ...Good. Hold onto the more. It's the only part that lasts."
           ],
           "next": ""
         },
         {
           "id": "reply_1",
           "entry": false,
-          "portrait": "fan",
+          "portrait": "cynic",
           "lines": [
-            "Sile: No, no. You write yours by living it. Go on."
+            "Old 3: Suit yourself. The road's a patient teacher."
           ],
           "next": ""
         }
       ]
     },
     {
-      "id": "town_ferrock_elder",
+      "id": "town_solane_x3",
       "nodes": [
         {
           "id": "start",
-          "portrait": "elder",
+          "portrait": "watch",
           "lines": [
-            "Gann: Every anvil in Ferrock was struck first at the The Old Foundry. The creatures who worked it never left.",
-            "Gann: Partnership, not ownership. The ones who forgot always left with less."
+            "I patrol between the gyms. Since the Order moved north, the wilds have teeth after dark.",
+            "If you're headed for the Lieutenant in Umbra — go rested. Mourn doesn't fight angry. He fights tired, and wins."
           ],
           "next": ""
         }
       ]
     },
     {
-      "id": "town_ferrock_kid",
+      "id": "town_solane_g0",
       "nodes": [
         {
           "id": "start",
-          "portrait": "kid",
+          "portrait": "scholar",
           "lines": [
-            "Reya: I wanna be the Stormsmith someday and run the electric gym! Zap zap!"
+            "Two thousand species catalogued and the dunes of Solane still hand me a new one every month.",
+            "Ambition's fine. But the ones who last learn to be curious instead. It ages better."
           ],
           "next": ""
         }
       ]
     },
     {
-      "id": "town_ferrock_smith",
+      "id": "town_solane_g1",
       "nodes": [
         {
           "id": "start",
-          "portrait": "smith",
+          "portrait": "veteran",
           "lines": [
-            "Dex: Strong things are simple things, kept. A team. A promise. A hammer.",
-            "Dex: The Order forgot 'kept.' They only ever took."
+            "I held an Elite seat once. Four hundred challengers, and I remember the faces of the ones who beat me.",
+            "You don't retire from this. You just stop getting up when they knock you down. Water's currency out here. The Order understood that better than we'd like."
           ],
           "next": ""
         }
       ]
     },
     {
-      "id": "town_ferrock_fan",
+      "id": "town_solane_l0",
       "nodes": [
         {
           "id": "start",
-          "portrait": "fan",
+          "portrait": "debtor",
           "lines": [
-            "Ims: Two of the Order's agents already fell to some traveler. Vole, then Cinder.",
-            "Ims: If that's you — the third, Wisp, hides in Lumen's crystal deeps."
+            "The Order 'lent' my family a season's grain and called back triple. Gray coats always do.",
+            "I'm free of them now. Cost me the farm, but a debt paid in dirt is still paid."
           ],
           "next": ""
         }
       ]
     },
     {
-      "id": "town_brume_elder",
+      "id": "town_umbra_x0",
       "nodes": [
         {
           "id": "start",
-          "portrait": "elder",
+          "portrait": "mourner",
           "lines": [
-            "Morrow: The The Sunken Chapel drowned with a whole town kneeling in it. The bell still tolls under the reeds.",
-            "Morrow: In Brume, nothing's lost. It only goes quiet a while."
+            "My partner trained the same team for twenty years. When they passed, the creatures wouldn't eat for a week.",
+            "That's the part the Leagues don't put on the badges. Bonds cut both ways. People come to Umbra to disappear. Some of them wanted to."
           ],
           "next": ""
         }
       ]
     },
     {
-      "id": "town_brume_kid",
+      "id": "town_umbra_x1",
       "nodes": [
         {
           "id": "start",
-          "portrait": "kid",
+          "portrait": "cynic",
           "lines": [
-            "Ply: The fog talks if you listen! ...Okay, maybe it's just the creatures. But maybe not!"
-          ],
-          "next": ""
-        }
-      ]
-    },
-    {
-      "id": "town_brume_priest",
-      "nodes": [
-        {
-          "id": "start",
-          "portrait": "priest",
-          "lines": [
-            "Sen: Grief and mist look alike from far off. Up close, both can be walked through.",
-            "Sen: Whatever weighs on you, traveler — the fen has carried heavier."
-          ],
-          "next": ""
-        }
-      ]
-    },
-    {
-      "id": "town_brume_fan",
-      "nodes": [
-        {
-          "id": "start",
-          "portrait": "fan",
-          "lines": [
-            "Vell: The Archon waits past Zephyra now. Done sending others.",
-            "Vell: When you face them, remember: they were a trainer once. Like you. Like Mourn."
+            "Nine crests, they'll tell you. As if a wall of medals ever fed anyone.",
+            "Chase it if you must. Just don't mistake the applause for a life."
           ],
           "choices": [
             {
-              "text": "I'll end the Order for good.",
-              "actions": [
-                {
-                  "kind": "set_var",
-                  "var": "order_stance",
-                  "value": "justice"
-                }
-              ],
-              "next": "reply_0"
-            },
-            {
-              "text": "Maybe it can be mended.",
-              "actions": [
-                {
-                  "kind": "set_var",
-                  "var": "order_stance",
-                  "value": "mercy"
-                }
-              ],
-              "next": "reply_1"
-            }
-          ]
-        },
-        {
-          "id": "reply_0",
-          "entry": false,
-          "portrait": "fan",
-          "lines": [
-            "Vell: Clean and final. The roads would thank you."
-          ],
-          "next": ""
-        },
-        {
-          "id": "reply_1",
-          "entry": false,
-          "portrait": "fan",
-          "lines": [
-            "Vell: ...Maybe you're the one who can. Few would try."
-          ],
-          "next": ""
-        }
-      ]
-    },
-    {
-      "id": "town_lumen_elder",
-      "nodes": [
-        {
-          "id": "start",
-          "portrait": "elder",
-          "lines": [
-            "Lux: Look into the Prism Cavern's crystals and you'll see a day the valley kept for you.",
-            "Lux: The kind trainers shine longer in the stone. I've watched thousands pass."
-          ],
-          "next": ""
-        }
-      ]
-    },
-    {
-      "id": "town_lumen_kid",
-      "nodes": [
-        {
-          "id": "start",
-          "portrait": "kid",
-          "lines": [
-            "Ami: The rocks glow rainbow! I wanna catch one that glows just like them!"
-          ],
-          "next": ""
-        }
-      ]
-    },
-    {
-      "id": "town_lumen_guide",
-      "nodes": [
-        {
-          "id": "start",
-          "portrait": "guide",
-          "lines": [
-            "Oss: The last Hollow agent, Wisp, is here in the deeps. End the cell, traveler.",
-            "Oss: After Wisp, only the Lieutenant and the Archon remain."
-          ],
-          "next": ""
-        }
-      ]
-    },
-    {
-      "id": "town_lumen_fan",
-      "nodes": [
-        {
-          "id": "start",
-          "portrait": "fan",
-          "lines": [
-            "Pia: They say a sky-spirit — Aetherion — visits Zephyra's shrine once a generation.",
-            "Pia: Ultra rare. Most trainers only ever see it in a story. Will you?"
-          ],
-          "choices": [
-            {
-              "text": "I'll be the one who catches it.",
+              "text": "It's more than applause to me.",
               "actions": [
                 {
                   "kind": "adjust_relationship",
-                  "npc": "pia",
+                  "npc": "old",
                   "delta": 1
                 }
               ],
               "next": "reply_0"
             },
             {
-              "text": "Some things should stay legends.",
+              "text": "Spare me the sermon.",
               "actions": [],
               "next": "reply_1"
             }
@@ -638,73 +573,788 @@
         {
           "id": "reply_0",
           "entry": false,
-          "portrait": "fan",
+          "portrait": "cynic",
           "lines": [
-            "Pia: Then climb high and watch the quiet skies. I believe you."
+            "Old 2: ...Good. Hold onto the more. It's the only part that lasts."
           ],
           "next": ""
         },
         {
           "id": "reply_1",
           "entry": false,
-          "portrait": "fan",
+          "portrait": "cynic",
           "lines": [
-            "Pia: ...A rare kind of wisdom. The shrine would like you."
+            "Old 2: Suit yourself. The road's a patient teacher."
           ],
           "next": ""
         }
       ]
     },
     {
-      "id": "town_zephyra_elder",
+      "id": "town_umbra_x2",
       "nodes": [
         {
           "id": "start",
-          "portrait": "elder",
+          "portrait": "watch",
           "lines": [
-            "Elah: You climbed nine regions to reach this wind. Breathe it. You earned the height.",
-            "Elah: The Skyreach Shrine is the last floor a trainer stands on and is still called grounded."
+            "I patrol between the gyms. Since the Order moved north, the wilds have teeth after dark.",
+            "If you're headed for the Lieutenant in Umbra — go rested. Mourn doesn't fight angry. He fights tired, and wins."
           ],
           "next": ""
         }
       ]
     },
     {
-      "id": "town_zephyra_kid",
+      "id": "town_umbra_x3",
       "nodes": [
         {
           "id": "start",
-          "portrait": "kid",
+          "portrait": "scholar",
           "lines": [
-            "Bit: The Champion's up top and she's got FIVE creatures! Five! You beat all four Elites first though."
+            "Two thousand species catalogued and the twilight woods of Umbra still hand me a new one every month.",
+            "Ambition's fine. But the ones who last learn to be curious instead. It ages better."
           ],
           "next": ""
         }
       ]
     },
     {
-      "id": "town_zephyra_skywatch",
+      "id": "town_umbra_g0",
       "nodes": [
         {
           "id": "start",
-          "portrait": "skywatch",
+          "portrait": "veteran",
           "lines": [
-            "Corr: The Archon's out in our wilds. Whatever you decide up there — decide it clear-eyed.",
-            "Corr: Mercy or justice, the steppe will carry the story either way."
+            "I held an Elite seat once. Four hundred challengers, and I remember the faces of the ones who beat me.",
+            "You don't retire from this. You just stop getting up when they knock you down. People come to Umbra to disappear. Some of them wanted to."
           ],
           "next": ""
         }
       ]
     },
     {
-      "id": "town_zephyra_fan",
+      "id": "town_umbra_g1",
       "nodes": [
         {
           "id": "start",
-          "portrait": "fan",
+          "portrait": "debtor",
           "lines": [
-            "Nel: Nine crests. One unbroken road. If you've carried a team the whole way...",
-            "Nel: ...then you're not far from a legend they'll tell at every gate you passed."
+            "The Order 'lent' my family a season's grain and called back triple. Gray coats always do.",
+            "I'm free of them now. Cost me the farm, but a debt paid in dirt is still paid."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_umbra_l0",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "greytongue",
+          "lines": [
+            "Marda: Mourn drank at my table once, before the coat. Gentle man. Lost a child, then a purpose.",
+            "Marda: When you beat him — and you will — be quick about the mercy. He's suffered the slow kind enough."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_umbra_l1",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "sympathizer",
+          "lines": [
+            "I almost took the gray coat, you know. When you've lost enough, 'take before it's taken' sounds like wisdom.",
+            "The defector talked me out of it. Sable. Ask for them at the northern gate if you haven't met yet."
+          ],
+          "choices": [
+            {
+              "text": "Why didn't you join?",
+              "actions": [],
+              "next": "reply_0"
+            },
+            {
+              "text": "Weakness, then.",
+              "actions": [
+                {
+                  "kind": "adjust_relationship",
+                  "npc": "quiet",
+                  "delta": -1
+                }
+              ],
+              "next": "reply_1"
+            }
+          ]
+        },
+        {
+          "id": "reply_0",
+          "entry": false,
+          "portrait": "sympathizer",
+          "lines": [
+            "Quiet 2: Because hollow's a one-way road. You don't come back with more. You come back with less."
+          ],
+          "next": ""
+        },
+        {
+          "id": "reply_1",
+          "entry": false,
+          "portrait": "sympathizer",
+          "lines": [
+            "Quiet 2: ...Say that after you've buried something. Then we'll talk."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_ferrock_x0",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "cynic",
+          "lines": [
+            "Nine crests, they'll tell you. As if a wall of medals ever fed anyone.",
+            "Chase it if you must. Just don't mistake the applause for a life."
+          ],
+          "choices": [
+            {
+              "text": "It's more than applause to me.",
+              "actions": [
+                {
+                  "kind": "adjust_relationship",
+                  "npc": "old",
+                  "delta": 1
+                }
+              ],
+              "next": "reply_0"
+            },
+            {
+              "text": "Spare me the sermon.",
+              "actions": [],
+              "next": "reply_1"
+            }
+          ]
+        },
+        {
+          "id": "reply_0",
+          "entry": false,
+          "portrait": "cynic",
+          "lines": [
+            "Old 1: ...Good. Hold onto the more. It's the only part that lasts."
+          ],
+          "next": ""
+        },
+        {
+          "id": "reply_1",
+          "entry": false,
+          "portrait": "cynic",
+          "lines": [
+            "Old 1: Suit yourself. The road's a patient teacher."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_ferrock_x1",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "watch",
+          "lines": [
+            "I patrol between the gyms. Since the Order moved north, the wilds have teeth after dark.",
+            "If you're headed for the Lieutenant in Umbra — go rested. Mourn doesn't fight angry. He fights tired, and wins."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_ferrock_x2",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "scholar",
+          "lines": [
+            "Two thousand species catalogued and the iron hills of Ferrock still hand me a new one every month.",
+            "Ambition's fine. But the ones who last learn to be curious instead. It ages better."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_ferrock_x3",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "veteran",
+          "lines": [
+            "I held an Elite seat once. Four hundred challengers, and I remember the faces of the ones who beat me.",
+            "You don't retire from this. You just stop getting up when they knock you down. The foundry closed and took the town's spine with it. We forge memories now."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_ferrock_g0",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "debtor",
+          "lines": [
+            "The Order 'lent' my family a season's grain and called back triple. Gray coats always do.",
+            "I'm free of them now. Cost me the farm, but a debt paid in dirt is still paid."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_ferrock_g1",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "sympathizer",
+          "lines": [
+            "I almost took the gray coat, you know. When you've lost enough, 'take before it's taken' sounds like wisdom.",
+            "The defector talked me out of it. Sable. Ask for them at the northern gate if you haven't met yet."
+          ],
+          "choices": [
+            {
+              "text": "Why didn't you join?",
+              "actions": [],
+              "next": "reply_0"
+            },
+            {
+              "text": "Weakness, then.",
+              "actions": [
+                {
+                  "kind": "adjust_relationship",
+                  "npc": "quiet",
+                  "delta": -1
+                }
+              ],
+              "next": "reply_1"
+            }
+          ]
+        },
+        {
+          "id": "reply_0",
+          "entry": false,
+          "portrait": "sympathizer",
+          "lines": [
+            "Quiet 2: Because hollow's a one-way road. You don't come back with more. You come back with less."
+          ],
+          "next": ""
+        },
+        {
+          "id": "reply_1",
+          "entry": false,
+          "portrait": "sympathizer",
+          "lines": [
+            "Quiet 2: ...Say that after you've buried something. Then we'll talk."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_ferrock_l0",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "fixer",
+          "lines": [
+            "Orbs, salves, information — I move all three. In Ferrock, knowing a thing is worth more than owning it.",
+            "Word is you're unpicking the Order's cell, region by region. That's worth a discount. And a warning."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_brume_x0",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "watch",
+          "lines": [
+            "I patrol between the gyms. Since the Order moved north, the wilds have teeth after dark.",
+            "If you're headed for the Lieutenant in Umbra — go rested. Mourn doesn't fight angry. He fights tired, and wins."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_brume_x1",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "scholar",
+          "lines": [
+            "Two thousand species catalogued and the fens of Brume still hand me a new one every month.",
+            "Ambition's fine. But the ones who last learn to be curious instead. It ages better."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_brume_x2",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "veteran",
+          "lines": [
+            "I held an Elite seat once. Four hundred challengers, and I remember the faces of the ones who beat me.",
+            "You don't retire from this. You just stop getting up when they knock you down. Half of Brume is underwater and the other half is grieving it."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_brume_x3",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "debtor",
+          "lines": [
+            "The Order 'lent' my family a season's grain and called back triple. Gray coats always do.",
+            "I'm free of them now. Cost me the farm, but a debt paid in dirt is still paid."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_brume_g0",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "sympathizer",
+          "lines": [
+            "I almost took the gray coat, you know. When you've lost enough, 'take before it's taken' sounds like wisdom.",
+            "The defector talked me out of it. Sable. Ask for them at the northern gate if you haven't met yet."
+          ],
+          "choices": [
+            {
+              "text": "Why didn't you join?",
+              "actions": [],
+              "next": "reply_0"
+            },
+            {
+              "text": "Weakness, then.",
+              "actions": [
+                {
+                  "kind": "adjust_relationship",
+                  "npc": "quiet",
+                  "delta": -1
+                }
+              ],
+              "next": "reply_1"
+            }
+          ]
+        },
+        {
+          "id": "reply_0",
+          "entry": false,
+          "portrait": "sympathizer",
+          "lines": [
+            "Quiet 1: Because hollow's a one-way road. You don't come back with more. You come back with less."
+          ],
+          "next": ""
+        },
+        {
+          "id": "reply_1",
+          "entry": false,
+          "portrait": "sympathizer",
+          "lines": [
+            "Quiet 1: ...Say that after you've buried something. Then we'll talk."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_brume_g1",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "fixer",
+          "lines": [
+            "Orbs, salves, information — I move all three. In Brume, knowing a thing is worth more than owning it.",
+            "Word is you're unpicking the Order's cell, region by region. That's worth a discount. And a warning."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_brume_l0",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "mourner",
+          "lines": [
+            "My partner trained the same team for twenty years. When they passed, the creatures wouldn't eat for a week.",
+            "That's the part the Leagues don't put on the badges. Bonds cut both ways. Half of Brume is underwater and the other half is grieving it."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_lumen_x0",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "scholar",
+          "lines": [
+            "Two thousand species catalogued and the crystal vale of Lumen still hand me a new one every month.",
+            "Ambition's fine. But the ones who last learn to be curious instead. It ages better."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_lumen_x1",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "veteran",
+          "lines": [
+            "I held an Elite seat once. Four hundred challengers, and I remember the faces of the ones who beat me.",
+            "You don't retire from this. You just stop getting up when they knock you down. The light shows you old days. Some folk go in and forget to come out."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_lumen_x2",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "debtor",
+          "lines": [
+            "The Order 'lent' my family a season's grain and called back triple. Gray coats always do.",
+            "I'm free of them now. Cost me the farm, but a debt paid in dirt is still paid."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_lumen_x3",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "sympathizer",
+          "lines": [
+            "I almost took the gray coat, you know. When you've lost enough, 'take before it's taken' sounds like wisdom.",
+            "The defector talked me out of it. Sable. Ask for them at the northern gate if you haven't met yet."
+          ],
+          "choices": [
+            {
+              "text": "Why didn't you join?",
+              "actions": [],
+              "next": "reply_0"
+            },
+            {
+              "text": "Weakness, then.",
+              "actions": [
+                {
+                  "kind": "adjust_relationship",
+                  "npc": "quiet",
+                  "delta": -1
+                }
+              ],
+              "next": "reply_1"
+            }
+          ]
+        },
+        {
+          "id": "reply_0",
+          "entry": false,
+          "portrait": "sympathizer",
+          "lines": [
+            "Quiet 4: Because hollow's a one-way road. You don't come back with more. You come back with less."
+          ],
+          "next": ""
+        },
+        {
+          "id": "reply_1",
+          "entry": false,
+          "portrait": "sympathizer",
+          "lines": [
+            "Quiet 4: ...Say that after you've buried something. Then we'll talk."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_lumen_g0",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "fixer",
+          "lines": [
+            "Orbs, salves, information — I move all three. In Lumen, knowing a thing is worth more than owning it.",
+            "Word is you're unpicking the Order's cell, region by region. That's worth a discount. And a warning."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_lumen_g1",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "mourner",
+          "lines": [
+            "My partner trained the same team for twenty years. When they passed, the creatures wouldn't eat for a week.",
+            "That's the part the Leagues don't put on the badges. Bonds cut both ways. The light shows you old days. Some folk go in and forget to come out."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_lumen_l0",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "cynic",
+          "lines": [
+            "Nine crests, they'll tell you. As if a wall of medals ever fed anyone.",
+            "Chase it if you must. Just don't mistake the applause for a life."
+          ],
+          "choices": [
+            {
+              "text": "It's more than applause to me.",
+              "actions": [
+                {
+                  "kind": "adjust_relationship",
+                  "npc": "old",
+                  "delta": 1
+                }
+              ],
+              "next": "reply_0"
+            },
+            {
+              "text": "Spare me the sermon.",
+              "actions": [],
+              "next": "reply_1"
+            }
+          ]
+        },
+        {
+          "id": "reply_0",
+          "entry": false,
+          "portrait": "cynic",
+          "lines": [
+            "Old 1: ...Good. Hold onto the more. It's the only part that lasts."
+          ],
+          "next": ""
+        },
+        {
+          "id": "reply_1",
+          "entry": false,
+          "portrait": "cynic",
+          "lines": [
+            "Old 1: Suit yourself. The road's a patient teacher."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_zephyra_x0",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "veteran",
+          "lines": [
+            "I held an Elite seat once. Four hundred challengers, and I remember the faces of the ones who beat me.",
+            "You don't retire from this. You just stop getting up when they knock you down. Up here you can see the whole road you walked. Most people can't stand to look."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_zephyra_x1",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "debtor",
+          "lines": [
+            "The Order 'lent' my family a season's grain and called back triple. Gray coats always do.",
+            "I'm free of them now. Cost me the farm, but a debt paid in dirt is still paid."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_zephyra_x2",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "sympathizer",
+          "lines": [
+            "I almost took the gray coat, you know. When you've lost enough, 'take before it's taken' sounds like wisdom.",
+            "The defector talked me out of it. Sable. Ask for them at the northern gate if you haven't met yet."
+          ],
+          "choices": [
+            {
+              "text": "Why didn't you join?",
+              "actions": [],
+              "next": "reply_0"
+            },
+            {
+              "text": "Weakness, then.",
+              "actions": [
+                {
+                  "kind": "adjust_relationship",
+                  "npc": "quiet",
+                  "delta": -1
+                }
+              ],
+              "next": "reply_1"
+            }
+          ]
+        },
+        {
+          "id": "reply_0",
+          "entry": false,
+          "portrait": "sympathizer",
+          "lines": [
+            "Quiet 3: Because hollow's a one-way road. You don't come back with more. You come back with less."
+          ],
+          "next": ""
+        },
+        {
+          "id": "reply_1",
+          "entry": false,
+          "portrait": "sympathizer",
+          "lines": [
+            "Quiet 3: ...Say that after you've buried something. Then we'll talk."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_zephyra_x3",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "fixer",
+          "lines": [
+            "Orbs, salves, information — I move all three. In Zephyra, knowing a thing is worth more than owning it.",
+            "Word is you're unpicking the Order's cell, region by region. That's worth a discount. And a warning."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_zephyra_g0",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "mourner",
+          "lines": [
+            "My partner trained the same team for twenty years. When they passed, the creatures wouldn't eat for a week.",
+            "That's the part the Leagues don't put on the badges. Bonds cut both ways. Up here you can see the whole road you walked. Most people can't stand to look."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_zephyra_g1",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "cynic",
+          "lines": [
+            "Nine crests, they'll tell you. As if a wall of medals ever fed anyone.",
+            "Chase it if you must. Just don't mistake the applause for a life."
+          ],
+          "choices": [
+            {
+              "text": "It's more than applause to me.",
+              "actions": [
+                {
+                  "kind": "adjust_relationship",
+                  "npc": "old",
+                  "delta": 1
+                }
+              ],
+              "next": "reply_0"
+            },
+            {
+              "text": "Spare me the sermon.",
+              "actions": [],
+              "next": "reply_1"
+            }
+          ]
+        },
+        {
+          "id": "reply_0",
+          "entry": false,
+          "portrait": "cynic",
+          "lines": [
+            "Old 2: ...Good. Hold onto the more. It's the only part that lasts."
+          ],
+          "next": ""
+        },
+        {
+          "id": "reply_1",
+          "entry": false,
+          "portrait": "cynic",
+          "lines": [
+            "Old 2: Suit yourself. The road's a patient teacher."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_zephyra_l0",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "summitkeep",
+          "lines": [
+            "Iren: Everyone who reaches this wind has left something behind to get here. What's yours?",
+            "Iren: The Archon left everything behind. That's the difference between you and them. So far."
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "town_zephyra_l1",
+      "nodes": [
+        {
+          "id": "start",
+          "portrait": "watch",
+          "lines": [
+            "I patrol between the gyms. Since the Order moved north, the wilds have teeth after dark.",
+            "If you're headed for the Lieutenant in Umbra — go rested. Mourn doesn't fight angry. He fights tired, and wins."
           ],
           "next": ""
         }

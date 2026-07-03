@@ -251,33 +251,47 @@
       "type": "npc",
       "x": 4,
       "y": 2,
-      "npc_id": "solane_folk_0",
-      "sprite": "npc_villager",
-      "dialog_id": "town_solane_elder"
+      "npc_id": "folk_solane_x0",
+      "sprite": "npc_clerk",
+      "dialog_id": "town_solane_x0"
     },
     {
       "type": "npc",
       "x": 11,
       "y": 2,
-      "npc_id": "solane_folk_1",
-      "sprite": "npc_kid",
-      "dialog_id": "town_solane_kid"
+      "npc_id": "folk_solane_x1",
+      "sprite": "npc_villager",
+      "dialog_id": "town_solane_x1"
     },
     {
       "type": "npc",
       "x": 4,
       "y": 6,
-      "npc_id": "solane_folk_2",
-      "sprite": "npc_watcher",
-      "dialog_id": "town_solane_nomad"
+      "npc_id": "folk_solane_x2",
+      "sprite": "npc_villager",
+      "dialog_id": "town_solane_x2"
     },
     {
       "type": "npc",
       "x": 11,
       "y": 6,
-      "npc_id": "solane_folk_3",
-      "sprite": "npc_villager",
-      "dialog_id": "town_solane_fan"
+      "npc_id": "folk_solane_x3",
+      "sprite": "npc_watcher",
+      "dialog_id": "town_solane_x3"
+    },
+    {
+      "type": "sign",
+      "x": 6,
+      "y": 5,
+      "text": "CROSSROADS DIRECTORY. North halls: Plainskeeper (normal), Ember Sage (fire), Tidecaller (water), Grovewarden (grass). South halls: Stormsmith (electric), Cairnbreaker (earth), Skydancer (wind), Dreambinder (mystic). East: the League — sealed until all eight badges are earned. West: the old road, and the landmark.",
+      "gen": "sign"
+    },
+    {
+      "type": "sign",
+      "x": 8,
+      "y": 5,
+      "text": "Eight leaders, one crest apiece. Beat them in any order. The four Elites past the League gate do not wait in any order — they wait in a line.",
+      "gen": "sign"
     }
   ]
 }

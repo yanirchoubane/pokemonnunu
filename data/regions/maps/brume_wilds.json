@@ -108,6 +108,13 @@
       "sight": 2,
       "facing": "right",
       "flag": "beat_brume_miner"
+    },
+    {
+      "type": "sign",
+      "x": 4,
+      "y": 3,
+      "text": "NOTICE: The fen rises fast after rain. If the bell under the reeds tolls, you have already stayed too long.",
+      "gen": "sign"
     }
   ]
 }

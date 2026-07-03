@@ -108,6 +108,13 @@
       "sight": 2,
       "facing": "right",
       "flag": "beat_solane_miner"
+    },
+    {
+      "type": "sign",
+      "x": 4,
+      "y": 3,
+      "text": "NOTICE: Water two days south. The Order priced the wells before we ran them off — pay nothing to a gray coat.",
+      "gen": "sign"
     }
   ]
 }

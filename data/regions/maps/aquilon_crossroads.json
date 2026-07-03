@@ -251,33 +251,47 @@
       "type": "npc",
       "x": 4,
       "y": 2,
-      "npc_id": "aquilon_folk_0",
+      "npc_id": "folk_aquilon_x0",
       "sprite": "npc_villager",
-      "dialog_id": "town_aquilon_elder"
+      "dialog_id": "town_aquilon_x0"
     },
     {
       "type": "npc",
       "x": 11,
       "y": 2,
-      "npc_id": "aquilon_folk_1",
-      "sprite": "npc_kid",
-      "dialog_id": "town_aquilon_kid"
+      "npc_id": "folk_aquilon_x1",
+      "sprite": "npc_villager",
+      "dialog_id": "town_aquilon_x1"
     },
     {
       "type": "npc",
       "x": 4,
       "y": 6,
-      "npc_id": "aquilon_folk_2",
-      "sprite": "npc_villager",
-      "dialog_id": "town_aquilon_sailor"
+      "npc_id": "folk_aquilon_x2",
+      "sprite": "npc_clerk",
+      "dialog_id": "town_aquilon_x2"
     },
     {
       "type": "npc",
       "x": 11,
       "y": 6,
-      "npc_id": "aquilon_folk_3",
+      "npc_id": "folk_aquilon_x3",
       "sprite": "npc_villager",
-      "dialog_id": "town_aquilon_fan"
+      "dialog_id": "town_aquilon_x3"
+    },
+    {
+      "type": "sign",
+      "x": 6,
+      "y": 5,
+      "text": "CROSSROADS DIRECTORY. North halls: Plainskeeper (normal), Ember Sage (fire), Tidecaller (water), Grovewarden (grass). South halls: Stormsmith (electric), Cairnbreaker (earth), Skydancer (wind), Dreambinder (mystic). East: the League — sealed until all eight badges are earned. West: the old road, and the landmark.",
+      "gen": "sign"
+    },
+    {
+      "type": "sign",
+      "x": 8,
+      "y": 5,
+      "text": "Eight leaders, one crest apiece. Beat them in any order. The four Elites past the League gate do not wait in any order — they wait in a line.",
+      "gen": "sign"
     }
   ]
 }

@@ -108,6 +108,13 @@
       "sight": 2,
       "facing": "right",
       "flag": "beat_umbra_miner"
+    },
+    {
+      "type": "sign",
+      "x": 4,
+      "y": 3,
+      "text": "NOTICE: The grove keeps a Lieutenant now. Those with debts to the Order should turn back here.",
+      "gen": "sign"
     }
   ]
 }

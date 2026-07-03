@@ -82,6 +82,14 @@
       "y": 6,
       "item": "dusk_orb",
       "flag": "item_aquilon_landmark"
+    },
+    {
+      "type": "npc",
+      "x": 8,
+      "y": 3,
+      "npc_id": "folk_aquilon_l0",
+      "sprite": "npc_villager",
+      "dialog_id": "town_aquilon_l0"
     }
   ]
 }

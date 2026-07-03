@@ -82,6 +82,14 @@
       "y": 6,
       "item": "great_orb",
       "flag": "item_verdantia_landmark"
+    },
+    {
+      "type": "npc",
+      "x": 8,
+      "y": 3,
+      "npc_id": "folk_verdantia_l0",
+      "sprite": "npc_watcher",
+      "dialog_id": "town_verdantia_l0"
     }
   ]
 }

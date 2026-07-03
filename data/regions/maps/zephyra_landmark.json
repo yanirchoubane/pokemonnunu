@@ -82,6 +82,22 @@
       "y": 6,
       "item": "master_orb",
       "flag": "item_zephyra_landmark"
+    },
+    {
+      "type": "npc",
+      "x": 8,
+      "y": 3,
+      "npc_id": "folk_zephyra_l0",
+      "sprite": "npc_watcher",
+      "dialog_id": "town_zephyra_l0"
+    },
+    {
+      "type": "npc",
+      "x": 2,
+      "y": 5,
+      "npc_id": "folk_zephyra_l1",
+      "sprite": "npc_watcher",
+      "dialog_id": "town_zephyra_l1"
     }
   ]
 }

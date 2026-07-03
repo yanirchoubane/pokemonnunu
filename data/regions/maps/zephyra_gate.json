@@ -100,6 +100,29 @@
       "x": 2,
       "y": 4,
       "text": "Zephyra Gate — west: the port home. East: the wilds."
+    },
+    {
+      "type": "npc",
+      "x": 2,
+      "y": 4,
+      "npc_id": "folk_zephyra_g0",
+      "sprite": "npc_villager",
+      "dialog_id": "town_zephyra_g0"
+    },
+    {
+      "type": "npc",
+      "x": 9,
+      "y": 5,
+      "npc_id": "folk_zephyra_g1",
+      "sprite": "npc_villager",
+      "dialog_id": "town_zephyra_g1"
+    },
+    {
+      "type": "sign",
+      "x": 5,
+      "y": 5,
+      "text": "Zephyra GATE. West: the port home — no toll, no questions. East: the wilds, then the Crossroads. Rest while it's free to.",
+      "gen": "sign"
     }
   ]
 }

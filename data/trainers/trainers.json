@@ -214,9 +214,9 @@
       "boss_scaling": "limited",
       "reward_money": 2700,
       "reward_badge": "cindral_crest",
-      "dialogue_intro": "Champion of Cindral: Eight badges brought you here. Show me their weight.",
-      "dialogue_defeat": "Champion of Cindral: Cindral bows to a new Champion.",
-      "dialogue_victory": "Champion of Cindral: Come back when the badges feel heavier.",
+      "dialogue_intro": "Champion of Cindral: You came a long way to stand here. Let's see what the road left in you.",
+      "dialogue_defeat": "Champion of Cindral: It left plenty. Cindral bows — carry its crest without letting it carry you.",
+      "dialogue_victory": "Champion of Cindral: The summit keeps its count. Come back heavier.",
       "team": [
         {
           "creature": "brambleclaw",
@@ -306,9 +306,9 @@
       "boss_scaling": "limited",
       "reward_money": 3100,
       "reward_badge": "solane_crest",
-      "dialogue_intro": "Champion of Solane: Eight badges brought you here. Show me their weight.",
-      "dialogue_defeat": "Champion of Solane: Solane bows to a new Champion.",
-      "dialogue_victory": "Champion of Solane: Come back when the badges feel heavier.",
+      "dialogue_intro": "Champion of Solane: You came a long way to stand here. Let's see what the road left in you.",
+      "dialogue_defeat": "Champion of Solane: It left plenty. Solane bows — carry its crest without letting it carry you.",
+      "dialogue_victory": "Champion of Solane: The summit keeps its count. Come back heavier.",
       "team": [
         {
           "creature": "surgemane",
@@ -398,9 +398,9 @@
       "boss_scaling": "limited",
       "reward_money": 3500,
       "reward_badge": "umbra_crest",
-      "dialogue_intro": "Champion of Umbra: Eight badges brought you here. Show me their weight.",
-      "dialogue_defeat": "Champion of Umbra: Umbra bows to a new Champion.",
-      "dialogue_victory": "Champion of Umbra: Come back when the badges feel heavier.",
+      "dialogue_intro": "Champion of Umbra: You came a long way to stand here. Let's see what the road left in you.",
+      "dialogue_defeat": "Champion of Umbra: It left plenty. Umbra bows — carry its crest without letting it carry you.",
+      "dialogue_victory": "Champion of Umbra: The summit keeps its count. Come back heavier.",
       "team": [
         {
           "creature": "ridgehorn",
@@ -489,9 +489,9 @@
       "boss_scaling": "limited",
       "reward_money": 3900,
       "reward_badge": "ferrock_crest",
-      "dialogue_intro": "Champion of Ferrock: Eight badges brought you here. Show me their weight.",
-      "dialogue_defeat": "Champion of Ferrock: Ferrock bows to a new Champion.",
-      "dialogue_victory": "Champion of Ferrock: Come back when the badges feel heavier.",
+      "dialogue_intro": "Champion of Ferrock: You came a long way to stand here. Let's see what the road left in you.",
+      "dialogue_defeat": "Champion of Ferrock: It left plenty. Ferrock bows — carry its crest without letting it carry you.",
+      "dialogue_victory": "Champion of Ferrock: The summit keeps its count. Come back heavier.",
       "team": [
         {
           "creature": "zephyrclaw",
@@ -581,9 +581,9 @@
       "boss_scaling": "limited",
       "reward_money": 4300,
       "reward_badge": "brume_crest",
-      "dialogue_intro": "Champion of Brume: Eight badges brought you here. Show me their weight.",
-      "dialogue_defeat": "Champion of Brume: Brume bows to a new Champion.",
-      "dialogue_victory": "Champion of Brume: Come back when the badges feel heavier.",
+      "dialogue_intro": "Champion of Brume: You came a long way to stand here. Let's see what the road left in you.",
+      "dialogue_defeat": "Champion of Brume: It left plenty. Brume bows — carry its crest without letting it carry you.",
+      "dialogue_victory": "Champion of Brume: The summit keeps its count. Come back heavier.",
       "team": [
         {
           "creature": "omenmane",
@@ -672,9 +672,9 @@
       "boss_scaling": "limited",
       "reward_money": 4700,
       "reward_badge": "lumen_crest",
-      "dialogue_intro": "Champion of Lumen: Eight badges brought you here. Show me their weight.",
-      "dialogue_defeat": "Champion of Lumen: Lumen bows to a new Champion.",
-      "dialogue_victory": "Champion of Lumen: Come back when the badges feel heavier.",
+      "dialogue_intro": "Champion of Lumen: You came a long way to stand here. Let's see what the road left in you.",
+      "dialogue_defeat": "Champion of Lumen: It left plenty. Lumen bows — carry its crest without letting it carry you.",
+      "dialogue_victory": "Champion of Lumen: The summit keeps its count. Come back heavier.",
       "team": [
         {
           "creature": "fawnmane",
@@ -763,9 +763,9 @@
       "boss_scaling": "limited",
       "reward_money": 5100,
       "reward_badge": "zephyra_crest",
-      "dialogue_intro": "Champion of Zephyra: Eight badges brought you here. Show me their weight.",
-      "dialogue_defeat": "Champion of Zephyra: Zephyra bows to a new Champion.",
-      "dialogue_victory": "Champion of Zephyra: Come back when the badges feel heavier.",
+      "dialogue_intro": "Champion of Zephyra: You came a long way to stand here. Let's see what the road left in you.",
+      "dialogue_defeat": "Champion of Zephyra: It left plenty. Zephyra bows — carry its crest without letting it carry you.",
+      "dialogue_victory": "Champion of Zephyra: The summit keeps its count. Come back heavier.",
       "team": [
         {
           "creature": "kilnwarden",
@@ -1685,9 +1685,9 @@
       "boss_scaling": "limited",
       "reward_money": 420,
       "reward_badge": "verdantia_normal_badge",
-      "dialogue_intro": "Odan: Plainskeepers test every challenger with pure normal craft. Begin!",
-      "dialogue_defeat": "Odan: Masterfully done. The normal badge of Verdantia is yours.",
-      "dialogue_victory": "Odan: Study the normal arts and return.",
+      "dialogue_intro": "Plainskeeper Odan: Nothing flashy in my hall. Just fundamentals, and the discipline to trust them when it matters.",
+      "dialogue_defeat": "Plainskeeper Odan: Clean. Unhurried. You earned the badge the honest way — remember how that felt.",
+      "dialogue_victory": "Plainskeeper Odan: Fundamentals beat flourish today. Come back when your basics are quieter.",
       "team": [
         {
           "creature": "burrowit",
@@ -1724,9 +1724,9 @@
       "boss_scaling": "limited",
       "reward_money": 460,
       "reward_badge": "verdantia_fire_badge",
-      "dialogue_intro": "Vesse: Ember Sages test every challenger with pure fire craft. Begin!",
-      "dialogue_defeat": "Vesse: Masterfully done. The fire badge of Verdantia is yours.",
-      "dialogue_victory": "Vesse: Study the fire arts and return.",
+      "dialogue_intro": "Ember Sage Vesse: Everyone thinks fire is rage. Fire is patience that finally ran out. Show me yours.",
+      "dialogue_defeat": "Ember Sage Vesse: You banked your heat and spent it at the right breath. That's the whole art. Take the badge.",
+      "dialogue_victory": "Ember Sage Vesse: You burned too early and had nothing left for the end. Fire keeps. Learn that.",
       "team": [
         {
           "creature": "kilnet",
@@ -1764,9 +1764,9 @@
       "boss_scaling": "limited",
       "reward_money": 500,
       "reward_badge": "verdantia_water_badge",
-      "dialogue_intro": "Karn: Tidecallers test every challenger with pure water craft. Begin!",
-      "dialogue_defeat": "Karn: Masterfully done. The water badge of Verdantia is yours.",
-      "dialogue_victory": "Karn: Study the water arts and return.",
+      "dialogue_intro": "Tidecaller Karn: Tide doesn't argue with the shore. It just keeps coming until the shore agrees. Begin.",
+      "dialogue_defeat": "Tidecaller Karn: You wore me down like weather. Slow, certain, inevitable. The badge is yours.",
+      "dialogue_victory": "Tidecaller Karn: You crashed all at once. The sea knows better than to spend itself in one wave.",
       "team": [
         {
           "creature": "lagoonie",
@@ -1805,9 +1805,9 @@
       "boss_scaling": "limited",
       "reward_money": 540,
       "reward_badge": "verdantia_grass_badge",
-      "dialogue_intro": "Ilya: Grovewardens test every challenger with pure grass craft. Begin!",
-      "dialogue_defeat": "Ilya: Masterfully done. The grass badge of Verdantia is yours.",
-      "dialogue_victory": "Ilya: Study the grass arts and return.",
+      "dialogue_intro": "Grovewarden Ilya: Growth is slow, unglamorous, and it outlives everything that mocked it. So will my team.",
+      "dialogue_defeat": "Grovewarden Ilya: You had the patience to let the match ripen. Rare, these days. Well earned.",
+      "dialogue_victory": "Grovewarden Ilya: You rushed the harvest. Nothing grown in a hurry ever held. Try again.",
       "team": [
         {
           "creature": "thistlekin",
@@ -1847,9 +1847,9 @@
       "boss_scaling": "limited",
       "reward_money": 580,
       "reward_badge": "verdantia_electric_badge",
-      "dialogue_intro": "Roan: Stormsmiths test every challenger with pure electric craft. Begin!",
-      "dialogue_defeat": "Roan: Masterfully done. The electric badge of Verdantia is yours.",
-      "dialogue_victory": "Roan: Study the electric arts and return.",
+      "dialogue_intro": "Stormsmith Roan: One clean decision, delivered before the other side finishes theirs. That's all lightning is.",
+      "dialogue_defeat": "Stormsmith Roan: Faster than me where it counted. I felt that decision land. The badge fits you.",
+      "dialogue_victory": "Stormsmith Roan: You hesitated on the turn that mattered. Against charge, hesitation is the loss.",
       "team": [
         {
           "creature": "joltlet",
@@ -1889,9 +1889,9 @@
       "boss_scaling": "limited",
       "reward_money": 620,
       "reward_badge": "verdantia_earth_badge",
-      "dialogue_intro": "Petra: Cairnbreakers test every challenger with pure earth craft. Begin!",
-      "dialogue_defeat": "Petra: Masterfully done. The earth badge of Verdantia is yours.",
-      "dialogue_victory": "Petra: Study the earth arts and return.",
+      "dialogue_intro": "Cairnbreaker Petra: I don't move first and I don't move much. I simply do not fall. Try to make me.",
+      "dialogue_defeat": "Cairnbreaker Petra: You found the one seam in the stone and worked it until I broke. Skilled. Take it.",
+      "dialogue_victory": "Cairnbreaker Petra: You threw yourself at the wall until you were the one that cracked. Patience, challenger.",
       "team": [
         {
           "creature": "ridgeling",
@@ -1930,9 +1930,9 @@
       "boss_scaling": "limited",
       "reward_money": 660,
       "reward_badge": "verdantia_wind_badge",
-      "dialogue_intro": "Sorrel: Skydancers test every challenger with pure wind craft. Begin!",
-      "dialogue_defeat": "Sorrel: Masterfully done. The wind badge of Verdantia is yours.",
-      "dialogue_victory": "Sorrel: Study the wind arts and return.",
+      "dialogue_intro": "Skydancer Sorrel: You'll never quite see where my team is. That's not a trick. That's the discipline of the open sky.",
+      "dialogue_defeat": "Skydancer Sorrel: You read the wind when you couldn't see it. That's mastery. Wear the badge lightly.",
+      "dialogue_victory": "Skydancer Sorrel: You swung at where I'd been. The sky is always already somewhere else.",
       "team": [
         {
           "creature": "soarit",
@@ -1970,9 +1970,9 @@
       "boss_scaling": "limited",
       "reward_money": 700,
       "reward_badge": "verdantia_mystic_badge",
-      "dialogue_intro": "Yara: Dreambinders test every challenger with pure mystic craft. Begin!",
-      "dialogue_defeat": "Yara: Masterfully done. The mystic badge of Verdantia is yours.",
-      "dialogue_victory": "Yara: Study the mystic arts and return.",
+      "dialogue_intro": "Dreambinder Yara: I won't claim to read minds. I read patterns — and yours has been loud since you walked in.",
+      "dialogue_defeat": "Dreambinder Yara: You changed your pattern the moment I named it. That's the only counter there is. Deserved.",
+      "dialogue_victory": "Dreambinder Yara: You fought the way I predicted, exactly. Surprise me next time, or don't return.",
       "team": [
         {
           "creature": "visionmane",
@@ -2009,9 +2009,9 @@
       "boss": true,
       "boss_scaling": "limited",
       "reward_money": 1000,
-      "dialogue_intro": "Rooke: The Elite Four of Verdantia yield to no one unproven.",
-      "dialogue_defeat": "Rooke: Proven. Pass.",
-      "dialogue_victory": "Rooke: The corridor ends here for you.",
+      "dialogue_intro": "Elite Rooke: First of the four. I weed out the confident. Show me you're something sturdier.",
+      "dialogue_defeat": "Elite Rooke: Sturdier than confident. Good. The next seat is crueller — go warm.",
+      "dialogue_victory": "Elite Rooke: Confidence isn't a strategy. Come back when you've traded it for something that holds.",
       "team": [
         {
           "creature": "kilnmane",
@@ -2059,9 +2059,9 @@
       "boss": true,
       "boss_scaling": "limited",
       "reward_money": 1100,
-      "dialogue_intro": "Solenne: The Elite Four of Verdantia yield to no one unproven.",
-      "dialogue_defeat": "Solenne: Proven. Pass.",
-      "dialogue_victory": "Solenne: The corridor ends here for you.",
+      "dialogue_intro": "Elite Solenne: Second seat. The tired ones stop here — the ones who spent everything proving the first point.",
+      "dialogue_defeat": "Elite Solenne: Still standing, still thinking. Pass. The third won't let you think at all.",
+      "dialogue_victory": "Elite Solenne: You left your best in the last hall. Bring it whole next time, not in pieces.",
       "team": [
         {
           "creature": "thistlehorn",
@@ -2109,9 +2109,9 @@
       "boss": true,
       "boss_scaling": "limited",
       "reward_money": 1200,
-      "dialogue_intro": "Vantor: The Elite Four of Verdantia yield to no one unproven.",
-      "dialogue_defeat": "Vantor: Proven. Pass.",
-      "dialogue_victory": "Vantor: The corridor ends here for you.",
+      "dialogue_intro": "Elite Vantor: Third. By now the badges have made you certain. I am here to make you doubt, precisely.",
+      "dialogue_defeat": "Elite Vantor: You doubted at the right depth and kept moving. That's poise. Go on to the last.",
+      "dialogue_victory": "Elite Vantor: Doubt swallowed you. It does that to the certain. Steady yourself and return.",
       "team": [
         {
           "creature": "ridgeclaw",
@@ -2159,9 +2159,9 @@
       "boss": true,
       "boss_scaling": "limited",
       "reward_money": 1300,
-      "dialogue_intro": "Ondine: The Elite Four of Verdantia yield to no one unproven.",
-      "dialogue_defeat": "Ondine: Proven. Pass.",
-      "dialogue_victory": "Ondine: The corridor ends here for you.",
+      "dialogue_intro": "Elite Ondine: Last of the four. Everything gentle is behind you. What's left is only whether you meant it.",
+      "dialogue_defeat": "Elite Ondine: You meant it. All the way down. The Champion is waiting — and so, now, is your name.",
+      "dialogue_victory": "Elite Ondine: You didn't mean it enough. The corridor keeps its honest count. Come back meaning it.",
       "team": [
         {
           "creature": "visionmane",
@@ -2210,9 +2210,9 @@
       "boss_scaling": "limited",
       "reward_money": 1900,
       "reward_badge": "verdantia_crest",
-      "dialogue_intro": "Sovereign Laurel: Eight badges brought you here. Show me their weight.",
-      "dialogue_defeat": "Sovereign Laurel: Verdantia bows to a new Champion.",
-      "dialogue_victory": "Sovereign Laurel: Come back when the badges feel heavier.",
+      "dialogue_intro": "Sovereign Laurel: Eight badges say you can win. I'm here to ask a harder question — can you keep going?",
+      "dialogue_defeat": "Sovereign Laurel: You can. Verdantia has its answer, and its new Champion. Go north; the road only gets truer.",
+      "dialogue_victory": "Sovereign Laurel: Not yet. Winning is loud. Enduring is quiet. Come back quiet.",
       "team": [
         {
           "creature": "kilnmane",
@@ -2271,9 +2271,9 @@
       "boss_scaling": "limited",
       "reward_money": 540,
       "reward_badge": "aquilon_normal_badge",
-      "dialogue_intro": "Petra: Plainskeepers test every challenger with pure normal craft. Begin!",
-      "dialogue_defeat": "Petra: Masterfully done. The normal badge of Aquilon is yours.",
-      "dialogue_victory": "Petra: Study the normal arts and return.",
+      "dialogue_intro": "Plainskeeper Petra: Nothing flashy in my hall. Just fundamentals, and the discipline to trust them when it matters.",
+      "dialogue_defeat": "Plainskeeper Petra: Clean. Unhurried. You earned the badge the honest way — remember how that felt.",
+      "dialogue_victory": "Plainskeeper Petra: Fundamentals beat flourish today. Come back when your basics are quieter.",
       "team": [
         {
           "creature": "whisket",
@@ -2310,9 +2310,9 @@
       "boss_scaling": "limited",
       "reward_money": 580,
       "reward_badge": "aquilon_fire_badge",
-      "dialogue_intro": "Sorrel: Ember Sages test every challenger with pure fire craft. Begin!",
-      "dialogue_defeat": "Sorrel: Masterfully done. The fire badge of Aquilon is yours.",
-      "dialogue_victory": "Sorrel: Study the fire arts and return.",
+      "dialogue_intro": "Ember Sage Sorrel: Everyone thinks fire is rage. Fire is patience that finally ran out. Show me yours.",
+      "dialogue_defeat": "Ember Sage Sorrel: You banked your heat and spent it at the right breath. That's the whole art. Take the badge.",
+      "dialogue_victory": "Ember Sage Sorrel: You burned too early and had nothing left for the end. Fire keeps. Learn that.",
       "team": [
         {
           "creature": "smolderie",
@@ -2350,9 +2350,9 @@
       "boss_scaling": "limited",
       "reward_money": 620,
       "reward_badge": "aquilon_water_badge",
-      "dialogue_intro": "Yara: Tidecallers test every challenger with pure water craft. Begin!",
-      "dialogue_defeat": "Yara: Masterfully done. The water badge of Aquilon is yours.",
-      "dialogue_victory": "Yara: Study the water arts and return.",
+      "dialogue_intro": "Tidecaller Yara: Tide doesn't argue with the shore. It just keeps coming until the shore agrees. Begin.",
+      "dialogue_defeat": "Tidecaller Yara: You wore me down like weather. Slow, certain, inevitable. The badge is yours.",
+      "dialogue_victory": "Tidecaller Yara: You crashed all at once. The sea knows better than to spend itself in one wave.",
       "team": [
         {
           "creature": "deltakin",
@@ -2391,9 +2391,9 @@
       "boss_scaling": "limited",
       "reward_money": 660,
       "reward_badge": "aquilon_grass_badge",
-      "dialogue_intro": "Colm: Grovewardens test every challenger with pure grass craft. Begin!",
-      "dialogue_defeat": "Colm: Masterfully done. The grass badge of Aquilon is yours.",
-      "dialogue_victory": "Colm: Study the grass arts and return.",
+      "dialogue_intro": "Grovewarden Colm: Growth is slow, unglamorous, and it outlives everything that mocked it. So will my team.",
+      "dialogue_defeat": "Grovewarden Colm: You had the patience to let the match ripen. Rare, these days. Well earned.",
+      "dialogue_victory": "Grovewarden Colm: You rushed the harvest. Nothing grown in a hurry ever held. Try again.",
       "team": [
         {
           "creature": "canopylet",
@@ -2433,9 +2433,9 @@
       "boss_scaling": "limited",
       "reward_money": 700,
       "reward_badge": "aquilon_electric_badge",
-      "dialogue_intro": "Nyssa: Stormsmiths test every challenger with pure electric craft. Begin!",
-      "dialogue_defeat": "Nyssa: Masterfully done. The electric badge of Aquilon is yours.",
-      "dialogue_victory": "Nyssa: Study the electric arts and return.",
+      "dialogue_intro": "Stormsmith Nyssa: One clean decision, delivered before the other side finishes theirs. That's all lightning is.",
+      "dialogue_defeat": "Stormsmith Nyssa: Faster than me where it counted. I felt that decision land. The badge fits you.",
+      "dialogue_victory": "Stormsmith Nyssa: You hesitated on the turn that mattered. Against charge, hesitation is the loss.",
       "team": [
         {
           "creature": "fulgorling",
@@ -2475,9 +2475,9 @@
       "boss_scaling": "limited",
       "reward_money": 740,
       "reward_badge": "aquilon_earth_badge",
-      "dialogue_intro": "Garrick: Cairnbreakers test every challenger with pure earth craft. Begin!",
-      "dialogue_defeat": "Garrick: Masterfully done. The earth badge of Aquilon is yours.",
-      "dialogue_victory": "Garrick: Study the earth arts and return.",
+      "dialogue_intro": "Cairnbreaker Garrick: I don't move first and I don't move much. I simply do not fall. Try to make me.",
+      "dialogue_defeat": "Cairnbreaker Garrick: You found the one seam in the stone and worked it until I broke. Skilled. Take it.",
+      "dialogue_victory": "Cairnbreaker Garrick: You threw yourself at the wall until you were the one that cracked. Patience, challenger.",
       "team": [
         {
           "creature": "marlit",
@@ -2516,9 +2516,9 @@
       "boss_scaling": "limited",
       "reward_money": 780,
       "reward_badge": "aquilon_wind_badge",
-      "dialogue_intro": "Mira: Skydancers test every challenger with pure wind craft. Begin!",
-      "dialogue_defeat": "Mira: Masterfully done. The wind badge of Aquilon is yours.",
-      "dialogue_victory": "Mira: Study the wind arts and return.",
+      "dialogue_intro": "Skydancer Mira: You'll never quite see where my team is. That's not a trick. That's the discipline of the open sky.",
+      "dialogue_defeat": "Skydancer Mira: You read the wind when you couldn't see it. That's mastery. Wear the badge lightly.",
+      "dialogue_victory": "Skydancer Mira: You swung at where I'd been. The sky is always already somewhere else.",
       "team": [
         {
           "creature": "zephyret",
@@ -2556,9 +2556,9 @@
       "boss_scaling": "limited",
       "reward_money": 820,
       "reward_badge": "aquilon_mystic_badge",
-      "dialogue_intro": "Torv: Dreambinders test every challenger with pure mystic craft. Begin!",
-      "dialogue_defeat": "Torv: Masterfully done. The mystic badge of Aquilon is yours.",
-      "dialogue_victory": "Torv: Study the mystic arts and return.",
+      "dialogue_intro": "Dreambinder Torv: I won't claim to read minds. I read patterns — and yours has been loud since you walked in.",
+      "dialogue_defeat": "Dreambinder Torv: You changed your pattern the moment I named it. That's the only counter there is. Deserved.",
+      "dialogue_victory": "Dreambinder Torv: You fought the way I predicted, exactly. Surprise me next time, or don't return.",
       "team": [
         {
           "creature": "runewing",
@@ -2595,9 +2595,9 @@
       "boss": true,
       "boss_scaling": "limited",
       "reward_money": 1200,
-      "dialogue_intro": "Ondine: The Elite Four of Aquilon yield to no one unproven.",
-      "dialogue_defeat": "Ondine: Proven. Pass.",
-      "dialogue_victory": "Ondine: The corridor ends here for you.",
+      "dialogue_intro": "Elite Ondine: First of the four. I weed out the confident. Show me you're something sturdier.",
+      "dialogue_defeat": "Elite Ondine: Sturdier than confident. Good. The next seat is crueller — go warm.",
+      "dialogue_victory": "Elite Ondine: Confidence isn't a strategy. Come back when you've traded it for something that holds.",
       "team": [
         {
           "creature": "deltahorn",
@@ -2645,9 +2645,9 @@
       "boss": true,
       "boss_scaling": "limited",
       "reward_money": 1300,
-      "dialogue_intro": "Merrick: The Elite Four of Aquilon yield to no one unproven.",
-      "dialogue_defeat": "Merrick: Proven. Pass.",
-      "dialogue_victory": "Merrick: The corridor ends here for you.",
+      "dialogue_intro": "Elite Merrick: Second seat. The tired ones stop here — the ones who spent everything proving the first point.",
+      "dialogue_defeat": "Elite Merrick: Still standing, still thinking. Pass. The third won't let you think at all.",
+      "dialogue_victory": "Elite Merrick: You left your best in the last hall. Bring it whole next time, not in pieces.",
       "team": [
         {
           "creature": "fulgorclaw",
@@ -2695,9 +2695,9 @@
       "boss": true,
       "boss_scaling": "limited",
       "reward_money": 1400,
-      "dialogue_intro": "Thessa: The Elite Four of Aquilon yield to no one unproven.",
-      "dialogue_defeat": "Thessa: Proven. Pass.",
-      "dialogue_victory": "Thessa: The corridor ends here for you.",
+      "dialogue_intro": "Elite Thessa: Third. By now the badges have made you certain. I am here to make you doubt, precisely.",
+      "dialogue_defeat": "Elite Thessa: You doubted at the right depth and kept moving. That's poise. Go on to the last.",
+      "dialogue_victory": "Elite Thessa: Doubt swallowed you. It does that to the certain. Steady yourself and return.",
       "team": [
         {
           "creature": "zephyrmane",
@@ -2745,9 +2745,9 @@
       "boss": true,
       "boss_scaling": "limited",
       "reward_money": 1500,
-      "dialogue_intro": "Ludo: The Elite Four of Aquilon yield to no one unproven.",
-      "dialogue_defeat": "Ludo: Proven. Pass.",
-      "dialogue_victory": "Ludo: The corridor ends here for you.",
+      "dialogue_intro": "Elite Ludo: Last of the four. Everything gentle is behind you. What's left is only whether you meant it.",
+      "dialogue_defeat": "Elite Ludo: You meant it. All the way down. The Champion is waiting — and so, now, is your name.",
+      "dialogue_victory": "Elite Ludo: You didn't mean it enough. The corridor keeps its honest count. Come back meaning it.",
       "team": [
         {
           "creature": "whiskmane",
@@ -2796,9 +2796,9 @@
       "boss_scaling": "limited",
       "reward_money": 2300,
       "reward_badge": "aquilon_crest",
-      "dialogue_intro": "Marshal Eirwen: Eight badges brought you here. Show me their weight.",
-      "dialogue_defeat": "Marshal Eirwen: Aquilon bows to a new Champion.",
-      "dialogue_victory": "Marshal Eirwen: Come back when the badges feel heavier.",
+      "dialogue_intro": "Marshal Eirwen: The north doesn't crown the strongest. It crowns whoever's still upright at the end. Begin.",
+      "dialogue_defeat": "Marshal Eirwen: Upright, and clear-eyed. Aquilon is yours to carry. Mind what you do with the weight.",
+      "dialogue_victory": "Marshal Eirwen: The cold took the steam out of you. Rest, then climb back.",
       "team": [
         {
           "creature": "deltahorn",
@@ -2857,9 +2857,9 @@
       "boss_scaling": "limited",
       "reward_money": 660,
       "reward_badge": "cindral_normal_badge",
-      "dialogue_intro": "Garrick: Plainskeepers test every challenger with pure normal craft. Begin!",
-      "dialogue_defeat": "Garrick: Masterfully done. The normal badge of Cindral is yours.",
-      "dialogue_victory": "Garrick: Study the normal arts and return.",
+      "dialogue_intro": "Plainskeeper Garrick: Nothing flashy in my hall. Just fundamentals, and the discipline to trust them when it matters.",
+      "dialogue_defeat": "Plainskeeper Garrick: Clean. Unhurried. You earned the badge the honest way — remember how that felt.",
+      "dialogue_victory": "Plainskeeper Garrick: Fundamentals beat flourish today. Come back when your basics are quieter.",
       "team": [
         {
           "creature": "harrowie",
@@ -2896,9 +2896,9 @@
       "boss_scaling": "limited",
       "reward_money": 700,
       "reward_badge": "cindral_fire_badge",
-      "dialogue_intro": "Mira: Ember Sages test every challenger with pure fire craft. Begin!",
-      "dialogue_defeat": "Mira: Masterfully done. The fire badge of Cindral is yours.",
-      "dialogue_victory": "Mira: Study the fire arts and return.",
+      "dialogue_intro": "Ember Sage Mira: Everyone thinks fire is rage. Fire is patience that finally ran out. Show me yours.",
+      "dialogue_defeat": "Ember Sage Mira: You banked your heat and spent it at the right breath. That's the whole art. Take the badge.",
+      "dialogue_victory": "Ember Sage Mira: You burned too early and had nothing left for the end. Fire keeps. Learn that.",
       "team": [
         {
           "creature": "blazenkin",
@@ -2936,9 +2936,9 @@
       "boss_scaling": "limited",
       "reward_money": 740,
       "reward_badge": "cindral_water_badge",
-      "dialogue_intro": "Torv: Tidecallers test every challenger with pure water craft. Begin!",
-      "dialogue_defeat": "Torv: Masterfully done. The water badge of Cindral is yours.",
-      "dialogue_victory": "Torv: Study the water arts and return.",
+      "dialogue_intro": "Tidecaller Torv: Tide doesn't argue with the shore. It just keeps coming until the shore agrees. Begin.",
+      "dialogue_defeat": "Tidecaller Torv: You wore me down like weather. Slow, certain, inevitable. The badge is yours.",
+      "dialogue_victory": "Tidecaller Torv: You crashed all at once. The sea knows better than to spend itself in one wave.",
       "team": [
         {
           "creature": "mistlet",
@@ -2977,9 +2977,9 @@
       "boss_scaling": "limited",
       "reward_money": 780,
       "reward_badge": "cindral_grass_badge",
-      "dialogue_intro": "Ashka: Grovewardens test every challenger with pure grass craft. Begin!",
-      "dialogue_defeat": "Ashka: Masterfully done. The grass badge of Cindral is yours.",
-      "dialogue_victory": "Ashka: Study the grass arts and return.",
+      "dialogue_intro": "Grovewarden Ashka: Growth is slow, unglamorous, and it outlives everything that mocked it. So will my team.",
+      "dialogue_defeat": "Grovewarden Ashka: You had the patience to let the match ripen. Rare, these days. Well earned.",
+      "dialogue_victory": "Grovewarden Ashka: You rushed the harvest. Nothing grown in a hurry ever held. Try again.",
       "team": [
         {
           "creature": "brambleling",
@@ -3019,9 +3019,9 @@
       "boss_scaling": "limited",
       "reward_money": 820,
       "reward_badge": "cindral_electric_badge",
-      "dialogue_intro": "Bren: Stormsmiths test every challenger with pure electric craft. Begin!",
-      "dialogue_defeat": "Bren: Masterfully done. The electric badge of Cindral is yours.",
-      "dialogue_victory": "Bren: Study the electric arts and return.",
+      "dialogue_intro": "Stormsmith Bren: One clean decision, delivered before the other side finishes theirs. That's all lightning is.",
+      "dialogue_defeat": "Stormsmith Bren: Faster than me where it counted. I felt that decision land. The badge fits you.",
+      "dialogue_victory": "Stormsmith Bren: You hesitated on the turn that mattered. Against charge, hesitation is the loss.",
       "team": [
         {
           "creature": "arcit",
@@ -3061,9 +3061,9 @@
       "boss_scaling": "limited",
       "reward_money": 860,
       "reward_badge": "cindral_earth_badge",
-      "dialogue_intro": "Sylla: Cairnbreakers test every challenger with pure earth craft. Begin!",
-      "dialogue_defeat": "Sylla: Masterfully done. The earth badge of Cindral is yours.",
-      "dialogue_victory": "Sylla: Study the earth arts and return.",
+      "dialogue_intro": "Cairnbreaker Sylla: I don't move first and I don't move much. I simply do not fall. Try to make me.",
+      "dialogue_defeat": "Cairnbreaker Sylla: You found the one seam in the stone and worked it until I broke. Skilled. Take it.",
+      "dialogue_victory": "Cairnbreaker Sylla: You threw yourself at the wall until you were the one that cracked. Patience, challenger.",
       "team": [
         {
           "creature": "clayet",
@@ -3102,9 +3102,9 @@
       "boss_scaling": "limited",
       "reward_money": 900,
       "reward_badge": "cindral_wind_badge",
-      "dialogue_intro": "Odan: Skydancers test every challenger with pure wind craft. Begin!",
-      "dialogue_defeat": "Odan: Masterfully done. The wind badge of Cindral is yours.",
-      "dialogue_victory": "Odan: Study the wind arts and return.",
+      "dialogue_intro": "Skydancer Odan: You'll never quite see where my team is. That's not a trick. That's the discipline of the open sky.",
+      "dialogue_defeat": "Skydancer Odan: You read the wind when you couldn't see it. That's mastery. Wear the badge lightly.",
+      "dialogue_victory": "Skydancer Odan: You swung at where I'd been. The sky is always already somewhere else.",
       "team": [
         {
           "creature": "cirrusie",
@@ -3142,9 +3142,9 @@
       "boss_scaling": "limited",
       "reward_money": 940,
       "reward_badge": "cindral_mystic_badge",
-      "dialogue_intro": "Vesse: Dreambinders test every challenger with pure mystic craft. Begin!",
-      "dialogue_defeat": "Vesse: Masterfully done. The mystic badge of Cindral is yours.",
-      "dialogue_victory": "Vesse: Study the mystic arts and return.",
+      "dialogue_intro": "Dreambinder Vesse: I won't claim to read minds. I read patterns — and yours has been loud since you walked in.",
+      "dialogue_defeat": "Dreambinder Vesse: You changed your pattern the moment I named it. That's the only counter there is. Deserved.",
+      "dialogue_victory": "Dreambinder Vesse: You fought the way I predicted, exactly. Surprise me next time, or don't return.",
       "team": [
         {
           "creature": "omenhorn",
@@ -3181,9 +3181,9 @@
       "boss": true,
       "boss_scaling": "limited",
       "reward_money": 1400,
-      "dialogue_intro": "Ludo: The Elite Four of Cindral yield to no one unproven.",
-      "dialogue_defeat": "Ludo: Proven. Pass.",
-      "dialogue_victory": "Ludo: The corridor ends here for you.",
+      "dialogue_intro": "Elite Ludo: First of the four. I weed out the confident. Show me you're something sturdier.",
+      "dialogue_defeat": "Elite Ludo: Sturdier than confident. Good. The next seat is crueller — go warm.",
+      "dialogue_victory": "Elite Ludo: Confidence isn't a strategy. Come back when you've traded it for something that holds.",
       "team": [
         {
           "creature": "brambleclaw",
@@ -3231,9 +3231,9 @@
       "boss": true,
       "boss_scaling": "limited",
       "reward_money": 1500,
-      "dialogue_intro": "Averil: The Elite Four of Cindral yield to no one unproven.",
-      "dialogue_defeat": "Averil: Proven. Pass.",
-      "dialogue_victory": "Averil: The corridor ends here for you.",
+      "dialogue_intro": "Elite Averil: Second seat. The tired ones stop here — the ones who spent everything proving the first point.",
+      "dialogue_defeat": "Elite Averil: Still standing, still thinking. Pass. The third won't let you think at all.",
+      "dialogue_victory": "Elite Averil: You left your best in the last hall. Bring it whole next time, not in pieces.",
       "team": [
         {
           "creature": "claymane",
@@ -3281,9 +3281,9 @@
       "boss": true,
       "boss_scaling": "limited",
       "reward_money": 1600,
-      "dialogue_intro": "Coriane: The Elite Four of Cindral yield to no one unproven.",
-      "dialogue_defeat": "Coriane: Proven. Pass.",
-      "dialogue_victory": "Coriane: The corridor ends here for you.",
+      "dialogue_intro": "Elite Coriane: Third. By now the badges have made you certain. I am here to make you doubt, precisely.",
+      "dialogue_defeat": "Elite Coriane: You doubted at the right depth and kept moving. That's poise. Go on to the last.",
+      "dialogue_victory": "Elite Coriane: Doubt swallowed you. It does that to the certain. Steady yourself and return.",
       "team": [
         {
           "creature": "omenhorn",
@@ -3331,9 +3331,9 @@
       "boss": true,
       "boss_scaling": "limited",
       "reward_money": 1700,
-      "dialogue_intro": "Halvard: The Elite Four of Cindral yield to no one unproven.",
-      "dialogue_defeat": "Halvard: Proven. Pass.",
-      "dialogue_victory": "Halvard: The corridor ends here for you.",
+      "dialogue_intro": "Elite Halvard: Last of the four. Everything gentle is behind you. What's left is only whether you meant it.",
+      "dialogue_defeat": "Elite Halvard: You meant it. All the way down. The Champion is waiting — and so, now, is your name.",
+      "dialogue_victory": "Elite Halvard: You didn't mean it enough. The corridor keeps its honest count. Come back meaning it.",
       "team": [
         {
           "creature": "blazenhorn",
@@ -3382,9 +3382,9 @@
       "boss_scaling": "limited",
       "reward_money": 780,
       "reward_badge": "solane_normal_badge",
-      "dialogue_intro": "Sylla: Plainskeepers test every challenger with pure normal craft. Begin!",
-      "dialogue_defeat": "Sylla: Masterfully done. The normal badge of Solane is yours.",
-      "dialogue_victory": "Sylla: Study the normal arts and return.",
+      "dialogue_intro": "Plainskeeper Sylla: Nothing flashy in my hall. Just fundamentals, and the discipline to trust them when it matters.",
+      "dialogue_defeat": "Plainskeeper Sylla: Clean. Unhurried. You earned the badge the honest way — remember how that felt.",
+      "dialogue_victory": "Plainskeeper Sylla: Fundamentals beat flourish today. Come back when your basics are quieter.",
       "team": [
         {
           "creature": "fawnkin",
@@ -3421,9 +3421,9 @@
       "boss_scaling": "limited",
       "reward_money": 820,
       "reward_badge": "solane_fire_badge",
-      "dialogue_intro": "Odan: Ember Sages test every challenger with pure fire craft. Begin!",
-      "dialogue_defeat": "Odan: Masterfully done. The fire badge of Solane is yours.",
-      "dialogue_victory": "Odan: Study the fire arts and return.",
+      "dialogue_intro": "Ember Sage Odan: Everyone thinks fire is rage. Fire is patience that finally ran out. Show me yours.",
+      "dialogue_defeat": "Ember Sage Odan: You banked your heat and spent it at the right breath. That's the whole art. Take the badge.",
+      "dialogue_victory": "Ember Sage Odan: You burned too early and had nothing left for the end. Fire keeps. Learn that.",
       "team": [
         {
           "creature": "pyrelet",
@@ -3461,9 +3461,9 @@
       "boss_scaling": "limited",
       "reward_money": 860,
       "reward_badge": "solane_water_badge",
-      "dialogue_intro": "Vesse: Tidecallers test every challenger with pure water craft. Begin!",
-      "dialogue_defeat": "Vesse: Masterfully done. The water badge of Solane is yours.",
-      "dialogue_victory": "Vesse: Study the water arts and return.",
+      "dialogue_intro": "Tidecaller Vesse: Tide doesn't argue with the shore. It just keeps coming until the shore agrees. Begin.",
+      "dialogue_defeat": "Tidecaller Vesse: You wore me down like weather. Slow, certain, inevitable. The badge is yours.",
+      "dialogue_victory": "Tidecaller Vesse: You crashed all at once. The sea knows better than to spend itself in one wave.",
       "team": [
         {
           "creature": "coveling",
@@ -3502,9 +3502,9 @@
       "boss_scaling": "limited",
       "reward_money": 900,
       "reward_badge": "solane_grass_badge",
-      "dialogue_intro": "Karn: Grovewardens test every challenger with pure grass craft. Begin!",
-      "dialogue_defeat": "Karn: Masterfully done. The grass badge of Solane is yours.",
-      "dialogue_victory": "Karn: Study the grass arts and return.",
+      "dialogue_intro": "Grovewarden Karn: Growth is slow, unglamorous, and it outlives everything that mocked it. So will my team.",
+      "dialogue_defeat": "Grovewarden Karn: You had the patience to let the match ripen. Rare, these days. Well earned.",
+      "dialogue_victory": "Grovewarden Karn: You rushed the harvest. Nothing grown in a hurry ever held. Try again.",
       "team": [
         {
           "creature": "petalit",
@@ -3544,9 +3544,9 @@
       "boss_scaling": "limited",
       "reward_money": 940,
       "reward_badge": "solane_electric_badge",
-      "dialogue_intro": "Ilya: Stormsmiths test every challenger with pure electric craft. Begin!",
-      "dialogue_defeat": "Ilya: Masterfully done. The electric badge of Solane is yours.",
-      "dialogue_victory": "Ilya: Study the electric arts and return.",
+      "dialogue_intro": "Stormsmith Ilya: One clean decision, delivered before the other side finishes theirs. That's all lightning is.",
+      "dialogue_defeat": "Stormsmith Ilya: Faster than me where it counted. I felt that decision land. The badge fits you.",
+      "dialogue_victory": "Stormsmith Ilya: You hesitated on the turn that mattered. Against charge, hesitation is the loss.",
       "team": [
         {
           "creature": "surgeet",
@@ -3586,9 +3586,9 @@
       "boss_scaling": "limited",
       "reward_money": 980,
       "reward_badge": "solane_earth_badge",
-      "dialogue_intro": "Roan: Cairnbreakers test every challenger with pure earth craft. Begin!",
-      "dialogue_defeat": "Roan: Masterfully done. The earth badge of Solane is yours.",
-      "dialogue_victory": "Roan: Study the earth arts and return.",
+      "dialogue_intro": "Cairnbreaker Roan: I don't move first and I don't move much. I simply do not fall. Try to make me.",
+      "dialogue_defeat": "Cairnbreaker Roan: You found the one seam in the stone and worked it until I broke. Skilled. Take it.",
+      "dialogue_victory": "Cairnbreaker Roan: You threw yourself at the wall until you were the one that cracked. Patience, challenger.",
       "team": [
         {
           "creature": "quarryie",
@@ -3627,9 +3627,9 @@
       "boss_scaling": "limited",
       "reward_money": 1020,
       "reward_badge": "solane_wind_badge",
-      "dialogue_intro": "Petra: Skydancers test every challenger with pure wind craft. Begin!",
-      "dialogue_defeat": "Petra: Masterfully done. The wind badge of Solane is yours.",
-      "dialogue_victory": "Petra: Study the wind arts and return.",
+      "dialogue_intro": "Skydancer Petra: You'll never quite see where my team is. That's not a trick. That's the discipline of the open sky.",
+      "dialogue_defeat": "Skydancer Petra: You read the wind when you couldn't see it. That's mastery. Wear the badge lightly.",
+      "dialogue_victory": "Skydancer Petra: You swung at where I'd been. The sky is always already somewhere else.",
       "team": [
         {
           "creature": "stratokin",
@@ -3667,9 +3667,9 @@
       "boss_scaling": "limited",
       "reward_money": 1060,
       "reward_badge": "solane_mystic_badge",
-      "dialogue_intro": "Sorrel: Dreambinders test every challenger with pure mystic craft. Begin!",
-      "dialogue_defeat": "Sorrel: Masterfully done. The mystic badge of Solane is yours.",
-      "dialogue_victory": "Sorrel: Study the mystic arts and return.",
+      "dialogue_intro": "Dreambinder Sorrel: I won't claim to read minds. I read patterns — and yours has been loud since you walked in.",
+      "dialogue_defeat": "Dreambinder Sorrel: You changed your pattern the moment I named it. That's the only counter there is. Deserved.",
+      "dialogue_victory": "Dreambinder Sorrel: You fought the way I predicted, exactly. Surprise me next time, or don't return.",
       "team": [
         {
           "creature": "arcanetail",
@@ -3706,9 +3706,9 @@
       "boss": true,
       "boss_scaling": "limited",
       "reward_money": 1600,
-      "dialogue_intro": "Halvard: The Elite Four of Solane yield to no one unproven.",
-      "dialogue_defeat": "Halvard: Proven. Pass.",
-      "dialogue_victory": "Halvard: The corridor ends here for you.",
+      "dialogue_intro": "Elite Halvard: First of the four. I weed out the confident. Show me you're something sturdier.",
+      "dialogue_defeat": "Elite Halvard: Sturdier than confident. Good. The next seat is crueller — go warm.",
+      "dialogue_victory": "Elite Halvard: Confidence isn't a strategy. Come back when you've traded it for something that holds.",
       "team": [
         {
           "creature": "surgemane",
@@ -3756,9 +3756,9 @@
       "boss": true,
       "boss_scaling": "limited",
       "reward_money": 1700,
-      "dialogue_intro": "Imara: The Elite Four of Solane yield to no one unproven.",
-      "dialogue_defeat": "Imara: Proven. Pass.",
-      "dialogue_victory": "Imara: The corridor ends here for you.",
+      "dialogue_intro": "Elite Imara: Second seat. The tired ones stop here — the ones who spent everything proving the first point.",
+      "dialogue_defeat": "Elite Imara: Still standing, still thinking. Pass. The third won't let you think at all.",
+      "dialogue_victory": "Elite Imara: You left your best in the last hall. Bring it whole next time, not in pieces.",
       "team": [
         {
           "creature": "stratohorn",
@@ -3806,9 +3806,9 @@
       "boss": true,
       "boss_scaling": "limited",
       "reward_money": 1800,
-      "dialogue_intro": "Cassiel: The Elite Four of Solane yield to no one unproven.",
-      "dialogue_defeat": "Cassiel: Proven. Pass.",
-      "dialogue_victory": "Cassiel: The corridor ends here for you.",
+      "dialogue_intro": "Elite Cassiel: Third. By now the badges have made you certain. I am here to make you doubt, precisely.",
+      "dialogue_defeat": "Elite Cassiel: You doubted at the right depth and kept moving. That's poise. Go on to the last.",
+      "dialogue_victory": "Elite Cassiel: Doubt swallowed you. It does that to the certain. Steady yourself and return.",
       "team": [
         {
           "creature": "fawnhorn",
@@ -3856,9 +3856,9 @@
       "boss": true,
       "boss_scaling": "limited",
       "reward_money": 1900,
-      "dialogue_intro": "Rooke: The Elite Four of Solane yield to no one unproven.",
-      "dialogue_defeat": "Rooke: Proven. Pass.",
-      "dialogue_victory": "Rooke: The corridor ends here for you.",
+      "dialogue_intro": "Elite Rooke: Last of the four. Everything gentle is behind you. What's left is only whether you meant it.",
+      "dialogue_defeat": "Elite Rooke: You meant it. All the way down. The Champion is waiting — and so, now, is your name.",
+      "dialogue_victory": "Elite Rooke: You didn't mean it enough. The corridor keeps its honest count. Come back meaning it.",
       "team": [
         {
           "creature": "coveclaw",
@@ -3907,9 +3907,9 @@
       "boss_scaling": "limited",
       "reward_money": 900,
       "reward_badge": "umbra_normal_badge",
-      "dialogue_intro": "Roan: Plainskeepers test every challenger with pure normal craft. Begin!",
-      "dialogue_defeat": "Roan: Masterfully done. The normal badge of Umbra is yours.",
-      "dialogue_victory": "Roan: Study the normal arts and return.",
+      "dialogue_intro": "Plainskeeper Roan: Nothing flashy in my hall. Just fundamentals, and the discipline to trust them when it matters.",
+      "dialogue_defeat": "Plainskeeper Roan: Clean. Unhurried. You earned the badge the honest way — remember how that felt.",
+      "dialogue_victory": "Plainskeeper Roan: Fundamentals beat flourish today. Come back when your basics are quieter.",
       "team": [
         {
           "creature": "burrowlet",
@@ -3946,9 +3946,9 @@
       "boss_scaling": "limited",
       "reward_money": 940,
       "reward_badge": "umbra_fire_badge",
-      "dialogue_intro": "Petra: Ember Sages test every challenger with pure fire craft. Begin!",
-      "dialogue_defeat": "Petra: Masterfully done. The fire badge of Umbra is yours.",
-      "dialogue_victory": "Petra: Study the fire arts and return.",
+      "dialogue_intro": "Ember Sage Petra: Everyone thinks fire is rage. Fire is patience that finally ran out. Show me yours.",
+      "dialogue_defeat": "Ember Sage Petra: You banked your heat and spent it at the right breath. That's the whole art. Take the badge.",
+      "dialogue_victory": "Ember Sage Petra: You burned too early and had nothing left for the end. Fire keeps. Learn that.",
       "team": [
         {
           "creature": "kilnling",
@@ -3986,9 +3986,9 @@
       "boss_scaling": "limited",
       "reward_money": 980,
       "reward_badge": "umbra_water_badge",
-      "dialogue_intro": "Sorrel: Tidecallers test every challenger with pure water craft. Begin!",
-      "dialogue_defeat": "Sorrel: Masterfully done. The water badge of Umbra is yours.",
-      "dialogue_victory": "Sorrel: Study the water arts and return.",
+      "dialogue_intro": "Tidecaller Sorrel: Tide doesn't argue with the shore. It just keeps coming until the shore agrees. Begin.",
+      "dialogue_defeat": "Tidecaller Sorrel: You wore me down like weather. Slow, certain, inevitable. The badge is yours.",
+      "dialogue_victory": "Tidecaller Sorrel: You crashed all at once. The sea knows better than to spend itself in one wave.",
       "team": [
         {
           "creature": "lagoonit",
@@ -4027,9 +4027,9 @@
       "boss_scaling": "limited",
       "reward_money": 1020,
       "reward_badge": "umbra_grass_badge",
-      "dialogue_intro": "Yara: Grovewardens test every challenger with pure grass craft. Begin!",
-      "dialogue_defeat": "Yara: Masterfully done. The grass badge of Umbra is yours.",
-      "dialogue_victory": "Yara: Study the grass arts and return.",
+      "dialogue_intro": "Grovewarden Yara: Growth is slow, unglamorous, and it outlives everything that mocked it. So will my team.",
+      "dialogue_defeat": "Grovewarden Yara: You had the patience to let the match ripen. Rare, these days. Well earned.",
+      "dialogue_victory": "Grovewarden Yara: You rushed the harvest. Nothing grown in a hurry ever held. Try again.",
       "team": [
         {
           "creature": "thistleet",
@@ -4069,9 +4069,9 @@
       "boss_scaling": "limited",
       "reward_money": 1060,
       "reward_badge": "umbra_electric_badge",
-      "dialogue_intro": "Colm: Stormsmiths test every challenger with pure electric craft. Begin!",
-      "dialogue_defeat": "Colm: Masterfully done. The electric badge of Umbra is yours.",
-      "dialogue_victory": "Colm: Study the electric arts and return.",
+      "dialogue_intro": "Stormsmith Colm: One clean decision, delivered before the other side finishes theirs. That's all lightning is.",
+      "dialogue_defeat": "Stormsmith Colm: Faster than me where it counted. I felt that decision land. The badge fits you.",
+      "dialogue_victory": "Stormsmith Colm: You hesitated on the turn that mattered. Against charge, hesitation is the loss.",
       "team": [
         {
           "creature": "joltie",
@@ -4111,9 +4111,9 @@
       "boss_scaling": "limited",
       "reward_money": 1100,
       "reward_badge": "umbra_earth_badge",
-      "dialogue_intro": "Nyssa: Cairnbreakers test every challenger with pure earth craft. Begin!",
-      "dialogue_defeat": "Nyssa: Masterfully done. The earth badge of Umbra is yours.",
-      "dialogue_victory": "Nyssa: Study the earth arts and return.",
+      "dialogue_intro": "Cairnbreaker Nyssa: I don't move first and I don't move much. I simply do not fall. Try to make me.",
+      "dialogue_defeat": "Cairnbreaker Nyssa: You found the one seam in the stone and worked it until I broke. Skilled. Take it.",
+      "dialogue_victory": "Cairnbreaker Nyssa: You threw yourself at the wall until you were the one that cracked. Patience, challenger.",
       "team": [
         {
           "creature": "ridgekin",
@@ -4152,9 +4152,9 @@
       "boss_scaling": "limited",
       "reward_money": 1140,
       "reward_badge": "umbra_wind_badge",
-      "dialogue_intro": "Garrick: Skydancers test every challenger with pure wind craft. Begin!",
-      "dialogue_defeat": "Garrick: Masterfully done. The wind badge of Umbra is yours.",
-      "dialogue_victory": "Garrick: Study the wind arts and return.",
+      "dialogue_intro": "Skydancer Garrick: You'll never quite see where my team is. That's not a trick. That's the discipline of the open sky.",
+      "dialogue_defeat": "Skydancer Garrick: You read the wind when you couldn't see it. That's mastery. Wear the badge lightly.",
+      "dialogue_victory": "Skydancer Garrick: You swung at where I'd been. The sky is always already somewhere else.",
       "team": [
         {
           "creature": "soarlet",
@@ -4192,9 +4192,9 @@
       "boss_scaling": "limited",
       "reward_money": 1180,
       "reward_badge": "umbra_mystic_badge",
-      "dialogue_intro": "Mira: Dreambinders test every challenger with pure mystic craft. Begin!",
-      "dialogue_defeat": "Mira: Masterfully done. The mystic badge of Umbra is yours.",
-      "dialogue_victory": "Mira: Study the mystic arts and return.",
+      "dialogue_intro": "Dreambinder Mira: I won't claim to read minds. I read patterns — and yours has been loud since you walked in.",
+      "dialogue_defeat": "Dreambinder Mira: You changed your pattern the moment I named it. That's the only counter there is. Deserved.",
+      "dialogue_victory": "Dreambinder Mira: You fought the way I predicted, exactly. Surprise me next time, or don't return.",
       "team": [
         {
           "creature": "visionclaw",
@@ -4231,9 +4231,9 @@
       "boss": true,
       "boss_scaling": "limited",
       "reward_money": 1800,
-      "dialogue_intro": "Rooke: The Elite Four of Umbra yield to no one unproven.",
-      "dialogue_defeat": "Rooke: Proven. Pass.",
-      "dialogue_victory": "Rooke: The corridor ends here for you.",
+      "dialogue_intro": "Elite Rooke: First of the four. I weed out the confident. Show me you're something sturdier.",
+      "dialogue_defeat": "Elite Rooke: Sturdier than confident. Good. The next seat is crueller — go warm.",
+      "dialogue_victory": "Elite Rooke: Confidence isn't a strategy. Come back when you've traded it for something that holds.",
       "team": [
         {
           "creature": "ridgehorn",
@@ -4281,9 +4281,9 @@
       "boss": true,
       "boss_scaling": "limited",
       "reward_money": 1900,
-      "dialogue_intro": "Solenne: The Elite Four of Umbra yield to no one unproven.",
-      "dialogue_defeat": "Solenne: Proven. Pass.",
-      "dialogue_victory": "Solenne: The corridor ends here for you.",
+      "dialogue_intro": "Elite Solenne: Second seat. The tired ones stop here — the ones who spent everything proving the first point.",
+      "dialogue_defeat": "Elite Solenne: Still standing, still thinking. Pass. The third won't let you think at all.",
+      "dialogue_victory": "Elite Solenne: You left your best in the last hall. Bring it whole next time, not in pieces.",
       "team": [
         {
           "creature": "visionclaw",
@@ -4331,9 +4331,9 @@
       "boss": true,
       "boss_scaling": "limited",
       "reward_money": 2000,
-      "dialogue_intro": "Vantor: The Elite Four of Umbra yield to no one unproven.",
-      "dialogue_defeat": "Vantor: Proven. Pass.",
-      "dialogue_victory": "Vantor: The corridor ends here for you.",
+      "dialogue_intro": "Elite Vantor: Third. By now the badges have made you certain. I am here to make you doubt, precisely.",
+      "dialogue_defeat": "Elite Vantor: You doubted at the right depth and kept moving. That's poise. Go on to the last.",
+      "dialogue_victory": "Elite Vantor: Doubt swallowed you. It does that to the certain. Steady yourself and return.",
       "team": [
         {
           "creature": "kilnclaw",
@@ -4381,9 +4381,9 @@
       "boss": true,
       "boss_scaling": "limited",
       "reward_money": 2100,
-      "dialogue_intro": "Ondine: The Elite Four of Umbra yield to no one unproven.",
-      "dialogue_defeat": "Ondine: Proven. Pass.",
-      "dialogue_victory": "Ondine: The corridor ends here for you.",
+      "dialogue_intro": "Elite Ondine: Last of the four. Everything gentle is behind you. What's left is only whether you meant it.",
+      "dialogue_defeat": "Elite Ondine: You meant it. All the way down. The Champion is waiting — and so, now, is your name.",
+      "dialogue_victory": "Elite Ondine: You didn't mean it enough. The corridor keeps its honest count. Come back meaning it.",
       "team": [
         {
           "creature": "thistlemane",
@@ -4432,9 +4432,9 @@
       "boss_scaling": "limited",
       "reward_money": 1020,
       "reward_badge": "ferrock_normal_badge",
-      "dialogue_intro": "Nyssa: Plainskeepers test every challenger with pure normal craft. Begin!",
-      "dialogue_defeat": "Nyssa: Masterfully done. The normal badge of Ferrock is yours.",
-      "dialogue_victory": "Nyssa: Study the normal arts and return.",
+      "dialogue_intro": "Plainskeeper Nyssa: Nothing flashy in my hall. Just fundamentals, and the discipline to trust them when it matters.",
+      "dialogue_defeat": "Plainskeeper Nyssa: Clean. Unhurried. You earned the badge the honest way — remember how that felt.",
+      "dialogue_victory": "Plainskeeper Nyssa: Fundamentals beat flourish today. Come back when your basics are quieter.",
       "team": [
         {
           "creature": "whiskling",
@@ -4471,9 +4471,9 @@
       "boss_scaling": "limited",
       "reward_money": 1060,
       "reward_badge": "ferrock_fire_badge",
-      "dialogue_intro": "Garrick: Ember Sages test every challenger with pure fire craft. Begin!",
-      "dialogue_defeat": "Garrick: Masterfully done. The fire badge of Ferrock is yours.",
-      "dialogue_victory": "Garrick: Study the fire arts and return.",
+      "dialogue_intro": "Ember Sage Garrick: Everyone thinks fire is rage. Fire is patience that finally ran out. Show me yours.",
+      "dialogue_defeat": "Ember Sage Garrick: You banked your heat and spent it at the right breath. That's the whole art. Take the badge.",
+      "dialogue_victory": "Ember Sage Garrick: You burned too early and had nothing left for the end. Fire keeps. Learn that.",
       "team": [
         {
           "creature": "smolderit",
@@ -4511,9 +4511,9 @@
       "boss_scaling": "limited",
       "reward_money": 1100,
       "reward_badge": "ferrock_water_badge",
-      "dialogue_intro": "Mira: Tidecallers test every challenger with pure water craft. Begin!",
-      "dialogue_defeat": "Mira: Masterfully done. The water badge of Ferrock is yours.",
-      "dialogue_victory": "Mira: Study the water arts and return.",
+      "dialogue_intro": "Tidecaller Mira: Tide doesn't argue with the shore. It just keeps coming until the shore agrees. Begin.",
+      "dialogue_defeat": "Tidecaller Mira: You wore me down like weather. Slow, certain, inevitable. The badge is yours.",
+      "dialogue_victory": "Tidecaller Mira: You crashed all at once. The sea knows better than to spend itself in one wave.",
       "team": [
         {
           "creature": "deltaet",
@@ -4552,9 +4552,9 @@
       "boss_scaling": "limited",
       "reward_money": 1140,
       "reward_badge": "ferrock_grass_badge",
-      "dialogue_intro": "Torv: Grovewardens test every challenger with pure grass craft. Begin!",
-      "dialogue_defeat": "Torv: Masterfully done. The grass badge of Ferrock is yours.",
-      "dialogue_victory": "Torv: Study the grass arts and return.",
+      "dialogue_intro": "Grovewarden Torv: Growth is slow, unglamorous, and it outlives everything that mocked it. So will my team.",
+      "dialogue_defeat": "Grovewarden Torv: You had the patience to let the match ripen. Rare, these days. Well earned.",
+      "dialogue_victory": "Grovewarden Torv: You rushed the harvest. Nothing grown in a hurry ever held. Try again.",
       "team": [
         {
           "creature": "canopyie",
@@ -4594,9 +4594,9 @@
       "boss_scaling": "limited",
       "reward_money": 1180,
       "reward_badge": "ferrock_electric_badge",
-      "dialogue_intro": "Ashka: Stormsmiths test every challenger with pure electric craft. Begin!",
-      "dialogue_defeat": "Ashka: Masterfully done. The electric badge of Ferrock is yours.",
-      "dialogue_victory": "Ashka: Study the electric arts and return.",
+      "dialogue_intro": "Stormsmith Ashka: One clean decision, delivered before the other side finishes theirs. That's all lightning is.",
+      "dialogue_defeat": "Stormsmith Ashka: Faster than me where it counted. I felt that decision land. The badge fits you.",
+      "dialogue_victory": "Stormsmith Ashka: You hesitated on the turn that mattered. Against charge, hesitation is the loss.",
       "team": [
         {
           "creature": "fulgorkin",
@@ -4636,9 +4636,9 @@
       "boss_scaling": "limited",
       "reward_money": 1220,
       "reward_badge": "ferrock_earth_badge",
-      "dialogue_intro": "Bren: Cairnbreakers test every challenger with pure earth craft. Begin!",
-      "dialogue_defeat": "Bren: Masterfully done. The earth badge of Ferrock is yours.",
-      "dialogue_victory": "Bren: Study the earth arts and return.",
+      "dialogue_intro": "Cairnbreaker Bren: I don't move first and I don't move much. I simply do not fall. Try to make me.",
+      "dialogue_defeat": "Cairnbreaker Bren: You found the one seam in the stone and worked it until I broke. Skilled. Take it.",
+      "dialogue_victory": "Cairnbreaker Bren: You threw yourself at the wall until you were the one that cracked. Patience, challenger.",
       "team": [
         {
           "creature": "marllet",
@@ -4677,9 +4677,9 @@
       "boss_scaling": "limited",
       "reward_money": 1260,
       "reward_badge": "ferrock_wind_badge",
-      "dialogue_intro": "Sylla: Skydancers test every challenger with pure wind craft. Begin!",
-      "dialogue_defeat": "Sylla: Masterfully done. The wind badge of Ferrock is yours.",
-      "dialogue_victory": "Sylla: Study the wind arts and return.",
+      "dialogue_intro": "Skydancer Sylla: You'll never quite see where my team is. That's not a trick. That's the discipline of the open sky.",
+      "dialogue_defeat": "Skydancer Sylla: You read the wind when you couldn't see it. That's mastery. Wear the badge lightly.",
+      "dialogue_victory": "Skydancer Sylla: You swung at where I'd been. The sky is always already somewhere else.",
       "team": [
         {
           "creature": "zephyrling",
@@ -4717,9 +4717,9 @@
       "boss_scaling": "limited",
       "reward_money": 1300,
       "reward_badge": "ferrock_mystic_badge",
-      "dialogue_intro": "Odan: Dreambinders test every challenger with pure mystic craft. Begin!",
-      "dialogue_defeat": "Odan: Masterfully done. The mystic badge of Ferrock is yours.",
-      "dialogue_victory": "Odan: Study the mystic arts and return.",
+      "dialogue_intro": "Dreambinder Odan: I won't claim to read minds. I read patterns — and yours has been loud since you walked in.",
+      "dialogue_defeat": "Dreambinder Odan: You changed your pattern the moment I named it. That's the only counter there is. Deserved.",
+      "dialogue_victory": "Dreambinder Odan: You fought the way I predicted, exactly. Surprise me next time, or don't return.",
       "team": [
         {
           "creature": "runefang",
@@ -4756,9 +4756,9 @@
       "boss": true,
       "boss_scaling": "limited",
       "reward_money": 2000,
-      "dialogue_intro": "Ondine: The Elite Four of Ferrock yield to no one unproven.",
-      "dialogue_defeat": "Ondine: Proven. Pass.",
-      "dialogue_victory": "Ondine: The corridor ends here for you.",
+      "dialogue_intro": "Elite Ondine: First of the four. I weed out the confident. Show me you're something sturdier.",
+      "dialogue_defeat": "Elite Ondine: Sturdier than confident. Good. The next seat is crueller — go warm.",
+      "dialogue_victory": "Elite Ondine: Confidence isn't a strategy. Come back when you've traded it for something that holds.",
       "team": [
         {
           "creature": "zephyrclaw",
@@ -4806,9 +4806,9 @@
       "boss": true,
       "boss_scaling": "limited",
       "reward_money": 2100,
-      "dialogue_intro": "Merrick: The Elite Four of Ferrock yield to no one unproven.",
-      "dialogue_defeat": "Merrick: Proven. Pass.",
-      "dialogue_victory": "Merrick: The corridor ends here for you.",
+      "dialogue_intro": "Elite Merrick: Second seat. The tired ones stop here — the ones who spent everything proving the first point.",
+      "dialogue_defeat": "Elite Merrick: Still standing, still thinking. Pass. The third won't let you think at all.",
+      "dialogue_victory": "Elite Merrick: You left your best in the last hall. Bring it whole next time, not in pieces.",
       "team": [
         {
           "creature": "whiskclaw",
@@ -4856,9 +4856,9 @@
       "boss": true,
       "boss_scaling": "limited",
       "reward_money": 2200,
-      "dialogue_intro": "Thessa: The Elite Four of Ferrock yield to no one unproven.",
-      "dialogue_defeat": "Thessa: Proven. Pass.",
-      "dialogue_victory": "Thessa: The corridor ends here for you.",
+      "dialogue_intro": "Elite Thessa: Third. By now the badges have made you certain. I am here to make you doubt, precisely.",
+      "dialogue_defeat": "Elite Thessa: You doubted at the right depth and kept moving. That's poise. Go on to the last.",
+      "dialogue_victory": "Elite Thessa: Doubt swallowed you. It does that to the certain. Steady yourself and return.",
       "team": [
         {
           "creature": "deltamane",
@@ -4906,9 +4906,9 @@
       "boss": true,
       "boss_scaling": "limited",
       "reward_money": 2300,
-      "dialogue_intro": "Ludo: The Elite Four of Ferrock yield to no one unproven.",
-      "dialogue_defeat": "Ludo: Proven. Pass.",
-      "dialogue_victory": "Ludo: The corridor ends here for you.",
+      "dialogue_intro": "Elite Ludo: Last of the four. Everything gentle is behind you. What's left is only whether you meant it.",
+      "dialogue_defeat": "Elite Ludo: You meant it. All the way down. The Champion is waiting — and so, now, is your name.",
+      "dialogue_victory": "Elite Ludo: You didn't mean it enough. The corridor keeps its honest count. Come back meaning it.",
       "team": [
         {
           "creature": "fulgorhorn",
@@ -4957,9 +4957,9 @@
       "boss_scaling": "limited",
       "reward_money": 1140,
       "reward_badge": "brume_normal_badge",
-      "dialogue_intro": "Bren: Plainskeepers test every challenger with pure normal craft. Begin!",
-      "dialogue_defeat": "Bren: Masterfully done. The normal badge of Brume is yours.",
-      "dialogue_victory": "Bren: Study the normal arts and return.",
+      "dialogue_intro": "Plainskeeper Bren: Nothing flashy in my hall. Just fundamentals, and the discipline to trust them when it matters.",
+      "dialogue_defeat": "Plainskeeper Bren: Clean. Unhurried. You earned the badge the honest way — remember how that felt.",
+      "dialogue_victory": "Plainskeeper Bren: Fundamentals beat flourish today. Come back when your basics are quieter.",
       "team": [
         {
           "creature": "harrowit",
@@ -4996,9 +4996,9 @@
       "boss_scaling": "limited",
       "reward_money": 1180,
       "reward_badge": "brume_fire_badge",
-      "dialogue_intro": "Sylla: Ember Sages test every challenger with pure fire craft. Begin!",
-      "dialogue_defeat": "Sylla: Masterfully done. The fire badge of Brume is yours.",
-      "dialogue_victory": "Sylla: Study the fire arts and return.",
+      "dialogue_intro": "Ember Sage Sylla: Everyone thinks fire is rage. Fire is patience that finally ran out. Show me yours.",
+      "dialogue_defeat": "Ember Sage Sylla: You banked your heat and spent it at the right breath. That's the whole art. Take the badge.",
+      "dialogue_victory": "Ember Sage Sylla: You burned too early and had nothing left for the end. Fire keeps. Learn that.",
       "team": [
         {
           "creature": "blazenet",
@@ -5036,9 +5036,9 @@
       "boss_scaling": "limited",
       "reward_money": 1220,
       "reward_badge": "brume_water_badge",
-      "dialogue_intro": "Odan: Tidecallers test every challenger with pure water craft. Begin!",
-      "dialogue_defeat": "Odan: Masterfully done. The water badge of Brume is yours.",
-      "dialogue_victory": "Odan: Study the water arts and return.",
+      "dialogue_intro": "Tidecaller Odan: Tide doesn't argue with the shore. It just keeps coming until the shore agrees. Begin.",
+      "dialogue_defeat": "Tidecaller Odan: You wore me down like weather. Slow, certain, inevitable. The badge is yours.",
+      "dialogue_victory": "Tidecaller Odan: You crashed all at once. The sea knows better than to spend itself in one wave.",
       "team": [
         {
           "creature": "mistie",
@@ -5077,9 +5077,9 @@
       "boss_scaling": "limited",
       "reward_money": 1260,
       "reward_badge": "brume_grass_badge",
-      "dialogue_intro": "Vesse: Grovewardens test every challenger with pure grass craft. Begin!",
-      "dialogue_defeat": "Vesse: Masterfully done. The grass badge of Brume is yours.",
-      "dialogue_victory": "Vesse: Study the grass arts and return.",
+      "dialogue_intro": "Grovewarden Vesse: Growth is slow, unglamorous, and it outlives everything that mocked it. So will my team.",
+      "dialogue_defeat": "Grovewarden Vesse: You had the patience to let the match ripen. Rare, these days. Well earned.",
+      "dialogue_victory": "Grovewarden Vesse: You rushed the harvest. Nothing grown in a hurry ever held. Try again.",
       "team": [
         {
           "creature": "bramblekin",
@@ -5119,9 +5119,9 @@
       "boss_scaling": "limited",
       "reward_money": 1300,
       "reward_badge": "brume_electric_badge",
-      "dialogue_intro": "Karn: Stormsmiths test every challenger with pure electric craft. Begin!",
-      "dialogue_defeat": "Karn: Masterfully done. The electric badge of Brume is yours.",
-      "dialogue_victory": "Karn: Study the electric arts and return.",
+      "dialogue_intro": "Stormsmith Karn: One clean decision, delivered before the other side finishes theirs. That's all lightning is.",
+      "dialogue_defeat": "Stormsmith Karn: Faster than me where it counted. I felt that decision land. The badge fits you.",
+      "dialogue_victory": "Stormsmith Karn: You hesitated on the turn that mattered. Against charge, hesitation is the loss.",
       "team": [
         {
           "creature": "arclet",
@@ -5161,9 +5161,9 @@
       "boss_scaling": "limited",
       "reward_money": 1340,
       "reward_badge": "brume_earth_badge",
-      "dialogue_intro": "Ilya: Cairnbreakers test every challenger with pure earth craft. Begin!",
-      "dialogue_defeat": "Ilya: Masterfully done. The earth badge of Brume is yours.",
-      "dialogue_victory": "Ilya: Study the earth arts and return.",
+      "dialogue_intro": "Cairnbreaker Ilya: I don't move first and I don't move much. I simply do not fall. Try to make me.",
+      "dialogue_defeat": "Cairnbreaker Ilya: You found the one seam in the stone and worked it until I broke. Skilled. Take it.",
+      "dialogue_victory": "Cairnbreaker Ilya: You threw yourself at the wall until you were the one that cracked. Patience, challenger.",
       "team": [
         {
           "creature": "clayling",
@@ -5202,9 +5202,9 @@
       "boss_scaling": "limited",
       "reward_money": 1380,
       "reward_badge": "brume_wind_badge",
-      "dialogue_intro": "Roan: Skydancers test every challenger with pure wind craft. Begin!",
-      "dialogue_defeat": "Roan: Masterfully done. The wind badge of Brume is yours.",
-      "dialogue_victory": "Roan: Study the wind arts and return.",
+      "dialogue_intro": "Skydancer Roan: You'll never quite see where my team is. That's not a trick. That's the discipline of the open sky.",
+      "dialogue_defeat": "Skydancer Roan: You read the wind when you couldn't see it. That's mastery. Wear the badge lightly.",
+      "dialogue_victory": "Skydancer Roan: You swung at where I'd been. The sky is always already somewhere else.",
       "team": [
         {
           "creature": "cirrusit",
@@ -5242,9 +5242,9 @@
       "boss_scaling": "limited",
       "reward_money": 1420,
       "reward_badge": "brume_mystic_badge",
-      "dialogue_intro": "Petra: Dreambinders test every challenger with pure mystic craft. Begin!",
-      "dialogue_defeat": "Petra: Masterfully done. The mystic badge of Brume is yours.",
-      "dialogue_victory": "Petra: Study the mystic arts and return.",
+      "dialogue_intro": "Dreambinder Petra: I won't claim to read minds. I read patterns — and yours has been loud since you walked in.",
+      "dialogue_defeat": "Dreambinder Petra: You changed your pattern the moment I named it. That's the only counter there is. Deserved.",
+      "dialogue_victory": "Dreambinder Petra: You fought the way I predicted, exactly. Surprise me next time, or don't return.",
       "team": [
         {
           "creature": "omenmane",
@@ -5281,9 +5281,9 @@
       "boss": true,
       "boss_scaling": "limited",
       "reward_money": 2200,
-      "dialogue_intro": "Ludo: The Elite Four of Brume yield to no one unproven.",
-      "dialogue_defeat": "Ludo: Proven. Pass.",
-      "dialogue_victory": "Ludo: The corridor ends here for you.",
+      "dialogue_intro": "Elite Ludo: First of the four. I weed out the confident. Show me you're something sturdier.",
+      "dialogue_defeat": "Elite Ludo: Sturdier than confident. Good. The next seat is crueller — go warm.",
+      "dialogue_victory": "Elite Ludo: Confidence isn't a strategy. Come back when you've traded it for something that holds.",
       "team": [
         {
           "creature": "omenmane",
@@ -5331,9 +5331,9 @@
       "boss": true,
       "boss_scaling": "limited",
       "reward_money": 2300,
-      "dialogue_intro": "Averil: The Elite Four of Brume yield to no one unproven.",
-      "dialogue_defeat": "Averil: Proven. Pass.",
-      "dialogue_victory": "Averil: The corridor ends here for you.",
+      "dialogue_intro": "Elite Averil: Second seat. The tired ones stop here — the ones who spent everything proving the first point.",
+      "dialogue_defeat": "Elite Averil: Still standing, still thinking. Pass. The third won't let you think at all.",
+      "dialogue_victory": "Elite Averil: You left your best in the last hall. Bring it whole next time, not in pieces.",
       "team": [
         {
           "creature": "blazenmane",
@@ -5381,9 +5381,9 @@
       "boss": true,
       "boss_scaling": "limited",
       "reward_money": 2400,
-      "dialogue_intro": "Coriane: The Elite Four of Brume yield to no one unproven.",
-      "dialogue_defeat": "Coriane: Proven. Pass.",
-      "dialogue_victory": "Coriane: The corridor ends here for you.",
+      "dialogue_intro": "Elite Coriane: Third. By now the badges have made you certain. I am here to make you doubt, precisely.",
+      "dialogue_defeat": "Elite Coriane: You doubted at the right depth and kept moving. That's poise. Go on to the last.",
+      "dialogue_victory": "Elite Coriane: Doubt swallowed you. It does that to the certain. Steady yourself and return.",
       "team": [
         {
           "creature": "bramblehorn",
@@ -5431,9 +5431,9 @@
       "boss": true,
       "boss_scaling": "limited",
       "reward_money": 2500,
-      "dialogue_intro": "Halvard: The Elite Four of Brume yield to no one unproven.",
-      "dialogue_defeat": "Halvard: Proven. Pass.",
-      "dialogue_victory": "Halvard: The corridor ends here for you.",
+      "dialogue_intro": "Elite Halvard: Last of the four. Everything gentle is behind you. What's left is only whether you meant it.",
+      "dialogue_defeat": "Elite Halvard: You meant it. All the way down. The Champion is waiting — and so, now, is your name.",
+      "dialogue_victory": "Elite Halvard: You didn't mean it enough. The corridor keeps its honest count. Come back meaning it.",
       "team": [
         {
           "creature": "clayclaw",
@@ -5482,9 +5482,9 @@
       "boss_scaling": "limited",
       "reward_money": 1260,
       "reward_badge": "lumen_normal_badge",
-      "dialogue_intro": "Ilya: Plainskeepers test every challenger with pure normal craft. Begin!",
-      "dialogue_defeat": "Ilya: Masterfully done. The normal badge of Lumen is yours.",
-      "dialogue_victory": "Ilya: Study the normal arts and return.",
+      "dialogue_intro": "Plainskeeper Ilya: Nothing flashy in my hall. Just fundamentals, and the discipline to trust them when it matters.",
+      "dialogue_defeat": "Plainskeeper Ilya: Clean. Unhurried. You earned the badge the honest way — remember how that felt.",
+      "dialogue_victory": "Plainskeeper Ilya: Fundamentals beat flourish today. Come back when your basics are quieter.",
       "team": [
         {
           "creature": "fawnet",
@@ -5521,9 +5521,9 @@
       "boss_scaling": "limited",
       "reward_money": 1300,
       "reward_badge": "lumen_fire_badge",
-      "dialogue_intro": "Roan: Ember Sages test every challenger with pure fire craft. Begin!",
-      "dialogue_defeat": "Roan: Masterfully done. The fire badge of Lumen is yours.",
-      "dialogue_victory": "Roan: Study the fire arts and return.",
+      "dialogue_intro": "Ember Sage Roan: Everyone thinks fire is rage. Fire is patience that finally ran out. Show me yours.",
+      "dialogue_defeat": "Ember Sage Roan: You banked your heat and spent it at the right breath. That's the whole art. Take the badge.",
+      "dialogue_victory": "Ember Sage Roan: You burned too early and had nothing left for the end. Fire keeps. Learn that.",
       "team": [
         {
           "creature": "pyreie",
@@ -5561,9 +5561,9 @@
       "boss_scaling": "limited",
       "reward_money": 1340,
       "reward_badge": "lumen_water_badge",
-      "dialogue_intro": "Petra: Tidecallers test every challenger with pure water craft. Begin!",
-      "dialogue_defeat": "Petra: Masterfully done. The water badge of Lumen is yours.",
-      "dialogue_victory": "Petra: Study the water arts and return.",
+      "dialogue_intro": "Tidecaller Petra: Tide doesn't argue with the shore. It just keeps coming until the shore agrees. Begin.",
+      "dialogue_defeat": "Tidecaller Petra: You wore me down like weather. Slow, certain, inevitable. The badge is yours.",
+      "dialogue_victory": "Tidecaller Petra: You crashed all at once. The sea knows better than to spend itself in one wave.",
       "team": [
         {
           "creature": "covekin",
@@ -5602,9 +5602,9 @@
       "boss_scaling": "limited",
       "reward_money": 1380,
       "reward_badge": "lumen_grass_badge",
-      "dialogue_intro": "Sorrel: Grovewardens test every challenger with pure grass craft. Begin!",
-      "dialogue_defeat": "Sorrel: Masterfully done. The grass badge of Lumen is yours.",
-      "dialogue_victory": "Sorrel: Study the grass arts and return.",
+      "dialogue_intro": "Grovewarden Sorrel: Growth is slow, unglamorous, and it outlives everything that mocked it. So will my team.",
+      "dialogue_defeat": "Grovewarden Sorrel: You had the patience to let the match ripen. Rare, these days. Well earned.",
+      "dialogue_victory": "Grovewarden Sorrel: You rushed the harvest. Nothing grown in a hurry ever held. Try again.",
       "team": [
         {
           "creature": "petallet",
@@ -5644,9 +5644,9 @@
       "boss_scaling": "limited",
       "reward_money": 1420,
       "reward_badge": "lumen_electric_badge",
-      "dialogue_intro": "Yara: Stormsmiths test every challenger with pure electric craft. Begin!",
-      "dialogue_defeat": "Yara: Masterfully done. The electric badge of Lumen is yours.",
-      "dialogue_victory": "Yara: Study the electric arts and return.",
+      "dialogue_intro": "Stormsmith Yara: One clean decision, delivered before the other side finishes theirs. That's all lightning is.",
+      "dialogue_defeat": "Stormsmith Yara: Faster than me where it counted. I felt that decision land. The badge fits you.",
+      "dialogue_victory": "Stormsmith Yara: You hesitated on the turn that mattered. Against charge, hesitation is the loss.",
       "team": [
         {
           "creature": "surgeling",
@@ -5686,9 +5686,9 @@
       "boss_scaling": "limited",
       "reward_money": 1460,
       "reward_badge": "lumen_earth_badge",
-      "dialogue_intro": "Colm: Cairnbreakers test every challenger with pure earth craft. Begin!",
-      "dialogue_defeat": "Colm: Masterfully done. The earth badge of Lumen is yours.",
-      "dialogue_victory": "Colm: Study the earth arts and return.",
+      "dialogue_intro": "Cairnbreaker Colm: I don't move first and I don't move much. I simply do not fall. Try to make me.",
+      "dialogue_defeat": "Cairnbreaker Colm: You found the one seam in the stone and worked it until I broke. Skilled. Take it.",
+      "dialogue_victory": "Cairnbreaker Colm: You threw yourself at the wall until you were the one that cracked. Patience, challenger.",
       "team": [
         {
           "creature": "quarryit",
@@ -5727,9 +5727,9 @@
       "boss_scaling": "limited",
       "reward_money": 1500,
       "reward_badge": "lumen_wind_badge",
-      "dialogue_intro": "Nyssa: Skydancers test every challenger with pure wind craft. Begin!",
-      "dialogue_defeat": "Nyssa: Masterfully done. The wind badge of Lumen is yours.",
-      "dialogue_victory": "Nyssa: Study the wind arts and return.",
+      "dialogue_intro": "Skydancer Nyssa: You'll never quite see where my team is. That's not a trick. That's the discipline of the open sky.",
+      "dialogue_defeat": "Skydancer Nyssa: You read the wind when you couldn't see it. That's mastery. Wear the badge lightly.",
+      "dialogue_victory": "Skydancer Nyssa: You swung at where I'd been. The sky is always already somewhere else.",
       "team": [
         {
           "creature": "stratoet",
@@ -5767,9 +5767,9 @@
       "boss_scaling": "limited",
       "reward_money": 1540,
       "reward_badge": "lumen_mystic_badge",
-      "dialogue_intro": "Garrick: Dreambinders test every challenger with pure mystic craft. Begin!",
-      "dialogue_defeat": "Garrick: Masterfully done. The mystic badge of Lumen is yours.",
-      "dialogue_victory": "Garrick: Study the mystic arts and return.",
+      "dialogue_intro": "Dreambinder Garrick: I won't claim to read minds. I read patterns — and yours has been loud since you walked in.",
+      "dialogue_defeat": "Dreambinder Garrick: You changed your pattern the moment I named it. That's the only counter there is. Deserved.",
+      "dialogue_victory": "Dreambinder Garrick: You fought the way I predicted, exactly. Surprise me next time, or don't return.",
       "team": [
         {
           "creature": "arcanewing",
@@ -5806,9 +5806,9 @@
       "boss": true,
       "boss_scaling": "limited",
       "reward_money": 2400,
-      "dialogue_intro": "Halvard: The Elite Four of Lumen yield to no one unproven.",
-      "dialogue_defeat": "Halvard: Proven. Pass.",
-      "dialogue_victory": "Halvard: The corridor ends here for you.",
+      "dialogue_intro": "Elite Halvard: First of the four. I weed out the confident. Show me you're something sturdier.",
+      "dialogue_defeat": "Elite Halvard: Sturdier than confident. Good. The next seat is crueller — go warm.",
+      "dialogue_victory": "Elite Halvard: Confidence isn't a strategy. Come back when you've traded it for something that holds.",
       "team": [
         {
           "creature": "fawnmane",
@@ -5856,9 +5856,9 @@
       "boss": true,
       "boss_scaling": "limited",
       "reward_money": 2500,
-      "dialogue_intro": "Imara: The Elite Four of Lumen yield to no one unproven.",
-      "dialogue_defeat": "Imara: Proven. Pass.",
-      "dialogue_victory": "Imara: The corridor ends here for you.",
+      "dialogue_intro": "Elite Imara: Second seat. The tired ones stop here — the ones who spent everything proving the first point.",
+      "dialogue_defeat": "Elite Imara: Still standing, still thinking. Pass. The third won't let you think at all.",
+      "dialogue_victory": "Elite Imara: You left your best in the last hall. Bring it whole next time, not in pieces.",
       "team": [
         {
           "creature": "covehorn",
@@ -5906,9 +5906,9 @@
       "boss": true,
       "boss_scaling": "limited",
       "reward_money": 2600,
-      "dialogue_intro": "Cassiel: The Elite Four of Lumen yield to no one unproven.",
-      "dialogue_defeat": "Cassiel: Proven. Pass.",
-      "dialogue_victory": "Cassiel: The corridor ends here for you.",
+      "dialogue_intro": "Elite Cassiel: Third. By now the badges have made you certain. I am here to make you doubt, precisely.",
+      "dialogue_defeat": "Elite Cassiel: You doubted at the right depth and kept moving. That's poise. Go on to the last.",
+      "dialogue_victory": "Elite Cassiel: Doubt swallowed you. It does that to the certain. Steady yourself and return.",
       "team": [
         {
           "creature": "surgeclaw",
@@ -5956,9 +5956,9 @@
       "boss": true,
       "boss_scaling": "limited",
       "reward_money": 2700,
-      "dialogue_intro": "Rooke: The Elite Four of Lumen yield to no one unproven.",
-      "dialogue_defeat": "Rooke: Proven. Pass.",
-      "dialogue_victory": "Rooke: The corridor ends here for you.",
+      "dialogue_intro": "Elite Rooke: Last of the four. Everything gentle is behind you. What's left is only whether you meant it.",
+      "dialogue_defeat": "Elite Rooke: You meant it. All the way down. The Champion is waiting — and so, now, is your name.",
+      "dialogue_victory": "Elite Rooke: You didn't mean it enough. The corridor keeps its honest count. Come back meaning it.",
       "team": [
         {
           "creature": "stratomane",
@@ -6007,9 +6007,9 @@
       "boss_scaling": "limited",
       "reward_money": 1380,
       "reward_badge": "zephyra_normal_badge",
-      "dialogue_intro": "Colm: Plainskeepers test every challenger with pure normal craft. Begin!",
-      "dialogue_defeat": "Colm: Masterfully done. The normal badge of Zephyra is yours.",
-      "dialogue_victory": "Colm: Study the normal arts and return.",
+      "dialogue_intro": "Plainskeeper Colm: Nothing flashy in my hall. Just fundamentals, and the discipline to trust them when it matters.",
+      "dialogue_defeat": "Plainskeeper Colm: Clean. Unhurried. You earned the badge the honest way — remember how that felt.",
+      "dialogue_victory": "Plainskeeper Colm: Fundamentals beat flourish today. Come back when your basics are quieter.",
       "team": [
         {
           "creature": "burrowie",
@@ -6046,9 +6046,9 @@
       "boss_scaling": "limited",
       "reward_money": 1420,
       "reward_badge": "zephyra_fire_badge",
-      "dialogue_intro": "Nyssa: Ember Sages test every challenger with pure fire craft. Begin!",
-      "dialogue_defeat": "Nyssa: Masterfully done. The fire badge of Zephyra is yours.",
-      "dialogue_victory": "Nyssa: Study the fire arts and return.",
+      "dialogue_intro": "Ember Sage Nyssa: Everyone thinks fire is rage. Fire is patience that finally ran out. Show me yours.",
+      "dialogue_defeat": "Ember Sage Nyssa: You banked your heat and spent it at the right breath. That's the whole art. Take the badge.",
+      "dialogue_victory": "Ember Sage Nyssa: You burned too early and had nothing left for the end. Fire keeps. Learn that.",
       "team": [
         {
           "creature": "kilnkin",
@@ -6086,9 +6086,9 @@
       "boss_scaling": "limited",
       "reward_money": 1460,
       "reward_badge": "zephyra_water_badge",
-      "dialogue_intro": "Garrick: Tidecallers test every challenger with pure water craft. Begin!",
-      "dialogue_defeat": "Garrick: Masterfully done. The water badge of Zephyra is yours.",
-      "dialogue_victory": "Garrick: Study the water arts and return.",
+      "dialogue_intro": "Tidecaller Garrick: Tide doesn't argue with the shore. It just keeps coming until the shore agrees. Begin.",
+      "dialogue_defeat": "Tidecaller Garrick: You wore me down like weather. Slow, certain, inevitable. The badge is yours.",
+      "dialogue_victory": "Tidecaller Garrick: You crashed all at once. The sea knows better than to spend itself in one wave.",
       "team": [
         {
           "creature": "lagoonlet",
@@ -6127,9 +6127,9 @@
       "boss_scaling": "limited",
       "reward_money": 1500,
       "reward_badge": "zephyra_grass_badge",
-      "dialogue_intro": "Mira: Grovewardens test every challenger with pure grass craft. Begin!",
-      "dialogue_defeat": "Mira: Masterfully done. The grass badge of Zephyra is yours.",
-      "dialogue_victory": "Mira: Study the grass arts and return.",
+      "dialogue_intro": "Grovewarden Mira: Growth is slow, unglamorous, and it outlives everything that mocked it. So will my team.",
+      "dialogue_defeat": "Grovewarden Mira: You had the patience to let the match ripen. Rare, these days. Well earned.",
+      "dialogue_victory": "Grovewarden Mira: You rushed the harvest. Nothing grown in a hurry ever held. Try again.",
       "team": [
         {
           "creature": "thistleling",
@@ -6169,9 +6169,9 @@
       "boss_scaling": "limited",
       "reward_money": 1540,
       "reward_badge": "zephyra_electric_badge",
-      "dialogue_intro": "Torv: Stormsmiths test every challenger with pure electric craft. Begin!",
-      "dialogue_defeat": "Torv: Masterfully done. The electric badge of Zephyra is yours.",
-      "dialogue_victory": "Torv: Study the electric arts and return.",
+      "dialogue_intro": "Stormsmith Torv: One clean decision, delivered before the other side finishes theirs. That's all lightning is.",
+      "dialogue_defeat": "Stormsmith Torv: Faster than me where it counted. I felt that decision land. The badge fits you.",
+      "dialogue_victory": "Stormsmith Torv: You hesitated on the turn that mattered. Against charge, hesitation is the loss.",
       "team": [
         {
           "creature": "joltit",
@@ -6211,9 +6211,9 @@
       "boss_scaling": "limited",
       "reward_money": 1580,
       "reward_badge": "zephyra_earth_badge",
-      "dialogue_intro": "Ashka: Cairnbreakers test every challenger with pure earth craft. Begin!",
-      "dialogue_defeat": "Ashka: Masterfully done. The earth badge of Zephyra is yours.",
-      "dialogue_victory": "Ashka: Study the earth arts and return.",
+      "dialogue_intro": "Cairnbreaker Ashka: I don't move first and I don't move much. I simply do not fall. Try to make me.",
+      "dialogue_defeat": "Cairnbreaker Ashka: You found the one seam in the stone and worked it until I broke. Skilled. Take it.",
+      "dialogue_victory": "Cairnbreaker Ashka: You threw yourself at the wall until you were the one that cracked. Patience, challenger.",
       "team": [
         {
           "creature": "ridgeet",
@@ -6252,9 +6252,9 @@
       "boss_scaling": "limited",
       "reward_money": 1620,
       "reward_badge": "zephyra_wind_badge",
-      "dialogue_intro": "Bren: Skydancers test every challenger with pure wind craft. Begin!",
-      "dialogue_defeat": "Bren: Masterfully done. The wind badge of Zephyra is yours.",
-      "dialogue_victory": "Bren: Study the wind arts and return.",
+      "dialogue_intro": "Skydancer Bren: You'll never quite see where my team is. That's not a trick. That's the discipline of the open sky.",
+      "dialogue_defeat": "Skydancer Bren: You read the wind when you couldn't see it. That's mastery. Wear the badge lightly.",
+      "dialogue_victory": "Skydancer Bren: You swung at where I'd been. The sky is always already somewhere else.",
       "team": [
         {
           "creature": "soarie",
@@ -6292,9 +6292,9 @@
       "boss_scaling": "limited",
       "reward_money": 1660,
       "reward_badge": "zephyra_mystic_badge",
-      "dialogue_intro": "Sylla: Dreambinders test every challenger with pure mystic craft. Begin!",
-      "dialogue_defeat": "Sylla: Masterfully done. The mystic badge of Zephyra is yours.",
-      "dialogue_victory": "Sylla: Study the mystic arts and return.",
+      "dialogue_intro": "Dreambinder Sylla: I won't claim to read minds. I read patterns — and yours has been loud since you walked in.",
+      "dialogue_defeat": "Dreambinder Sylla: You changed your pattern the moment I named it. That's the only counter there is. Deserved.",
+      "dialogue_victory": "Dreambinder Sylla: You fought the way I predicted, exactly. Surprise me next time, or don't return.",
       "team": [
         {
           "creature": "visionhorn",
@@ -6331,9 +6331,9 @@
       "boss": true,
       "boss_scaling": "limited",
       "reward_money": 2600,
-      "dialogue_intro": "Rooke: The Elite Four of Zephyra yield to no one unproven.",
-      "dialogue_defeat": "Rooke: Proven. Pass.",
-      "dialogue_victory": "Rooke: The corridor ends here for you.",
+      "dialogue_intro": "Elite Rooke: First of the four. I weed out the confident. Show me you're something sturdier.",
+      "dialogue_defeat": "Elite Rooke: Sturdier than confident. Good. The next seat is crueller — go warm.",
+      "dialogue_victory": "Elite Rooke: Confidence isn't a strategy. Come back when you've traded it for something that holds.",
       "team": [
         {
           "creature": "kilnwarden",
@@ -6381,9 +6381,9 @@
       "boss": true,
       "boss_scaling": "limited",
       "reward_money": 2700,
-      "dialogue_intro": "Solenne: The Elite Four of Zephyra yield to no one unproven.",
-      "dialogue_defeat": "Solenne: Proven. Pass.",
-      "dialogue_victory": "Solenne: The corridor ends here for you.",
+      "dialogue_intro": "Elite Solenne: Second seat. The tired ones stop here — the ones who spent everything proving the first point.",
+      "dialogue_defeat": "Elite Solenne: Still standing, still thinking. Pass. The third won't let you think at all.",
+      "dialogue_victory": "Elite Solenne: You left your best in the last hall. Bring it whole next time, not in pieces.",
       "team": [
         {
           "creature": "thistleclaw",
@@ -6431,9 +6431,9 @@
       "boss": true,
       "boss_scaling": "limited",
       "reward_money": 2800,
-      "dialogue_intro": "Vantor: The Elite Four of Zephyra yield to no one unproven.",
-      "dialogue_defeat": "Vantor: Proven. Pass.",
-      "dialogue_victory": "Vantor: The corridor ends here for you.",
+      "dialogue_intro": "Elite Vantor: Third. By now the badges have made you certain. I am here to make you doubt, precisely.",
+      "dialogue_defeat": "Elite Vantor: You doubted at the right depth and kept moving. That's poise. Go on to the last.",
+      "dialogue_victory": "Elite Vantor: Doubt swallowed you. It does that to the certain. Steady yourself and return.",
       "team": [
         {
           "creature": "ridgemane",
@@ -6481,9 +6481,9 @@
       "boss": true,
       "boss_scaling": "limited",
       "reward_money": 2900,
-      "dialogue_intro": "Ondine: The Elite Four of Zephyra yield to no one unproven.",
-      "dialogue_defeat": "Ondine: Proven. Pass.",
-      "dialogue_victory": "Ondine: The corridor ends here for you.",
+      "dialogue_intro": "Elite Ondine: Last of the four. Everything gentle is behind you. What's left is only whether you meant it.",
+      "dialogue_defeat": "Elite Ondine: You meant it. All the way down. The Champion is waiting — and so, now, is your name.",
+      "dialogue_victory": "Elite Ondine: You didn't mean it enough. The corridor keeps its honest count. Come back meaning it.",
       "team": [
         {
           "creature": "visionhorn",

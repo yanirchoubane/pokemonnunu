@@ -118,6 +118,13 @@
       "sight": 2,
       "facing": "down",
       "flag": "beat_hollow_agent_ferrock"
+    },
+    {
+      "type": "sign",
+      "x": 4,
+      "y": 3,
+      "text": "NOTICE: Foundry ruins ahead, structurally unsound. Two Order agents were last seen working these hills.",
+      "gen": "sign"
     }
   ]
 }

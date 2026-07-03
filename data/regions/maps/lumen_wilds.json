@@ -118,6 +118,13 @@
       "sight": 2,
       "facing": "down",
       "flag": "beat_hollow_agent_lumen"
+    },
+    {
+      "type": "sign",
+      "x": 4,
+      "y": 3,
+      "text": "NOTICE: Do not linger at the crystals. The last Order agent hides in the deep galleries. Bring light and leave.",
+      "gen": "sign"
     }
   ]
 }

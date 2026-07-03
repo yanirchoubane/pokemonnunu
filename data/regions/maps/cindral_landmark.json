@@ -82,6 +82,22 @@
       "y": 6,
       "item": "super_potion",
       "flag": "item_cindral_landmark"
+    },
+    {
+      "type": "npc",
+      "x": 8,
+      "y": 3,
+      "npc_id": "folk_cindral_l0",
+      "sprite": "npc_villager",
+      "dialog_id": "town_cindral_l0"
+    },
+    {
+      "type": "npc",
+      "x": 2,
+      "y": 5,
+      "npc_id": "folk_cindral_l1",
+      "sprite": "npc_watcher",
+      "dialog_id": "town_cindral_l1"
     }
   ]
 }

@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
-"""Townsfolk generator — many more branching NPC conversations, one crowd per region.
+"""Townsfolk generator — mature, branching NPC conversations across every region.
 
-Places four flavor NPCs on every region Crossroads, each with an original, themed
-branching dialog (worldbuilding, rumors about the region's landmark and the Hollow
-Order, a couple of player choices). Turns the handful of story scripts into a
-world that actually talks back. All content original; idempotent.
+Populates each region's Crossroads, gate town and landmark with weathered,
+morally-textured inhabitants: indebted farmers, war-tired trainers, ex-Order
+sympathizers, grieving keepers, pragmatic fixers. The register is adult and
+serious (debt, loss, compromise, disillusion) — not childish — while staying
+tasteful. All content original. Idempotent: prunes its own NPCs (npc_id prefix
+"folk_") and overwrites data/dialogs/townsfolk.json before regenerating.
 
-Run after generate_league.py (needs the Crossroads maps) and generate_places.py
-(so the landmark references land). Then run check_chain.
+Run after generate_league.py + generate_places.py. Then run check_chain.
 Usage: python3 tools/generators/generate_townsfolk.py
 """
 from __future__ import annotations
@@ -18,161 +19,86 @@ import os
 ROOT = os.path.normpath(os.path.join(os.path.dirname(__file__), "..", ".."))
 DATA = os.path.join(ROOT, "data")
 
-# Per region: landmark name + four townsfolk, each with lines and (some) a choice.
-# Placeholders: {land} = landmark, {region} = region display name.
-REGIONS = {
-    "verdantia": ("Verdant Glade", "Verdantia", "grassy meadows", [
-        ("elder", "Old Perisel", [
-            "Old Perisel: I've watched trainers leave this town for forty springs.",
-            "Old Perisel: The ones who came back changed always visited the {land} first. Funny, that."]),
-        ("kid", "Runner Tavi", [
-            "Tavi: Are you gonna be a Champion?! My brother said the League has EIGHT gyms per region now!",
-            "Tavi: Eight! That's like... a whole lot of eight!"]),
-        ("merchant", "Peddler Onna", [
-            "Onna: Fresh orbs, salves, the works. A trainer crossing nine regions needs a full bag.",
-            "Onna: Word to the wise — the northern roads aren't as safe as they were."]),
-        ("fan", "Scholar Bem", [
-            "Bem: You know the {region} meadows hold creatures found nowhere else?",
-            "Bem: Every region does. Two thousand species, they reckon, and still counting."],
-         [("Two thousand? I'll catch them all.", "adjust_relationship", "bem", 1,
-           "Bem: Ha! Spoken like a true field naturalist. I'll be watching your Pokédex."),
-          ("I only need six good ones.", None, None, 0,
-           "Bem: A purist. The old masters would approve.")]),
-    ]),
-    "aquilon": ("Frostwatch Lighthouse", "Aquilon", "cold coast", [
-        ("elder", "Keeper's Widow Sella", [
-            "Sella: My husband tended the {land} till the sea took him. The little light-creature still keeps it lit.",
-            "Sella: Loyalty outlasts us. Remember that when you bond with yours."]),
-        ("kid", "Dockrat Pim", [
-            "Pim: The gym leaders here are TOUGH. Tidecaller nearly swept my whole team!",
-            "Pim: You gotta beat all eight to even reach the League corridor, y'know."]),
-        ("sailor", "Bosun Krael", [
-            "Krael: Gray coats came through on the last ferry. Didn't like the look of 'em.",
-            "Krael: 'The Hollow Order,' they called themselves. Collectin' debts nobody owed."]),
-        ("fan", "Cartographer Ives", [
-            "Ives: Nine regions, one road. I'm mapping every port between them.",
-            "Ives: Beat a region's Champion and its northern ferry opens. That's the whole spine of the world."],
-         [("Where does the road end?", None, None, 0,
-           "Ives: Zephyra. The sky steppes. After that... you carry the map yourself."),
-          ("I'll map it with my feet.", "adjust_relationship", "ives", 1,
-           "Ives: A walker! Send word from the far north, would you?")]),
-    ]),
-    "cindral": ("Ashfall Caldera", "Cindral", "volcanic slopes", [
-        ("elder", "Ashwarden Tolz", [
-            "Tolz: The {land} breathes, traveler. Cinders fall upward on the hottest nights.",
-            "Tolz: Fire that endures beats fire that rages. Ask any old ember-creature."]),
-        ("kid", "Sparky Wen", [
-            "Wen: A lady in a gray coat asked me to 'lend' her my creature. I said NO WAY!",
-            "Wen: She had the coldest eyes. Be careful out in the wilds."]),
-        ("miner", "Delver Hob", [
-            "Hob: The ore veins here hum. The creatures that live in 'em hum back.",
-            "Hob: Dig long enough and you learn to listen. Same with a good team."]),
-        ("fan", "Historian Cael", [
-            "Cael: They say a defector named Sable is warning trainers about the Hollow Order.",
-            "Cael: If you meet them at the gate — listen. They know things the rest of us don't."]),
-    ]),
-    "solane": ("Mirage Oasis", "Solane", "sun-baked dunes", [
-        ("elder", "Dune-mother Riss", [
-            "Riss: Two oases shimmer at the {land}. Only one holds water. Choose with your eyes closed.",
-            "Riss: The desert rewards the sure, not the swift."]),
-        ("kid", "Sandpiper Lu", [
-            "Lu: I saw a Hollow agent get chased off by a wild pack! Even the creatures don't like 'em!"]),
-        ("nomad", "Wayfarer Ode", [
-            "Ode: I've crossed four regions with the same team. We keep our real levels; the regions just... balance us.",
-            "Ode: A soft cap, they call it. Keeps a strong traveler from trampling a new land."]),
-        ("fan", "Rumormonger Sett", [
-            "Sett: Heard the Order has a Lieutenant now. Mourn. Waits somewhere in Umbra's grove.",
-            "Sett: Tragic figure, by all accounts. Doesn't make him easy."],
-         [("Where in Umbra exactly?", None, None, 0,
-           "Sett: The Duskbell Grove. Where the bells ring with no hand. You'll feel it."),
-          ("I'll find him myself.", None, None, 0,
-           "Sett: Course you will, hero.")]),
-    ]),
-    "umbra": ("Duskbell Grove", "Umbra", "twilight woods", [
-        ("elder", "Bellkeeper Vane", [
-            "Vane: Stay for the dusk bell at the {land}. It rings once, for everyone.",
-            "Vane: The Order's Lieutenant lingers there now. He never stays for the bell either."]),
-        ("kid", "Glowbug Nix", [
-            "Nix: The creatures here glow at night! Umbra's the prettiest scary place ever."]),
-        ("watcher", "Nightwatch Oru", [
-            "Oru: Mourn passed through. Said he joined the Order to stop feeling hollow.",
-            "Oru: It only spread, he said. Sad man. Strong team, though — mind yourself."]),
-        ("fan", "Dreamreader Sile", [
-            "Sile: They say your choices ripple, trainer. How you treat a rival. Whether you show mercy.",
-            "Sile: The world remembers. I've seen a dozen different endings walk out of these woods."],
-         [("My choices are my own.", "adjust_relationship", "sile", 1,
-           "Sile: As they should be. That's rather the point."),
-          ("Endings? Tell me more.", None, None, 0,
-           "Sile: No, no. You write yours by living it. Go on.")]),
-    ]),
-    "ferrock": ("The Old Foundry", "Ferrock", "iron hills", [
-        ("elder", "Foundry-elder Gann", [
-            "Gann: Every anvil in {region} was struck first at the {land}. The creatures who worked it never left.",
-            "Gann: Partnership, not ownership. The ones who forgot always left with less."]),
-        ("kid", "Bolt-kid Reya", [
-            "Reya: I wanna be the Stormsmith someday and run the electric gym! Zap zap!"]),
-        ("smith", "Ironhand Dex", [
-            "Dex: Strong things are simple things, kept. A team. A promise. A hammer.",
-            "Dex: The Order forgot 'kept.' They only ever took."]),
-        ("fan", "Ledger-clerk Ims", [
-            "Ims: Two of the Order's agents already fell to some traveler. Vole, then Cinder.",
-            "Ims: If that's you — the third, Wisp, hides in Lumen's crystal deeps."]),
-    ]),
-    "brume": ("The Sunken Chapel", "Brume", "misty fens", [
-        ("elder", "Fen-elder Morrow", [
-            "Morrow: The {land} drowned with a whole town kneeling in it. The bell still tolls under the reeds.",
-            "Morrow: In {region}, nothing's lost. It only goes quiet a while."]),
-        ("kid", "Reed-child Ply", [
-            "Ply: The fog talks if you listen! ...Okay, maybe it's just the creatures. But maybe not!"]),
-        ("priest", "Acolyte Sen", [
-            "Sen: Grief and mist look alike from far off. Up close, both can be walked through.",
-            "Sen: Whatever weighs on you, traveler — the fen has carried heavier."]),
-        ("fan", "Chronicler Vell", [
-            "Vell: The Archon waits past Zephyra now. Done sending others.",
-            "Vell: When you face them, remember: they were a trainer once. Like you. Like Mourn."],
-         [("I'll end the Order for good.", "set_var", "order_stance", "justice",
-           "Vell: Clean and final. The roads would thank you."),
-          ("Maybe it can be mended.", "set_var", "order_stance", "mercy",
-           "Vell: ...Maybe you're the one who can. Few would try.")]),
-    ]),
-    "lumen": ("Prism Cavern", "Lumen", "crystal vale", [
-        ("elder", "Seer-elder Lux", [
-            "Lux: Look into the {land}'s crystals and you'll see a day the valley kept for you.",
-            "Lux: The kind trainers shine longer in the stone. I've watched thousands pass."]),
-        ("kid", "Prism-tot Ami", [
-            "Ami: The rocks glow rainbow! I wanna catch one that glows just like them!"]),
-        ("guide", "Lightwarden Oss", [
-            "Oss: The last Hollow agent, Wisp, is here in the deeps. End the cell, traveler.",
-            "Oss: After Wisp, only the Lieutenant and the Archon remain."]),
-        ("fan", "Lens-grinder Pia", [
-            "Pia: They say a sky-spirit — Aetherion — visits Zephyra's shrine once a generation.",
-            "Pia: Ultra rare. Most trainers only ever see it in a story. Will you?"],
-         [("I'll be the one who catches it.", "adjust_relationship", "pia", 1,
-           "Pia: Then climb high and watch the quiet skies. I believe you."),
-          ("Some things should stay legends.", None, None, 0,
-           "Pia: ...A rare kind of wisdom. The shrine would like you.")]),
-    ]),
-    "zephyra": ("Skyreach Shrine", "Zephyra", "sky steppes", [
-        ("elder", "Windspoken Elah", [
-            "Elah: You climbed nine regions to reach this wind. Breathe it. You earned the height.",
-            "Elah: The {land} is the last floor a trainer stands on and is still called grounded."]),
-        ("kid", "Cloud-hopper Bit", [
-            "Bit: The Champion's up top and she's got FIVE creatures! Five! You beat all four Elites first though."]),
-        ("skywatch", "Galewatch Corr", [
-            "Corr: The Archon's out in our wilds. Whatever you decide up there — decide it clear-eyed.",
-            "Corr: Mercy or justice, the steppe will carry the story either way."]),
-        ("fan", "Star-charter Nel", [
-            "Nel: Nine crests. One unbroken road. If you've carried a team the whole way...",
-            "Nel: ...then you're not far from a legend they'll tell at every gate you passed."]),
-    ]),
+# region -> (landmark, display, theme noun, the region's quiet trouble)
+REGION = {
+    "verdantia": ("Verdant Glade", "Verdantia", "meadows",
+                  "The soil's thinner every year, and the young leave for the League and don't write."),
+    "aquilon": ("Frostwatch Lighthouse", "Aquilon", "cold coast",
+                "Three boats didn't come back this winter. The sea keeps its own ledger."),
+    "cindral": ("Ashfall Caldera", "Cindral", "volcanic slopes",
+                "The mountain gives work and takes lungs. Everyone here coughs by fifty."),
+    "solane": ("Mirage Oasis", "Solane", "dunes",
+               "Water's currency out here. The Order understood that better than we'd like."),
+    "umbra": ("Duskbell Grove", "Umbra", "twilight woods",
+              "People come to Umbra to disappear. Some of them wanted to."),
+    "ferrock": ("The Old Foundry", "Ferrock", "iron hills",
+                "The foundry closed and took the town's spine with it. We forge memories now."),
+    "brume": ("The Sunken Chapel", "Brume", "fens",
+              "Half of Brume is underwater and the other half is grieving it."),
+    "lumen": ("Prism Cavern", "Lumen", "crystal vale",
+              "The light shows you old days. Some folk go in and forget to come out."),
+    "zephyra": ("Skyreach Shrine", "Zephyra", "sky steppes",
+                "Up here you can see the whole road you walked. Most people can't stand to look."),
 }
 
-# crossroads floor tiles that never block a gym-door approach or the heal/Corin tiles
-SLOTS = [(4, 2), (11, 2), (4, 6), (11, 6)]
-NPC_SPRITE = {"elder": "npc_villager", "kid": "npc_kid", "merchant": "npc_clerk",
-              "fan": "npc_villager", "sailor": "npc_villager", "miner": "npc_villager",
-              "nomad": "npc_watcher", "watcher": "npc_watcher", "smith": "npc_clerk",
-              "priest": "npc_watcher", "guide": "npc_watcher", "skywatch": "npc_watcher"}
+# Shared mature archetypes. {land}/{region}/{theme}/{trouble} are substituted.
+# entry: (role, name, [lines], optional [ (choice_text, action_kind|None, key, value, reply) ])
+ARCHES = [
+    ("veteran", "Retired Elite {N}", [
+        "I held an Elite seat once. Four hundred challengers, and I remember the faces of the ones who beat me.",
+        "You don't retire from this. You just stop getting up when they knock you down. {trouble}"]),
+    ("debtor", "Farmhand {N}", [
+        "The Order 'lent' my family a season's grain and called back triple. Gray coats always do.",
+        "I'm free of them now. Cost me the farm, but a debt paid in dirt is still paid."]),
+    ("sympathizer", "Quiet {N}", [
+        "I almost took the gray coat, you know. When you've lost enough, 'take before it's taken' sounds like wisdom.",
+        "The defector talked me out of it. Sable. Ask for them at the northern gate if you haven't met yet."],
+     [("Why didn't you join?", None, None, 0,
+       "Quiet {N}: Because hollow's a one-way road. You don't come back with more. You come back with less."),
+      ("Weakness, then.", "adjust_relationship", "quiet", -1,
+       "Quiet {N}: ...Say that after you've buried something. Then we'll talk.")]),
+    ("fixer", "Broker {N}", [
+        "Orbs, salves, information — I move all three. In {region}, knowing a thing is worth more than owning it.",
+        "Word is you're unpicking the Order's cell, region by region. That's worth a discount. And a warning."]),
+    ("mourner", "Widow {N}", [
+        "My partner trained the same team for twenty years. When they passed, the creatures wouldn't eat for a week.",
+        "That's the part the Leagues don't put on the badges. Bonds cut both ways. {trouble}"]),
+    ("cynic", "Old {N}", [
+        "Nine crests, they'll tell you. As if a wall of medals ever fed anyone.",
+        "Chase it if you must. Just don't mistake the applause for a life."],
+     [("It's more than applause to me.", "adjust_relationship", "old", 1,
+       "Old {N}: ...Good. Hold onto the more. It's the only part that lasts."),
+      ("Spare me the sermon.", None, None, 0,
+       "Old {N}: Suit yourself. The road's a patient teacher.")]),
+    ("watch", "Roadwarden {N}", [
+        "I patrol between the gyms. Since the Order moved north, the wilds have teeth after dark.",
+        "If you're headed for the Lieutenant in Umbra — go rested. Mourn doesn't fight angry. He fights tired, and wins."]),
+    ("scholar", "Field-scholar {N}", [
+        "Two thousand species catalogued and the {theme} of {region} still hand me a new one every month.",
+        "Ambition's fine. But the ones who last learn to be curious instead. It ages better."]),
+]
+
+REGION_SPECIFIC = {
+    "cindral": ("emberwidow", "Furnace-widow Ost", [
+        "Furnace-widow Ost: My husband fed the {land}'s fire for thirty years. It fed on him right back.",
+        "Furnace-widow Ost: The Order came the week after the funeral. Vultures know a thin season."]),
+    "umbra": ("greytongue", "Grey Marda", [
+        "Marda: Mourn drank at my table once, before the coat. Gentle man. Lost a child, then a purpose.",
+        "Marda: When you beat him — and you will — be quick about the mercy. He's suffered the slow kind enough."]),
+    "zephyra": ("summitkeep", "Summit-warden Iren", [
+        "Iren: Everyone who reaches this wind has left something behind to get here. What's yours?",
+        "Iren: The Archon left everything behind. That's the difference between you and them. So far."]),
+}
+
+# placement: (map_suffix, [tiles]) per location kind
+CROSS_TILES = [(4, 2), (11, 2), (4, 6), (11, 6)]
+GATE_TILES = [(2, 4), (9, 5)]        # generated *_gate maps (12x7)
+LAND_TILES = [(8, 3), (2, 5)]        # landmark maps (11x9)
+GENERATED = ["cindral", "solane", "umbra", "ferrock", "brume", "lumen", "zephyra"]
+SPRITE = {"veteran": "npc_watcher", "debtor": "npc_villager", "sympathizer": "npc_villager",
+          "fixer": "npc_clerk", "mourner": "npc_villager", "cynic": "npc_villager",
+          "watch": "npc_watcher", "scholar": "npc_villager", "emberwidow": "npc_villager",
+          "greytongue": "npc_watcher", "summitkeep": "npc_watcher"}
 
 
 def load(p):
@@ -186,11 +112,14 @@ def save(p, d):
         f.write("\n")
 
 
-def build_dialog(did, land, region, entry):
-    """entry = (role, name, [lines], optional [choices]). Choice tuple:
-       (text, action_kind|None, key, value, reply_line)."""
-    role, name, lines = entry[0], entry[1], entry[2]
-    lines = [ln.replace("{land}", land).replace("{region}", region) for ln in lines]
+def sub(text, rid, n):
+    land, region, theme, trouble = REGION[rid]
+    return (text.replace("{land}", land).replace("{region}", region)
+                .replace("{theme}", theme).replace("{trouble}", trouble).replace("{N}", n))
+
+
+def build_dialog(did, rid, entry, n):
+    role, name, lines = entry[0], sub(entry[1], rid, n), [sub(l, rid, n) for l in entry[2]]
     node = {"id": "start", "portrait": role, "lines": lines}
     nodes = [node]
     if len(entry) > 3 and entry[3]:
@@ -201,36 +130,69 @@ def build_dialog(did, land, region, entry):
                 actions.append({"kind": "adjust_relationship", "npc": key, "delta": int(val)})
             elif kind == "set_var":
                 actions.append({"kind": "set_var", "var": key, "value": val})
-            reply_id = f"reply_{i}"
-            nodes.append({"id": reply_id, "entry": False, "portrait": role, "lines": [reply], "next": ""})
-            choices.append({"text": text, "actions": actions, "next": reply_id})
+            rid_node = f"reply_{i}"
+            nodes.append({"id": rid_node, "entry": False, "portrait": role,
+                          "lines": [sub(reply, rid, n)], "next": ""})
+            choices.append({"text": sub(text, rid, n), "actions": actions, "next": rid_node})
         node["choices"] = choices
     else:
         node["next"] = ""
     return {"id": did, "nodes": nodes}
 
 
+def prune_folk(m):
+    def is_folk(o):
+        nid = str(o.get("npc_id", ""))
+        return o.get("type") == "npc" and ("folk_" in nid)
+    m["objects"] = [o for o in m["objects"] if not is_folk(o)]
+
+
+def place(m, tiles, entries, rid, doc, kind):
+    n = 0
+    for (x, y), entry in zip(tiles, entries):
+        idx = f"{kind}{n}"
+        did = f"town_{rid}_{idx}"
+        doc["dialogs"].append(build_dialog(did, rid, entry, str(n + 1)))
+        m["objects"].append({"type": "npc", "x": x, "y": y,
+                             "npc_id": f"folk_{rid}_{idx}",
+                             "sprite": SPRITE.get(entry[0], "npc_villager"), "dialog_id": did})
+        n += 1
+
+
 def main():
     doc = {"$schema_version": 1,
-           "description": "Townsfolk conversations placed on each region's Crossroads.",
+           "description": "Mature townsfolk conversations across Crossroads, gates and landmarks.",
            "dialogs": []}
-    placed = 0
-    for rid, (land, region, _theme, folk) in REGIONS.items():
+    order = list(REGION.keys())
+    total = 0
+    for r_i, rid in enumerate(order):
+        # rotate the shared archetypes so regions don't all read identically
+        picks = [ARCHES[(r_i + k) % len(ARCHES)] for k in range(4)]
+        # Crossroads (4 mature NPCs)
         cp = os.path.join(DATA, "regions", "maps", f"{rid}_crossroads.json")
-        cross = load(cp)
-        for i, entry in enumerate(folk[:len(SLOTS)]):
-            did = f"town_{rid}_{entry[0]}"
-            doc["dialogs"].append(build_dialog(did, land, region, entry))
-            x, y = SLOTS[i]
-            npc_id = f"{rid}_folk_{i}"
-            if not any(o.get("type") == "npc" and o.get("npc_id") == npc_id for o in cross["objects"]):
-                cross["objects"].append({
-                    "type": "npc", "x": x, "y": y, "npc_id": npc_id,
-                    "sprite": NPC_SPRITE.get(entry[0], "npc_villager"), "dialog_id": did})
-                placed += 1
-        save(cp, cross)
+        cross = load(cp); prune_folk(cross)
+        place(cross, CROSS_TILES, picks, rid, doc, "x")
+        save(cp, cross); total += len(CROSS_TILES)
+        # Gate town (generated regions only): 2 more
+        if rid in GENERATED:
+            gp = os.path.join(DATA, "regions", "maps", f"{rid}_gate.json")
+            gate = load(gp); prune_folk(gate)
+            gpicks = [ARCHES[(r_i + 4 + k) % len(ARCHES)] for k in range(2)]
+            place(gate, GATE_TILES, gpicks, rid, doc, "g")
+            save(gp, gate); total += len(GATE_TILES)
+        # Landmark: a region-specific voice if we wrote one, else an archetype
+        lp = os.path.join(DATA, "regions", "maps", f"{rid}_landmark.json")
+        land = load(lp); prune_folk(land)
+        lentries = []
+        if rid in REGION_SPECIFIC:
+            lentries.append(REGION_SPECIFIC[rid])
+        lentries.append(ARCHES[(r_i + 6) % len(ARCHES)])
+        place(land, LAND_TILES[:len(lentries)], lentries, rid, doc, "l")
+        save(lp, land); total += len(lentries)
+
     save(os.path.join(DATA, "dialogs", "townsfolk.json"), doc)
-    print(f"Townsfolk: {len(doc['dialogs'])} new NPC dialogs, {placed} NPCs placed across 9 Crossroads.")
+    print(f"Townsfolk: {len(doc['dialogs'])} mature NPC dialogs, {total} NPCs across "
+          f"Crossroads / gates / landmarks.")
 
 
 if __name__ == "__main__":

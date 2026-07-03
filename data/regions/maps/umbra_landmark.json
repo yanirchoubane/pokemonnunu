@@ -92,6 +92,22 @@
       "sight": 2,
       "facing": "left",
       "flag": "beat_hollow_lieutenant"
+    },
+    {
+      "type": "npc",
+      "x": 8,
+      "y": 3,
+      "npc_id": "folk_umbra_l0",
+      "sprite": "npc_watcher",
+      "dialog_id": "town_umbra_l0"
+    },
+    {
+      "type": "npc",
+      "x": 2,
+      "y": 5,
+      "npc_id": "folk_umbra_l1",
+      "sprite": "npc_villager",
+      "dialog_id": "town_umbra_l1"
     }
   ]
 }

@@ -126,6 +126,13 @@
       "npc_id": "archon_mask",
       "sprite": "trainer_archon",
       "dialog_id": "archon_finale"
+    },
+    {
+      "type": "sign",
+      "x": 4,
+      "y": 3,
+      "text": "NOTICE: Beyond this marker, the Archon walks the steppe. What you decide up there, the whole sky will carry.",
+      "gen": "sign"
     }
   ]
 }

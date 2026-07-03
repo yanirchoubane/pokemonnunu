@@ -118,6 +118,13 @@
       "sight": 2,
       "facing": "down",
       "flag": "beat_hollow_agent_cindral"
+    },
+    {
+      "type": "sign",
+      "x": 4,
+      "y": 3,
+      "text": "NOTICE: Vents open without warning past this marker. Since the gray coats came, travel armed and travel light.",
+      "gen": "sign"
     }
   ]
 }
