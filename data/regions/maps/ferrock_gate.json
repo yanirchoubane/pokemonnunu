@@ -72,7 +72,13 @@
         "potion",
         "super_potion",
         "antidote",
-        "revive"
+        "revive",
+        "dusk_orb",
+        "hyper_potion",
+        "max_potion",
+        "burn_salve",
+        "spark_charm",
+        "max_revive"
       ],
       "dialogue": [
         "Clerk: Welcome to Ferrock! Gear up for the iron hills."

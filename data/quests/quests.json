@@ -1290,6 +1290,597 @@
         }
       ],
       "on_complete_flag": "league_open_zephyra"
+    },
+    {
+      "id": "side_collect_3",
+      "display_name": "Novice Catcher",
+      "category": "side",
+      "auto_start": true,
+      "description": "Catch 3 creatures in total across your journey.",
+      "objectives": [
+        {
+          "id": "obj_catch",
+          "text": "Catch 3 creatures.",
+          "condition": {
+            "kind": "counter",
+            "counter": "creatures_caught",
+            "at_least": 3
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "item",
+          "item": "great_orb",
+          "quantity": 1
+        },
+        {
+          "kind": "money",
+          "amount": 200
+        }
+      ],
+      "on_complete_flag": "collect_3_done"
+    },
+    {
+      "id": "side_collect_10",
+      "display_name": "Field Cataloguer",
+      "category": "side",
+      "auto_start": true,
+      "description": "Catch 10 creatures in total across your journey.",
+      "objectives": [
+        {
+          "id": "obj_catch",
+          "text": "Catch 10 creatures.",
+          "condition": {
+            "kind": "counter",
+            "counter": "creatures_caught",
+            "at_least": 10
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "item",
+          "item": "super_potion",
+          "quantity": 3
+        },
+        {
+          "kind": "money",
+          "amount": 400
+        }
+      ],
+      "on_complete_flag": "collect_10_done"
+    },
+    {
+      "id": "side_collect_25",
+      "display_name": "Regional Naturalist",
+      "category": "side",
+      "auto_start": true,
+      "description": "Catch 25 creatures in total across your journey.",
+      "objectives": [
+        {
+          "id": "obj_catch",
+          "text": "Catch 25 creatures.",
+          "condition": {
+            "kind": "counter",
+            "counter": "creatures_caught",
+            "at_least": 25
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "item",
+          "item": "dusk_orb",
+          "quantity": 3
+        },
+        {
+          "kind": "money",
+          "amount": 600
+        }
+      ],
+      "on_complete_flag": "collect_25_done"
+    },
+    {
+      "id": "side_collect_50",
+      "display_name": "Master Collector",
+      "category": "side",
+      "auto_start": true,
+      "description": "Catch 50 creatures in total across your journey.",
+      "objectives": [
+        {
+          "id": "obj_catch",
+          "text": "Catch 50 creatures.",
+          "condition": {
+            "kind": "counter",
+            "counter": "creatures_caught",
+            "at_least": 50
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "item",
+          "item": "master_orb",
+          "quantity": 1
+        },
+        {
+          "kind": "money",
+          "amount": 800
+        }
+      ],
+      "on_complete_flag": "collect_50_done"
+    },
+    {
+      "id": "side_collect_100",
+      "display_name": "Living Encyclopedia",
+      "category": "side",
+      "auto_start": true,
+      "description": "Catch 100 creatures in total across your journey.",
+      "objectives": [
+        {
+          "id": "obj_catch",
+          "text": "Catch 100 creatures.",
+          "condition": {
+            "kind": "counter",
+            "counter": "creatures_caught",
+            "at_least": 100
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "item",
+          "item": "max_revive",
+          "quantity": 2
+        },
+        {
+          "kind": "money",
+          "amount": 1000
+        }
+      ],
+      "on_complete_flag": "collect_100_done"
+    },
+    {
+      "id": "side_spar_verdantia",
+      "display_name": "Verdantia Sparring League",
+      "category": "side",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_verdantia"
+      },
+      "description": "Prove yourself against three regulars of the Verdantia Battle Court.",
+      "objectives": [
+        {
+          "id": "obj_0",
+          "text": "Defeat a Verdantia Court regular (1/3).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_verdantia_court1_t0"
+          }
+        },
+        {
+          "id": "obj_1",
+          "text": "Defeat a Verdantia Court regular (2/3).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_verdantia_court1_t1"
+          }
+        },
+        {
+          "id": "obj_2",
+          "text": "Defeat a Verdantia Court regular (3/3).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_verdantia_court1_t2"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 700
+        },
+        {
+          "kind": "item",
+          "item": "hyper_potion",
+          "quantity": 2
+        }
+      ],
+      "on_complete_flag": "spar_verdantia_done"
+    },
+    {
+      "id": "side_spar_aquilon",
+      "display_name": "Aquilon Sparring League",
+      "category": "side",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_aquilon"
+      },
+      "description": "Prove yourself against three regulars of the Aquilon Battle Court.",
+      "objectives": [
+        {
+          "id": "obj_0",
+          "text": "Defeat a Aquilon Court regular (1/3).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_aquilon_court1_t0"
+          }
+        },
+        {
+          "id": "obj_1",
+          "text": "Defeat a Aquilon Court regular (2/3).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_aquilon_court1_t1"
+          }
+        },
+        {
+          "id": "obj_2",
+          "text": "Defeat a Aquilon Court regular (3/3).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_aquilon_court1_t2"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 900
+        },
+        {
+          "kind": "item",
+          "item": "hyper_potion",
+          "quantity": 2
+        }
+      ],
+      "on_complete_flag": "spar_aquilon_done"
+    },
+    {
+      "id": "side_spar_cindral",
+      "display_name": "Cindral Sparring League",
+      "category": "side",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_cindral"
+      },
+      "description": "Prove yourself against three regulars of the Cindral Battle Court.",
+      "objectives": [
+        {
+          "id": "obj_0",
+          "text": "Defeat a Cindral Court regular (1/3).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_cindral_court1_t0"
+          }
+        },
+        {
+          "id": "obj_1",
+          "text": "Defeat a Cindral Court regular (2/3).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_cindral_court1_t1"
+          }
+        },
+        {
+          "id": "obj_2",
+          "text": "Defeat a Cindral Court regular (3/3).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_cindral_court1_t2"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 1100
+        },
+        {
+          "kind": "item",
+          "item": "hyper_potion",
+          "quantity": 2
+        }
+      ],
+      "on_complete_flag": "spar_cindral_done"
+    },
+    {
+      "id": "side_spar_solane",
+      "display_name": "Solane Sparring League",
+      "category": "side",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_solane"
+      },
+      "description": "Prove yourself against three regulars of the Solane Battle Court.",
+      "objectives": [
+        {
+          "id": "obj_0",
+          "text": "Defeat a Solane Court regular (1/3).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_solane_court1_t0"
+          }
+        },
+        {
+          "id": "obj_1",
+          "text": "Defeat a Solane Court regular (2/3).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_solane_court1_t1"
+          }
+        },
+        {
+          "id": "obj_2",
+          "text": "Defeat a Solane Court regular (3/3).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_solane_court1_t2"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 1300
+        },
+        {
+          "kind": "item",
+          "item": "hyper_potion",
+          "quantity": 2
+        }
+      ],
+      "on_complete_flag": "spar_solane_done"
+    },
+    {
+      "id": "side_spar_umbra",
+      "display_name": "Umbra Sparring League",
+      "category": "side",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_umbra"
+      },
+      "description": "Prove yourself against three regulars of the Umbra Battle Court.",
+      "objectives": [
+        {
+          "id": "obj_0",
+          "text": "Defeat a Umbra Court regular (1/3).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_umbra_court1_t0"
+          }
+        },
+        {
+          "id": "obj_1",
+          "text": "Defeat a Umbra Court regular (2/3).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_umbra_court1_t1"
+          }
+        },
+        {
+          "id": "obj_2",
+          "text": "Defeat a Umbra Court regular (3/3).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_umbra_court1_t2"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 1500
+        },
+        {
+          "kind": "item",
+          "item": "hyper_potion",
+          "quantity": 2
+        }
+      ],
+      "on_complete_flag": "spar_umbra_done"
+    },
+    {
+      "id": "side_spar_ferrock",
+      "display_name": "Ferrock Sparring League",
+      "category": "side",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_ferrock"
+      },
+      "description": "Prove yourself against three regulars of the Ferrock Battle Court.",
+      "objectives": [
+        {
+          "id": "obj_0",
+          "text": "Defeat a Ferrock Court regular (1/3).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_ferrock_court1_t0"
+          }
+        },
+        {
+          "id": "obj_1",
+          "text": "Defeat a Ferrock Court regular (2/3).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_ferrock_court1_t1"
+          }
+        },
+        {
+          "id": "obj_2",
+          "text": "Defeat a Ferrock Court regular (3/3).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_ferrock_court1_t2"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 1700
+        },
+        {
+          "kind": "item",
+          "item": "hyper_potion",
+          "quantity": 2
+        }
+      ],
+      "on_complete_flag": "spar_ferrock_done"
+    },
+    {
+      "id": "side_spar_brume",
+      "display_name": "Brume Sparring League",
+      "category": "side",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_brume"
+      },
+      "description": "Prove yourself against three regulars of the Brume Battle Court.",
+      "objectives": [
+        {
+          "id": "obj_0",
+          "text": "Defeat a Brume Court regular (1/3).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_brume_court1_t0"
+          }
+        },
+        {
+          "id": "obj_1",
+          "text": "Defeat a Brume Court regular (2/3).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_brume_court1_t1"
+          }
+        },
+        {
+          "id": "obj_2",
+          "text": "Defeat a Brume Court regular (3/3).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_brume_court1_t2"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 1900
+        },
+        {
+          "kind": "item",
+          "item": "hyper_potion",
+          "quantity": 2
+        }
+      ],
+      "on_complete_flag": "spar_brume_done"
+    },
+    {
+      "id": "side_spar_lumen",
+      "display_name": "Lumen Sparring League",
+      "category": "side",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_lumen"
+      },
+      "description": "Prove yourself against three regulars of the Lumen Battle Court.",
+      "objectives": [
+        {
+          "id": "obj_0",
+          "text": "Defeat a Lumen Court regular (1/3).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_lumen_court1_t0"
+          }
+        },
+        {
+          "id": "obj_1",
+          "text": "Defeat a Lumen Court regular (2/3).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_lumen_court1_t1"
+          }
+        },
+        {
+          "id": "obj_2",
+          "text": "Defeat a Lumen Court regular (3/3).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_lumen_court1_t2"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 2100
+        },
+        {
+          "kind": "item",
+          "item": "hyper_potion",
+          "quantity": 2
+        }
+      ],
+      "on_complete_flag": "spar_lumen_done"
+    },
+    {
+      "id": "side_spar_zephyra",
+      "display_name": "Zephyra Sparring League",
+      "category": "side",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_zephyra"
+      },
+      "description": "Prove yourself against three regulars of the Zephyra Battle Court.",
+      "objectives": [
+        {
+          "id": "obj_0",
+          "text": "Defeat a Zephyra Court regular (1/3).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_zephyra_court1_t0"
+          }
+        },
+        {
+          "id": "obj_1",
+          "text": "Defeat a Zephyra Court regular (2/3).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_zephyra_court1_t1"
+          }
+        },
+        {
+          "id": "obj_2",
+          "text": "Defeat a Zephyra Court regular (3/3).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_zephyra_court1_t2"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 2300
+        },
+        {
+          "kind": "item",
+          "item": "hyper_potion",
+          "quantity": 2
+        }
+      ],
+      "on_complete_flag": "spar_zephyra_done"
     }
   ]
 }

@@ -256,3 +256,14 @@ edit is required. See `DATA_FORMAT.md` and `REGION_CREATION_GUIDE.md`.
     You Didn't Raise, Ledgers to Ash) → **8 endings**, priority-ordered.
   - Corin NPCs placed on all 9 Crossroads; defector in Cindral Gate; finale NPC in the
     Zephyra wilds. check_chain + validators + 30/30 math tests all pass.
+- 2026-07-03 — **Breadth + scale-up** (`generate_extras.py`, bulk knobs raised):
+  - New `generate_extras.py` adds only engine-supported (functional) content:
+    **+7 items** (Master/Dusk orbs, Hyper/Max potions, status salves, Max Revive — added
+    to shop stock and quest rewards so they enter play), **+8 abilities** (type souls,
+    Iron Wall / Spectral Veil damage cuts, stat-drop guards — now carried by generated
+    species), **+25 moves** (per-type finishers, priority hits, buffs/debuffs, heals,
+    recoil — now in the species learn pools), and **+14 side quests** (a 5-tier
+    creatures-caught collector chain + a per-region Battle Court sparring quest).
+  - Bulk knobs raised: SPECIES_PER_REGION 60→100, TRAINERS_PER_COURT 48→60 (court maps
+    auto-size to fit). Totals: **1,197 creatures, 1,778 trainers, 56 moves, 15 abilities,
+    14 items, 35 quests**. Idempotent; validators + check_chain + 30/30 tests all pass.

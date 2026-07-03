@@ -25,16 +25,18 @@ JSON files that are validated at boot. You can add content without touching engi
   route trainers), and a Summit Hall (boss champion + crest badge), chained by flag-gated
   ports with return trips. The whole chain's walkability is **verified by a BFS simulation**
   over the map data.
-- ✅ **837 original creatures** — every one of the 8 types has evolution lines in every
+- ✅ **1,197 original creatures** — every one of the 8 types has evolution lines in every
   region, plus hundreds of region natives (all generators are parameterized, so the dex
-  can grow further with one constant).
-- ✅ **1,454 trainers** across all 9 regions: per region a Crossroads city with **8
+  can grow further with one constant). **56 moves, 15 abilities, 14 items** — all wired to
+  the mechanics the engine actually implements (no dead data).
+- ✅ **1,778 trainers** across all 9 regions: per region a Crossroads city with **8
   type-themed gyms** (72 leaders, one badge each), a **gym-circuit quest** that opens the
   League corridor where the **four Elites** must be beaten in sequence before the
   **Champion** (5-creature team), route classes, and **3 "Battle Court" training halls per
-  region (27 total, ~1,300 optional trainers) built for grinding XP**. 140 maps, 22 quests,
-  8 endings, 31 moves. The whole world — entries, gyms, elite sequences, ports, return
-  trips, and every Battle Court trainer — is verified reachable by
+  region (27 total, ~1,600 optional trainers) built for grinding XP**. 140 maps, **35
+  quests** (main crest arcs, the Hollow Order arc, collector and sparring side quests),
+  8 endings. The whole world — entries, gyms, elite sequences, ports, return trips, and
+  every Battle Court trainer — is verified reachable by
   `python3 tools/validators/check_chain.py`.
 - ✅ **Branching story arc**: a recurring rival, **Corin**, meets you at every region's
   Crossroads; your answers move a relationship score that decides whether he stays a true

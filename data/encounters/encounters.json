@@ -993,280 +993,469 @@
           "rarity": "common"
         },
         {
-          "creature": "zevexakit",
+          "creature": "zeduskenkit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zewynakit",
+          "creature": "zeemberenkit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zeyarakit",
+          "creature": "zefrostenkit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zezephakit",
+          "creature": "zeglimenkit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zebalakit",
+          "creature": "zebramilkit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zecrevakit",
+          "creature": "zecinqilkit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zeduskakit",
+          "creature": "zedornilkit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zeemberakit",
+          "creature": "zeeldilkit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zefrostakit",
+          "creature": "zefenilkit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zeglimakit",
+          "creature": "zegrimilkit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zebramekit",
+          "creature": "zeholloilkit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zecinqekit",
+          "creature": "zeiriilkit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zedornekit",
+          "creature": "zejorvilkit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zeeldekit",
+          "creature": "zekestilkit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zefenekit",
+          "creature": "zelumilkit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zegrimekit",
+          "creature": "zemorilkit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zeholloekit",
+          "creature": "zenyxilkit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zeiriekit",
+          "creature": "zeorlilkit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zejorvekit",
+          "creature": "zepyrilkit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zekestekit",
+          "creature": "zequillilkit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zelumekit",
+          "creature": "zerynilkit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zemorekit",
+          "creature": "zesolilkit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zenyxekit",
+          "creature": "zetamilkit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zeorlekit",
+          "creature": "zeumbrilkit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zepyrekit",
+          "creature": "zevexilkit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zequillekit",
+          "creature": "zewynilkit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zerynekit",
+          "creature": "zeyarilkit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zesolekit",
+          "creature": "zezephilkit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zetamekit",
+          "creature": "zebalilkit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zeumbrekit",
+          "creature": "zecrevilkit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zevexekit",
+          "creature": "zeduskilkit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zewynekit",
+          "creature": "zeemberilkit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zeyarekit",
+          "creature": "zefrostilkit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zezephekit",
+          "creature": "zeglimilkit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zebalekit",
+          "creature": "zebramarkit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zecrevekit",
+          "creature": "zecinqarkit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zeduskekit",
+          "creature": "zedornarkit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zeemberekit",
+          "creature": "zeeldarkit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zefrostekit",
+          "creature": "zefenarkit",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,
           "rarity": "common"
         },
         {
-          "creature": "zeglimekit",
+          "creature": "zegrimarkit",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeholloarkit",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeiriarkit",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zejorvarkit",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zekestarkit",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zelumarkit",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zemorarkit",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zenyxarkit",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeorlarkit",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zepyrarkit",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zequillarkit",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zerynarkit",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zesolarkit",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zetamarkit",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeumbrarkit",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zevexarkit",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zewynarkit",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeyararkit",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zezepharkit",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zebalarkit",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zecrevarkit",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeduskarkit",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeemberarkit",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zefrostarkit",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeglimarkit",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zebramaet",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zecinqaet",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zedornaet",
           "weight": 4,
           "level_min": 50,
           "level_max": 57,

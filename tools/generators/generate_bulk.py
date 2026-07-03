@@ -24,9 +24,9 @@ ROOT = os.path.normpath(os.path.join(os.path.dirname(__file__), "..", ".."))
 DATA = os.path.join(ROOT, "data")
 
 # ---- scale knobs -----------------------------------------------------------
-SPECIES_PER_REGION = 60      # 9 regions -> +540 species
+SPECIES_PER_REGION = 100     # 9 regions -> +900 species
 COURTS_PER_REGION = 3        # training-hall maps per region
-TRAINERS_PER_COURT = 48      # 9 * 3 * 48 = +1296 optional grind trainers
+TRAINERS_PER_COURT = 60      # 9 * 3 * 60 = +1620 optional grind trainers
 # ---------------------------------------------------------------------------
 # Species and court ids are DETERMINISTIC (region-prefixed), and this generator
 # prunes its own previous output (generation == "demo_g4") before regenerating,
@@ -46,14 +46,21 @@ ROLES = {"swift": [50, 58, 44, 52, 46, 78], "bruiser": [58, 72, 55, 42, 48, 52],
          "balanced": [56, 56, 56, 56, 56, 56]}
 STAGE_MULT = [1.0, 1.4]
 TYPE_POOLS = {
-    "normal": ["tackle", "quick_jab", "rend", "focus_charge"],
-    "fire": ["ember_burst", "blaze_wheel", "flame_lash", "inferno_ray"],
-    "water": ["aqua_dart", "riptide", "tide_crash", "deluge"],
-    "grass": ["leaf_cut", "thorn_barrage", "vine_wrap", "bloom_burst"],
-    "electric": ["spark_zap", "volt_lance", "static_field", "storm_surge"],
-    "earth": ["stone_toss", "sand_grind", "quake_stomp", "guard_up"],
-    "wind": ["gale_slash", "cyclone_dive", "tempest", "quick_jab"],
-    "mystic": ["mind_ray", "dream_pulse", "veil_of_calm", "focus_charge"],
+    "normal": ["tackle", "quick_jab", "rend", "battle_cry", "crush_blow"],
+    "fire": ["ember_burst", "fire_fang", "flame_lash", "inferno_ray", "magma_beam"],
+    "water": ["aqua_dart", "frost_jet", "tide_crash", "deluge", "tsunami"],
+    "grass": ["leaf_cut", "root_snare", "vine_wrap", "bloom_burst", "solar_bloom"],
+    "electric": ["spark_zap", "volt_lance", "thunder_clap", "storm_surge", "overcharge"],
+    "earth": ["stone_toss", "sand_grind", "boulder_crush", "quake_stomp", "iron_guard"],
+    "wind": ["gale_slash", "sky_talon", "cyclone_dive", "tempest", "hurricane"],
+    "mystic": ["mind_ray", "astral_ram", "dream_pulse", "mind_shatter", "meditate"],
+}
+# Richer type -> ability rotation so generated species actually use the new talents.
+TYPE_ABILITIES = {
+    "normal": ["thick_hide", "steady_aim"], "fire": ["blaze_heart", "iron_wall"],
+    "water": ["tide_soul", "spectral_veil"], "grass": ["overgrow", "sure_grip"],
+    "electric": ["volt_soul", "static_skin"], "earth": ["quake_soul", "iron_wall"],
+    "wind": ["gale_soul", "swift_foot"], "mystic": ["psy_soul", "keen_mind"],
 }
 # Big syllable space -> lots of clean unique names before any numeric fallback.
 PRE = ["bram", "cinq", "dorn", "eld", "fen", "grim", "hollo", "iri", "jorv", "kest",
@@ -127,9 +134,7 @@ def species_rec(sid, name, types, region, lo, order, stage, evolves):
                        "sp_attack": spa, "sp_defense": spd, "speed": spe},
         "ev_yield": {"speed" if role == "swift" else "hp": 1 + stage},
         "exp_curve": "medium_fast", "gender_ratio": 0.5,
-        "abilities": ["swift_foot" if "wind" in types else "keen_mind" if "mystic" in types
-                      else "thick_hide" if "earth" in types else "blaze_heart" if "fire" in types
-                      else "tide_soul"],
+        "abilities": TYPE_ABILITIES.get(types[0], ["thick_hide"]),
         "capture_rate": 120 if stage == 0 else 60, "rarity": "common" if stage == 0 else "uncommon",
         "breeding_groups": ["field"], "learnset": learnset(list(types), lo, stage),
         "evolves_to": evolves, "forms": [],
@@ -137,8 +142,15 @@ def species_rec(sid, name, types, region, lo, order, stage, evolves):
 
 
 def court_map(rid, region_name, idx, n_trainers, trainer_ids):
-    """A 19x16 hall; trainers on isolated even-coord pillars, aisles between."""
+    """A hall sized to hold the trainers on isolated even-coord pillars, aisles between.
+    Interior even-coord slots = ((W-2)//2) * ((H-2)//2); size up until they fit."""
     W, H = 19, 16
+    while ((W - 2) // 2) * ((H - 2) // 2) < n_trainers + 2:
+        if W <= H:
+            W += 2
+        else:
+            H += 2
+    ex = W // 2  # entrance column
     rows = []
     for y in range(H):
         if y == 0 or y == H - 1:
@@ -146,16 +158,16 @@ def court_map(rid, region_name, idx, n_trainers, trainer_ids):
         else:
             rows.append("#" + "." * (W - 2) + "#")
     # entrance door at bottom middle
-    rows[H - 1] = rows[H - 1][:9] + "D" + rows[H - 1][10:]
+    rows[H - 1] = rows[H - 1][:ex] + "D" + rows[H - 1][ex + 1:]
     objects = [
-        {"type": "spawn", "id": "entrance", "x": 9, "y": H - 2},
-        {"type": "door", "x": 9, "y": H - 1, "to_map": f"{rid}_crossroads",
+        {"type": "spawn", "id": "entrance", "x": ex, "y": H - 2},
+        {"type": "door", "x": ex, "y": H - 1, "to_map": f"{rid}_crossroads",
          "to_spawn": f"from_court_{idx}"},
         {"type": "sign", "x": 2, "y": 1,
          "text": f"{region_name} Battle Court {idx} — endless sparring for the ambitious."},
     ]
     slots = [(x, y) for y in range(2, H - 2, 2) for x in range(2, W - 2, 2)]
-    slots = [s for s in slots if not (s[0] == 9 and s[1] >= H - 4)]  # keep entrance column clear
+    slots = [s for s in slots if not (s[0] == ex and s[1] >= H - 4)]  # keep entrance column clear
     for i in range(min(n_trainers, len(slots), len(trainer_ids))):
         x, y = slots[i]
         objects.append({"type": "trainer", "x": x, "y": y, "trainer_id": trainer_ids[i],

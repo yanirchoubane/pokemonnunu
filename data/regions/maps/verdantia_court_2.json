@@ -26,6 +26,8 @@
     "#.................#",
     "#.................#",
     "#.................#",
+    "#.................#",
+    "#.................#",
     "#########D#########"
   ],
   "objects": [
@@ -33,12 +35,12 @@
       "type": "spawn",
       "id": "entrance",
       "x": 9,
-      "y": 14
+      "y": 16
     },
     {
       "type": "door",
       "x": 9,
-      "y": 15,
+      "y": 17,
       "to_map": "verdantia_crossroads",
       "to_spawn": "from_court_2"
     },
@@ -527,6 +529,86 @@
       "sight": 1,
       "facing": "down",
       "flag": "beat_verdantia_court2_t47"
+    },
+    {
+      "type": "trainer",
+      "x": 2,
+      "y": 14,
+      "trainer_id": "verdantia_court2_t48",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court2_t48"
+    },
+    {
+      "type": "trainer",
+      "x": 4,
+      "y": 14,
+      "trainer_id": "verdantia_court2_t49",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court2_t49"
+    },
+    {
+      "type": "trainer",
+      "x": 6,
+      "y": 14,
+      "trainer_id": "verdantia_court2_t50",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court2_t50"
+    },
+    {
+      "type": "trainer",
+      "x": 8,
+      "y": 14,
+      "trainer_id": "verdantia_court2_t51",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court2_t51"
+    },
+    {
+      "type": "trainer",
+      "x": 10,
+      "y": 14,
+      "trainer_id": "verdantia_court2_t52",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court2_t52"
+    },
+    {
+      "type": "trainer",
+      "x": 12,
+      "y": 14,
+      "trainer_id": "verdantia_court2_t53",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court2_t53"
+    },
+    {
+      "type": "trainer",
+      "x": 14,
+      "y": 14,
+      "trainer_id": "verdantia_court2_t54",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court2_t54"
+    },
+    {
+      "type": "trainer",
+      "x": 16,
+      "y": 14,
+      "trainer_id": "verdantia_court2_t55",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court2_t55"
     }
   ]
 }
