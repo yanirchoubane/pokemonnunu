@@ -16,6 +16,7 @@ var last_battle_result: Dictionary = {}
 
 var _fade: ColorRect
 var _busy: bool = false
+var _queued_path: String = ""
 
 func _ready() -> void:
 	var layer := CanvasLayer.new()
@@ -54,6 +55,10 @@ func end_battle(result: Dictionary) -> void:
 
 func _change(path: String) -> void:
 	if _busy:
+		# Never DROP a navigation: remember the latest request and run it once
+		# the current transition finishes (dropping used to lose ferry warps
+		# requested during the post-battle fade, leaving input locked forever).
+		_queued_path = path
 		return
 	_busy = true
 	await _fade_to(1.0, 0.25)
@@ -61,6 +66,10 @@ func _change(path: String) -> void:
 	await get_tree().process_frame
 	await _fade_to(0.0, 0.25)
 	_busy = false
+	if _queued_path != "":
+		var next := _queued_path
+		_queued_path = ""
+		_change(next)
 
 func _fade_to(target_alpha: float, duration: float) -> void:
 	if bool(SettingsManager.get_value("reduce_animations", false)):

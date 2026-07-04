@@ -51,7 +51,11 @@ func _unhandled_input(event: InputEvent) -> void:
 		_close()
 
 func _clear() -> void:
+	# Detach BEFORE queue_free: a queued-free button is still in-tree (and still
+	# connected) until end of frame, so a second click in the same input batch
+	# could act on a stale index after the storage list shifted.
 	for c in _content.get_children():
+		_content.remove_child(c)
 		c.queue_free()
 
 func _header(text: String) -> void:

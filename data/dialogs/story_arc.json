@@ -215,8 +215,8 @@
                 { "kind": "set_flag", "flag": "hollow_resolved" },
                 { "kind": "set_flag", "flag": "quest_hollow_done" },
                 { "kind": "set_var", "var": "order_end", "value": "mercy" },
-                { "kind": "adjust_relationship", "npc": "corin", "delta": 1 },
-                { "kind": "trigger_ending" }
+                { "kind": "trigger_ending" },
+                { "kind": "adjust_relationship", "npc": "corin", "delta": 1 }
               ],
               "next": ""
             }

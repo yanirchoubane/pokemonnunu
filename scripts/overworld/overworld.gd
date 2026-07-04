@@ -42,25 +42,20 @@ func _ready() -> void:
 	camera = Camera2D.new()
 	camera.zoom = Vector2(2, 2)
 	add_child(camera)
-	GameState.ending_triggered.connect(_on_ending_triggered)
 	_resolve_spawn()
 	_load_map(map_id)
 	_place_player_from_spawn()
 	_check_region_visit()
 	queue_redraw()
 
-var _pending_ending: Dictionary = {}
-
-## Endings can fire mid-dialog (a choice action) or from quest completion, while
-## the DialogBox is busy. Store the ending and play it from _process once the
-## current interaction has fully released the dialog — no re-entrancy.
-func _on_ending_triggered(ending: Dictionary) -> void:
-	_pending_ending = ending
-
 ## Show the epilogue chosen by the endings data, autosave, and return to the
-## title screen. The save stays fully playable afterwards (post-game).
+## title screen. The save stays fully playable afterwards (post-game). The
+## "seen" flag is set HERE, at display time — GameState only buffers the
+## ending, so one triggered mid-battle survives until the overworld shows it.
 func _show_ending(ending: Dictionary) -> void:
 	input_locked = true
+	GameState.pending_warp = {}  # an ending outranks any travel request
+	GameState.set_flag("seen_ending_%s" % String(ending.get("id", "")))
 	var lines: Array = []
 	for l in ending.get("lines", []):
 		lines.append(_interpolate(DataRegistry.resolve_text(String(l))))
@@ -176,9 +171,9 @@ func _process(delta: float) -> void:
 		return
 	if input_locked:
 		return
-	if not _pending_ending.is_empty():
-		var e: Dictionary = _pending_ending
-		_pending_ending = {}
+	if not GameState.pending_ending.is_empty():
+		var e: Dictionary = GameState.pending_ending
+		GameState.pending_ending = {}
 		_show_ending(e)  # async: locks input itself, ends at the title screen
 		return
 	if not GameState.pending_warp.is_empty():

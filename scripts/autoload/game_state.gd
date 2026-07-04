@@ -10,7 +10,6 @@ signal money_changed(amount: int)
 signal team_changed
 signal region_changed(region_id: String)
 signal quest_updated(quest_id: String)
-signal ending_triggered(ending: Dictionary)
 
 var initialized: bool = false
 var rng_seed: int = 123456789
@@ -31,6 +30,7 @@ var current_region: String = ""
 var playtime_seconds: float = 0.0
 var adaptive_state: Dictionary = {}   # owned by AdaptiveDirector, stored here for save
 var pending_warp: Dictionary = {}     # set by the "warp" dialog action; consumed by the overworld (transient, not saved)
+var pending_ending: Dictionary = {}   # set by trigger_ending; consumed by the overworld (transient, not saved)
 
 func _process(delta: float) -> void:
 	if initialized:
@@ -60,6 +60,8 @@ func new_game(player_name: String, gender: String, start_region: String, seed_va
 	region_progress = {}
 	playtime_seconds = 0.0
 	adaptive_state = {}
+	pending_warp = {}     # never carry transient travel/ending across game boundaries
+	pending_ending = {}
 	current_region = start_region
 
 	# Unlock the starting region.
@@ -225,11 +227,15 @@ func evaluate_ending() -> Dictionary:
 			return e
 	return {}
 
+## Buffer the ending rather than emit-and-pray: an ending can be triggered from
+## any scene (a quest completing mid-battle, a dialog), but only the overworld
+## can display it — it polls pending_ending from _process. The "seen" flag is
+## set at DISPLAY time (overworld), never here, so an ending can't be recorded
+## as seen without the player ever reading it.
 func trigger_ending() -> void:
 	var e := evaluate_ending()
 	if not e.is_empty():
-		set_flag("seen_ending_%s" % String(e.get("id", "")))
-		ending_triggered.emit(e)
+		pending_ending = e
 
 # ------------------------------------------------------------------ regions
 
@@ -397,5 +403,7 @@ func from_dict(d: Dictionary) -> void:
 	current_region = String(d.get("current_region", ""))
 	playtime_seconds = float(d.get("playtime_seconds", 0.0))
 	adaptive_state = d.get("adaptive_state", {})
+	pending_warp = {}     # transient state never survives a load
+	pending_ending = {}
 	initialized = true
 	team_changed.emit()
