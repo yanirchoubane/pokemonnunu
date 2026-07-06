@@ -252,6 +252,29 @@ def trainer_moves(creature, level):
     return moves[-4:] if moves else [creature["learnset"][0]["move"]]
 
 
+def make_form_demoter(evolutions):
+    """Return legal_form(species_id, level) -> species_id.
+
+    A trainer must never field an EVOLVED form below the level its evolution
+    requires (a level-15 final form the player can't obtain until 34 breaks
+    coherence). Walk down the evolution chain until the form is level-legal.
+    """
+    pre_evo, min_lvl = {}, {}
+    for e in evolutions:
+        to, frm = e.get("to"), e.get("from")
+        lvl = int(e.get("condition", {}).get("level", 1))
+        if to:
+            pre_evo[to] = frm
+            min_lvl[to] = max(min_lvl.get(to, 1), lvl)
+
+    def legal_form(cid, level):
+        while min_lvl.get(cid, 1) > level and cid in pre_evo:
+            cid = pre_evo[cid]
+        return cid
+
+    return legal_form
+
+
 ROUTE_CLASSES = [
     ("rambler", "Rambler", "intermediate", "Rambler: These trails taught me everything. Your turn to learn!"),
     ("angler", "Angler", "basic", "Angler: Patience wins fights and fills nets. Got either?"),
@@ -294,6 +317,8 @@ def main():
                    {"id": f"evo_{frm}", "from": frm, "to": to,
                     "condition": {"kind": "level_up", "level": lvl}})
 
+    legal_form = make_form_demoter(evolutions_doc["evolutions"])
+
     # Encounter tables: stage-1 forms common, singles uncommon, apex ultra-rare.
     orders = {"verdantia": 1, "aquilon": 2, **{r: i + 3 for i, r in enumerate(GENERATED)}}
     for tbl in encounters_doc["tables"]:
@@ -327,8 +352,12 @@ def main():
         for t_i, (ckey, cname, ai, intro) in enumerate(ROUTE_CLASSES):
             tid = f"{rid}_{ckey}"
             picks = [locals_[t_i % len(locals_)], locals_[(t_i + 1) % len(locals_)]]
-            team = [{"creature": p["id"], "level": lo + 1 + j,
-                     "moves": trainer_moves(p, lo + 1 + j)} for j, p in enumerate(picks)]
+            team = []
+            for j, p in enumerate(picks):
+                lvl = lo + 1 + j
+                cid = legal_form(p["id"], lvl)  # never an evolved form below its evolution level
+                team.append({"creature": cid, "level": lvl,
+                             "moves": trainer_moves(by_id[cid], lvl)})
             upsert(trainers_doc["trainers"], {
                 "id": tid, "display_name": f"{cname} of {rid.capitalize()}",
                 "sprite": f"trainer_{ckey}", "ai": ai, "boss": False,
@@ -348,8 +377,12 @@ def main():
         if rid in HOLLOW_REGIONS:
             tid = f"hollow_agent_{rid}"
             picks = [locals_[0], locals_[-1]]
-            team = [{"creature": p["id"], "level": lo + 3 + j,
-                     "moves": trainer_moves(p, lo + 3 + j)} for j, p in enumerate(picks)]
+            team = []
+            for j, p in enumerate(picks):
+                lvl = lo + 3 + j
+                cid = legal_form(p["id"], lvl)
+                team.append({"creature": cid, "level": lvl,
+                             "moves": trainer_moves(by_id[cid], lvl)})
             upsert(trainers_doc["trainers"], {
                 "id": tid, "display_name": "Hollow Order Agent",
                 "sprite": "trainer_hollow", "ai": "advanced", "boss": False,

@@ -250,6 +250,13 @@ def main():
                                            "rarity": "common"})
 
     # Battle Courts: many optional trainers per region for grinding XP.
+    # pre-evolution map so no court trainer fields an under-leveled evolved form
+    pre_evo, min_form_lvl = {}, {}
+    for e in evolutions_doc["evolutions"]:
+        if e.get("to"):
+            pre_evo[e["to"]] = e.get("from")
+            min_form_lvl[e["to"]] = max(min_form_lvl.get(e["to"], 1),
+                                        int(e.get("condition", {}).get("level", 1)))
     court_total = 0
     for rid, (order, lo) in REGION_ORDERS.items():
         region_name = rid.capitalize()
@@ -266,8 +273,11 @@ def main():
                 team = []
                 for k in range(size):
                     sid = pool[(gidx * 3 + k) % len(pool)]
-                    spec = spec_by_id[sid]
                     lvl = lo + 2 + (gidx % 5) + k
+                    # never field an evolved form below its evolution level
+                    while min_form_lvl.get(sid, 1) > lvl and sid in pre_evo:
+                        sid = pre_evo[sid]
+                    spec = spec_by_id[sid]
                     moves = [e["move"] for e in spec["learnset"] if e["level"] <= lvl][-4:]
                     team.append({"creature": sid, "level": lvl,
                                  "moves": moves or [spec["learnset"][0]["move"]]})

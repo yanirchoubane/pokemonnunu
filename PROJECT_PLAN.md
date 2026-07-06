@@ -330,3 +330,20 @@ edit is required. See `DATA_FORMAT.md` and `REGION_CREATION_GUIDE.md`.
     between unlocked regions".
   - Full pipeline re-run: all verifiers green (validators, world walk, courts, landmarks,
     structural gaps, 30/30 math tests).
+- 2026-07-03 — **Gameplay-logic lint + team legality fixes**:
+  - New verifier `tools/validators/lint_gameplay.py` (added to run_all): every trainer
+    member must know a damaging move, only learnset moves, use a level-legal form
+    (no evolved form below its evolution level), levels in [2,100]; every wild entry
+    must have a damaging move at level_min. First run: **2,661 errors** — overwhelmingly
+    under-leveled evolved forms in Battle Courts and route-trainer teams.
+  - Fixes: a shared "form demoter" (walk down the evolution chain until level-legal) in
+    generate_expansion (route trainers, Hollow agents) and generate_bulk (court teams);
+    hand-authored fixes for Warden Sable (bloomcat → L16) and Isolde (mistelk → L20,
+    gustling's unlearnable guard_up swapped). Lint now clean (6 tolerated above-level
+    "tutored" moves).
+  - generate_league now **prunes its own demo_g3 output** before regenerating — each
+    re-run had been silently accumulating orphaned species via the numeric name
+    fallback (dex had bloated to 2,743; back to the canonical 2,097). The fallback
+    itself now composes two roots ("cinderbrine…") instead of digits: **0 digit-named
+    species** remain.
+  - Full pipeline + all six verifiers green.

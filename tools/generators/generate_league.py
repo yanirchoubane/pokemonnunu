@@ -133,16 +133,26 @@ class Dex:
 
     def _name(self, tkey, region_order, offset, stage):
         roots = ROOTS[tkey]
-        for attempt in range(len(roots)):
+        sufs = SUFFIXES[stage]
+        for attempt in range(len(roots) * len(sufs)):
             root = roots[(region_order * 3 + offset + attempt) % len(roots)]
-            suffix = SUFFIXES[stage][(region_order + offset + attempt) % len(SUFFIXES[stage])]
+            suffix = sufs[(region_order + offset + attempt) % len(sufs)]
             sid = root + suffix
             if sid not in self.used:
                 self.used.add(sid)
                 return sid
-        sid = f"{roots[0]}{region_order}{offset}{stage}"
-        self.used.add(sid)
-        return sid
+        # Fallback: compose two roots (e.g. "cinderbrine" + suffix) — a much
+        # larger namespace than the old numeric fallback, which produced ugly
+        # display names like "Cinder110".
+        for attempt in range(len(roots) * len(roots) * len(sufs)):
+            a = roots[(region_order + attempt) % len(roots)]
+            b = roots[(offset + attempt // len(roots)) % len(roots)]
+            suffix = sufs[(attempt // (len(roots) * len(roots))) % len(sufs)]
+            sid = a + b + suffix
+            if a != b and sid not in self.used:
+                self.used.add(sid)
+                return sid
+        raise SystemExit(f"name space exhausted for type '{tkey}' — add roots")
 
     def make_line(self, region, types, n_stages, lo, order, offset):
         role = ROLE_BY_TYPE[types[0]]
@@ -295,6 +305,17 @@ def main():
     trainers_doc = load(os.path.join(DATA, "trainers", "trainers.json"))
     encounters_doc = load(os.path.join(DATA, "encounters", "encounters.json"))
     quests_doc = load(os.path.join(DATA, "quests", "quests.json"))
+
+    # Prune this generator's previous species output (generation demo_g3) so
+    # re-runs — including name-scheme changes — regenerate cleanly instead of
+    # leaving orphans. Everything referencing demo_g3 is rebuilt below (gym /
+    # elite / champion teams) or trimmed later in the pipeline (generate_bulk
+    # drops encounter entries whose species no longer exist).
+    creatures_doc["creatures"] = [c for c in creatures_doc["creatures"]
+                                  if c.get("generation") != "demo_g3"]
+    live_ids = {c["id"] for c in creatures_doc["creatures"]}
+    evolutions_doc["evolutions"] = [e for e in evolutions_doc["evolutions"]
+                                    if e.get("from") in live_ids]
 
     dex = Dex(creatures_doc, evolutions_doc)
 

@@ -34,6 +34,7 @@ PIPELINE = [
 VERIFY = [
     "tools/validators/validate_data.py",
     "tools/validators/check_chain.py",
+    "tools/validators/lint_gameplay.py",
     "tools/world_summary.py",
     "tests/test_reference.py",
 ]
