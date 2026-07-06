@@ -1,0 +1,766 @@
+{
+  "$schema_version": 1,
+  "id": "verdantia_court_1",
+  "display_name": "Verdantia Battle Court 1",
+  "region": "verdantia",
+  "bgm": "town",
+  "tile_size": 32,
+  "legend": {
+    "#": "wall",
+    ".": "floor",
+    "D": "door"
+  },
+  "rows": [
+    "#####################",
+    "#...................#",
+    "#...................#",
+    "#...................#",
+    "#...................#",
+    "#...................#",
+    "#...................#",
+    "#...................#",
+    "#...................#",
+    "#...................#",
+    "#...................#",
+    "#...................#",
+    "#...................#",
+    "#...................#",
+    "#...................#",
+    "#...................#",
+    "#...................#",
+    "#...................#",
+    "#...................#",
+    "##########D##########"
+  ],
+  "objects": [
+    {
+      "type": "spawn",
+      "id": "entrance",
+      "x": 10,
+      "y": 18
+    },
+    {
+      "type": "door",
+      "x": 10,
+      "y": 19,
+      "to_map": "verdantia_crossroads",
+      "to_spawn": "from_court_1"
+    },
+    {
+      "type": "sign",
+      "x": 2,
+      "y": 1,
+      "text": "Verdantia Battle Court 1 — endless sparring for the ambitious."
+    },
+    {
+      "type": "trainer",
+      "x": 2,
+      "y": 2,
+      "trainer_id": "verdantia_court1_t0",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t0"
+    },
+    {
+      "type": "trainer",
+      "x": 4,
+      "y": 2,
+      "trainer_id": "verdantia_court1_t1",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t1"
+    },
+    {
+      "type": "trainer",
+      "x": 6,
+      "y": 2,
+      "trainer_id": "verdantia_court1_t2",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t2"
+    },
+    {
+      "type": "trainer",
+      "x": 8,
+      "y": 2,
+      "trainer_id": "verdantia_court1_t3",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t3"
+    },
+    {
+      "type": "trainer",
+      "x": 10,
+      "y": 2,
+      "trainer_id": "verdantia_court1_t4",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t4"
+    },
+    {
+      "type": "trainer",
+      "x": 12,
+      "y": 2,
+      "trainer_id": "verdantia_court1_t5",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t5"
+    },
+    {
+      "type": "trainer",
+      "x": 14,
+      "y": 2,
+      "trainer_id": "verdantia_court1_t6",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t6"
+    },
+    {
+      "type": "trainer",
+      "x": 16,
+      "y": 2,
+      "trainer_id": "verdantia_court1_t7",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t7"
+    },
+    {
+      "type": "trainer",
+      "x": 18,
+      "y": 2,
+      "trainer_id": "verdantia_court1_t8",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t8"
+    },
+    {
+      "type": "trainer",
+      "x": 2,
+      "y": 4,
+      "trainer_id": "verdantia_court1_t9",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t9"
+    },
+    {
+      "type": "trainer",
+      "x": 4,
+      "y": 4,
+      "trainer_id": "verdantia_court1_t10",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t10"
+    },
+    {
+      "type": "trainer",
+      "x": 6,
+      "y": 4,
+      "trainer_id": "verdantia_court1_t11",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t11"
+    },
+    {
+      "type": "trainer",
+      "x": 8,
+      "y": 4,
+      "trainer_id": "verdantia_court1_t12",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t12"
+    },
+    {
+      "type": "trainer",
+      "x": 10,
+      "y": 4,
+      "trainer_id": "verdantia_court1_t13",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t13"
+    },
+    {
+      "type": "trainer",
+      "x": 12,
+      "y": 4,
+      "trainer_id": "verdantia_court1_t14",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t14"
+    },
+    {
+      "type": "trainer",
+      "x": 14,
+      "y": 4,
+      "trainer_id": "verdantia_court1_t15",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t15"
+    },
+    {
+      "type": "trainer",
+      "x": 16,
+      "y": 4,
+      "trainer_id": "verdantia_court1_t16",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t16"
+    },
+    {
+      "type": "trainer",
+      "x": 18,
+      "y": 4,
+      "trainer_id": "verdantia_court1_t17",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t17"
+    },
+    {
+      "type": "trainer",
+      "x": 2,
+      "y": 6,
+      "trainer_id": "verdantia_court1_t18",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t18"
+    },
+    {
+      "type": "trainer",
+      "x": 4,
+      "y": 6,
+      "trainer_id": "verdantia_court1_t19",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t19"
+    },
+    {
+      "type": "trainer",
+      "x": 6,
+      "y": 6,
+      "trainer_id": "verdantia_court1_t20",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t20"
+    },
+    {
+      "type": "trainer",
+      "x": 8,
+      "y": 6,
+      "trainer_id": "verdantia_court1_t21",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t21"
+    },
+    {
+      "type": "trainer",
+      "x": 10,
+      "y": 6,
+      "trainer_id": "verdantia_court1_t22",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t22"
+    },
+    {
+      "type": "trainer",
+      "x": 12,
+      "y": 6,
+      "trainer_id": "verdantia_court1_t23",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t23"
+    },
+    {
+      "type": "trainer",
+      "x": 14,
+      "y": 6,
+      "trainer_id": "verdantia_court1_t24",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t24"
+    },
+    {
+      "type": "trainer",
+      "x": 16,
+      "y": 6,
+      "trainer_id": "verdantia_court1_t25",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t25"
+    },
+    {
+      "type": "trainer",
+      "x": 18,
+      "y": 6,
+      "trainer_id": "verdantia_court1_t26",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t26"
+    },
+    {
+      "type": "trainer",
+      "x": 2,
+      "y": 8,
+      "trainer_id": "verdantia_court1_t27",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t27"
+    },
+    {
+      "type": "trainer",
+      "x": 4,
+      "y": 8,
+      "trainer_id": "verdantia_court1_t28",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t28"
+    },
+    {
+      "type": "trainer",
+      "x": 6,
+      "y": 8,
+      "trainer_id": "verdantia_court1_t29",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t29"
+    },
+    {
+      "type": "trainer",
+      "x": 8,
+      "y": 8,
+      "trainer_id": "verdantia_court1_t30",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t30"
+    },
+    {
+      "type": "trainer",
+      "x": 10,
+      "y": 8,
+      "trainer_id": "verdantia_court1_t31",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t31"
+    },
+    {
+      "type": "trainer",
+      "x": 12,
+      "y": 8,
+      "trainer_id": "verdantia_court1_t32",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t32"
+    },
+    {
+      "type": "trainer",
+      "x": 14,
+      "y": 8,
+      "trainer_id": "verdantia_court1_t33",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t33"
+    },
+    {
+      "type": "trainer",
+      "x": 16,
+      "y": 8,
+      "trainer_id": "verdantia_court1_t34",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t34"
+    },
+    {
+      "type": "trainer",
+      "x": 18,
+      "y": 8,
+      "trainer_id": "verdantia_court1_t35",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t35"
+    },
+    {
+      "type": "trainer",
+      "x": 2,
+      "y": 10,
+      "trainer_id": "verdantia_court1_t36",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t36"
+    },
+    {
+      "type": "trainer",
+      "x": 4,
+      "y": 10,
+      "trainer_id": "verdantia_court1_t37",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t37"
+    },
+    {
+      "type": "trainer",
+      "x": 6,
+      "y": 10,
+      "trainer_id": "verdantia_court1_t38",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t38"
+    },
+    {
+      "type": "trainer",
+      "x": 8,
+      "y": 10,
+      "trainer_id": "verdantia_court1_t39",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t39"
+    },
+    {
+      "type": "trainer",
+      "x": 10,
+      "y": 10,
+      "trainer_id": "verdantia_court1_t40",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t40"
+    },
+    {
+      "type": "trainer",
+      "x": 12,
+      "y": 10,
+      "trainer_id": "verdantia_court1_t41",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t41"
+    },
+    {
+      "type": "trainer",
+      "x": 14,
+      "y": 10,
+      "trainer_id": "verdantia_court1_t42",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t42"
+    },
+    {
+      "type": "trainer",
+      "x": 16,
+      "y": 10,
+      "trainer_id": "verdantia_court1_t43",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t43"
+    },
+    {
+      "type": "trainer",
+      "x": 18,
+      "y": 10,
+      "trainer_id": "verdantia_court1_t44",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t44"
+    },
+    {
+      "type": "trainer",
+      "x": 2,
+      "y": 12,
+      "trainer_id": "verdantia_court1_t45",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t45"
+    },
+    {
+      "type": "trainer",
+      "x": 4,
+      "y": 12,
+      "trainer_id": "verdantia_court1_t46",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t46"
+    },
+    {
+      "type": "trainer",
+      "x": 6,
+      "y": 12,
+      "trainer_id": "verdantia_court1_t47",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t47"
+    },
+    {
+      "type": "trainer",
+      "x": 8,
+      "y": 12,
+      "trainer_id": "verdantia_court1_t48",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t48"
+    },
+    {
+      "type": "trainer",
+      "x": 10,
+      "y": 12,
+      "trainer_id": "verdantia_court1_t49",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t49"
+    },
+    {
+      "type": "trainer",
+      "x": 12,
+      "y": 12,
+      "trainer_id": "verdantia_court1_t50",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t50"
+    },
+    {
+      "type": "trainer",
+      "x": 14,
+      "y": 12,
+      "trainer_id": "verdantia_court1_t51",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t51"
+    },
+    {
+      "type": "trainer",
+      "x": 16,
+      "y": 12,
+      "trainer_id": "verdantia_court1_t52",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t52"
+    },
+    {
+      "type": "trainer",
+      "x": 18,
+      "y": 12,
+      "trainer_id": "verdantia_court1_t53",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t53"
+    },
+    {
+      "type": "trainer",
+      "x": 2,
+      "y": 14,
+      "trainer_id": "verdantia_court1_t54",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t54"
+    },
+    {
+      "type": "trainer",
+      "x": 4,
+      "y": 14,
+      "trainer_id": "verdantia_court1_t55",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t55"
+    },
+    {
+      "type": "trainer",
+      "x": 6,
+      "y": 14,
+      "trainer_id": "verdantia_court1_t56",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t56"
+    },
+    {
+      "type": "trainer",
+      "x": 8,
+      "y": 14,
+      "trainer_id": "verdantia_court1_t57",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t57"
+    },
+    {
+      "type": "trainer",
+      "x": 10,
+      "y": 14,
+      "trainer_id": "verdantia_court1_t58",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t58"
+    },
+    {
+      "type": "trainer",
+      "x": 12,
+      "y": 14,
+      "trainer_id": "verdantia_court1_t59",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t59"
+    },
+    {
+      "type": "trainer",
+      "x": 14,
+      "y": 14,
+      "trainer_id": "verdantia_court1_t60",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t60"
+    },
+    {
+      "type": "trainer",
+      "x": 16,
+      "y": 14,
+      "trainer_id": "verdantia_court1_t61",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t61"
+    },
+    {
+      "type": "trainer",
+      "x": 18,
+      "y": 14,
+      "trainer_id": "verdantia_court1_t62",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t62"
+    },
+    {
+      "type": "trainer",
+      "x": 2,
+      "y": 16,
+      "trainer_id": "verdantia_court1_t63",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t63"
+    },
+    {
+      "type": "trainer",
+      "x": 4,
+      "y": 16,
+      "trainer_id": "verdantia_court1_t64",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t64"
+    },
+    {
+      "type": "trainer",
+      "x": 6,
+      "y": 16,
+      "trainer_id": "verdantia_court1_t65",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t65"
+    },
+    {
+      "type": "trainer",
+      "x": 8,
+      "y": 16,
+      "trainer_id": "verdantia_court1_t66",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t66"
+    },
+    {
+      "type": "trainer",
+      "x": 12,
+      "y": 16,
+      "trainer_id": "verdantia_court1_t67",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t67"
+    },
+    {
+      "type": "trainer",
+      "x": 14,
+      "y": 16,
+      "trainer_id": "verdantia_court1_t68",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t68"
+    },
+    {
+      "type": "trainer",
+      "x": 16,
+      "y": 16,
+      "trainer_id": "verdantia_court1_t69",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t69"
+    },
+    {
+      "type": "trainer",
+      "x": 18,
+      "y": 16,
+      "trainer_id": "verdantia_court1_t70",
+      "sprite": "trainer_ace",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_verdantia_court1_t70"
+    }
+  ]
+}

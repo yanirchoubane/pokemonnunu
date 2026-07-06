@@ -1,0 +1,120 @@
+{
+  "$schema_version": 1,
+  "id": "umbra_wilds",
+  "display_name": "Umbra Wilds",
+  "region": "umbra",
+  "bgm": "route",
+  "tile_size": 32,
+  "legend": {
+    "#": "wall",
+    ".": "ground",
+    "~": "tall_grass",
+    "P": "path",
+    "D": "door"
+  },
+  "rows": [
+    "##############",
+    "#~~~....~~~..#",
+    "#~~~....~~~..#",
+    "#............#",
+    "D....PPPP....D",
+    "#............#",
+    "#..~~~...~~~.#",
+    "#..~~~...~~~.#",
+    "##############"
+  ],
+  "objects": [
+    {
+      "type": "spawn",
+      "id": "from_gate",
+      "x": 1,
+      "y": 4
+    },
+    {
+      "type": "spawn",
+      "id": "from_hall",
+      "x": 12,
+      "y": 4
+    },
+    {
+      "type": "door",
+      "x": 0,
+      "y": 4,
+      "to_map": "umbra_gate",
+      "to_spawn": "from_wilds"
+    },
+    {
+      "type": "door",
+      "x": 13,
+      "y": 4,
+      "to_map": "umbra_crossroads",
+      "to_spawn": "from_wilds",
+      "requires_flag": "beat_umbra_scout",
+      "locked_text": "The hall road opens once the wilds' scout acknowledges you."
+    },
+    {
+      "type": "encounter_zone",
+      "table": "umbra_encounters"
+    },
+    {
+      "type": "trainer",
+      "x": 7,
+      "y": 3,
+      "trainer_id": "umbra_scout",
+      "sprite": "trainer_scout",
+      "sight": 2,
+      "facing": "down",
+      "flag": "beat_umbra_scout"
+    },
+    {
+      "type": "item",
+      "x": 11,
+      "y": 1,
+      "item": "super_potion",
+      "flag": "item_umbra_wilds_1"
+    },
+    {
+      "type": "sign",
+      "x": 4,
+      "y": 3,
+      "text": "Umbra Wilds — locals report creatures around Lv 26."
+    },
+    {
+      "type": "trainer",
+      "x": 2,
+      "y": 3,
+      "trainer_id": "umbra_rambler",
+      "sprite": "trainer_rambler",
+      "sight": 2,
+      "facing": "down",
+      "flag": "beat_umbra_rambler"
+    },
+    {
+      "type": "trainer",
+      "x": 11,
+      "y": 5,
+      "trainer_id": "umbra_angler",
+      "sprite": "trainer_angler",
+      "sight": 2,
+      "facing": "up",
+      "flag": "beat_umbra_angler"
+    },
+    {
+      "type": "trainer",
+      "x": 6,
+      "y": 6,
+      "trainer_id": "umbra_miner",
+      "sprite": "trainer_miner",
+      "sight": 2,
+      "facing": "right",
+      "flag": "beat_umbra_miner"
+    },
+    {
+      "type": "sign",
+      "x": 4,
+      "y": 3,
+      "text": "NOTICE: The grove keeps a Lieutenant now. Those with debts to the Order should turn back here.",
+      "gen": "sign"
+    }
+  ]
+}

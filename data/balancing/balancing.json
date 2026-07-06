@@ -1,0 +1,43 @@
+{
+  "$schema_version": 1,
+  "description": "Central balancing constants. No magic numbers in engine code — everything tunable lives here.",
+  "battle": {
+    "level_scale_numerator": 2,
+    "level_scale_base": 5,
+    "damage_base_divisor": 50,
+    "damage_random_min": 0.85,
+    "damage_random_max": 1.0,
+    "stab_multiplier": 1.5,
+    "critical_multiplier": 1.5,
+    "critical_chance": 0.0625,
+    "burn_physical_multiplier": 0.5,
+    "burn_end_turn_fraction": 0.0625,
+    "poison_end_turn_fraction": 0.125,
+    "paralyze_speed_multiplier": 0.5,
+    "paralyze_skip_chance": 0.25,
+    "stat_stage_min": -6,
+    "stat_stage_max": 6,
+    "flee_base": 0.5
+  },
+  "capture": {
+    "hp_low_bonus": 1.0,
+    "status_bonus": { "none": 1.0, "burn": 1.5, "poison": 1.5, "paralyze": 1.5 },
+    "shake_checks": 4,
+    "max_catch_value": 255
+  },
+  "experience": {
+    "trainer_bonus_multiplier": 1.5,
+    "participation_split": true,
+    "level_cap": 100,
+    "prestige_enabled": true
+  },
+  "economy": {
+    "starting_money": 1500,
+    "sell_fraction": 0.5,
+    "defeat_money_loss_fraction": 0.1
+  },
+  "party": {
+    "max_team_size": 6,
+    "box_capacity": 60
+  }
+}

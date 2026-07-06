@@ -1,0 +1,53 @@
+{
+  "$schema_version": 1,
+  "id": "verdantia_gym_fire",
+  "display_name": "Verdantia Fire Gym",
+  "region": "verdantia",
+  "bgm": "town",
+  "tile_size": 32,
+  "legend": {
+    "#": "wall",
+    ".": "floor",
+    "D": "door"
+  },
+  "rows": [
+    "#######",
+    "#.....#",
+    "#.....#",
+    "#.....#",
+    "#.....#",
+    "#.....#",
+    "###D###"
+  ],
+  "objects": [
+    {
+      "type": "spawn",
+      "id": "entrance",
+      "x": 3,
+      "y": 5
+    },
+    {
+      "type": "door",
+      "x": 3,
+      "y": 6,
+      "to_map": "verdantia_crossroads",
+      "to_spawn": "from_fire_gym"
+    },
+    {
+      "type": "trainer",
+      "x": 3,
+      "y": 2,
+      "trainer_id": "verdantia_gym_fire",
+      "sprite": "trainer_gym",
+      "sight": 2,
+      "facing": "down",
+      "flag": "beat_verdantia_gym_fire"
+    },
+    {
+      "type": "sign",
+      "x": 1,
+      "y": 1,
+      "text": "Ember Sage's gym — fire techniques honored here."
+    }
+  ]
+}

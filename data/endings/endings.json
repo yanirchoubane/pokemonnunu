@@ -1,0 +1,187 @@
+{
+  "$schema_version": 1,
+  "description": "Data-driven endings. When a 'trigger_ending' action fires, the FIRST ending (in array order) whose condition passes is shown, then the game returns to the title screen (the save remains playable). Conditions use the same composable kinds as quests/dialogs: flag, counter, var_equals, var_at_least, relationship_at_least, all, any, not.",
+  "endings": [
+    {
+      "id": "ending_nine_crests",
+      "title": "Legend of the Nine Crests",
+      "condition": {
+        "kind": "all",
+        "conditions": [
+          {
+            "kind": "flag",
+            "flag": "beat_gym_verdantia"
+          },
+          {
+            "kind": "flag",
+            "flag": "beat_aquilon_champion"
+          },
+          {
+            "kind": "flag",
+            "flag": "beat_cindral_champion"
+          },
+          {
+            "kind": "flag",
+            "flag": "beat_solane_champion"
+          },
+          {
+            "kind": "flag",
+            "flag": "beat_umbra_champion"
+          },
+          {
+            "kind": "flag",
+            "flag": "beat_ferrock_champion"
+          },
+          {
+            "kind": "flag",
+            "flag": "beat_brume_champion"
+          },
+          {
+            "kind": "flag",
+            "flag": "beat_lumen_champion"
+          },
+          {
+            "kind": "flag",
+            "flag": "beat_zephyra_champion"
+          }
+        ]
+      },
+      "lines": [
+        "Nine regions. Nine crests. One unbroken road from Verdantia's meadows to Zephyra's storms.",
+        "Professor Maple's final report needs no title but your name.",
+        "Wherever new coastlines rise, the legend of the Nine Crests will arrive first."
+      ]
+    },
+    {
+      "id": "ending_rivals_true",
+      "title": "Rivals to the End",
+      "condition": {
+        "kind": "all",
+        "conditions": [
+          {
+            "kind": "flag",
+            "flag": "quest_hollow_done"
+          },
+          {
+            "kind": "relationship_at_least",
+            "npc": "corin",
+            "at_least": 4
+          }
+        ]
+      },
+      "lines": [
+        "Corin meets you on the Zephyra steppe, grinning through the wind.",
+        "\"Start to finish, ${player} — nine regions, one Order broken, and I never fell behind.\"",
+        "Two rivals, one unbroken road. Professor Maple's report has two names on the cover."
+      ]
+    },
+    {
+      "id": "ending_order_mercy",
+      "title": "The Hand You Didn't Raise",
+      "condition": {
+        "kind": "var_equals",
+        "var": "order_end",
+        "value": "mercy"
+      },
+      "lines": [
+        "You gave the Archon a road back instead of a fall.",
+        "The gray coats trade debt-ledgers for trail-maps, guiding travelers they once robbed.",
+        "Mercy, it turns out, hollows nothing. It fills."
+      ]
+    },
+    {
+      "id": "ending_order_justice",
+      "title": "Ledgers to Ash",
+      "condition": {
+        "kind": "var_equals",
+        "var": "order_end",
+        "value": "justice"
+      },
+      "lines": [
+        "The Order's debts burn on the steppe until only clean wind remains.",
+        "From Verdantia to Zephyra, no trainer flinches at a gray coat again.",
+        "You gave the roads back. That is a Champion's truest badge."
+      ]
+    },
+    {
+      "id": "ending_order_undone",
+      "title": "The Hollow, Undone",
+      "condition": {
+        "kind": "all",
+        "conditions": [
+          {
+            "kind": "flag",
+            "flag": "quest_aquilon_done"
+          },
+          {
+            "kind": "flag",
+            "flag": "quest_hollow_done"
+          }
+        ]
+      },
+      "lines": [
+        "With the Archon unmasked, the Hollow Order's ledgers burn in every region at once.",
+        "Trainers walk the northern roads without looking over their shoulders again.",
+        "Professor Maple's report gains a final chapter: the one where you gave the roads back."
+      ]
+    },
+    {
+      "id": "ending_champion",
+      "title": "Champion of the North",
+      "condition": {
+        "kind": "all",
+        "conditions": [
+          {
+            "kind": "flag",
+            "flag": "quest_aquilon_done"
+          },
+          {
+            "kind": "flag",
+            "flag": "beat_aquilon_champion"
+          }
+        ]
+      },
+      "lines": [
+        "Professor Maple publishes the expedition report — signed by the Champion of the North.",
+        "Isolde's crest gleams beside the Verdant Badge. Two regions, two titles, one journey.",
+        "In the Summit Hall, your name is carved among the champions. The north remembers."
+      ]
+    },
+    {
+      "id": "ending_bonds",
+      "title": "Bonds Across Regions",
+      "condition": {
+        "kind": "all",
+        "conditions": [
+          {
+            "kind": "flag",
+            "flag": "quest_aquilon_done"
+          },
+          {
+            "kind": "relationship_at_least",
+            "npc": "corin",
+            "at_least": 2
+          }
+        ]
+      },
+      "lines": [
+        "Professor Maple publishes the expedition report, co-signed by you and Corin.",
+        "Two regions, one team, and a friendship that made the road shorter.",
+        "Your creatures doze in the evening sun of Verdantia. The journey rests — for now."
+      ]
+    },
+    {
+      "id": "ending_lone_pioneer",
+      "title": "The Lone Pioneer",
+      "condition": {
+        "kind": "flag",
+        "flag": "quest_aquilon_done"
+      },
+      "lines": [
+        "Professor Maple publishes the expedition report under a single name: yours.",
+        "From Verdantia's meadows to Aquilon's cold ridges, you walked alone — and prevailed.",
+        "Somewhere north, new coastlines wait for a pioneer's footprints."
+      ]
+    }
+  ]
+}

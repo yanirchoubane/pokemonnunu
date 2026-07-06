@@ -1,0 +1,25 @@
+{
+  "$schema_version": 1,
+  "description": "Base string table (English). Any dialog line, quest text or UI string starting with '@' is resolved through this table (current language first, then 'en', then the raw key). User packs may add languages as user_content/localization/<lang>.json or override keys per pack.",
+  "language": "en",
+  "strings": {
+    "ui.new_game": "New Game",
+    "ui.continue": "Continue",
+    "ui.settings": "Settings",
+    "ui.quit": "Quit",
+    "ui.menu": "Menu",
+    "ui.team": "Team",
+    "ui.bag": "Bag",
+    "ui.quests": "Quests",
+    "ui.storage": "Storage",
+    "ui.encyclopedia": "Encyclopedia",
+    "ui.save": "Save",
+    "ui.close": "Close",
+    "battle.fight": "Fight",
+    "battle.bag": "Bag",
+    "battle.team": "Team",
+    "battle.run": "Run",
+    "dialog.healed": "Your team is fully healed!",
+    "ending.the_end": "— The End —"
+  }
+}

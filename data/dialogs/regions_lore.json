@@ -1,0 +1,384 @@
+{
+  "$schema_version": 1,
+  "description": "Region landmark keeper dialogs (worldbuilding + first-visit reward).",
+  "dialogs": [
+    {
+      "id": "lore_verdantia",
+      "nodes": [
+        {
+          "id": "revisit",
+          "condition": {
+            "kind": "flag",
+            "flag": "explored_verdantia"
+          },
+          "portrait": "keeper",
+          "lines": [
+            "Elder Root: The Verdant Glade keeps its stories. Come back when you need one."
+          ],
+          "next": ""
+        },
+        {
+          "id": "first",
+          "portrait": "keeper",
+          "lines": [
+            "Elder Root: Ah, a young trainer. This glade is the oldest promise in the world.",
+            "Elder Root: Long before badges and Leagues, someone knelt here and simply... trusted.",
+            "Elder Root: Carry that with you. It matters more than any crest."
+          ],
+          "actions": [
+            {
+              "kind": "set_flag",
+              "flag": "explored_verdantia"
+            },
+            {
+              "kind": "give_item",
+              "item": "great_orb",
+              "quantity": 1
+            },
+            {
+              "kind": "add_money",
+              "amount": 300
+            }
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "lore_aquilon",
+      "nodes": [
+        {
+          "id": "revisit",
+          "condition": {
+            "kind": "flag",
+            "flag": "explored_aquilon"
+          },
+          "portrait": "keeper",
+          "lines": [
+            "Keeper Halden: The Frostwatch Lighthouse keeps its stories. Come back when you need one."
+          ],
+          "next": ""
+        },
+        {
+          "id": "first",
+          "portrait": "keeper",
+          "lines": [
+            "Halden: The beam never dims, and neither does the little one who keeps it lit.",
+            "Halden: Loyalty like that isn't trained. It's earned, then returned.",
+            "Halden: You have the look of someone the north will remember. Mind the cold."
+          ],
+          "actions": [
+            {
+              "kind": "set_flag",
+              "flag": "explored_aquilon"
+            },
+            {
+              "kind": "give_item",
+              "item": "dusk_orb",
+              "quantity": 1
+            },
+            {
+              "kind": "add_money",
+              "amount": 300
+            }
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "lore_cindral",
+      "nodes": [
+        {
+          "id": "revisit",
+          "condition": {
+            "kind": "flag",
+            "flag": "explored_cindral"
+          },
+          "portrait": "keeper",
+          "lines": [
+            "Emberwarden Sol: The Ashfall Caldera keeps its stories. Come back when you need one."
+          ],
+          "next": ""
+        },
+        {
+          "id": "first",
+          "portrait": "keeper",
+          "lines": [
+            "Sol: Feel that? The mountain's pulse. Steady. Patient. Older than every League.",
+            "Sol: Fire doesn't rage here. It endures. There's a lesson in that for a trainer.",
+            "Sol: Take this, and let it remind you: heat kept, not spent, is what wins the long road."
+          ],
+          "actions": [
+            {
+              "kind": "set_flag",
+              "flag": "explored_cindral"
+            },
+            {
+              "kind": "give_item",
+              "item": "super_potion",
+              "quantity": 1
+            },
+            {
+              "kind": "add_money",
+              "amount": 300
+            }
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "lore_solane",
+      "nodes": [
+        {
+          "id": "revisit",
+          "condition": {
+            "kind": "flag",
+            "flag": "explored_solane"
+          },
+          "portrait": "keeper",
+          "lines": [
+            "Wanderer Sima: The Mirage Oasis keeps its stories. Come back when you need one."
+          ],
+          "next": ""
+        },
+        {
+          "id": "first",
+          "portrait": "keeper",
+          "lines": [
+            "Sima: You found the real water. Good — most chase the mirage until the dunes keep them.",
+            "Sima: Out here, the creatures that survive aren't the strongest. They're the surest.",
+            "Sima: Drink. Rest. Then walk like you know which shadow is yours."
+          ],
+          "actions": [
+            {
+              "kind": "set_flag",
+              "flag": "explored_solane"
+            },
+            {
+              "kind": "give_item",
+              "item": "hyper_potion",
+              "quantity": 1
+            },
+            {
+              "kind": "add_money",
+              "amount": 300
+            }
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "lore_umbra",
+      "nodes": [
+        {
+          "id": "revisit",
+          "condition": {
+            "kind": "flag",
+            "flag": "explored_umbra"
+          },
+          "portrait": "keeper",
+          "lines": [
+            "Nightwarden Vesper: The Duskbell Grove keeps its stories. Come back when you need one."
+          ],
+          "next": ""
+        },
+        {
+          "id": "first",
+          "portrait": "keeper",
+          "lines": [
+            "Vesper: Stay for the dusk bell. It rings for everyone, once, whether they listen or not.",
+            "Vesper: The Hollow Order came through here, you know. They didn't stay for the bell.",
+            "Vesper: That's their whole tragedy, really. Take this, and stay a moment longer than they did."
+          ],
+          "actions": [
+            {
+              "kind": "set_flag",
+              "flag": "explored_umbra"
+            },
+            {
+              "kind": "give_item",
+              "item": "revive",
+              "quantity": 1
+            },
+            {
+              "kind": "add_money",
+              "amount": 300
+            }
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "lore_ferrock",
+      "nodes": [
+        {
+          "id": "revisit",
+          "condition": {
+            "kind": "flag",
+            "flag": "explored_ferrock"
+          },
+          "portrait": "keeper",
+          "lines": [
+            "Foreman Dross: The The Old Foundry keeps its stories. Come back when you need one."
+          ],
+          "next": ""
+        },
+        {
+          "id": "first",
+          "portrait": "keeper",
+          "lines": [
+            "Dross: This foundry built Ferrock, hammer by hammer, with creatures who chose to stay.",
+            "Dross: Partnership, not ownership. The ones who forgot that always left with less.",
+            "Dross: Here. Forged it myself. Strong things are simple things, kept."
+          ],
+          "actions": [
+            {
+              "kind": "set_flag",
+              "flag": "explored_ferrock"
+            },
+            {
+              "kind": "give_item",
+              "item": "great_orb",
+              "quantity": 1
+            },
+            {
+              "kind": "add_money",
+              "amount": 300
+            }
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "lore_brume",
+      "nodes": [
+        {
+          "id": "revisit",
+          "condition": {
+            "kind": "flag",
+            "flag": "explored_brume"
+          },
+          "portrait": "keeper",
+          "lines": [
+            "Fenpriest Maren: The The Sunken Chapel keeps its stories. Come back when you need one."
+          ],
+          "next": ""
+        },
+        {
+          "id": "first",
+          "portrait": "keeper",
+          "lines": [
+            "Maren: The chapel drowned, but the creatures never abandoned it. Neither will I.",
+            "Maren: Grief and mist look alike from a distance. Up close, both can be walked through.",
+            "Maren: Bless you, traveler. Take this from the drowned altar. It wants to be useful again."
+          ],
+          "actions": [
+            {
+              "kind": "set_flag",
+              "flag": "explored_brume"
+            },
+            {
+              "kind": "give_item",
+              "item": "max_revive",
+              "quantity": 1
+            },
+            {
+              "kind": "add_money",
+              "amount": 300
+            }
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "lore_lumen",
+      "nodes": [
+        {
+          "id": "revisit",
+          "condition": {
+            "kind": "flag",
+            "flag": "explored_lumen"
+          },
+          "portrait": "keeper",
+          "lines": [
+            "Lumar the Seer: The Prism Cavern keeps its stories. Come back when you need one."
+          ],
+          "next": ""
+        },
+        {
+          "id": "first",
+          "portrait": "keeper",
+          "lines": [
+            "Lumar: Light has a memory here. Your reflection is a day the cavern kept for you.",
+            "Lumar: I've watched a thousand trainers pass. The kind ones shine longer in the stone.",
+            "Lumar: Go on. Leave a bright memory. And take this shard of one someone left before."
+          ],
+          "actions": [
+            {
+              "kind": "set_flag",
+              "flag": "explored_lumen"
+            },
+            {
+              "kind": "give_item",
+              "item": "ether_shard",
+              "quantity": 1
+            },
+            {
+              "kind": "add_money",
+              "amount": 300
+            }
+          ],
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "lore_zephyra",
+      "nodes": [
+        {
+          "id": "revisit",
+          "condition": {
+            "kind": "flag",
+            "flag": "explored_zephyra"
+          },
+          "portrait": "keeper",
+          "lines": [
+            "Windspeaker Aquila: The Skyreach Shrine keeps its stories. Come back when you need one."
+          ],
+          "next": ""
+        },
+        {
+          "id": "first",
+          "portrait": "keeper",
+          "lines": [
+            "Aquila: You climbed all nine regions to reach this wind. Breathe it. You earned the height.",
+            "Aquila: The old legend — a storm that wears a creature's shape — still visits this shrine.",
+            "Aquila: Watch the sky when the steppe goes quiet. And take this. The wind gives to those who climb."
+          ],
+          "actions": [
+            {
+              "kind": "set_flag",
+              "flag": "explored_zephyra"
+            },
+            {
+              "kind": "give_item",
+              "item": "master_orb",
+              "quantity": 1
+            },
+            {
+              "kind": "add_money",
+              "amount": 300
+            }
+          ],
+          "next": ""
+        }
+      ]
+    }
+  ]
+}

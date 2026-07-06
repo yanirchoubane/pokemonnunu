@@ -1,0 +1,37 @@
+{
+  "$schema_version": 1,
+  "id": "zephyra",
+  "display_name": "Zephyra",
+  "order": 9,
+  "starting_map": "zephyra_gate",
+  "recommended_level_min": 50,
+  "recommended_level_max": 60,
+  "badge_count": 9,
+  "league_id": "zephyra_league",
+  "next_regions": [],
+  "maps": [
+    "zephyra_gate",
+    "zephyra_wilds",
+    "zephyra_hall",
+    "zephyra_crossroads",
+    "zephyra_gym_normal",
+    "zephyra_gym_fire",
+    "zephyra_gym_water",
+    "zephyra_gym_grass",
+    "zephyra_gym_electric",
+    "zephyra_gym_earth",
+    "zephyra_gym_wind",
+    "zephyra_gym_mystic",
+    "zephyra_court_1",
+    "zephyra_court_2",
+    "zephyra_court_3",
+    "zephyra_court_4",
+    "zephyra_landmark"
+  ],
+  "regional_rules": {
+    "level_scaling": "soft",
+    "encounter_table": "zephyra_encounters",
+    "allow_previous_team": true,
+    "obedience_cap_level": 70
+  }
+}

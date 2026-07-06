@@ -1,0 +1,138 @@
+{
+  "$schema_version": 1,
+  "id": "zephyra_wilds",
+  "display_name": "Zephyra Wilds",
+  "region": "zephyra",
+  "bgm": "route",
+  "tile_size": 32,
+  "legend": {
+    "#": "wall",
+    ".": "ground",
+    "~": "tall_grass",
+    "P": "path",
+    "D": "door"
+  },
+  "rows": [
+    "##############",
+    "#~~~....~~~..#",
+    "#~~~....~~~..#",
+    "#............#",
+    "D....PPPP....D",
+    "#............#",
+    "#..~~~...~~~.#",
+    "#..~~~...~~~.#",
+    "##############"
+  ],
+  "objects": [
+    {
+      "type": "spawn",
+      "id": "from_gate",
+      "x": 1,
+      "y": 4
+    },
+    {
+      "type": "spawn",
+      "id": "from_hall",
+      "x": 12,
+      "y": 4
+    },
+    {
+      "type": "door",
+      "x": 0,
+      "y": 4,
+      "to_map": "zephyra_gate",
+      "to_spawn": "from_wilds"
+    },
+    {
+      "type": "door",
+      "x": 13,
+      "y": 4,
+      "to_map": "zephyra_crossroads",
+      "to_spawn": "from_wilds",
+      "requires_flag": "beat_zephyra_scout",
+      "locked_text": "The hall road opens once the wilds' scout acknowledges you."
+    },
+    {
+      "type": "encounter_zone",
+      "table": "zephyra_encounters"
+    },
+    {
+      "type": "trainer",
+      "x": 7,
+      "y": 3,
+      "trainer_id": "zephyra_scout",
+      "sprite": "trainer_scout",
+      "sight": 2,
+      "facing": "down",
+      "flag": "beat_zephyra_scout"
+    },
+    {
+      "type": "item",
+      "x": 11,
+      "y": 1,
+      "item": "super_potion",
+      "flag": "item_zephyra_wilds_1"
+    },
+    {
+      "type": "sign",
+      "x": 4,
+      "y": 3,
+      "text": "Zephyra Wilds — locals report creatures around Lv 50."
+    },
+    {
+      "type": "trainer",
+      "x": 2,
+      "y": 3,
+      "trainer_id": "zephyra_rambler",
+      "sprite": "trainer_rambler",
+      "sight": 2,
+      "facing": "down",
+      "flag": "beat_zephyra_rambler"
+    },
+    {
+      "type": "trainer",
+      "x": 11,
+      "y": 5,
+      "trainer_id": "zephyra_angler",
+      "sprite": "trainer_angler",
+      "sight": 2,
+      "facing": "up",
+      "flag": "beat_zephyra_angler"
+    },
+    {
+      "type": "trainer",
+      "x": 6,
+      "y": 6,
+      "trainer_id": "zephyra_miner",
+      "sprite": "trainer_miner",
+      "sight": 2,
+      "facing": "right",
+      "flag": "beat_zephyra_miner"
+    },
+    {
+      "type": "trainer",
+      "x": 4,
+      "y": 1,
+      "trainer_id": "hollow_archon",
+      "sprite": "trainer_archon",
+      "sight": 2,
+      "facing": "down",
+      "flag": "beat_hollow_archon"
+    },
+    {
+      "type": "npc",
+      "x": 6,
+      "y": 3,
+      "npc_id": "archon_mask",
+      "sprite": "trainer_archon",
+      "dialog_id": "archon_finale"
+    },
+    {
+      "type": "sign",
+      "x": 4,
+      "y": 3,
+      "text": "NOTICE: Beyond this marker, the Archon walks the steppe. What you decide up there, the whole sky will carry.",
+      "gen": "sign"
+    }
+  ]
+}

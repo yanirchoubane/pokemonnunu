@@ -1,0 +1,1079 @@
+{
+  "$schema_version": 1,
+  "description": "Original move definitions. Effects are data-driven; see BATTLE_SYSTEM.md for the kinds a move may use.",
+  "moves": [
+    {
+      "id": "tackle",
+      "display_name": "Body Bump",
+      "type": "normal",
+      "category": "physical",
+      "power": 40,
+      "accuracy": 100,
+      "priority": 0,
+      "pp": 35,
+      "description": "A plain full-body charge.",
+      "effects": [
+        {
+          "kind": "damage"
+        }
+      ]
+    },
+    {
+      "id": "scratch",
+      "display_name": "Rake",
+      "type": "normal",
+      "category": "physical",
+      "power": 35,
+      "accuracy": 100,
+      "priority": 0,
+      "pp": 35,
+      "description": "Sharp claws rake the target.",
+      "effects": [
+        {
+          "kind": "damage"
+        }
+      ]
+    },
+    {
+      "id": "quick_jab",
+      "display_name": "Quick Jab",
+      "type": "normal",
+      "category": "physical",
+      "power": 40,
+      "accuracy": 100,
+      "priority": 1,
+      "pp": 30,
+      "description": "Always strikes first.",
+      "effects": [
+        {
+          "kind": "damage"
+        }
+      ]
+    },
+    {
+      "id": "ember_burst",
+      "display_name": "Ember Burst",
+      "type": "fire",
+      "category": "special",
+      "power": 40,
+      "accuracy": 100,
+      "priority": 0,
+      "pp": 25,
+      "description": "A burst of sparks that may leave a burn.",
+      "effects": [
+        {
+          "kind": "damage"
+        },
+        {
+          "kind": "apply_status",
+          "status": "burn",
+          "chance": 0.1,
+          "target": "enemy"
+        }
+      ]
+    },
+    {
+      "id": "flame_lash",
+      "display_name": "Flame Lash",
+      "type": "fire",
+      "category": "special",
+      "power": 70,
+      "accuracy": 95,
+      "priority": 0,
+      "pp": 15,
+      "description": "A whip of flame with a higher burn chance.",
+      "effects": [
+        {
+          "kind": "damage"
+        },
+        {
+          "kind": "apply_status",
+          "status": "burn",
+          "chance": 0.2,
+          "target": "enemy"
+        }
+      ]
+    },
+    {
+      "id": "aqua_dart",
+      "display_name": "Aqua Dart",
+      "type": "water",
+      "category": "special",
+      "power": 40,
+      "accuracy": 100,
+      "priority": 0,
+      "pp": 25,
+      "description": "A pressurized jet of water.",
+      "effects": [
+        {
+          "kind": "damage"
+        }
+      ]
+    },
+    {
+      "id": "tide_crash",
+      "display_name": "Tide Crash",
+      "type": "water",
+      "category": "special",
+      "power": 75,
+      "accuracy": 90,
+      "priority": 0,
+      "pp": 12,
+      "description": "A crashing wave that may lower Speed.",
+      "effects": [
+        {
+          "kind": "damage"
+        },
+        {
+          "kind": "stat_change",
+          "stat": "speed",
+          "stages": -1,
+          "chance": 0.3,
+          "target": "enemy"
+        }
+      ]
+    },
+    {
+      "id": "leaf_cut",
+      "display_name": "Leaf Cut",
+      "type": "grass",
+      "category": "physical",
+      "power": 45,
+      "accuracy": 100,
+      "priority": 0,
+      "pp": 25,
+      "description": "Razor leaves slice the foe.",
+      "effects": [
+        {
+          "kind": "damage"
+        }
+      ]
+    },
+    {
+      "id": "vine_wrap",
+      "display_name": "Vine Wrap",
+      "type": "grass",
+      "category": "special",
+      "power": 65,
+      "accuracy": 100,
+      "priority": 0,
+      "pp": 15,
+      "description": "Vines that sap and may poison-slow the foe.",
+      "effects": [
+        {
+          "kind": "damage"
+        },
+        {
+          "kind": "apply_status",
+          "status": "poison",
+          "chance": 0.15,
+          "target": "enemy"
+        }
+      ]
+    },
+    {
+      "id": "spark_zap",
+      "display_name": "Spark Zap",
+      "type": "electric",
+      "category": "special",
+      "power": 40,
+      "accuracy": 100,
+      "priority": 0,
+      "pp": 25,
+      "description": "A jolt that can paralyze.",
+      "effects": [
+        {
+          "kind": "damage"
+        },
+        {
+          "kind": "apply_status",
+          "status": "paralyze",
+          "chance": 0.1,
+          "target": "enemy"
+        }
+      ]
+    },
+    {
+      "id": "static_field",
+      "display_name": "Static Field",
+      "type": "electric",
+      "category": "status",
+      "power": 0,
+      "accuracy": 100,
+      "priority": 0,
+      "pp": 20,
+      "description": "Paralyzes the target with a charged field.",
+      "effects": [
+        {
+          "kind": "apply_status",
+          "status": "paralyze",
+          "chance": 1.0,
+          "target": "enemy"
+        }
+      ]
+    },
+    {
+      "id": "stone_toss",
+      "display_name": "Stone Toss",
+      "type": "earth",
+      "category": "physical",
+      "power": 50,
+      "accuracy": 90,
+      "priority": 0,
+      "pp": 20,
+      "description": "Hurls a heavy stone.",
+      "effects": [
+        {
+          "kind": "damage"
+        }
+      ]
+    },
+    {
+      "id": "gale_slash",
+      "display_name": "Gale Slash",
+      "type": "wind",
+      "category": "physical",
+      "power": 55,
+      "accuracy": 95,
+      "priority": 0,
+      "pp": 20,
+      "description": "A cutting gust.",
+      "effects": [
+        {
+          "kind": "damage"
+        }
+      ]
+    },
+    {
+      "id": "mind_ray",
+      "display_name": "Mind Ray",
+      "type": "mystic",
+      "category": "special",
+      "power": 65,
+      "accuracy": 100,
+      "priority": 0,
+      "pp": 15,
+      "description": "A focused psychic beam.",
+      "effects": [
+        {
+          "kind": "damage"
+        },
+        {
+          "kind": "stat_change",
+          "stat": "sp_defense",
+          "stages": -1,
+          "chance": 0.2,
+          "target": "enemy"
+        }
+      ]
+    },
+    {
+      "id": "guard_up",
+      "display_name": "Guard Up",
+      "type": "normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 100,
+      "priority": 0,
+      "pp": 20,
+      "description": "Raises the user's Defense.",
+      "effects": [
+        {
+          "kind": "stat_change",
+          "stat": "defense",
+          "stages": 1,
+          "chance": 1.0,
+          "target": "self"
+        }
+      ]
+    },
+    {
+      "id": "focus_charge",
+      "display_name": "Focus Charge",
+      "type": "normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 100,
+      "priority": 0,
+      "pp": 15,
+      "description": "Raises the user's Attack and Sp. Attack.",
+      "effects": [
+        {
+          "kind": "stat_change",
+          "stat": "attack",
+          "stages": 1,
+          "chance": 1.0,
+          "target": "self"
+        },
+        {
+          "kind": "stat_change",
+          "stat": "sp_attack",
+          "stages": 1,
+          "chance": 1.0,
+          "target": "self"
+        }
+      ]
+    },
+    {
+      "id": "rend",
+      "display_name": "Rend",
+      "type": "normal",
+      "category": "physical",
+      "power": 70,
+      "accuracy": 95,
+      "priority": 0,
+      "pp": 20,
+      "description": "A savage tearing strike.",
+      "effects": [
+        {
+          "kind": "damage"
+        }
+      ]
+    },
+    {
+      "id": "blaze_wheel",
+      "display_name": "Blaze Wheel",
+      "type": "fire",
+      "category": "physical",
+      "power": 75,
+      "accuracy": 95,
+      "priority": 0,
+      "pp": 15,
+      "description": "A rolling charge sheathed in flame.",
+      "effects": [
+        {
+          "kind": "damage"
+        },
+        {
+          "kind": "apply_status",
+          "status": "burn",
+          "chance": 0.1,
+          "target": "enemy"
+        }
+      ]
+    },
+    {
+      "id": "inferno_ray",
+      "display_name": "Inferno Ray",
+      "type": "fire",
+      "category": "special",
+      "power": 95,
+      "accuracy": 85,
+      "priority": 0,
+      "pp": 8,
+      "description": "A concentrated beam of furnace heat.",
+      "effects": [
+        {
+          "kind": "damage"
+        },
+        {
+          "kind": "apply_status",
+          "status": "burn",
+          "chance": 0.15,
+          "target": "enemy"
+        }
+      ]
+    },
+    {
+      "id": "riptide",
+      "display_name": "Riptide",
+      "type": "water",
+      "category": "physical",
+      "power": 70,
+      "accuracy": 100,
+      "priority": 0,
+      "pp": 15,
+      "description": "A dragging undertow slam.",
+      "effects": [
+        {
+          "kind": "damage"
+        }
+      ]
+    },
+    {
+      "id": "deluge",
+      "display_name": "Deluge",
+      "type": "water",
+      "category": "special",
+      "power": 95,
+      "accuracy": 85,
+      "priority": 0,
+      "pp": 8,
+      "description": "A crushing wall of water.",
+      "effects": [
+        {
+          "kind": "damage"
+        },
+        {
+          "kind": "stat_change",
+          "stat": "speed",
+          "stages": -1,
+          "chance": 0.2,
+          "target": "enemy"
+        }
+      ]
+    },
+    {
+      "id": "thorn_barrage",
+      "display_name": "Thorn Barrage",
+      "type": "grass",
+      "category": "physical",
+      "power": 75,
+      "accuracy": 95,
+      "priority": 0,
+      "pp": 15,
+      "description": "A volley of hardened thorns.",
+      "effects": [
+        {
+          "kind": "damage"
+        }
+      ]
+    },
+    {
+      "id": "bloom_burst",
+      "display_name": "Bloom Burst",
+      "type": "grass",
+      "category": "special",
+      "power": 90,
+      "accuracy": 90,
+      "priority": 0,
+      "pp": 10,
+      "description": "An explosive release of pollen and light.",
+      "effects": [
+        {
+          "kind": "damage"
+        },
+        {
+          "kind": "apply_status",
+          "status": "poison",
+          "chance": 0.15,
+          "target": "enemy"
+        }
+      ]
+    },
+    {
+      "id": "volt_lance",
+      "display_name": "Volt Lance",
+      "type": "electric",
+      "category": "physical",
+      "power": 75,
+      "accuracy": 95,
+      "priority": 0,
+      "pp": 15,
+      "description": "A piercing thrust of charge.",
+      "effects": [
+        {
+          "kind": "damage"
+        },
+        {
+          "kind": "apply_status",
+          "status": "paralyze",
+          "chance": 0.1,
+          "target": "enemy"
+        }
+      ]
+    },
+    {
+      "id": "storm_surge",
+      "display_name": "Storm Surge",
+      "type": "electric",
+      "category": "special",
+      "power": 95,
+      "accuracy": 85,
+      "priority": 0,
+      "pp": 8,
+      "description": "A cascading discharge.",
+      "effects": [
+        {
+          "kind": "damage"
+        },
+        {
+          "kind": "apply_status",
+          "status": "paralyze",
+          "chance": 0.15,
+          "target": "enemy"
+        }
+      ]
+    },
+    {
+      "id": "sand_grind",
+      "display_name": "Sand Grind",
+      "type": "earth",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 100,
+      "priority": 0,
+      "pp": 20,
+      "description": "Abrasive grit that wears armor down.",
+      "effects": [
+        {
+          "kind": "damage"
+        },
+        {
+          "kind": "stat_change",
+          "stat": "defense",
+          "stages": -1,
+          "chance": 0.2,
+          "target": "enemy"
+        }
+      ]
+    },
+    {
+      "id": "quake_stomp",
+      "display_name": "Quake Stomp",
+      "type": "earth",
+      "category": "physical",
+      "power": 85,
+      "accuracy": 95,
+      "priority": 0,
+      "pp": 10,
+      "description": "A ground-shaking stamp.",
+      "effects": [
+        {
+          "kind": "damage"
+        }
+      ]
+    },
+    {
+      "id": "cyclone_dive",
+      "display_name": "Cyclone Dive",
+      "type": "wind",
+      "category": "physical",
+      "power": 80,
+      "accuracy": 90,
+      "priority": 0,
+      "pp": 12,
+      "description": "A spiraling aerial strike.",
+      "effects": [
+        {
+          "kind": "damage"
+        }
+      ]
+    },
+    {
+      "id": "tempest",
+      "display_name": "Tempest",
+      "type": "wind",
+      "category": "special",
+      "power": 90,
+      "accuracy": 85,
+      "priority": 0,
+      "pp": 8,
+      "description": "A howling, battering gale.",
+      "effects": [
+        {
+          "kind": "damage"
+        }
+      ]
+    },
+    {
+      "id": "dream_pulse",
+      "display_name": "Dream Pulse",
+      "type": "mystic",
+      "category": "special",
+      "power": 90,
+      "accuracy": 90,
+      "priority": 0,
+      "pp": 10,
+      "description": "A wave of overwhelming reverie.",
+      "effects": [
+        {
+          "kind": "damage"
+        },
+        {
+          "kind": "stat_change",
+          "stat": "sp_attack",
+          "stages": -1,
+          "chance": 0.2,
+          "target": "enemy"
+        }
+      ]
+    },
+    {
+      "id": "veil_of_calm",
+      "display_name": "Veil of Calm",
+      "type": "mystic",
+      "category": "status",
+      "power": 0,
+      "accuracy": 100,
+      "priority": 0,
+      "pp": 10,
+      "description": "A soothing veil that mends wounds.",
+      "effects": [
+        {
+          "kind": "heal",
+          "fraction": 0.5
+        }
+      ]
+    },
+    {
+      "id": "crush_blow",
+      "display_name": "Crush Blow",
+      "type": "normal",
+      "category": "physical",
+      "power": 90,
+      "accuracy": 85,
+      "priority": 0,
+      "pp": 8,
+      "description": "A heavy, risky slam.",
+      "effects": [
+        {
+          "kind": "damage"
+        }
+      ]
+    },
+    {
+      "id": "swift_strike",
+      "display_name": "Swift Strike",
+      "type": "normal",
+      "category": "physical",
+      "power": 55,
+      "accuracy": 100,
+      "priority": 1,
+      "pp": 20,
+      "description": "A fast dependable hit.",
+      "effects": [
+        {
+          "kind": "damage"
+        }
+      ]
+    },
+    {
+      "id": "fire_fang",
+      "display_name": "Fire Fang",
+      "type": "fire",
+      "category": "physical",
+      "power": 65,
+      "accuracy": 95,
+      "priority": 0,
+      "pp": 15,
+      "description": "A searing bite.",
+      "effects": [
+        {
+          "kind": "damage"
+        },
+        {
+          "kind": "apply_status",
+          "status": "burn",
+          "chance": 0.15,
+          "target": "enemy"
+        }
+      ]
+    },
+    {
+      "id": "magma_beam",
+      "display_name": "Magma Beam",
+      "type": "fire",
+      "category": "special",
+      "power": 100,
+      "accuracy": 85,
+      "priority": 0,
+      "pp": 6,
+      "description": "A molten lance of heat.",
+      "effects": [
+        {
+          "kind": "damage"
+        }
+      ]
+    },
+    {
+      "id": "frost_jet",
+      "display_name": "Frost Jet",
+      "type": "water",
+      "category": "special",
+      "power": 65,
+      "accuracy": 100,
+      "priority": 0,
+      "pp": 15,
+      "description": "A biting cold jet.",
+      "effects": [
+        {
+          "kind": "damage"
+        },
+        {
+          "kind": "stat_change",
+          "stat": "speed",
+          "stages": -1,
+          "chance": 0.3,
+          "target": "enemy"
+        }
+      ]
+    },
+    {
+      "id": "tsunami",
+      "display_name": "Tsunami",
+      "type": "water",
+      "category": "special",
+      "power": 100,
+      "accuracy": 80,
+      "priority": 0,
+      "pp": 6,
+      "description": "An overwhelming wall of sea.",
+      "effects": [
+        {
+          "kind": "damage"
+        }
+      ]
+    },
+    {
+      "id": "root_snare",
+      "display_name": "Root Snare",
+      "type": "grass",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 100,
+      "priority": 0,
+      "pp": 15,
+      "description": "Roots that bind and tear.",
+      "effects": [
+        {
+          "kind": "damage"
+        },
+        {
+          "kind": "stat_change",
+          "stat": "speed",
+          "stages": -1,
+          "chance": 0.5,
+          "target": "enemy"
+        }
+      ]
+    },
+    {
+      "id": "solar_bloom",
+      "display_name": "Solar Bloom",
+      "type": "grass",
+      "category": "special",
+      "power": 100,
+      "accuracy": 90,
+      "priority": 0,
+      "pp": 6,
+      "description": "A radiant floral blast.",
+      "effects": [
+        {
+          "kind": "damage"
+        }
+      ]
+    },
+    {
+      "id": "thunder_clap",
+      "display_name": "Thunder Clap",
+      "type": "electric",
+      "category": "special",
+      "power": 70,
+      "accuracy": 100,
+      "priority": 0,
+      "pp": 12,
+      "description": "A jarring boom.",
+      "effects": [
+        {
+          "kind": "damage"
+        },
+        {
+          "kind": "apply_status",
+          "status": "paralyze",
+          "chance": 0.3,
+          "target": "enemy"
+        }
+      ]
+    },
+    {
+      "id": "overcharge",
+      "display_name": "Overcharge",
+      "type": "electric",
+      "category": "special",
+      "power": 110,
+      "accuracy": 80,
+      "priority": 0,
+      "pp": 5,
+      "description": "A reckless full discharge.",
+      "effects": [
+        {
+          "kind": "damage"
+        },
+        {
+          "kind": "recoil",
+          "fraction": 0.2
+        }
+      ]
+    },
+    {
+      "id": "boulder_crush",
+      "display_name": "Boulder Crush",
+      "type": "earth",
+      "category": "physical",
+      "power": 90,
+      "accuracy": 85,
+      "priority": 0,
+      "pp": 8,
+      "description": "A crushing rockfall.",
+      "effects": [
+        {
+          "kind": "damage"
+        }
+      ]
+    },
+    {
+      "id": "fault_line",
+      "display_name": "Fault Line",
+      "type": "earth",
+      "category": "physical",
+      "power": 100,
+      "accuracy": 80,
+      "priority": 0,
+      "pp": 6,
+      "description": "The ground splits open.",
+      "effects": [
+        {
+          "kind": "damage"
+        }
+      ]
+    },
+    {
+      "id": "sky_talon",
+      "display_name": "Sky Talon",
+      "type": "wind",
+      "category": "physical",
+      "power": 70,
+      "accuracy": 100,
+      "priority": 1,
+      "pp": 12,
+      "description": "A raking dive.",
+      "effects": [
+        {
+          "kind": "damage"
+        }
+      ]
+    },
+    {
+      "id": "hurricane",
+      "display_name": "Hurricane",
+      "type": "wind",
+      "category": "special",
+      "power": 100,
+      "accuracy": 80,
+      "priority": 0,
+      "pp": 6,
+      "description": "A region-scouring storm.",
+      "effects": [
+        {
+          "kind": "damage"
+        }
+      ]
+    },
+    {
+      "id": "mind_shatter",
+      "display_name": "Mind Shatter",
+      "type": "mystic",
+      "category": "special",
+      "power": 95,
+      "accuracy": 90,
+      "priority": 0,
+      "pp": 8,
+      "description": "A psychic detonation.",
+      "effects": [
+        {
+          "kind": "damage"
+        },
+        {
+          "kind": "stat_change",
+          "stat": "sp_attack",
+          "stages": -1,
+          "chance": 0.3,
+          "target": "enemy"
+        }
+      ]
+    },
+    {
+      "id": "astral_ram",
+      "display_name": "Astral Ram",
+      "type": "mystic",
+      "category": "physical",
+      "power": 80,
+      "accuracy": 95,
+      "priority": 0,
+      "pp": 10,
+      "description": "A charge of focused will.",
+      "effects": [
+        {
+          "kind": "damage"
+        }
+      ]
+    },
+    {
+      "id": "iron_guard",
+      "display_name": "Iron Guard",
+      "type": "earth",
+      "category": "status",
+      "power": 0,
+      "accuracy": 100,
+      "priority": 0,
+      "pp": 15,
+      "description": "Sharply raises Defense.",
+      "effects": [
+        {
+          "kind": "stat_change",
+          "stat": "defense",
+          "stages": 2,
+          "chance": 1.0,
+          "target": "self"
+        }
+      ]
+    },
+    {
+      "id": "battle_cry",
+      "display_name": "Battle Cry",
+      "type": "normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 100,
+      "priority": 0,
+      "pp": 15,
+      "description": "Sharply raises Attack.",
+      "effects": [
+        {
+          "kind": "stat_change",
+          "stat": "attack",
+          "stages": 2,
+          "chance": 1.0,
+          "target": "self"
+        }
+      ]
+    },
+    {
+      "id": "meditate",
+      "display_name": "Meditate",
+      "type": "mystic",
+      "category": "status",
+      "power": 0,
+      "accuracy": 100,
+      "priority": 0,
+      "pp": 15,
+      "description": "Sharply raises Sp. Attack.",
+      "effects": [
+        {
+          "kind": "stat_change",
+          "stat": "sp_attack",
+          "stages": 2,
+          "chance": 1.0,
+          "target": "self"
+        }
+      ]
+    },
+    {
+      "id": "quicken",
+      "display_name": "Quicken",
+      "type": "wind",
+      "category": "status",
+      "power": 0,
+      "accuracy": 100,
+      "priority": 0,
+      "pp": 15,
+      "description": "Sharply raises Speed.",
+      "effects": [
+        {
+          "kind": "stat_change",
+          "stat": "speed",
+          "stages": 2,
+          "chance": 1.0,
+          "target": "self"
+        }
+      ]
+    },
+    {
+      "id": "mend",
+      "display_name": "Mend",
+      "type": "grass",
+      "category": "status",
+      "power": 0,
+      "accuracy": 100,
+      "priority": 0,
+      "pp": 10,
+      "description": "Restores half the user's HP.",
+      "effects": [
+        {
+          "kind": "heal",
+          "fraction": 0.5,
+          "target": "self"
+        }
+      ]
+    },
+    {
+      "id": "wilt",
+      "display_name": "Wilt",
+      "type": "grass",
+      "category": "status",
+      "power": 0,
+      "accuracy": 100,
+      "priority": 0,
+      "pp": 15,
+      "description": "Sharply lowers the foe's Attack.",
+      "effects": [
+        {
+          "kind": "stat_change",
+          "stat": "attack",
+          "stages": -2,
+          "chance": 1.0,
+          "target": "enemy"
+        }
+      ]
+    },
+    {
+      "id": "scary_face",
+      "display_name": "Scary Face",
+      "type": "normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 100,
+      "priority": 0,
+      "pp": 15,
+      "description": "Sharply lowers the foe's Speed.",
+      "effects": [
+        {
+          "kind": "stat_change",
+          "stat": "speed",
+          "stages": -2,
+          "chance": 1.0,
+          "target": "enemy"
+        }
+      ]
+    },
+    {
+      "id": "smother",
+      "display_name": "Smother",
+      "type": "fire",
+      "category": "status",
+      "power": 0,
+      "accuracy": 100,
+      "priority": 0,
+      "pp": 15,
+      "description": "Burns the foe.",
+      "effects": [
+        {
+          "kind": "apply_status",
+          "status": "burn",
+          "chance": 1.0,
+          "target": "enemy"
+        }
+      ]
+    },
+    {
+      "id": "toxic_spore",
+      "display_name": "Toxic Spore",
+      "type": "grass",
+      "category": "status",
+      "power": 0,
+      "accuracy": 100,
+      "priority": 0,
+      "pp": 15,
+      "description": "Poisons the foe.",
+      "effects": [
+        {
+          "kind": "apply_status",
+          "status": "poison",
+          "chance": 1.0,
+          "target": "enemy"
+        }
+      ]
+    }
+  ]
+}

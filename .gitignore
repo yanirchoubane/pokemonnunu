@@ -1,0 +1,46 @@
+# Godot 4 .gitignore
+
+# Godot-specific ignores
+.godot/
+.import/
+export.cfg
+export_presets.cfg
+
+# Imported translations (automatically generated from CSV files)
+*.translation
+
+# Mono / C# (unused here but safe)
+.mono/
+data_*/
+mono_crash.*.json
+
+# Build / export outputs
+build/
+dist/
+*.exe
+*.pck
+*.zip
+*.dmg
+*.app
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*~
+*.swp
+.idea/
+.vscode/
+
+# Local player saves (never commit real save data)
+user://
+saves/
+
+# User-supplied content packs (sprites, maps, music, data, localization).
+# This folder stays local: the shared repository contains ONLY the engine,
+# tools, original placeholders and original demo data. Never commit assets
+# or data you do not have the right to redistribute.
+user_content/
+
+# Python bytecode from tools/
+__pycache__/
+*.pyc

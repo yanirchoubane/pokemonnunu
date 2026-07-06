@@ -1,0 +1,59 @@
+{
+  "$schema_version": 1,
+  "id": "verdantia_shop",
+  "region": "verdantia",
+  "display_name": "Verdantia Shop",
+  "tile_size": 32,
+  "bgm": "indoor",
+  "interior": true,
+  "legend": {
+    ".": "floor",
+    "#": "wall",
+    "D": "door",
+    "B": "counter"
+  },
+  "rows": [
+    "#######",
+    "#.BBB.#",
+    "#.....#",
+    "#..D..#"
+  ],
+  "objects": [
+    {
+      "type": "spawn",
+      "id": "entrance",
+      "x": 3,
+      "y": 2
+    },
+    {
+      "type": "warp",
+      "x": 3,
+      "y": 3,
+      "to_map": "verdantia_town",
+      "to_spawn": "default"
+    },
+    {
+      "type": "shop",
+      "x": 3,
+      "y": 1,
+      "npc_id": "clerk",
+      "sprite": "npc_clerk",
+      "stock": [
+        "capture_orb",
+        "great_orb",
+        "potion",
+        "super_potion",
+        "antidote",
+        "dusk_orb",
+        "hyper_potion",
+        "max_potion",
+        "burn_salve",
+        "spark_charm",
+        "max_revive"
+      ],
+      "dialogue": [
+        "Clerk: Welcome! Stock up before you travel."
+      ]
+    }
+  ]
+}

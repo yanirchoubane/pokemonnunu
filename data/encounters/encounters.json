@@ -1,0 +1,1936 @@
+{
+  "$schema_version": 1,
+  "description": "Wild encounter tables. Each table is referenced by grass zones / regional rules. 'weight' is relative; the engine normalizes.",
+  "tables": [
+    {
+      "id": "verdantia_encounters",
+      "region": "verdantia",
+      "entries": [
+        {
+          "creature": "zapmouse",
+          "weight": 35,
+          "level_min": 2,
+          "level_max": 5,
+          "rarity": "common"
+        },
+        {
+          "creature": "pebblet",
+          "weight": 30,
+          "level_min": 2,
+          "level_max": 5,
+          "rarity": "common"
+        },
+        {
+          "creature": "sproutkit",
+          "weight": 15,
+          "level_min": 3,
+          "level_max": 6,
+          "rarity": "uncommon"
+        },
+        {
+          "creature": "emberpup",
+          "weight": 10,
+          "level_min": 3,
+          "level_max": 6,
+          "rarity": "uncommon"
+        },
+        {
+          "creature": "aquafin",
+          "weight": 10,
+          "level_min": 3,
+          "level_max": 6,
+          "rarity": "uncommon"
+        },
+        {
+          "creature": "chirpit",
+          "weight": 18,
+          "level_min": 2,
+          "level_max": 8,
+          "rarity": "common"
+        },
+        {
+          "creature": "nibbit",
+          "weight": 18,
+          "level_min": 2,
+          "level_max": 8,
+          "rarity": "common"
+        },
+        {
+          "creature": "glimbug",
+          "weight": 18,
+          "level_min": 2,
+          "level_max": 8,
+          "rarity": "common"
+        },
+        {
+          "creature": "burrowit",
+          "weight": 8,
+          "level_min": 2,
+          "level_max": 8,
+          "rarity": "common"
+        },
+        {
+          "creature": "kilnet",
+          "weight": 8,
+          "level_min": 2,
+          "level_max": 8,
+          "rarity": "common"
+        },
+        {
+          "creature": "lagoonie",
+          "weight": 8,
+          "level_min": 2,
+          "level_max": 8,
+          "rarity": "common"
+        },
+        {
+          "creature": "thistlekin",
+          "weight": 8,
+          "level_min": 2,
+          "level_max": 8,
+          "rarity": "common"
+        },
+        {
+          "creature": "joltlet",
+          "weight": 8,
+          "level_min": 2,
+          "level_max": 8,
+          "rarity": "common"
+        },
+        {
+          "creature": "ridgeling",
+          "weight": 8,
+          "level_min": 2,
+          "level_max": 8,
+          "rarity": "common"
+        },
+        {
+          "creature": "soarit",
+          "weight": 8,
+          "level_min": 2,
+          "level_max": 8,
+          "rarity": "common"
+        },
+        {
+          "creature": "visionet",
+          "weight": 8,
+          "level_min": 2,
+          "level_max": 8,
+          "rarity": "common"
+        }
+      ]
+    },
+    {
+      "id": "aquilon_encounters",
+      "region": "aquilon",
+      "entries": [
+        {
+          "creature": "gustling",
+          "weight": 30,
+          "level_min": 8,
+          "level_max": 12,
+          "rarity": "common"
+        },
+        {
+          "creature": "mistcalf",
+          "weight": 22,
+          "level_min": 9,
+          "level_max": 14,
+          "rarity": "common"
+        },
+        {
+          "creature": "mistelk",
+          "weight": 3,
+          "level_min": 18,
+          "level_max": 21,
+          "rarity": "rare"
+        },
+        {
+          "creature": "psywisp",
+          "weight": 25,
+          "level_min": 9,
+          "level_max": 13,
+          "rarity": "uncommon"
+        },
+        {
+          "creature": "zapmouse",
+          "weight": 20,
+          "level_min": 8,
+          "level_max": 12,
+          "rarity": "common"
+        },
+        {
+          "creature": "aquafin",
+          "weight": 15,
+          "level_min": 9,
+          "level_max": 13,
+          "rarity": "uncommon"
+        },
+        {
+          "creature": "floekit",
+          "weight": 18,
+          "level_min": 8,
+          "level_max": 14,
+          "rarity": "common"
+        },
+        {
+          "creature": "skerrit",
+          "weight": 10,
+          "level_min": 8,
+          "level_max": 14,
+          "rarity": "uncommon"
+        },
+        {
+          "creature": "brinemaw",
+          "weight": 10,
+          "level_min": 8,
+          "level_max": 14,
+          "rarity": "uncommon"
+        },
+        {
+          "creature": "whisket",
+          "weight": 8,
+          "level_min": 8,
+          "level_max": 14,
+          "rarity": "common"
+        },
+        {
+          "creature": "smolderie",
+          "weight": 8,
+          "level_min": 8,
+          "level_max": 14,
+          "rarity": "common"
+        },
+        {
+          "creature": "deltakin",
+          "weight": 8,
+          "level_min": 8,
+          "level_max": 14,
+          "rarity": "common"
+        },
+        {
+          "creature": "canopylet",
+          "weight": 8,
+          "level_min": 8,
+          "level_max": 14,
+          "rarity": "common"
+        },
+        {
+          "creature": "fulgorling",
+          "weight": 8,
+          "level_min": 8,
+          "level_max": 14,
+          "rarity": "common"
+        },
+        {
+          "creature": "marlit",
+          "weight": 8,
+          "level_min": 8,
+          "level_max": 14,
+          "rarity": "common"
+        },
+        {
+          "creature": "zephyret",
+          "weight": 8,
+          "level_min": 8,
+          "level_max": 14,
+          "rarity": "common"
+        },
+        {
+          "creature": "runeie",
+          "weight": 8,
+          "level_min": 8,
+          "level_max": 14,
+          "rarity": "common"
+        }
+      ]
+    },
+    {
+      "id": "cindral_encounters",
+      "region": "cindral",
+      "entries": [
+        {
+          "creature": "cindermole",
+          "weight": 30,
+          "level_min": 14,
+          "level_max": 20,
+          "rarity": "common"
+        },
+        {
+          "creature": "ashvole",
+          "weight": 30,
+          "level_min": 14,
+          "level_max": 20,
+          "rarity": "common"
+        },
+        {
+          "creature": "emberpup",
+          "weight": 25,
+          "level_min": 14,
+          "level_max": 19,
+          "rarity": "common"
+        },
+        {
+          "creature": "pebblet",
+          "weight": 15,
+          "level_min": 16,
+          "level_max": 21,
+          "rarity": "uncommon"
+        },
+        {
+          "creature": "flarekit",
+          "weight": 18,
+          "level_min": 14,
+          "level_max": 20,
+          "rarity": "common"
+        },
+        {
+          "creature": "sootwing",
+          "weight": 10,
+          "level_min": 14,
+          "level_max": 20,
+          "rarity": "uncommon"
+        },
+        {
+          "creature": "harrowie",
+          "weight": 8,
+          "level_min": 14,
+          "level_max": 20,
+          "rarity": "common"
+        },
+        {
+          "creature": "blazenkin",
+          "weight": 8,
+          "level_min": 14,
+          "level_max": 20,
+          "rarity": "common"
+        },
+        {
+          "creature": "mistlet",
+          "weight": 8,
+          "level_min": 14,
+          "level_max": 20,
+          "rarity": "common"
+        },
+        {
+          "creature": "brambleling",
+          "weight": 8,
+          "level_min": 14,
+          "level_max": 20,
+          "rarity": "common"
+        },
+        {
+          "creature": "arcit",
+          "weight": 8,
+          "level_min": 14,
+          "level_max": 20,
+          "rarity": "common"
+        },
+        {
+          "creature": "clayet",
+          "weight": 8,
+          "level_min": 14,
+          "level_max": 20,
+          "rarity": "common"
+        },
+        {
+          "creature": "cirrusie",
+          "weight": 8,
+          "level_min": 14,
+          "level_max": 20,
+          "rarity": "common"
+        },
+        {
+          "creature": "omenkin",
+          "weight": 8,
+          "level_min": 14,
+          "level_max": 20,
+          "rarity": "common"
+        }
+      ]
+    },
+    {
+      "id": "solane_encounters",
+      "region": "solane",
+      "entries": [
+        {
+          "creature": "duneling",
+          "weight": 30,
+          "level_min": 20,
+          "level_max": 26,
+          "rarity": "common"
+        },
+        {
+          "creature": "sunwisp",
+          "weight": 30,
+          "level_min": 20,
+          "level_max": 26,
+          "rarity": "common"
+        },
+        {
+          "creature": "zapmouse",
+          "weight": 25,
+          "level_min": 20,
+          "level_max": 25,
+          "rarity": "common"
+        },
+        {
+          "creature": "gustling",
+          "weight": 15,
+          "level_min": 22,
+          "level_max": 27,
+          "rarity": "uncommon"
+        },
+        {
+          "creature": "cactling",
+          "weight": 18,
+          "level_min": 20,
+          "level_max": 26,
+          "rarity": "common"
+        },
+        {
+          "creature": "mirageel",
+          "weight": 10,
+          "level_min": 20,
+          "level_max": 26,
+          "rarity": "uncommon"
+        },
+        {
+          "creature": "scorchion",
+          "weight": 10,
+          "level_min": 20,
+          "level_max": 26,
+          "rarity": "uncommon"
+        },
+        {
+          "creature": "fawnkin",
+          "weight": 8,
+          "level_min": 20,
+          "level_max": 26,
+          "rarity": "common"
+        },
+        {
+          "creature": "pyrelet",
+          "weight": 8,
+          "level_min": 20,
+          "level_max": 26,
+          "rarity": "common"
+        },
+        {
+          "creature": "coveling",
+          "weight": 8,
+          "level_min": 20,
+          "level_max": 26,
+          "rarity": "common"
+        },
+        {
+          "creature": "petalit",
+          "weight": 8,
+          "level_min": 20,
+          "level_max": 26,
+          "rarity": "common"
+        },
+        {
+          "creature": "surgeet",
+          "weight": 8,
+          "level_min": 20,
+          "level_max": 26,
+          "rarity": "common"
+        },
+        {
+          "creature": "quarryie",
+          "weight": 8,
+          "level_min": 20,
+          "level_max": 26,
+          "rarity": "common"
+        },
+        {
+          "creature": "stratokin",
+          "weight": 8,
+          "level_min": 20,
+          "level_max": 26,
+          "rarity": "common"
+        },
+        {
+          "creature": "arcanelet",
+          "weight": 8,
+          "level_min": 20,
+          "level_max": 26,
+          "rarity": "common"
+        }
+      ]
+    },
+    {
+      "id": "umbra_encounters",
+      "region": "umbra",
+      "entries": [
+        {
+          "creature": "gloomoth",
+          "weight": 30,
+          "level_min": 26,
+          "level_max": 32,
+          "rarity": "common"
+        },
+        {
+          "creature": "thornrat",
+          "weight": 30,
+          "level_min": 26,
+          "level_max": 32,
+          "rarity": "common"
+        },
+        {
+          "creature": "sproutkit",
+          "weight": 25,
+          "level_min": 26,
+          "level_max": 31,
+          "rarity": "common"
+        },
+        {
+          "creature": "psywisp",
+          "weight": 15,
+          "level_min": 28,
+          "level_max": 33,
+          "rarity": "uncommon"
+        },
+        {
+          "creature": "shadeling",
+          "weight": 18,
+          "level_min": 26,
+          "level_max": 32,
+          "rarity": "common"
+        },
+        {
+          "creature": "sporeling",
+          "weight": 18,
+          "level_min": 26,
+          "level_max": 32,
+          "rarity": "common"
+        },
+        {
+          "creature": "burrowlet",
+          "weight": 8,
+          "level_min": 26,
+          "level_max": 32,
+          "rarity": "common"
+        },
+        {
+          "creature": "kilnling",
+          "weight": 8,
+          "level_min": 26,
+          "level_max": 32,
+          "rarity": "common"
+        },
+        {
+          "creature": "lagoonit",
+          "weight": 8,
+          "level_min": 26,
+          "level_max": 32,
+          "rarity": "common"
+        },
+        {
+          "creature": "thistleet",
+          "weight": 8,
+          "level_min": 26,
+          "level_max": 32,
+          "rarity": "common"
+        },
+        {
+          "creature": "joltie",
+          "weight": 8,
+          "level_min": 26,
+          "level_max": 32,
+          "rarity": "common"
+        },
+        {
+          "creature": "ridgekin",
+          "weight": 8,
+          "level_min": 26,
+          "level_max": 32,
+          "rarity": "common"
+        },
+        {
+          "creature": "soarlet",
+          "weight": 8,
+          "level_min": 26,
+          "level_max": 32,
+          "rarity": "common"
+        },
+        {
+          "creature": "visionling",
+          "weight": 8,
+          "level_min": 26,
+          "level_max": 32,
+          "rarity": "common"
+        }
+      ]
+    },
+    {
+      "id": "ferrock_encounters",
+      "region": "ferrock",
+      "entries": [
+        {
+          "creature": "boltram",
+          "weight": 30,
+          "level_min": 32,
+          "level_max": 38,
+          "rarity": "common"
+        },
+        {
+          "creature": "slagbeetle",
+          "weight": 30,
+          "level_min": 32,
+          "level_max": 38,
+          "rarity": "common"
+        },
+        {
+          "creature": "pebblet",
+          "weight": 25,
+          "level_min": 32,
+          "level_max": 37,
+          "rarity": "common"
+        },
+        {
+          "creature": "zapmouse",
+          "weight": 15,
+          "level_min": 34,
+          "level_max": 39,
+          "rarity": "uncommon"
+        },
+        {
+          "creature": "ironsnout",
+          "weight": 18,
+          "level_min": 32,
+          "level_max": 38,
+          "rarity": "common"
+        },
+        {
+          "creature": "coilbolt",
+          "weight": 10,
+          "level_min": 32,
+          "level_max": 38,
+          "rarity": "uncommon"
+        },
+        {
+          "creature": "rustwing",
+          "weight": 10,
+          "level_min": 32,
+          "level_max": 38,
+          "rarity": "uncommon"
+        },
+        {
+          "creature": "whiskling",
+          "weight": 8,
+          "level_min": 32,
+          "level_max": 38,
+          "rarity": "common"
+        },
+        {
+          "creature": "smolderit",
+          "weight": 8,
+          "level_min": 32,
+          "level_max": 38,
+          "rarity": "common"
+        },
+        {
+          "creature": "deltaet",
+          "weight": 8,
+          "level_min": 32,
+          "level_max": 38,
+          "rarity": "common"
+        },
+        {
+          "creature": "canopyie",
+          "weight": 8,
+          "level_min": 32,
+          "level_max": 38,
+          "rarity": "common"
+        },
+        {
+          "creature": "fulgorkin",
+          "weight": 8,
+          "level_min": 32,
+          "level_max": 38,
+          "rarity": "common"
+        },
+        {
+          "creature": "marllet",
+          "weight": 8,
+          "level_min": 32,
+          "level_max": 38,
+          "rarity": "common"
+        },
+        {
+          "creature": "zephyrling",
+          "weight": 8,
+          "level_min": 32,
+          "level_max": 38,
+          "rarity": "common"
+        },
+        {
+          "creature": "runeit",
+          "weight": 8,
+          "level_min": 32,
+          "level_max": 38,
+          "rarity": "common"
+        }
+      ]
+    },
+    {
+      "id": "brume_encounters",
+      "region": "brume",
+      "entries": [
+        {
+          "creature": "fenling",
+          "weight": 30,
+          "level_min": 38,
+          "level_max": 44,
+          "rarity": "common"
+        },
+        {
+          "creature": "murkfin",
+          "weight": 30,
+          "level_min": 38,
+          "level_max": 44,
+          "rarity": "common"
+        },
+        {
+          "creature": "aquafin",
+          "weight": 25,
+          "level_min": 38,
+          "level_max": 43,
+          "rarity": "common"
+        },
+        {
+          "creature": "mistcalf",
+          "weight": 15,
+          "level_min": 40,
+          "level_max": 45,
+          "rarity": "uncommon"
+        },
+        {
+          "creature": "mireling",
+          "weight": 18,
+          "level_min": 38,
+          "level_max": 44,
+          "rarity": "common"
+        },
+        {
+          "creature": "fogfin",
+          "weight": 10,
+          "level_min": 38,
+          "level_max": 44,
+          "rarity": "uncommon"
+        },
+        {
+          "creature": "wispurr",
+          "weight": 10,
+          "level_min": 38,
+          "level_max": 44,
+          "rarity": "uncommon"
+        },
+        {
+          "creature": "harrowit",
+          "weight": 8,
+          "level_min": 38,
+          "level_max": 44,
+          "rarity": "common"
+        },
+        {
+          "creature": "blazenet",
+          "weight": 8,
+          "level_min": 38,
+          "level_max": 44,
+          "rarity": "common"
+        },
+        {
+          "creature": "mistie",
+          "weight": 8,
+          "level_min": 38,
+          "level_max": 44,
+          "rarity": "common"
+        },
+        {
+          "creature": "bramblekin",
+          "weight": 8,
+          "level_min": 38,
+          "level_max": 44,
+          "rarity": "common"
+        },
+        {
+          "creature": "arclet",
+          "weight": 8,
+          "level_min": 38,
+          "level_max": 44,
+          "rarity": "common"
+        },
+        {
+          "creature": "clayling",
+          "weight": 8,
+          "level_min": 38,
+          "level_max": 44,
+          "rarity": "common"
+        },
+        {
+          "creature": "cirrusit",
+          "weight": 8,
+          "level_min": 38,
+          "level_max": 44,
+          "rarity": "common"
+        },
+        {
+          "creature": "omenet",
+          "weight": 8,
+          "level_min": 38,
+          "level_max": 44,
+          "rarity": "common"
+        }
+      ]
+    },
+    {
+      "id": "lumen_encounters",
+      "region": "lumen",
+      "entries": [
+        {
+          "creature": "glimshard",
+          "weight": 30,
+          "level_min": 44,
+          "level_max": 50,
+          "rarity": "common"
+        },
+        {
+          "creature": "prismole",
+          "weight": 30,
+          "level_min": 44,
+          "level_max": 50,
+          "rarity": "common"
+        },
+        {
+          "creature": "psywisp",
+          "weight": 25,
+          "level_min": 44,
+          "level_max": 49,
+          "rarity": "common"
+        },
+        {
+          "creature": "pebblet",
+          "weight": 15,
+          "level_min": 46,
+          "level_max": 51,
+          "rarity": "uncommon"
+        },
+        {
+          "creature": "shardling",
+          "weight": 18,
+          "level_min": 44,
+          "level_max": 50,
+          "rarity": "common"
+        },
+        {
+          "creature": "glowray",
+          "weight": 10,
+          "level_min": 44,
+          "level_max": 50,
+          "rarity": "uncommon"
+        },
+        {
+          "creature": "fawnet",
+          "weight": 8,
+          "level_min": 44,
+          "level_max": 50,
+          "rarity": "common"
+        },
+        {
+          "creature": "pyreie",
+          "weight": 8,
+          "level_min": 44,
+          "level_max": 50,
+          "rarity": "common"
+        },
+        {
+          "creature": "covekin",
+          "weight": 8,
+          "level_min": 44,
+          "level_max": 50,
+          "rarity": "common"
+        },
+        {
+          "creature": "petallet",
+          "weight": 8,
+          "level_min": 44,
+          "level_max": 50,
+          "rarity": "common"
+        },
+        {
+          "creature": "surgeling",
+          "weight": 8,
+          "level_min": 44,
+          "level_max": 50,
+          "rarity": "common"
+        },
+        {
+          "creature": "quarryit",
+          "weight": 8,
+          "level_min": 44,
+          "level_max": 50,
+          "rarity": "common"
+        },
+        {
+          "creature": "stratoet",
+          "weight": 8,
+          "level_min": 44,
+          "level_max": 50,
+          "rarity": "common"
+        },
+        {
+          "creature": "arcaneie",
+          "weight": 8,
+          "level_min": 44,
+          "level_max": 50,
+          "rarity": "common"
+        }
+      ]
+    },
+    {
+      "id": "zephyra_encounters",
+      "region": "zephyra",
+      "entries": [
+        {
+          "creature": "galehare",
+          "weight": 30,
+          "level_min": 50,
+          "level_max": 56,
+          "rarity": "common"
+        },
+        {
+          "creature": "stormkite",
+          "weight": 30,
+          "level_min": 50,
+          "level_max": 56,
+          "rarity": "common"
+        },
+        {
+          "creature": "gustling",
+          "weight": 25,
+          "level_min": 50,
+          "level_max": 55,
+          "rarity": "common"
+        },
+        {
+          "creature": "mistelk",
+          "weight": 15,
+          "level_min": 52,
+          "level_max": 57,
+          "rarity": "uncommon"
+        },
+        {
+          "creature": "nimbling",
+          "weight": 18,
+          "level_min": 50,
+          "level_max": 56,
+          "rarity": "common"
+        },
+        {
+          "creature": "aetherion",
+          "weight": 1,
+          "level_min": 55,
+          "level_max": 58,
+          "rarity": "legendary"
+        },
+        {
+          "creature": "burrowie",
+          "weight": 8,
+          "level_min": 50,
+          "level_max": 56,
+          "rarity": "common"
+        },
+        {
+          "creature": "kilnkin",
+          "weight": 8,
+          "level_min": 50,
+          "level_max": 56,
+          "rarity": "common"
+        },
+        {
+          "creature": "lagoonlet",
+          "weight": 8,
+          "level_min": 50,
+          "level_max": 56,
+          "rarity": "common"
+        },
+        {
+          "creature": "thistleling",
+          "weight": 8,
+          "level_min": 50,
+          "level_max": 56,
+          "rarity": "common"
+        },
+        {
+          "creature": "joltit",
+          "weight": 8,
+          "level_min": 50,
+          "level_max": 56,
+          "rarity": "common"
+        },
+        {
+          "creature": "ridgeet",
+          "weight": 8,
+          "level_min": 50,
+          "level_max": 56,
+          "rarity": "common"
+        },
+        {
+          "creature": "soarie",
+          "weight": 8,
+          "level_min": 50,
+          "level_max": 56,
+          "rarity": "common"
+        },
+        {
+          "creature": "visionkin",
+          "weight": 8,
+          "level_min": 50,
+          "level_max": 56,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeyaraepip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zezephaepip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zebalaepip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zecrevaepip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeduskaepip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeemberaepip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zefrostaepip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeglimaepip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zebramorpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zecinqorpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zedornorpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeeldorpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zefenorpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zegrimorpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeholloorpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeiriorpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zejorvorpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zekestorpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zelumorpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zemororpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zenyxorpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeorlorpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zepyrorpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zequillorpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zerynorpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zesolorpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zetamorpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeumbrorpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zevexorpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zewynorpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeyarorpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zezephorpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zebalorpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zecrevorpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeduskorpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeemberorpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zefrostorpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeglimorpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zebramenpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zecinqenpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zedornenpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeeldenpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zefenenpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zegrimenpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeholloenpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeirienpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zejorvenpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zekestenpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zelumenpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zemorenpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zenyxenpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeorlenpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zepyrenpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zequillenpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zerynenpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zesolenpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zetamenpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeumbrenpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zevexenpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zewynenpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeyarenpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zezephenpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zebalenpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zecrevenpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeduskenpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeemberenpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zefrostenpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeglimenpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zebramilpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zecinqilpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zedornilpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeeldilpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zefenilpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zegrimilpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeholloilpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeiriilpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zejorvilpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zekestilpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zelumilpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zemorilpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zenyxilpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeorlilpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zepyrilpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zequillilpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zerynilpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zesolilpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zetamilpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeumbrilpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zevexilpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zewynilpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeyarilpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zezephilpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zebalilpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zecrevilpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeduskilpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeemberilpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zefrostilpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeglimilpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zebramarpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zecinqarpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zedornarpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeeldarpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zefenarpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zegrimarpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeholloarpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeiriarpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zejorvarpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zekestarpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zelumarpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zemorarpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zenyxarpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeorlarpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zepyrarpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zequillarpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zerynarpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zesolarpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zetamarpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeumbrarpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zevexarpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zewynarpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeyararpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zezepharpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zebalarpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zecrevarpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeduskarpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeemberarpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zefrostarpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeglimarpip",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zebramalet",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zecinqalet",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zedornalet",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zeeldalet",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zefenalet",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        },
+        {
+          "creature": "zegrimalet",
+          "weight": 4,
+          "level_min": 50,
+          "level_max": 57,
+          "rarity": "common"
+        }
+      ]
+    }
+  ]
+}

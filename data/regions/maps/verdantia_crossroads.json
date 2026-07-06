@@ -1,0 +1,313 @@
+{
+  "$schema_version": 1,
+  "id": "verdantia_crossroads",
+  "display_name": "Verdantia Crossroads",
+  "region": "verdantia",
+  "bgm": "town",
+  "tile_size": 32,
+  "legend": {
+    "#": "wall",
+    ".": "ground",
+    "D": "door",
+    "H": "heal_pad"
+  },
+  "rows": [
+    "##D##D##D##D####",
+    "D..............#",
+    "#..............D",
+    "D..............#",
+    "#......H.......#",
+    "#..............D",
+    "D..............D",
+    "D..............#",
+    "##D##D##D##D####"
+  ],
+  "objects": [
+    {
+      "type": "spawn",
+      "id": "from_wilds",
+      "x": 1,
+      "y": 3
+    },
+    {
+      "type": "spawn",
+      "id": "from_league",
+      "x": 14,
+      "y": 5
+    },
+    {
+      "type": "spawn",
+      "id": "default",
+      "x": 7,
+      "y": 5
+    },
+    {
+      "type": "door",
+      "x": 0,
+      "y": 3,
+      "to_map": "verdantia_route",
+      "to_spawn": "from_crossroads"
+    },
+    {
+      "type": "door",
+      "x": 15,
+      "y": 5,
+      "to_map": "verdantia_league",
+      "to_spawn": "entrance",
+      "requires_flag": "league_open_verdantia",
+      "locked_text": "The League gates open only to holders of all eight Verdantia badges."
+    },
+    {
+      "type": "heal",
+      "x": 7,
+      "y": 4,
+      "sets_respawn": true,
+      "respawn_spawn": "default"
+    },
+    {
+      "type": "sign",
+      "x": 6,
+      "y": 5,
+      "text": "Verdantia Crossroads — eight gyms, one League."
+    },
+    {
+      "type": "door",
+      "x": 2,
+      "y": 0,
+      "to_map": "verdantia_gym_normal",
+      "to_spawn": "entrance"
+    },
+    {
+      "type": "spawn",
+      "id": "from_normal_gym",
+      "x": 2,
+      "y": 1
+    },
+    {
+      "type": "door",
+      "x": 5,
+      "y": 0,
+      "to_map": "verdantia_gym_fire",
+      "to_spawn": "entrance"
+    },
+    {
+      "type": "spawn",
+      "id": "from_fire_gym",
+      "x": 5,
+      "y": 1
+    },
+    {
+      "type": "door",
+      "x": 8,
+      "y": 0,
+      "to_map": "verdantia_gym_water",
+      "to_spawn": "entrance"
+    },
+    {
+      "type": "spawn",
+      "id": "from_water_gym",
+      "x": 8,
+      "y": 1
+    },
+    {
+      "type": "door",
+      "x": 11,
+      "y": 0,
+      "to_map": "verdantia_gym_grass",
+      "to_spawn": "entrance"
+    },
+    {
+      "type": "spawn",
+      "id": "from_grass_gym",
+      "x": 11,
+      "y": 1
+    },
+    {
+      "type": "door",
+      "x": 2,
+      "y": 8,
+      "to_map": "verdantia_gym_electric",
+      "to_spawn": "entrance"
+    },
+    {
+      "type": "spawn",
+      "id": "from_electric_gym",
+      "x": 2,
+      "y": 7
+    },
+    {
+      "type": "door",
+      "x": 5,
+      "y": 8,
+      "to_map": "verdantia_gym_earth",
+      "to_spawn": "entrance"
+    },
+    {
+      "type": "spawn",
+      "id": "from_earth_gym",
+      "x": 5,
+      "y": 7
+    },
+    {
+      "type": "door",
+      "x": 8,
+      "y": 8,
+      "to_map": "verdantia_gym_wind",
+      "to_spawn": "entrance"
+    },
+    {
+      "type": "spawn",
+      "id": "from_wind_gym",
+      "x": 8,
+      "y": 7
+    },
+    {
+      "type": "door",
+      "x": 11,
+      "y": 8,
+      "to_map": "verdantia_gym_mystic",
+      "to_spawn": "entrance"
+    },
+    {
+      "type": "spawn",
+      "id": "from_mystic_gym",
+      "x": 11,
+      "y": 7
+    },
+    {
+      "type": "door",
+      "x": 0,
+      "y": 6,
+      "to_map": "verdantia_court_1",
+      "to_spawn": "entrance"
+    },
+    {
+      "type": "spawn",
+      "id": "from_court_1",
+      "x": 1,
+      "y": 6
+    },
+    {
+      "type": "door",
+      "x": 15,
+      "y": 2,
+      "to_map": "verdantia_court_2",
+      "to_spawn": "entrance"
+    },
+    {
+      "type": "spawn",
+      "id": "from_court_2",
+      "x": 14,
+      "y": 2
+    },
+    {
+      "type": "door",
+      "x": 15,
+      "y": 6,
+      "to_map": "verdantia_court_3",
+      "to_spawn": "entrance"
+    },
+    {
+      "type": "spawn",
+      "id": "from_court_3",
+      "x": 14,
+      "y": 6
+    },
+    {
+      "type": "door",
+      "x": 0,
+      "y": 7,
+      "to_map": "verdantia_court_4",
+      "to_spawn": "entrance"
+    },
+    {
+      "type": "spawn",
+      "id": "from_court_4",
+      "x": 1,
+      "y": 7
+    },
+    {
+      "type": "door",
+      "x": 0,
+      "y": 1,
+      "to_map": "verdantia_landmark",
+      "to_spawn": "entrance"
+    },
+    {
+      "type": "spawn",
+      "id": "from_landmark",
+      "x": 1,
+      "y": 1
+    },
+    {
+      "type": "npc",
+      "x": 7,
+      "y": 6,
+      "npc_id": "corin",
+      "sprite": "npc_rival",
+      "dialog_id": "corin_road"
+    },
+    {
+      "type": "npc",
+      "x": 4,
+      "y": 2,
+      "npc_id": "folk_verdantia_x0",
+      "sprite": "npc_watcher",
+      "dialog_id": "town_verdantia_x0"
+    },
+    {
+      "type": "npc",
+      "x": 11,
+      "y": 2,
+      "npc_id": "folk_verdantia_x1",
+      "sprite": "npc_villager",
+      "dialog_id": "town_verdantia_x1"
+    },
+    {
+      "type": "npc",
+      "x": 4,
+      "y": 6,
+      "npc_id": "folk_verdantia_x2",
+      "sprite": "npc_villager",
+      "dialog_id": "town_verdantia_x2"
+    },
+    {
+      "type": "npc",
+      "x": 11,
+      "y": 6,
+      "npc_id": "folk_verdantia_x3",
+      "sprite": "npc_clerk",
+      "dialog_id": "town_verdantia_x3"
+    },
+    {
+      "type": "npc",
+      "x": 6,
+      "y": 2,
+      "npc_id": "folk_verdantia_x4",
+      "sprite": "npc_villager",
+      "dialog_id": "town_verdantia_x4"
+    },
+    {
+      "type": "npc",
+      "x": 9,
+      "y": 6,
+      "npc_id": "folk_verdantia_x5",
+      "sprite": "npc_villager",
+      "dialog_id": "town_verdantia_x5"
+    },
+    {
+      "type": "sign",
+      "x": 6,
+      "y": 5,
+      "text": "CROSSROADS DIRECTORY. North halls: Plainskeeper (normal), Ember Sage (fire), Tidecaller (water), Grovewarden (grass). South halls: Stormsmith (electric), Cairnbreaker (earth), Skydancer (wind), Dreambinder (mystic). East: the League — sealed until all eight badges are earned. West: the old road, and the landmark.",
+      "gen": "sign"
+    },
+    {
+      "type": "sign",
+      "x": 8,
+      "y": 5,
+      "text": "Eight leaders, one crest apiece. Beat them in any order. The four Elites past the League gate do not wait in any order — they wait in a line.",
+      "gen": "sign"
+    }
+  ]
+}

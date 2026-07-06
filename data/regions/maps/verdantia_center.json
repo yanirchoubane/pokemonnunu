@@ -1,0 +1,24 @@
+{
+  "$schema_version": 1,
+  "id": "verdantia_center",
+  "region": "verdantia",
+  "display_name": "Healing Center",
+  "tile_size": 32,
+  "bgm": "indoor",
+  "interior": true,
+  "legend": { ".": "floor", "#": "wall", "D": "door", "B": "counter", "H": "heal_pad" },
+  "rows": [
+    "#########",
+    "#..BHB..#",
+    "#.......#",
+    "#.......#",
+    "#...D...#"
+  ],
+  "objects": [
+    { "type": "spawn", "id": "entrance", "x": 4, "y": 3 },
+    { "type": "warp", "x": 4, "y": 4, "to_map": "verdantia_town", "to_spawn": "default" },
+    { "type": "heal", "x": 4, "y": 1, "sets_respawn": true },
+    { "type": "npc", "x": 2, "y": 1, "npc_id": "nurse", "sprite": "npc_nurse",
+      "dialogue": ["Nurse: Step on the pad and I'll heal your whole team.", "This center is now your return point."] }
+  ]
+}

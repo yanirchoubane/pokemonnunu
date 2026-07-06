@@ -1,0 +1,136 @@
+{
+  "$schema_version": 1,
+  "id": "umbra_gate",
+  "display_name": "Umbra Gate",
+  "region": "umbra",
+  "bgm": "town",
+  "tile_size": 32,
+  "legend": {
+    "#": "wall",
+    ".": "ground",
+    "D": "door",
+    "H": "heal_pad"
+  },
+  "rows": [
+    "############",
+    "#..........#",
+    "#..H.......#",
+    "D..........D",
+    "#..........#",
+    "#..........#",
+    "############"
+  ],
+  "objects": [
+    {
+      "type": "spawn",
+      "id": "port",
+      "x": 1,
+      "y": 3
+    },
+    {
+      "type": "spawn",
+      "id": "from_wilds",
+      "x": 10,
+      "y": 3
+    },
+    {
+      "type": "spawn",
+      "id": "default",
+      "x": 5,
+      "y": 4
+    },
+    {
+      "type": "door",
+      "x": 0,
+      "y": 3,
+      "to_map": "solane_hall",
+      "to_spawn": "from_next"
+    },
+    {
+      "type": "door",
+      "x": 11,
+      "y": 3,
+      "to_map": "umbra_wilds",
+      "to_spawn": "from_gate"
+    },
+    {
+      "type": "heal",
+      "x": 3,
+      "y": 2,
+      "sets_respawn": true,
+      "respawn_spawn": "default"
+    },
+    {
+      "type": "shop",
+      "x": 8,
+      "y": 2,
+      "npc_id": "umbra_clerk",
+      "sprite": "npc_clerk",
+      "stock": [
+        "capture_orb",
+        "great_orb",
+        "dusk_orb",
+        "potion",
+        "super_potion",
+        "hyper_potion",
+        "max_potion",
+        "antidote",
+        "burn_salve",
+        "spark_charm",
+        "revive",
+        "max_revive"
+      ],
+      "dialogue": [
+        "Clerk: Welcome to Umbra! Gear up for the twilight woods."
+      ]
+    },
+    {
+      "type": "npc",
+      "x": 6,
+      "y": 2,
+      "npc_id": "umbra_greeter",
+      "sprite": "npc_villager",
+      "dialogue": [
+        "Greeter: Umbra lies ahead — twilight woods as far as the eye can see.",
+        "The Summit Hall only opens to those the wilds have tested."
+      ]
+    },
+    {
+      "type": "sign",
+      "x": 2,
+      "y": 4,
+      "text": "Umbra Gate — west: the port home. East: the wilds."
+    },
+    {
+      "type": "npc",
+      "x": 10,
+      "y": 4,
+      "npc_id": "harbormaster_umbra",
+      "sprite": "npc_sailor",
+      "dialog_id": "ferry_network"
+    },
+    {
+      "type": "npc",
+      "x": 4,
+      "y": 4,
+      "npc_id": "folk_umbra_g0",
+      "sprite": "npc_watcher",
+      "dialog_id": "town_umbra_g0"
+    },
+    {
+      "type": "npc",
+      "x": 9,
+      "y": 5,
+      "npc_id": "folk_umbra_g1",
+      "sprite": "npc_villager",
+      "dialog_id": "town_umbra_g1"
+    },
+    {
+      "type": "sign",
+      "x": 5,
+      "y": 5,
+      "text": "Umbra GATE. West: the port home — no toll, no questions. East: the wilds, then the Crossroads. Rest while it's free to.",
+      "gen": "sign"
+    }
+  ]
+}

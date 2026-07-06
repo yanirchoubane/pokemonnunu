@@ -1,0 +1,138 @@
+{
+  "$schema_version": 1,
+  "id": "aquilon_shore",
+  "region": "aquilon",
+  "display_name": "Aquilon Shore",
+  "tile_size": 32,
+  "bgm": "shore",
+  "legend": {
+    ".": "sand",
+    "P": "path",
+    "#": "wall",
+    "T": "palm",
+    "~": "tall_grass",
+    "W": "water",
+    "H": "heal_pad",
+    "D": "door"
+  },
+  "rows": [
+    "WWWWWWWDWWWWWWW",
+    "W.............W",
+    "W....~~~~.....W",
+    "W....~~~~.....W",
+    "W..H..........W",
+    "W.............D",
+    "W.............W",
+    "W~~~.....~~~..W",
+    "W~~~.....~~~..W",
+    "WWWWW.WWWWWWWWW"
+  ],
+  "objects": [
+    {
+      "type": "spawn",
+      "id": "from_verdantia",
+      "x": 5,
+      "y": 8
+    },
+    {
+      "type": "spawn",
+      "id": "from_ridge",
+      "x": 13,
+      "y": 2
+    },
+    {
+      "type": "spawn",
+      "id": "default",
+      "x": 7,
+      "y": 5
+    },
+    {
+      "type": "warp",
+      "x": 5,
+      "y": 9,
+      "to_map": "verdantia_forest",
+      "to_spawn": "from_arena",
+      "label": "Return port to Verdantia"
+    },
+    {
+      "type": "warp",
+      "x": 13,
+      "y": 1,
+      "to_map": "aquilon_ridge",
+      "to_spawn": "from_shore"
+    },
+    {
+      "type": "encounter_zone",
+      "table": "aquilon_encounters"
+    },
+    {
+      "type": "heal",
+      "x": 3,
+      "y": 4,
+      "sets_respawn": true
+    },
+    {
+      "type": "npc",
+      "x": 8,
+      "y": 5,
+      "npc_id": "dock_master",
+      "sprite": "npc_sailor",
+      "dialogue": [
+        "Sailor: Welcome to Aquilon!",
+        "Your Verdantia team is welcome here — though the northern air humbles the overconfident."
+      ]
+    },
+    {
+      "type": "sign",
+      "x": 6,
+      "y": 4,
+      "text": "Aquilon Shore — a new region, a new challenge. The port home is to the south."
+    },
+    {
+      "type": "spawn",
+      "id": "from_north",
+      "x": 7,
+      "y": 1
+    },
+    {
+      "type": "door",
+      "x": 7,
+      "y": 0,
+      "to_map": "cindral_gate",
+      "to_spawn": "port",
+      "requires_flag": "beat_aquilon_champion",
+      "locked_text": "The northern ferry serves crest-bearers only. Defeat Champion Isolde first."
+    },
+    {
+      "type": "trainer",
+      "x": 10,
+      "y": 5,
+      "trainer_id": "shore_angler",
+      "sprite": "trainer_angler",
+      "sight": 4,
+      "facing": "left",
+      "flag": "beat_shore_angler"
+    },
+    {
+      "type": "spawn",
+      "id": "from_crossroads",
+      "x": 13,
+      "y": 5
+    },
+    {
+      "type": "door",
+      "x": 14,
+      "y": 5,
+      "to_map": "aquilon_crossroads",
+      "to_spawn": "from_wilds"
+    },
+    {
+      "type": "npc",
+      "x": 8,
+      "y": 6,
+      "npc_id": "harbormaster_aquilon",
+      "sprite": "npc_sailor",
+      "dialog_id": "ferry_network"
+    }
+  ]
+}

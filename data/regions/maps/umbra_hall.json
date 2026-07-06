@@ -1,0 +1,124 @@
+{
+  "$schema_version": 1,
+  "id": "umbra_hall",
+  "display_name": "Umbra League",
+  "region": "umbra",
+  "bgm": "town",
+  "tile_size": 32,
+  "legend": {
+    "#": "wall",
+    ".": "floor",
+    "D": "door",
+    "H": "heal_pad"
+  },
+  "rows": [
+    "####D####",
+    "#.......#",
+    "#.......#",
+    "#.......#",
+    "####.####",
+    "#.......#",
+    "####.####",
+    "#.......#",
+    "####.####",
+    "#.......#",
+    "####.####",
+    "#.......#",
+    "#...H...#",
+    "#.......#",
+    "####D####"
+  ],
+  "objects": [
+    {
+      "type": "spawn",
+      "id": "entrance",
+      "x": 4,
+      "y": 13
+    },
+    {
+      "type": "spawn",
+      "id": "from_next",
+      "x": 4,
+      "y": 1
+    },
+    {
+      "type": "door",
+      "x": 4,
+      "y": 14,
+      "to_map": "umbra_crossroads",
+      "to_spawn": "from_league"
+    },
+    {
+      "type": "heal",
+      "x": 4,
+      "y": 12,
+      "sets_respawn": true,
+      "respawn_spawn": "entrance"
+    },
+    {
+      "type": "sign",
+      "x": 2,
+      "y": 11,
+      "text": "Umbra League — four Elites guard the Champion."
+    },
+    {
+      "type": "trainer",
+      "x": 4,
+      "y": 10,
+      "trainer_id": "umbra_elite_1",
+      "sprite": "trainer_elite",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_umbra_elite_1"
+    },
+    {
+      "type": "trainer",
+      "x": 4,
+      "y": 8,
+      "trainer_id": "umbra_elite_2",
+      "sprite": "trainer_elite",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_umbra_elite_2"
+    },
+    {
+      "type": "trainer",
+      "x": 4,
+      "y": 6,
+      "trainer_id": "umbra_elite_3",
+      "sprite": "trainer_elite",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_umbra_elite_3"
+    },
+    {
+      "type": "trainer",
+      "x": 4,
+      "y": 4,
+      "trainer_id": "umbra_elite_4",
+      "sprite": "trainer_elite",
+      "sight": 1,
+      "facing": "down",
+      "flag": "beat_umbra_elite_4"
+    },
+    {
+      "type": "trainer",
+      "x": 4,
+      "y": 2,
+      "trainer_id": "umbra_champion",
+      "sprite": "trainer_champion",
+      "sight": 2,
+      "facing": "down",
+      "flag": "beat_umbra_champion"
+    },
+    {
+      "type": "door",
+      "x": 4,
+      "y": 0,
+      "to_map": "ferrock_gate",
+      "to_spawn": "port",
+      "requires_flag": "beat_umbra_champion",
+      "locked_text": "The northern port opens to crest-bearers only."
+    }
+  ]
+}

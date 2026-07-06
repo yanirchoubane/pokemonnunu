@@ -1,0 +1,95 @@
+{
+  "$schema_version": 1,
+  "id": "aquilon_landmark",
+  "display_name": "Frostwatch Lighthouse",
+  "region": "aquilon",
+  "bgm": "ridge",
+  "tile_size": 32,
+  "legend": {
+    "#": "wall",
+    ".": "stone",
+    "D": "door",
+    "H": "heal_pad",
+    "~": "wall"
+  },
+  "rows": [
+    "###########",
+    "#~~.....~~#",
+    "#.........#",
+    "#.........#",
+    "D.........#",
+    "#.........#",
+    "#.........#",
+    "#~~.....~~#",
+    "#####D#####"
+  ],
+  "objects": [
+    {
+      "type": "spawn",
+      "id": "entrance",
+      "x": 5,
+      "y": 7
+    },
+    {
+      "type": "spawn",
+      "id": "from_crossroads",
+      "x": 1,
+      "y": 4
+    },
+    {
+      "type": "door",
+      "x": 5,
+      "y": 8,
+      "to_map": "aquilon_crossroads",
+      "to_spawn": "from_landmark"
+    },
+    {
+      "type": "door",
+      "x": 0,
+      "y": 4,
+      "to_map": "aquilon_crossroads",
+      "to_spawn": "from_landmark"
+    },
+    {
+      "type": "npc",
+      "x": 5,
+      "y": 2,
+      "npc_id": "aquilon_keeper",
+      "sprite": "npc_watcher",
+      "dialog_id": "lore_aquilon"
+    },
+    {
+      "type": "sign",
+      "x": 3,
+      "y": 3,
+      "text": "Frostwatch Lighthouse — its beam has guided ships since before Aquilon had a name."
+    },
+    {
+      "type": "sign",
+      "x": 7,
+      "y": 3,
+      "text": "The light is tended not by oil, but by a creature that has never once slept."
+    },
+    {
+      "type": "sign",
+      "x": 5,
+      "y": 5,
+      "text": "Sailors leave a single coin on the sill. Nobody remembers why; everybody still does."
+    },
+    {
+      "type": "item",
+      "x": 2,
+      "y": 6,
+      "item": "dusk_orb",
+      "flag": "item_aquilon_landmark"
+    },
+    {
+      "type": "npc",
+      "x": 8,
+      "y": 3,
+      "npc_id": "folk_aquilon_l0",
+      "sprite": "npc_villager",
+      "dialog_id": "town_aquilon_l0"
+    }
+  ]
+}

@@ -1,0 +1,2247 @@
+{
+  "$schema_version": 1,
+  "description": "Data-driven quests. Objectives complete when their condition flag/counter is satisfied; the QuestManager listens to GameState events.",
+  "quests": [
+    {
+      "id": "main_verdant_trial",
+      "display_name": "The Verdant Trial",
+      "category": "main",
+      "auto_start": true,
+      "description": "Begin your journey, grow a team, and earn the Verdant Badge.",
+      "objectives": [
+        {
+          "id": "obj_starter",
+          "text": "Choose a starter from Professor Maple.",
+          "condition": {
+            "kind": "flag",
+            "flag": "got_starter"
+          }
+        },
+        {
+          "id": "obj_catch",
+          "text": "Catch a wild creature.",
+          "condition": {
+            "kind": "counter",
+            "counter": "creatures_caught",
+            "at_least": 1
+          }
+        },
+        {
+          "id": "obj_scout",
+          "text": "Defeat Scout Perrin on Route 1.",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_route_scout"
+          }
+        },
+        {
+          "id": "obj_badge",
+          "text": "Defeat Warden Sable and earn the Verdant Badge.",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_gym_verdantia"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 500
+        },
+        {
+          "kind": "item",
+          "item": "great_orb",
+          "quantity": 3
+        },
+        {
+          "kind": "unlock_region",
+          "region": "aquilon"
+        }
+      ],
+      "on_complete_flag": "quest_verdant_done"
+    },
+    {
+      "id": "side_first_catch",
+      "display_name": "Field Study",
+      "category": "side",
+      "auto_start": true,
+      "description": "The town kid wants to know what lives in the grass.",
+      "objectives": [
+        {
+          "id": "obj_catch3",
+          "text": "Catch 3 creatures.",
+          "condition": {
+            "kind": "counter",
+            "counter": "creatures_caught",
+            "at_least": 3
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "item",
+          "item": "super_potion",
+          "quantity": 2
+        }
+      ],
+      "on_complete_flag": "quest_field_study_done"
+    },
+    {
+      "id": "main_aquilon_intro",
+      "display_name": "Northern Passage",
+      "category": "main",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "quest_verdant_done"
+      },
+      "description": "Cross to Aquilon and prove yourself to Tactician Wrenn.",
+      "objectives": [
+        {
+          "id": "obj_reach_aquilon",
+          "text": "Travel to Aquilon Shore.",
+          "condition": {
+            "kind": "flag",
+            "flag": "visited_aquilon"
+          }
+        },
+        {
+          "id": "obj_wrenn",
+          "text": "Defeat Tactician Wrenn on the Ridge.",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_aquilon_gatekeeper"
+          }
+        },
+        {
+          "id": "obj_return",
+          "text": "Return to Verdantia at least once.",
+          "condition": {
+            "kind": "flag",
+            "flag": "returned_to_verdantia"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 1000
+        }
+      ],
+      "on_complete_flag": "quest_aquilon_done"
+    },
+    {
+      "id": "main_aquilon_league",
+      "display_name": "The Summit Challenge",
+      "category": "main",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "beat_aquilon_gatekeeper"
+      },
+      "description": "Wrenn has opened the Summit Hall. Face Champion Isolde and claim the Aquilon Crest.",
+      "objectives": [
+        {
+          "id": "obj_champion",
+          "text": "Defeat Champion Isolde in the Summit Hall.",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_aquilon_champion"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 1500
+        },
+        {
+          "kind": "item",
+          "item": "great_orb",
+          "quantity": 5
+        },
+        {
+          "kind": "unlock_region",
+          "region": "cindral"
+        }
+      ],
+      "on_complete_flag": "quest_league_done"
+    },
+    {
+      "id": "main_cindral",
+      "display_name": "The Cindral Crest",
+      "category": "main",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_cindral"
+      },
+      "description": "Cross the volcanic slopes of Cindral and claim its crest.",
+      "objectives": [
+        {
+          "id": "obj_scout",
+          "text": "Defeat the Scout in the Cindral Wilds.",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_cindral_scout"
+          }
+        },
+        {
+          "id": "obj_champion",
+          "text": "Defeat Magnate Vulcaine, Champion of Cindral, in the League hall.",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_cindral_champion"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 1000
+        },
+        {
+          "kind": "item",
+          "item": "great_orb",
+          "quantity": 3
+        },
+        {
+          "kind": "unlock_region",
+          "region": "solane"
+        }
+      ],
+      "on_complete_flag": "quest_cindral_done"
+    },
+    {
+      "id": "main_solane",
+      "display_name": "The Solane Crest",
+      "category": "main",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_solane"
+      },
+      "description": "Cross the sun-baked dunes of Solane and claim its crest.",
+      "objectives": [
+        {
+          "id": "obj_scout",
+          "text": "Defeat the Scout in the Solane Wilds.",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_solane_scout"
+          }
+        },
+        {
+          "id": "obj_champion",
+          "text": "Defeat Consul Adnan, Champion of Solane, in the League hall.",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_solane_champion"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 1200
+        },
+        {
+          "kind": "item",
+          "item": "great_orb",
+          "quantity": 3
+        },
+        {
+          "kind": "unlock_region",
+          "region": "umbra"
+        }
+      ],
+      "on_complete_flag": "quest_solane_done"
+    },
+    {
+      "id": "main_umbra",
+      "display_name": "The Umbra Crest",
+      "category": "main",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_umbra"
+      },
+      "description": "Cross the twilight woods of Umbra and claim its crest.",
+      "objectives": [
+        {
+          "id": "obj_scout",
+          "text": "Defeat the Scout in the Umbra Wilds.",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_umbra_scout"
+          }
+        },
+        {
+          "id": "obj_champion",
+          "text": "Defeat Arbiter Nocturne, Champion of Umbra, in the League hall.",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_umbra_champion"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 1400
+        },
+        {
+          "kind": "item",
+          "item": "great_orb",
+          "quantity": 3
+        },
+        {
+          "kind": "unlock_region",
+          "region": "ferrock"
+        }
+      ],
+      "on_complete_flag": "quest_umbra_done"
+    },
+    {
+      "id": "main_ferrock",
+      "display_name": "The Ferrock Crest",
+      "category": "main",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_ferrock"
+      },
+      "description": "Cross the iron hills of Ferrock and claim its crest.",
+      "objectives": [
+        {
+          "id": "obj_scout",
+          "text": "Defeat the Scout in the Ferrock Wilds.",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_ferrock_scout"
+          }
+        },
+        {
+          "id": "obj_champion",
+          "text": "Defeat Ironmonger Casque, Champion of Ferrock, in the League hall.",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_ferrock_champion"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 1600
+        },
+        {
+          "kind": "item",
+          "item": "great_orb",
+          "quantity": 3
+        },
+        {
+          "kind": "unlock_region",
+          "region": "brume"
+        }
+      ],
+      "on_complete_flag": "quest_ferrock_done"
+    },
+    {
+      "id": "main_brume",
+      "display_name": "The Brume Crest",
+      "category": "main",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_brume"
+      },
+      "description": "Cross the misty fens of Brume and claim its crest.",
+      "objectives": [
+        {
+          "id": "obj_scout",
+          "text": "Defeat the Scout in the Brume Wilds.",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_brume_scout"
+          }
+        },
+        {
+          "id": "obj_champion",
+          "text": "Defeat Abbess Threnody, Champion of Brume, in the League hall.",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_brume_champion"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 1800
+        },
+        {
+          "kind": "item",
+          "item": "great_orb",
+          "quantity": 3
+        },
+        {
+          "kind": "unlock_region",
+          "region": "lumen"
+        }
+      ],
+      "on_complete_flag": "quest_brume_done"
+    },
+    {
+      "id": "main_lumen",
+      "display_name": "The Lumen Crest",
+      "category": "main",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_lumen"
+      },
+      "description": "Cross the crystal vale of Lumen and claim its crest.",
+      "objectives": [
+        {
+          "id": "obj_scout",
+          "text": "Defeat the Scout in the Lumen Wilds.",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_lumen_scout"
+          }
+        },
+        {
+          "id": "obj_champion",
+          "text": "Defeat Oracle Calla, Champion of Lumen, in the League hall.",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_lumen_champion"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 2000
+        },
+        {
+          "kind": "item",
+          "item": "great_orb",
+          "quantity": 3
+        },
+        {
+          "kind": "unlock_region",
+          "region": "zephyra"
+        }
+      ],
+      "on_complete_flag": "quest_lumen_done"
+    },
+    {
+      "id": "main_zephyra",
+      "display_name": "The Zephyra Crest",
+      "category": "main",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_zephyra"
+      },
+      "description": "Cross the sky steppes of Zephyra and claim its crest.",
+      "objectives": [
+        {
+          "id": "obj_scout",
+          "text": "Defeat the Scout in the Zephyra Wilds.",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_zephyra_scout"
+          }
+        },
+        {
+          "id": "obj_champion",
+          "text": "Defeat Skylord Peregrine, Champion of Zephyra, in the League hall.",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_zephyra_champion"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 2200
+        },
+        {
+          "kind": "item",
+          "item": "great_orb",
+          "quantity": 3
+        }
+      ],
+      "on_complete_flag": "quest_zephyra_done"
+    },
+    {
+      "id": "main_hollow_order",
+      "display_name": "Shadows of the Hollow Order",
+      "category": "main",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_cindral"
+      },
+      "description": "A shadowy order is shaking down trainers along the northern roads. Root out its agents and unmask their Archon.",
+      "objectives": [
+        {
+          "id": "obj_agent1",
+          "text": "Defeat the Hollow agent in Cindral.",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_hollow_agent_cindral"
+          }
+        },
+        {
+          "id": "obj_agent2",
+          "text": "Defeat the Hollow agent in Ferrock.",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_hollow_agent_ferrock"
+          }
+        },
+        {
+          "id": "obj_agent3",
+          "text": "Defeat the Hollow agent in Lumen.",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_hollow_agent_lumen"
+          }
+        },
+        {
+          "id": "obj_lieutenant",
+          "text": "Defeat Hollow Lieutenant Mourn in Duskbell Grove.",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_hollow_lieutenant"
+          }
+        },
+        {
+          "id": "obj_archon",
+          "text": "Confront the Hollow Archon and decide the Order's fate.",
+          "condition": {
+            "kind": "flag",
+            "flag": "hollow_resolved"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 5000
+        },
+        {
+          "kind": "item",
+          "item": "revive",
+          "quantity": 3
+        }
+      ],
+      "on_complete_flag": "quest_hollow_done"
+    },
+    {
+      "id": "circuit_verdantia",
+      "display_name": "The Verdantia Gym Circuit",
+      "category": "main",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_verdantia"
+      },
+      "description": "Defeat all eight gym leaders of Verdantia to open its League.",
+      "objectives": [
+        {
+          "id": "obj_normal",
+          "text": "Earn the normal badge (Plainskeeper).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_verdantia_gym_normal"
+          }
+        },
+        {
+          "id": "obj_fire",
+          "text": "Earn the fire badge (Ember Sage).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_verdantia_gym_fire"
+          }
+        },
+        {
+          "id": "obj_water",
+          "text": "Earn the water badge (Tidecaller).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_verdantia_gym_water"
+          }
+        },
+        {
+          "id": "obj_grass",
+          "text": "Earn the grass badge (Grovewarden).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_verdantia_gym_grass"
+          }
+        },
+        {
+          "id": "obj_electric",
+          "text": "Earn the electric badge (Stormsmith).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_verdantia_gym_electric"
+          }
+        },
+        {
+          "id": "obj_earth",
+          "text": "Earn the earth badge (Cairnbreaker).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_verdantia_gym_earth"
+          }
+        },
+        {
+          "id": "obj_wind",
+          "text": "Earn the wind badge (Skydancer).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_verdantia_gym_wind"
+          }
+        },
+        {
+          "id": "obj_mystic",
+          "text": "Earn the mystic badge (Dreambinder).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_verdantia_gym_mystic"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 1500
+        }
+      ],
+      "on_complete_flag": "league_open_verdantia"
+    },
+    {
+      "id": "circuit_aquilon",
+      "display_name": "The Aquilon Gym Circuit",
+      "category": "main",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_aquilon"
+      },
+      "description": "Defeat all eight gym leaders of Aquilon to open its League.",
+      "objectives": [
+        {
+          "id": "obj_normal",
+          "text": "Earn the normal badge (Plainskeeper).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_aquilon_gym_normal"
+          }
+        },
+        {
+          "id": "obj_fire",
+          "text": "Earn the fire badge (Ember Sage).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_aquilon_gym_fire"
+          }
+        },
+        {
+          "id": "obj_water",
+          "text": "Earn the water badge (Tidecaller).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_aquilon_gym_water"
+          }
+        },
+        {
+          "id": "obj_grass",
+          "text": "Earn the grass badge (Grovewarden).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_aquilon_gym_grass"
+          }
+        },
+        {
+          "id": "obj_electric",
+          "text": "Earn the electric badge (Stormsmith).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_aquilon_gym_electric"
+          }
+        },
+        {
+          "id": "obj_earth",
+          "text": "Earn the earth badge (Cairnbreaker).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_aquilon_gym_earth"
+          }
+        },
+        {
+          "id": "obj_wind",
+          "text": "Earn the wind badge (Skydancer).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_aquilon_gym_wind"
+          }
+        },
+        {
+          "id": "obj_mystic",
+          "text": "Earn the mystic badge (Dreambinder).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_aquilon_gym_mystic"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 2000
+        }
+      ],
+      "on_complete_flag": "league_open_aquilon"
+    },
+    {
+      "id": "circuit_cindral",
+      "display_name": "The Cindral Gym Circuit",
+      "category": "main",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_cindral"
+      },
+      "description": "Defeat all eight gym leaders of Cindral to open its League.",
+      "objectives": [
+        {
+          "id": "obj_normal",
+          "text": "Earn the normal badge (Plainskeeper).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_cindral_gym_normal"
+          }
+        },
+        {
+          "id": "obj_fire",
+          "text": "Earn the fire badge (Ember Sage).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_cindral_gym_fire"
+          }
+        },
+        {
+          "id": "obj_water",
+          "text": "Earn the water badge (Tidecaller).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_cindral_gym_water"
+          }
+        },
+        {
+          "id": "obj_grass",
+          "text": "Earn the grass badge (Grovewarden).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_cindral_gym_grass"
+          }
+        },
+        {
+          "id": "obj_electric",
+          "text": "Earn the electric badge (Stormsmith).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_cindral_gym_electric"
+          }
+        },
+        {
+          "id": "obj_earth",
+          "text": "Earn the earth badge (Cairnbreaker).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_cindral_gym_earth"
+          }
+        },
+        {
+          "id": "obj_wind",
+          "text": "Earn the wind badge (Skydancer).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_cindral_gym_wind"
+          }
+        },
+        {
+          "id": "obj_mystic",
+          "text": "Earn the mystic badge (Dreambinder).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_cindral_gym_mystic"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 2500
+        }
+      ],
+      "on_complete_flag": "league_open_cindral"
+    },
+    {
+      "id": "circuit_solane",
+      "display_name": "The Solane Gym Circuit",
+      "category": "main",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_solane"
+      },
+      "description": "Defeat all eight gym leaders of Solane to open its League.",
+      "objectives": [
+        {
+          "id": "obj_normal",
+          "text": "Earn the normal badge (Plainskeeper).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_solane_gym_normal"
+          }
+        },
+        {
+          "id": "obj_fire",
+          "text": "Earn the fire badge (Ember Sage).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_solane_gym_fire"
+          }
+        },
+        {
+          "id": "obj_water",
+          "text": "Earn the water badge (Tidecaller).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_solane_gym_water"
+          }
+        },
+        {
+          "id": "obj_grass",
+          "text": "Earn the grass badge (Grovewarden).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_solane_gym_grass"
+          }
+        },
+        {
+          "id": "obj_electric",
+          "text": "Earn the electric badge (Stormsmith).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_solane_gym_electric"
+          }
+        },
+        {
+          "id": "obj_earth",
+          "text": "Earn the earth badge (Cairnbreaker).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_solane_gym_earth"
+          }
+        },
+        {
+          "id": "obj_wind",
+          "text": "Earn the wind badge (Skydancer).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_solane_gym_wind"
+          }
+        },
+        {
+          "id": "obj_mystic",
+          "text": "Earn the mystic badge (Dreambinder).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_solane_gym_mystic"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 3000
+        }
+      ],
+      "on_complete_flag": "league_open_solane"
+    },
+    {
+      "id": "circuit_umbra",
+      "display_name": "The Umbra Gym Circuit",
+      "category": "main",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_umbra"
+      },
+      "description": "Defeat all eight gym leaders of Umbra to open its League.",
+      "objectives": [
+        {
+          "id": "obj_normal",
+          "text": "Earn the normal badge (Plainskeeper).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_umbra_gym_normal"
+          }
+        },
+        {
+          "id": "obj_fire",
+          "text": "Earn the fire badge (Ember Sage).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_umbra_gym_fire"
+          }
+        },
+        {
+          "id": "obj_water",
+          "text": "Earn the water badge (Tidecaller).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_umbra_gym_water"
+          }
+        },
+        {
+          "id": "obj_grass",
+          "text": "Earn the grass badge (Grovewarden).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_umbra_gym_grass"
+          }
+        },
+        {
+          "id": "obj_electric",
+          "text": "Earn the electric badge (Stormsmith).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_umbra_gym_electric"
+          }
+        },
+        {
+          "id": "obj_earth",
+          "text": "Earn the earth badge (Cairnbreaker).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_umbra_gym_earth"
+          }
+        },
+        {
+          "id": "obj_wind",
+          "text": "Earn the wind badge (Skydancer).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_umbra_gym_wind"
+          }
+        },
+        {
+          "id": "obj_mystic",
+          "text": "Earn the mystic badge (Dreambinder).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_umbra_gym_mystic"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 3500
+        }
+      ],
+      "on_complete_flag": "league_open_umbra"
+    },
+    {
+      "id": "circuit_ferrock",
+      "display_name": "The Ferrock Gym Circuit",
+      "category": "main",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_ferrock"
+      },
+      "description": "Defeat all eight gym leaders of Ferrock to open its League.",
+      "objectives": [
+        {
+          "id": "obj_normal",
+          "text": "Earn the normal badge (Plainskeeper).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_ferrock_gym_normal"
+          }
+        },
+        {
+          "id": "obj_fire",
+          "text": "Earn the fire badge (Ember Sage).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_ferrock_gym_fire"
+          }
+        },
+        {
+          "id": "obj_water",
+          "text": "Earn the water badge (Tidecaller).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_ferrock_gym_water"
+          }
+        },
+        {
+          "id": "obj_grass",
+          "text": "Earn the grass badge (Grovewarden).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_ferrock_gym_grass"
+          }
+        },
+        {
+          "id": "obj_electric",
+          "text": "Earn the electric badge (Stormsmith).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_ferrock_gym_electric"
+          }
+        },
+        {
+          "id": "obj_earth",
+          "text": "Earn the earth badge (Cairnbreaker).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_ferrock_gym_earth"
+          }
+        },
+        {
+          "id": "obj_wind",
+          "text": "Earn the wind badge (Skydancer).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_ferrock_gym_wind"
+          }
+        },
+        {
+          "id": "obj_mystic",
+          "text": "Earn the mystic badge (Dreambinder).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_ferrock_gym_mystic"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 4000
+        }
+      ],
+      "on_complete_flag": "league_open_ferrock"
+    },
+    {
+      "id": "circuit_brume",
+      "display_name": "The Brume Gym Circuit",
+      "category": "main",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_brume"
+      },
+      "description": "Defeat all eight gym leaders of Brume to open its League.",
+      "objectives": [
+        {
+          "id": "obj_normal",
+          "text": "Earn the normal badge (Plainskeeper).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_brume_gym_normal"
+          }
+        },
+        {
+          "id": "obj_fire",
+          "text": "Earn the fire badge (Ember Sage).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_brume_gym_fire"
+          }
+        },
+        {
+          "id": "obj_water",
+          "text": "Earn the water badge (Tidecaller).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_brume_gym_water"
+          }
+        },
+        {
+          "id": "obj_grass",
+          "text": "Earn the grass badge (Grovewarden).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_brume_gym_grass"
+          }
+        },
+        {
+          "id": "obj_electric",
+          "text": "Earn the electric badge (Stormsmith).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_brume_gym_electric"
+          }
+        },
+        {
+          "id": "obj_earth",
+          "text": "Earn the earth badge (Cairnbreaker).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_brume_gym_earth"
+          }
+        },
+        {
+          "id": "obj_wind",
+          "text": "Earn the wind badge (Skydancer).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_brume_gym_wind"
+          }
+        },
+        {
+          "id": "obj_mystic",
+          "text": "Earn the mystic badge (Dreambinder).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_brume_gym_mystic"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 4500
+        }
+      ],
+      "on_complete_flag": "league_open_brume"
+    },
+    {
+      "id": "circuit_lumen",
+      "display_name": "The Lumen Gym Circuit",
+      "category": "main",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_lumen"
+      },
+      "description": "Defeat all eight gym leaders of Lumen to open its League.",
+      "objectives": [
+        {
+          "id": "obj_normal",
+          "text": "Earn the normal badge (Plainskeeper).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_lumen_gym_normal"
+          }
+        },
+        {
+          "id": "obj_fire",
+          "text": "Earn the fire badge (Ember Sage).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_lumen_gym_fire"
+          }
+        },
+        {
+          "id": "obj_water",
+          "text": "Earn the water badge (Tidecaller).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_lumen_gym_water"
+          }
+        },
+        {
+          "id": "obj_grass",
+          "text": "Earn the grass badge (Grovewarden).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_lumen_gym_grass"
+          }
+        },
+        {
+          "id": "obj_electric",
+          "text": "Earn the electric badge (Stormsmith).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_lumen_gym_electric"
+          }
+        },
+        {
+          "id": "obj_earth",
+          "text": "Earn the earth badge (Cairnbreaker).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_lumen_gym_earth"
+          }
+        },
+        {
+          "id": "obj_wind",
+          "text": "Earn the wind badge (Skydancer).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_lumen_gym_wind"
+          }
+        },
+        {
+          "id": "obj_mystic",
+          "text": "Earn the mystic badge (Dreambinder).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_lumen_gym_mystic"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 5000
+        }
+      ],
+      "on_complete_flag": "league_open_lumen"
+    },
+    {
+      "id": "circuit_zephyra",
+      "display_name": "The Zephyra Gym Circuit",
+      "category": "main",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_zephyra"
+      },
+      "description": "Defeat all eight gym leaders of Zephyra to open its League.",
+      "objectives": [
+        {
+          "id": "obj_normal",
+          "text": "Earn the normal badge (Plainskeeper).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_zephyra_gym_normal"
+          }
+        },
+        {
+          "id": "obj_fire",
+          "text": "Earn the fire badge (Ember Sage).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_zephyra_gym_fire"
+          }
+        },
+        {
+          "id": "obj_water",
+          "text": "Earn the water badge (Tidecaller).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_zephyra_gym_water"
+          }
+        },
+        {
+          "id": "obj_grass",
+          "text": "Earn the grass badge (Grovewarden).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_zephyra_gym_grass"
+          }
+        },
+        {
+          "id": "obj_electric",
+          "text": "Earn the electric badge (Stormsmith).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_zephyra_gym_electric"
+          }
+        },
+        {
+          "id": "obj_earth",
+          "text": "Earn the earth badge (Cairnbreaker).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_zephyra_gym_earth"
+          }
+        },
+        {
+          "id": "obj_wind",
+          "text": "Earn the wind badge (Skydancer).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_zephyra_gym_wind"
+          }
+        },
+        {
+          "id": "obj_mystic",
+          "text": "Earn the mystic badge (Dreambinder).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_zephyra_gym_mystic"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 5500
+        }
+      ],
+      "on_complete_flag": "league_open_zephyra"
+    },
+    {
+      "id": "side_collect_3",
+      "display_name": "Novice Catcher",
+      "category": "side",
+      "auto_start": true,
+      "description": "Catch 3 creatures in total across your journey.",
+      "objectives": [
+        {
+          "id": "obj_catch",
+          "text": "Catch 3 creatures.",
+          "condition": {
+            "kind": "counter",
+            "counter": "creatures_caught",
+            "at_least": 3
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "item",
+          "item": "great_orb",
+          "quantity": 1
+        },
+        {
+          "kind": "money",
+          "amount": 200
+        }
+      ],
+      "on_complete_flag": "collect_3_done"
+    },
+    {
+      "id": "side_collect_10",
+      "display_name": "Field Cataloguer",
+      "category": "side",
+      "auto_start": true,
+      "description": "Catch 10 creatures in total across your journey.",
+      "objectives": [
+        {
+          "id": "obj_catch",
+          "text": "Catch 10 creatures.",
+          "condition": {
+            "kind": "counter",
+            "counter": "creatures_caught",
+            "at_least": 10
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "item",
+          "item": "super_potion",
+          "quantity": 3
+        },
+        {
+          "kind": "money",
+          "amount": 400
+        }
+      ],
+      "on_complete_flag": "collect_10_done"
+    },
+    {
+      "id": "side_collect_25",
+      "display_name": "Regional Naturalist",
+      "category": "side",
+      "auto_start": true,
+      "description": "Catch 25 creatures in total across your journey.",
+      "objectives": [
+        {
+          "id": "obj_catch",
+          "text": "Catch 25 creatures.",
+          "condition": {
+            "kind": "counter",
+            "counter": "creatures_caught",
+            "at_least": 25
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "item",
+          "item": "dusk_orb",
+          "quantity": 3
+        },
+        {
+          "kind": "money",
+          "amount": 600
+        }
+      ],
+      "on_complete_flag": "collect_25_done"
+    },
+    {
+      "id": "side_collect_50",
+      "display_name": "Master Collector",
+      "category": "side",
+      "auto_start": true,
+      "description": "Catch 50 creatures in total across your journey.",
+      "objectives": [
+        {
+          "id": "obj_catch",
+          "text": "Catch 50 creatures.",
+          "condition": {
+            "kind": "counter",
+            "counter": "creatures_caught",
+            "at_least": 50
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "item",
+          "item": "master_orb",
+          "quantity": 1
+        },
+        {
+          "kind": "money",
+          "amount": 800
+        }
+      ],
+      "on_complete_flag": "collect_50_done"
+    },
+    {
+      "id": "side_collect_100",
+      "display_name": "Living Encyclopedia",
+      "category": "side",
+      "auto_start": true,
+      "description": "Catch 100 creatures in total across your journey.",
+      "objectives": [
+        {
+          "id": "obj_catch",
+          "text": "Catch 100 creatures.",
+          "condition": {
+            "kind": "counter",
+            "counter": "creatures_caught",
+            "at_least": 100
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "item",
+          "item": "max_revive",
+          "quantity": 2
+        },
+        {
+          "kind": "money",
+          "amount": 1000
+        }
+      ],
+      "on_complete_flag": "collect_100_done"
+    },
+    {
+      "id": "side_spar_verdantia",
+      "display_name": "Verdantia Sparring League",
+      "category": "side",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_verdantia"
+      },
+      "description": "Prove yourself against three regulars of the Verdantia Battle Court.",
+      "objectives": [
+        {
+          "id": "obj_0",
+          "text": "Defeat a Verdantia Court regular (1/3).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_verdantia_court1_t0"
+          }
+        },
+        {
+          "id": "obj_1",
+          "text": "Defeat a Verdantia Court regular (2/3).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_verdantia_court1_t1"
+          }
+        },
+        {
+          "id": "obj_2",
+          "text": "Defeat a Verdantia Court regular (3/3).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_verdantia_court1_t2"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 700
+        },
+        {
+          "kind": "item",
+          "item": "hyper_potion",
+          "quantity": 2
+        }
+      ],
+      "on_complete_flag": "spar_verdantia_done"
+    },
+    {
+      "id": "side_spar_aquilon",
+      "display_name": "Aquilon Sparring League",
+      "category": "side",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_aquilon"
+      },
+      "description": "Prove yourself against three regulars of the Aquilon Battle Court.",
+      "objectives": [
+        {
+          "id": "obj_0",
+          "text": "Defeat a Aquilon Court regular (1/3).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_aquilon_court1_t0"
+          }
+        },
+        {
+          "id": "obj_1",
+          "text": "Defeat a Aquilon Court regular (2/3).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_aquilon_court1_t1"
+          }
+        },
+        {
+          "id": "obj_2",
+          "text": "Defeat a Aquilon Court regular (3/3).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_aquilon_court1_t2"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 900
+        },
+        {
+          "kind": "item",
+          "item": "hyper_potion",
+          "quantity": 2
+        }
+      ],
+      "on_complete_flag": "spar_aquilon_done"
+    },
+    {
+      "id": "side_spar_cindral",
+      "display_name": "Cindral Sparring League",
+      "category": "side",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_cindral"
+      },
+      "description": "Prove yourself against three regulars of the Cindral Battle Court.",
+      "objectives": [
+        {
+          "id": "obj_0",
+          "text": "Defeat a Cindral Court regular (1/3).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_cindral_court1_t0"
+          }
+        },
+        {
+          "id": "obj_1",
+          "text": "Defeat a Cindral Court regular (2/3).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_cindral_court1_t1"
+          }
+        },
+        {
+          "id": "obj_2",
+          "text": "Defeat a Cindral Court regular (3/3).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_cindral_court1_t2"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 1100
+        },
+        {
+          "kind": "item",
+          "item": "hyper_potion",
+          "quantity": 2
+        }
+      ],
+      "on_complete_flag": "spar_cindral_done"
+    },
+    {
+      "id": "side_spar_solane",
+      "display_name": "Solane Sparring League",
+      "category": "side",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_solane"
+      },
+      "description": "Prove yourself against three regulars of the Solane Battle Court.",
+      "objectives": [
+        {
+          "id": "obj_0",
+          "text": "Defeat a Solane Court regular (1/3).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_solane_court1_t0"
+          }
+        },
+        {
+          "id": "obj_1",
+          "text": "Defeat a Solane Court regular (2/3).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_solane_court1_t1"
+          }
+        },
+        {
+          "id": "obj_2",
+          "text": "Defeat a Solane Court regular (3/3).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_solane_court1_t2"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 1300
+        },
+        {
+          "kind": "item",
+          "item": "hyper_potion",
+          "quantity": 2
+        }
+      ],
+      "on_complete_flag": "spar_solane_done"
+    },
+    {
+      "id": "side_spar_umbra",
+      "display_name": "Umbra Sparring League",
+      "category": "side",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_umbra"
+      },
+      "description": "Prove yourself against three regulars of the Umbra Battle Court.",
+      "objectives": [
+        {
+          "id": "obj_0",
+          "text": "Defeat a Umbra Court regular (1/3).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_umbra_court1_t0"
+          }
+        },
+        {
+          "id": "obj_1",
+          "text": "Defeat a Umbra Court regular (2/3).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_umbra_court1_t1"
+          }
+        },
+        {
+          "id": "obj_2",
+          "text": "Defeat a Umbra Court regular (3/3).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_umbra_court1_t2"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 1500
+        },
+        {
+          "kind": "item",
+          "item": "hyper_potion",
+          "quantity": 2
+        }
+      ],
+      "on_complete_flag": "spar_umbra_done"
+    },
+    {
+      "id": "side_spar_ferrock",
+      "display_name": "Ferrock Sparring League",
+      "category": "side",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_ferrock"
+      },
+      "description": "Prove yourself against three regulars of the Ferrock Battle Court.",
+      "objectives": [
+        {
+          "id": "obj_0",
+          "text": "Defeat a Ferrock Court regular (1/3).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_ferrock_court1_t0"
+          }
+        },
+        {
+          "id": "obj_1",
+          "text": "Defeat a Ferrock Court regular (2/3).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_ferrock_court1_t1"
+          }
+        },
+        {
+          "id": "obj_2",
+          "text": "Defeat a Ferrock Court regular (3/3).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_ferrock_court1_t2"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 1700
+        },
+        {
+          "kind": "item",
+          "item": "hyper_potion",
+          "quantity": 2
+        }
+      ],
+      "on_complete_flag": "spar_ferrock_done"
+    },
+    {
+      "id": "side_spar_brume",
+      "display_name": "Brume Sparring League",
+      "category": "side",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_brume"
+      },
+      "description": "Prove yourself against three regulars of the Brume Battle Court.",
+      "objectives": [
+        {
+          "id": "obj_0",
+          "text": "Defeat a Brume Court regular (1/3).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_brume_court1_t0"
+          }
+        },
+        {
+          "id": "obj_1",
+          "text": "Defeat a Brume Court regular (2/3).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_brume_court1_t1"
+          }
+        },
+        {
+          "id": "obj_2",
+          "text": "Defeat a Brume Court regular (3/3).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_brume_court1_t2"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 1900
+        },
+        {
+          "kind": "item",
+          "item": "hyper_potion",
+          "quantity": 2
+        }
+      ],
+      "on_complete_flag": "spar_brume_done"
+    },
+    {
+      "id": "side_spar_lumen",
+      "display_name": "Lumen Sparring League",
+      "category": "side",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_lumen"
+      },
+      "description": "Prove yourself against three regulars of the Lumen Battle Court.",
+      "objectives": [
+        {
+          "id": "obj_0",
+          "text": "Defeat a Lumen Court regular (1/3).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_lumen_court1_t0"
+          }
+        },
+        {
+          "id": "obj_1",
+          "text": "Defeat a Lumen Court regular (2/3).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_lumen_court1_t1"
+          }
+        },
+        {
+          "id": "obj_2",
+          "text": "Defeat a Lumen Court regular (3/3).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_lumen_court1_t2"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 2100
+        },
+        {
+          "kind": "item",
+          "item": "hyper_potion",
+          "quantity": 2
+        }
+      ],
+      "on_complete_flag": "spar_lumen_done"
+    },
+    {
+      "id": "side_spar_zephyra",
+      "display_name": "Zephyra Sparring League",
+      "category": "side",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_zephyra"
+      },
+      "description": "Prove yourself against three regulars of the Zephyra Battle Court.",
+      "objectives": [
+        {
+          "id": "obj_0",
+          "text": "Defeat a Zephyra Court regular (1/3).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_zephyra_court1_t0"
+          }
+        },
+        {
+          "id": "obj_1",
+          "text": "Defeat a Zephyra Court regular (2/3).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_zephyra_court1_t1"
+          }
+        },
+        {
+          "id": "obj_2",
+          "text": "Defeat a Zephyra Court regular (3/3).",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_zephyra_court1_t2"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 2300
+        },
+        {
+          "kind": "item",
+          "item": "hyper_potion",
+          "quantity": 2
+        }
+      ],
+      "on_complete_flag": "spar_zephyra_done"
+    },
+    {
+      "id": "wonder_verdantia",
+      "display_name": "Wonders of Verdantia",
+      "category": "side",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_verdantia"
+      },
+      "description": "Seek out the Verdant Glade and hear what its keeper remembers.",
+      "objectives": [
+        {
+          "id": "obj_explore",
+          "text": "Visit the Verdant Glade and speak with Elder Root.",
+          "condition": {
+            "kind": "flag",
+            "flag": "explored_verdantia"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 400
+        },
+        {
+          "kind": "item",
+          "item": "hyper_potion",
+          "quantity": 1
+        }
+      ],
+      "on_complete_flag": "wonder_verdantia_done"
+    },
+    {
+      "id": "wonder_aquilon",
+      "display_name": "Wonders of Aquilon",
+      "category": "side",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_aquilon"
+      },
+      "description": "Seek out the Frostwatch Lighthouse and hear what its keeper remembers.",
+      "objectives": [
+        {
+          "id": "obj_explore",
+          "text": "Visit the Frostwatch Lighthouse and speak with Keeper Halden.",
+          "condition": {
+            "kind": "flag",
+            "flag": "explored_aquilon"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 550
+        },
+        {
+          "kind": "item",
+          "item": "hyper_potion",
+          "quantity": 1
+        }
+      ],
+      "on_complete_flag": "wonder_aquilon_done"
+    },
+    {
+      "id": "wonder_cindral",
+      "display_name": "Wonders of Cindral",
+      "category": "side",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_cindral"
+      },
+      "description": "Seek out the Ashfall Caldera and hear what its keeper remembers.",
+      "objectives": [
+        {
+          "id": "obj_explore",
+          "text": "Visit the Ashfall Caldera and speak with Emberwarden Sol.",
+          "condition": {
+            "kind": "flag",
+            "flag": "explored_cindral"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 700
+        },
+        {
+          "kind": "item",
+          "item": "hyper_potion",
+          "quantity": 1
+        }
+      ],
+      "on_complete_flag": "wonder_cindral_done"
+    },
+    {
+      "id": "wonder_solane",
+      "display_name": "Wonders of Solane",
+      "category": "side",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_solane"
+      },
+      "description": "Seek out the Mirage Oasis and hear what its keeper remembers.",
+      "objectives": [
+        {
+          "id": "obj_explore",
+          "text": "Visit the Mirage Oasis and speak with Wanderer Sima.",
+          "condition": {
+            "kind": "flag",
+            "flag": "explored_solane"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 850
+        },
+        {
+          "kind": "item",
+          "item": "hyper_potion",
+          "quantity": 1
+        }
+      ],
+      "on_complete_flag": "wonder_solane_done"
+    },
+    {
+      "id": "wonder_umbra",
+      "display_name": "Wonders of Umbra",
+      "category": "side",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_umbra"
+      },
+      "description": "Seek out the Duskbell Grove and hear what its keeper remembers.",
+      "objectives": [
+        {
+          "id": "obj_explore",
+          "text": "Visit the Duskbell Grove and speak with Nightwarden Vesper.",
+          "condition": {
+            "kind": "flag",
+            "flag": "explored_umbra"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 1000
+        },
+        {
+          "kind": "item",
+          "item": "hyper_potion",
+          "quantity": 1
+        }
+      ],
+      "on_complete_flag": "wonder_umbra_done"
+    },
+    {
+      "id": "wonder_ferrock",
+      "display_name": "Wonders of Ferrock",
+      "category": "side",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_ferrock"
+      },
+      "description": "Seek out the The Old Foundry and hear what its keeper remembers.",
+      "objectives": [
+        {
+          "id": "obj_explore",
+          "text": "Visit the The Old Foundry and speak with Foreman Dross.",
+          "condition": {
+            "kind": "flag",
+            "flag": "explored_ferrock"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 1150
+        },
+        {
+          "kind": "item",
+          "item": "hyper_potion",
+          "quantity": 1
+        }
+      ],
+      "on_complete_flag": "wonder_ferrock_done"
+    },
+    {
+      "id": "wonder_brume",
+      "display_name": "Wonders of Brume",
+      "category": "side",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_brume"
+      },
+      "description": "Seek out the The Sunken Chapel and hear what its keeper remembers.",
+      "objectives": [
+        {
+          "id": "obj_explore",
+          "text": "Visit the The Sunken Chapel and speak with Fenpriest Maren.",
+          "condition": {
+            "kind": "flag",
+            "flag": "explored_brume"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 1300
+        },
+        {
+          "kind": "item",
+          "item": "hyper_potion",
+          "quantity": 1
+        }
+      ],
+      "on_complete_flag": "wonder_brume_done"
+    },
+    {
+      "id": "wonder_lumen",
+      "display_name": "Wonders of Lumen",
+      "category": "side",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_lumen"
+      },
+      "description": "Seek out the Prism Cavern and hear what its keeper remembers.",
+      "objectives": [
+        {
+          "id": "obj_explore",
+          "text": "Visit the Prism Cavern and speak with Lumar the Seer.",
+          "condition": {
+            "kind": "flag",
+            "flag": "explored_lumen"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 1450
+        },
+        {
+          "kind": "item",
+          "item": "hyper_potion",
+          "quantity": 1
+        }
+      ],
+      "on_complete_flag": "wonder_lumen_done"
+    },
+    {
+      "id": "wonder_zephyra",
+      "display_name": "Wonders of Zephyra",
+      "category": "side",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "visited_zephyra"
+      },
+      "description": "Seek out the Skyreach Shrine and hear what its keeper remembers.",
+      "objectives": [
+        {
+          "id": "obj_explore",
+          "text": "Visit the Skyreach Shrine and speak with Windspeaker Aquila.",
+          "condition": {
+            "kind": "flag",
+            "flag": "explored_zephyra"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 1600
+        },
+        {
+          "kind": "item",
+          "item": "hyper_potion",
+          "quantity": 1
+        }
+      ],
+      "on_complete_flag": "wonder_zephyra_done"
+    },
+    {
+      "id": "side_rival_road",
+      "display_name": "The Count Between Us",
+      "category": "side",
+      "auto_start": false,
+      "start_condition": {
+        "kind": "flag",
+        "flag": "got_starter"
+      },
+      "description": "Corin keeps a running count of your battles. Meet him on the road — Verdantia, Solane, Brume — and settle it.",
+      "objectives": [
+        {
+          "id": "obj_r1",
+          "text": "Beat Corin on the Verdantia route.",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_corin_rival_1"
+          }
+        },
+        {
+          "id": "obj_r2",
+          "text": "Beat Corin in the Solane wilds.",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_corin_rival_2"
+          }
+        },
+        {
+          "id": "obj_r3",
+          "text": "Beat Corin in the Brume wilds.",
+          "condition": {
+            "kind": "flag",
+            "flag": "beat_corin_rival_3"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "kind": "money",
+          "amount": 3000
+        },
+        {
+          "kind": "item",
+          "item": "max_revive",
+          "quantity": 1
+        }
+      ],
+      "on_complete_flag": "rival_road_done",
+      "on_complete_actions": [
+        {
+          "kind": "adjust_relationship",
+          "npc": "corin",
+          "delta": 2
+        }
+      ]
+    }
+  ]
+}

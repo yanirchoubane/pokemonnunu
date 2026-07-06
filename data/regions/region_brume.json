@@ -1,0 +1,39 @@
+{
+  "$schema_version": 1,
+  "id": "brume",
+  "display_name": "Brume",
+  "order": 7,
+  "starting_map": "brume_gate",
+  "recommended_level_min": 38,
+  "recommended_level_max": 48,
+  "badge_count": 9,
+  "league_id": "brume_league",
+  "next_regions": [
+    "lumen"
+  ],
+  "maps": [
+    "brume_gate",
+    "brume_wilds",
+    "brume_hall",
+    "brume_crossroads",
+    "brume_gym_normal",
+    "brume_gym_fire",
+    "brume_gym_water",
+    "brume_gym_grass",
+    "brume_gym_electric",
+    "brume_gym_earth",
+    "brume_gym_wind",
+    "brume_gym_mystic",
+    "brume_court_1",
+    "brume_court_2",
+    "brume_court_3",
+    "brume_court_4",
+    "brume_landmark"
+  ],
+  "regional_rules": {
+    "level_scaling": "soft",
+    "encounter_table": "brume_encounters",
+    "allow_previous_team": true,
+    "obedience_cap_level": 58
+  }
+}

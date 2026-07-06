@@ -1,0 +1,180 @@
+{
+  "$schema_version": 1,
+  "description": "Original items. 'use' effects are interpreted by scripts/core/item_effects.gd (in-battle and in-menu).",
+  "items": [
+    {
+      "id": "capture_orb",
+      "display_name": "Capture Orb",
+      "category": "capture",
+      "price": 200,
+      "sell": 100,
+      "description": "A basic orb used to catch wild creatures.",
+      "use": {
+        "kind": "capture",
+        "ball_rate": 1.0
+      },
+      "usable_in_battle": true,
+      "consumable": true
+    },
+    {
+      "id": "great_orb",
+      "display_name": "Great Orb",
+      "category": "capture",
+      "price": 600,
+      "sell": 300,
+      "description": "An improved orb with a higher catch rate.",
+      "use": {
+        "kind": "capture",
+        "ball_rate": 1.5
+      },
+      "usable_in_battle": true,
+      "consumable": true
+    },
+    {
+      "id": "potion",
+      "display_name": "Salve",
+      "category": "healing",
+      "price": 300,
+      "sell": 150,
+      "description": "Restores 20 HP to one creature.",
+      "use": {
+        "kind": "heal_hp",
+        "amount": 20
+      },
+      "usable_in_battle": true,
+      "consumable": true
+    },
+    {
+      "id": "super_potion",
+      "display_name": "Greater Salve",
+      "category": "healing",
+      "price": 700,
+      "sell": 350,
+      "description": "Restores 50 HP to one creature.",
+      "use": {
+        "kind": "heal_hp",
+        "amount": 50
+      },
+      "usable_in_battle": true,
+      "consumable": true
+    },
+    {
+      "id": "antidote",
+      "display_name": "Cleanser",
+      "category": "healing",
+      "price": 150,
+      "sell": 75,
+      "description": "Cures poison from one creature.",
+      "use": {
+        "kind": "cure_status",
+        "status": "poison"
+      },
+      "usable_in_battle": true,
+      "consumable": true
+    },
+    {
+      "id": "revive",
+      "display_name": "Renewal",
+      "category": "healing",
+      "price": 1200,
+      "sell": 600,
+      "description": "Revives a fainted creature with half HP.",
+      "use": {
+        "kind": "revive",
+        "fraction": 0.5
+      },
+      "usable_in_battle": true,
+      "consumable": true
+    },
+    {
+      "id": "ether_shard",
+      "display_name": "Ether Shard",
+      "category": "evolution",
+      "price": 2000,
+      "sell": 1000,
+      "description": "A shard that triggers certain creature evolutions.",
+      "use": {
+        "kind": "evolution_stone"
+      },
+      "usable_in_battle": false,
+      "consumable": true
+    },
+    {
+      "id": "master_orb",
+      "display_name": "Master Orb",
+      "description": "The finest capture orb.",
+      "price": 0,
+      "usable_in_battle": true,
+      "use": {
+        "kind": "capture",
+        "ball_rate": 3.0
+      }
+    },
+    {
+      "id": "dusk_orb",
+      "display_name": "Dusk Orb",
+      "description": "A capture orb tuned for the wild north.",
+      "price": 600,
+      "usable_in_battle": true,
+      "use": {
+        "kind": "capture",
+        "ball_rate": 2.0
+      }
+    },
+    {
+      "id": "hyper_potion",
+      "display_name": "Hyper Potion",
+      "description": "Restores 120 HP.",
+      "price": 1200,
+      "usable_in_battle": true,
+      "use": {
+        "kind": "heal_hp",
+        "amount": 120
+      }
+    },
+    {
+      "id": "max_potion",
+      "display_name": "Max Potion",
+      "description": "Fully restores HP.",
+      "price": 2500,
+      "usable_in_battle": true,
+      "use": {
+        "kind": "heal_hp",
+        "amount": 9999
+      }
+    },
+    {
+      "id": "burn_salve",
+      "display_name": "Burn Salve",
+      "description": "Cures a burn.",
+      "price": 250,
+      "usable_in_battle": true,
+      "use": {
+        "kind": "cure_status",
+        "status": "burn"
+      }
+    },
+    {
+      "id": "spark_charm",
+      "display_name": "Spark Charm",
+      "description": "Cures paralysis.",
+      "price": 250,
+      "usable_in_battle": true,
+      "use": {
+        "kind": "cure_status",
+        "status": "paralyze"
+      }
+    },
+    {
+      "id": "max_revive",
+      "display_name": "Max Revive",
+      "description": "Revives a fainted creature to full HP.",
+      "price": 4000,
+      "usable_in_battle": true,
+      "use": {
+        "kind": "revive",
+        "fraction": 1.0
+      }
+    }
+  ]
+}

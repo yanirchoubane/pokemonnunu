@@ -1,0 +1,95 @@
+{
+  "$schema_version": 1,
+  "id": "lumen_landmark",
+  "display_name": "Prism Cavern",
+  "region": "lumen",
+  "bgm": "ridge",
+  "tile_size": 32,
+  "legend": {
+    "#": "wall",
+    ".": "floor",
+    "D": "door",
+    "H": "heal_pad",
+    "~": "wall"
+  },
+  "rows": [
+    "###########",
+    "#~~.....~~#",
+    "#.........#",
+    "#.........#",
+    "D.........#",
+    "#.........#",
+    "#.........#",
+    "#~~.....~~#",
+    "#####D#####"
+  ],
+  "objects": [
+    {
+      "type": "spawn",
+      "id": "entrance",
+      "x": 5,
+      "y": 7
+    },
+    {
+      "type": "spawn",
+      "id": "from_crossroads",
+      "x": 1,
+      "y": 4
+    },
+    {
+      "type": "door",
+      "x": 5,
+      "y": 8,
+      "to_map": "lumen_crossroads",
+      "to_spawn": "from_landmark"
+    },
+    {
+      "type": "door",
+      "x": 0,
+      "y": 4,
+      "to_map": "lumen_crossroads",
+      "to_spawn": "from_landmark"
+    },
+    {
+      "type": "npc",
+      "x": 5,
+      "y": 2,
+      "npc_id": "lumen_keeper",
+      "sprite": "npc_watcher",
+      "dialog_id": "lore_lumen"
+    },
+    {
+      "type": "sign",
+      "x": 3,
+      "y": 3,
+      "text": "Prism Cavern — every crystal holds a sliver of light the valley once saw."
+    },
+    {
+      "type": "sign",
+      "x": 7,
+      "y": 3,
+      "text": "Look long enough and you'll see a memory that isn't yours. Don't look too long."
+    },
+    {
+      "type": "sign",
+      "x": 5,
+      "y": 5,
+      "text": "Lumen's creatures are made of borrowed light. So, some say, are we all."
+    },
+    {
+      "type": "item",
+      "x": 2,
+      "y": 6,
+      "item": "ether_shard",
+      "flag": "item_lumen_landmark"
+    },
+    {
+      "type": "npc",
+      "x": 8,
+      "y": 3,
+      "npc_id": "folk_lumen_l0",
+      "sprite": "npc_villager",
+      "dialog_id": "town_lumen_l0"
+    }
+  ]
+}

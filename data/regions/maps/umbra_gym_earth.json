@@ -1,0 +1,53 @@
+{
+  "$schema_version": 1,
+  "id": "umbra_gym_earth",
+  "display_name": "Umbra Earth Gym",
+  "region": "umbra",
+  "bgm": "town",
+  "tile_size": 32,
+  "legend": {
+    "#": "wall",
+    ".": "floor",
+    "D": "door"
+  },
+  "rows": [
+    "#######",
+    "#.....#",
+    "#.....#",
+    "#.....#",
+    "#.....#",
+    "#.....#",
+    "###D###"
+  ],
+  "objects": [
+    {
+      "type": "spawn",
+      "id": "entrance",
+      "x": 3,
+      "y": 5
+    },
+    {
+      "type": "door",
+      "x": 3,
+      "y": 6,
+      "to_map": "umbra_crossroads",
+      "to_spawn": "from_earth_gym"
+    },
+    {
+      "type": "trainer",
+      "x": 3,
+      "y": 2,
+      "trainer_id": "umbra_gym_earth",
+      "sprite": "trainer_gym",
+      "sight": 2,
+      "facing": "down",
+      "flag": "beat_umbra_gym_earth"
+    },
+    {
+      "type": "sign",
+      "x": 1,
+      "y": 1,
+      "text": "Cairnbreaker's gym — earth techniques honored here."
+    }
+  ]
+}

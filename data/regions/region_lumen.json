@@ -1,0 +1,39 @@
+{
+  "$schema_version": 1,
+  "id": "lumen",
+  "display_name": "Lumen",
+  "order": 8,
+  "starting_map": "lumen_gate",
+  "recommended_level_min": 44,
+  "recommended_level_max": 54,
+  "badge_count": 9,
+  "league_id": "lumen_league",
+  "next_regions": [
+    "zephyra"
+  ],
+  "maps": [
+    "lumen_gate",
+    "lumen_wilds",
+    "lumen_hall",
+    "lumen_crossroads",
+    "lumen_gym_normal",
+    "lumen_gym_fire",
+    "lumen_gym_water",
+    "lumen_gym_grass",
+    "lumen_gym_electric",
+    "lumen_gym_earth",
+    "lumen_gym_wind",
+    "lumen_gym_mystic",
+    "lumen_court_1",
+    "lumen_court_2",
+    "lumen_court_3",
+    "lumen_court_4",
+    "lumen_landmark"
+  ],
+  "regional_rules": {
+    "level_scaling": "soft",
+    "encounter_table": "lumen_encounters",
+    "allow_previous_team": true,
+    "obedience_cap_level": 64
+  }
+}

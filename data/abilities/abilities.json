@@ -1,0 +1,189 @@
+{
+  "$schema_version": 1,
+  "description": "Original passive talents. 'hooks' name battle events the ability reacts to; handlers live in scripts/battle/ability_effects.gd.",
+  "abilities": [
+    {
+      "id": "blaze_heart",
+      "display_name": "Blaze Heart",
+      "description": "Boosts Ember moves when HP is low.",
+      "hooks": [
+        "modify_outgoing_damage"
+      ],
+      "params": {
+        "type": "fire",
+        "hp_threshold": 0.34,
+        "multiplier": 1.5
+      }
+    },
+    {
+      "id": "tide_soul",
+      "display_name": "Tide Soul",
+      "description": "Boosts Tide moves when HP is low.",
+      "hooks": [
+        "modify_outgoing_damage"
+      ],
+      "params": {
+        "type": "water",
+        "hp_threshold": 0.34,
+        "multiplier": 1.5
+      }
+    },
+    {
+      "id": "overgrow",
+      "display_name": "Wildgrowth",
+      "description": "Boosts Verdant moves when HP is low.",
+      "hooks": [
+        "modify_outgoing_damage"
+      ],
+      "params": {
+        "type": "grass",
+        "hp_threshold": 0.34,
+        "multiplier": 1.5
+      }
+    },
+    {
+      "id": "static_skin",
+      "display_name": "Static Skin",
+      "description": "May paralyze attackers on contact.",
+      "hooks": [
+        "on_contact_hit"
+      ],
+      "params": {
+        "status": "paralyze",
+        "chance": 0.3
+      }
+    },
+    {
+      "id": "thick_hide",
+      "display_name": "Thick Hide",
+      "description": "Reduces incoming physical damage slightly.",
+      "hooks": [
+        "modify_incoming_damage"
+      ],
+      "params": {
+        "category": "physical",
+        "multiplier": 0.85
+      }
+    },
+    {
+      "id": "keen_mind",
+      "display_name": "Keen Mind",
+      "description": "Immune to Sp. Attack drops; steadier crits.",
+      "hooks": [
+        "prevent_stat_drop"
+      ],
+      "params": {
+        "stat": "sp_attack"
+      }
+    },
+    {
+      "id": "swift_foot",
+      "display_name": "Swift Foot",
+      "description": "Cannot be slowed by Speed drops.",
+      "hooks": [
+        "prevent_stat_drop"
+      ],
+      "params": {
+        "stat": "speed"
+      }
+    },
+    {
+      "id": "gale_soul",
+      "display_name": "Gale Soul",
+      "description": "Boosts Gale moves at low HP.",
+      "hooks": [
+        "modify_outgoing_damage"
+      ],
+      "params": {
+        "type": "wind",
+        "hp_threshold": 0.34,
+        "multiplier": 1.5
+      }
+    },
+    {
+      "id": "quake_soul",
+      "display_name": "Quake Soul",
+      "description": "Boosts Terra moves at low HP.",
+      "hooks": [
+        "modify_outgoing_damage"
+      ],
+      "params": {
+        "type": "earth",
+        "hp_threshold": 0.34,
+        "multiplier": 1.5
+      }
+    },
+    {
+      "id": "volt_soul",
+      "display_name": "Volt Soul",
+      "description": "Boosts Spark moves at low HP.",
+      "hooks": [
+        "modify_outgoing_damage"
+      ],
+      "params": {
+        "type": "electric",
+        "hp_threshold": 0.34,
+        "multiplier": 1.5
+      }
+    },
+    {
+      "id": "psy_soul",
+      "display_name": "Psy Soul",
+      "description": "Boosts Mystic moves at low HP.",
+      "hooks": [
+        "modify_outgoing_damage"
+      ],
+      "params": {
+        "type": "mystic",
+        "hp_threshold": 0.34,
+        "multiplier": 1.5
+      }
+    },
+    {
+      "id": "iron_wall",
+      "display_name": "Iron Wall",
+      "description": "Takes less physical damage.",
+      "hooks": [
+        "modify_incoming_damage"
+      ],
+      "params": {
+        "category": "physical",
+        "multiplier": 0.8
+      }
+    },
+    {
+      "id": "spectral_veil",
+      "display_name": "Spectral Veil",
+      "description": "Takes less special damage.",
+      "hooks": [
+        "modify_incoming_damage"
+      ],
+      "params": {
+        "category": "special",
+        "multiplier": 0.8
+      }
+    },
+    {
+      "id": "sure_grip",
+      "display_name": "Sure Grip",
+      "description": "Its Defense cannot be lowered.",
+      "hooks": [
+        "prevent_stat_drop"
+      ],
+      "params": {
+        "stat": "defense"
+      }
+    },
+    {
+      "id": "steady_aim",
+      "display_name": "Steady Aim",
+      "description": "Its Attack cannot be lowered.",
+      "hooks": [
+        "prevent_stat_drop"
+      ],
+      "params": {
+        "stat": "attack"
+      }
+    }
+  ]
+}

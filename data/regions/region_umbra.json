@@ -1,0 +1,39 @@
+{
+  "$schema_version": 1,
+  "id": "umbra",
+  "display_name": "Umbra",
+  "order": 5,
+  "starting_map": "umbra_gate",
+  "recommended_level_min": 26,
+  "recommended_level_max": 36,
+  "badge_count": 9,
+  "league_id": "umbra_league",
+  "next_regions": [
+    "ferrock"
+  ],
+  "maps": [
+    "umbra_gate",
+    "umbra_wilds",
+    "umbra_hall",
+    "umbra_crossroads",
+    "umbra_gym_normal",
+    "umbra_gym_fire",
+    "umbra_gym_water",
+    "umbra_gym_grass",
+    "umbra_gym_electric",
+    "umbra_gym_earth",
+    "umbra_gym_wind",
+    "umbra_gym_mystic",
+    "umbra_court_1",
+    "umbra_court_2",
+    "umbra_court_3",
+    "umbra_court_4",
+    "umbra_landmark"
+  ],
+  "regional_rules": {
+    "level_scaling": "soft",
+    "encounter_table": "umbra_encounters",
+    "allow_previous_team": true,
+    "obedience_cap_level": 46
+  }
+}

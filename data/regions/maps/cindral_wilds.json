@@ -1,0 +1,130 @@
+{
+  "$schema_version": 1,
+  "id": "cindral_wilds",
+  "display_name": "Cindral Wilds",
+  "region": "cindral",
+  "bgm": "route",
+  "tile_size": 32,
+  "legend": {
+    "#": "wall",
+    ".": "ground",
+    "~": "tall_grass",
+    "P": "path",
+    "D": "door"
+  },
+  "rows": [
+    "##############",
+    "#~~~....~~~..#",
+    "#~~~....~~~..#",
+    "#............#",
+    "D....PPPP....D",
+    "#............#",
+    "#..~~~...~~~.#",
+    "#..~~~...~~~.#",
+    "##############"
+  ],
+  "objects": [
+    {
+      "type": "spawn",
+      "id": "from_gate",
+      "x": 1,
+      "y": 4
+    },
+    {
+      "type": "spawn",
+      "id": "from_hall",
+      "x": 12,
+      "y": 4
+    },
+    {
+      "type": "door",
+      "x": 0,
+      "y": 4,
+      "to_map": "cindral_gate",
+      "to_spawn": "from_wilds"
+    },
+    {
+      "type": "door",
+      "x": 13,
+      "y": 4,
+      "to_map": "cindral_crossroads",
+      "to_spawn": "from_wilds",
+      "requires_flag": "beat_cindral_scout",
+      "locked_text": "The hall road opens once the wilds' scout acknowledges you."
+    },
+    {
+      "type": "encounter_zone",
+      "table": "cindral_encounters"
+    },
+    {
+      "type": "trainer",
+      "x": 7,
+      "y": 3,
+      "trainer_id": "cindral_scout",
+      "sprite": "trainer_scout",
+      "sight": 2,
+      "facing": "down",
+      "flag": "beat_cindral_scout"
+    },
+    {
+      "type": "item",
+      "x": 11,
+      "y": 1,
+      "item": "super_potion",
+      "flag": "item_cindral_wilds_1"
+    },
+    {
+      "type": "sign",
+      "x": 4,
+      "y": 3,
+      "text": "Cindral Wilds — locals report creatures around Lv 14."
+    },
+    {
+      "type": "trainer",
+      "x": 2,
+      "y": 3,
+      "trainer_id": "cindral_rambler",
+      "sprite": "trainer_rambler",
+      "sight": 2,
+      "facing": "down",
+      "flag": "beat_cindral_rambler"
+    },
+    {
+      "type": "trainer",
+      "x": 11,
+      "y": 5,
+      "trainer_id": "cindral_angler",
+      "sprite": "trainer_angler",
+      "sight": 2,
+      "facing": "up",
+      "flag": "beat_cindral_angler"
+    },
+    {
+      "type": "trainer",
+      "x": 6,
+      "y": 6,
+      "trainer_id": "cindral_miner",
+      "sprite": "trainer_miner",
+      "sight": 2,
+      "facing": "right",
+      "flag": "beat_cindral_miner"
+    },
+    {
+      "type": "trainer",
+      "x": 10,
+      "y": 2,
+      "trainer_id": "hollow_agent_cindral",
+      "sprite": "trainer_hollow",
+      "sight": 2,
+      "facing": "down",
+      "flag": "beat_hollow_agent_cindral"
+    },
+    {
+      "type": "sign",
+      "x": 4,
+      "y": 3,
+      "text": "NOTICE: Vents open without warning past this marker. Since the gray coats came, travel armed and travel light.",
+      "gen": "sign"
+    }
+  ]
+}

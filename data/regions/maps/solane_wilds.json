@@ -1,0 +1,130 @@
+{
+  "$schema_version": 1,
+  "id": "solane_wilds",
+  "display_name": "Solane Wilds",
+  "region": "solane",
+  "bgm": "route",
+  "tile_size": 32,
+  "legend": {
+    "#": "wall",
+    ".": "ground",
+    "~": "tall_grass",
+    "P": "path",
+    "D": "door"
+  },
+  "rows": [
+    "##############",
+    "#~~~....~~~..#",
+    "#~~~....~~~..#",
+    "#............#",
+    "D....PPPP....D",
+    "#............#",
+    "#..~~~...~~~.#",
+    "#..~~~...~~~.#",
+    "##############"
+  ],
+  "objects": [
+    {
+      "type": "spawn",
+      "id": "from_gate",
+      "x": 1,
+      "y": 4
+    },
+    {
+      "type": "spawn",
+      "id": "from_hall",
+      "x": 12,
+      "y": 4
+    },
+    {
+      "type": "door",
+      "x": 0,
+      "y": 4,
+      "to_map": "solane_gate",
+      "to_spawn": "from_wilds"
+    },
+    {
+      "type": "door",
+      "x": 13,
+      "y": 4,
+      "to_map": "solane_crossroads",
+      "to_spawn": "from_wilds",
+      "requires_flag": "beat_solane_scout",
+      "locked_text": "The hall road opens once the wilds' scout acknowledges you."
+    },
+    {
+      "type": "encounter_zone",
+      "table": "solane_encounters"
+    },
+    {
+      "type": "trainer",
+      "x": 7,
+      "y": 3,
+      "trainer_id": "solane_scout",
+      "sprite": "trainer_scout",
+      "sight": 2,
+      "facing": "down",
+      "flag": "beat_solane_scout"
+    },
+    {
+      "type": "item",
+      "x": 11,
+      "y": 1,
+      "item": "super_potion",
+      "flag": "item_solane_wilds_1"
+    },
+    {
+      "type": "sign",
+      "x": 4,
+      "y": 3,
+      "text": "Solane Wilds — locals report creatures around Lv 20."
+    },
+    {
+      "type": "trainer",
+      "x": 2,
+      "y": 3,
+      "trainer_id": "solane_rambler",
+      "sprite": "trainer_rambler",
+      "sight": 2,
+      "facing": "down",
+      "flag": "beat_solane_rambler"
+    },
+    {
+      "type": "trainer",
+      "x": 11,
+      "y": 5,
+      "trainer_id": "solane_angler",
+      "sprite": "trainer_angler",
+      "sight": 2,
+      "facing": "up",
+      "flag": "beat_solane_angler"
+    },
+    {
+      "type": "trainer",
+      "x": 6,
+      "y": 6,
+      "trainer_id": "solane_miner",
+      "sprite": "trainer_miner",
+      "sight": 2,
+      "facing": "right",
+      "flag": "beat_solane_miner"
+    },
+    {
+      "type": "trainer",
+      "x": 5,
+      "y": 1,
+      "trainer_id": "corin_rival_2",
+      "sprite": "trainer_rival",
+      "sight": 2,
+      "facing": "down",
+      "flag": "beat_corin_rival_2"
+    },
+    {
+      "type": "sign",
+      "x": 4,
+      "y": 3,
+      "text": "NOTICE: Water two days south. The Order priced the wells before we ran them off — pay nothing to a gray coat.",
+      "gen": "sign"
+    }
+  ]
+}

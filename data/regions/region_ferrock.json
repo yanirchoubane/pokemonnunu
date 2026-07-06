@@ -1,0 +1,39 @@
+{
+  "$schema_version": 1,
+  "id": "ferrock",
+  "display_name": "Ferrock",
+  "order": 6,
+  "starting_map": "ferrock_gate",
+  "recommended_level_min": 32,
+  "recommended_level_max": 42,
+  "badge_count": 9,
+  "league_id": "ferrock_league",
+  "next_regions": [
+    "brume"
+  ],
+  "maps": [
+    "ferrock_gate",
+    "ferrock_wilds",
+    "ferrock_hall",
+    "ferrock_crossroads",
+    "ferrock_gym_normal",
+    "ferrock_gym_fire",
+    "ferrock_gym_water",
+    "ferrock_gym_grass",
+    "ferrock_gym_electric",
+    "ferrock_gym_earth",
+    "ferrock_gym_wind",
+    "ferrock_gym_mystic",
+    "ferrock_court_1",
+    "ferrock_court_2",
+    "ferrock_court_3",
+    "ferrock_court_4",
+    "ferrock_landmark"
+  ],
+  "regional_rules": {
+    "level_scaling": "soft",
+    "encounter_table": "ferrock_encounters",
+    "allow_previous_team": true,
+    "obedience_cap_level": 52
+  }
+}

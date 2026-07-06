@@ -1,0 +1,113 @@
+{
+  "$schema_version": 1,
+  "id": "umbra_landmark",
+  "display_name": "Duskbell Grove",
+  "region": "umbra",
+  "bgm": "route",
+  "tile_size": 32,
+  "legend": {
+    "#": "wall",
+    ".": "ground",
+    "D": "door",
+    "H": "heal_pad",
+    "~": "wall"
+  },
+  "rows": [
+    "###########",
+    "#~~.....~~#",
+    "#.........#",
+    "#.........#",
+    "D.........#",
+    "#.........#",
+    "#.........#",
+    "#~~.....~~#",
+    "#####D#####"
+  ],
+  "objects": [
+    {
+      "type": "spawn",
+      "id": "entrance",
+      "x": 5,
+      "y": 7
+    },
+    {
+      "type": "spawn",
+      "id": "from_crossroads",
+      "x": 1,
+      "y": 4
+    },
+    {
+      "type": "door",
+      "x": 5,
+      "y": 8,
+      "to_map": "umbra_crossroads",
+      "to_spawn": "from_landmark"
+    },
+    {
+      "type": "door",
+      "x": 0,
+      "y": 4,
+      "to_map": "umbra_crossroads",
+      "to_spawn": "from_landmark"
+    },
+    {
+      "type": "npc",
+      "x": 5,
+      "y": 2,
+      "npc_id": "umbra_keeper",
+      "sprite": "npc_watcher",
+      "dialog_id": "lore_umbra"
+    },
+    {
+      "type": "sign",
+      "x": 3,
+      "y": 3,
+      "text": "Duskbell Grove — the only place where day and night are said to hold a conversation."
+    },
+    {
+      "type": "sign",
+      "x": 7,
+      "y": 3,
+      "text": "The bells here ring once at dusk, with no hand to move them."
+    },
+    {
+      "type": "sign",
+      "x": 5,
+      "y": 5,
+      "text": "Umbra's creatures gather to listen. So, if you're wise, will you."
+    },
+    {
+      "type": "item",
+      "x": 2,
+      "y": 6,
+      "item": "revive",
+      "flag": "item_umbra_landmark"
+    },
+    {
+      "type": "trainer",
+      "x": 8,
+      "y": 6,
+      "trainer_id": "hollow_lieutenant",
+      "sprite": "trainer_hollow",
+      "sight": 2,
+      "facing": "left",
+      "flag": "beat_hollow_lieutenant"
+    },
+    {
+      "type": "npc",
+      "x": 8,
+      "y": 3,
+      "npc_id": "folk_umbra_l0",
+      "sprite": "npc_watcher",
+      "dialog_id": "town_umbra_l0"
+    },
+    {
+      "type": "npc",
+      "x": 2,
+      "y": 5,
+      "npc_id": "folk_umbra_l1",
+      "sprite": "npc_villager",
+      "dialog_id": "town_umbra_l1"
+    }
+  ]
+}

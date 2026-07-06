@@ -1,0 +1,39 @@
+{
+  "$schema_version": 1,
+  "id": "cindral",
+  "display_name": "Cindral",
+  "order": 3,
+  "starting_map": "cindral_gate",
+  "recommended_level_min": 14,
+  "recommended_level_max": 24,
+  "badge_count": 9,
+  "league_id": "cindral_league",
+  "next_regions": [
+    "solane"
+  ],
+  "maps": [
+    "cindral_gate",
+    "cindral_wilds",
+    "cindral_hall",
+    "cindral_crossroads",
+    "cindral_gym_normal",
+    "cindral_gym_fire",
+    "cindral_gym_water",
+    "cindral_gym_grass",
+    "cindral_gym_electric",
+    "cindral_gym_earth",
+    "cindral_gym_wind",
+    "cindral_gym_mystic",
+    "cindral_court_1",
+    "cindral_court_2",
+    "cindral_court_3",
+    "cindral_court_4",
+    "cindral_landmark"
+  ],
+  "regional_rules": {
+    "level_scaling": "soft",
+    "encounter_table": "cindral_encounters",
+    "allow_previous_team": true,
+    "obedience_cap_level": 34
+  }
+}

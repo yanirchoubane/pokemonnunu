@@ -1,0 +1,103 @@
+{
+  "$schema_version": 1,
+  "id": "zephyra_landmark",
+  "display_name": "Skyreach Shrine",
+  "region": "zephyra",
+  "bgm": "ridge",
+  "tile_size": 32,
+  "legend": {
+    "#": "wall",
+    ".": "stone",
+    "D": "door",
+    "H": "heal_pad",
+    "~": "cloud"
+  },
+  "rows": [
+    "###########",
+    "#~~.....~~#",
+    "#.........#",
+    "#.........#",
+    "D.........#",
+    "#.........#",
+    "#.........#",
+    "#~~.....~~#",
+    "#####D#####"
+  ],
+  "objects": [
+    {
+      "type": "spawn",
+      "id": "entrance",
+      "x": 5,
+      "y": 7
+    },
+    {
+      "type": "spawn",
+      "id": "from_crossroads",
+      "x": 1,
+      "y": 4
+    },
+    {
+      "type": "door",
+      "x": 5,
+      "y": 8,
+      "to_map": "zephyra_crossroads",
+      "to_spawn": "from_landmark"
+    },
+    {
+      "type": "door",
+      "x": 0,
+      "y": 4,
+      "to_map": "zephyra_crossroads",
+      "to_spawn": "from_landmark"
+    },
+    {
+      "type": "npc",
+      "x": 5,
+      "y": 2,
+      "npc_id": "zephyra_keeper",
+      "sprite": "npc_watcher",
+      "dialog_id": "lore_zephyra"
+    },
+    {
+      "type": "sign",
+      "x": 3,
+      "y": 3,
+      "text": "Skyreach Shrine — the highest floor a trainer can stand on and still be called grounded."
+    },
+    {
+      "type": "sign",
+      "x": 7,
+      "y": 3,
+      "text": "Once a generation, they say, a sky-spirit alights here. Most never see it. All look up."
+    },
+    {
+      "type": "sign",
+      "x": 5,
+      "y": 5,
+      "text": "Zephyra ends at the sky. Everything past that, you carry inside."
+    },
+    {
+      "type": "item",
+      "x": 2,
+      "y": 6,
+      "item": "master_orb",
+      "flag": "item_zephyra_landmark"
+    },
+    {
+      "type": "npc",
+      "x": 8,
+      "y": 3,
+      "npc_id": "folk_zephyra_l0",
+      "sprite": "npc_watcher",
+      "dialog_id": "town_zephyra_l0"
+    },
+    {
+      "type": "npc",
+      "x": 2,
+      "y": 5,
+      "npc_id": "folk_zephyra_l1",
+      "sprite": "npc_watcher",
+      "dialog_id": "town_zephyra_l1"
+    }
+  ]
+}

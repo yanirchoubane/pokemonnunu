@@ -1,0 +1,177 @@
+{
+  "$schema_version": 1,
+  "description": "Data-driven branching dialog scripts. An NPC map object with 'dialog_id' runs the script: the FIRST node whose condition passes is the entry point. Nodes show 'lines', run 'actions', then either present 'choices' (each with its own actions and 'next') or jump to 'next'. Text supports ${player} interpolation and '@key' localization lookups.",
+  "dialogs": [
+    {
+      "id": "corin_town",
+      "nodes": [
+        {
+          "id": "epilogue",
+          "condition": {
+            "kind": "flag",
+            "flag": "quest_aquilon_done"
+          },
+          "portrait": "corin",
+          "lines": [
+            "${player}! You crossed to Aquilon and back. I knew you had it in you."
+          ],
+          "next": ""
+        },
+        {
+          "id": "after_choice",
+          "condition": {
+            "kind": "var_equals",
+            "var": "corin_greeting",
+            "value": "done"
+          },
+          "portrait": "corin",
+          "lines": [
+            "Train hard, ${player}. I'll be watching your journey."
+          ],
+          "next": ""
+        },
+        {
+          "id": "start",
+          "portrait": "corin",
+          "lines": [
+            "Hey! You must be ${player}, the new trainer everyone's talking about.",
+            "I'm Corin. I started my journey last spring."
+          ],
+          "actions": [
+            {
+              "kind": "set_var",
+              "var": "corin_greeting",
+              "value": "done"
+            }
+          ],
+          "choices": [
+            {
+              "text": "Nice to meet you! Any advice?",
+              "actions": [
+                {
+                  "kind": "adjust_relationship",
+                  "npc": "corin",
+                  "delta": 2
+                },
+                {
+                  "kind": "set_var",
+                  "var": "rival_tone",
+                  "value": "friendly"
+                }
+              ],
+              "next": "advice"
+            },
+            {
+              "text": "I don't need pointers.",
+              "actions": [
+                {
+                  "kind": "adjust_relationship",
+                  "npc": "corin",
+                  "delta": -1
+                },
+                {
+                  "kind": "set_var",
+                  "var": "rival_tone",
+                  "value": "cold"
+                }
+              ],
+              "next": "cold_reply"
+            }
+          ]
+        },
+        {
+          "id": "advice",
+          "portrait": "corin",
+          "lines": [
+            "Type matchups win battles. Ember scorches Verdant, Tide drowns Ember...",
+            "Here, take this. Friends look out for each other."
+          ],
+          "actions": [
+            {
+              "kind": "give_item",
+              "item": "potion",
+              "quantity": 1
+            }
+          ],
+          "next": "",
+          "entry": false
+        },
+        {
+          "id": "cold_reply",
+          "portrait": "corin",
+          "lines": [
+            "Heh. Confidence — or arrogance. The Warden will sort out which."
+          ],
+          "next": "",
+          "entry": false
+        }
+      ]
+    },
+    {
+      "id": "maple_lab",
+      "nodes": [
+        {
+          "id": "farewell",
+          "condition": {
+            "kind": "flag",
+            "flag": "story_concluded"
+          },
+          "portrait": "professor",
+          "lines": [
+            "Your report changed how we teach fieldcraft, ${player}. Safe travels."
+          ],
+          "next": ""
+        },
+        {
+          "id": "epilogue_offer",
+          "condition": {
+            "kind": "flag",
+            "flag": "quest_aquilon_done"
+          },
+          "portrait": "professor",
+          "lines": [
+            "${player}, your field data from two regions is remarkable.",
+            "I could publish the findings now... or you could keep exploring first."
+          ],
+          "choices": [
+            {
+              "text": "Publish it. Let's conclude this chapter.",
+              "actions": [
+                {
+                  "kind": "set_flag",
+                  "flag": "story_concluded"
+                },
+                {
+                  "kind": "trigger_ending"
+                }
+              ],
+              "next": ""
+            },
+            {
+              "text": "Not yet — I'm still exploring.",
+              "actions": [],
+              "next": "keep_going"
+            }
+          ]
+        },
+        {
+          "id": "keep_going",
+          "entry": false,
+          "portrait": "professor",
+          "lines": [
+            "Of course. The world is bigger than any report. Come back when you are ready."
+          ],
+          "next": ""
+        },
+        {
+          "id": "researching",
+          "portrait": "professor",
+          "lines": [
+            "How is the expedition going? Every capture teaches us something new."
+          ],
+          "next": ""
+        }
+      ]
+    }
+  ]
+}

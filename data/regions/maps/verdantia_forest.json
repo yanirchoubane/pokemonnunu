@@ -1,0 +1,103 @@
+{
+  "$schema_version": 1,
+  "id": "verdantia_forest",
+  "region": "verdantia",
+  "display_name": "Verdant Forest & Trial",
+  "tile_size": 32,
+  "bgm": "forest",
+  "legend": {
+    ".": "ground",
+    "P": "path",
+    "#": "wall",
+    "T": "tree",
+    "~": "tall_grass",
+    "W": "water"
+  },
+  "rows": [
+    "TTTTTTPTTTTTTTT",
+    "T~~~~.P.~~~~~.T",
+    "T~~~~.P.~~~~~.T",
+    "T~~~~.P.~~~~~.T",
+    "T....PPP......T",
+    "T.TT..P..TT...T",
+    "T~~~~.P.~~~~~.T",
+    "T....PPP......T",
+    "T.....P....WWWT",
+    "T.....P....WWWT",
+    "T.....P....WWWT",
+    "T.....P.......T",
+    "TTTTTTPTTTTTTTT"
+  ],
+  "objects": [
+    {
+      "type": "spawn",
+      "id": "from_route",
+      "x": 6,
+      "y": 1
+    },
+    {
+      "type": "spawn",
+      "id": "from_arena",
+      "x": 6,
+      "y": 11
+    },
+    {
+      "type": "warp",
+      "x": 6,
+      "y": 0,
+      "to_map": "verdantia_route",
+      "to_spawn": "from_forest"
+    },
+    {
+      "type": "encounter_zone",
+      "table": "verdantia_encounters"
+    },
+    {
+      "type": "trainer",
+      "x": 6,
+      "y": 10,
+      "trainer_id": "gym_verdantia",
+      "sprite": "trainer_warden",
+      "sight": 3,
+      "facing": "up",
+      "flag": "beat_gym_verdantia",
+      "is_gym": true
+    },
+    {
+      "type": "npc",
+      "x": 8,
+      "y": 7,
+      "npc_id": "forest_hermit",
+      "sprite": "npc_elder",
+      "dialogue": [
+        "Beyond the Warden's trial lies the port.",
+        "Defeat the Warden to earn passage to Aquilon."
+      ]
+    },
+    {
+      "type": "sign",
+      "x": 5,
+      "y": 8,
+      "text": "Verdant Trial — challengers only."
+    },
+    {
+      "type": "warp",
+      "x": 6,
+      "y": 12,
+      "to_map": "aquilon_shore",
+      "to_spawn": "from_verdantia",
+      "requires_flag": "beat_gym_verdantia",
+      "locked_text": "The port gate is sealed. Earn the Verdant Badge first."
+    },
+    {
+      "type": "trainer",
+      "x": 10,
+      "y": 7,
+      "trainer_id": "forest_botanist",
+      "sprite": "trainer_botanist",
+      "sight": 4,
+      "facing": "left",
+      "flag": "beat_forest_botanist"
+    }
+  ]
+}
